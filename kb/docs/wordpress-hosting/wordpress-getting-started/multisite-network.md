@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/multisite-network/"
-title: "Get Started - Multisite Network"
+title: "Multisite Network"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-getting-started"
-section: []
-kinsta_last_updated: "March 23, 2026"
-sitemap_lastmod: "2026-03-23T17:28:50+00:00"
-fetched_at: "2026-10-07T22:39:47Z"
-sha256: "954f2d883ffdc9a2699e4775d86a21206f62a66dece3a728f9f920b24a99e32e"
-body_chars: 9562
-extracted_with: "main article"
+section: ["WordPress Hosting", "Get Started"]
+kinsta_last_updated: "2026-03-23T17:28:50"
+change_signal: "2026-03-23T17:28:50"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "142e520f30aa44dd0cd47370aa9e1fa185b478a281eae94d52a0e890d30ada11"
+body_chars: 9556
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Get Started - Multisite Network
+# Multisite Network
 
+**Section:** WordPress Hosting > Get Started
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/multisite-network/
-**Kinsta last updated:** March 23, 2026
+**Kinsta last updated:** 2026-03-23T17:28:50
 
 ## On this page
 
@@ -85,8 +86,6 @@ Site’s root directory in MyKinsta.
 To access and edit this, you can use [SFTP](https://kinsta.com/docs/wordpress-hosting/connecting-with-sftp/) (download, edit, and upload the updated file) or [SSH](https://kinsta.com/docs/wordpress-hosting/connect-to-ssh/) (you can edit the file directly on the server).
 
 On the line that begins with `define( 'DOMAIN_CURRENT_SITE'` — change the domain from the kinsta.cloud domain to your new primary domain. To make sure you can log into your multisite network, including your subsites, add this line just below the `define( 'BLOG_ID_CURRENT_SITE'` line:
-
-Copy
 
 ```
 define('COOKIE_DOMAIN', $_SERVER['HTTP_HOST'] );

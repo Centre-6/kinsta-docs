@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Hourly Backups Add-on is Now Available in MyKinsta"]
-kinsta_last_updated: "2023-12-14T00:42:04+00:00"
-sitemap_lastmod: "2023-12-14T00:42:04+00:00"
-fetched_at: "2026-10-07T22:36:47Z"
-sha256: "280909818281b996f97340a787cc5459b27bc579cb1c9158a722ba540d739b92"
-body_chars: 2554
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2023-12-14T00:42:04"
+change_signal: "2023-12-14T00:42:04"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "9f9a317f433f38bafca1cc4332dd7af94dcbe131fb6bc29e8e9c08ac0eae6ffd"
+body_chars: 2429
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Hourly Backups Add-on is Now Available in MyKinsta
 
-**Section:** Changelog > Hourly Backups Add-on is Now Available in MyKinsta
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/hourly-backups/
-**Kinsta last updated:** 2023-12-14T00:42:04+00:00
+**Kinsta last updated:** 2023-12-14T00:42:04
 
 ---
-
-Updated
-:   December 14, 2023
-
-![hourly backups](https://kinsta.com/wp-content/uploads/2018/05/hourly-backups-1024x512.png)
 
 We are excited to announce that one of our most highly requested features is now available: **hourly backups**. ⏲
 

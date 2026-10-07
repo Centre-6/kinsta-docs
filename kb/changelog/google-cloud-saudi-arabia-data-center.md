@@ -1,33 +1,27 @@
 ---
 url: "https://kinsta.com/changelog/google-cloud-saudi-arabia-data-center/"
-title: "Kinsta offers WordPress hosting from Google's Saudi Arabia data center"
+title: "Kinsta offers WordPress hosting from Google\u2019s Saudi Arabia data center"
 tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Kinsta offers WordPress hosting from Google\u2019s Saudi Arabia data center"]
-kinsta_last_updated: "2024-03-21T20:40:17+00:00"
-sitemap_lastmod: "2024-03-21T19:40:17+00:00"
-fetched_at: "2026-10-07T22:36:49Z"
-sha256: "0c9f660cbf03c88a4506599185ee704e398836fae465fc51588e6dc3fa0a0b90"
-body_chars: 3887
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-03-21T19:40:17"
+change_signal: "2024-03-21T19:40:17"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "32ee62772b499462e1608a990962e7f75131ede044d7abc94b026ff3bbdbcfac"
+body_chars: 3655
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Kinsta offers WordPress hosting from Google's Saudi Arabia data center
+# Kinsta offers WordPress hosting from Google’s Saudi Arabia data center
 
-**Section:** Changelog > Kinsta offers WordPress hosting from Google’s Saudi Arabia data center
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/google-cloud-saudi-arabia-data-center/
-**Kinsta last updated:** 2024-03-21T20:40:17+00:00
+**Kinsta last updated:** 2024-03-21T19:40:17
 
 ---
-
-Published
-:   March 21, 2024
-
-![An illustration including a map of the world and the words, 'New data center in Dammam, Saudi Arabia'](https://kinsta.com/wp-content/uploads/2024/03/new-data-center-dammam-saudi-arabia-1024x536.png)
 
 Customers of Kinsta’s [Managed WordPress Hosting](https://kinsta.com/wordpress-hosting/) service can now select the Google Cloud Platform’s new data center in the Kingdom of Saudi Arabia as the home for their websites.
 

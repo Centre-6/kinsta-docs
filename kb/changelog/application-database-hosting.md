@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Kinsta Introduces Application Hosting and Database Hosting"]
-kinsta_last_updated: "2026-05-14T18:53:02+00:00"
-sitemap_lastmod: "2026-05-14T18:53:02+00:00"
-fetched_at: "2026-10-07T22:37:29Z"
-sha256: "61333720a805508f5bce0c94f2f4e27101ab4f0a304bbb036b61a271586ddcff"
-body_chars: 7202
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-14T18:53:02"
+change_signal: "2026-05-14T18:53:02"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "6c1341ca3717500889a6fe445f77550630910c3670b5540424d206b68e09f8f1"
+body_chars: 7033
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Kinsta Introduces Application Hosting and Database Hosting
 
-**Section:** Changelog > Kinsta Introduces Application Hosting and Database Hosting
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/application-database-hosting/
-**Kinsta last updated:** 2026-05-14T18:53:02+00:00
+**Kinsta last updated:** 2026-05-14T18:53:02
 
 ## On this page
 
@@ -33,11 +32,6 @@ status: "live"
 - [A New Era for Kinsta](#a-new-era-for-kinsta)
 
 ---
-
-Updated
-:   May 14, 2026
-
-![Application Hosting and Database Hosting at Kinsta](https://kinsta.com/wp-content/uploads/2022/10/Feature-Update-App-Database-1024x536.png)
 
 For 8+ years now, Kinsta has made a name for itself as a top-tier [managed WordPress hosting provider](https://kinsta.com/wordpress-hosting/). We’ve worked to innovate new ways to simplify and improve WordPress setup, [maintenance](https://kinsta.com/blog/wordpress-maintenance/), [performance](https://kinsta.com/wordpress-hosting/), and [security](https://kinsta.com/cloudflare-integration/) for developers and site owners across the web.
 

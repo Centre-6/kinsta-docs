@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Hosting", "Why Kinsta uses container-based hosting (and why it matters)"]
-kinsta_last_updated: "2026-05-27T14:51:02+00:00"
-sitemap_lastmod: "2026-05-27T14:51:02"
-fetched_at: "2026-10-07T22:42:25Z"
-sha256: "dc512c8a55dee48fca230f214c84e3a53f00dbe6ecec0b398ad31366c1286df9"
-body_chars: 13326
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-27T14:51:02"
+change_signal: "2026-05-27T14:51:02"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "eae520e605dc9638b12597def2e4595bd664a26f1653049cb6816a608fac7d1f"
+body_chars: 12543
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Why Kinsta uses container-based hosting (and why it matters)
 
-**Section:** Resource Center > Blog > WordPress Hosting > Why Kinsta uses container-based hosting (and why it matters)
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/why-kinsta-uses-container-based-hosting/
-**Kinsta last updated:** 2026-05-27T14:51:02+00:00
+**Kinsta last updated:** 2026-05-27T14:51:02
 
 ## On this page
 
@@ -38,17 +37,6 @@ status: "live"
 - [Recapping the benefits of container-based hosting](#recapping-the-benefits-of-container-based-hosting)
 
 ---
-
-Author
-:   [Steve Bonisteel](https://kinsta.com/blog/author/stevebonisteel/ "Posts by Steve Bonisteel")
-
-Updated
-:   May 27, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![An illustration representing the isolated containers that are key to Kinsta's hosting for WordPress platform.](https://kinsta.com/wp-content/uploads/2026/05/why-kinsta-uses-container-based-hosting-1024x512.png)
 
 Kinsta uses container-based hosting as a core part of its platform. But what does that actually mean for you?
 
@@ -218,8 +206,3 @@ By isolating each site into its own environment, container-based hosting helps d
 Kinsta builds on these advantages by combining container-based infrastructure with performance optimizations, security protections, flexible dashboards and tools, and 24/7 support.
 
 If you’re looking for hosting that prioritizes stability, performance, and control, [head to Kinsta’s homepage](https://kinsta.com) to learn more and get started.
-
-Steve Bonisteel
-[Kinsta](https://kinsta.com/)
-
-Steve Bonisteel is a Technical Editor at Kinsta who began his writing career as a print journalist, chasing ambulances and fire trucks. He has been covering Internet-related technology since the late 1990s.

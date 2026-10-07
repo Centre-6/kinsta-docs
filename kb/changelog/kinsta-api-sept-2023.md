@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "New Kinsta API Endpoints: Clear CDN Cache and Push Environment"]
-kinsta_last_updated: "2026-05-06T15:13:54+00:00"
-sitemap_lastmod: "2026-05-06T15:13:54+00:00"
-fetched_at: "2026-10-07T22:37:27Z"
-sha256: "875e4d55ca1f19d90849a96b3155a5fe3950bbf56e5840f238f8c46cbbc43ed0"
-body_chars: 5371
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-06T15:13:54"
+change_signal: "2026-05-06T15:13:54"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "765f9bb34a95d32904d2145748a110600398dae7069f12230ce2510b5199d315"
+body_chars: 5257
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # New Kinsta API Endpoints: Clear CDN Cache and Push Environment
 
-**Section:** Changelog > New Kinsta API Endpoints: Clear CDN Cache and Push Environment
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/kinsta-api-sept-2023/
-**Kinsta last updated:** 2026-05-06T15:13:54+00:00
+**Kinsta last updated:** 2026-05-06T15:13:54
 
 ## On this page
 
@@ -33,11 +32,6 @@ status: "live"
 - [Get Started With Kinsta API Today](#get-started-with-kinsta-api-today)
 
 ---
-
-Updated
-:   May 6, 2026
-
-![](https://kinsta.com/wp-content/uploads/2023/09/Kinsta_API_Endpoints_EN-1024x535.png)
 
 Since the [launch of the Kinsta API](https://kinsta.com/changelog/kinsta-api/), our team has been actively introducing new endpoints. In our [most recent Changelog update](https://kinsta.com/changelog/kinsta-api-aug-2023/), Kristof Siket, the Development Team Lead for the Kinsta API, emphasized the significant role your feedback plays in shaping our feature priorities:
 

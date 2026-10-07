@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta Events", "Meet Kinsta at WordCamp Asia 2026"]
-kinsta_last_updated: "2026-04-01T09:21:22+00:00"
-sitemap_lastmod: "2026-04-01T09:21:22"
-fetched_at: "2026-10-07T22:42:36Z"
-sha256: "4c0b4168293ceab38b5ba279ba1354cbf0c5a037abe4a471365e7f7b15e7c216"
-body_chars: 4019
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-04-01T09:21:22"
+change_signal: "2026-04-01T09:21:22"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "6719ff4734e5d3791b4902e36014d1e05ec5d7e4eee734edac5c4d56907558d2"
+body_chars: 3565
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Meet Kinsta at WordCamp Asia 2026
 
-**Section:** Resource Center > Blog > Kinsta Events > Meet Kinsta at WordCamp Asia 2026
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordcamp-asia/
-**Kinsta last updated:** 2026-04-01T09:21:22+00:00
+**Kinsta last updated:** 2026-04-01T09:21:22
 
 ## On this page
 
@@ -29,17 +28,6 @@ status: "live"
 - [Let’s connect in Mumbai](#lets-connect-in-mumbai)
 
 ---
-
-Author
-:   [Nikolett Poesz](https://kinsta.com/blog/author/nikolettpoesz/ "Posts by Nikolett Poesz")
-
-Published
-:   April 1, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/03/wcAsia-blog-2026-1024x536.png)
 
 We’re excited to share that Kinsta is heading to [**WordCamp Asia 2026**](https://asia.wordcamp.org/2026/), taking place **April 9-11** at the **Jio World Convention Centre in Mumbai, India**. The event will bring together web agencies, developers, marketers, and digital professionals from across the region and beyond.
 
@@ -83,7 +71,3 @@ If you’re interested in joining us, feel free to reach out to the Kinsta team 
 We’re thrilled to be part of WordCamp Asia 2026 and can’t wait to connect with the incredible WordPress community in India. Come meet us at the booth, attend Alex’s panel, and discover how [Kinsta’s high-performance hosting platform](https://kinsta.com/wordpress-hosting/) helps agencies and businesses build fast, secure, and scalable WordPress experiences.
 
 See you in Mumbai!
-
-Nikolett Poesz
-
-Multilingual Content Associate at Kinsta

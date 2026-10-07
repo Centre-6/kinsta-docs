@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Performance", "The more your WordPress site does with AI, the more your infrastructure has to handle"]
-kinsta_last_updated: "2026-08-05T18:35:41+00:00"
-sitemap_lastmod: "2026-08-05T18:35:41"
-fetched_at: "2026-10-07T22:42:04Z"
-sha256: "1f209703091cbb5d58083b4496cba60304c2a2be64568ff024862ed535a6ed4e"
-body_chars: 18464
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-08-05T18:35:41"
+change_signal: "2026-08-05T18:35:41"
+fetched_at: "2026-10-07T22:58:24Z"
+sha256: "914cbfab6a0bef833881e2345e3c58af025f239353b843ac620b6d7b6586e9c2"
+body_chars: 17438
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # The more your WordPress site does with AI, the more your infrastructure has to handle
 
-**Section:** Resource Center > Blog > WordPress Performance > The more your WordPress site does with AI, the more your infrastructure has to handle
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-ai-infrastructure/
-**Kinsta last updated:** 2026-08-05T18:35:41+00:00
+**Kinsta last updated:** 2026-08-05T18:35:41
 
 ## On this page
 
@@ -48,17 +47,6 @@ status: "live"
 - [Treat every AI launch as an infrastructure change](#treat-every-ai-launch-as-an-infrastructure-change)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Published
-:   August 25, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/08/why-ai-driven-businesses-still-depend-on-rock-solid-infrastructure-1024x512.png)
 
 Let’s set the scene. Your new WooCommerce chatbot passes every test. It answers product questions, helps shoppers compare options, and responds quickly enough that nobody gives performance a second thought.
 
@@ -229,11 +217,3 @@ Before changing the hosting setup, open a few APM traces. The plugin list won’
 An AI plugin can work perfectly and still be a poor fit for the site’s current capacity. Before it goes on a client site, run APM in staging and check how long its outside API calls take, which requests miss the cache, and what PHP version the environment uses. Check those numbers again after launch, once real traffic is in the mix.
 
 Those few checks can catch thread pressure, slow dependencies, and expensive query behaviors before they turn into a sluggish site — or a difficult client conversation.
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

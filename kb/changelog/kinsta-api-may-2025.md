@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Fine-tune CDN, edge cache, and PHP behavior via the Kinsta API"]
-kinsta_last_updated: "2026-05-20T20:32:09+00:00"
-sitemap_lastmod: "2026-05-20T20:32:09+00:00"
-fetched_at: "2026-10-07T22:37:45Z"
-sha256: "6f3f767773ec19cd2fe928550071a3bebff5a8fa0c29f8beeca344ab12c455e9"
-body_chars: 6977
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:32:09"
+change_signal: "2026-05-20T20:32:09"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "bcd991e1bb3e9072ab88edea34ceaa7daa61609eeb1fd9e2685c582b1b6634b9"
+body_chars: 6861
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Fine-tune CDN, edge cache, and PHP behavior via the Kinsta API
 
-**Section:** Changelog > Fine-tune CDN, edge cache, and PHP behavior via the Kinsta API
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/kinsta-api-may-2025/
-**Kinsta last updated:** 2026-05-20T20:32:09+00:00
+**Kinsta last updated:** 2026-05-20T20:32:09
 
 ## On this page
 
@@ -31,11 +30,6 @@ status: "live"
 - [Why this matters](#why-this-matters)
 
 ---
-
-Updated
-:   May 20, 2026
-
-![](https://kinsta.com/wp-content/uploads/2025/05/new-kinsta-api-endpoints-1024x536.png)
 
 [Kinsta’s API](https://kinsta.com/docs/kinsta-api/) just got a fresh set of updates that give developers and site managers more control over how their sites perform at the edge and behind the scenes.
 

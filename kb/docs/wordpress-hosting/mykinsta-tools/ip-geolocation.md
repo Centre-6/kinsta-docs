@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/ip-geolocation/"
-title: "Tools - IP Geolocation"
+title: "IP Geolocation"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "mykinsta-tools"
-section: []
-kinsta_last_updated: "January 22, 2026"
-sitemap_lastmod: "2026-01-22T11:54:18+00:00"
-fetched_at: "2026-10-07T22:39:15Z"
+section: ["WordPress Hosting", "Tools"]
+kinsta_last_updated: "2026-01-22T11:54:18"
+change_signal: "2026-01-22T11:54:18"
+fetched_at: "2026-10-07T22:58:20Z"
 sha256: "c3ee1e19b1776580b923299684e4721dca7c7419bf79e122d4af2f7a6a615927"
 body_chars: 20064
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Tools - IP Geolocation
+# IP Geolocation
 
+**Section:** WordPress Hosting > Tools
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/ip-geolocation/
-**Kinsta last updated:** January 22, 2026
+**Kinsta last updated:** 2026-01-22T11:54:18
 
 ## On this page
 

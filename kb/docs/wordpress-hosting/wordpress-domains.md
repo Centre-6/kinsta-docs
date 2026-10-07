@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-domains/"
-title: "WordPress Hosting - Domains and DNS"
+title: "Domains and DNS"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-domains"
-section: []
-kinsta_last_updated: "July 7, 2026"
-sitemap_lastmod: "2026-07-07T12:41:57+00:00"
-fetched_at: "2026-10-07T22:40:36Z"
+section: ["WordPress Hosting"]
+kinsta_last_updated: "2026-07-07T12:41:57"
+change_signal: "2026-07-07T12:41:57"
+fetched_at: "2026-10-07T22:58:21Z"
 sha256: "e92f905e88b288448fba150739a12d5ab2e952c6cfa1e1f330fe083a4557fef0"
 body_chars: 2706
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# WordPress Hosting - Domains and DNS
+# Domains and DNS
 
+**Section:** WordPress Hosting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-domains/
-**Kinsta last updated:** July 7, 2026
+**Kinsta last updated:** 2026-07-07T12:41:57
 
 ---
 

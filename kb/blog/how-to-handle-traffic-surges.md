@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Development", "3 ways to handle traffic surges without downgrading or upgrading plans"]
-kinsta_last_updated: "2026-05-19T14:41:51+00:00"
-sitemap_lastmod: "2026-05-19T14:41:51"
-fetched_at: "2026-10-07T22:43:12Z"
-sha256: "6e8d82b500b64ebd37fb9fb7a0e64dc1078d684428b6b03387cae08dbb925784"
-body_chars: 12463
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-19T14:41:51"
+change_signal: "2026-05-19T14:41:51"
+fetched_at: "2026-10-07T22:58:28Z"
+sha256: "b0c1637a25581bb98ca0130ded1e066e5e7412d6fcc1f8837bb2b0474e22beb7"
+body_chars: 11565
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # 3 ways to handle traffic surges without downgrading or upgrading plans
 
-**Section:** Resource Center > Blog > WordPress Development > 3 ways to handle traffic surges without downgrading or upgrading plans
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/how-to-handle-traffic-surges/
-**Kinsta last updated:** 2026-05-19T14:41:51+00:00
+**Kinsta last updated:** 2026-05-19T14:41:51
 
 ## On this page
 
@@ -36,17 +35,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   May 19, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/10/3-ways-to-handle-traffic-surges-without-downgrading-or-upgrading-plans-1024x512.png)
 
 Traffic spikes aren’t reserved for enterprise sites. Even a modest WooCommerce shop can see its traffic triple after a well-timed ad, email blast, or seasonal promotion.
 
@@ -172,13 +160,3 @@ You don’t need a complete hosting upgrade to survive big sales or traffic surg
 The key is combining three practical steps: use the PHP performance add-on to cover temporary spikes, make sure caching is working at full strength so most visitors never touch PHP, and clean up unnecessary database strain to keep checkout fast and reliable.
 
 Together, these fixes prevent 500 errors, reduce slowdowns, and help more customers complete their orders. If you’re planning a campaign or seasonal promotion, enable the [PHP performance add-on](https://kinsta.com/blog/add-ons-wordpress-performance/) in advance and pair it with effective caching and regular database maintenance.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

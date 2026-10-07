@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/migration-source-details/"
-title: "Migrations - Source Details by Hosting Provider"
+title: "Source Details by Hosting Provider"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-migrations"
-section: []
-kinsta_last_updated: "April 21, 2026"
-sitemap_lastmod: "2026-04-21T09:20:57+00:00"
-fetched_at: "2026-10-07T22:40:03Z"
-sha256: "d191ca1d74af69c00cbae078e1508edc8df993bf6f334993a282622182213242"
-body_chars: 33978
-extracted_with: "main article"
+section: ["WordPress Hosting", "Migrations"]
+kinsta_last_updated: "2026-04-21T09:20:57"
+change_signal: "2026-04-21T09:20:57"
+fetched_at: "2026-10-07T22:58:16Z"
+sha256: "10f49d6c50971f6f13f60ed9510b29fcd0b563b1004e771a615ac8849c29612d"
+body_chars: 33753
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Migrations - Source Details by Hosting Provider
+# Source Details by Hosting Provider
 
+**Section:** WordPress Hosting > Migrations
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/migration-source-details/
-**Kinsta last updated:** April 21, 2026
+**Kinsta last updated:** 2026-04-21T09:20:57
 
 ## On this page
 
@@ -113,8 +114,6 @@ When you complete the migration request, the migrations team will supply you wit
 1. Connect to your EC2 instance via SSH using your existing `.pem` key and the username for your AMI (see above).
 2. Once connected, open the authorized keys file with a text editor:
 
-   Copy
-
    ```
    nano ~/.ssh/authorized_keys
    ```
@@ -144,7 +143,7 @@ This is the preferred method as it allows the migrations team to log in directly
 
 Log in to the [Cloudways Platform](https://unified.cloudways.com/login/), select **Team** from the side menu, and click **Add Member**. Complete the fields as follows:
 
-- **Email:** [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection)
+- **Email:** migrations@kinsta.com
 - **Member Name:** Kinsta migrations
 - **Job Title:** Migrations
 - **Status:** Active
@@ -194,11 +193,11 @@ To enable the migrations team to access your site, SSH access must be specifical
 
 ## Flywheel
 
-You must add [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection) to your Flywheel account. This allows the migrations team to log in directly and obtain a copy of your site without requiring your personal account credentials.
+You must add migrations@kinsta.com to your Flywheel account. This allows the migrations team to log in directly and obtain a copy of your site without requiring your personal account credentials.
 
-To add the Kinsta migrations team to an individual site, log in to your [Flywheel dashboard](https://app.getflywheel.com/login), click on the site you want to migrate, click **Add Collaborators**, and enter `[email protected]`.
+To add the Kinsta migrations team to an individual site, log in to your [Flywheel dashboard](https://app.getflywheel.com/login), click on the site you want to migrate, click **Add Collaborators**, and enter `migrations@kinsta.com`.
 
-If you want to migrate more than one site, you can give the migrations team access to your organization so they can access all sites at once. Log in to your [Flywheel dashboard](https://app.getflywheel.com/login), navigate to your **Organization**, click **Members**, click **Add Members**, and enter `[email protected]`.
+If you want to migrate more than one site, you can give the migrations team access to your organization so they can access all sites at once. Log in to your [Flywheel dashboard](https://app.getflywheel.com/login), navigate to your **Organization**, click **Members**, click **Add Members**, and enter `migrations@kinsta.com`.
 
 The migrations team will then receive an email letting them know they’ve been invited to collaborate.
 
@@ -211,7 +210,7 @@ This is the preferred method as it allows the migrations team to log in directly
 1. Sign in to your [GoDaddy account](https://sso.godaddy.com/), click your username, select **Account Settings**, and then **Delegate Access**.
 2. Click **Invite to Access**, and complete the fields as follows:
    - **Name:**Kinsta Migrations
-   - **Email:**[[email protected]](https://kinsta.com/cdn-cgi/l/email-protection)
+   - **Email:**migrations@kinsta.com
    - **Access level:** Products & Domains
 3. Click **Invite**. GoDaddy will send an email invitation to the migrations team and notify you once it has been accepted.
 
@@ -251,7 +250,7 @@ The following credentials can be found within the [Google Cloud Console](https:/
 
 - **Server address:** In the Google Cloud Console, go to **VM Instances** and find the **External IP address** in the IP address column of the VM you want to connect to.
 - **Port:** Enter `22` unless your server has been configured to use a different SSH port. If you’re unsure, check with whoever set up the server.
-- **Username:** The username depends on how SSH keys are managed on your instance. If you manage SSH keys in metadata, the username is what was specified when the SSH key was created. For OS Login accounts, the username is derived from your Google profile. For example, if your Google account email is `[email protected]`, your username would be `yourname`. If your server was set up by a developer, check with them for the correct username.
+- **Username:** The username depends on how SSH keys are managed on your instance. If you manage SSH keys in metadata, the username is what was specified when the SSH key was created. For OS Login accounts, the username is derived from your Google profile. For example, if your Google account email is `yourname@gmail.com`, your username would be `yourname`. If your server was set up by a developer, check with them for the correct username.
 - **SSH Key:** Google Cloud uses key-based SSH authentication. Your private SSH key is stored on your local machine, while the public key is stored in your VM’s instance metadata or project metadata. To find or manage your SSH keys, go to **Compute Engine** > **VM Instances**, click the name of your instance, click **Edit**, and scroll to **SSH Keys**. Your private key file is typically found in the `~/.ssh/` directory on your local machine.
 
 ## HostGator
@@ -383,7 +382,7 @@ This is the preferred method as it allows the migrations team to log in directly
 2. Go to **Collaborators** and click **Add New Collaborator**.
 3. Select **Website**, choose the site you want to migrate, and enter the following details:
    - **Name:** Kinsta Migrations
-   - **Email:** [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection)
+   - **Email:** migrations@kinsta.com
 4. Click **Add**. The Kinsta migrations team will receive an email invitation.
 
 Also, provide us with the following so we can identify the correct account:
@@ -422,7 +421,7 @@ This is the preferred method as it allows the migrations team to log in directly
 1. Log in to your [WP Engine portal](https://identity.wpengine.com/), click **Users**, then **Account Users**.
 2. Click **Invite account user** and enter the following:
    - **Name:** Kinsta Migrations
-   - **Email:** [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection)
+   - **Email:** migrations@kinsta.com
    - **Role:** Full (no billing)
 3. Click **Send Invitation**. The Kinsta migrations team will receive an email invitation.
 

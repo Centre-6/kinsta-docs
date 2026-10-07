@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "South African data center in Johannesburg is now available"]
-kinsta_last_updated: "2024-02-08T16:33:12+00:00"
-sitemap_lastmod: "2024-02-08T16:33:12+00:00"
-fetched_at: "2026-10-07T22:36:47Z"
-sha256: "51f2be9f0ac97c9d5d503c4989a00d9462a4a4da34254665d74d2892b7220078"
-body_chars: 4028
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-02-08T16:33:12"
+change_signal: "2024-02-08T16:33:12"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "fe6b0364458ac9cbdc57a898b52f10cbc2c578132ab074850573a99ee5a873ca"
+body_chars: 3815
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # South African data center in Johannesburg is now available
 
-**Section:** Changelog > South African data center in Johannesburg is now available
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/google-cloud-johannesburg-data-center/
-**Kinsta last updated:** 2024-02-08T16:33:12+00:00
+**Kinsta last updated:** 2024-02-08T16:33:12
 
 ---
-
-Updated
-:   February 8, 2024
-
-![Illustration: Map showing Johannesburg data center location in South Africa.](https://kinsta.com/wp-content/uploads/2024/02/new-google-cloud-data-center-johannesburg-1024x536.png)
 
 It’s not every day that a business can celebrate gaining a foothold on a new continent. But we are — and you can, too — with the launch of Kinsta’s [Managed WordPress Hosting](https://kinsta.com/wordpress-hosting/) from the Google Cloud Platform data center in Johannesburg, South Africa.
 

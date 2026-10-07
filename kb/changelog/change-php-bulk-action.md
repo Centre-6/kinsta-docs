@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Change PHP versions across multiple WordPress sites with Bulk Actions"]
-kinsta_last_updated: "2024-06-24T21:21:05+00:00"
-sitemap_lastmod: "2024-06-24T21:21:05+00:00"
-fetched_at: "2026-10-07T22:36:51Z"
-sha256: "e62d3789df4bdb3e1d1d6ed8eed5a1e5f69a402135832276e68e5aef546307ea"
-body_chars: 2678
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-06-24T21:21:05"
+change_signal: "2024-06-24T21:21:05"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "06333dea9746fe77c8a7114e90e86fd23140e03f730e7b7fda78b220a60442d1"
+body_chars: 2475
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Change PHP versions across multiple WordPress sites with Bulk Actions
 
-**Section:** Changelog > Change PHP versions across multiple WordPress sites with Bulk Actions
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/change-php-bulk-action/
-**Kinsta last updated:** 2024-06-24T21:21:05+00:00
+**Kinsta last updated:** 2024-06-24T21:21:05
 
 ---
-
-Updated
-:   June 24, 2024
-
-![An illustration representing the Change PHP version bulk action in MyKinsta.](https://kinsta.com/wp-content/uploads/2024/05/my-kinsta-bulk-actions-php-version-1024x536.png)
 
 Kinsta has enhanced the recently released [Bulk Actions](https://kinsta.com/changelog/bulk-actions/) feature for [Managed WordPress Hosting](https://kinsta.com/wordpress-hosting/) customers, adding the ability to change the active version of PHP across multiple website environments simultaneously.
 

@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/service-information/infrastructure-upgrades/"
-title: "Service Information - Infrastructure Upgrades"
+title: "Infrastructure Upgrades"
 tier: "docs"
 product: "service-information"
 product_label: "Service Information"
 subsection: "infrastructure-upgrades"
-section: []
-kinsta_last_updated: "April 1, 2026"
-sitemap_lastmod: "2026-04-01T12:48:57+00:00"
-fetched_at: "2026-10-07T22:39:51Z"
+section: ["Service Information"]
+kinsta_last_updated: "2026-04-01T12:48:57"
+change_signal: "2026-04-01T12:48:57"
+fetched_at: "2026-10-07T22:58:17Z"
 sha256: "00ee8380661c34320798c1f73ba6041f2fdc0e6f83892f0304e8b4db5b6a1e4a"
 body_chars: 7108
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Service Information - Infrastructure Upgrades
+# Infrastructure Upgrades
 
+**Section:** Service Information
 **Product:** Service Information
 **Source:** https://kinsta.com/docs/service-information/infrastructure-upgrades/
-**Kinsta last updated:** April 1, 2026
+**Kinsta last updated:** 2026-04-01T12:48:57
 
 ## On this page
 

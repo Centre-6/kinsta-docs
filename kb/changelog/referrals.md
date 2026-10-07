@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Save Money With Referrals While Sharing Your Love for Kinsta"]
-kinsta_last_updated: "2026-05-14T19:03:27+00:00"
-sitemap_lastmod: "2026-05-14T19:03:27+00:00"
-fetched_at: "2026-10-07T22:37:35Z"
-sha256: "d460ed3efe81bd433c03b281d70eba0714985e2388466e99b954bb309d050f32"
-body_chars: 5311
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-14T19:03:27"
+change_signal: "2026-05-14T19:03:27"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "f3c05311cc194b1fe87f6e6db48be135c2e0e42e1b6f843114d90d7b75df9170"
+body_chars: 5099
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Save Money With Referrals While Sharing Your Love for Kinsta
 
-**Section:** Changelog > Save Money With Referrals While Sharing Your Love for Kinsta
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/referrals/
-**Kinsta last updated:** 2026-05-14T19:03:27+00:00
+**Kinsta last updated:** 2026-05-14T19:03:27
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [Start Referring Today](#start-referring-today)
 
 ---
-
-Updated
-:   May 14, 2026
-
-![Illustration: Referral Program Feature Update showing MyKinsta interface.](https://kinsta.com/wp-content/uploads/2023/08/illustration-showing-referral-program-interface-1024x535.jpg)
 
 We believe the best promotion for Kinsta’s hosting platform comes from [our customers](https://kinsta.com/case-studies/). And now we’re rewarding current customers for recommending our services to future customers.
 

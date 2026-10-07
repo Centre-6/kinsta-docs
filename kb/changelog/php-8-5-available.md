@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "PHP 8.5 is now available to Kinsta customers"]
-kinsta_last_updated: "2026-03-19T16:27:54+00:00"
-sitemap_lastmod: "2026-03-19T16:27:54+00:00"
-fetched_at: "2026-10-07T22:37:17Z"
-sha256: "636a0d967c02e52c88ade737fd2ee48f6532be7476a755b0b001ccd6bb6d13f5"
-body_chars: 5659
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-03-19T16:27:54"
+change_signal: "2026-03-19T16:27:54"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "823284a813bb8c5521697d0c1957d4429728c0bf7910a66dab228fffb0d60f03"
+body_chars: 5451
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # PHP 8.5 is now available to Kinsta customers
 
-**Section:** Changelog > PHP 8.5 is now available to Kinsta customers
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/php-8-5-available/
-**Kinsta last updated:** 2026-03-19T16:27:54+00:00
+**Kinsta last updated:** 2026-03-19T16:27:54
 
 ## On this page
 
@@ -30,11 +29,6 @@ status: "live"
 - [How to switch to PHP 8.5 using the Kinsta API](#how-to-switch-to-php-85-using-the-kinsta-api)
 
 ---
-
-Updated
-:   March 19, 2026
-
-![An illustration representing the dialog used to select PHP versions within the MyKinsta dashboard.](https://kinsta.com/wp-content/uploads/2025/12/php-8.5-mykinsta-1024x536.png)
 
 Following the release of [PHP 8.5](https://kinsta.com/blog/php-8-5/) in November, this latest version of the server-side scripting language is now available to customers on our [Managed Hosting for WordPress](https://kinsta.com/wordpress-hosting/) platform.
 

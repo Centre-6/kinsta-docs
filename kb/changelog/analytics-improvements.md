@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "You can dig deeper into MyKinsta site Analytics"]
-kinsta_last_updated: "2026-02-09T13:21:34+00:00"
-sitemap_lastmod: "2026-02-09T13:21:34+00:00"
-fetched_at: "2026-10-07T22:37:14Z"
-sha256: "232ae31fa272c738753b2a1bf154bfda06b1cf6d7f2a75c9cec094d898e222d5"
-body_chars: 5200
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-02-09T13:21:34"
+change_signal: "2026-02-09T13:21:34"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "b8f1e90719ffbb75f15fa0cdae11c7fcc7c4c497372844e5b5834e58967c4342"
+body_chars: 4971
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # You can dig deeper into MyKinsta site Analytics
 
-**Section:** Changelog > You can dig deeper into MyKinsta site Analytics
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/analytics-improvements/
-**Kinsta last updated:** 2026-02-09T13:21:34+00:00
+**Kinsta last updated:** 2026-02-09T13:21:34
 
 ## On this page
 
@@ -31,11 +30,6 @@ status: "live"
 - [Learn more about MyKinsta Analytics](#learn-more-about-mykinsta-analytics)
 
 ---
-
-Updated
-:   February 9, 2026
-
-![An illustration representing the updated user interface for viewing website analytics in MyKinsta.](https://kinsta.com/wp-content/uploads/2026/02/mykinsta-improved-website-analytics-1024x536.png)
 
 The Kinsta team is continuing to improve Analytics within the MyKinsta dashboard, including new capabilities to access deeper historical data on your website traffic.
 

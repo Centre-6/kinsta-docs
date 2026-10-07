@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/database-management/"
-title: "WordPress Hosting - Database Management"
+title: "Database Management"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "database-management"
-section: []
-kinsta_last_updated: "April 20, 2026"
-sitemap_lastmod: "2026-04-20T09:40:50+00:00"
-fetched_at: "2026-10-07T22:39:57Z"
-sha256: "4c84a06a6a1dcf621f43d8b756c4ce34f4c87d781befb36eeaaaa87ae67e9472"
-body_chars: 2089
-extracted_with: "main article"
+section: ["WordPress Hosting"]
+kinsta_last_updated: "2026-04-20T09:40:50"
+change_signal: "2026-04-20T09:40:50"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "207ec59a0ec726bd93935875a71c0ca5ff52e0a5ec4b83c150932d19f990a2a8"
+body_chars: 2088
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# WordPress Hosting - Database Management
+# Database Management
 
+**Section:** WordPress Hosting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/database-management/
-**Kinsta last updated:** April 20, 2026
+**Kinsta last updated:** 2026-04-20T09:40:50
 
 ---
 
@@ -36,4 +37,4 @@ WordPress uses [MySQL](https://www.mysql.com/), a free, open-source database m
 
 Kinsta provides direct, secure SSH [access to your WordPress database](https://kinsta.com/docs/wordpress-hosting/database-management/wordpress-database-access/) straight from your MyKinsta dashboard. You can also modify your database using the MyKinsta [database manager](https://kinsta.com/docs/wordpress-hosting/database-management/wordpress-database/) feature, as well as [phpMyAdmin](https://kinsta.com/docs/wordpress-hosting/database-management/wordpress-database-access/#phpmyadmin), HeidiSQL, Sequel Pro, and MySQL Workbench. 
 
-We provide backups that are a complete snapshot of your WordPress site’s environment (including files, database, redirects, and Nginx configuration). Our [Database Backup](https://kinsta.com/docs/wordpress-hosting/database-management/create-wordpress-database-backup/) guide provides step-by-step instructions on how to back up just your WordPress database either from MyKinsta, phpMyAdmin, WP-CLI, or an external backups add-on. You can also [import your WordPress database](https://kinsta.com/docs/wordpress-hosting/database-management/restore-import-mysql-database/) using phpMyAdmin or WP-CLI.
+We provide backups that are a complete snapshot of your WordPress site’s environment (including files, database, redirects, and Nginx configuration). Our [Database Backup](https://kinsta.com/docs/wordpress-hosting/database-management/create-wordpress-database-backup/) guide provides step-by-step instructions on how to back up just your WordPress database either from MyKinsta, phpMyAdmin, WP-CLI, or an external backups add-on. You can also [import your WordPress database](https://kinsta.com/docs/wordpress-hosting/database-management/restore-import-mysql-database) using phpMyAdmin or WP-CLI.

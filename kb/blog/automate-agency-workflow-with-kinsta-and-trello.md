@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta Services", "Automate your agency workflow with Kinsta API and Trello"]
-kinsta_last_updated: "2026-05-20T20:30:47+00:00"
-sitemap_lastmod: "2026-05-20T20:30:47"
-fetched_at: "2026-10-07T22:42:31Z"
-sha256: "2bff314b5e97c17d4ee4ab32da29cf15f47f4ae2eb1a7ffb959e018c371dcd68"
-body_chars: 28124
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:30:47"
+change_signal: "2026-05-20T20:30:47"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "f80e349bf70489a2d54c1b8f6b77b97bb9421d35132be8c850948be407b996d1"
+body_chars: 27113
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Automate your agency workflow with Kinsta API and Trello
 
-**Section:** Resource Center > Blog > Kinsta Services > Automate your agency workflow with Kinsta API and Trello
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/automate-agency-workflow-with-kinsta-and-trello/
-**Kinsta last updated:** 2026-05-20T20:30:47+00:00
+**Kinsta last updated:** 2026-05-20T20:30:47
 
 ## On this page
 
@@ -49,17 +48,6 @@ status: "live"
 - [Scaling smarter, not harder with Kinsta](#scaling-smarter-not-harder-with-kinsta)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Updated
-:   May 20, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/04/automate-your-agency-workflow-with-kinsta-api-and-trello-1024x512.png)
 
 For a web agency, scaling too fast often turns into a nightmare. When it leads to an increase in repetitive tasks, available resources are exhausted long before the work is completed: your workflows are fragmented, your processes are inefficient, and your team is demotivated.
 
@@ -673,11 +661,3 @@ By bridging the gap between your site infrastructure and project management, you
 Thanks to Kinsta’s APIs and GitHub Actions, we have created an automated onboarding and proactive monitoring system that reduces the risk of human error, lightens your team’s workload, and ensures you are always ready to respond to issues as they arise. This enables you to move [from reactive firefighting to proactive future-proofing](https://kinsta.com/blog/reduce-maintenance-workload-client-churn/).
 
 Are you ready to automate your agency’s workflows? Check out [our plans](https://kinsta.com/pricing/) to find the one that’s right for you.
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

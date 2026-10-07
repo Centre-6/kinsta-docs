@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Continuous Database Optimization: Always Working for You"]
-kinsta_last_updated: "2024-08-01T14:43:55+00:00"
-sitemap_lastmod: "2024-08-01T14:43:55+00:00"
-fetched_at: "2026-10-07T22:36:55Z"
-sha256: "949b0760430cfeab4f4494d78764e1616848150c81af91b52654d7bf3a40aafe"
-body_chars: 3444
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-08-01T14:43:55"
+change_signal: "2024-08-01T14:43:55"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "7ced60ab169fc3f49e450e4aaa5d15173a1f29ea3cded01e69c06c0f17b176bd"
+body_chars: 3249
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Continuous Database Optimization: Always Working for You
 
-**Section:** Changelog > Continuous Database Optimization: Always Working for You
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/continuous-database-optimization/
-**Kinsta last updated:** 2024-08-01T14:43:55+00:00
+**Kinsta last updated:** 2024-08-01T14:43:55
 
 ---
-
-Updated
-:   August 1, 2024
-
-![Feature Update: Continuous automatic database optimization.](https://kinsta.com/wp-content/uploads/2023/06/continuous-automatic-database-optimization-1024x535.jpg)
 
 In late 2019 we introduced a system that automatically fine-tuned low-level database settings for all our [Managed WordPress Hosting](https://kinsta.com/wordpress-hosting/) customers. Back then, our auto-optimization routines would run once a week for each customer’s WordPress site, looking for ways to make [its database](https://kinsta.com/blog/wordpress-database/) operate more efficiently.
 

@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Kinsta now supports end of life PHP versions 7.4 and 8.0"]
-kinsta_last_updated: "2025-04-11T08:37:39+00:00"
-sitemap_lastmod: "2025-04-11T08:37:39+00:00"
-fetched_at: "2026-10-07T22:37:04Z"
-sha256: "d7336796c36e179417e21981761149831d50340e1b07eab1077182f1e21e74cf"
-body_chars: 4002
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-04-11T08:37:39"
+change_signal: "2025-04-11T08:37:39"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "0b751c0cd9d6c4227770a9e16bd2a25ab4959f59965383922aee7e5c6d84f28a"
+body_chars: 3871
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Kinsta now supports end of life PHP versions 7.4 and 8.0
 
-**Section:** Changelog > Kinsta now supports end of life PHP versions 7.4 and 8.0
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/end-of-life-php-support/
-**Kinsta last updated:** 2025-04-11T08:37:39+00:00
+**Kinsta last updated:** 2025-04-11T08:37:39
 
 ## On this page
 
@@ -30,11 +29,6 @@ status: "live"
 - [Take control of your PHP updates today!](#take-control-of-your-php-updates-today)
 
 ---
-
-Updated
-:   April 11, 2025
-
-![](https://kinsta.com/wp-content/uploads/2024/11/2024-11-Supporting-older-php-releases-1024x536.png)
 
 We’re thrilled to roll out two significant updates in [MyKinsta](https://kinsta.com/mykinsta/): support for PHP releases (currently 7.4 and 8.0) that have reached [end of life](https://www.php.net/eol.php) (EOL) and the ability to opt out of automatic PHP updates.
 

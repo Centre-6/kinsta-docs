@@ -5,35 +5,23 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta Events", "Meet Kinsta at The MarTech Summit Asia 2026"]
-kinsta_last_updated: "2026-02-27T13:54:54+00:00"
-sitemap_lastmod: "2026-02-27T13:54:54"
-fetched_at: "2026-10-07T22:42:45Z"
-sha256: "8ab1a9e0e2261093a13f867c1165a13a3058ac688bc8e8f53471193dc840e1b3"
-body_chars: 3615
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-02-27T13:54:54"
+change_signal: "2026-02-27T13:54:54"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "311bff1e6967629ca96d8d9100ce4189b93c8ce76b638a51c24623569adec54c"
+body_chars: 3146
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Meet Kinsta at The MarTech Summit Asia 2026
 
-**Section:** Resource Center > Blog > Kinsta Events > Meet Kinsta at The MarTech Summit Asia 2026
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/the-martech-summit-asia/
-**Kinsta last updated:** 2026-02-27T13:54:54+00:00
+**Kinsta last updated:** 2026-02-27T13:54:54
 
 ---
-
-Author
-:   [Nikolett Poesz](https://kinsta.com/blog/author/nikolettpoesz/ "Posts by Nikolett Poesz")
-
-Updated
-:   February 27, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/02/martech-summit-singapore-2026-1024x536.png)
 
 We’re thrilled to share that Kinsta will be joining **[The MarTech Summit Asia](https://themartechsummit.com/singapore) in Singapore on March 10-11** at Raffles City Convention Centre!
 
@@ -65,7 +53,3 @@ To keep the conversations going beyond the summit, we’re hosting an agency and
 We’re looking forward to connecting with the local community in Singapore! If you’re attending the summit, make sure to swing by, enjoy a barista coffee on us, snap a photo with the team, and explore how partnering with Kinsta can power your next stage of growth.
 
 We can’t wait to see you there!
-
-Nikolett Poesz
-
-Multilingual Content Associate at Kinsta

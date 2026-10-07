@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/fix-error-establishing-a-database-connection-in-wordpress/"
-title: "Troubleshooting - Database Connection Errors"
+title: "Database Connection Errors"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-troubleshooting"
-section: []
-kinsta_last_updated: "August 13, 2024"
-sitemap_lastmod: "2024-08-13T10:31:40+00:00"
-fetched_at: "2026-10-07T22:38:13Z"
-sha256: "22c37750dc618429f1f74ac2add08c127f71a8793e350c04e28879677904a093"
-body_chars: 7531
-extracted_with: "main article"
+section: ["WordPress Hosting", "Troubleshooting"]
+kinsta_last_updated: "2024-08-13T10:31:40"
+change_signal: "2024-08-13T10:31:40"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "aae7168c0c4f3396c0db4ff9bd9d43537f6e468a2779ca37d1dcd88761321a14"
+body_chars: 7522
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Troubleshooting - Database Connection Errors
+# Database Connection Errors
 
+**Section:** WordPress Hosting > Troubleshooting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/fix-error-establishing-a-database-connection-in-wordpress/
-**Kinsta last updated:** August 13, 2024
+**Kinsta last updated:** 2024-08-13T10:31:40
 
 ## On this page
 
@@ -72,8 +73,6 @@ To check your site’s database credentials, begin by heading over to your site�
 
 #### Database name
 
-Copy
-
 ```
 // ** MySQL settings ** //
 /** The name of the database for WordPress */
@@ -82,8 +81,6 @@ define('DB_NAME', 'xxxxxx');
 
 #### MySQL database username
 
-Copy
-
 ```
 /** MySQL database username */
 define('DB_USER', 'xxxxxx');
@@ -91,16 +88,12 @@ define('DB_USER', 'xxxxxx');
 
 #### MySQL database password
 
-Copy
-
 ```
 /** MySQL database password */
 define('DB_PASSWORD', 'xxxxxx');
 ```
 
 #### MySQL hostname (server)
-
-Copy
 
 ```
 /** MySQL hostname */
@@ -123,8 +116,6 @@ To repair your database, you have a few options, which we explain below: with Wo
 
 Fortunately, WordPress has a database repair mode which you can initiate by adding the following code snippet to the bottom of your **wp-config.php** file.
 
-Copy
-
 ```
 define('WP_ALLOW_REPAIR', true);
 ```
@@ -141,7 +132,7 @@ The **Repair Database** option is quicker than the **Repair and Optimize Databas
 
 [Log in to phpMyAdmin](https://kinsta.com/docs/wordpress-hosting/database-management/wordpress-database-access/), click on your database, and select all the tables. From the dropdown menu near the bottom of the page, select **Repair table**. This does the same thing as running the [REPAIR TABLE](https://dev.mysql.com/doc/refman/5.7/en/repair-table.html) MySQL statement.
 
-![Repair database tables in phpMyAdmin.](https://kinsta.com/wp-content/uploads/2021/12/phpmyadmin-repair-all-tables.jpg)
+![Repair database tables in phpMyAdmin.](https://kinsta.com/wp-content/uploads/2021/12/phpmyadmin-repair-all-tables.jpg "Repair database tables in phpMyAdmin")
 
 Repair database tables in phpMyAdmin.
 
@@ -149,15 +140,11 @@ Repair database tables in phpMyAdmin.
 
 To repair your database with WP-CLI, run the following command:
 
-Copy
-
 ```
 wp db repair
 ```
 
 Once it’s finished, you’ll see the following success message:
-
-Copy
 
 ```
 Success: Database repaired.
@@ -180,8 +167,6 @@ Once the upload is complete, [empty your site’s cache](https://kinsta.com/docs
 #### Reinstall WordPress core with WP-CLI
 
 To reinstall WordPress without overwriting the **wp-content** directory (where your theme, plugins, and media are stored), run the following command:
-
-Copy
 
 ```
 wp core download --skip-content --force

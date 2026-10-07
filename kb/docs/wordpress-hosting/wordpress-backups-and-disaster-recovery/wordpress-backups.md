@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-backups-and-disaster-recovery/wordpress-backups/"
-title: "Backups and Disaster Recovery - Backups"
+title: "Backups"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-backups-and-disaster-recovery"
-section: []
-kinsta_last_updated: "January 21, 2026"
-sitemap_lastmod: "2026-01-21T10:53:49+00:00"
-fetched_at: "2026-10-07T22:39:14Z"
-sha256: "2b6aefea5feec71296c6bdcb95e27bde524ac89451519fa50f71f4f1cb8d67a2"
-body_chars: 26137
-extracted_with: "main article"
+section: ["WordPress Hosting", "Backups and Disaster Recovery"]
+kinsta_last_updated: "2026-01-21T10:53:49"
+change_signal: "2026-01-21T10:53:49"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "64f638568636c1b3ca7e7dff65f70cf8e09379a86be38917e62c9dcc5dfcd8de"
+body_chars: 26205
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Backups and Disaster Recovery - Backups
+# Backups
 
+**Section:** WordPress Hosting > Backups and Disaster Recovery
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-backups-and-disaster-recovery/wordpress-backups/
-**Kinsta last updated:** January 21, 2026
+**Kinsta last updated:** 2026-01-21T10:53:49
 
 ## On this page
 
@@ -74,10 +75,12 @@ Backups in MyKinsta.
 ## Create a manual WordPress backup
 
 1. In MyKinsta, go to your site and click on the **Backups** tab. Next, click on the **Manual** tab and click the **Back up now** button to create an additional backup manually.
+
    ![Manually create a WordPress backup in MyKinsta.](https://kinsta.com/wp-content/uploads/2023/11/wordpress-backups-manual.png)
 
    Manually create a WordPress backup in MyKinsta.
 2. You can add a short identifier note to your backup. Then click on **Create backup**.
+
    ![Add a name or short note to your manual WordPress backup.](https://kinsta.com/wp-content/uploads/2023/11/wordpress-manual-backup-create-1024x320.png)
 
    Add a name or short note to your manual WordPress backup.
@@ -86,7 +89,7 @@ If you need to make more than 5 manual backups in 14 days, you’ll need to dele
 
 ## Downloadable backups
 
-You can download an archive file (.zip) containing your entire WordPress site. The archive file contains your **website’s files** and the **SQL file** with the contents of your [database](https://kinsta.com/docs/wordpress-hosting/database-management/).
+You can download an archive file (.zip) containing your entire WordPress site. The archive file contains your **website’s files** and the **SQL file** with the contents of your [database](https://kinsta.com/docs/wordpress-hosting/database-management).
 
 - You can create a downloadable backup once per week.
 - The downloadable backup will be available for you to download for 48 hours.
@@ -119,7 +122,7 @@ Download your WordPress backup in MyKinsta.
 
 The backup is a .zip file that contains all of your website’s files (inside the **public** directory) and a database file (***sitename*****.sql**).
 
-![View the files in the downloadable backup of your WordPress site.](https://kinsta.com/wp-content/uploads/2021/11/downloadable-backup-unpacked.jpg)
+![View the files in the downloadable backup of your WordPress site.](https://kinsta.com/wp-content/uploads/2021/11/downloadable-backup-unpacked.jpg "View the files in the downloadable backup of your WordPress site")
 
 View the files in the downloadable backup of your WordPress site.
 

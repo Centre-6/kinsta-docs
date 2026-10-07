@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/service-information/security-roles-responsibilities/"
-title: "Service Information - Security Roles and Responsibilities"
+title: "Security Roles and Responsibilities"
 tier: "docs"
 product: "service-information"
 product_label: "Service Information"
 subsection: "security-roles-responsibilities"
-section: []
-kinsta_last_updated: "March 4, 2026"
-sitemap_lastmod: "2026-03-04T15:23:12+00:00"
-fetched_at: "2026-10-07T22:39:38Z"
-sha256: "998dc2a73fa11630667c5f4964661fe981572cecc112891d86ecd5140521b08d"
-body_chars: 4016
-extracted_with: "main article"
+section: ["Service Information"]
+kinsta_last_updated: "2026-03-04T15:23:12"
+change_signal: "2026-03-04T15:23:12"
+fetched_at: "2026-10-07T22:58:18Z"
+sha256: "705bb42a5d0bf68d7ea3b74ea3667d572aa48a23754c4cc02d7b371e9b587329"
+body_chars: 4015
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Service Information - Security Roles and Responsibilities
+# Security Roles and Responsibilities
 
+**Section:** Service Information
 **Product:** Service Information
 **Source:** https://kinsta.com/docs/service-information/security-roles-responsibilities/
-**Kinsta last updated:** March 4, 2026
+**Kinsta last updated:** 2026-03-04T15:23:12
 
 ## On this page
 
@@ -71,4 +72,4 @@ You can use your Git service provider login with [Single-Sign-On (SSO)](https://
 
 ## Network and infrastructure
 
-With our leading cloud platform, Kinsta customers benefit from a more secure firewall with included DDoS protection, high-performance CDN, Edge Caching, HTTP/3 support, wildcard SSLs, and more. At Kinsta, every site on our platform runs in a Linux container, and the site database runs as a service within the site container, all built on high-performing machines. We do not run multiple load-balanced instances of each site infrastructure. Thanks to the flexibility afforded by the use of a container-based infrastructure, proactive load management by our Engineering team, and the use of best-in-class cloud providers, we are able to offer an [SLA-backed uptime guarantee of up to](https://kinsta.com/legal/service-level-agreement/) [99.9%](https://kinsta.com/legal/service-level-agreement/) . For more details about our infrastructure and architecture, refer to [WordPress Hosting infrastructure](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/wordpress-infrastructure/).
+With our leading cloud platform, Kinsta customers benefit from a more secure firewall with included DDoS protection, high-performance CDN, Edge Caching, HTTP/3 support, wildcard SSLs, and more. At Kinsta, every site on our platform runs in a Linux container, and the site database runs as a service within the site container, all built on high-performing machines. We do not run multiple load-balanced instances of each site infrastructure. Thanks to the flexibility afforded by the use of a container-based infrastructure, proactive load management by our Engineering team, and the use of best-in-class cloud providers, we are able to offer an [SLA-backed uptime guarantee of up to](https://kinsta.com/legal/service-level-agreement/) [99.9%](https://kinsta.com/legal/service-level-agreement/) . For more details about our infrastructure and architecture, refer to [WordPress Hosting infrastructure](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/wordpress-infrastructure).

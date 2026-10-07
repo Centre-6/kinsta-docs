@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Ecommerce Tips", "Why bandwidth spikes during campaigns are often bot-driven"]
-kinsta_last_updated: "2026-06-02T13:49:46+00:00"
-sitemap_lastmod: "2026-06-02T13:49:46"
-fetched_at: "2026-10-07T22:42:23Z"
-sha256: "4527947f1d0882ca60d788b89446282de64f240488bf7b500c4bc3354918495b"
-body_chars: 16000
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-02T13:49:46"
+change_signal: "2026-06-02T13:49:46"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "46a724a68f06274fa506d07cf80ea09aba497f40d8efc55a7ba75ed80a292bee"
+body_chars: 15114
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Why bandwidth spikes during campaigns are often bot-driven
 
-**Section:** Resource Center > Blog > Ecommerce Tips > Why bandwidth spikes during campaigns are often bot-driven
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/campaign-spikes-bot-traffic/
-**Kinsta last updated:** 2026-06-02T13:49:46+00:00
+**Kinsta last updated:** 2026-06-02T13:49:46
 
 ## On this page
 
@@ -38,17 +37,6 @@ status: "live"
 - [Campaign success starts with protecting access for real visitors](#campaign-success-starts-with-protecting-access-for-real-visitors)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   June 2, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/04/why-bandwidth-spikes-during-campaigns-are-often-bot-driven-1024x512.png)
 
 When a campaign goes live, a [spike in traffic](https://kinsta.com/blog/bot-traffic-vs-real-visits/) is usually the first sign that things are working. But sometimes, as the data settles, you notice visits increase, conversions lag behind, and hosting usage climbs faster than planned.
 
@@ -197,13 +185,3 @@ A strong campaign attracts attention and protects the path for real visitors to 
 That is the main takeaway here: traffic spikes are not always clear signs of demand, and treating every request as equally valuable can lead to higher usage, slower performance, and murkier reporting than expected.
 
 Kinsta gives teams more control during those moments with [Bot Protection settings](https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/wordpress-tools-bot-protection/) that can block, challenge, or filter automated traffic, and the option to block AI crawlers when they contribute to avoidable load. If you want a hosting setup that helps you manage campaign traffic more deliberately, explore Kinsta [managed hosting plans](https://kinsta.com/wordpress-hosting/) to see how we support performance, visibility, and traffic control during high-visibility launches.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

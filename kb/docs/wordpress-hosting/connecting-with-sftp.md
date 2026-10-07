@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/connecting-with-sftp/"
-title: "WordPress Hosting - SFTP"
+title: "SFTP"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "connecting-with-sftp"
-section: []
-kinsta_last_updated: "March 25, 2026"
-sitemap_lastmod: "2026-03-25T10:30:46+00:00"
-fetched_at: "2026-10-07T22:39:47Z"
-sha256: "9f2e89f9fec5aafddd0472f67c47cedd203bcfd372081ce1e739f1a2a762993a"
-body_chars: 14718
-extracted_with: "main article"
+section: ["WordPress Hosting"]
+kinsta_last_updated: "2026-03-25T10:30:46"
+change_signal: "2026-03-25T10:30:46"
+fetched_at: "2026-10-07T22:58:18Z"
+sha256: "50f15a905b9b07939d020e2714e1cfff1226e3fa40e3c82a9b2aa3aa61f0ee37"
+body_chars: 14800
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# WordPress Hosting - SFTP
+# SFTP
 
+**Section:** WordPress Hosting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/connecting-with-sftp/
-**Kinsta last updated:** March 25, 2026
+**Kinsta last updated:** 2026-03-25T10:30:46
 
 ## On this page
 
@@ -272,13 +273,13 @@ Here are a few examples of settings in FTP clients.
 
 ### Cyberduck
 
-![SFTP details in Cyberduck.](https://kinsta.com/wp-content/uploads/2021/11/cyberduck-connection-settings.jpg)
+![SFTP details in Cyberduck.](https://kinsta.com/wp-content/uploads/2021/11/cyberduck-connection-settings.jpg "SFTP details in Cyberduck")
 
 SFTP details in Cyberduck.
 
 ### WinSCP
 
-![SFTP settings in WinSCP.](https://kinsta.com/wp-content/uploads/2021/11/how-to-use-sftp-winscp-client.png)
+![SFTP settings in WinSCP.](https://kinsta.com/wp-content/uploads/2021/11/how-to-use-sftp-winscp-client.png "SFTP settings in WinSCP")
 
 SFTP settings in WinSCP.
 
@@ -290,7 +291,7 @@ FileZilla Quick Connect
 
 ### Transmit
 
-![SFTP settings in Transmit.](https://kinsta.com/wp-content/uploads/2021/11/transmit-quick-connect.jpg)
+![SFTP settings in Transmit.](https://kinsta.com/wp-content/uploads/2021/11/transmit-quick-connect.jpg "SFTP settings in Transmit")
 
 SFTP settings in Transmit.
 

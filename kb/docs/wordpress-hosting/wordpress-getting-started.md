@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/"
-title: "WordPress Hosting - Get Started"
+title: "Get Started"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-getting-started"
-section: []
-kinsta_last_updated: "April 18, 2025"
-sitemap_lastmod: "2025-04-18T13:09:15+00:00"
-fetched_at: "2026-10-07T22:38:37Z"
-sha256: "5a56605f9d94bf2e20963d3679af2216db2b01d28a1e485cac793326ab93d5ca"
-body_chars: 1801
-extracted_with: "main article"
+section: ["WordPress Hosting"]
+kinsta_last_updated: "2025-04-18T13:09:15"
+change_signal: "2025-04-18T13:09:15"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "0c04808fd654bc65a68b910870afc7579ba3fa2584196a20b46685781661fbd7"
+body_chars: 1799
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# WordPress Hosting - Get Started
+# Get Started
 
+**Section:** WordPress Hosting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/
-**Kinsta last updated:** April 18, 2025
+**Kinsta last updated:** 2025-04-18T13:09:15
 
 ---
 
@@ -27,7 +28,7 @@ Learn all about Managed WordPress Hosting at Kinsta. If you’re new to Kinsta o
 
 If you’re moving one or more sites to Kinsta, we can help you [migrate all of your WordPress sites](https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/migrating-to-kinsta/). When you’re ready, check out our [go-live checklist](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/go-live-checklist/) to get your site up and running fast.
 
-Once your site is up and running, we have information on [monitoring your site](https://kinsta.com/docs/wordpress-hosting/wordpress-monitoring/) and [troubleshooting any performance issues](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/troubleshooting-wordpress-performance/) that may arise.
+Once your site is up and running, we have information on [monitoring your site](https://kinsta.com/docs/wordpress-hosting/wordpress-monitoring) and [troubleshooting any performance issues](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/troubleshooting-wordpress-performance) that may arise.
 
 If you have any questions, don’t hesitate to [open up a chat with our Support team](https://kinsta.com/docs/support/contact-support/). We’re here to help, 24/7.
 

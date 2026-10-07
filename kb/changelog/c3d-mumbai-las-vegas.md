@@ -1,33 +1,27 @@
 ---
 url: "https://kinsta.com/changelog/c3d-mumbai-las-vegas/"
-title: "Kinsta adopts Google's fast C3D VMs in Mumbai and Las Vegas data centers"
+title: "Kinsta adopts Google\u2019s fast C3D VMs in Mumbai and Las Vegas data centers"
 tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Kinsta adopts Google\u2019s fast C3D VMs in Mumbai and Las Vegas data centers"]
-kinsta_last_updated: "2025-11-17T12:07:12+00:00"
-sitemap_lastmod: "2025-11-17T12:07:12+00:00"
-fetched_at: "2026-10-07T22:37:11Z"
-sha256: "d93936fe78aa7c6dd85be6e26b7dec0830abe91b0a125401d0fa62655209d16b"
-body_chars: 3593
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-11-17T12:07:12"
+change_signal: "2025-11-17T12:07:12"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "1a3423a4ab4981e8f10c87f41b51e5df0860c89b2b527e5070c8e1ad3c0ab0c5"
+body_chars: 3339
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Kinsta adopts Google's fast C3D VMs in Mumbai and Las Vegas data centers
+# Kinsta adopts Google’s fast C3D VMs in Mumbai and Las Vegas data centers
 
-**Section:** Changelog > Kinsta adopts Google’s fast C3D VMs in Mumbai and Las Vegas data centers
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/c3d-mumbai-las-vegas/
-**Kinsta last updated:** 2025-11-17T12:07:12+00:00
+**Kinsta last updated:** 2025-11-17T12:07:12
 
 ---
-
-Updated
-:   November 17, 2025
-
-![An illustration showing the location of the C3D-powered Mumbai and Las Vegas data centers on a map of the world.](https://kinsta.com/wp-content/uploads/2024/10/c3d-machines-in-las-vegas-mumbai-data-centers-1024x536.jpg)
 
 Kinsta’s [Managed WordPress Hosting](https://kinsta.com/wordpress-hosting/) has added two more locations — Mumbai in India, and Las Vegas, Nevada, in the USA — to the list of data centers where Google Cloud’s fastest [C3D virtual machines](https://kinsta.com/blog/wordpress-performance-benchmarks/) are the default platform.
 

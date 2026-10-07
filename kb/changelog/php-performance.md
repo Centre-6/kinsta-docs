@@ -1,26 +1,25 @@
 ---
 url: "https://kinsta.com/changelog/php-performance/"
-title: "Manage your site's PHP threads and memory use for optimal performance"
+title: "Manage your site\u2019s PHP threads and memory use for optimal performance"
 tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Manage your site\u2019s PHP threads and memory use for optimal performance"]
-kinsta_last_updated: "2026-04-20T09:32:12+00:00"
-sitemap_lastmod: "2026-04-20T09:32:12+00:00"
-fetched_at: "2026-10-07T22:37:20Z"
-sha256: "9056e519c9cdcdec4a4f93dde2146f66696d25f297073b4c38aced15ecc80246"
-body_chars: 7680
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-04-20T09:32:12"
+change_signal: "2026-04-20T09:32:12"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "51aaf6789e16a883331fd913f5eb8f9df1325cba4e400749fad48947937af343"
+body_chars: 7483
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Manage your site's PHP threads and memory use for optimal performance
+# Manage your site’s PHP threads and memory use for optimal performance
 
-**Section:** Changelog > Manage your site’s PHP threads and memory use for optimal performance
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/php-performance/
-**Kinsta last updated:** 2026-04-20T09:32:12+00:00
+**Kinsta last updated:** 2026-04-20T09:32:12
 
 ## On this page
 
@@ -30,11 +29,6 @@ status: "live"
 - [Kinsta’s WordPress hosting is built for performance](#kinstas-wordpress-hosting-is-built-for-performance)
 
 ---
-
-Updated
-:   April 20, 2026
-
-![An illustration representing a MyKinsta dialog with the words: PHP performance.](https://kinsta.com/wp-content/uploads/2024/12/mykinsta-php-performance-1024x536.png)
 
 We’re giving customers more control over the performance of their WordPress websites with a new option to allocate PHP threads and memory.
 

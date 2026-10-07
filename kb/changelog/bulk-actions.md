@@ -1,26 +1,25 @@
 ---
 url: "https://kinsta.com/changelog/bulk-actions/"
-title: "Update multiple WordPress sites with MyKinsta's Bulk Actions"
+title: "Update multiple WordPress sites with MyKinsta\u2019s Bulk Actions"
 tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Update multiple WordPress sites with MyKinsta\u2019s Bulk Actions"]
-kinsta_last_updated: "2026-05-14T19:00:13+00:00"
-sitemap_lastmod: "2026-05-14T19:00:13+00:00"
-fetched_at: "2026-10-07T22:37:32Z"
-sha256: "9b7a89f280de9e72a2db15fa9ab3ec1db0f9c18d5fbfe3c3c339d0a36b85f5b9"
-body_chars: 6638
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-14T19:00:13"
+change_signal: "2026-05-14T19:00:13"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "13a0eeeb359c9ce5023955a61ed56e495bc1d4d1d4d6dd7c7fe2830e75f3f336"
+body_chars: 6419
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Update multiple WordPress sites with MyKinsta's Bulk Actions
+# Update multiple WordPress sites with MyKinsta’s Bulk Actions
 
-**Section:** Changelog > Update multiple WordPress sites with MyKinsta’s Bulk Actions
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/bulk-actions/
-**Kinsta last updated:** 2026-05-14T19:00:13+00:00
+**Kinsta last updated:** 2026-05-14T19:00:13
 
 ## On this page
 
@@ -33,11 +32,6 @@ status: "live"
 - [The Kinsta API: Another way to perform bulk updates](#the-kinsta-api-another-way-to-perform-bulk-updates)
 
 ---
-
-Updated
-:   May 14, 2026
-
-![Illustration reflecting the bulk actions interface with the words, 'Updating multiple websites.'](https://kinsta.com/wp-content/uploads/2024/05/mykinsta-wordpress-bulk-actions-1024x536.png)
 
 Kinsta has introduced a new Bulk Actions feature in [MyKinsta](https://kinsta.com/mykinsta/) that makes it easier for [Managed WordPress Hosting](https://kinsta.com/wordpress-hosting/) customers to perform common tasks across multiple website environments simultaneously.
 

@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-reference/wordpress-glossary/"
-title: "Reference - Glossary"
+title: "Glossary"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-reference"
-section: []
-kinsta_last_updated: "July 2, 2026"
-sitemap_lastmod: "2026-07-02T15:30:00+00:00"
-fetched_at: "2026-10-07T22:40:35Z"
-sha256: "21d1da315552cde4d0d66c7545192366d4efdf1aa038bd54158987eec6224f4a"
-body_chars: 35591
-extracted_with: "main article"
+section: ["WordPress Hosting", "Reference"]
+kinsta_last_updated: "2026-07-02T15:30:00"
+change_signal: "2026-07-02T15:30:00"
+fetched_at: "2026-10-07T22:58:18Z"
+sha256: "8bd7fb4a2288b326e86b85b8876f4766af8830ae72eb8eadd94c5f4c632ff6a2"
+body_chars: 35590
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Reference - Glossary
+# Glossary
 
+**Section:** WordPress Hosting > Reference
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-reference/wordpress-glossary/
-**Kinsta last updated:** July 2, 2026
+**Kinsta last updated:** 2026-07-02T15:30:00
 
 ## On this page
 
@@ -108,7 +109,7 @@ A Content Management System (CMS) is a software application or a set of related 
 
 ## cPanel
 
-cPanel is a web-based control panel that provides a graphical interface for managing and administering web hosting services on a server. It is used by hosting providers to simplify the process of website and server management, allowing users to perform various tasks without needing advanced technical skills. Kinsta uses its own [WordPress hosting](https://kinsta.com/docs/wordpress-hosting/) dashboard, so you don’t need to use cPanel when you host your website with Kinsta. To find out more about cPanel, refer to [What Is cPanel? The Control Dashboard Explained for Beginners](https://kinsta.com/blog/what-is-cpanel/).
+cPanel is a web-based control panel that provides a graphical interface for managing and administering web hosting services on a server. It is used by hosting providers to simplify the process of website and server management, allowing users to perform various tasks without needing advanced technical skills. Kinsta uses its own [WordPress hosting](https://kinsta.com/docs/wordpress-hosting) dashboard, so you don’t need to use cPanel when you host your website with Kinsta. To find out more about cPanel, refer to [What Is cPanel? The Control Dashboard Explained for Beginners](https://kinsta.com/blog/what-is-cpanel/).
 
 ## DNS
 

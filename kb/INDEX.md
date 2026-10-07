@@ -1,6 +1,6 @@
 # Kinsta documentation mirror - index
 
-Generated 2026-10-07T22:43:20Z from `manifest.json`. 570 live pages.
+Generated 2026-10-07T22:59:20Z from `manifest.json`. 658 live pages.
 
 Read this to orient before searching. Pages are grouped by **product**, because Kinsta's products reuse the same vocabulary for different mechanics and picking the wrong tree produces a confident wrong answer. Revalidate any page you intend to cite:
 
@@ -8,9 +8,434 @@ Read this to orient before searching. Pages are grouped by **product**, because 
 python3 scripts/kinsta_kb.py check --url <url>
 ```
 
+## Changelog  (`changelog`, 210 pages)
+
+### General
+
+- **18th Data Center in Hong Kong Is Now Available** - `kb/changelog/hong-kong-data-center.md`  
+  https://kinsta.com/changelog/hong-kong-data-center/
+- **20th Data Center in Osaka, Japan Is Now Available** - `kb/changelog/osaka-japan-data-center.md`  
+  https://kinsta.com/changelog/osaka-japan-data-center/
+- **3 new Kinsta API endpoints for Application Hosting (CDN, Edge Caching, & clear cache)** - `kb/changelog/kinsta-api-mar-2024.md`  
+  https://kinsta.com/changelog/kinsta-api-mar-2024/
+- **A new option for sharing the management of DNS in MyKinsta** - `kb/changelog/dns-management-roles.md`  
+  https://kinsta.com/changelog/dns-management-roles/
+- **A new view of cache performance for your WordPress site** - `kb/changelog/cache-breakdown.md`  
+  https://kinsta.com/changelog/cache-breakdown/
+- **Access Your Application Through the New Web Terminal** - `kb/changelog/web-terminal.md`  
+  https://kinsta.com/changelog/web-terminal/
+- **Access application metrics and company user data with Kinsta API** - `kb/changelog/kinsta-api-may-2024.md`  
+  https://kinsta.com/changelog/kinsta-api-may-2024/
+- **Access more traffic and response insights with the Kinsta API** - `kb/changelog/kinsta-api-mar-2026.md`  
+  https://kinsta.com/changelog/kinsta-api-mar-2026/
+- **Access more visitor data with the Kinsta API** - `kb/changelog/kinsta-api-aug-2026.md`  
+  https://kinsta.com/changelog/kinsta-api-aug-2026/
+- **Access website analytics with the Kinsta API** - `kb/changelog/kinsta-api-nov-2025.md`  
+  https://kinsta.com/changelog/kinsta-api-nov-2025/
+- **Account Activity Log Now Available** - `kb/changelog/account-activity-log-now-available.md`  
+  https://kinsta.com/changelog/account-activity-log-now-available/
+- **Add HTTPS Credentials From MyKinsta** - `kb/changelog/add-https-credentials-kinsta.md`  
+  https://kinsta.com/changelog/add-https-credentials-kinsta/
+- **Add more WordPress sites to your existing hosting plan at Kinsta** - `kb/changelog/add-wordpress-sites.md`  
+  https://kinsta.com/changelog/add-wordpress-sites/
+- **All 11 Google Cloud Platform Locations Now Available** - `kb/changelog/google-cloud-platform-locations.md`  
+  https://kinsta.com/changelog/google-cloud-platform-locations/
+- **An improved Web Terminal for apps gets you to the command line quicker** - `kb/changelog/improved-web-terminal.md`  
+  https://kinsta.com/changelog/improved-web-terminal/
+- **Application, database, and static site hosting are moving to Sevalla** - `kb/changelog/paas-moving-to-sevalla.md`  
+  https://kinsta.com/changelog/paas-moving-to-sevalla/
+- **Assign team members to manage apps, databases, and static sites** - `kb/changelog/paas-user-roles.md`  
+  https://kinsta.com/changelog/paas-user-roles/
+- **Automatic MySQL Database Optimizations, Self-Healing PHP, GCP Firewall** - `kb/changelog/auto-db-optimize.md`  
+  https://kinsta.com/changelog/auto-db-optimize/
+- **Automatic Scaling Helps Your Application Keep Pace With Demand** - `kb/changelog/automatic-scaling.md`  
+  https://kinsta.com/changelog/automatic-scaling/
+- **Awesome New Install Options** - `kb/changelog/awesome-new-install-options.md`  
+  https://kinsta.com/changelog/awesome-new-install-options/
+- **Boost Your Website’s Speed With New Early Hints Feature** - `kb/changelog/early-hints.md`  
+  https://kinsta.com/changelog/early-hints/
+- **Boosting Monthly Visits for Starter and Pro Plans** - `kb/changelog/boosting-visits-starter-pro-plans.md`  
+  https://kinsta.com/changelog/boosting-visits-starter-pro-plans/
+- **CDN Integration Launched** - `kb/changelog/cdn-integration.md`  
+  https://kinsta.com/changelog/cdn-integration/
+- **CDN Usage is Now Available in MyKinsta Analytics** - `kb/changelog/cdn-usage-mykinsta-analytics.md`  
+  https://kinsta.com/changelog/cdn-usage-mykinsta-analytics/
+- **Caching Toggle, IP Autofill in Kinsta DNS, New User Settings Page, and More** - `kb/changelog/caching-toggle-ip-autofill-user-settings-activty-log-site-domain-search.md`  
+  https://kinsta.com/changelog/caching-toggle-ip-autofill-user-settings-activty-log-site-domain-search/
+- **Change CDN status added to MyKinsta’s Bulk Actions** - `kb/changelog/bulk-actions-change-cdn.md`  
+  https://kinsta.com/changelog/bulk-actions-change-cdn/
+- **Change PHP versions across multiple WordPress sites with Bulk Actions** - `kb/changelog/change-php-bulk-action.md`  
+  https://kinsta.com/changelog/change-php-bulk-action/
+- **Change primary domains and manage SFTP access with Kinsta API** - `kb/changelog/kinsta-api-jun-23-2025.md`  
+  https://kinsta.com/changelog/kinsta-api-jun-23-2025/
+- **Choose bandwidth or visit counts for hosting plan pricing** - `kb/changelog/bandwidth-or-visits-pricing.md`  
+  https://kinsta.com/changelog/bandwidth-or-visits-pricing/
+- **Cloning Your WordPress Sites** - `kb/changelog/cloning-wordpress-sites.md`  
+  https://kinsta.com/changelog/cloning-wordpress-sites/
+- **Columbus Data Center Is Now Available** - `kb/changelog/google-cloud-columbus-data-center.md`  
+  https://kinsta.com/changelog/google-cloud-columbus-data-center/
+- **Configure Edge Caching for multiple WordPress sites with Bulk Actions** - `kb/changelog/bulk-actions-edge-caching.md`  
+  https://kinsta.com/changelog/bulk-actions-edge-caching/
+- **Continuous Database Optimization: Always Working for You** - `kb/changelog/continuous-database-optimization.md`  
+  https://kinsta.com/changelog/continuous-database-optimization/
+- **Create accounts for additional SFTP users in MyKinsta** - `kb/changelog/additional-sftp-users.md`  
+  https://kinsta.com/changelog/additional-sftp-users/
+- **Cross-site deployments of WordPress environments are now possible** - `kb/changelog/push-to-other-sites.md`  
+  https://kinsta.com/changelog/push-to-other-sites/
+- **Custom New Relic Tracking** - `kb/changelog/custom-new-relic-tracking.md`  
+  https://kinsta.com/changelog/custom-new-relic-tracking/
+- **Dallas Data Center Is Now Available** - `kb/changelog/google-cloud-dallas-data-center.md`  
+  https://kinsta.com/changelog/google-cloud-dallas-data-center/
+- **Danish and Swedish language support ending (no action required)** - `kb/changelog/danish-and-swedish-site-sunset.md`  
+  https://kinsta.com/changelog/danish-and-swedish-site-sunset/
+- **Delhi Data Center Is Now Available** - `kb/changelog/google-cloud-delhi-data-center.md`  
+  https://kinsta.com/changelog/google-cloud-delhi-data-center/
+- **DevKinsta Is Now Available For Ubuntu/Linux Users** - `kb/changelog/local-wordpress-development-ubuntu.md`  
+  https://kinsta.com/changelog/local-wordpress-development-ubuntu/
+- **Discover and manage Kinsta’s WordPress Add-ons — all in one place** - `kb/changelog/mykinsta-navigation-add-ons.md`  
+  https://kinsta.com/changelog/mykinsta-navigation-add-ons/
+- **Disk Space Add-on Is Now Available in MyKinsta** - `kb/changelog/disk-space-add-on.md`  
+  https://kinsta.com/changelog/disk-space-add-on/
+- **Downloadable backups are now available in MyKinsta** - `kb/changelog/downloadable-backups.md`  
+  https://kinsta.com/changelog/downloadable-backups/
+- **Easily Update Your Plugins and Themes in MyKinsta** - `kb/changelog/plugin-and-theme-management.md`  
+  https://kinsta.com/changelog/plugin-and-theme-management/
+- **Error Logs Now Visible On My Kinsta** - `kb/changelog/error-logs-now-visible-kinsta.md`  
+  https://kinsta.com/changelog/error-logs-now-visible-kinsta/
+- **Export MyKinsta’s analytics data in CSV format** - `kb/changelog/mykinsta-analytics-csv.md`  
+  https://kinsta.com/changelog/mykinsta-analytics-csv/
+- **Export Redirects to CSV, New Backup UI, and Quick Navigation** - `kb/changelog/export-redirects-csv.md`  
+  https://kinsta.com/changelog/export-redirects-csv/
+- **External Backups, Site Tagging, ionCube Loader, and More** - `kb/changelog/external-backups-site-tagging-ioncube-loader.md`  
+  https://kinsta.com/changelog/external-backups-site-tagging-ioncube-loader/
+- **Fetch files and target specific paths with the Kinsta API** - `kb/changelog/kinsta-api-jun-2025.md`  
+  https://kinsta.com/changelog/kinsta-api-jun-2025/
+- **Find all your WordPress caching tools together in MyKinsta** - `kb/changelog/mykinsta-navigation-caching.md`  
+  https://kinsta.com/changelog/mykinsta-navigation-caching/
+- **Fine-tune CDN, edge cache, and PHP behavior via the Kinsta API** - `kb/changelog/kinsta-api-may-2025.md`  
+  https://kinsta.com/changelog/kinsta-api-may-2025/
+- **Finland Data Center Is Now Available in Hamina** - `kb/changelog/finland-data-center.md`  
+  https://kinsta.com/changelog/finland-data-center/
+- **Force HTTPS Tool Now Available on MyKinsta** - `kb/changelog/force-https.md`  
+  https://kinsta.com/changelog/force-https/
+- **Free Application Performance Monitoring with Kinsta’s APM Tool** - `kb/changelog/kinsta-apm-tool.md`  
+  https://kinsta.com/changelog/kinsta-apm-tool/
+- **Free SSL Support Now Available Via Let’s Encrypt** - `kb/changelog/free-ssl-support-now-available-via-lets-encrypt.md`  
+  https://kinsta.com/changelog/free-ssl-support-now-available-via-lets-encrypt/
+- **Free and unlimited WordPress migrations** - `kb/changelog/unlimited-free-migrations.md`  
+  https://kinsta.com/changelog/unlimited-free-migrations/
+- **Full Page Cache Deletion From MyKinsta** - `kb/changelog/full-page-cache-deletion-kinsta.md`  
+  https://kinsta.com/changelog/full-page-cache-deletion-kinsta/
+- **Generate phpMyAdmin login link and view API activity with the Kinsta API** - `kb/changelog/kinsta-api-nov-21-2025.md`  
+  https://kinsta.com/changelog/kinsta-api-nov-21-2025/
+- **Get selective when pushing staged environments** - `kb/changelog/selective-push-environment.md`  
+  https://kinsta.com/changelog/selective-push-environment/
+- **Get the jump on MyKinsta navigation with new shortcut features** - `kb/changelog/mykinsta-navigation.md`  
+  https://kinsta.com/changelog/mykinsta-navigation/
+- **Get things done faster with new MyKinsta navigation** - `kb/changelog/mykinsta-nav-update.md`  
+  https://kinsta.com/changelog/mykinsta-nav-update/
+- **Go beyond backups with Kinsta Disaster Recovery** - `kb/changelog/disaster-recovery.md`  
+  https://kinsta.com/changelog/disaster-recovery/
+- **HHVM Environment Switching Available** - `kb/changelog/hhvm-environment-switching-available.md`  
+  https://kinsta.com/changelog/hhvm-environment-switching-available/
+- **Hourly Backups Add-on is Now Available in MyKinsta** - `kb/changelog/hourly-backups.md`  
+  https://kinsta.com/changelog/hourly-backups/
+- **Implementing the New wp_get_environment_type() Function at Kinsta** - `kb/changelog/wp_get_environment_type-function.md`  
+  https://kinsta.com/changelog/wp_get_environment_type-function/
+- **Improved messaging for Kinsta Automatic Updates** - `kb/changelog/automatic-updates-messaging.md`  
+  https://kinsta.com/changelog/automatic-updates-messaging/
+- **Improvements to MyKinsta Navigation, User Profiles, and Billing** - `kb/changelog/nav-user-billing.md`  
+  https://kinsta.com/changelog/nav-user-billing/
+- **In a rush? Request a site migration in 8 hours (or less)** - `kb/changelog/expedited-migration.md`  
+  https://kinsta.com/changelog/expedited-migration/
+- **Increasing Kinsta’s Free CDN Bandwidth (Up to 500%)** - `kb/changelog/cdn-bandwidth.md`  
+  https://kinsta.com/changelog/cdn-bandwidth/
+- **India Data Center Is Now Available in Mumbai** - `kb/changelog/india-data-center.md`  
+  https://kinsta.com/changelog/india-data-center/
+- **Introducing Companies** - `kb/changelog/introducing-companies.md`  
+  https://kinsta.com/changelog/introducing-companies/
+- **Introducing DevKinsta, the Free Local WordPress Development Tool (for Everyone)** - `kb/changelog/local-wordpress-development.md`  
+  https://kinsta.com/changelog/local-wordpress-development/
+- **Introducing Kinsta API: The Power of Automation for Site Management** - `kb/changelog/kinsta-api.md`  
+  https://kinsta.com/changelog/kinsta-api/
+- **Introducing Kinsta’s Premium Staging Environment add-On** - `kb/changelog/premium-staging-environments.md`  
+  https://kinsta.com/changelog/premium-staging-environments/
+- **Introducing New Hobby Tier for Application Hosting** - `kb/changelog/hobby-tier.md`  
+  https://kinsta.com/changelog/hobby-tier/
+- **Introducing New Kinsta API Endpoints (Environment CRUD, Edge Caching, Application Deployment)** - `kb/changelog/kinsta-api-aug-2023.md`  
+  https://kinsta.com/changelog/kinsta-api-aug-2023/
+- **Introducing Nixpacks for Streamlined Deployments** - `kb/changelog/nixpacks.md`  
+  https://kinsta.com/changelog/nixpacks/
+- **Introducing a Pain-Free SSL Renewal Experience** - `kb/changelog/ssl-renewal-experience.md`  
+  https://kinsta.com/changelog/ssl-renewal-experience/
+- **Introducing the New Affiliate Dashboard** - `kb/changelog/new-affiliate-dashboard.md`  
+  https://kinsta.com/changelog/new-affiliate-dashboard/
+- **Introducing the Remove Set-Cookie Headers Tool** - `kb/changelog/remove-set-cookie-headers-tool.md`  
+  https://kinsta.com/changelog/remove-set-cookie-headers-tool/
+- **It’s easier to get started with Kinsta Disaster Recovery** - `kb/changelog/disaster-recovery-request.md`  
+  https://kinsta.com/changelog/disaster-recovery-request/
+- **Jakarta Data Center Is Now Available** - `kb/changelog/google-cloud-jakarta-data-center.md`  
+  https://kinsta.com/changelog/google-cloud-jakarta-data-center/
+- **Kinsta Affiliate Program Is Now Open for Registration** - `kb/changelog/affiliate-program.md`  
+  https://kinsta.com/changelog/affiliate-program/
+- **Kinsta Application Hosting Now Deploys Bitbucket and GitLab Repositories** - `kb/changelog/bitbucket-gitlab-support.md`  
+  https://kinsta.com/changelog/bitbucket-gitlab-support/
+- **Kinsta Automatic Updates: Hands-free WordPress plugin and theme management** - `kb/changelog/kinsta-automatic-updates.md`  
+  https://kinsta.com/changelog/kinsta-automatic-updates/
+- **Kinsta CDN Is Now Powered by Cloudflare** - `kb/changelog/kinsta-cdn-cloudflare.md`  
+  https://kinsta.com/changelog/kinsta-cdn-cloudflare/
+- **Kinsta Introduces Application Hosting and Database Hosting** - `kb/changelog/application-database-hosting.md`  
+  https://kinsta.com/changelog/application-database-hosting/
+- **Kinsta Is Adopting Google’s C3D Machines for Even Faster Response Times** - `kb/changelog/google-c3d-machines.md`  
+  https://kinsta.com/changelog/google-c3d-machines/
+- **Kinsta Must-Use Plugin — Changelog** - `kb/changelog/mu-plugin-changelog.md`  
+  https://kinsta.com/changelog/mu-plugin-changelog/
+- **Kinsta Static Site Hosting is Fast and Free** - `kb/changelog/static-site-hosting.md`  
+  https://kinsta.com/changelog/static-site-hosting/
+- **Kinsta Unveils New and Improved Documentation** - `kb/changelog/new-documentation.md`  
+  https://kinsta.com/changelog/new-documentation/
+- **Kinsta adopts Google’s fast C3D VMs in Mumbai and Las Vegas data centers** - `kb/changelog/c3d-mumbai-las-vegas.md`  
+  https://kinsta.com/changelog/c3d-mumbai-las-vegas/
+- **Kinsta adopts faster C3D VMs in Frankfurt and Sydney data centers** - `kb/changelog/c3d-frankfurt-sydney.md`  
+  https://kinsta.com/changelog/c3d-frankfurt-sydney/
+- **Kinsta earns ISO 27001 certification for its data security and privacy efforts** - `kb/changelog/iso-27001-certification.md`  
+  https://kinsta.com/changelog/iso-27001-certification/
+- **Kinsta now supports end of life PHP versions 7.4 and 8.0** - `kb/changelog/end-of-life-php-support.md`  
+  https://kinsta.com/changelog/end-of-life-php-support/
+- **Kinsta offers WordPress hosting from Google’s Saudi Arabia data center** - `kb/changelog/google-cloud-saudi-arabia-data-center.md`  
+  https://kinsta.com/changelog/google-cloud-saudi-arabia-data-center/
+- **Kinsta offers more ways to manage SFTP/SSH access to WordPress** - `kb/changelog/sftp-ssh-updates.md`  
+  https://kinsta.com/changelog/sftp-ssh-updates/
+- **Kinsta’s Help Center — The New Home for Support Answers and Documentation** - `kb/changelog/help-center.md`  
+  https://kinsta.com/changelog/help-center/
+- **Kinsta’s PHP Performance add-on is now available to everyone** - `kb/changelog/php-performance-update.md`  
+  https://kinsta.com/changelog/php-performance-update/
+- **Kinsta’s Security Efforts Recognized as SOC 2 Compliant** - `kb/changelog/soc-2-compliance.md`  
+  https://kinsta.com/changelog/soc-2-compliance/
+- **Kinsta’s platform is supercharged in Taiwan with Google’s C3D VMs** - `kb/changelog/c3d-taiwan.md`  
+  https://kinsta.com/changelog/c3d-taiwan/
+- **Las Vegas Data Center is Now Available** - `kb/changelog/google-cloud-las-vegas-data-center.md`  
+  https://kinsta.com/changelog/google-cloud-las-vegas-data-center/
+- **Lock down SFTP/SSH and phpMyAdmin access with IP allowlists** - `kb/changelog/ip-allowlists.md`  
+  https://kinsta.com/changelog/ip-allowlists/
+- **Log in to WordPress Admin dashboards with a single click in MyKinsta** - `kb/changelog/wordpress-admin-login.md`  
+  https://kinsta.com/changelog/wordpress-admin-login/
+- **Los Angeles Data Center Is Now Available in California** - `kb/changelog/los-angeles-data-center.md`  
+  https://kinsta.com/changelog/los-angeles-data-center/
+- **Madrid Data Center Is Now Available** - `kb/changelog/google-cloud-madrid-data-center.md`  
+  https://kinsta.com/changelog/google-cloud-madrid-data-center/
+- **Make Your Pages Load Faster by Enabling Code Minification in MyKinsta** - `kb/changelog/code-minification.md`  
+  https://kinsta.com/changelog/code-minification/
+- **Make a site “disappear” with environment suspension** - `kb/changelog/environment-suspension.md`  
+  https://kinsta.com/changelog/environment-suspension/
+- **Manage SSH and SFTP access with the Kinsta API** - `kb/changelog/kinsta-api-oct-2025.md`  
+  https://kinsta.com/changelog/kinsta-api-oct-2025/
+- **Manage WordPress Admin auto-login users with the Kinsta API** - `kb/changelog/kinsta-api-apr-2026.md`  
+  https://kinsta.com/changelog/kinsta-api-apr-2026/
+- **Manage WordPress files in the MyKinsta dashboard** - `kb/changelog/file-manager.md`  
+  https://kinsta.com/changelog/file-manager/
+- **Manage WordPress plugins and themes with the Kinsta API** - `kb/changelog/kinsta-api-jan-2026.md`  
+  https://kinsta.com/changelog/kinsta-api-jan-2026/
+- **Manage domains, HTTPS, logs, and backups with the Kinsta API** - `kb/changelog/kinsta-api-jul-2026.md`  
+  https://kinsta.com/changelog/kinsta-api-jul-2026/
+- **Manage your site’s PHP threads and memory use for optimal performance** - `kb/changelog/php-performance.md`  
+  https://kinsta.com/changelog/php-performance/
+- **Melbourne Data Center Is Now Available** - `kb/changelog/google-cloud-melbourne-data-center.md`  
+  https://kinsta.com/changelog/google-cloud-melbourne-data-center/
+- **Milan Data Center Is Now Available** - `kb/changelog/google-cloud-milan-data-center.md`  
+  https://kinsta.com/changelog/google-cloud-milan-data-center/
+- **Minor Updates to MyKinsta: Faster Cloning, Improved Sites List, and More** - `kb/changelog/mykinsta-cloning-sites-list.md`  
+  https://kinsta.com/changelog/mykinsta-cloning-sites-list/
+- **Montreal and Netherlands Data Centers are Now Available** - `kb/changelog/montreal-netherlands-data-centers.md`  
+  https://kinsta.com/changelog/montreal-netherlands-data-centers/
+- **More Disk Space (SSD Storage) on All Plans** - `kb/changelog/more-disk-space.md`  
+  https://kinsta.com/changelog/more-disk-space/
+- **More Free Migrations, PHP Threads, Improved Caching, Emails** - `kb/changelog/free-migrations-php-threads.md`  
+  https://kinsta.com/changelog/free-migrations-php-threads/
+- **More Granular Control on All Your Live and Staging Environments With Selective Push** - `kb/changelog/selective-push.md`  
+  https://kinsta.com/changelog/selective-push/
+- **Move to a Visitor-Based Pricing Model** - `kb/changelog/visitor-based-pricing-model.md`  
+  https://kinsta.com/changelog/visitor-based-pricing-model/
+- **Multi-User Access and Permissions Are Now Available in MyKinsta** - `kb/changelog/multi-user-access-permissions.md`  
+  https://kinsta.com/changelog/multi-user-access-permissions/
+- **Multiple Payment Methods Now Supported** - `kb/changelog/multiple-payment-methods-now-supported.md`  
+  https://kinsta.com/changelog/multiple-payment-methods-now-supported/
+- **Multiple-site management bulks up in MyKinsta** - `kb/changelog/more-bulk-actions.md`  
+  https://kinsta.com/changelog/more-bulk-actions/
+- **MyKinsta Analytics Revamped to Give You More Data** - `kb/changelog/mykinsta-analytics.md`  
+  https://kinsta.com/changelog/mykinsta-analytics/
+- **MyKinsta now locks accounts after repeated failed logins** - `kb/changelog/account-lockout.md`  
+  https://kinsta.com/changelog/account-lockout/
+- **MyKinsta offers a “big-picture” view of your application** - `kb/changelog/application-overview.md`  
+  https://kinsta.com/changelog/application-overview/
+- **MyKinsta — Quickly Add Gmail MX Records, UI and Security Updates** - `kb/changelog/gmail-mx-records-ui-security.md`  
+  https://kinsta.com/changelog/gmail-mx-records-ui-security/
+- **Need a Redis cache? You can serve yourself in MyKinsta** - `kb/changelog/add-redis-cache.md`  
+  https://kinsta.com/changelog/add-redis-cache/
+- **New Backup Features** - `kb/changelog/new-backup-features.md`  
+  https://kinsta.com/changelog/new-backup-features/
+- **New Edge Caching Feature Slashes Page Load Times** - `kb/changelog/edge-caching.md`  
+  https://kinsta.com/changelog/edge-caching/
+- **New Entry-Tier Plans Starting $30/Month Now Available** - `kb/changelog/entry-tier-plans.md`  
+  https://kinsta.com/changelog/entry-tier-plans/
+- **New IP Deny Tool and One-Click Database Password Changes** - `kb/changelog/ip-deny-database-passwords.md`  
+  https://kinsta.com/changelog/ip-deny-database-passwords/
+- **New Kinsta API Endpoints: Clear CDN Cache and Push Environment** - `kb/changelog/kinsta-api-sept-2023.md`  
+  https://kinsta.com/changelog/kinsta-api-sept-2023/
+- **New Kinsta API endpoints enhance WordPress site management** - `kb/changelog/kinsta-api-feb-2024.md`  
+  https://kinsta.com/changelog/kinsta-api-feb-2024/
+- **New Two-Factor Authentication (2FA) and MyKinsta Improvements** - `kb/changelog/two-factor-authentication-2fa-mykinsta.md`  
+  https://kinsta.com/changelog/two-factor-authentication-2fa-mykinsta/
+- **New WP_DEBUG Tool, Search and Replace 2.0, and MyKinsta Improvements** - `kb/changelog/wp_debug-tool.md`  
+  https://kinsta.com/changelog/wp_debug-tool/
+- **Notification Center and Automatic Invoice Emails** - `kb/changelog/mykinsta-notification-center-kinsta-invoices.md`  
+  https://kinsta.com/changelog/mykinsta-notification-center-kinsta-invoices/
+- **One-Click SFTP Password Changes** - `kb/changelog/one-click-sftp-password-changes.md`  
+  https://kinsta.com/changelog/one-click-sftp-password-changes/
+- **One-Click Staging Push To Live** - `kb/changelog/one-click-staging-push-live.md`  
+  https://kinsta.com/changelog/one-click-staging-push-live/
+- **Our BWP 3 Plan Now Has More Installs** - `kb/changelog/business-1-plan-more-installs.md`  
+  https://kinsta.com/changelog/business-1-plan-more-installs/
+- **PHP 7.1 Now Available On My Kinsta** - `kb/changelog/php-7-1-now-available-kinsta.md`  
+  https://kinsta.com/changelog/php-7-1-now-available-kinsta/
+- **PHP 7.2 Is Now Available on MyKinsta** - `kb/changelog/php-7-2-now-available.md`  
+  https://kinsta.com/changelog/php-7-2-now-available/
+- **PHP 7.3 (Official Release) Is Now Available on MyKinsta** - `kb/changelog/php-7-3.md`  
+  https://kinsta.com/changelog/php-7-3/
+- **PHP 7.3-RC4 is Now Available for Testing** - `kb/changelog/php-7-3-rc4.md`  
+  https://kinsta.com/changelog/php-7-3-rc4/
+- **PHP 7.4 (Official Release) Is Now Available in MyKinsta** - `kb/changelog/php-7-4.md`  
+  https://kinsta.com/changelog/php-7-4/
+- **PHP 7.4-RC4 is Now Available for Testing** - `kb/changelog/php-7-4-rc4.md`  
+  https://kinsta.com/changelog/php-7-4-rc4/
+- **PHP 8.0 Beta is Now Available for Staging Environments** - `kb/changelog/php-8-availability.md`  
+  https://kinsta.com/changelog/php-8-availability/
+- **PHP 8.0 Now Available for All Environments and Websites** - `kb/changelog/php-8.md`  
+  https://kinsta.com/changelog/php-8/
+- **PHP 8.1 Is Now Available for All Environments** - `kb/changelog/php-8-1.md`  
+  https://kinsta.com/changelog/php-8-1/
+- **PHP 8.2 Is Now Available for All Environments** - `kb/changelog/php-8-2-now-available.md`  
+  https://kinsta.com/changelog/php-8-2-now-available/
+- **PHP 8.3 is available to Kinsta’s Managed WordPress Hosting customers** - `kb/changelog/php-8-3-now-available.md`  
+  https://kinsta.com/changelog/php-8-3-now-available/
+- **PHP 8.4 is now available for Kinsta’s WordPress customers** - `kb/changelog/php-8-4-available.md`  
+  https://kinsta.com/changelog/php-8-4-available/
+- **PHP 8.5 is now available to Kinsta customers** - `kb/changelog/php-8-5-available.md`  
+  https://kinsta.com/changelog/php-8-5-available/
+- **PHP Environment Control** - `kb/changelog/php-environment-control.md`  
+  https://kinsta.com/changelog/php-environment-control/
+- **Paris Data Center Is Now Available** - `kb/changelog/google-cloud-paris-data-center.md`  
+  https://kinsta.com/changelog/google-cloud-paris-data-center/
+- **Password Protection (htpasswd) Tool Now Available in MyKinsta** - `kb/changelog/password-protection-htpasswd.md`  
+  https://kinsta.com/changelog/password-protection-htpasswd/
+- **Persistent Storage: More Long-Term Memory for Application Hosting** - `kb/changelog/persistent-storage.md`  
+  https://kinsta.com/changelog/persistent-storage/
+- **Plugin updates for multiple websites made easy in MyKinsta** - `kb/changelog/plugin-updates.md`  
+  https://kinsta.com/changelog/plugin-updates/
+- **Plugins List In My Kinsta** - `kb/changelog/plugins-list-kinsta.md`  
+  https://kinsta.com/changelog/plugins-list-kinsta/
+- **Preview Your Site Before Making Any Changes to DNS, Database, and Files** - `kb/changelog/site-preview-tool.md`  
+  https://kinsta.com/changelog/site-preview-tool/
+- **Redirect Rules Are Now Available On MyKinsta** - `kb/changelog/redirect-rules-mykinsta.md`  
+  https://kinsta.com/changelog/redirect-rules-mykinsta/
+- **Redirect Traffic to Your Site With the New Geolocation Tool** - `kb/changelog/geolocation.md`  
+  https://kinsta.com/changelog/geolocation/
+- **Reset sites, manage DNS records, and more with Kinsta API** - `kb/changelog/kinsta-api-jul-2025.md`  
+  https://kinsta.com/changelog/kinsta-api-jul-2025/
+- **Restore Backups To Staging** - `kb/changelog/restore-backups-staging.md`  
+  https://kinsta.com/changelog/restore-backups-staging/
+- **Rolling out Google Cloud’s Compute-Optimized (C2) VMs to Everyone** - `kb/changelog/google-cloud-platform-c2-vms.md`  
+  https://kinsta.com/changelog/google-cloud-platform-c2-vms/
+- **Run, Automate, and Schedule Your Tasks with Cron Jobs** - `kb/changelog/cron-jobs.md`  
+  https://kinsta.com/changelog/cron-jobs/
+- **SSH on All Plans, More Disk Space, Additional Free Migrations** - `kb/changelog/ssh-disk-space-free-migration.md`  
+  https://kinsta.com/changelog/ssh-disk-space-free-migration/
+- **Salt Lake City Data Center Is Now Available** - `kb/changelog/google-cloud-salt-lake-city-data-center.md`  
+  https://kinsta.com/changelog/google-cloud-salt-lake-city-data-center/
+- **Santiago Data Center Is Now Available** - `kb/changelog/google-cloud-santiago-data-center.md`  
+  https://kinsta.com/changelog/google-cloud-santiago-data-center/
+- **Save Money With Referrals While Sharing Your Love for Kinsta** - `kb/changelog/referrals.md`  
+  https://kinsta.com/changelog/referrals/
+- **Scaling Made Simple: Introducing Database Resizing** - `kb/changelog/resize-database.md`  
+  https://kinsta.com/changelog/resize-database/
+- **Search and Replace Tool Launched** - `kb/changelog/search-replace-tool.md`  
+  https://kinsta.com/changelog/search-replace-tool/
+- **Secure Generated Password For New WP Installs** - `kb/changelog/secure-generated-password-new-wp-installs.md`  
+  https://kinsta.com/changelog/secure-generated-password-new-wp-installs/
+- **See exactly where your site’s traffic goes with bot protection** - `kb/changelog/bot-protection-analytics.md`  
+  https://kinsta.com/changelog/bot-protection-analytics/
+- **Selective Push now supports deployments from live to staging** - `kb/changelog/selective-push-from-live.md`  
+  https://kinsta.com/changelog/selective-push-from-live/
+- **Seoul Data Center Is Now Available** - `kb/changelog/google-cloud-seoul-data-center.md`  
+  https://kinsta.com/changelog/google-cloud-seoul-data-center/
+- **Separation Of Staging And Live Environments** - `kb/changelog/separation-staging-live-environments.md`  
+  https://kinsta.com/changelog/separation-staging-live-environments/
+- **Set custom webroots for your WordPress sites with Kinsta API** - `kb/changelog/custom-webroot.md`  
+  https://kinsta.com/changelog/custom-webroot/
+- **Simplify secure access to MyKinsta with SAML single sign-on** - `kb/changelog/single-sign-on.md`  
+  https://kinsta.com/changelog/single-sign-on/
+- **Site Renaming in MyKinsta** - `kb/changelog/site-renaming.md`  
+  https://kinsta.com/changelog/site-renaming/
+- **Slash application downtime with Kinsta healthcheck** - `kb/changelog/application-healthcheck.md`  
+  https://kinsta.com/changelog/application-healthcheck/
+- **South African data center in Johannesburg is now available** - `kb/changelog/google-cloud-johannesburg-data-center.md`  
+  https://kinsta.com/changelog/google-cloud-johannesburg-data-center/
+- **South America Data Center is Now Available (São Paulo, Brazil)** - `kb/changelog/south-america-data-center.md`  
+  https://kinsta.com/changelog/south-america-data-center/
+- **Speed things up with automatic Image Optimization** - `kb/changelog/wordpress-image-optimization.md`  
+  https://kinsta.com/changelog/wordpress-image-optimization/
+- **Speed up MyKinsta navigation with keyboard-powered omni-search** - `kb/changelog/mykinsta-omni-search.md`  
+  https://kinsta.com/changelog/mykinsta-omni-search/
+- **Stay in the Loop with Our New Status Page** - `kb/changelog/status-page.md`  
+  https://kinsta.com/changelog/status-page/
+- **Subdomain delegation with NS records now available in Kinsta DNS** - `kb/changelog/subdomain-delegation-with-ns-records.md`  
+  https://kinsta.com/changelog/subdomain-delegation-with-ns-records/
+- **Switzerland Data Center Is Now Available in Zürich (19th Location)** - `kb/changelog/switzerland-data-center.md`  
+  https://kinsta.com/changelog/switzerland-data-center/
+- **TLS 1.3, Public IPv4 Tool, Better Status Notifications, and MyKinsta Updates** - `kb/changelog/tls-ipv4-tool.md`  
+  https://kinsta.com/changelog/tls-ipv4-tool/
+- **Tel Aviv Data Center Is Now Available** - `kb/changelog/google-cloud-tel-aviv-data-center.md`  
+  https://kinsta.com/changelog/google-cloud-tel-aviv-data-center/
+- **Those things we called PHP workers? Now we’re calling them threads** - `kb/changelog/workers-now-threads.md`  
+  https://kinsta.com/changelog/workers-now-threads/
+- **Toronto Data Center Is Now Available** - `kb/changelog/google-cloud-toronto-data-center.md`  
+  https://kinsta.com/changelog/google-cloud-toronto-data-center/
+- **Track monthly usage and run WP-CLI commands with the Kinsta API** - `kb/changelog/kinsta-api-dec-2025.md`  
+  https://kinsta.com/changelog/kinsta-api-dec-2025/
+- **Transfer Sites to Another Company with Kinsta’s Enhanced Site Transfer Tool** - `kb/changelog/site-transfer-tool.md`  
+  https://kinsta.com/changelog/site-transfer-tool/
+- **Turn back time with the new reset option for WordPress sites** - `kb/changelog/reset-wordpress-site.md`  
+  https://kinsta.com/changelog/reset-wordpress-site/
+- **Two-factor authentication is now required for MyKinsta logins** - `kb/changelog/two-factor-authentication.md`  
+  https://kinsta.com/changelog/two-factor-authentication/
+- **Unlimited Free Basic WordPress Migrations from All Hosting Providers Now Available** - `kb/changelog/free-wordpress-migrations.md`  
+  https://kinsta.com/changelog/free-wordpress-migrations/
+- **Update WordPress themes across multiple sites with just a few clicks** - `kb/changelog/theme-updates.md`  
+  https://kinsta.com/changelog/theme-updates/
+- **Update multiple WordPress sites with MyKinsta’s Bulk Actions** - `kb/changelog/bulk-actions.md`  
+  https://kinsta.com/changelog/bulk-actions/
+- **WP-CLI v2 Is Now the Default on All Kinsta Servers** - `kb/changelog/wp-cli-v2.md`  
+  https://kinsta.com/changelog/wp-cli-v2/
+- **Warsaw Data Center Is Now Available** - `kb/changelog/google-cloud-warsaw-data-center.md`  
+  https://kinsta.com/changelog/google-cloud-warsaw-data-center/
+- **Welcome to the New MyKinsta** - `kb/changelog/new-mykinsta.md`  
+  https://kinsta.com/changelog/new-mykinsta/
+- **We’re Using The Latest Ubuntu 16.04 On All Cloud Servers** - `kb/changelog/using-latest-ubuntu-16-04.md`  
+  https://kinsta.com/changelog/using-latest-ubuntu-16-04/
+- **We’ve renamed our WordPress hosting plans and boosted resource limits** - `kb/changelog/new-plan-names.md`  
+  https://kinsta.com/changelog/new-plan-names/
+- **When bots go bad, Kinsta has your back** - `kb/changelog/bot-protection.md`  
+  https://kinsta.com/changelog/bot-protection/
+- **You can dig deeper into MyKinsta site Analytics** - `kb/changelog/analytics-improvements.md`  
+  https://kinsta.com/changelog/analytics-improvements/
+- **You can now add your SSH keys in MyKinsta** - `kb/changelog/add-ssh-keys.md`  
+  https://kinsta.com/changelog/add-ssh-keys/
+- **phpMyAdmin: You can get there from here in one click** - `kb/changelog/phpmyadmin-one-click.md`  
+  https://kinsta.com/changelog/phpmyadmin-one-click/
+
 ## Blog (secondary - never outranks docs)  (`blog`, 138 pages)
 
-### Blog
+### General
 
 - **3 ways to handle traffic surges without downgrading or upgrading plans** - `kb/blog/how-to-handle-traffic-surges.md`  
   https://kinsta.com/blog/how-to-handle-traffic-surges/
@@ -46,12 +471,10 @@ python3 scripts/kinsta_kb.py check --url <url>
   https://kinsta.com/blog/integrate-zendesk-kinsta-api/
 - **Building WordPress blocks with Telex** - `kb/blog/wordpress-blocks-telex.md`  
   https://kinsta.com/blog/wordpress-blocks-telex/
-- **Building WordPress for AI agents, not just human visitors** - `kb/blog/wordpress-for-ai-agents.md`  
+- **Building WordPress for AI agents instead of just human visitors** - `kb/blog/wordpress-for-ai-agents.md`  
   https://kinsta.com/blog/wordpress-for-ai-agents/
 - **Can I still benefit from AI search without letting bots destroy my server?** - `kb/blog/ai-search-bot-traffic.md`  
   https://kinsta.com/blog/ai-search-bot-traffic/
-- **Complete guide to managing a WordPress multisite network** - `kb/blog/the-complete-guide-to-managing-a-wordpress-multisite-network.md`  
-  https://kinsta.com/blog/the-complete-guide-to-managing-a-wordpress-multisite-network/
 - **Create your own MCP Server to control WordPress hosting with AI** - `kb/blog/mcp-server-kinsta-api.md`  
   https://kinsta.com/blog/mcp-server-kinsta-api/
 - **Customers say we’re a great web host. G2 says we’re #1** - `kb/blog/g2-awards-best-web-host.md`  
@@ -118,7 +541,7 @@ python3 scripts/kinsta_kb.py check --url <url>
   https://kinsta.com/blog/block-bots-wordpress-cloudflare/
 - **How to reduce bandwidth waste without blocking legitimate users** - `kb/blog/reduce-bandwidth-waste-bot-traffic.md`  
   https://kinsta.com/blog/reduce-bandwidth-waste-bot-traffic/
-- **How to resell hosting with Kinsta and boost your agency's revenue** - `kb/blog/how-to-resell-kinsta-hosting.md`  
+- **How to resell hosting with Kinsta and boost your agency’s revenue** - `kb/blog/how-to-resell-kinsta-hosting.md`  
   https://kinsta.com/blog/how-to-resell-kinsta-hosting/
 - **How to scale your site for Black Friday with Kinsta’s PHP performance add-on** - `kb/blog/scaling-your-site-for-black-friday.md`  
   https://kinsta.com/blog/scaling-your-site-for-black-friday/
@@ -144,7 +567,7 @@ python3 scripts/kinsta_kb.py check --url <url>
   https://kinsta.com/blog/2025-year-in-review/
 - **Kinsta’s Black Friday campaign is a win for affiliates** - `kb/blog/black-friday-affiliates.md`  
   https://kinsta.com/blog/black-friday-affiliates/
-- **Manage hundreds of sites with Kinsta's WP Admin auto-login** - `kb/blog/kinsta-wp-admin-auto-login.md`  
+- **Manage hundreds of sites with Kinsta’s WP Admin auto-login** - `kb/blog/kinsta-wp-admin-auto-login.md`  
   https://kinsta.com/blog/kinsta-wp-admin-auto-login/
 - **Managing DNS centrally for multiple client sites with Cloudflare** - `kb/blog/centralized-dns-cloudflare-agencies.md`  
   https://kinsta.com/blog/centralized-dns-cloudflare-agencies/
@@ -172,11 +595,11 @@ python3 scripts/kinsta_kb.py check --url <url>
   https://kinsta.com/blog/meet-kinsta-in-singapore/
 - **Migrating to Kinsta: debunking the myths that hold agencies back** - `kb/blog/wordpress-migration-myths.md`  
   https://kinsta.com/blog/wordpress-migration-myths/
-- **New features, new blocks, new APIs: here is what's new in WordPress 6.9** - `kb/blog/wordpress-6-9.md`  
+- **New features, new blocks, new APIs: here is what’s new in WordPress 6.9** - `kb/blog/wordpress-6-9.md`  
   https://kinsta.com/blog/wordpress-6-9/
 - **PHP 8.5 benchmarks: The state of PHP performance across major CMSs and frameworks** - `kb/blog/php-benchmarks.md`  
   https://kinsta.com/blog/php-benchmarks/
-- **PHP 8.5: Here's what's new in the latest release** - `kb/blog/php-8-5.md`  
+- **PHP 8.5: Here’s what’s new in the latest release** - `kb/blog/php-8-5.md`  
   https://kinsta.com/blog/php-8-5/
 - **Performance benchmarking WordPress on Kinsta vs DIY hosting** - `kb/blog/wordpress-benchmarking-diy-hosting.md`  
   https://kinsta.com/blog/wordpress-benchmarking-diy-hosting/
@@ -208,9 +631,11 @@ python3 scripts/kinsta_kb.py check --url <url>
   https://kinsta.com/blog/wordpress-database-tables-maintenance/
 - **The cloud became too complex. Sevalla is building the off-ramp for production teams** - `kb/blog/the-cloud-became-too-complex-sevalla-is-building-the-off-ramp-for-production-teams.md`  
   https://kinsta.com/blog/the-cloud-became-too-complex-sevalla-is-building-the-off-ramp-for-production-teams/
+- **The complete guide to managing a WordPress multisite network** - `kb/blog/the-complete-guide-to-managing-a-wordpress-multisite-network.md`  
+  https://kinsta.com/blog/the-complete-guide-to-managing-a-wordpress-multisite-network/
 - **The end of fragile growth: Building scalable, profitable WordPress agencies** - `kb/blog/scalable-wordpress-agencies.md`  
   https://kinsta.com/blog/scalable-wordpress-agencies/
-- **The hidden cost of bot traffic on WordPress: what bandwidth reports don't show** - `kb/blog/bot-traffic-hosting-cost-wordpress.md`  
+- **The hidden cost of bot traffic on WordPress: what bandwidth reports don’t show** - `kb/blog/bot-traffic-hosting-cost-wordpress.md`  
   https://kinsta.com/blog/bot-traffic-hosting-cost-wordpress/
 - **The hidden costs of website downtime and what you can do about it** - `kb/blog/website-downtime-hidden-costs.md`  
   https://kinsta.com/blog/website-downtime-hidden-costs/
@@ -236,7 +661,7 @@ python3 scripts/kinsta_kb.py check --url <url>
   https://kinsta.com/blog/white-label-hosting/
 - **What “enterprise-ready” means for WordPress (and how some hosts misuse the term)** - `kb/blog/what-enterprise-ready-means.md`  
   https://kinsta.com/blog/what-enterprise-ready-means/
-- **What's new in WordPress 7.0: AI integration, new blocks, and much more** - `kb/blog/wordpress-7-0.md`  
+- **What’s new in WordPress 7.0: AI integration, new blocks, and much more** - `kb/blog/wordpress-7-0.md`  
   https://kinsta.com/blog/wordpress-7-0/
 - **What’s new in WordPress 7.1: Client-side media processing, design tools, Abilities API, and much more** - `kb/blog/wordpress-7-1.md`  
   https://kinsta.com/blog/wordpress-7-1/
@@ -272,13 +697,13 @@ python3 scripts/kinsta_kb.py check --url <url>
   https://kinsta.com/blog/wordpress-analytics-limitations/
 - **Why scaling agencies optimize for fewer incidents, not faster fixes** - `kb/blog/agency-incident-prevention-wordpress.md`  
   https://kinsta.com/blog/agency-incident-prevention-wordpress/
-- **Why scaling infrastructure doesn't fix bot traffic problems** - `kb/blog/bot-traffic-server-load-wordpress.md`  
+- **Why scaling infrastructure doesn’t fix bot traffic problems** - `kb/blog/bot-traffic-server-load-wordpress.md`  
   https://kinsta.com/blog/bot-traffic-server-load-wordpress/
 - **Why the best AI agent is the one that knows when to ask a human** - `kb/blog/wordpress-ai-workflow-escalation.md`  
   https://kinsta.com/blog/wordpress-ai-workflow-escalation/
 - **Why vendor trust matters more than vendor size in enterprise hosting** - `kb/blog/vendor-trust-enterprise-wordpress-hosting.md`  
   https://kinsta.com/blog/vendor-trust-enterprise-wordpress-hosting/
-- **Why your hosting is part of your website's credibility test** - `kb/blog/hosting-website-credibility.md`  
+- **Why your hosting is part of your website’s credibility test** - `kb/blog/hosting-website-credibility.md`  
   https://kinsta.com/blog/hosting-website-credibility/
 - **WordPress AI integration: A deep dive into architecture and a real-world use case** - `kb/blog/wordpress-ai.md`  
   https://kinsta.com/blog/wordpress-ai/
@@ -288,618 +713,6 @@ python3 scripts/kinsta_kb.py check --url <url>
   https://kinsta.com/blog/wordpress-background-tasks-performance/
 - **Your WordPress site now has a third type of visitor (and it completes purchases)** - `kb/blog/agentic-commerce-wordpress.md`  
   https://kinsta.com/blog/agentic-commerce-wordpress/
-
-## Changelog  (`changelog`, 122 pages)
-
-### 3 new Kinsta API endpoints for Application Hosting (CDN, Edge Caching, & clear cache)
-
-- **3 new Kinsta API endpoints for Application Hosting (CDN, Edge Caching, & clear cache)** - `kb/changelog/kinsta-api-mar-2024.md`  
-  https://kinsta.com/changelog/kinsta-api-mar-2024/
-
-### A new option for sharing the management of DNS in MyKinsta
-
-- **A new option for sharing the management of DNS in MyKinsta** - `kb/changelog/dns-management-roles.md`  
-  https://kinsta.com/changelog/dns-management-roles/
-
-### A new view of cache performance for your WordPress site
-
-- **A new view of cache performance for your WordPress site** - `kb/changelog/cache-breakdown.md`  
-  https://kinsta.com/changelog/cache-breakdown/
-
-### Access Your Application Through the New Web Terminal
-
-- **Access Your Application Through the New Web Terminal** - `kb/changelog/web-terminal.md`  
-  https://kinsta.com/changelog/web-terminal/
-
-### Access application metrics and company user data with Kinsta API
-
-- **Access application metrics and company user data with Kinsta API** - `kb/changelog/kinsta-api-may-2024.md`  
-  https://kinsta.com/changelog/kinsta-api-may-2024/
-
-### Access more traffic and response insights with the Kinsta API
-
-- **Access more traffic and response insights with the Kinsta API** - `kb/changelog/kinsta-api-mar-2026.md`  
-  https://kinsta.com/changelog/kinsta-api-mar-2026/
-
-### Access more visitor data with the Kinsta API
-
-- **Access more visitor data with the Kinsta API** - `kb/changelog/kinsta-api-aug-2026.md`  
-  https://kinsta.com/changelog/kinsta-api-aug-2026/
-
-### Access website analytics with the Kinsta API
-
-- **Access website analytics with the Kinsta API** - `kb/changelog/kinsta-api-nov-2025.md`  
-  https://kinsta.com/changelog/kinsta-api-nov-2025/
-
-### Add more WordPress sites to your existing hosting plan at Kinsta
-
-- **Add more WordPress sites to your existing hosting plan at Kinsta** - `kb/changelog/add-wordpress-sites.md`  
-  https://kinsta.com/changelog/add-wordpress-sites/
-
-### An improved Web Terminal for apps gets you to the command line quicker
-
-- **An improved Web Terminal for apps gets you to the command line quicker** - `kb/changelog/improved-web-terminal.md`  
-  https://kinsta.com/changelog/improved-web-terminal/
-
-### Application, database, and static site hosting are moving to Sevalla
-
-- **Application, database, and static site hosting are moving to Sevalla** - `kb/changelog/paas-moving-to-sevalla.md`  
-  https://kinsta.com/changelog/paas-moving-to-sevalla/
-
-### Assign team members to manage apps, databases, and static sites
-
-- **Assign team members to manage apps, databases, and static sites** - `kb/changelog/paas-user-roles.md`  
-  https://kinsta.com/changelog/paas-user-roles/
-
-### Automatic MySQL Database Optimizations, Self-Healing PHP, GCP Firewall
-
-- **Automatic MySQL Database Optimizations, Self-Healing PHP, GCP Firewall** - `kb/changelog/auto-db-optimize.md`  
-  https://kinsta.com/changelog/auto-db-optimize/
-
-### Automatic Scaling Helps Your Application Keep Pace With Demand
-
-- **Automatic Scaling Helps Your Application Keep Pace With Demand** - `kb/changelog/automatic-scaling.md`  
-  https://kinsta.com/changelog/automatic-scaling/
-
-### Boost Your Website’s Speed With New Early Hints Feature
-
-- **Boost Your Website's Speed With New Early Hints Feature** - `kb/changelog/early-hints.md`  
-  https://kinsta.com/changelog/early-hints/
-
-### Change CDN status added to MyKinsta’s Bulk Actions
-
-- **Change CDN status added to MyKinsta's Bulk Actions** - `kb/changelog/bulk-actions-change-cdn.md`  
-  https://kinsta.com/changelog/bulk-actions-change-cdn/
-
-### Change PHP versions across multiple WordPress sites with Bulk Actions
-
-- **Change PHP versions across multiple WordPress sites with Bulk Actions** - `kb/changelog/change-php-bulk-action.md`  
-  https://kinsta.com/changelog/change-php-bulk-action/
-
-### Change primary domains and manage SFTP access with Kinsta API
-
-- **Change primary domains and manage SFTP access with Kinsta API** - `kb/changelog/kinsta-api-jun-23-2025.md`  
-  https://kinsta.com/changelog/kinsta-api-jun-23-2025/
-
-### Choose bandwidth or visit counts for hosting plan pricing
-
-- **Choose bandwidth or visit counts for hosting plan pricing** - `kb/changelog/bandwidth-or-visits-pricing.md`  
-  https://kinsta.com/changelog/bandwidth-or-visits-pricing/
-
-### Configure Edge Caching for multiple WordPress sites with Bulk Actions
-
-- **Configure Edge Caching for multiple WordPress sites with Bulk Actions** - `kb/changelog/bulk-actions-edge-caching.md`  
-  https://kinsta.com/changelog/bulk-actions-edge-caching/
-
-### Continuous Database Optimization: Always Working for You
-
-- **Continuous Database Optimization: Always Working for You** - `kb/changelog/continuous-database-optimization.md`  
-  https://kinsta.com/changelog/continuous-database-optimization/
-
-### Create accounts for additional SFTP users in MyKinsta
-
-- **Create accounts for additional SFTP users in MyKinsta** - `kb/changelog/additional-sftp-users.md`  
-  https://kinsta.com/changelog/additional-sftp-users/
-
-### Cross-site deployments of WordPress environments are now possible
-
-- **Cross-site deployments of WordPress environments are now possible** - `kb/changelog/push-to-other-sites.md`  
-  https://kinsta.com/changelog/push-to-other-sites/
-
-### Danish and Swedish language support ending (no action required)
-
-- **Danish and Swedish language support ending (no action required)** - `kb/changelog/danish-and-swedish-site-sunset.md`  
-  https://kinsta.com/changelog/danish-and-swedish-site-sunset/
-
-### DevKinsta Is Now Available For Ubuntu/Linux Users
-
-- **DevKinsta Is Now Available For Ubuntu/Linux Users** - `kb/changelog/local-wordpress-development-ubuntu.md`  
-  https://kinsta.com/changelog/local-wordpress-development-ubuntu/
-
-### Discover and manage Kinsta’s WordPress Add-ons — all in one place
-
-- **Discover and manage Kinsta’s WordPress Add-ons — all in one place** - `kb/changelog/mykinsta-navigation-add-ons.md`  
-  https://kinsta.com/changelog/mykinsta-navigation-add-ons/
-
-### Disk Space Add-on Is Now Available in MyKinsta
-
-- **Disk Space Add-on Is Now Available in MyKinsta** - `kb/changelog/disk-space-add-on.md`  
-  https://kinsta.com/changelog/disk-space-add-on/
-
-### Downloadable backups are now available in MyKinsta
-
-- **Downloadable backups are now available in MyKinsta** - `kb/changelog/downloadable-backups.md`  
-  https://kinsta.com/changelog/downloadable-backups/
-
-### Fetch files and target specific paths with the Kinsta API
-
-- **Fetch files and target specific paths with the Kinsta API** - `kb/changelog/kinsta-api-jun-2025.md`  
-  https://kinsta.com/changelog/kinsta-api-jun-2025/
-
-### Find all your WordPress caching tools together in MyKinsta
-
-- **Find all your WordPress caching tools together in MyKinsta** - `kb/changelog/mykinsta-navigation-caching.md`  
-  https://kinsta.com/changelog/mykinsta-navigation-caching/
-
-### Fine-tune CDN, edge cache, and PHP behavior via the Kinsta API
-
-- **Fine-tune CDN, edge cache, and PHP behavior via the Kinsta API** - `kb/changelog/kinsta-api-may-2025.md`  
-  https://kinsta.com/changelog/kinsta-api-may-2025/
-
-### Force HTTPS Tool Now Available on MyKinsta
-
-- **Force HTTPS Tool Now Available on MyKinsta** - `kb/changelog/force-https.md`  
-  https://kinsta.com/changelog/force-https/
-
-### Free Application Performance Monitoring with Kinsta’s APM Tool
-
-- **Free Application Performance Monitoring with Kinsta's APM Tool** - `kb/changelog/kinsta-apm-tool.md`  
-  https://kinsta.com/changelog/kinsta-apm-tool/
-
-### Free and unlimited WordPress migrations
-
-- **Free and unlimited WordPress migrations** - `kb/changelog/unlimited-free-migrations.md`  
-  https://kinsta.com/changelog/unlimited-free-migrations/
-
-### General
-
-- **Changelog** - `kb/changelog/index.md`  
-  https://kinsta.com/changelog/
-
-### Generate phpMyAdmin login link and view API activity with the Kinsta API
-
-- **Generate phpMyAdmin login link and view API activity with the Kinsta API** - `kb/changelog/kinsta-api-nov-21-2025.md`  
-  https://kinsta.com/changelog/kinsta-api-nov-21-2025/
-
-### Get selective when pushing staged environments
-
-- **Get selective when pushing staged environments** - `kb/changelog/selective-push-environment.md`  
-  https://kinsta.com/changelog/selective-push-environment/
-
-### Get the jump on MyKinsta navigation with new shortcut features
-
-- **Get the jump on MyKinsta navigation with new shortcut features** - `kb/changelog/mykinsta-navigation.md`  
-  https://kinsta.com/changelog/mykinsta-navigation/
-
-### Go beyond backups with Kinsta Disaster Recovery
-
-- **Go beyond backups with Kinsta Disaster Recovery** - `kb/changelog/disaster-recovery.md`  
-  https://kinsta.com/changelog/disaster-recovery/
-
-### Hourly Backups Add-on is Now Available in MyKinsta
-
-- **Hourly Backups Add-on is Now Available in MyKinsta** - `kb/changelog/hourly-backups.md`  
-  https://kinsta.com/changelog/hourly-backups/
-
-### Improved messaging for Kinsta Automatic Updates
-
-- **Improved messaging for Kinsta Automatic Updates** - `kb/changelog/automatic-updates-messaging.md`  
-  https://kinsta.com/changelog/automatic-updates-messaging/
-
-### In a rush? Request a site migration in 8 hours (or less)
-
-- **In a rush? Request a site migration in 8 hours (or less)** - `kb/changelog/expedited-migration.md`  
-  https://kinsta.com/changelog/expedited-migration/
-
-### Increasing Kinsta’s Free CDN Bandwidth (Up to 500%)
-
-- **Increasing Kinsta’s Free CDN Bandwidth (Up to 500%)** - `kb/changelog/cdn-bandwidth.md`  
-  https://kinsta.com/changelog/cdn-bandwidth/
-
-### India Data Center Is Now Available in Mumbai
-
-- **India Data Center Is Now Available in Mumbai** - `kb/changelog/india-data-center.md`  
-  https://kinsta.com/changelog/india-data-center/
-
-### Introducing Companies
-
-- **Introducing Companies** - `kb/changelog/introducing-companies.md`  
-  https://kinsta.com/changelog/introducing-companies/
-
-### Introducing DevKinsta, the Free Local WordPress Development Tool (for Everyone)
-
-- **Introducing DevKinsta, the Free Local WordPress Development Tool (for Everyone)** - `kb/changelog/local-wordpress-development.md`  
-  https://kinsta.com/changelog/local-wordpress-development/
-
-### Introducing Kinsta API: The Power of Automation for Site Management
-
-- **Introducing Kinsta API: The Power of Automation for Site Management** - `kb/changelog/kinsta-api.md`  
-  https://kinsta.com/changelog/kinsta-api/
-
-### Introducing Kinsta’s Premium Staging Environment add-On
-
-- **Introducing Kinsta's Premium Staging Environment add-On** - `kb/changelog/premium-staging-environments.md`  
-  https://kinsta.com/changelog/premium-staging-environments/
-
-### Introducing Nixpacks for Streamlined Deployments
-
-- **Introducing Nixpacks for Streamlined Deployments** - `kb/changelog/nixpacks.md`  
-  https://kinsta.com/changelog/nixpacks/
-
-### Introducing the New Affiliate Dashboard
-
-- **Introducing the New Affiliate Dashboard** - `kb/changelog/new-affiliate-dashboard.md`  
-  https://kinsta.com/changelog/new-affiliate-dashboard/
-
-### Introducing the Remove Set-Cookie Headers Tool
-
-- **Introducing the Remove Set-Cookie Headers Tool** - `kb/changelog/remove-set-cookie-headers-tool.md`  
-  https://kinsta.com/changelog/remove-set-cookie-headers-tool/
-
-### It’s easier to get started with Kinsta Disaster Recovery
-
-- **It’s easier to get started with Kinsta Disaster Recovery** - `kb/changelog/disaster-recovery-request.md`  
-  https://kinsta.com/changelog/disaster-recovery-request/
-
-### Kinsta Affiliate Program Is Now Open for Registration
-
-- **Kinsta Affiliate Program Is Now Open for Registration** - `kb/changelog/affiliate-program.md`  
-  https://kinsta.com/changelog/affiliate-program/
-
-### Kinsta Automatic Updates: Hands-free WordPress plugin and theme management
-
-- **Kinsta Automatic Updates: Hands-free WordPress plugin and theme management** - `kb/changelog/kinsta-automatic-updates.md`  
-  https://kinsta.com/changelog/kinsta-automatic-updates/
-
-### Kinsta CDN Is Now Powered by Cloudflare
-
-- **Kinsta CDN Is Now Powered by Cloudflare** - `kb/changelog/kinsta-cdn-cloudflare.md`  
-  https://kinsta.com/changelog/kinsta-cdn-cloudflare/
-
-### Kinsta Introduces Application Hosting and Database Hosting
-
-- **Kinsta Introduces Application Hosting and Database Hosting** - `kb/changelog/application-database-hosting.md`  
-  https://kinsta.com/changelog/application-database-hosting/
-
-### Kinsta Is Adopting Google’s C3D Machines for Even Faster Response Times
-
-- **Kinsta Is Adopting Google’s C3D Machines for Even Faster Response Times** - `kb/changelog/google-c3d-machines.md`  
-  https://kinsta.com/changelog/google-c3d-machines/
-
-### Kinsta Must-Use Plugin — Changelog
-
-- **Kinsta Must-Use Plugin — Changelog** - `kb/changelog/mu-plugin-changelog.md`  
-  https://kinsta.com/changelog/mu-plugin-changelog/
-
-### Kinsta Static Site Hosting is Fast and Free
-
-- **Kinsta Static Site Hosting is Fast and Free** - `kb/changelog/static-site-hosting.md`  
-  https://kinsta.com/changelog/static-site-hosting/
-
-### Kinsta Unveils New and Improved Documentation
-
-- **Kinsta Unveils New and Improved Documentation** - `kb/changelog/new-documentation.md`  
-  https://kinsta.com/changelog/new-documentation/
-
-### Kinsta adopts Google’s fast C3D VMs in Mumbai and Las Vegas data centers
-
-- **Kinsta adopts Google's fast C3D VMs in Mumbai and Las Vegas data centers** - `kb/changelog/c3d-mumbai-las-vegas.md`  
-  https://kinsta.com/changelog/c3d-mumbai-las-vegas/
-
-### Kinsta adopts faster C3D VMs in Frankfurt and Sydney data centers
-
-- **Kinsta adopts faster C3D VMs in Frankfurt and Sydney data centers** - `kb/changelog/c3d-frankfurt-sydney.md`  
-  https://kinsta.com/changelog/c3d-frankfurt-sydney/
-
-### Kinsta earns ISO 27001 certification for its data security and privacy efforts
-
-- **Kinsta earns ISO 27001 certification for its data security and privacy efforts** - `kb/changelog/iso-27001-certification.md`  
-  https://kinsta.com/changelog/iso-27001-certification/
-
-### Kinsta now supports end of life PHP versions 7.4 and 8.0
-
-- **Kinsta now supports end of life PHP versions 7.4 and 8.0** - `kb/changelog/end-of-life-php-support.md`  
-  https://kinsta.com/changelog/end-of-life-php-support/
-
-### Kinsta offers WordPress hosting from Google’s Saudi Arabia data center
-
-- **Kinsta offers WordPress hosting from Google's Saudi Arabia data center** - `kb/changelog/google-cloud-saudi-arabia-data-center.md`  
-  https://kinsta.com/changelog/google-cloud-saudi-arabia-data-center/
-
-### Kinsta offers more ways to manage SFTP/SSH access to WordPress
-
-- **Kinsta offers more ways to manage SFTP/SSH access to WordPress** - `kb/changelog/sftp-ssh-updates.md`  
-  https://kinsta.com/changelog/sftp-ssh-updates/
-
-### Kinsta’s Help Center — The New Home for Support Answers and Documentation
-
-- **Kinsta's Help Center — The New Home for Support Answers and Documentation** - `kb/changelog/help-center.md`  
-  https://kinsta.com/changelog/help-center/
-
-### Kinsta’s Security Efforts Recognized as SOC 2 Compliant
-
-- **Kinsta's Security Efforts Recognized as SOC 2 Compliant** - `kb/changelog/soc-2-compliance.md`  
-  https://kinsta.com/changelog/soc-2-compliance/
-
-### Lock down SFTP/SSH and phpMyAdmin access with IP allowlists
-
-- **Lock down SFTP/SSH and phpMyAdmin access with IP allowlists** - `kb/changelog/ip-allowlists.md`  
-  https://kinsta.com/changelog/ip-allowlists/
-
-### Log in to WordPress Admin dashboards with a single click in MyKinsta
-
-- **Log in to WordPress Admin dashboards with a single click in MyKinsta** - `kb/changelog/wordpress-admin-login.md`  
-  https://kinsta.com/changelog/wordpress-admin-login/
-
-### Make a site “disappear” with environment suspension
-
-- **Make a site "disappear" with environment suspension** - `kb/changelog/environment-suspension.md`  
-  https://kinsta.com/changelog/environment-suspension/
-
-### Manage SSH and SFTP access with the Kinsta API
-
-- **Manage SSH and SFTP access with the Kinsta API** - `kb/changelog/kinsta-api-oct-2025.md`  
-  https://kinsta.com/changelog/kinsta-api-oct-2025/
-
-### Manage WordPress Admin auto-login users with the Kinsta API
-
-- **Manage WordPress Admin auto-login users with the Kinsta API** - `kb/changelog/kinsta-api-apr-2026.md`  
-  https://kinsta.com/changelog/kinsta-api-apr-2026/
-
-### Manage WordPress files in the MyKinsta dashboard
-
-- **Manage WordPress files in the MyKinsta dashboard** - `kb/changelog/file-manager.md`  
-  https://kinsta.com/changelog/file-manager/
-
-### Manage WordPress plugins and themes with the Kinsta API
-
-- **Manage WordPress plugins and themes with the Kinsta API** - `kb/changelog/kinsta-api-jan-2026.md`  
-  https://kinsta.com/changelog/kinsta-api-jan-2026/
-
-### Manage domains, HTTPS, logs, and backups with the Kinsta API
-
-- **Manage domains, HTTPS, logs, and backups with the Kinsta API** - `kb/changelog/kinsta-api-jul-2026.md`  
-  https://kinsta.com/changelog/kinsta-api-jul-2026/
-
-### Manage your site’s PHP threads and memory use for optimal performance
-
-- **Manage your site's PHP threads and memory use for optimal performance** - `kb/changelog/php-performance.md`  
-  https://kinsta.com/changelog/php-performance/
-
-### Move to a Visitor-Based Pricing Model
-
-- **Move to a Visitor-Based Pricing Model** - `kb/changelog/visitor-based-pricing-model.md`  
-  https://kinsta.com/changelog/visitor-based-pricing-model/
-
-### Multiple-site management bulks up in MyKinsta
-
-- **Multiple-site management bulks up in MyKinsta** - `kb/changelog/more-bulk-actions.md`  
-  https://kinsta.com/changelog/more-bulk-actions/
-
-### MyKinsta Analytics Revamped to Give You More Data
-
-- **MyKinsta Analytics Revamped to Give You More Data** - `kb/changelog/mykinsta-analytics.md`  
-  https://kinsta.com/changelog/mykinsta-analytics/
-
-### MyKinsta now locks accounts after repeated failed logins
-
-- **MyKinsta now locks accounts after repeated failed logins** - `kb/changelog/account-lockout.md`  
-  https://kinsta.com/changelog/account-lockout/
-
-### MyKinsta offers a “big-picture” view of your application
-
-- **MyKinsta offers a "big-picture" view of your application** - `kb/changelog/application-overview.md`  
-  https://kinsta.com/changelog/application-overview/
-
-### Need a Redis cache? You can serve yourself in MyKinsta
-
-- **Need a Redis cache? You can serve yourself in MyKinsta** - `kb/changelog/add-redis-cache.md`  
-  https://kinsta.com/changelog/add-redis-cache/
-
-### New Edge Caching Feature Slashes Page Load Times
-
-- **New Edge Caching Feature Slashes Page Load Times** - `kb/changelog/edge-caching.md`  
-  https://kinsta.com/changelog/edge-caching/
-
-### New Kinsta API Endpoints: Clear CDN Cache and Push Environment
-
-- **New Kinsta API Endpoints: Clear CDN Cache and Push Environment** - `kb/changelog/kinsta-api-sept-2023.md`  
-  https://kinsta.com/changelog/kinsta-api-sept-2023/
-
-### New Kinsta API endpoints enhance WordPress site management
-
-- **New Kinsta API endpoints enhance WordPress site management** - `kb/changelog/kinsta-api-feb-2024.md`  
-  https://kinsta.com/changelog/kinsta-api-feb-2024/
-
-### One-Click Staging Push To Live
-
-- **One-Click Staging Push To Live** - `kb/changelog/one-click-staging-push-live.md`  
-  https://kinsta.com/changelog/one-click-staging-push-live/
-
-### PHP 8.0 Now Available for All Environments and Websites
-
-- **PHP 8.0 Now Available for All Environments and Websites** - `kb/changelog/php-8.md`  
-  https://kinsta.com/changelog/php-8/
-
-### PHP 8.1 Is Now Available for All Environments
-
-- **PHP 8.1 Is Now Available for All Environments** - `kb/changelog/php-8-1.md`  
-  https://kinsta.com/changelog/php-8-1/
-
-### PHP 8.3 is available to Kinsta’s Managed WordPress Hosting customers
-
-- **PHP 8.3 is available to Kinsta's Managed WordPress Hosting customers** - `kb/changelog/php-8-3-now-available.md`  
-  https://kinsta.com/changelog/php-8-3-now-available/
-
-### PHP 8.4 is now available for Kinsta’s WordPress customers
-
-- **PHP 8.4 is now available for Kinsta’s WordPress customers** - `kb/changelog/php-8-4-available.md`  
-  https://kinsta.com/changelog/php-8-4-available/
-
-### PHP 8.5 is now available to Kinsta customers
-
-- **PHP 8.5 is now available to Kinsta customers** - `kb/changelog/php-8-5-available.md`  
-  https://kinsta.com/changelog/php-8-5-available/
-
-### Persistent Storage: More Long-Term Memory for Application Hosting
-
-- **Persistent Storage: More Long-Term Memory for Application Hosting** - `kb/changelog/persistent-storage.md`  
-  https://kinsta.com/changelog/persistent-storage/
-
-### Plugin updates for multiple websites made easy in MyKinsta
-
-- **Plugin updates for multiple websites made easy in MyKinsta** - `kb/changelog/plugin-updates.md`  
-  https://kinsta.com/changelog/plugin-updates/
-
-### Redirect Traffic to Your Site With the New Geolocation Tool
-
-- **Redirect Traffic to Your Site With the New Geolocation Tool** - `kb/changelog/geolocation.md`  
-  https://kinsta.com/changelog/geolocation/
-
-### Reset sites, manage DNS records, and more with Kinsta API
-
-- **Reset sites, manage DNS records, and more with Kinsta API** - `kb/changelog/kinsta-api-jul-2025.md`  
-  https://kinsta.com/changelog/kinsta-api-jul-2025/
-
-### Rolling out Google Cloud’s Compute-Optimized (C2) VMs to Everyone
-
-- **Rolling out Google Cloud's Compute-Optimized (C2) VMs to Everyone** - `kb/changelog/google-cloud-platform-c2-vms.md`  
-  https://kinsta.com/changelog/google-cloud-platform-c2-vms/
-
-### Run, Automate, and Schedule Your Tasks with Cron Jobs
-
-- **Run, Automate, and Schedule Your Tasks with Cron Jobs** - `kb/changelog/cron-jobs.md`  
-  https://kinsta.com/changelog/cron-jobs/
-
-### Save Money With Referrals While Sharing Your Love for Kinsta
-
-- **Save Money With Referrals While Sharing Your Love for Kinsta** - `kb/changelog/referrals.md`  
-  https://kinsta.com/changelog/referrals/
-
-### Search and Replace Tool Launched
-
-- **Search and Replace Tool Launched** - `kb/changelog/search-replace-tool.md`  
-  https://kinsta.com/changelog/search-replace-tool/
-
-### See exactly where your site’s traffic goes with bot protection
-
-- **See exactly where your site's traffic goes with bot protection** - `kb/changelog/bot-protection-analytics.md`  
-  https://kinsta.com/changelog/bot-protection-analytics/
-
-### Selective Push now supports deployments from live to staging
-
-- **Selective Push now supports deployments from live to staging** - `kb/changelog/selective-push-from-live.md`  
-  https://kinsta.com/changelog/selective-push-from-live/
-
-### Simplify secure access to MyKinsta with SAML single sign-on
-
-- **Simplify secure access to MyKinsta with SAML single sign-on** - `kb/changelog/single-sign-on.md`  
-  https://kinsta.com/changelog/single-sign-on/
-
-### Slash application downtime with Kinsta healthcheck
-
-- **Slash application downtime with Kinsta healthcheck** - `kb/changelog/application-healthcheck.md`  
-  https://kinsta.com/changelog/application-healthcheck/
-
-### South African data center in Johannesburg is now available
-
-- **South African data center in Johannesburg is now available** - `kb/changelog/google-cloud-johannesburg-data-center.md`  
-  https://kinsta.com/changelog/google-cloud-johannesburg-data-center/
-
-### Speed things up with automatic Image Optimization
-
-- **Speed things up with automatic Image Optimization** - `kb/changelog/wordpress-image-optimization.md`  
-  https://kinsta.com/changelog/wordpress-image-optimization/
-
-### Subdomain delegation with NS records now available in Kinsta DNS
-
-- **Subdomain delegation with NS records now available in Kinsta DNS** - `kb/changelog/subdomain-delegation-with-ns-records.md`  
-  https://kinsta.com/changelog/subdomain-delegation-with-ns-records/
-
-### Those things we called PHP workers? Now we’re calling them threads
-
-- **Those things we called PHP workers? Now we’re calling them threads** - `kb/changelog/workers-now-threads.md`  
-  https://kinsta.com/changelog/workers-now-threads/
-
-### Track monthly usage and run WP-CLI commands with the Kinsta API
-
-- **Track monthly usage and run WP-CLI commands with the Kinsta API** - `kb/changelog/kinsta-api-dec-2025.md`  
-  https://kinsta.com/changelog/kinsta-api-dec-2025/
-
-### Transfer Sites to Another Company with Kinsta’s Enhanced Site Transfer Tool
-
-- **Transfer Sites to Another Company with Kinsta's Enhanced Site Transfer Tool** - `kb/changelog/site-transfer-tool.md`  
-  https://kinsta.com/changelog/site-transfer-tool/
-
-### Turn back time with the new reset option for WordPress sites
-
-- **Turn back time with the new reset option for WordPress sites** - `kb/changelog/reset-wordpress-site.md`  
-  https://kinsta.com/changelog/reset-wordpress-site/
-
-### Two-factor authentication is now required for MyKinsta logins
-
-- **Two-factor authentication is now required for MyKinsta logins** - `kb/changelog/two-factor-authentication.md`  
-  https://kinsta.com/changelog/two-factor-authentication/
-
-### Update WordPress themes across multiple sites with just a few clicks
-
-- **Update WordPress themes across multiple sites with just a few clicks** - `kb/changelog/theme-updates.md`  
-  https://kinsta.com/changelog/theme-updates/
-
-### Update multiple WordPress sites with MyKinsta’s Bulk Actions
-
-- **Update multiple WordPress sites with MyKinsta's Bulk Actions** - `kb/changelog/bulk-actions.md`  
-  https://kinsta.com/changelog/bulk-actions/
-
-### WP-CLI v2 Is Now the Default on All Kinsta Servers
-
-- **WP-CLI v2 Is Now the Default on All Kinsta Servers** - `kb/changelog/wp-cli-v2.md`  
-  https://kinsta.com/changelog/wp-cli-v2/
-
-### Welcome to the New MyKinsta
-
-- **Welcome to the New MyKinsta** - `kb/changelog/new-mykinsta.md`  
-  https://kinsta.com/changelog/new-mykinsta/
-
-### We’re Using The Latest Ubuntu 16.04 On All Cloud Servers
-
-- **We're Using The Latest Ubuntu 16.04 On All Cloud Servers** - `kb/changelog/using-latest-ubuntu-16-04.md`  
-  https://kinsta.com/changelog/using-latest-ubuntu-16-04/
-
-### We’ve renamed our WordPress hosting plans and boosted resource limits
-
-- **We’ve renamed our WordPress hosting plans and boosted resource limits** - `kb/changelog/new-plan-names.md`  
-  https://kinsta.com/changelog/new-plan-names/
-
-### When bots go bad, Kinsta has your back
-
-- **When bots go bad, Kinsta has your back** - `kb/changelog/bot-protection.md`  
-  https://kinsta.com/changelog/bot-protection/
-
-### You can dig deeper into MyKinsta site Analytics
-
-- **You can dig deeper into MyKinsta site Analytics** - `kb/changelog/analytics-improvements.md`  
-  https://kinsta.com/changelog/analytics-improvements/
-
-### You can now add your SSH keys in MyKinsta
-
-- **You can now add your SSH keys in MyKinsta** - `kb/changelog/add-ssh-keys.md`  
-  https://kinsta.com/changelog/add-ssh-keys/
-
-### phpMyAdmin: You can get there from here in one click
-
-- **phpMyAdmin: You can get there from here in one click** - `kb/changelog/phpmyadmin-one-click.md`  
-  https://kinsta.com/changelog/phpmyadmin-one-click/
 
 ## Kinsta API Reference  (`api`, 120 pages)
 
@@ -1218,369 +1031,369 @@ python3 scripts/kinsta_kb.py check --url <url>
 
 ### caching
 
-- **Caching - Edge Caching** - `kb/docs/wordpress-hosting/caching/edge-caching.md`  
-  https://kinsta.com/docs/wordpress-hosting/caching/edge-caching/
-- **Caching - Redis Caching** - `kb/docs/wordpress-hosting/caching/redis-cache.md`  
-  https://kinsta.com/docs/wordpress-hosting/caching/redis-cache/
-- **Caching - Server Caching** - `kb/docs/wordpress-hosting/caching/site-caching.md`  
-  https://kinsta.com/docs/wordpress-hosting/caching/site-caching/
-- **WordPress Hosting - Caching** - `kb/docs/wordpress-hosting/caching.md`  
+- **Caching** - `kb/docs/wordpress-hosting/caching.md`  
   https://kinsta.com/docs/wordpress-hosting/caching/
+- **Edge Caching** - `kb/docs/wordpress-hosting/caching/edge-caching.md`  
+  https://kinsta.com/docs/wordpress-hosting/caching/edge-caching/
+- **Redis Caching** - `kb/docs/wordpress-hosting/caching/redis-cache.md`  
+  https://kinsta.com/docs/wordpress-hosting/caching/redis-cache/
+- **Server Caching** - `kb/docs/wordpress-hosting/caching/site-caching.md`  
+  https://kinsta.com/docs/wordpress-hosting/caching/site-caching/
 
 ### connect to ssh
 
-- **WordPress Hosting - SSH** - `kb/docs/wordpress-hosting/connect-to-ssh.md`  
+- **SSH** - `kb/docs/wordpress-hosting/connect-to-ssh.md`  
   https://kinsta.com/docs/wordpress-hosting/connect-to-ssh/
 
 ### connecting with sftp
 
-- **WordPress Hosting - SFTP** - `kb/docs/wordpress-hosting/connecting-with-sftp.md`  
+- **SFTP** - `kb/docs/wordpress-hosting/connecting-with-sftp.md`  
   https://kinsta.com/docs/wordpress-hosting/connecting-with-sftp/
 
 ### database management
 
-- **Database Management - Database** - `kb/docs/wordpress-hosting/database-management/wordpress-database.md`  
+- **Database** - `kb/docs/wordpress-hosting/database-management/wordpress-database.md`  
   https://kinsta.com/docs/wordpress-hosting/database-management/wordpress-database/
-- **Database Management - Database Access** - `kb/docs/wordpress-hosting/database-management/wordpress-database-access.md`  
+- **Database Access** - `kb/docs/wordpress-hosting/database-management/wordpress-database-access.md`  
   https://kinsta.com/docs/wordpress-hosting/database-management/wordpress-database-access/
-- **Database Management - Database Backup** - `kb/docs/wordpress-hosting/database-management/create-wordpress-database-backup.md`  
+- **Database Backup** - `kb/docs/wordpress-hosting/database-management/create-wordpress-database-backup.md`  
   https://kinsta.com/docs/wordpress-hosting/database-management/create-wordpress-database-backup/
-- **Database Management - Import MySQL Database** - `kb/docs/wordpress-hosting/database-management/restore-import-mysql-database.md`  
-  https://kinsta.com/docs/wordpress-hosting/database-management/restore-import-mysql-database/
-- **WordPress Hosting - Database Management** - `kb/docs/wordpress-hosting/database-management.md`  
+- **Database Management** - `kb/docs/wordpress-hosting/database-management.md`  
   https://kinsta.com/docs/wordpress-hosting/database-management/
+- **Import MySQL Database** - `kb/docs/wordpress-hosting/database-management/restore-import-mysql-database.md`  
+  https://kinsta.com/docs/wordpress-hosting/database-management/restore-import-mysql-database/
 
 ### kinsta mu plugin
 
-- **WordPress Hosting - Must Use (MU) Plugin** - `kb/docs/wordpress-hosting/kinsta-mu-plugin.md`  
+- **Must Use (MU) Plugin** - `kb/docs/wordpress-hosting/kinsta-mu-plugin.md`  
   https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/
 
 ### mykinsta tools
 
-- **Tools - Bot Protection** - `kb/docs/wordpress-hosting/mykinsta-tools/wordpress-tools-bot-protection.md`  
+- **Bot Protection** - `kb/docs/wordpress-hosting/mykinsta-tools/wordpress-tools-bot-protection.md`  
   https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/wordpress-tools-bot-protection/
-- **Tools - Early Hints** - `kb/docs/wordpress-hosting/mykinsta-tools/early-hints.md`  
+- **Early Hints** - `kb/docs/wordpress-hosting/mykinsta-tools/early-hints.md`  
   https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/early-hints/
-- **Tools - Email** - `kb/docs/wordpress-hosting/mykinsta-tools/email.md`  
+- **Email** - `kb/docs/wordpress-hosting/mykinsta-tools/email.md`  
   https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/email/
-- **Tools - IP Geolocation** - `kb/docs/wordpress-hosting/mykinsta-tools/ip-geolocation.md`  
+- **IP Geolocation** - `kb/docs/wordpress-hosting/mykinsta-tools/ip-geolocation.md`  
   https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/ip-geolocation/
-- **Tools - Search and Replace** - `kb/docs/wordpress-hosting/mykinsta-tools/mykinsta-search-replace-tool.md`  
+- **Search and Replace** - `kb/docs/wordpress-hosting/mykinsta-tools/mykinsta-search-replace-tool.md`  
   https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/mykinsta-search-replace-tool/
-- **Tools - Site Preview** - `kb/docs/wordpress-hosting/mykinsta-tools/site-preview.md`  
+- **Site Preview** - `kb/docs/wordpress-hosting/mykinsta-tools/site-preview.md`  
   https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/site-preview/
-- **Tools - htpasswd Protection** - `kb/docs/wordpress-hosting/mykinsta-tools/htpasswd.md`  
-  https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/htpasswd/
-- **WordPress Hosting - Tools** - `kb/docs/wordpress-hosting/mykinsta-tools.md`  
+- **Tools** - `kb/docs/wordpress-hosting/mykinsta-tools.md`  
   https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/
+- **htpasswd Protection** - `kb/docs/wordpress-hosting/mykinsta-tools/htpasswd.md`  
+  https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/htpasswd/
 
 ### php
 
-- **PHP - PHP Constants** - `kb/docs/wordpress-hosting/php/wordpress-php-constants.md`  
-  https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-constants/
-- **PHP - PHP Modules** - `kb/docs/wordpress-hosting/php/wordpress-php-modules.md`  
-  https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-modules/
-- **PHP - PHP Performance** - `kb/docs/wordpress-hosting/php/wordpress-php-performance.md`  
-  https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-performance/
-- **PHP - PHP Performance on Dedicated Servers** - `kb/docs/wordpress-hosting/php/wordpress-php-performance-dedicated-servers.md`  
-  https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-performance-dedicated-servers/
-- **PHP - Restart and Update PHP** - `kb/docs/wordpress-hosting/php/wordpress-restart-update-php.md`  
-  https://kinsta.com/docs/wordpress-hosting/php/wordpress-restart-update-php/
-- **WordPress Hosting - PHP** - `kb/docs/wordpress-hosting/php.md`  
+- **PHP** - `kb/docs/wordpress-hosting/php.md`  
   https://kinsta.com/docs/wordpress-hosting/php/
+- **PHP Constants** - `kb/docs/wordpress-hosting/php/wordpress-php-constants.md`  
+  https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-constants/
+- **PHP Modules** - `kb/docs/wordpress-hosting/php/wordpress-php-modules.md`  
+  https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-modules/
+- **PHP Performance** - `kb/docs/wordpress-hosting/php/wordpress-php-performance.md`  
+  https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-performance/
+- **PHP Performance on Dedicated Servers** - `kb/docs/wordpress-hosting/php/wordpress-php-performance-dedicated-servers.md`  
+  https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-performance-dedicated-servers/
+- **Restart and Update PHP** - `kb/docs/wordpress-hosting/php/wordpress-restart-update-php.md`  
+  https://kinsta.com/docs/wordpress-hosting/php/wordpress-restart-update-php/
 
 ### redirect rules
 
-- **WordPress Hosting - Redirects** - `kb/docs/wordpress-hosting/redirect-rules.md`  
+- **Redirects** - `kb/docs/wordpress-hosting/redirect-rules.md`  
   https://kinsta.com/docs/wordpress-hosting/redirect-rules/
 
 ### site management
 
-- **Site Management - Bitbucket Pipelines** - `kb/docs/wordpress-hosting/site-management/wordpress-bitbucket-pipelines.md`  
+- **Bitbucket Pipelines** - `kb/docs/wordpress-hosting/site-management/wordpress-bitbucket-pipelines.md`  
   https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-bitbucket-pipelines/
-- **Site Management - Block IP Address** - `kb/docs/wordpress-hosting/site-management/block-ip-address.md`  
+- **Block IP Address** - `kb/docs/wordpress-hosting/site-management/block-ip-address.md`  
   https://kinsta.com/docs/wordpress-hosting/site-management/block-ip-address/
-- **Site Management - Configuration Changes** - `kb/docs/wordpress-hosting/site-management/configuration-changes.md`  
+- **Configuration Changes** - `kb/docs/wordpress-hosting/site-management/configuration-changes.md`  
   https://kinsta.com/docs/wordpress-hosting/site-management/configuration-changes/
-- **Site Management - Cron Jobs** - `kb/docs/wordpress-hosting/site-management/cron-jobs.md`  
+- **Cron Jobs** - `kb/docs/wordpress-hosting/site-management/cron-jobs.md`  
   https://kinsta.com/docs/wordpress-hosting/site-management/cron-jobs/
-- **Site Management - File Manager** - `kb/docs/wordpress-hosting/site-management/wordpress-file-manager.md`  
+- **File Manager** - `kb/docs/wordpress-hosting/site-management/wordpress-file-manager.md`  
   https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-file-manager/
-- **Site Management - Git** - `kb/docs/wordpress-hosting/site-management/git.md`  
+- **Git** - `kb/docs/wordpress-hosting/site-management/git.md`  
   https://kinsta.com/docs/wordpress-hosting/site-management/git/
-- **Site Management - GitHub Actions Integration** - `kb/docs/wordpress-hosting/site-management/wordpress-github-cicd.md`  
+- **GitHub Actions Integration** - `kb/docs/wordpress-hosting/site-management/wordpress-github-cicd.md`  
   https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-github-cicd/
-- **Site Management - GitLab CI/CD** - `kb/docs/wordpress-hosting/site-management/gitlab-ci-cd.md`  
+- **GitLab CI/CD** - `kb/docs/wordpress-hosting/site-management/gitlab-ci-cd.md`  
   https://kinsta.com/docs/wordpress-hosting/site-management/gitlab-ci-cd/
-- **Site Management - IP Addresses** - `kb/docs/wordpress-hosting/site-management/ip-addresses.md`  
+- **IP Addresses** - `kb/docs/wordpress-hosting/site-management/ip-addresses.md`  
   https://kinsta.com/docs/wordpress-hosting/site-management/ip-addresses/
-- **Site Management - Labels** - `kb/docs/wordpress-hosting/site-management/wordpress-labels.md`  
+- **Labels** - `kb/docs/wordpress-hosting/site-management/wordpress-labels.md`  
   https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-labels/
-- **Site Management - WP Admin** - `kb/docs/wordpress-hosting/site-management/wordpress-wp-admin.md`  
-  https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-wp-admin/
-- **Site Management - WP-CLI** - `kb/docs/wordpress-hosting/site-management/wordpress-wp-cli.md`  
-  https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-wp-cli/
-- **Site Management - WordPress Users** - `kb/docs/wordpress-hosting/site-management/wordpress-users.md`  
-  https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-users/
-- **WordPress Hosting - Site Management** - `kb/docs/wordpress-hosting/site-management.md`  
+- **Site Management** - `kb/docs/wordpress-hosting/site-management.md`  
   https://kinsta.com/docs/wordpress-hosting/site-management/
+- **WP Admin** - `kb/docs/wordpress-hosting/site-management/wordpress-wp-admin.md`  
+  https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-wp-admin/
+- **WP-CLI** - `kb/docs/wordpress-hosting/site-management/wordpress-wp-cli.md`  
+  https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-wp-cli/
+- **WordPress Users** - `kb/docs/wordpress-hosting/site-management/wordpress-users.md`  
+  https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-users/
 
 ### staging environment
 
-- **WordPress Hosting - Staging Environments** - `kb/docs/wordpress-hosting/staging-environment.md`  
+- **Staging Environments** - `kb/docs/wordpress-hosting/staging-environment.md`  
   https://kinsta.com/docs/wordpress-hosting/staging-environment/
 
 ### wordpress add ons
 
-- **WordPress Hosting - Add-Ons** - `kb/docs/wordpress-hosting/wordpress-add-ons.md`  
+- **Add-Ons** - `kb/docs/wordpress-hosting/wordpress-add-ons.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-add-ons/
 
 ### wordpress analytics mykinsta
 
-- **Analytics - Calculating Server Bandwidth** - `kb/docs/wordpress-hosting/wordpress-analytics-mykinsta/wordpress-calculating-bandwidth.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-analytics-mykinsta/wordpress-calculating-bandwidth/
-- **Analytics - Counting Visits** - `kb/docs/wordpress-hosting/wordpress-analytics-mykinsta/counting-visits.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-analytics-mykinsta/counting-visits/
-- **WordPress Hosting - Analytics** - `kb/docs/wordpress-hosting/wordpress-analytics-mykinsta.md`  
+- **Analytics** - `kb/docs/wordpress-hosting/wordpress-analytics-mykinsta.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-analytics-mykinsta/
+- **Calculating Server Bandwidth** - `kb/docs/wordpress-hosting/wordpress-analytics-mykinsta/wordpress-calculating-bandwidth.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-analytics-mykinsta/wordpress-calculating-bandwidth/
+- **Counting Visits** - `kb/docs/wordpress-hosting/wordpress-analytics-mykinsta/counting-visits.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-analytics-mykinsta/counting-visits/
 
 ### wordpress backups and disaster recovery
 
-- **Backups and Disaster Recovery - Backups** - `kb/docs/wordpress-hosting/wordpress-backups-and-disaster-recovery/wordpress-backups.md`  
+- **Backups** - `kb/docs/wordpress-hosting/wordpress-backups-and-disaster-recovery/wordpress-backups.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-backups-and-disaster-recovery/wordpress-backups/
-- **Backups and Disaster Recovery - Disaster Recovery Add-On** - `kb/docs/wordpress-hosting/wordpress-backups-and-disaster-recovery/disaster-recovery.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-backups-and-disaster-recovery/disaster-recovery/
-- **WordPress Hosting - Backups and Disaster Recovery** - `kb/docs/wordpress-hosting/wordpress-backups-and-disaster-recovery.md`  
+- **Backups and Disaster Recovery** - `kb/docs/wordpress-hosting/wordpress-backups-and-disaster-recovery.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-backups-and-disaster-recovery/
+- **Disaster Recovery Add-On** - `kb/docs/wordpress-hosting/wordpress-backups-and-disaster-recovery/disaster-recovery.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-backups-and-disaster-recovery/disaster-recovery/
 
 ### wordpress cdn
 
-- **CDN** - `kb/docs/wordpress-hosting/wordpress-cdn/kinsta-cdn.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/kinsta-cdn/
-- **CDN - Amazon CloudFront** - `kb/docs/wordpress-hosting/wordpress-cdn/cloudfront.md`  
+- **Amazon CloudFront** - `kb/docs/wordpress-hosting/wordpress-cdn/cloudfront.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/cloudfront/
-- **CDN - Bunny** - `kb/docs/wordpress-hosting/wordpress-cdn/bunny.md`  
+- **Bunny** - `kb/docs/wordpress-hosting/wordpress-cdn/bunny.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/bunny/
-- **CDN - Cloudflare** - `kb/docs/wordpress-hosting/wordpress-cdn/cloudflare.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/cloudflare/
-- **CDN - Ezoic** - `kb/docs/wordpress-hosting/wordpress-cdn/ezoic.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/ezoic/
-- **CDN - Fastly CDN** - `kb/docs/wordpress-hosting/wordpress-cdn/fastly-cdn.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/fastly-cdn/
-- **CDN - Imperva CDN** - `kb/docs/wordpress-hosting/wordpress-cdn/imperva-cdn.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/imperva-cdn/
-- **CDN - Other CDN Providers** - `kb/docs/wordpress-hosting/wordpress-cdn/proxy-cdn-compatibility-checklist.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/proxy-cdn-compatibility-checklist/
-- **CDN - Sucuri** - `kb/docs/wordpress-hosting/wordpress-cdn/sucuri.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/sucuri/
-- **WordPress Hosting - CDN** - `kb/docs/wordpress-hosting/wordpress-cdn.md`  
+- **CDN** - `kb/docs/wordpress-hosting/wordpress-cdn.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/
+- **Cloudflare** - `kb/docs/wordpress-hosting/wordpress-cdn/cloudflare.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/cloudflare/
+- **Ezoic** - `kb/docs/wordpress-hosting/wordpress-cdn/ezoic.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/ezoic/
+- **Fastly CDN** - `kb/docs/wordpress-hosting/wordpress-cdn/fastly-cdn.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/fastly-cdn/
+- **Imperva CDN** - `kb/docs/wordpress-hosting/wordpress-cdn/imperva-cdn.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/imperva-cdn/
+- **Kinsta CDN** - `kb/docs/wordpress-hosting/wordpress-cdn/kinsta-cdn.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/kinsta-cdn/
+- **Other CDN Providers** - `kb/docs/wordpress-hosting/wordpress-cdn/proxy-cdn-compatibility-checklist.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/proxy-cdn-compatibility-checklist/
+- **Sucuri** - `kb/docs/wordpress-hosting/wordpress-cdn/sucuri.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/sucuri/
 
 ### wordpress domains
 
-- **Domains and DNS** - `kb/docs/wordpress-hosting/wordpress-domains/dns.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-domains/dns/
-- **Domains and DNS - Add a Domain** - `kb/docs/wordpress-hosting/wordpress-domains/wordpress-add-a-domain.md`  
+- **Add a Domain** - `kb/docs/wordpress-hosting/wordpress-domains/wordpress-add-a-domain.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-domains/wordpress-add-a-domain/
-- **Domains and DNS - Domain and DNS Troubleshooting** - `kb/docs/wordpress-hosting/wordpress-domains/wordpress-domains-troubleshooting.md`  
+- **Domain and DNS Troubleshooting** - `kb/docs/wordpress-hosting/wordpress-domains/wordpress-domains-troubleshooting.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-domains/wordpress-domains-troubleshooting/
-- **Domains and DNS - Google MX Records** - `kb/docs/wordpress-hosting/wordpress-domains/google-mx-records.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-domains/google-mx-records/
-- **Domains and DNS - Reverse Proxy** - `kb/docs/wordpress-hosting/wordpress-domains/wordpress-reverse-proxy.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-domains/wordpress-reverse-proxy/
-- **Domains and DNS - SSL Certificates** - `kb/docs/wordpress-hosting/wordpress-domains/wordpress-ssl-certificates.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-domains/wordpress-ssl-certificates/
-- **Domains and DNS - Temporary URL** - `kb/docs/wordpress-hosting/wordpress-domains/wordpress-temporary-url.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-domains/wordpress-temporary-url/
-- **WordPress Hosting - Domains and DNS** - `kb/docs/wordpress-hosting/wordpress-domains.md`  
+- **Domains and DNS** - `kb/docs/wordpress-hosting/wordpress-domains.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-domains/
+- **Google MX Records** - `kb/docs/wordpress-hosting/wordpress-domains/google-mx-records.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-domains/google-mx-records/
+- **Kinsta’s DNS** - `kb/docs/wordpress-hosting/wordpress-domains/dns.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-domains/dns/
+- **Reverse Proxy** - `kb/docs/wordpress-hosting/wordpress-domains/wordpress-reverse-proxy.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-domains/wordpress-reverse-proxy/
+- **SSL Certificates** - `kb/docs/wordpress-hosting/wordpress-domains/wordpress-ssl-certificates.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-domains/wordpress-ssl-certificates/
+- **Temporary URL** - `kb/docs/wordpress-hosting/wordpress-domains/wordpress-temporary-url.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-domains/wordpress-temporary-url/
 
 ### wordpress getting started
 
-- **Get Started - Add Site** - `kb/docs/wordpress-hosting/wordpress-getting-started/new-site.md`  
+- **Add Site** - `kb/docs/wordpress-hosting/wordpress-getting-started/new-site.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/new-site/
-- **Get Started - Clone a Site** - `kb/docs/wordpress-hosting/wordpress-getting-started/clone-wordpress-site.md`  
+- **Clone a Site** - `kb/docs/wordpress-hosting/wordpress-getting-started/clone-wordpress-site.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/clone-wordpress-site/
-- **Get Started - Dedicated Server** - `kb/docs/wordpress-hosting/wordpress-getting-started/dedicated-server.md`  
+- **Dedicated Server** - `kb/docs/wordpress-hosting/wordpress-getting-started/dedicated-server.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/dedicated-server/
-- **Get Started - Features** - `kb/docs/wordpress-hosting/wordpress-getting-started/wordpress-features.md`  
+- **Features** - `kb/docs/wordpress-hosting/wordpress-getting-started/wordpress-features.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/wordpress-features/
-- **Get Started - Go Live Checklist** - `kb/docs/wordpress-hosting/wordpress-getting-started/go-live-checklist.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/go-live-checklist/
-- **Get Started - Infrastructure** - `kb/docs/wordpress-hosting/wordpress-getting-started/wordpress-infrastructure.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/wordpress-infrastructure/
-- **Get Started - Manual Install** - `kb/docs/wordpress-hosting/wordpress-getting-started/manually-installing-wordpress.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/manually-installing-wordpress/
-- **Get Started - Multisite Network** - `kb/docs/wordpress-hosting/wordpress-getting-started/multisite-network.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/multisite-network/
-- **WordPress Hosting - Get Started** - `kb/docs/wordpress-hosting/wordpress-getting-started.md`  
+- **Get Started** - `kb/docs/wordpress-hosting/wordpress-getting-started.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/
+- **Go Live Checklist** - `kb/docs/wordpress-hosting/wordpress-getting-started/go-live-checklist.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/go-live-checklist/
+- **Infrastructure** - `kb/docs/wordpress-hosting/wordpress-getting-started/wordpress-infrastructure.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/wordpress-infrastructure/
+- **Manual Install** - `kb/docs/wordpress-hosting/wordpress-getting-started/manually-installing-wordpress.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/manually-installing-wordpress/
+- **Multisite Network** - `kb/docs/wordpress-hosting/wordpress-getting-started/multisite-network.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/multisite-network/
 
 ### wordpress migrations
 
-- **Migrations** - `kb/docs/wordpress-hosting/wordpress-migrations/migrating-to-kinsta.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/migrating-to-kinsta/
-- **Migrations - Cancel a Migration Request** - `kb/docs/wordpress-hosting/wordpress-migrations/cancel-a-migration.md`  
+- **Cancel a Migration Request** - `kb/docs/wordpress-hosting/wordpress-migrations/cancel-a-migration.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/cancel-a-migration/
-- **Migrations - Duplicator Migration** - `kb/docs/wordpress-hosting/wordpress-migrations/migrate-wordpress-duplicator-plugin.md`  
+- **Duplicator Migration** - `kb/docs/wordpress-hosting/wordpress-migrations/migrate-wordpress-duplicator-plugin.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/migrate-wordpress-duplicator-plugin/
-- **Migrations - Manual Migration** - `kb/docs/wordpress-hosting/wordpress-migrations/wordpress-manual-migration.md`  
+- **Kinsta Migration** - `kb/docs/wordpress-hosting/wordpress-migrations/migrating-to-kinsta.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/migrating-to-kinsta/
+- **Manual Migration** - `kb/docs/wordpress-hosting/wordpress-migrations/wordpress-manual-migration.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/wordpress-manual-migration/
-- **Migrations - Migrate Guru** - `kb/docs/wordpress-hosting/wordpress-migrations/migrate-guru.md`  
+- **Migrate Guru** - `kb/docs/wordpress-hosting/wordpress-migrations/migrate-guru.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/migrate-guru/
-- **Migrations - Migration FAQs** - `kb/docs/wordpress-hosting/wordpress-migrations/wordpress-migration-faqs.md`  
+- **Migration FAQs** - `kb/docs/wordpress-hosting/wordpress-migrations/wordpress-migration-faqs.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/wordpress-migration-faqs/
-- **Migrations - Source Details by Hosting Provider** - `kb/docs/wordpress-hosting/wordpress-migrations/migration-source-details.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/migration-source-details/
-- **Migrations - Updating a Migrated Site Before Going Live** - `kb/docs/wordpress-hosting/wordpress-migrations/perform-a-second-migration.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/perform-a-second-migration/
-- **WordPress Hosting - Migrations** - `kb/docs/wordpress-hosting/wordpress-migrations.md`  
+- **Migrations** - `kb/docs/wordpress-hosting/wordpress-migrations.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/
+- **Source Details by Hosting Provider** - `kb/docs/wordpress-hosting/wordpress-migrations/migration-source-details.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/migration-source-details/
+- **Updating a Migrated Site Before Going Live** - `kb/docs/wordpress-hosting/wordpress-migrations/perform-a-second-migration.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/perform-a-second-migration/
 
 ### wordpress monitoring
 
-- **Monitoring** - `kb/docs/wordpress-hosting/wordpress-monitoring/apm-tool.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-monitoring/apm-tool/
-- **Monitoring - Blackfire Monitoring** - `kb/docs/wordpress-hosting/wordpress-monitoring/wordpress-blackfire-monitoring.md`  
+- **Blackfire Monitoring** - `kb/docs/wordpress-hosting/wordpress-monitoring/wordpress-blackfire-monitoring.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-monitoring/wordpress-blackfire-monitoring/
-- **Monitoring - New Relic Monitoring** - `kb/docs/wordpress-hosting/wordpress-monitoring/custom-new-relic-tracking.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-monitoring/custom-new-relic-tracking/
-- **Monitoring - Uptime Monitoring** - `kb/docs/wordpress-hosting/wordpress-monitoring/uptime-monitoring.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-monitoring/uptime-monitoring/
-- **WordPress Hosting - Monitoring** - `kb/docs/wordpress-hosting/wordpress-monitoring.md`  
+- **Kinsta’s APM Tool** - `kb/docs/wordpress-hosting/wordpress-monitoring/apm-tool.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-monitoring/apm-tool/
+- **Monitoring** - `kb/docs/wordpress-hosting/wordpress-monitoring.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-monitoring/
+- **New Relic Monitoring** - `kb/docs/wordpress-hosting/wordpress-monitoring/custom-new-relic-tracking.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-monitoring/custom-new-relic-tracking/
+- **Uptime Monitoring** - `kb/docs/wordpress-hosting/wordpress-monitoring/uptime-monitoring.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-monitoring/uptime-monitoring/
 
 ### wordpress plugins themes
 
-- **Plugins and Themes - Automatic Updates** - `kb/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-plugins-themes-automatic-updates.md`  
+- **Automatic Updates** - `kb/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-plugins-themes-automatic-updates.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-plugins-themes-automatic-updates/
-- **Plugins and Themes - Banned and Incompatible Plugins** - `kb/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-banned-incompatible-plugins.md`  
+- **Banned and Incompatible Plugins** - `kb/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-banned-incompatible-plugins.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-banned-incompatible-plugins/
-- **Plugins and Themes - Manage Plugins and Themes** - `kb/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-manage-plugins-themes.md`  
+- **Manage Plugins and Themes** - `kb/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-manage-plugins-themes.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-manage-plugins-themes/
-- **Plugins and Themes - Plugins and Themes FAQs** - `kb/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-plugins-themes-faqs.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-plugins-themes-faqs/
-- **Plugins and Themes - WordPress Maintenance Mode** - `kb/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-maintenance-mode.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-maintenance-mode/
-- **WordPress Hosting - Plugins and Themes** - `kb/docs/wordpress-hosting/wordpress-plugins-themes.md`  
+- **Plugins and Themes** - `kb/docs/wordpress-hosting/wordpress-plugins-themes.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/
+- **Plugins and Themes FAQs** - `kb/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-plugins-themes-faqs.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-plugins-themes-faqs/
+- **WordPress Maintenance Mode** - `kb/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-maintenance-mode.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-maintenance-mode/
 
 ### wordpress push environments
 
-- **WordPress Hosting - Push Environments** - `kb/docs/wordpress-hosting/wordpress-push-environments.md`  
+- **Push Environments** - `kb/docs/wordpress-hosting/wordpress-push-environments.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-push-environments/
 
 ### wordpress reference
 
-- **Reference - Glossary** - `kb/docs/wordpress-hosting/wordpress-reference/wordpress-glossary.md`  
+- **Glossary** - `kb/docs/wordpress-hosting/wordpress-reference/wordpress-glossary.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-reference/wordpress-glossary/
-- **Reference - SSL FAQ** - `kb/docs/wordpress-hosting/wordpress-reference/ssl-faq.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-reference/ssl-faq/
-- **Reference - Technical FAQ** - `kb/docs/wordpress-hosting/wordpress-reference/technical-faq.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-reference/technical-faq/
-- **WordPress Hosting - Reference** - `kb/docs/wordpress-hosting/wordpress-reference.md`  
+- **Reference** - `kb/docs/wordpress-hosting/wordpress-reference.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-reference/
+- **SSL FAQ** - `kb/docs/wordpress-hosting/wordpress-reference/ssl-faq.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-reference/ssl-faq/
+- **Technical FAQ** - `kb/docs/wordpress-hosting/wordpress-reference/technical-faq.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-reference/technical-faq/
 
 ### wordpress troubleshooting
 
-- **Troubleshooting - Cloudflare Errors** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/cloudflare-errors.md`  
+- **Cloudflare Errors** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/cloudflare-errors.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/cloudflare-errors/
-- **Troubleshooting - Connection Errors** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/wordpress-connection-errors.md`  
+- **Connection Errors** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/wordpress-connection-errors.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/wordpress-connection-errors/
-- **Troubleshooting - Database Connection Errors** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/fix-error-establishing-a-database-connection-in-wordpress.md`  
+- **Database Connection Errors** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/fix-error-establishing-a-database-connection-in-wordpress.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/fix-error-establishing-a-database-connection-in-wordpress/
-- **Troubleshooting - Debugging** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/wordpress-debugging.md`  
+- **Debugging** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/wordpress-debugging.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/wordpress-debugging/
-- **Troubleshooting - SSH and SFTP Connection Errors** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/cant-connect-delete-ssh-known-hosts.md`  
+- **SSH and SFTP Connection Errors** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/cant-connect-delete-ssh-known-hosts.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/cant-connect-delete-ssh-known-hosts/
-- **Troubleshooting - Server Errors** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/server-errors.md`  
+- **Server Errors** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/server-errors.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/server-errors/
-- **Troubleshooting - Server Logs** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/view-server-logs.md`  
+- **Server Logs** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/view-server-logs.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/view-server-logs/
-- **Troubleshooting - Speed and Load Testing** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/website-testing-tools.md`  
+- **Speed and Load Testing** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/website-testing-tools.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/website-testing-tools/
-- **Troubleshooting - Troubleshooting Performance** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/troubleshooting-wordpress-performance.md`  
-  https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/troubleshooting-wordpress-performance/
-- **WordPress Hosting - Troubleshooting** - `kb/docs/wordpress-hosting/wordpress-troubleshooting.md`  
+- **Troubleshooting** - `kb/docs/wordpress-hosting/wordpress-troubleshooting.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/
+- **Troubleshooting Performance** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/troubleshooting-wordpress-performance.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/troubleshooting-wordpress-performance/
 
 ## DevKinsta (local dev tool, not hosting)  (`devkinsta`, 25 pages)
 
 ### General
 
-- **- DevKinsta** - `kb/docs/devkinsta.md`  
+- **DevKinsta** - `kb/docs/devkinsta.md`  
   https://kinsta.com/docs/devkinsta/
 
 ### devkinsta database
 
-- **Database Management - Database Manager** - `kb/docs/devkinsta/devkinsta-database/database-manager.md`  
-  https://kinsta.com/docs/devkinsta/devkinsta-database/database-manager/
-- **Database Management - External Database Tools** - `kb/docs/devkinsta/devkinsta-database/database-tools.md`  
-  https://kinsta.com/docs/devkinsta/devkinsta-database/database-tools/
-- **DevKinsta - Database Management** - `kb/docs/devkinsta/devkinsta-database.md`  
+- **Database Management** - `kb/docs/devkinsta/devkinsta-database.md`  
   https://kinsta.com/docs/devkinsta/devkinsta-database/
+- **Database Manager** - `kb/docs/devkinsta/devkinsta-database/database-manager.md`  
+  https://kinsta.com/docs/devkinsta/devkinsta-database/database-manager/
+- **External Database Tools** - `kb/docs/devkinsta/devkinsta-database/database-tools.md`  
+  https://kinsta.com/docs/devkinsta/devkinsta-database/database-tools/
 
 ### devkinsta getting started
 
-- **DevKinsta - Get Started** - `kb/docs/devkinsta/devkinsta-getting-started.md`  
-  https://kinsta.com/docs/devkinsta/devkinsta-getting-started/
-- **Get Started - Create a Site** - `kb/docs/devkinsta/devkinsta-getting-started/creating-a-site.md`  
+- **Create a Site** - `kb/docs/devkinsta/devkinsta-getting-started/creating-a-site.md`  
   https://kinsta.com/docs/devkinsta/devkinsta-getting-started/creating-a-site/
-- **Get Started - Installation** - `kb/docs/devkinsta/devkinsta-getting-started/installation.md`  
+- **Get Started** - `kb/docs/devkinsta/devkinsta-getting-started.md`  
+  https://kinsta.com/docs/devkinsta/devkinsta-getting-started/
+- **Installation** - `kb/docs/devkinsta/devkinsta-getting-started/installation.md`  
   https://kinsta.com/docs/devkinsta/devkinsta-getting-started/installation/
 
 ### devkinsta integration
 
-- **DevKinsta** - `kb/docs/devkinsta/devkinsta-integration.md`  
+- **Kinsta Integration** - `kb/docs/devkinsta/devkinsta-integration.md`  
   https://kinsta.com/docs/devkinsta/devkinsta-integration/
 
 ### devkinsta reference
 
-- **DevKinsta - Reference** - `kb/docs/devkinsta/devkinsta-reference.md`  
-  https://kinsta.com/docs/devkinsta/devkinsta-reference/
-- **Reference - FAQs** - `kb/docs/devkinsta/devkinsta-reference/faq.md`  
+- **FAQs** - `kb/docs/devkinsta/devkinsta-reference/faq.md`  
   https://kinsta.com/docs/devkinsta/devkinsta-reference/faq/
-- **Reference - Uninstall DevKinsta** - `kb/docs/devkinsta/devkinsta-reference/uninstall-devkinsta.md`  
+- **Reference** - `kb/docs/devkinsta/devkinsta-reference.md`  
+  https://kinsta.com/docs/devkinsta/devkinsta-reference/
+- **Uninstall DevKinsta** - `kb/docs/devkinsta/devkinsta-reference/uninstall-devkinsta.md`  
   https://kinsta.com/docs/devkinsta/devkinsta-reference/uninstall-devkinsta/
 
 ### devkinsta site management
 
-- **DevKinsta - Site Management** - `kb/docs/devkinsta/devkinsta-site-management.md`  
-  https://kinsta.com/docs/devkinsta/devkinsta-site-management/
-- **Site Management - Access from Another Device** - `kb/docs/devkinsta/devkinsta-site-management/browse-devkinsta-site-from-another-device.md`  
+- **Access from Another Device** - `kb/docs/devkinsta/devkinsta-site-management/browse-devkinsta-site-from-another-device.md`  
   https://kinsta.com/docs/devkinsta/devkinsta-site-management/browse-devkinsta-site-from-another-device/
-- **Site Management - Email Inbox** - `kb/docs/devkinsta/devkinsta-site-management/email-inbox.md`  
+- **Email Inbox** - `kb/docs/devkinsta/devkinsta-site-management/email-inbox.md`  
   https://kinsta.com/docs/devkinsta/devkinsta-site-management/email-inbox/
-- **Site Management - Multisite Subdomain** - `kb/docs/devkinsta/devkinsta-site-management/subdomain-multisite.md`  
+- **Multisite Subdomain** - `kb/docs/devkinsta/devkinsta-site-management/subdomain-multisite.md`  
   https://kinsta.com/docs/devkinsta/devkinsta-site-management/subdomain-multisite/
-- **Site Management - PHP Versions** - `kb/docs/devkinsta/devkinsta-site-management/php-versions.md`  
+- **PHP Versions** - `kb/docs/devkinsta/devkinsta-site-management/php-versions.md`  
   https://kinsta.com/docs/devkinsta/devkinsta-site-management/php-versions/
+- **Site Management** - `kb/docs/devkinsta/devkinsta-site-management.md`  
+  https://kinsta.com/docs/devkinsta/devkinsta-site-management/
 
 ### devkinsta troubleshooting
 
-- **DevKinsta - Troubleshooting** - `kb/docs/devkinsta/devkinsta-troubleshooting.md`  
-  https://kinsta.com/docs/devkinsta/devkinsta-troubleshooting/
-- **Troubleshooting - Docker Issues** - `kb/docs/devkinsta/devkinsta-troubleshooting/devkinsta-docker-issues.md`  
+- **Docker Issues** - `kb/docs/devkinsta/devkinsta-troubleshooting/devkinsta-docker-issues.md`  
   https://kinsta.com/docs/devkinsta/devkinsta-troubleshooting/devkinsta-docker-issues/
-- **Troubleshooting - Error Codes** - `kb/docs/devkinsta/devkinsta-troubleshooting/error-codes.md`  
+- **Error Codes** - `kb/docs/devkinsta/devkinsta-troubleshooting/error-codes.md`  
   https://kinsta.com/docs/devkinsta/devkinsta-troubleshooting/error-codes/
-- **Troubleshooting - Logs and Debugging** - `kb/docs/devkinsta/devkinsta-troubleshooting/logging.md`  
+- **Logs and Debugging** - `kb/docs/devkinsta/devkinsta-troubleshooting/logging.md`  
   https://kinsta.com/docs/devkinsta/devkinsta-troubleshooting/logging/
-- **Troubleshooting - Windows Issues** - `kb/docs/devkinsta/devkinsta-troubleshooting/switch-docker-wsl-to-hyper-v.md`  
+- **Troubleshooting** - `kb/docs/devkinsta/devkinsta-troubleshooting.md`  
+  https://kinsta.com/docs/devkinsta/devkinsta-troubleshooting/
+- **Windows Issues** - `kb/docs/devkinsta/devkinsta-troubleshooting/switch-docker-wsl-to-hyper-v.md`  
   https://kinsta.com/docs/devkinsta/devkinsta-troubleshooting/switch-docker-wsl-to-hyper-v/
-- **Troubleshooting - Xdebug Support** - `kb/docs/devkinsta/devkinsta-troubleshooting/xdebug-support.md`  
+- **Xdebug Support** - `kb/docs/devkinsta/devkinsta-troubleshooting/xdebug-support.md`  
   https://kinsta.com/docs/devkinsta/devkinsta-troubleshooting/xdebug-support/
 
 ### settings
 
-- **DevKinsta - Settings** - `kb/docs/devkinsta/settings.md`  
-  https://kinsta.com/docs/devkinsta/settings/
-- **Settings - Offline Mode** - `kb/docs/devkinsta/settings/offline-mode.md`  
+- **Offline Mode** - `kb/docs/devkinsta/settings/offline-mode.md`  
   https://kinsta.com/docs/devkinsta/settings/offline-mode/
+- **Settings** - `kb/docs/devkinsta/settings.md`  
+  https://kinsta.com/docs/devkinsta/settings/
 
 ### wp cli
 
-- **DevKinsta - WP-CLI** - `kb/docs/devkinsta/wp-cli.md`  
+- **WP-CLI** - `kb/docs/devkinsta/wp-cli.md`  
   https://kinsta.com/docs/devkinsta/wp-cli/
 
 ## Service Information  (`service-information`, 17 pages)
@@ -1592,82 +1405,82 @@ python3 scripts/kinsta_kb.py check --url <url>
 
 ### affiliate program
 
-- **Service Information - Affiliate Program** - `kb/docs/service-information/affiliate-program.md`  
+- **Affiliate Program** - `kb/docs/service-information/affiliate-program.md`  
   https://kinsta.com/docs/service-information/affiliate-program/
 
 ### data center locations
 
-- **Service Information - Data Center Locations** - `kb/docs/service-information/data-center-locations.md`  
+- **Data Center Locations** - `kb/docs/service-information/data-center-locations.md`  
   https://kinsta.com/docs/service-information/data-center-locations/
 
 ### disclose security vulnerability
 
-- **Service Information - Disclose a Vulnerability** - `kb/docs/service-information/disclose-security-vulnerability.md`  
+- **Disclose a Vulnerability** - `kb/docs/service-information/disclose-security-vulnerability.md`  
   https://kinsta.com/docs/service-information/disclose-security-vulnerability/
 
 ### files and database storage
 
-- **Service Information - Files and Database Storage** - `kb/docs/service-information/files-and-database-storage.md`  
+- **Files and Database Storage** - `kb/docs/service-information/files-and-database-storage.md`  
   https://kinsta.com/docs/service-information/files-and-database-storage/
 
 ### guaranteed uptime
 
-- **Service Information - Guaranteed Uptime** - `kb/docs/service-information/guaranteed-uptime.md`  
+- **Guaranteed Uptime** - `kb/docs/service-information/guaranteed-uptime.md`  
   https://kinsta.com/docs/service-information/guaranteed-uptime/
 
 ### infrastructure upgrades
 
-- **Service Information - Infrastructure Upgrades** - `kb/docs/service-information/infrastructure-upgrades.md`  
+- **Infrastructure Upgrades** - `kb/docs/service-information/infrastructure-upgrades.md`  
   https://kinsta.com/docs/service-information/infrastructure-upgrades/
 
 ### kinsta research program
 
-- **Service Information - Research Program** - `kb/docs/service-information/kinsta-research-program.md`  
+- **Research Program** - `kb/docs/service-information/kinsta-research-program.md`  
   https://kinsta.com/docs/service-information/kinsta-research-program/
 
 ### malware removal
 
-- **Service Information - Malware Removal** - `kb/docs/service-information/malware-removal.md`  
+- **Malware Removal** - `kb/docs/service-information/malware-removal.md`  
   https://kinsta.com/docs/service-information/malware-removal/
 
 ### money back guarantee
 
-- **Service Information - WordPress Hosting Money-Back Guarantee** - `kb/docs/service-information/money-back-guarantee.md`  
+- **WordPress Hosting Money-Back Guarantee** - `kb/docs/service-information/money-back-guarantee.md`  
   https://kinsta.com/docs/service-information/money-back-guarantee/
 
 ### new accounts from russia
 
-- **Service Information - Russian Accounts and Domains** - `kb/docs/service-information/new-accounts-from-russia.md`  
+- **Russian Accounts and Domains** - `kb/docs/service-information/new-accounts-from-russia.md`  
   https://kinsta.com/docs/service-information/new-accounts-from-russia/
 
 ### prohibited content
 
-- **Service Information - Prohibited Content** - `kb/docs/service-information/prohibited-content.md`  
+- **Prohibited Content** - `kb/docs/service-information/prohibited-content.md`  
   https://kinsta.com/docs/service-information/prohibited-content/
 
 ### referrals faq
 
-- **Service Information - Referral Program** - `kb/docs/service-information/referrals-faq.md`  
+- **Referral Program** - `kb/docs/service-information/referrals-faq.md`  
   https://kinsta.com/docs/service-information/referrals-faq/
 
 ### security roles responsibilities
 
-- **Service Information - Security Roles and Responsibilities** - `kb/docs/service-information/security-roles-responsibilities.md`  
+- **Security Roles and Responsibilities** - `kb/docs/service-information/security-roles-responsibilities.md`  
   https://kinsta.com/docs/service-information/security-roles-responsibilities/
 
 ### sevalla overview
 
-- **Service Information - Sevalla** - `kb/docs/service-information/sevalla-overview.md`  
+- **Sevalla** - `kb/docs/service-information/sevalla-overview.md`  
   https://kinsta.com/docs/service-information/sevalla-overview/
 
 ### soc 2
 
-- **Service Information - SOC 2** - `kb/docs/service-information/soc-2.md`  
+- **SOC 2** - `kb/docs/service-information/soc-2.md`  
   https://kinsta.com/docs/service-information/soc-2/
 
 ### status page
 
-- **Service Information - System Status** - `kb/docs/service-information/status-page.md`  
+- **System Status** - `kb/docs/service-information/status-page.md`  
   https://kinsta.com/docs/service-information/status-page/
 
 ## Billing  (`billing`, 13 pages)
@@ -1679,29 +1492,29 @@ python3 scripts/kinsta_kb.py check --url <url>
 
 ### account credits
 
-- **Billing - Account Credits** - `kb/docs/billing/account-credits.md`  
+- **Account Credits** - `kb/docs/billing/account-credits.md`  
   https://kinsta.com/docs/billing/account-credits/
 
 ### billing questions
 
-- **Billing - FAQs** - `kb/docs/billing/billing-questions.md`  
+- **FAQs** - `kb/docs/billing/billing-questions.md`  
   https://kinsta.com/docs/billing/billing-questions/
 
 ### invoices
 
-- **Billing - Invoices** - `kb/docs/billing/invoices.md`  
+- **Invoices** - `kb/docs/billing/invoices.md`  
   https://kinsta.com/docs/billing/invoices/
 
 ### payments
 
-- **Billing - Payment Methods** - `kb/docs/billing/payments.md`  
-  https://kinsta.com/docs/billing/payments/
-- **Payment Methods - Failed Payments** - `kb/docs/billing/payments/unpaid-invoice.md`  
+- **Failed Payments** - `kb/docs/billing/payments/unpaid-invoice.md`  
   https://kinsta.com/docs/billing/payments/unpaid-invoice/
+- **Payment Methods** - `kb/docs/billing/payments.md`  
+  https://kinsta.com/docs/billing/payments/
 
 ### tax vat gst
 
-- **Billing - Tax, VAT, and GST** - `kb/docs/billing/tax-vat-gst.md`  
+- **Tax, VAT, and GST** - `kb/docs/billing/tax-vat-gst.md`  
   https://kinsta.com/docs/billing/tax-vat-gst/
 
 ### update billing address
@@ -1711,16 +1524,16 @@ python3 scripts/kinsta_kb.py check --url <url>
 
 ### wordpress hosting plans
 
-- **Billing - WordPress Hosting Plans** - `kb/docs/billing/wordpress-hosting-plans.md`  
-  https://kinsta.com/docs/billing/wordpress-hosting-plans/
-- **WordPress Hosting Plans - Cancel WordPress Plan** - `kb/docs/billing/wordpress-hosting-plans/cancel-wordpress-plan.md`  
+- **Cancel WordPress Plan** - `kb/docs/billing/wordpress-hosting-plans/cancel-wordpress-plan.md`  
   https://kinsta.com/docs/billing/wordpress-hosting-plans/cancel-wordpress-plan/
-- **WordPress Hosting Plans - Choosing the Right Plan** - `kb/docs/billing/wordpress-hosting-plans/wordpress-choosing-the-right-plan.md`  
+- **Choosing the Right Plan** - `kb/docs/billing/wordpress-hosting-plans/wordpress-choosing-the-right-plan.md`  
   https://kinsta.com/docs/billing/wordpress-hosting-plans/wordpress-choosing-the-right-plan/
-- **WordPress Hosting Plans - Discounts** - `kb/docs/billing/wordpress-hosting-plans/discounts.md`  
+- **Discounts** - `kb/docs/billing/wordpress-hosting-plans/discounts.md`  
   https://kinsta.com/docs/billing/wordpress-hosting-plans/discounts/
-- **WordPress Hosting Plans - Overages** - `kb/docs/billing/wordpress-hosting-plans/overages.md`  
+- **Overages** - `kb/docs/billing/wordpress-hosting-plans/overages.md`  
   https://kinsta.com/docs/billing/wordpress-hosting-plans/overages/
+- **WordPress Hosting Plans** - `kb/docs/billing/wordpress-hosting-plans.md`  
+  https://kinsta.com/docs/billing/wordpress-hosting-plans/
 
 ## MyKinsta Company Settings  (`company-settings`, 12 pages)
 
@@ -1731,40 +1544,40 @@ python3 scripts/kinsta_kb.py check --url <url>
 
 ### activity log
 
-- **Company Settings - Activity Log** - `kb/docs/company-settings/activity-log.md`  
+- **Activity Log** - `kb/docs/company-settings/activity-log.md`  
   https://kinsta.com/docs/company-settings/activity-log/
 
 ### create company
 
-- **Company Settings - New Company** - `kb/docs/company-settings/create-company.md`  
+- **New Company** - `kb/docs/company-settings/create-company.md`  
   https://kinsta.com/docs/company-settings/create-company/
 
 ### transfer ownership
 
-- **Company Settings - Transfer Ownership** - `kb/docs/company-settings/transfer-ownership.md`  
+- **Transfer Ownership** - `kb/docs/company-settings/transfer-ownership.md`  
   https://kinsta.com/docs/company-settings/transfer-ownership/
 
 ### user management
 
-- **Company Settings - User Management** - `kb/docs/company-settings/user-management.md`  
+- **User Management** - `kb/docs/company-settings/user-management.md`  
   https://kinsta.com/docs/company-settings/user-management/
 
 ### wordpress saml sso
 
-- **Company Settings - SAML Single Sign-On (SSO)** - `kb/docs/company-settings/wordpress-saml-sso.md`  
-  https://kinsta.com/docs/company-settings/wordpress-saml-sso/
-- **SAML Single Sign-On (SSO) - Google Workspace SAML SSO** - `kb/docs/company-settings/wordpress-saml-sso/google-workspace-saml-sso.md`  
+- **Google Workspace SAML SSO** - `kb/docs/company-settings/wordpress-saml-sso/google-workspace-saml-sso.md`  
   https://kinsta.com/docs/company-settings/wordpress-saml-sso/google-workspace-saml-sso/
-- **SAML Single Sign-On (SSO) - Microsoft Entra SAML SSO** - `kb/docs/company-settings/wordpress-saml-sso/microsoft-entra-saml-sso.md`  
+- **Microsoft Entra SAML SSO** - `kb/docs/company-settings/wordpress-saml-sso/microsoft-entra-saml-sso.md`  
   https://kinsta.com/docs/company-settings/wordpress-saml-sso/microsoft-entra-saml-sso/
-- **SAML Single Sign-On (SSO) - Okta SAML SSO** - `kb/docs/company-settings/wordpress-saml-sso/okta-saml-sso.md`  
+- **Okta SAML SSO** - `kb/docs/company-settings/wordpress-saml-sso/okta-saml-sso.md`  
   https://kinsta.com/docs/company-settings/wordpress-saml-sso/okta-saml-sso/
-- **SAML Single Sign-On (SSO) - OneLogin SAML SSO** - `kb/docs/company-settings/wordpress-saml-sso/onelogin-saml-sso.md`  
+- **OneLogin SAML SSO** - `kb/docs/company-settings/wordpress-saml-sso/onelogin-saml-sso.md`  
   https://kinsta.com/docs/company-settings/wordpress-saml-sso/onelogin-saml-sso/
-- **SAML Single Sign-On (SSO) - Ping Identity SAML SSO** - `kb/docs/company-settings/wordpress-saml-sso/ping-identity-saml-sso.md`  
+- **Ping Identity SAML SSO** - `kb/docs/company-settings/wordpress-saml-sso/ping-identity-saml-sso.md`  
   https://kinsta.com/docs/company-settings/wordpress-saml-sso/ping-identity-saml-sso/
-- **SAML Single Sign-On (SSO) - SAML SSO FAQs** - `kb/docs/company-settings/wordpress-saml-sso/wordpress-saml-sso-faqs.md`  
+- **SAML SSO FAQs** - `kb/docs/company-settings/wordpress-saml-sso/wordpress-saml-sso-faqs.md`  
   https://kinsta.com/docs/company-settings/wordpress-saml-sso/wordpress-saml-sso-faqs/
+- **SAML Single Sign-On (SSO)** - `kb/docs/company-settings/wordpress-saml-sso.md`  
+  https://kinsta.com/docs/company-settings/wordpress-saml-sso/
 
 ## MyKinsta User Settings  (`user-settings`, 5 pages)
 
@@ -1775,22 +1588,22 @@ python3 scripts/kinsta_kb.py check --url <url>
 
 ### delete account
 
-- **User Settings - Delete My Kinsta Account** - `kb/docs/user-settings/delete-account.md`  
+- **Delete My Kinsta Account** - `kb/docs/user-settings/delete-account.md`  
   https://kinsta.com/docs/user-settings/delete-account/
 
 ### logging in
 
-- **User Settings - Logging In** - `kb/docs/user-settings/logging-in.md`  
+- **Logging In** - `kb/docs/user-settings/logging-in.md`  
   https://kinsta.com/docs/user-settings/logging-in/
 
 ### notifications
 
-- **User Settings - Notifications** - `kb/docs/user-settings/notifications.md`  
+- **Notifications** - `kb/docs/user-settings/notifications.md`  
   https://kinsta.com/docs/user-settings/notifications/
 
 ### omni search
 
-- **User Settings - Omni-Search** - `kb/docs/user-settings/omni-search.md`  
+- **Omni-Search** - `kb/docs/user-settings/omni-search.md`  
   https://kinsta.com/docs/user-settings/omni-search/
 
 ## Support  (`support`, 4 pages)
@@ -1802,15 +1615,15 @@ python3 scripts/kinsta_kb.py check --url <url>
 
 ### contact support
 
-- **Support - Contact Support** - `kb/docs/support/contact-support.md`  
+- **Contact Support** - `kb/docs/support/contact-support.md`  
   https://kinsta.com/docs/support/contact-support/
 
 ### scope of support
 
-- **Scope of Support - WordPress Hosting** - `kb/docs/support/scope-of-support/managed-wordpress-scope-of-support.md`  
-  https://kinsta.com/docs/support/scope-of-support/managed-wordpress-scope-of-support/
-- **Support - Scope of Support** - `kb/docs/support/scope-of-support.md`  
+- **Scope of Support** - `kb/docs/support/scope-of-support.md`  
   https://kinsta.com/docs/support/scope-of-support/
+- **WordPress Hosting** - `kb/docs/support/scope-of-support/managed-wordpress-scope-of-support.md`  
+  https://kinsta.com/docs/support/scope-of-support/managed-wordpress-scope-of-support/
 
 ## docs  (`docs`, 1 pages)
 
@@ -1825,4 +1638,10 @@ python3 scripts/kinsta_kb.py check --url <url>
 
 - **Kinsta API** - `kb/docs/kinsta-api.md`  
   https://kinsta.com/docs/kinsta-api/
+
+## Removed from Kinsta's docs (1)
+
+Kept as a record of what was once published. Do not cite as current behavior.
+
+- Changelog - removed 2026-10-07T22:59:19Z - https://kinsta.com/changelog/
 

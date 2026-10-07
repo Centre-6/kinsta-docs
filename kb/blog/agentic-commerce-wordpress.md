@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Bot Traffic", "Your WordPress site now has a third type of visitor (and it completes purchases)"]
-kinsta_last_updated: "2026-08-18T18:18:38+00:00"
-sitemap_lastmod: "2026-08-18T18:18:38"
-fetched_at: "2026-10-07T22:42:02Z"
-sha256: "a3af0f8878fe398dc39d86dce25c88b45811e63a606c68f8e27476faa270608c"
-body_chars: 16513
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-08-18T18:18:38"
+change_signal: "2026-08-18T18:18:38"
+fetched_at: "2026-10-07T22:58:24Z"
+sha256: "b497fa309303795001ea09668497cabf55d8ca5b9beb6ee7638464ee72468f11"
+body_chars: 15619
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Your WordPress site now has a third type of visitor (and it completes purchases)
 
-**Section:** Resource Center > Blog > Bot Traffic > Your WordPress site now has a third type of visitor (and it completes purchases)
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/agentic-commerce-wordpress/
-**Kinsta last updated:** 2026-08-18T18:18:38+00:00
+**Kinsta last updated:** 2026-08-18T18:18:38
 
 ## On this page
 
@@ -37,17 +36,6 @@ status: "live"
 - [Agent traffic is no longer bot noise but a full channel](#agent-traffic-is-no-longer-bot-noise-but-a-full-channel)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   September 8, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/08/the-rise-of-ai-means-every-website-now-has-machine-visitors-1024x512.png)
 
 Bots now generate more web traffic than humans, but what’s more interesting is the type of bot driving these interactions. In addition, studying what those bots do when landing on your site is a worthwhile pursuit.
 
@@ -204,13 +192,3 @@ For training crawlers, blocking and reclaiming the resources is still the right 
 The fix is to check whether your pricing and stock data render into the page’s initial HTML. Tracing your slowest pages and reviewing your bot protection settings lets you treat existing traffic with precision and keep server resources efficient.
 
 To see how Bot Protection, APM, and Kinsta’s Cloudflare integration work together to keep your infrastructure ready for both kinds of visitor, check out [Kinsta’s managed WordPress hosting](https://kinsta.com/wordpress-hosting/).
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

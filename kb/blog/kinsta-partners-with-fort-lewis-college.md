@@ -5,35 +5,23 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta News", "Kinsta partners with Fort Lewis College to bring enterprise-grade hosting to Art & Design students"]
-kinsta_last_updated: "2026-01-19T13:28:16+00:00"
-sitemap_lastmod: "2026-01-19T13:28:16"
-fetched_at: "2026-10-07T22:42:56Z"
-sha256: "ec359d02e3563f61216b43d829eb30dd81bd3b2f7e7142d04555f4efdb063488"
-body_chars: 5465
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-01-19T13:28:16"
+change_signal: "2026-01-19T13:28:16"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "deb64fa16e28879ea4f781f8705c8077ecb59752aef074bfda5d726a1829f5e4"
+body_chars: 4728
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Kinsta partners with Fort Lewis College to bring enterprise-grade hosting to Art & Design students
 
-**Section:** Resource Center > Blog > Kinsta News > Kinsta partners with Fort Lewis College to bring enterprise-grade hosting to Art & Design students
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/kinsta-partners-with-fort-lewis-college/
-**Kinsta last updated:** 2026-01-19T13:28:16+00:00
+**Kinsta last updated:** 2026-01-19T13:28:16
 
 ---
-
-Author
-:   [Roger Williams](https://kinsta.com/blog/author/rogerwilliams/ "Posts by Roger Williams")
-
-Updated
-:   January 19, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/12/kinsta-partners-with-Fort-Lewis-College-1024x512.png)
 
 Most college web design students never touch real hosting. They work in sandboxes, on localhost, building sites that never see the light of day, which, in many ways, can feel like learning to drive in a parked car.
 
@@ -74,9 +62,3 @@ Roger Williams, Kinsta’s Partnerships and Community Manager for North America,
 The partnership changed what’s possible for the class and how educational institutions prepare students for the modern web. When barriers like hosting costs disappear, students stop pretending and start building. They learn by doing, failing safely, and shipping real work before they ever interview for their first job.
 
 Kinsta built its platform so developers could ship with confidence. The same infrastructure that powers enterprise businesses works just as well for students building their first portfolio.
-
-Roger Williams
-
-Roger Williams is a Partnership and Community Manager at Kinsta with 20+ years of web experience. He works with agencies, educators, and open-source contributors to help people build better WordPress sites. Connect with him on LinkedIn.
-
-- [LinkedIn](https://www.linkedin.com/in/rogerwilliamsmedia/)

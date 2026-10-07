@@ -1,26 +1,25 @@
 ---
 url: "https://kinsta.com/blog/bot-traffic-server-load-wordpress/"
-title: "Why scaling infrastructure doesn't fix bot traffic problems"
+title: "Why scaling infrastructure doesn\u2019t fix bot traffic problems"
 tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Bot Traffic", "Why scaling infrastructure doesn\u2019t fix bot traffic problems"]
-kinsta_last_updated: "2026-06-19T10:48:21+00:00"
-sitemap_lastmod: "2026-06-19T10:48:21"
-fetched_at: "2026-10-07T22:42:19Z"
-sha256: "378aff25a8f54b382bc9dd9121b8944c5a9cdd18e4fe539a58573af4e9bd72ed"
-body_chars: 16227
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-19T10:48:21"
+change_signal: "2026-06-19T10:48:21"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "9cb08a2d3c4d2b4cbf43e04ed3d4396b2432ab576747ddbd13946166683b0b5f"
+body_chars: 15340
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Why scaling infrastructure doesn't fix bot traffic problems
+# Why scaling infrastructure doesn’t fix bot traffic problems
 
-**Section:** Resource Center > Blog > Bot Traffic > Why scaling infrastructure doesn’t fix bot traffic problems
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/bot-traffic-server-load-wordpress/
-**Kinsta last updated:** 2026-06-19T10:48:21+00:00
+**Kinsta last updated:** 2026-06-19T10:48:21
 
 ## On this page
 
@@ -33,17 +32,6 @@ status: "live"
 - [Stop scaling around a problem you can control](#stop-scaling-around-a-problem-you-can-control)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   June 19, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/05/why-scaling-infrastructure-doesnt-fix-bot-traffic-problems-1024x512.png)
 
 When resource usage on a client site starts climbing without any real rise in visits, a plan upgrade feels like the right move. It’s a sound principle when growth is coming from real traffic that increases load and the need for capacity.
 
@@ -180,13 +168,3 @@ Using [MyKinsta’s analytics](https://kinsta.com/docs/wordpress-hosting/wordpre
 For sites dealing with excessive crawler activity, the **Block AI crawlers** toggle also reduces AI-driven traffic without affecting traditional search engine crawlers such as Googlebot or Bingbot.
 
 If you want more control over how automated traffic reaches your infrastructure, Kinsta’s [Bot Protection](https://kinsta.com/bot-protection/) gives you the visibility and filtering tools to reduce unnecessary load directly from MyKinsta.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

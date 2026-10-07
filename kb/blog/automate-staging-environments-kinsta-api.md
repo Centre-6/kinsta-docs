@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "API", "How to automate sprint environment provisioning with Jira and the Kinsta API"]
-kinsta_last_updated: "2026-06-19T10:49:32+00:00"
-sitemap_lastmod: "2026-06-19T10:49:32"
-fetched_at: "2026-10-07T22:42:28Z"
-sha256: "6d5f48273ef7e350bb18ceb69f611694fd7a184d352bce3b0a54cf5a85f1ff40"
-body_chars: 17856
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-19T10:49:32"
+change_signal: "2026-06-19T10:49:32"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "18454ed89a16143a7e79f67138fdf0af0d582ccc6ebe8de5a3609fdb6c9cce45"
+body_chars: 16956
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How to automate sprint environment provisioning with Jira and the Kinsta API
 
-**Section:** Resource Center > Blog > API > How to automate sprint environment provisioning with Jira and the Kinsta API
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/automate-staging-environments-kinsta-api/
-**Kinsta last updated:** 2026-06-19T10:49:32+00:00
+**Kinsta last updated:** 2026-06-19T10:49:32
 
 ## On this page
 
@@ -37,17 +36,6 @@ status: "live"
 - [Keep your agency ahead of the sprint](#keep-your-agency-ahead-of-the-sprint)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   June 19, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/04/how-to-automate-sprint-environment-provisioning-with-jira-and-the-kinsta-api-1024x512.png)
 
 Every sprint starts with a board full of tickets and a team that needs somewhere clean to work. For agencies running client WordPress projects on two-week cycles, this means creating a [staging environment](https://kinsta.com/docs/wordpress-hosting/staging-environment/) in MyKinsta before the first ticket is picked up.
 
@@ -134,7 +122,7 @@ The second option is the REST API, using `POST /rest/webhooks/1.0/webhook`. This
 ```
 curl -X POST \
   https://your-domain.atlassian.net/rest/webhooks/1.0/webhook \
-  -u [email protected]:your-api-token \
+  -u your-email@example.com:your-api-token \
   -H 'Content-Type: application/json' \
   -d '{
     "name": "Sprint provisioning webhook",
@@ -414,13 +402,3 @@ This integration provisions a clean, named plain staging environment within MyKi
 When the middleware is ready to go live, [Sevalla](https://sevalla.com/) is a straightforward deployment target. You push the project to a Git provider, connect the repo, add the environment variables, and update the Jira webhook URL to the live address.
 
 What’s more, Kinsta’s [Agency Partner Program](https://kinsta.com/agency-partner-program/) is ideal for agencies that manage multiple client projects. It gives you dedicated support, co-marketing opportunities, and the kind of infrastructure partnership that supports the automation layer you’re building on top of the Kinsta API.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

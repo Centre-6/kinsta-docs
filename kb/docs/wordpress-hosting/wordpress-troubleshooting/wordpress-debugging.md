@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/wordpress-debugging/"
-title: "Troubleshooting - Debugging"
+title: "Debugging"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-troubleshooting"
-section: []
-kinsta_last_updated: "September 12, 2024"
-sitemap_lastmod: "2024-09-12T08:33:22+00:00"
-fetched_at: "2026-10-07T22:38:23Z"
-sha256: "3b3a923322aaf37a0b3e15e07560e3957fefbc49b9867d4704616bf230a6a348"
-body_chars: 5850
-extracted_with: "main article"
+section: ["WordPress Hosting", "Troubleshooting"]
+kinsta_last_updated: "2024-09-12T08:33:22"
+change_signal: "2024-09-12T08:33:22"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "8638cc9316dcb08bd069593e89fb4b85be13bbaa8553a044c2decad20c785ea7"
+body_chars: 5870
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Troubleshooting - Debugging
+# Debugging
 
+**Section:** WordPress Hosting > Troubleshooting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/wordpress-debugging/
-**Kinsta last updated:** September 12, 2024
+**Kinsta last updated:** 2024-09-12T08:33:22
 
 ## On this page
 
@@ -59,13 +60,11 @@ Enable WordPress debug mode in MyKinsta.
 
 This will make WordPress show any and all PHP errors, notices, and warnings on your site at the top of the page. These will be shown to any visitor and may be shown on both the front of your site and in the WordPress dashboard. The screenshot below shows a typical PHP warning with debug mode enabled.
 
-![A PHP warning with WordPress debug mode enabled.](https://kinsta.com/wp-content/uploads/2020/07/wordpress-wp-debug-error.jpg)
+![A PHP warning with WordPress debug mode enabled.](https://kinsta.com/wp-content/uploads/2020/07/wordpress-wp-debug-error.jpg "A PHP warning with WordPress debug mode enabled")
 
 A PHP warning with WordPress debug mode enabled.
 
 If you view your site’s **wp-config.php** file now, you’ll see the following line has been added just before the `/* That's all, stop editing! Happy blogging. */` line:
-
-Copy
 
 ```
 if (! defined('WP_DEBUG') ) { define( 'WP_DEBUG', true ); } // line added by the MyKinsta
@@ -81,15 +80,11 @@ There are a few constants that serve as companions to `WP_DEBUG` by enabling add
 
 If you’d like to save errors to a log file, you can enable `WP_DEBUG_LOG` by editing your **wp-config.php** file and adding the following line after the line that enables `WP_DEBUG`:
 
-Copy
-
 ```
 define( 'WP_DEBUG_LOG', true );
 ```
 
 By default, this log file will be saved to: **wp-content/debug.log** on the server. If you like, you can customize the path and file name. In this example, we’re saving the log file to the **tmp** directory and naming the file **wp-errors.log**:
-
-Copy
 
 ```
 define( 'WP_DEBUG_LOG', '/tmp/wp-errors.log' );
@@ -98,8 +93,6 @@ define( 'WP_DEBUG_LOG', '/tmp/wp-errors.log' );
 ### Script debug
 
 Enabling `SCRIPT_DEBUG` forces WordPress to use the dev versions of core CSS and JavaScript files instead of the minified versions that it usually loads:
-
-Copy
 
 ```
 define( 'SCRIPT_DEBUG', true );
@@ -110,8 +103,6 @@ This can be helpful when troubleshooting JavaScript or CSS issues and you suspec
 ### Database query debugging
 
 To save database queries to an array, enable `SAVEQUERIES`:
-
-Copy
 
 ```
 define( 'SAVEQUERIES', true );

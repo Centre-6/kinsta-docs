@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Performance", "WordPress performance during background activity (cron jobs, imports, backups)"]
-kinsta_last_updated: "2026-05-28T07:24:10+00:00"
-sitemap_lastmod: "2026-05-28T07:24:10"
-fetched_at: "2026-10-07T22:42:18Z"
-sha256: "f91aef422b60325b85e18d1c2a361956c4b8d63af068909715710ad51f613389"
-body_chars: 18474
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-28T07:24:10"
+change_signal: "2026-05-28T07:24:10"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "02841f35631c60d6dead35ba878c07ba7e6820ef6bc9123ff7acd35f36b784f0"
+body_chars: 17595
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # WordPress performance during background activity (cron jobs, imports, backups)
 
-**Section:** Resource Center > Blog > WordPress Performance > WordPress performance during background activity (cron jobs, imports, backups)
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-background-tasks-performance/
-**Kinsta last updated:** 2026-05-28T07:24:10+00:00
+**Kinsta last updated:** 2026-05-28T07:24:10
 
 ## On this page
 
@@ -39,17 +38,6 @@ status: "live"
 - [Keep WordPress fast while your site is working behind the scenes](#keep-wordpress-fast-while-your-site-is-working-behind-the-scenes)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   June 25, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/05/wordpress-performance-during-background-activity-1024x512.png)
 
 Most WordPress performance tests capture a quiet moment. They show how a page loads when the site has little else happening in the background.
 
@@ -220,13 +208,3 @@ Together, these features help WordPress stay responsive while the site works beh
 Your WordPress site needs to stay responsive during real production activity, not just when it sits idle.
 
 Kinsta [WordPress hosting](https://kinsta.com/wordpress-hosting/) gives teams the infrastructure, caching, PHP performance controls, backups, cron support, and visibility they need to keep busy sites running smoothly.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

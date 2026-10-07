@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/devkinsta/devkinsta-site-management/browse-devkinsta-site-from-another-device/"
-title: "Site Management - Access from Another Device"
+title: "Access from Another Device"
 tier: "docs"
 product: "devkinsta"
 product_label: "DevKinsta (local dev tool, not hosting)"
 subsection: "devkinsta-site-management"
-section: []
-kinsta_last_updated: "July 18, 2024"
-sitemap_lastmod: "2024-07-18T08:37:07+00:00"
-fetched_at: "2026-10-07T22:38:04Z"
-sha256: "c44c389a293ed9838c65a5af0b6deeaf610e6160fc1d45c418c2734c0fc8e9b9"
-body_chars: 4783
-extracted_with: "main article"
+section: ["DevKinsta", "Site Management"]
+kinsta_last_updated: "2024-07-18T08:37:07"
+change_signal: "2024-07-18T08:37:07"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "84c5d41cb4fec93bb3909b710ffb8c95ce25f4ec5f5daadcc247d7919f2d7535"
+body_chars: 4825
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Site Management - Access from Another Device
+# Access from Another Device
 
+**Section:** DevKinsta > Site Management
 **Product:** DevKinsta (local dev tool, not hosting)
 **Source:** https://kinsta.com/docs/devkinsta/devkinsta-site-management/browse-devkinsta-site-from-another-device/
-**Kinsta last updated:** July 18, 2024
+**Kinsta last updated:** 2024-07-18T08:37:07
 
 ## On this page
 
@@ -30,7 +31,7 @@ status: "live"
 
 ---
 
-The following instructions are for browsing your [DevKinsta-created site](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/creating-a-site/) on another device on the same network.
+The following instructions are for browsing your [DevKinsta-created site](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/creating-a-site) on another device on the same network.
 
 **Important notes:**
 
@@ -82,8 +83,6 @@ You should now be able to access your locally hosted site from a mobile device o
 
 Once the page is loaded, you may notice broken stylesheets/assets or non-working links. This is due to accessing the site with the IP address instead of the **.local** domain. A quick way to get around this is by adding the following snippet in [your site’s wp-config.php file](https://kinsta.com/blog/wp-config-php/) above the “That’s all, stop editing” line:
 
-Copy
-
 ```
 define( 'WP_HOME', 'https://'.$_SERVER['HTTP_HOST'] );
 define( 'WP_SITEURL', 'https://'.$_SERVER['HTTP_HOST'] );
@@ -93,6 +92,6 @@ In each value, you can replace https with http if needed, depending on how your 
 
 Now your site’s stylesheets/assets and links should work as expected when viewing the site on a mobile device on the same network.
 
-![View your DevKinsta site on a different device.](https://kinsta.com/wp-content/uploads/2022/04/Untitled-3.jpg)
+![View your DevKinsta site on a different device.](https://kinsta.com/wp-content/uploads/2022/04/Untitled-3.jpg "View your DevKinsta site on a different device")
 
 View your DevKinsta site on a different device.

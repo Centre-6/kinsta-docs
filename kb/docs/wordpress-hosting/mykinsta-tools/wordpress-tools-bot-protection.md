@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/wordpress-tools-bot-protection/"
-title: "Tools - Bot Protection"
+title: "Bot Protection"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "mykinsta-tools"
-section: []
-kinsta_last_updated: "June 12, 2026"
-sitemap_lastmod: "2026-06-12T10:04:46+00:00"
-fetched_at: "2026-10-07T22:40:26Z"
+section: ["WordPress Hosting", "Tools"]
+kinsta_last_updated: "2026-06-12T10:04:46"
+change_signal: "2026-06-12T10:04:46"
+fetched_at: "2026-10-07T22:58:16Z"
 sha256: "729e643b2eb35cb6f59881e685bd30c6f2ffc7999b4505374faff491a1b5af5d"
 body_chars: 36727
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Tools - Bot Protection
+# Bot Protection
 
+**Section:** WordPress Hosting > Tools
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/wordpress-tools-bot-protection/
-**Kinsta last updated:** June 12, 2026
+**Kinsta last updated:** 2026-06-12T10:04:46
 
 ## On this page
 

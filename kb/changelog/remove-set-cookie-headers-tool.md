@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Introducing the Remove Set-Cookie Headers Tool"]
-kinsta_last_updated: "2022-06-16T13:01:25+00:00"
-sitemap_lastmod: "2022-06-16T13:01:25+00:00"
-fetched_at: "2026-10-07T22:36:44Z"
-sha256: "9072644a471ab16af0f18ae09afebea10d8a57c28514bbd8a228ef2d0b2356ae"
-body_chars: 2821
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2022-06-16T13:01:25"
+change_signal: "2022-06-16T13:01:25"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "35d7d7d6a8a90996068312068453382b79eb269436e311a4d1f07486f5b16919"
+body_chars: 2657
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Introducing the Remove Set-Cookie Headers Tool
 
-**Section:** Changelog > Introducing the Remove Set-Cookie Headers Tool
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/remove-set-cookie-headers-tool/
-**Kinsta last updated:** 2022-06-16T13:01:25+00:00
+**Kinsta last updated:** 2022-06-16T13:01:25
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [What’s Next?](#whats-next)
 
 ---
-
-Updated
-:   June 16, 2022
-
-![Introducing the Remove Set-Cookie Headers Tool](https://kinsta.com/wp-content/uploads/2022/06/remove-set-cookie-headers-1024x512.png)
 
 With the growing prevalence of a cookie-free mindset across the web, we decided to help our customers get ahead of the game by building the [Remove `Set-Cookie` Headers tool](https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/#remove-set-cookie-headers).
 

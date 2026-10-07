@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Introducing the New Affiliate Dashboard"]
-kinsta_last_updated: "2026-06-12T15:55:38+00:00"
-sitemap_lastmod: "2026-06-12T15:55:38+00:00"
-fetched_at: "2026-10-07T22:37:47Z"
-sha256: "b75a4d07a8a349572acf23f2d25598ea545988224c28bf17b169351cdce7921c"
-body_chars: 3189
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-12T15:55:38"
+change_signal: "2026-06-12T15:55:38"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "a5ceed598701bb605420ccb96bd341fd257725e573a0cf6e844f9fb475d73933"
+body_chars: 3038
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Introducing the New Affiliate Dashboard
 
-**Section:** Changelog > Introducing the New Affiliate Dashboard
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/new-affiliate-dashboard/
-**Kinsta last updated:** 2026-06-12T15:55:38+00:00
+**Kinsta last updated:** 2026-06-12T15:55:38
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [What’s Next?](#whats-next)
 
 ---
-
-Updated
-:   June 12, 2026
-
-![Kinsta’s affiliate dashboard](https://kinsta.com/wp-content/uploads/2022/01/new-affiliate-dashboard-kinsta-1024x536.png)
 
 When we launched [our affiliate program](https://kinsta.com/affiliates/), we decided to build our own affiliate system from the ground up. There are many companies out there offering solid affiliate solutions, but none of them could meet our standards and provide all the features we wanted for our program.
 

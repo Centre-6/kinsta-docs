@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "API", "Automate client reporting with Kinsta API and Google AI"]
-kinsta_last_updated: "2026-04-15T17:48:10+00:00"
-sitemap_lastmod: "2026-04-15T17:48:10"
-fetched_at: "2026-10-07T22:42:29Z"
-sha256: "5e0f1de9496081f1b0bb865916ab82606ca396085cfb20daacb079696dab71af"
-body_chars: 35858
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-04-15T17:48:10"
+change_signal: "2026-04-15T17:48:10"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "dfb7ff201a3615f8013006e2becffceb2f9a0a638a94217f573390157947f224"
+body_chars: 34847
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Automate client reporting with Kinsta API and Google AI
 
-**Section:** Resource Center > Blog > API > Automate client reporting with Kinsta API and Google AI
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/kinsta-api-and-google-ai/
-**Kinsta last updated:** 2026-04-15T17:48:10+00:00
+**Kinsta last updated:** 2026-04-15T17:48:10
 
 ## On this page
 
@@ -43,17 +42,6 @@ status: "live"
 - [Next steps: How to improve scalability and automate delivery](#next-steps-how-to-improve-scalability-and-automate-delivery)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Published
-:   May 7, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/04/automate-client-reporting-with-kinsta-api-and-google-ai-1024x512.png)
 
 For modern agencies, a high-quality, consistent reporting system is essential for maintaining client trust and building long-term loyalty. A clear, informative report allows you to monitor sales trends, demonstrate campaign effectiveness, calculate return on investment (ROI), and much more.
 
@@ -851,11 +839,3 @@ You can further improve your reporting in several ways:
 Automated reporting reduces your team’s workload, and the consistency and precision it provides strengthen your clients’ trust and loyalty.
 
 Want to start automating your client reporting right away? [Subscribe to the plan](https://kinsta.com/pricing/) that best fits your needs and start building with the Kinsta API today.
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

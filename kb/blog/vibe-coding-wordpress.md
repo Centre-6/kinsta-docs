@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Agency", "Vibe coding real WordPress workflows using the Kinsta API"]
-kinsta_last_updated: "2026-06-09T08:17:02+00:00"
-sitemap_lastmod: "2026-06-09T08:17:02"
-fetched_at: "2026-10-07T22:42:17Z"
-sha256: "7c10af03a9bddf40640723481e7814147059c3c897c55205bc00d25d177211ca"
-body_chars: 34916
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-09T08:17:02"
+change_signal: "2026-06-09T08:17:02"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "3f070a6dc8f1090cc969c09fd8f3848e0905f570a101a75a94bac0e23ef0830d"
+body_chars: 33902
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Vibe coding real WordPress workflows using the Kinsta API
 
-**Section:** Resource Center > Blog > Agency > Vibe coding real WordPress workflows using the Kinsta API
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/vibe-coding-wordpress/
-**Kinsta last updated:** 2026-06-09T08:17:02+00:00
+**Kinsta last updated:** 2026-06-09T08:17:02
 
 ## On this page
 
@@ -42,17 +41,6 @@ status: "live"
 - [Vibe Coding and Automation: The Future of Forward-Thinking WordPress Agencies](#vibe-coding-and-automation-the-future-of-forward-thinking-wordpress-agencies)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Published
-:   July 2, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/07/vibe-coding-real-wordpress-workflows-using-the-kinsta-api-1024x512.png)
 
 The key to gaining a competitive edge for modern WordPress agencies no longer lies in writing great code. Growth-oriented agencies [automate repetitive tasks](https://kinsta.com/blog/wordpress-automation-managing-sites/), reduce [operational costs](https://kinsta.com/blog/agency-hosting-revenue/) and time-to-market, and offer clients more tailored services.
 
@@ -509,11 +497,3 @@ Vibe Coding isn’t just a simplistic approach to writing code. Instead, it’s 
 If this is the future of software development and agency scalability, then partnering with a forward-thinking hosting platform is vital to staying competitive in the AI era. By leveraging the power of the Kinsta API and orchestrating AI agents with clear rules, rigorous testing, and solid documentation, your agency will stop constantly [firefighting](https://kinsta.com/blog/reduce-maintenance-workload-client-churn/) and start working in a more efficient, predictable, and scalable way.
 
 Ready to evolve your WordPress workflows and slash your development times? Check out [our plans](https://kinsta.com/pricing/) or [reach out to our sales team](https://kinsta.com/talk-to-sales/) and start building your automation pipeline today.
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

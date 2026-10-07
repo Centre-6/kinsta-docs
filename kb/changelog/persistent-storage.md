@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Persistent Storage: More Long-Term Memory for Application Hosting"]
-kinsta_last_updated: "2026-05-14T19:04:42+00:00"
-sitemap_lastmod: "2026-05-14T19:04:42+00:00"
-fetched_at: "2026-10-07T22:37:36Z"
-sha256: "cf596ae66fd85a13f5fee56a3af145fc78d72b9831aadec6ca420b90976bb6cb"
-body_chars: 6932
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-14T19:04:42"
+change_signal: "2026-05-14T19:04:42"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "7c145cbbcef58a1cb58c6421edcb30844882ce9fe0e60bc738766e21b43c7e1e"
+body_chars: 6706
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Persistent Storage: More Long-Term Memory for Application Hosting
 
-**Section:** Changelog > Persistent Storage: More Long-Term Memory for Application Hosting
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/persistent-storage/
-**Kinsta last updated:** 2026-05-14T19:04:42+00:00
+**Kinsta last updated:** 2026-05-14T19:04:42
 
 ## On this page
 
@@ -31,11 +30,6 @@ status: "live"
 - [Deploy Your Application With Persistent Storage Today](#deploy-your-application-with-persistent-storage-today)
 
 ---
-
-Updated
-:   May 14, 2026
-
-![Persistent storage title with dialog illustrating the editing of disk space settings.](https://kinsta.com/wp-content/uploads/2023/07/persistent-storage-for-kinsta-hosted-applications-1024x536.jpg)
 
 Kinsta [Application Hosting](https://sevalla.com/application-hosting/) customers have another option for [persistent data storage](https://kinsta.com/blog/persistent-storage/) now that they can add virtual disk space to their projects.
 

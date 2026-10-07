@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/billing/invoices/"
-title: "Billing - Invoices"
+title: "Invoices"
 tier: "docs"
 product: "billing"
 product_label: "Billing"
 subsection: "invoices"
-section: []
-kinsta_last_updated: "February 17, 2026"
-sitemap_lastmod: "2026-02-17T10:13:44+00:00"
-fetched_at: "2026-10-07T22:39:26Z"
-sha256: "98dfa6dbf9e20a8f6a3a298b12bd5d6d25826ed8eb500677d8c332108ce99510"
-body_chars: 4389
-extracted_with: "main article"
+section: ["Billing"]
+kinsta_last_updated: "2026-02-17T10:13:44"
+change_signal: "2026-02-17T10:13:44"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "140e89ee8d1923bbdb651eb09d931b30282a2d5e42a620fa2354b289f8d72270"
+body_chars: 4388
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Billing - Invoices
+# Invoices
 
+**Section:** Billing
 **Product:** Billing
 **Source:** https://kinsta.com/docs/billing/invoices/
-**Kinsta last updated:** February 17, 2026
+**Kinsta last updated:** 2026-02-17T10:13:44
 
 ## On this page
 
@@ -59,7 +60,7 @@ To view an invoice, click the view (paper/memo) icon. To download a previous inv
 
 View or download invoices in MyKinsta.
 
-The PDF version of your invoice has all the information you need, like the total amount due, start and end dates of the service billed, taxes (if applicable), and account balance, just to name a few. The name and address shown on the PDF version can be amended within [Billing details](https://kinsta.com/docs/billing/update-billing-address/).
+The PDF version of your invoice has all the information you need, like the total amount due, start and end dates of the service billed, taxes (if applicable), and account balance, just to name a few. The name and address shown on the PDF version can be amended within [Billing details](https://kinsta.com/docs/billing/update-billing-address).
 
 Depending on your browser and settings, the PDF may open in a new tab instead of downloading to your local computer. If that happens, at the top of the page, there will be a link to download your invoice as a PDF file.
 

@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/view-server-logs/"
-title: "Troubleshooting - Server Logs"
+title: "Server Logs"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-troubleshooting"
-section: []
-kinsta_last_updated: "June 19, 2026"
-sitemap_lastmod: "2026-06-19T15:23:09+00:00"
-fetched_at: "2026-10-07T22:40:33Z"
-sha256: "eb7640de201fe2fb23adbefd845530898ab0b74b684b416781cea433661a30bd"
-body_chars: 11402
-extracted_with: "main article"
+section: ["WordPress Hosting", "Troubleshooting"]
+kinsta_last_updated: "2026-06-19T15:23:09"
+change_signal: "2026-06-19T15:23:09"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "6bf168a5aaf296879da62044ac1d1947e7e4292dfb50a0614fe1b6e28cbcd6b0"
+body_chars: 11357
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Troubleshooting - Server Logs
+# Server Logs
 
+**Section:** WordPress Hosting > Troubleshooting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/view-server-logs/
-**Kinsta last updated:** June 19, 2026
+**Kinsta last updated:** 2026-06-19T15:23:09
 
 ## On this page
 
@@ -123,14 +124,17 @@ Kinsta’s [file manager](https://kinsta.com/docs/wordpress-hosting/site-managem
 
 1. In MyKinsta, go to **Sites** > ***sitename*** > **Files**.
 2. To access the site’s root directory, click the root directory path in the breadcrumbs.
+
    ![Click the root directory path to access the logs.](https://kinsta.com/wp-content/uploads/2026/06/wordpress-file-manager-root.png)
 
    Click the root directory path to access the logs.
 3. Open the **logs** folder.
+
    ![Open the logs folder. ](https://kinsta.com/wp-content/uploads/2026/06/wordpress-file-manager-logs.png)
 
    Open the logs folder.
 4. Locate the log file you want to download, click the kebab (three-dots), and then click **Download**.
+
    ![Download the log file. ](https://kinsta.com/wp-content/uploads/2026/06/wordpress-file-manager-download-logs.png)
 
    Download the log file.
@@ -164,15 +168,11 @@ For each log file type, the file without a date at the end of the name contains 
 
 Each line will look something like this:
 
-Copy
-
 ```
 kinstahelptesting.kinsta.cloud 98.43.13.94 [22/Sep/2021:21:26:10 +0000] GET "/wp-admin/" HTTP/1.0 302 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:92.0) Gecko/20100101 Firefox/92.0" 98.43.13.94 "/wp-admin/index.php" - - 472 0.562 0.560
 ```
 
 #### Format
-
-Copy
 
 ```
 $http_host_cleaned $remote_addr_kinsta $time_local $request_method $request_uri $server_protocol $status $http_referer $http_user_agent $http_x_kinsta_edge_incomingip $uri $log_x_pull $gzip_ratio $bytes_sent $request_time $upstream_response_time
@@ -201,8 +201,6 @@ $http_host_cleaned $remote_addr_kinsta $time_local $request_method $request_uri 
 
 Each line will look something like this:
 
-Copy
-
 ```
 2019/06/17 15:29:57 [error] 55810#55810: *360896 FastCGI sent in stderr: "PHP message: PHP Parse error: syntax error, unexpected end of file in /www/kinstahelptesting_610/public/wp-content/plugins/code-snippets/php/admin-menus/class-edit-menu.php(213):eval()'d code on line 10" while reading response header from upstream, client: 126.100.65.37, server: kinstaexample.com, request: "POST /wp-admin/admin.php? page=edit-snippet&id=6 HTTP/1.0", upstream: "fastcgi://unix:/var/run/php7.3-fpm-kinstahelptesting.sock:", host: "kinstaexample.com", referrer: "https://kinstaexample.com/wp-admin/admin.php?page=edit-snippet&id=6
 ```
@@ -210,8 +208,6 @@ Copy
 **Note:** Some errors may be followed by a Stack trace, which provides more details about an error and is beneficial when debugging errors.
 
 #### Format
-
-Copy
 
 ```
 UTC timestamp, severity level, error code, error ID, stderr message, client IP, site domain, HTTP/S request type, URI, protocol, upstream process handling request, interal host/port details, referrer URL
@@ -239,8 +235,6 @@ Each line will look something like this:
 
 #### Format
 
-Copy
-
 ```
 $time_local $sent_http_x_kinsta_cache $cache_zone $remote_addr_kinsta $request_method $request_uri $server_protocol $log_cookie $upstream_response_time
 ```
@@ -263,8 +257,6 @@ Each line will look something like this:
 
 #### Format
 
-Copy
-
 ```
 $time_local $remote_addr_kinsta $request $upstream_response_time
 ```
@@ -280,15 +272,11 @@ $time_local $remote_addr_kinsta $request $upstream_response_time
 
 Each line will look something like this:
 
-Copy
-
 ```
 [22/Sep/2021:21:56:01 +0000] "H" 1 "no_action"
 ```
 
 #### Format
-
-Copy
 
 ```
 [time] "H" [count] "no_action"

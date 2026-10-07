@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Manage domains, HTTPS, logs, and backups with the Kinsta API"]
-kinsta_last_updated: "2026-07-31T16:21:26+00:00"
-sitemap_lastmod: "2026-07-31T16:30:27+00:00"
-fetched_at: "2026-10-07T22:37:49Z"
-sha256: "601ce8e4be821345b5588f1e19865e472023077742ff4114b67c6a92b7d8b09a"
-body_chars: 8754
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-07-31T16:21:26"
+change_signal: "2026-07-31T16:21:26"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "5226d4d41b2ffc82a9e9733594deef2a20e749f869591c8f70493cdc7678cc22"
+body_chars: 8640
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Manage domains, HTTPS, logs, and backups with the Kinsta API
 
-**Section:** Changelog > Manage domains, HTTPS, logs, and backups with the Kinsta API
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/kinsta-api-jul-2026/
-**Kinsta last updated:** 2026-07-31T16:21:26+00:00
+**Kinsta last updated:** 2026-07-31T16:21:26
 
 ## On this page
 
@@ -32,11 +31,6 @@ status: "live"
 - [Bring more MyKinsta workflows into your own tools](#bring-more-mykinsta-workflows-into-your-own-tools)
 
 ---
-
-Published
-:   July 31, 2026
-
-![](https://kinsta.com/wp-content/uploads/2026/07/new-api-endpoints-1-1024x536.png)
 
 Several tasks that previously required a trip to [MyKinsta](https://kinsta.com/mykinsta/) can now be handled through the [Kinsta API](https://kinsta.com/docs/kinsta-api/).
 

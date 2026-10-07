@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Hosting", "How MX records work during Kinsta migrations"]
-kinsta_last_updated: "2026-05-11T18:17:31+00:00"
-sitemap_lastmod: "2026-05-11T18:17:31"
-fetched_at: "2026-10-07T22:42:43Z"
-sha256: "2043ec6481882383335f722129d16ae6c66e35c5fd1f8be5076134ddb09cfbfc"
-body_chars: 13737
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-11T18:17:31"
+change_signal: "2026-05-11T18:17:31"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "c70915df1bfb438b34c7cd86ed6526b001dc7607a2894b98ebddeaae5070ebdc"
+body_chars: 12870
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How MX records work during Kinsta migrations
 
-**Section:** Resource Center > Blog > WordPress Hosting > How MX records work during Kinsta migrations
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/mx-records-kinsta-migrations/
-**Kinsta last updated:** 2026-05-11T18:17:31+00:00
+**Kinsta last updated:** 2026-05-11T18:17:31
 
 ## On this page
 
@@ -36,17 +35,6 @@ status: "live"
 - [Planning your migration with email in mind](#planning-your-migration-with-email-in-mind)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   May 11, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/02/how-mx-records-work-during-migrations-1-1024x512.png)
 
 Migrating a website involves two facets: the site’s files and databases, and your email servers. A common issue is email servers failing due to a misunderstanding of how your MX records and web hosting work independently, yet in unison.
 
@@ -178,13 +166,3 @@ Migrating a site can take time, especially when you also need to consider managi
 In the MyKinsta dashboard, you can create **MX** records in a few clicks (for Google Workspace users). After the migration is successful, it’s a priority to test that everything works. The [Kinsta support team](https://kinsta.com/kinsta-support/) has the right expertise to help you through the entire process.
 
 Alongside that [expert migration support](https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/migrating-to-kinsta/), Kinsta’s [managed WordPress hosting](https://kinsta.com/wordpress-hosting/) includes reliable infrastructure designed for sites of all sizes and DNS management tools that simplify email configuration.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

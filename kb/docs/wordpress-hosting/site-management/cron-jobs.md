@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/site-management/cron-jobs/"
-title: "Site Management - Cron Jobs"
+title: "Cron Jobs"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "site-management"
-section: []
-kinsta_last_updated: "January 20, 2025"
-sitemap_lastmod: "2025-01-20T18:03:24+00:00"
-fetched_at: "2026-10-07T22:38:29Z"
-sha256: "0057b8058f5bab6083bb1c8bdf9145bb62c4f59861536bc80bd33d4d3cbd45ff"
-body_chars: 5122
-extracted_with: "main article"
+section: ["WordPress Hosting", "Site Management"]
+kinsta_last_updated: "2025-01-20T18:03:24"
+change_signal: "2025-01-20T18:03:24"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "d1f86d41a1f8bfc4837d7ceeed8c12b2b64b01502038526fcb37d970e9864b2f"
+body_chars: 5106
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Site Management - Cron Jobs
+# Cron Jobs
 
+**Section:** WordPress Hosting > Site Management
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/site-management/cron-jobs/
-**Kinsta last updated:** January 20, 2025
+**Kinsta last updated:** 2025-01-20T18:03:24
 
 ## On this page
 
@@ -62,8 +63,6 @@ The cron expression determines when and how often the cron job runs. It is made 
 
 For example, if you want to run a script every Sunday at 2 am, you would need to add the following cron command:
 
-Copy
-
 ```
 0 2 * * 0 php /path-to-your-script/script-name.php >/dev/null 2>&1
 ```
@@ -88,8 +87,6 @@ To upload the job yourself,
 1. [Access your site container over SSH](https://kinsta.com/docs/wordpress-hosting/connect-to-ssh/)
 2. Run the following command:  
 
-   Copy
-
    ```
    crontab -e
    ```
@@ -106,6 +103,6 @@ If you aren’t comfortable using SSH, you can open a new chat with our Support 
 ## Kinsta policies on server cron jobs
 
 - **Kinsta’s support of server cron jobs is limited to uploading the cron job exactly as you provide it to the container crontab or editing cron jobs as you direct.** If you need assistance writing the command that will be executed by crontab, you will need to work with a qualified developer to write the cron job.
-- **The minimum cron job interval is 5 minutes.** Please do not upload server cron jobs that will run more frequently than every 5 minutes. If you ask our Support team to add a cron that runs more frequently than every 5 minutes, we will suggest that the interval be increased to 5 minutes. If you need a cron to run more often, you’ll need a [dedicated server](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/dedicated-server/) to do so. On a dedicated server, you can run cron jobs every minute.
+- **The minimum cron job interval is 5 minutes.** Please do not upload server cron jobs that will run more frequently than every 5 minutes. If you ask our Support team to add a cron that runs more frequently than every 5 minutes, we will suggest that the interval be increased to 5 minutes. If you need a cron to run more often, you’ll need a [dedicated server](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/dedicated-server) to do so. On a dedicated server, you can run cron jobs every minute.
 - **Please do not edit or move the jobs at the top of the crontab.** These jobs are added by our System Engineering team and must remain at the top of the file.
 - **Please add your custom server cron jobs to the bottom of the crontab file.** If you add your custom server cron jobs at the top of the file, our maintenance scripts, staging system, or backup system may overwrite your custom server cron jobs.

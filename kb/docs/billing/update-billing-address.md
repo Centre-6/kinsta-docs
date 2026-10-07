@@ -5,21 +5,22 @@ tier: "docs"
 product: "billing"
 product_label: "Billing"
 subsection: "update-billing-address"
-section: []
-kinsta_last_updated: "August 13, 2024"
-sitemap_lastmod: "2024-08-13T11:29:52+00:00"
-fetched_at: "2026-10-07T22:38:16Z"
+section: ["Billing"]
+kinsta_last_updated: "2024-08-13T11:29:52"
+change_signal: "2024-08-13T11:29:52"
+fetched_at: "2026-10-07T22:58:19Z"
 sha256: "ffb3e4cd28e7f509e37411fc660159ddd0e0d4d79222c79ab601d55dfd3d3eed"
 body_chars: 801
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Billing Details
 
+**Section:** Billing
 **Product:** Billing
 **Source:** https://kinsta.com/docs/billing/update-billing-address/
-**Kinsta last updated:** August 13, 2024
+**Kinsta last updated:** 2024-08-13T11:29:52
 
 ---
 

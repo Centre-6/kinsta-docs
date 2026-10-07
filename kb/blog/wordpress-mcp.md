@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "API", "How to build a WordPress MCP integration for AI Agents on Kinsta-powered websites"]
-kinsta_last_updated: "2026-08-18T06:06:50+00:00"
-sitemap_lastmod: "2026-08-18T06:06:50"
-fetched_at: "2026-10-07T22:42:06Z"
-sha256: "983eb685080f805eea63d488031276853334c1faed9f6fa4a02344ce12557677"
-body_chars: 28129
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-08-18T06:06:50"
+change_signal: "2026-08-18T06:06:50"
+fetched_at: "2026-10-07T22:58:24Z"
+sha256: "da10a5eecc20a1491c095b6264f7612ee04c321bf489eac203cb6955c8980828"
+body_chars: 27088
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How to build a WordPress MCP integration for AI Agents on Kinsta-powered websites
 
-**Section:** Resource Center > Blog > API > How to build a WordPress MCP integration for AI Agents on Kinsta-powered websites
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-mcp/
-**Kinsta last updated:** 2026-08-18T06:06:50+00:00
+**Kinsta last updated:** 2026-08-18T06:06:50
 
 ## On this page
 
@@ -43,17 +42,6 @@ status: "live"
 - [The future of WordPress is agentic](#the-future-of-wordpress-is-agentic)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Published
-:   August 19, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/08/how-to-build-a-wordpress-acp-integration-for-ai-agents-on-kinsta-powered-websites-1024x512.png)
 
 The Model Context Protocol (MCP) is an open standard that establishes secure connections between AI-driven tools and non-public data sources.
 
@@ -484,11 +472,3 @@ WordPress is evolving from a traditional CMS into a full-fledged agentic applica
 Whether it is [converting an audio file into a post](https://kinsta.com/blog/wordpress-ai/), [integrating an automated workflow via GitHub Actions](https://kinsta.com/blog/automate-agency-workflow-with-kinsta-and-trello/), or building a seamless bridge between your site and the Claude Desktop client, WordPress is fully ready to process complex requests and translate input data into native Gutenberg blocks. It is up to you to give your applications the power, security, and scalability they need by choosing an industry-leading hosting partner like Kinsta.
 
 Have you taken a look at [our plans](https://kinsta.com/pricing/) yet? If you are unsure which one best fits your site’s specific workflow, [our sales team](https://kinsta.com/talk-to-sales/) will be more than happy to answer all your questions.
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

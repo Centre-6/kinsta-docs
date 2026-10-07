@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Manage SSH and SFTP access with the Kinsta API"]
-kinsta_last_updated: "2026-05-20T20:31:40+00:00"
-sitemap_lastmod: "2026-05-20T20:31:40+00:00"
-fetched_at: "2026-10-07T22:37:42Z"
-sha256: "00af74702e64be77d843ecf6b45c6ac30d262b4eab9c21cd1fc035e3b80e4ee4"
-body_chars: 7557
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:31:40"
+change_signal: "2026-05-20T20:31:40"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "ef8aed82978233fd2d1741cb41a4b9b3aa7dced1067dc792505624795bb7e160"
+body_chars: 7437
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Manage SSH and SFTP access with the Kinsta API
 
-**Section:** Changelog > Manage SSH and SFTP access with the Kinsta API
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/kinsta-api-oct-2025/
-**Kinsta last updated:** 2026-05-20T20:31:40+00:00
+**Kinsta last updated:** 2026-05-20T20:31:40
 
 ## On this page
 
@@ -33,11 +32,6 @@ status: "live"
 - [Build secure automation workflows](#build-secure-automation-workflows)
 
 ---
-
-Updated
-:   May 20, 2026
-
-![](https://kinsta.com/wp-content/uploads/2025/10/featured-image-changelog-ssh-and-sftp-management-1024x536.png)
 
 [SSH and SFTP acce](https://kinsta.com/docs/wordpress-hosting/connecting-with-sftp/)[ss](https://kinsta.com/docs/wordpress-hosting/connecting-with-sftp/) have always been a major part of how developers connect securely to their [WordPress environments](https://kinsta.com/docs/wordpress-hosting/staging-environment/) at Kinsta.
 
@@ -201,7 +195,7 @@ GET /sites/{site_id}/environments/{env_id}/ssh/config
   "port": "22",
   "host": "example.sftp.kinsta.cloud",
   "user": "kinsta_user",
-  "ssh_command": "ssh [email protected] -p 22"
+  "ssh_command": "ssh kinsta_user@example.sftp.kinsta.cloud -p 22"
 }
 ```
 

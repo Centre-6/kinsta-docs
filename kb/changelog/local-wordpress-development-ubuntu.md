@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "DevKinsta Is Now Available For Ubuntu/Linux Users"]
-kinsta_last_updated: "2021-04-15T10:55:57+00:00"
-sitemap_lastmod: "2021-04-15T10:55:57+00:00"
-fetched_at: "2026-10-07T22:36:43Z"
-sha256: "838af8ac965c553e5e8c0b8bd12e283222cc504c0e7310b44d125318f7535ffe"
-body_chars: 2679
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2021-04-15T10:55:57"
+change_signal: "2021-04-15T10:55:57"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "a874380cb4cdb4a2207904bb6399118cf59fc433dac24bc7f595e92ab0ac7411"
+body_chars: 2510
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # DevKinsta Is Now Available For Ubuntu/Linux Users
 
-**Section:** Changelog > DevKinsta Is Now Available For Ubuntu/Linux Users
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/local-wordpress-development-ubuntu/
-**Kinsta last updated:** 2021-04-15T10:55:57+00:00
+**Kinsta last updated:** 2021-04-15T10:55:57
 
 ---
-
-Updated
-:   April 15, 2021
-
-![DevKinsta's now available for Ubuntu/Linux](https://kinsta.com/wp-content/uploads/2021/04/local-wordpress-development-linux-1024x512.png)
 
 [Local WordPress development](https://kinsta.com/blog/install-wordpress-locally/) allows you to test core updates before pushing them live, customize plugins and themes to see how they’d run without compromising your production environments, and, ultimately, make sure everything will work as you intended before implementing any critical changes.
 

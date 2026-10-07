@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-domains/dns/"
-title: "Domains and DNS"
+title: "Kinsta\u2019s DNS"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-domains"
-section: []
-kinsta_last_updated: "November 5, 2025"
-sitemap_lastmod: "2025-11-05T18:29:56+00:00"
-fetched_at: "2026-10-07T22:39:02Z"
-sha256: "105ce5134d720f1eb9b40a660af7aca08a2735eb8d0e3f50d64f695b3aee5b59"
-body_chars: 34979
-extracted_with: "main article"
+section: ["WordPress Hosting", "Domains and DNS"]
+kinsta_last_updated: "2025-11-05T18:29:56"
+change_signal: "2025-11-05T18:29:56"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "d7ac8ac905326ae35b640d39c768675d127840f93617ac00a3d0c61d81348dba"
+body_chars: 34867
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Domains and DNS
+# Kinsta’s DNS
 
+**Section:** WordPress Hosting > Domains and DNS
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-domains/dns/
-**Kinsta last updated:** November 5, 2025
+**Kinsta last updated:** 2025-11-05T18:29:56
 
 ## On this page
 
@@ -124,6 +125,7 @@ Log in to your domain registrar’s management panel. This may not be the same p
 
 1. Within your domain’s registrar, navigate to the section where nameservers are managed (commonly labeled DNS, Manage Zones, Modify DNS Servers, Custom DNS, or similar). If you can’t find it, check your registrar’s documentation or contact their support team. Depending on your registrar, you may need to remove the existing nameservers first.
 2. Add the four nameservers shown in MyKinsta, and make sure they are the only ones listed.
+
    ![Nameservers in MyKinsta.](https://kinsta.com/wp-content/uploads/2025/09/wordpress-dns-nameservers.png)
 
    Nameservers in MyKinsta.
@@ -136,14 +138,17 @@ Using a `.txt` file, you can import your DNS records for your root domain or sub
 
 1. Log in to your DNS provider and download or export your DNS records. For example, in Cloudflare, you can export your DNS records within **DNS** > **Records** > **Import and Export** > **Export**.
 2. In MyKinsta, go to **DNS management**, click the domain you want to import DNS records for, and within **Upload zone file**, click **Upload file**. If you’re uploading a zone file for a subdomain, within **DNS records**, click **Upload zone file**.
+
    ![Upload a .txt file to MyKinsta.](https://kinsta.com/wp-content/uploads/2025/09/wordpress-dns-upload-zone-file.png)
 
    Upload a .txt file to MyKinsta.
 3. Drag and drop the `.txt` file, or **Browse** to the file and click **Open**.
+
    ![Drag and drop or browse to your .txt file to upload it.](https://kinsta.com/wp-content/uploads/2025/09/wordpress-dns-upload-file.png)
 
    Drag and drop or browse to your .txt file to upload it.
 4. Review the DNS records by comparing these to the records within your DNS provider to ensure they are all correct, deselect any records you do not want to import, and click **Insert DNS records**. NS records are disabled by default, as these are only applicable when you want to delegate a subdomain either to an external DNS provider or to a separate DNS zone within MyKinsta. 
+
    ![Review and insert the uploaded DNS records.](https://kinsta.com/wp-content/uploads/2025/09/wordpress-dns-insert-uploaded-records.png)
 
    Review and insert the uploaded DNS records.
@@ -154,10 +159,12 @@ Using a `.txt` file, you can import your DNS records for your root domain or sub
 You can automatically scan your domain or subdomain’s existing DNS records to identify the most common record types and names.
 
 1. In MyKinsta, go to **DNS management**, click the domain you want to scan DNS records for, and within **Automatic scan**, click **Start scan**. If you want to scan DNS records for a subdomain, within **DNS records**, click **Automatic scan**, enter your subdomain, for example, `shop`, and click **Scan**.
+
    ![Automatically scan your domain for DNS records.](https://kinsta.com/wp-content/uploads/2025/09/wordpress-dns-start-scan.png)
 
    Automatically scan your domain for DNS records.
 2. Review the DNS records by comparing them to the records within your DNS provider to ensure they are all correct. Deselect any records you do not want to import, and click Insert DNS records. NS records are disabled by default, as they are only applicable when you want to delegate a subdomain either to an external DNS provider or to a separate DNS zone within MyKinsta.
+
    ![Review and insert your DNS records.](https://kinsta.com/wp-content/uploads/2025/09/wordpress-dns-insert-scan-records.png)
 
    Review and insert your DNS records.
@@ -224,8 +231,6 @@ Add a CNAME record in Kinsta’s DNS.
 
 A CAA record is an optional DNS record that lets you specify which certificate authorities (CAs) are allowed to issue SSL certificates for your domain. If a domain has no CAA records, any CA can generate an SSL certificate for it if requested. Setting up a CAA record provides you with an additional layer of security to prevent untrusted CAs from issuing SSL certificates for your domain. The CAA record follows the format below:
 
-Copy
-
 ```
 your-domain.com CAA <flags> <tag> <value>
 ```
@@ -251,8 +256,6 @@ A CAA tag specifies that allowed behavior for authorized CAs when issuing SSL ce
 
 A CAA value specifies the domain name of a certificate authority (CA). For example, the CAA value for Let’s Encrypt (a popular CA) would be `letsencrypt.org`. If the CAA value is set to `;`, no CA is allowed to issue an SSL certificate for the domain. To add a CAA record in Kinsta’s DNS, you’ll need the hostname, CAA value (the domain name of the CA), CAA flag, and CAA tag. In this example, let’s add the CAA record below.
 
-Copy
-
 ```
 kinstalife.com. CAA 0 issue “letsencrypt.org”
 ```
@@ -266,8 +269,6 @@ Add a CAA record in Kinsta’s DNS.
 #### Google CAA records
 
 If you use Google Cloud or Google-managed SSL certificates, you must add the following CAA records to your DNS entries to allow Google Trust Services (pki.goog) to issue both standard and wildcard SSL/TLS certificates for your domain, replacing `example.com` with your domain:
-
-Copy
 
 ```
 example.com. IN CAA 0 issue "pki.goog"
@@ -332,8 +333,6 @@ TXT records are used for a variety of things. Typically they are used for verifi
 
 Let’s say we need to add the TXT record below to verify the domain kinstalife.com with Google Workspace.
 
-Copy
-
 ```
 google-site-verification=rXOxyZounnZasA8Z7oaD3c14JdjS9aKSWvsR1EbUSIQ
 ```
@@ -347,8 +346,6 @@ Add a TXT record in Kinsta’s DNS.
 ### SPF record
 
 An SPF (Sender Policy Framework) record is a type of DNS record used to prevent email spoofing. It tells mail servers which IP addresses or services are authorized to send email on behalf of your domain. When a receiving mail server checks an incoming message, it looks up the SPF record for the sending domain and verifies whether the sender is allowed. Here’s an example of what an SPF record may look like:
-
-Copy
 
 ```
 v=spf1 include:servers.mcsv.net ?all
@@ -384,15 +381,11 @@ Add a DKIM record with multiple strings in Kinsta’s DNS.
 
 Depending on the method or tool used (the `dig` command or a lookup tool), checking DNS may show the record as a single entry:
 
-Copy
-
 ```
 "v=DKIM1;  k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUMIGfMA0GCSqGSIb3DQEBAQUMIGfMA0GCSqGSIb3DQEBAQUMIGfMA0GCSqGSIb3DQEBAQUMIGfMA0GCSqGSIb3DQEBAQUMIGfMA0GCSqGSIb3DQEBAQUMIGfMA0GCSqGSIb3DQEBAQUMIGfMA0GCSqGSIb3DQEBAQUMIGfMA0GCSqGSIb3DQEBAQUkIGfMA0GCSqGSIb3DQEBAQUMIGfMA0GCSqGSIb3DQEBAQUMIGfMA0GCSqGSIb3DQEBAQUMIGfMA0GCSqGSIb3D"
 ```
 
 or it may show the record with the double quotes between the strings:
-
-Copy
 
 ```
 "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUMIGfMA0GCSqGSIb3DQEBAQUMIGfMA0GCSqGSIb3DQEBAQUMIGfMA0GCSqGSIb3DQEBAQUMIGfMA0GCSqGSIb3DQEBAQUMIGfMA0GCSqGSIb3DQEBAQUMIGfMA0GCSqGSIb3DQEBAQUMIGfMA0GCSqGSIb3DQEBAQUMIGfMA0GCSqGSIb3DQEBAQUkIGfMA0GCSqGSIb3DQEBAQUMIGfMA0" "GCSqGSIb3DQEBAQUMIGfMA0GCSqGSIb3DQEBAQUMIGfMA0GCSqGSIb3D"
@@ -405,7 +398,7 @@ Some email providers now enforce stricter authentication requirements for bulk e
 - [How to Use a Free SMTP Server for WordPress Emails (Including Gmail SMTP Server)](https://kinsta.com/blog/free-smtp-server/)
 - [How to Use the Gmail SMTP Server to Send Emails for Free](https://kinsta.com/blog/gmail-smtp-server/)
 
-DMARC builds on SPF and DKIM to verify that an email truly originates from the domain listed in the header From address (for example, `[email protected]`). The receiving mail server then checks for a DMARC record published at `_dmarc.sitename.com`. The key mechanism in DMARC is alignment, which means the domain in the header From address must match (or closely align with) the domain used in the DKIM signature or the SPF envelope From address. Alignment ensures that unauthorized servers cannot send messages on behalf of your domain.
+DMARC builds on SPF and DKIM to verify that an email truly originates from the domain listed in the header From address (for example, `info@sitename.com`). The receiving mail server then checks for a DMARC record published at `_dmarc.sitename.com`. The key mechanism in DMARC is alignment, which means the domain in the header From address must match (or closely align with) the domain used in the DKIM signature or the SPF envelope From address. Alignment ensures that unauthorized servers cannot send messages on behalf of your domain.
 
 The policy (p=) defined in your DMARC record tells receiving mail servers how to handle messages that fail DMARC checks. You can choose from the following options:
 
@@ -416,8 +409,6 @@ The policy (p=) defined in your DMARC record tells receiving mail servers how to
 To use [Kinsta’s Transactional Email](https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/email/) service you must either remove your DKIM record or configure a DMARC record with the policy as `p=none`.
 
 To configure a DMARC record, add a TXT record with the required policy at your DNS provider, for example:
-
-Copy
 
 ```
 v=DMARC1;p=none
@@ -487,7 +478,7 @@ To help prevent email spoofing or your legitimate email messages being sent to a
 At Kinsta, we utilize MailChannels for [transactional email](https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/email/) delivery. This means outgoing emails from your WordPress site are sent through MailChannels’ service. There are two different from addresses when you send emails:
 
 - **Header from:** This is used for identifying the sender to the recipient. It is visible to the recipient and appears in the “From” field of the email message. The header from address is derived from WordPress or a WordPress plugin; by default, it is the site administration email within WordPress Admin > **Settings** > **General** > **Email Address**.
-- **Envelope from:** This is used for routing and handling delivery errors. With Kinsta’s transactional email provided by MailChannels, this is set to [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection#c5b6acb1a0aba4a8a085b6acb1a0aba4a8a0ebaeacabb6b1a4a8a4aca9b6a0b7b3aca6a0eba6aaa8) and cannot be changed. It is part of the email’s metadata, and typically, it is not visible to the email recipient; however, some mail software may show both the header from and envelope from addresses.
+- **Envelope from:** This is used for routing and handling delivery errors. With Kinsta’s transactional email provided by MailChannels, this is set to [sitename@sitename.kinstamailservice.com](mailto:sitename@sitename.kinstamailservice.com) and cannot be changed. It is part of the email’s metadata, and typically, it is not visible to the email recipient; however, some mail software may show both the header from and envelope from addresses.
 
 If you’re using an SPF TXT record to authorize hostnames for email services on your domain, you’ll need to include MailChannels to ensure reliable email deliverability. To do this, [merge MailChannels](#how-to-merge-an-spf-record) into your existing SPF record. If no SPF record exists, simply [add it to your DNS records](#how-to-add-an-spf-record-for-mailchannels).
 
@@ -510,8 +501,6 @@ You can only have one SPF record for a domain. If an SPF record already exists, 
 ### How to add an SPF record for MailChannels
 
 To configure an SPF record for MailChannels, add the TXT record below at your DNS provider:
-
-Copy
 
 ```
 v=spf1 a mx include:relay.kinstamailservice.com ~all
@@ -542,8 +531,6 @@ Your SPF record may already include `a mx`, for example, `v=spf1 a mx include:ex
 ### How to add a DMARC record for MailChannels
 
 To configure a DMARC record for MailChannels, add the TXT record below at your DNS provider:
-
-Copy
 
 ```
 v=DMARC1;p=none

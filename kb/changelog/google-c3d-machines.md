@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Kinsta Is Adopting Google\u2019s C3D Machines for Even Faster Response Times"]
-kinsta_last_updated: "2024-08-15T14:46:42+00:00"
-sitemap_lastmod: "2024-08-15T14:46:42+00:00"
-fetched_at: "2026-10-07T22:36:56Z"
-sha256: "18c72327e26fc154d337ef6fb899e37060ca5b7b11d57e1a7cfd1149daa423b2"
-body_chars: 4104
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-08-15T14:46:42"
+change_signal: "2024-08-15T14:46:42"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "91ce621b2e7e54faeb653db0aca88c6e920d424a4a87ddf9cc358ac7b0cd6360"
+body_chars: 3911
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Kinsta Is Adopting Google’s C3D Machines for Even Faster Response Times
 
-**Section:** Changelog > Kinsta Is Adopting Google’s C3D Machines for Even Faster Response Times
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/google-c3d-machines/
-**Kinsta last updated:** 2024-08-15T14:46:42+00:00
+**Kinsta last updated:** 2024-08-15T14:46:42
 
 ## On this page
 
@@ -30,11 +29,6 @@ status: "live"
 - [Your Home for Fast WordPress Sites](#your-home-for-fast-wordpress-sites)
 
 ---
-
-Updated
-:   August 15, 2024
-
-![The GPC logo and the words Migration to Google's C3D Machines.](https://kinsta.com/wp-content/uploads/2023/12/kinsta-migration-google-c3d-machines-1024x536.jpg)
 
 Kinsta was first among [Managed WordPress Hosting](https://kinsta.com/wordpress-hosting/) companies to base its infrastructure exclusively on the [Google Cloud Platform](https://kinsta.com/blog/cloud-platform-for-developers/) (GCP). And, in an ongoing quest to deliver the fastest and most reliable hosting anywhere, we’ve built our services on GCP’s most advanced virtual machines.
 

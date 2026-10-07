@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Development", "Agile delivery for agencies with Kinsta\u2019s multi-environment setup"]
-kinsta_last_updated: "2025-12-08T10:19:14+00:00"
-sitemap_lastmod: "2025-12-08T10:19:14"
-fetched_at: "2026-10-07T22:43:06Z"
-sha256: "1037bd01acbc9618e5c2f34022236bf498a1203eed0c386eb03c283336e6a619"
-body_chars: 17343
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-12-08T10:19:14"
+change_signal: "2025-12-08T10:19:14"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "993050aa8c351d29f40a075878fa03df38167030ad2346f63a04c071b65fabb0"
+body_chars: 16432
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Agile delivery for agencies with Kinsta’s multi-environment setup
 
-**Section:** Resource Center > Blog > WordPress Development > Agile delivery for agencies with Kinsta’s multi-environment setup
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/agile-delivery-multi-environment-setup/
-**Kinsta last updated:** 2025-12-08T10:19:14+00:00
+**Kinsta last updated:** 2025-12-08T10:19:14
 
 ## On this page
 
@@ -37,17 +36,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   December 8, 2025
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/12/how-kinstas-multi-environment-setup-helps-agencies-deliver-full-service-results-1024x512.png)
 
 A full-service agency that manages multiple client websites doesn’t need slow workflows. However, typical single-environment hosting creates constant bottlenecks, forcing risky live edits, delayed approvals, and sleepless nights before launches.
 
@@ -236,13 +224,3 @@ A multi-environment workflow eliminates any deployment anxiety. By separating yo
 The built-in tools within the MyKinsta dashboard, along with the best-in-class environment creation, mean Kinsta can be an extra team member while you scale up operations.
 
 If you’re ready to scale, explore how [Kinsta’s agency hosting solutions](https://kinsta.com/agency-partner-program/) provide the multi-environment infrastructure and tools you need to deliver exceptional results for more clients.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

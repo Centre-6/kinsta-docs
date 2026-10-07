@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Change primary domains and manage SFTP access with Kinsta API"]
-kinsta_last_updated: "2026-05-20T20:32:03+00:00"
-sitemap_lastmod: "2026-05-20T20:32:03+00:00"
-fetched_at: "2026-10-07T22:37:44Z"
-sha256: "3bf83525ffcd9d4bf5be185ba403f834f95bc14326f6640e94f323eb0774c0de"
-body_chars: 5936
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:32:03"
+change_signal: "2026-05-20T20:32:03"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "66b95deb4fd45184813d9038c037ddda16101f8292278d0096589ec447e5c23e"
+body_chars: 5821
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Change primary domains and manage SFTP access with Kinsta API
 
-**Section:** Changelog > Change primary domains and manage SFTP access with Kinsta API
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/kinsta-api-jun-23-2025/
-**Kinsta last updated:** 2026-05-20T20:32:03+00:00
+**Kinsta last updated:** 2026-05-20T20:32:03
 
 ## On this page
 
@@ -33,11 +32,6 @@ status: "live"
 - [More control for modern teams](#more-control-for-modern-teams)
 
 ---
-
-Updated
-:   May 20, 2026
-
-![](https://kinsta.com/wp-content/uploads/2025/06/kinsta-api-improvements-1024x536.png)
 
 We’ve expanded the [Kinsta API](https://kinsta.com/docs/kinsta-api/) with new domain and user management capabilities, giving teams even more control over their environments, without needing to log in to [MyKinsta](https://kinsta.com/mykinsta/).
 

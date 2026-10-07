@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/cloudflare-errors/"
-title: "Troubleshooting - Cloudflare Errors"
+title: "Cloudflare Errors"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-troubleshooting"
-section: []
-kinsta_last_updated: "July 17, 2024"
-sitemap_lastmod: "2024-07-17T11:27:23+00:00"
-fetched_at: "2026-10-07T22:38:01Z"
-sha256: "d37307aaf965f5b8a6224339d175c96b6253af3ec5432691ab19c6ef38a46381"
-body_chars: 4062
-extracted_with: "main article"
+section: ["WordPress Hosting", "Troubleshooting"]
+kinsta_last_updated: "2024-07-17T11:27:23"
+change_signal: "2024-07-17T11:27:23"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "2f9311a3d8cf17dcb4421ae2160fd769860dde1e6602c6a099d25ecea5a7da8f"
+body_chars: 4099
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Troubleshooting - Cloudflare Errors
+# Cloudflare Errors
 
+**Section:** WordPress Hosting > Troubleshooting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/cloudflare-errors/
-**Kinsta last updated:** July 17, 2024
+**Kinsta last updated:** 2024-07-17T11:27:23
 
 ## On this page
 
@@ -83,7 +84,7 @@ If you see the Error 1020 Access Denied while visiting a site, but you aren’t 
 
 Be sure to include a screenshot of the error or at least the **Cloudflare Ray ID** that is shown below the error.
 
-![Cloudflare Error 1020 Acess denied.](https://kinsta.com/wp-content/uploads/2021/10/cloudflare-error-1020.jpg)
+![Cloudflare Error 1020 Acess denied.](https://kinsta.com/wp-content/uploads/2021/10/cloudflare-error-1020.jpg "Cloudflare Error 1020 Acess denied")
 
 Cloudflare Error 1020 Acess denied.
 

@@ -12,8 +12,11 @@ fetched_at: "2026-10-07T22:36:39Z"
 sha256: "1393f49b42483beadd686050392804ae755b87d535b9c4a1927853e0f0203a2a"
 body_chars: 3655
 extracted_with: "main"
-status: "live"
+status: "removed"
+removed_at: "2026-10-07T22:59:19Z"
 ---
+
+> **REMOVED FROM KINSTA'S DOCS** as of 2026-10-07T22:59:19Z (absent from sitemap). Kept as a record of what was published. Do not cite as current.
 
 # Changelog
 

@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/"
-title: "WordPress Hosting - Migrations"
+title: "Migrations"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-migrations"
-section: []
-kinsta_last_updated: "March 23, 2026"
-sitemap_lastmod: "2026-03-23T12:55:52+00:00"
-fetched_at: "2026-10-07T22:39:46Z"
+section: ["WordPress Hosting"]
+kinsta_last_updated: "2026-03-23T12:55:52"
+change_signal: "2026-03-23T12:55:52"
+fetched_at: "2026-10-07T22:58:21Z"
 sha256: "50c4ad7679cb0329da9845bfe251d2010970c167338af365ae905f2e3799438e"
 body_chars: 1359
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# WordPress Hosting - Migrations
+# Migrations
 
+**Section:** WordPress Hosting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/
-**Kinsta last updated:** March 23, 2026
+**Kinsta last updated:** 2026-03-23T12:55:52
 
 ---
 

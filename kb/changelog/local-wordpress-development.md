@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Introducing DevKinsta, the Free Local WordPress Development Tool (for Everyone)"]
-kinsta_last_updated: "2026-04-20T09:37:00+00:00"
-sitemap_lastmod: "2026-04-20T09:37:00+00:00"
-fetched_at: "2026-10-07T22:37:23Z"
-sha256: "f79d924ffd8c2e99b4ce92f4686e10393efd1cb277c4117e0c2b06a3aaafc572"
-body_chars: 6300
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-04-20T09:37:00"
+change_signal: "2026-04-20T09:37:00"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "3a4df0cff423c6f47ee976d965b373c4e13a06f01202f17f587f63bee342e557"
+body_chars: 6152
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Introducing DevKinsta, the Free Local WordPress Development Tool (for Everyone)
 
-**Section:** Changelog > Introducing DevKinsta, the Free Local WordPress Development Tool (for Everyone)
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/local-wordpress-development/
-**Kinsta last updated:** 2026-04-20T09:37:00+00:00
+**Kinsta last updated:** 2026-04-20T09:37:00
 
 ## On this page
 
@@ -32,11 +31,6 @@ status: "live"
 - [What You Should Do Next](#what-you-should-do-next)
 
 ---
-
-Updated
-:   April 20, 2026
-
-![local WordPress development](https://kinsta.com/wp-content/uploads/2021/01/local-wordpress-development-1024x512.png)
 
 The world needs developers and web designers to create things online.
 

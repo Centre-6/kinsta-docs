@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "An improved Web Terminal for apps gets you to the command line quicker"]
-kinsta_last_updated: "2026-05-14T19:01:16+00:00"
-sitemap_lastmod: "2026-05-14T19:01:16+00:00"
-fetched_at: "2026-10-07T22:37:33Z"
-sha256: "c4dde5a083ae60343a401a8daf49dab24d22e66a9424e368d4e99a1d68fbd509"
-body_chars: 3857
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-14T19:01:16"
+change_signal: "2026-05-14T19:01:16"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "27b2b77e1e721a57232487665f496524a12f7b6b31a849cb531d8ab27bdaecbf"
+body_chars: 3634
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # An improved Web Terminal for apps gets you to the command line quicker
 
-**Section:** Changelog > An improved Web Terminal for apps gets you to the command line quicker
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/improved-web-terminal/
-**Kinsta last updated:** 2026-05-14T19:01:16+00:00
+**Kinsta last updated:** 2026-05-14T19:01:16
 
 ---
-
-Updated
-:   May 14, 2026
-
-![An illustration of the MyKinsta dashboard and the words: 'A better Web Terminal for App Hosting.'"](https://kinsta.com/wp-content/uploads/2024/04/improved-application-web-terminal-1024x536.png)
 
 We’ve simplified the steps [Web Application Hosting](https://sevalla.com/application-hosting/) customers take to launch the MyKinsta Web Terminal and access the [containers](https://kinsta.com/blog/isolated-container-technology/) in which app processes are running.
 

@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Agency", "Why scaling agencies optimize for fewer incidents, not faster fixes"]
-kinsta_last_updated: "2026-06-10T18:26:33+00:00"
-sitemap_lastmod: "2026-06-10T18:26:33"
-fetched_at: "2026-10-07T22:42:15Z"
-sha256: "7873c9c696a7d9981d68ddefcf846e5ee6d0e1dfeb7eb7d1ac0e2d96fc28f1ad"
-body_chars: 15701
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-10T18:26:33"
+change_signal: "2026-06-10T18:26:33"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "995c5c60c6e8cb2e3e0978214bcc4a2400407738794d634331d10de11953b6fd"
+body_chars: 14804
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Why scaling agencies optimize for fewer incidents, not faster fixes
 
-**Section:** Resource Center > Blog > Agency > Why scaling agencies optimize for fewer incidents, not faster fixes
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/agency-incident-prevention-wordpress/
-**Kinsta last updated:** 2026-06-10T18:26:33+00:00
+**Kinsta last updated:** 2026-06-10T18:26:33
 
 ## On this page
 
@@ -36,17 +35,6 @@ status: "live"
 - [Prevention-first infrastructure is what makes agency scaling sustainable](#prevention-first-infrastructure-is-what-makes-agency-scaling-sustainable)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   July 14, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/06/why-scaling-agencies-optimize-for-fewer-incidents-not-faster-fixes-1024x512.png)
 
 When an agency manages one or two client sites, the speed at which you respond to an incident is the metric that matters most. If you know the environment, the fix is usually within reach. A resolved problem handled well can strengthen a client relationship, so a fast response is a skill you develop and a point of pride you build on.
 
@@ -178,13 +166,3 @@ Fast incident response is a fundamental capability for any agency. Infrastructur
 Kinsta’s toolset and infrastructure (such as its container isolation, automatic backup system, and bot protection) address the incident categories that you spend the most time responding to. From there, the process you implement, such as an incident log or pre-deployment checklist, makes the reduction consistent across every site you manage.
 
 For agencies managing client sites on Kinsta, the [Agency Partner Program](https://kinsta.com/agency-partner-program/) provides dedicated support, co-selling resources, and tooling built around managing WordPress at scale.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

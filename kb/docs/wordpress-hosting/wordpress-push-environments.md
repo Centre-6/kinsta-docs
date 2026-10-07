@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-push-environments/"
-title: "WordPress Hosting - Push Environments"
+title: "Push Environments"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-push-environments"
-section: []
-kinsta_last_updated: "June 12, 2026"
-sitemap_lastmod: "2026-06-12T13:55:35+00:00"
-fetched_at: "2026-10-07T22:40:27Z"
+section: ["WordPress Hosting"]
+kinsta_last_updated: "2026-06-12T13:55:35"
+change_signal: "2026-06-12T13:55:35"
+fetched_at: "2026-10-07T22:58:17Z"
 sha256: "9f10487f4c434c7eff1d5265c3074c3c028e33d48c2fbf33f371eefb80b92229"
 body_chars: 11344
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# WordPress Hosting - Push Environments
+# Push Environments
 
+**Section:** WordPress Hosting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-push-environments/
-**Kinsta last updated:** June 12, 2026
+**Kinsta last updated:** 2026-06-12T13:55:35
 
 ## On this page
 

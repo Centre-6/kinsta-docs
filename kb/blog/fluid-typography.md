@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Development", "Scaling typeface gracefully with fluid typography"]
-kinsta_last_updated: "2025-10-31T15:51:52+00:00"
-sitemap_lastmod: "2025-10-31T15:51:52"
-fetched_at: "2026-10-07T22:43:08Z"
-sha256: "edd69d4bca5397d9ea494ab9ec2fa1201fd67b2ab9fe98841e8b4a167db2fb0f"
-body_chars: 15185
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-10-31T15:51:52"
+change_signal: "2025-10-31T15:51:52"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "4f47aa2f07921dc899c5292b520e22d76c9b9c5d58f6ed3f30fcee97792907b0"
+body_chars: 14538
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Scaling typeface gracefully with fluid typography
 
-**Section:** Resource Center > Blog > WordPress Development > Scaling typeface gracefully with fluid typography
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/fluid-typography/
-**Kinsta last updated:** 2025-10-31T15:51:52+00:00
+**Kinsta last updated:** 2025-10-31T15:51:52
 
 ## On this page
 
@@ -50,17 +49,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Author
-:   [Bud Kraus](https://kinsta.com/blog/author/budkraus/ "Posts by Bud Kraus")
-
-Published
-:   November 27, 2025
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/10/scaling-typeface-gracefully-with-fluid-typography-1024x512.png)
 
 Making text look good on every screen isn’t as simple as it sounds. For a long time, web designers used media query breakpoints to resize fonts, but this approach quickly becomes messy as more devices and screen sizes emerge.
 
@@ -417,7 +405,3 @@ If you’d rather not do the math by hand, several free tools can help you fine
 These make it simple to generate `clamp()` values that align with your design scale, especially useful for classic theme development.
 
 Ready to see it in production? [Host your WordPress site on Kinsta](https://kinsta.com/wordpress-hosting/) for fast TTFB, built-in CDN, and [edge caching](https://kinsta.com/docs/wordpress-hosting/caching/edge-caching/), so your fluid type looks (and loads) great everywhere. [Start free](https://kinsta.com/blog/free-first-month-with-kinsta/) for your first month.
-
-Bud Kraus
-
-Bud Kraus has been working with WordPress as an in-class and online instructor, site developer, and content creator since 2009. He has produced instructional videos and written many articles for WordPress businesses.

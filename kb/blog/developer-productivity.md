@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Agency", "Unlocking developer productivity: How Kinsta frees agencies from infrastructure headaches"]
-kinsta_last_updated: "2026-05-20T20:31:18+00:00"
-sitemap_lastmod: "2026-05-20T20:31:18"
-fetched_at: "2026-10-07T22:42:48Z"
-sha256: "6b6918d6862c50bfc5ec4f88d7ab52356e533338b7b87d88cf51db49843f0dde"
-body_chars: 33586
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:31:18"
+change_signal: "2026-05-20T20:31:18"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "bc89ddff6cc06d3f9061dd5cb4e7c0daaa196f24fb5f858aca3214e47028e0df"
+body_chars: 32543
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Unlocking developer productivity: How Kinsta frees agencies from infrastructure headaches
 
-**Section:** Resource Center > Blog > Agency > Unlocking developer productivity: How Kinsta frees agencies from infrastructure headaches
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/developer-productivity/
-**Kinsta last updated:** 2026-05-20T20:31:18+00:00
+**Kinsta last updated:** 2026-05-20T20:31:18
 
 ## On this page
 
@@ -41,17 +40,6 @@ status: "live"
 - [The main point: Total cost of ownership](#the-main-point-total-cost-of-ownership)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Updated
-:   May 20, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/02/unlocking-developer-productivity-how-kinsta-frees-agencies-from-infrastructure-headaches-1024x512.png)
 
 The world of dev agencies is extremely diverse. It ranges from DevOps-oriented system houses to lean agencies that offer turnkey solutions. In between, you’ll find various agencies, such as marketing and design-oriented digital boutiques, as well as production factories that focus on WordPress-based custom solutions and plugin or theme development.
 
@@ -328,7 +316,7 @@ curl -i -X POST \
     "site_title": "My First Site - development",
     "is_premium": false,
     "is_subdomain_multisite": false,
-    "admin_email": "[email protected]",
+    "admin_email": "admin@example.com",
     "admin_password": "vJnFnN-~v)PxF[6k",
     "admin_user": "admin",
     "is_multisite": false,
@@ -429,11 +417,3 @@ When a senior developer—whose time is valued at [$100+/hour](https://devopspro
 Kinsta doesn’t just host your sites; it reclaim the value of your team’s working hours. We provide all the advanced tools your dev team uses and knows, ready to use with no configuration or maintenance required except for your WordPress sites.
 
 What are you waiting for? [Browse our plans](https://kinsta.com/pricing/) or [contact our sales team](https://kinsta.com/contact-us/) to learn more.
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/staging-environment/"
-title: "WordPress Hosting - Staging Environments"
+title: "Staging Environments"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "staging-environment"
-section: []
-kinsta_last_updated: "June 15, 2026"
-sitemap_lastmod: "2026-06-15T08:48:27+00:00"
-fetched_at: "2026-10-07T22:40:28Z"
-sha256: "2fd5e1c77d3fa99fcbbdae429852afde51640ff9aa5655c094e169ba3ad024e0"
-body_chars: 31404
-extracted_with: "main article"
+section: ["WordPress Hosting"]
+kinsta_last_updated: "2026-06-15T08:48:27"
+change_signal: "2026-06-15T08:48:27"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "37126e34c5303bf52293ea92172a3d02e65e77ccfa1292b756060a084c335645"
+body_chars: 31402
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# WordPress Hosting - Staging Environments
+# Staging Environments
 
+**Section:** WordPress Hosting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/staging-environment/
-**Kinsta last updated:** June 15, 2026
+**Kinsta last updated:** 2026-06-15T08:48:27
 
 ## On this page
 
@@ -200,7 +201,7 @@ You can restore your WordPress site from a backup directly to your existing stag
 
 ## Restart staging environment
 
-In certain situations, we may stop a staging environment as part of a server troubleshooting process. If you notice your staging environment has been stopped and you see a [501 not implemented](https://kinsta.com/blog/501-not-implemented-error/), a [502 error](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/server-errors/#502-bad-gateway-error), or a [521 error](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/cloudflare-errors/#errors-520-and-521) when visiting your site, you can restart the staging environment in MyKinsta by going to your site’s **Info** page and clicking **Start Staging Environment.**
+In certain situations, we may stop a staging environment as part of a server troubleshooting process. If you notice your staging environment has been stopped and you see a [501 not implemented](https://kinsta.com/blog/501-not-implemented-error/), a [502 error](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/server-errors#502-bad-gateway-error), or a [521 error](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/cloudflare-errors#errors-520-and-521) when visiting your site, you can restart the staging environment in MyKinsta by going to your site’s **Info** page and clicking **Start Staging Environment.**
 
 ![Restart your staging environment in MyKinsta.](https://kinsta.com/wp-content/uploads/2023/11/wordpress-stop-staging-2.png)
 

@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Updates", "What\u2019s new in WordPress 7.1: Client-side media processing, design tools, Abilities API, and much more"]
-kinsta_last_updated: "2026-08-07T17:08:42+00:00"
-sitemap_lastmod: "2026-08-07T17:08:42"
-fetched_at: "2026-10-07T22:42:08Z"
-sha256: "1c3e1fedbc7a4477b541f93d42a6d150f14df40f6a1f9d0d43be7896ae5eb9a8"
-body_chars: 42854
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-08-07T17:08:42"
+change_signal: "2026-08-07T17:08:42"
+fetched_at: "2026-10-07T22:58:24Z"
+sha256: "e2bd0a23e3fbb10684c5610ef80f61d60892b0a51db606ba583b925120d68166"
+body_chars: 41868
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # What’s new in WordPress 7.1: Client-side media processing, design tools, Abilities API, and much more
 
-**Section:** Resource Center > Blog > WordPress Updates > What’s new in WordPress 7.1: Client-side media processing, design tools, Abilities API, and much more
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-7-1/
-**Kinsta last updated:** 2026-08-07T17:08:42+00:00
+**Kinsta last updated:** 2026-08-07T17:08:42
 
 ## On this page
 
@@ -62,17 +61,6 @@ status: "live"
 - [Next-gen hosting for next-gen WordPress](#next-gen-hosting-for-next-gen-wordpress)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Published
-:   August 12, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/08/whats-new-in-wordpress-7.1-1024x512.png)
 
 WordPress 7.1 is scheduled for release on August 19th and promises to be an exciting update for developers, professionals, agencies, and bloggers across the ecosystem.
 
@@ -768,11 +756,3 @@ There are also enhancements to Notes, new blocks, a more powerful SVG icon syste
 For an increasingly advanced CMS, choosing a hosting provider that keeps pace with modern technologies is essential. Kinsta offers the ideal environment for next-generation WordPress sites: containerized cloud infrastructure, stellar performance, solid security, and fast, top-rated support.
 
 If you haven’t tried our hosting yet, take advantage of the [free trial](https://kinsta.com/pricing/) on selected plans or [contact us](https://kinsta.com/talk-to-sales/) to learn more.
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

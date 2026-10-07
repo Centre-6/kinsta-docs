@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/devkinsta/devkinsta-site-management/email-inbox/"
-title: "Site Management - Email Inbox"
+title: "Email Inbox"
 tier: "docs"
 product: "devkinsta"
 product_label: "DevKinsta (local dev tool, not hosting)"
 subsection: "devkinsta-site-management"
-section: []
-kinsta_last_updated: "July 18, 2024"
-sitemap_lastmod: "2024-07-18T08:36:00+00:00"
-fetched_at: "2026-10-07T22:38:03Z"
-sha256: "59806b16810cce660d1eae4e8d5cad4be67fa12ffc91fe0aac94aef5c72ba8ef"
-body_chars: 1028
-extracted_with: "main article"
+section: ["DevKinsta", "Site Management"]
+kinsta_last_updated: "2024-07-18T08:36:00"
+change_signal: "2024-07-18T08:36:00"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "c6ed8b04552f7996589ec019878805f97c562bcda899ac38c833183f74a222c8"
+body_chars: 1022
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Site Management - Email Inbox
+# Email Inbox
 
+**Section:** DevKinsta > Site Management
 **Product:** DevKinsta (local dev tool, not hosting)
 **Source:** https://kinsta.com/docs/devkinsta/devkinsta-site-management/email-inbox/
-**Kinsta last updated:** July 18, 2024
+**Kinsta last updated:** 2024-07-18T08:36:00
 
 ## On this page
 
@@ -56,8 +57,6 @@ You can do the following with the emails:
 ## Email service logs
 
 You can check MailHog logs with the following command:
-
-Copy
 
 ```
 docker logs -f devkinsta_mailhog

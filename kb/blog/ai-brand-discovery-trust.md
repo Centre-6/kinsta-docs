@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Performance", "Where consumers go to trust a brand: how AI decides whether to cite you"]
-kinsta_last_updated: "2026-08-10T15:42:51+00:00"
-sitemap_lastmod: "2026-08-10T15:42:51"
-fetched_at: "2026-10-07T22:42:03Z"
-sha256: "e7b9592e442abe27b8330969ebe7ae3e3b2ce8345ace7da5719246d11548ec77"
-body_chars: 15952
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-08-10T15:42:51"
+change_signal: "2026-08-10T15:42:51"
+fetched_at: "2026-10-07T22:58:24Z"
+sha256: "1d65656be7f45cd8d5cff8a38c01ba9df7eaf7cbfb99da71404573710ee78468"
+body_chars: 15070
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Where consumers go to trust a brand: how AI decides whether to cite you
 
-**Section:** Resource Center > Blog > WordPress Performance > Where consumers go to trust a brand: how AI decides whether to cite you
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/ai-brand-discovery-trust/
-**Kinsta last updated:** 2026-08-10T15:42:51+00:00
+**Kinsta last updated:** 2026-08-10T15:42:51
 
 ## On this page
 
@@ -38,17 +37,6 @@ status: "live"
 - [Brand trust is earned in the ecosystem and lost in the infrastructure](#brand-trust-is-earned-in-the-ecosystem-and-lost-in-the-infrastructure)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   September 1, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/08/where-do-consumers-actually-go-to-trust-a-brand-1024x512.png)
 
 When someone wants to know whether a brand is trustworthy, searching the brand name up isn’t the first option anymore. They ask an LLM to compare it against alternatives, check Reddit, look at some review aggregators, or even see whether it comes up through a dedicated AI search engine.
 
@@ -200,13 +188,3 @@ Brand trust now forms upstream of your website. Your site’s job is no longer j
 A site that’s slow, intermittently unavailable, or inadvertently blocking AI crawlers fails that confirmation test. Before revisiting a content strategy, check whether uptime monitoring is on, whether a slow page is costing citations, and whether Bot Protection settings are doing what you actually intend. All three checks take under five minutes in MyKinsta.
 
 Kinsta’s [managed hosting for WordPress](https://kinsta.com/wordpress-hosting/) keeps uptime monitoring, performance infrastructure, and crawler access working as one layer rather than three separate things to manage.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

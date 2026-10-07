@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Turn back time with the new reset option for WordPress sites"]
-kinsta_last_updated: "2024-03-06T16:52:20+00:00"
-sitemap_lastmod: "2024-03-06T15:52:20+00:00"
-fetched_at: "2026-10-07T22:36:48Z"
-sha256: "472792e172526549731e9ba2e3a89d781a8555dc97a82a780b9b27c531972a24"
-body_chars: 4333
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-03-06T15:52:20"
+change_signal: "2024-03-06T15:52:20"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "53a8ed0341b5681d0cb8fbd5b2bd6e1be7b7f709c414987feb4df95a9aa964e3"
+body_chars: 4119
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Turn back time with the new reset option for WordPress sites
 
-**Section:** Changelog > Turn back time with the new reset option for WordPress sites
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/reset-wordpress-site/
-**Kinsta last updated:** 2024-03-06T16:52:20+00:00
+**Kinsta last updated:** 2024-03-06T15:52:20
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [Get the most out of WordPress with Kinsta](#get-the-most-out-of-wordpress-with-kinsta)
 
 ---
-
-Published
-:   March 6, 2024
-
-![Illustration representing the interface for the Reset WordPress Site function in MyKinsta.](https://kinsta.com/wp-content/uploads/2024/03/reset-wordpress-site-mykinsta-1024x536.png)
 
 A **Reset WordPress Site** option available now in your MyKinsta dashboard makes it easy to execute a web development do-over, perhaps undoing changes that *seemed* like a good idea at the time.
 

@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-modules/"
-title: "PHP - PHP Modules"
+title: "PHP Modules"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "php"
-section: []
-kinsta_last_updated: "May 5, 2026"
-sitemap_lastmod: "2026-05-05T09:59:12+00:00"
-fetched_at: "2026-10-07T22:40:08Z"
+section: ["WordPress Hosting", "PHP"]
+kinsta_last_updated: "2026-05-05T09:59:12"
+change_signal: "2026-05-05T09:59:12"
+fetched_at: "2026-10-07T22:58:17Z"
 sha256: "ae366827924cb29d6853519847025d29b307e21534fdc68faa1c87643646d3f4"
 body_chars: 990
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# PHP - PHP Modules
+# PHP Modules
 
+**Section:** WordPress Hosting > PHP
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-modules/
-**Kinsta last updated:** May 5, 2026
+**Kinsta last updated:** 2026-05-05T09:59:12
 
 ---
 

@@ -1,26 +1,25 @@
 ---
 url: "https://kinsta.com/blog/wordpress-6-9/"
-title: "New features, new blocks, new APIs: here is what's new in WordPress 6.9"
+title: "New features, new blocks, new APIs: here is what\u2019s new in WordPress 6.9"
 tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Updates", "New features, new blocks, new APIs: here is what\u2019s new in WordPress 6.9"]
-kinsta_last_updated: "2026-05-20T20:31:35+00:00"
-sitemap_lastmod: "2026-05-20T20:31:35"
-fetched_at: "2026-10-07T22:43:07Z"
-sha256: "18aec8a69671f43b8d184404a6b839ba4b3b93cd274306d4a42bf8ef717883c9"
-body_chars: 40048
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:31:35"
+change_signal: "2026-05-20T20:31:35"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "e948692f6299ff11684f508950dfc8499d1a2c23aa85296253b483c852e77139"
+body_chars: 39080
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# New features, new blocks, new APIs: here is what's new in WordPress 6.9
+# New features, new blocks, new APIs: here is what’s new in WordPress 6.9
 
-**Section:** Resource Center > Blog > WordPress Updates > New features, new blocks, new APIs: here is what’s new in WordPress 6.9
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-6-9/
-**Kinsta last updated:** 2026-05-20T20:31:35+00:00
+**Kinsta last updated:** 2026-05-20T20:31:35
 
 ## On this page
 
@@ -56,17 +55,6 @@ status: "live"
 - [Looking ahead: from WordPress 6.9 to 7.0](#looking-ahead-from-wordpress-69-to-70)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Updated
-:   May 20, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/11/wordpress-6.9-1024x512.png)
 
 WordPress 6.9 is just around the corner, and we can’t wait to use some of the many fantastic new features that will be included in the latest release of the world’s most popular CMS.
 
@@ -648,11 +636,3 @@ WordPress 6.9 introduces a variety of updates for developers. Here is a quick li
 ## Looking ahead: from WordPress 6.9 to 7.0
 
 WordPress 6.9 introduces meaningful upgrades across the block editor, APIs, and collaborative workflows, updates that will continue evolving in 7.0. As the platform becomes more dynamic and more deeply connected to AI-driven tooling, having performance-forward hosting becomes increasingly important. If you’re preparing for 6.9 or planning for what’s coming next, explore [Kinsta plans](https://kinsta.com/pricing/) to power your WordPress projects with confidence.
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

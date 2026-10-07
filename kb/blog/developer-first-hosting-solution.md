@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Agency", "Kinsta hosting for devs: infrastructure you don\u2019t have to babysit"]
-kinsta_last_updated: "2026-05-04T10:52:08+00:00"
-sitemap_lastmod: "2026-05-04T10:52:08"
-fetched_at: "2026-10-07T22:43:03Z"
-sha256: "fd2522aa615b013a97fa86ed3a1d4845a6650b3cfbdf3e5d9730205066f32a9a"
-body_chars: 13952
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-04T10:52:08"
+change_signal: "2026-05-04T10:52:08"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "1a53b4368640c82498bce956d98d7e2c85b81588ee84d04e4917ad5702f9ed9c"
+body_chars: 13044
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Kinsta hosting for devs: infrastructure you don’t have to babysit
 
-**Section:** Resource Center > Blog > Agency > Kinsta hosting for devs: infrastructure you don’t have to babysit
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/developer-first-hosting-solution/
-**Kinsta last updated:** 2026-05-04T10:52:08+00:00
+**Kinsta last updated:** 2026-05-04T10:52:08
 
 ## On this page
 
@@ -34,17 +33,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   May 4, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/12/infrastructure-that-developers-dont-have-to-babysit-scaling-wordpress-with-kinsta-1024x512.png)
 
 Every hour spent troubleshooting uptime issues, applying security patches, or configuring scaling represents time that could be allocated to client projects.
 
@@ -118,7 +106,7 @@ The Primary SFTP/SSH user panel within MyKinsta.
 For example, you can use:
 
 - `wp plugin update --all` — to update all plugins across a site
-- `wp user create username [email protected] --role=administrator` — to create a new administrator user
+- `wp user create username email@example.com --role=administrator` — to create a new administrator user
 - `wp cache flush` — to clear the object cache of a site
 
 SSH access and WP-CLI together make remote site management scalable and efficient. With simple bash scripts, you can automate routine tasks across multiple client sites at once. This automation saves valuable time and ensures consistency, reliability, and security throughout your entire portfolio.
@@ -183,13 +171,3 @@ Infrastructure management can consume time that your developer-led agency should
 Kinsta uses integrated developer tools, a containerized architecture that scales, and support from WordPress experts to help minimize any bottlenecks. The platform takes the heavy burden of maintenance and turns it into a foundation that supports real growth without your constant oversight.
 
 If you want to upgrade your infrastructure, [Kinsta’s managed WordPress hosting for agencies](https://kinsta.com/wordpress-hosting/agencies/) offers a developer-first setup that lets your team focus on code rather than servers.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

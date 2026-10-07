@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Hosting", "Migrating to Kinsta: debunking the myths that hold agencies back"]
-kinsta_last_updated: "2026-01-29T16:24:29+00:00"
-sitemap_lastmod: "2026-01-29T16:24:29"
-fetched_at: "2026-10-07T22:42:58Z"
-sha256: "cfdde72ecb87bca98d85c4ce6175dd775874cae5f96693f0db97c0f4564ed063"
-body_chars: 13181
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-01-29T16:24:29"
+change_signal: "2026-01-29T16:24:29"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "3ccc8b771e6494384f13e8bd1723fab5213765f5463a8d46d493d6b9496c98bd"
+body_chars: 12296
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Migrating to Kinsta: debunking the myths that hold agencies back
 
-**Section:** Resource Center > Blog > WordPress Hosting > Migrating to Kinsta: debunking the myths that hold agencies back
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-migration-myths/
-**Kinsta last updated:** 2026-01-29T16:24:29+00:00
+**Kinsta last updated:** 2026-01-29T16:24:29
 
 ## On this page
 
@@ -38,17 +37,6 @@ status: "live"
 - [What this means for your agency](#what-this-means-for-your-agency)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   January 29, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/12/the-biggest-myths-about-migrating-your-wordPress-site-1024x512.png)
 
 Managing WordPress sites for clients requires hosting that delivers without constant intervention. However, there’s a valid fear of downtime, broken DNS records, or lost data that may create hesitation, preventing you from making a necessary infrastructure change.
 
@@ -183,13 +171,3 @@ Kinsta’s migration team exists to make the process predictable, fast, and tail
 With the obstacles out of the way, are you ready to make that leap? Explore Kinsta’s [managed hosting for WordPress](https://kinsta.com/wordpress-hosting/) and discover how our [agency partner program](https://kinsta.com/agency-partner-program/) supports your growth.
 
 If you have any questions, our team is [always here to help](https://kinsta.com/contact-us/).
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

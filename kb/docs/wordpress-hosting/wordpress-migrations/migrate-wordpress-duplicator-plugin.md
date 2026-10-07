@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/migrate-wordpress-duplicator-plugin/"
-title: "Migrations - Duplicator Migration"
+title: "Duplicator Migration"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-migrations"
-section: []
-kinsta_last_updated: "April 20, 2026"
-sitemap_lastmod: "2026-04-20T08:34:59+00:00"
-fetched_at: "2026-10-07T22:39:53Z"
-sha256: "44dc2dad4cb77bba6c227df9f6fb632b8f598b72a75115ebf04e2ce0659372cc"
-body_chars: 11934
-extracted_with: "main article"
+section: ["WordPress Hosting", "Migrations"]
+kinsta_last_updated: "2026-04-20T08:34:59"
+change_signal: "2026-04-20T08:34:59"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "283acc0bc3cdf731b1ade7ee95c71cdf3e572683e4ba3afead4b7ab8407b9cad"
+body_chars: 11932
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Migrations - Duplicator Migration
+# Duplicator Migration
 
+**Section:** WordPress Hosting > Migrations
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/migrate-wordpress-duplicator-plugin/
-**Kinsta last updated:** April 20, 2026
+**Kinsta last updated:** 2026-04-20T08:34:59
 
 ## On this page
 
@@ -51,7 +52,7 @@ However, please note that Duplicator may not be fully compatible with some WordP
 
 ## Overview of Duplicator migration
 
-Duplicator generates two files: a **zip** file containing an archive of all files and the [database](https://kinsta.com/docs/wordpress-hosting/database-management/) and an **installer.php** file that can be used to restore the site using the archive.
+Duplicator generates two files: a **zip** file containing an archive of all files and the [database](https://kinsta.com/docs/wordpress-hosting/database-management) and an **installer.php** file that can be used to restore the site using the archive.
 
 Once you’ve generated the archive file and downloaded both the archive file and the **installer.php** file, you simply upload those two files to your new Kinsta site and then run the **installer.php** file by accessing it using your temporary Kinsta URL.
 
@@ -201,4 +202,4 @@ When you’re ready to point your domain at Kinsta, you’ll need to update the 
 
 ## Install Kinsta MU plugin
 
-Our [Kinsta MU plugin](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/) is automatically installed on fresh WordPress installations done here at Kinsta. However, since you’ve migrated your site yourself and site files were overwritten (including this plugin), you’ll need to download and install the Kinsta MU plugin manually. This includes our full-page caching and other functionality, such as the ability to deploy [Kinsta’s CDN](https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/kinsta-cdn/).
+Our [Kinsta MU plugin](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin) is automatically installed on fresh WordPress installations done here at Kinsta. However, since you’ve migrated your site yourself and site files were overwritten (including this plugin), you’ll need to download and install the Kinsta MU plugin manually. This includes our full-page caching and other functionality, such as the ability to deploy [Kinsta’s CDN](https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/kinsta-cdn/).

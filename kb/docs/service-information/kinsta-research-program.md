@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/service-information/kinsta-research-program/"
-title: "Service Information - Research Program"
+title: "Research Program"
 tier: "docs"
 product: "service-information"
 product_label: "Service Information"
 subsection: "kinsta-research-program"
-section: []
-kinsta_last_updated: "August 23, 2024"
-sitemap_lastmod: "2024-08-23T14:34:03+00:00"
-fetched_at: "2026-10-07T22:38:22Z"
+section: ["Service Information"]
+kinsta_last_updated: "2024-08-23T14:34:03"
+change_signal: "2024-08-23T14:34:03"
+fetched_at: "2026-10-07T22:58:20Z"
 sha256: "e8e612c0a4a374d201b1f7cadaf91d079a0e3233318b17ba2c282365ac738fcc"
 body_chars: 1191
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Service Information - Research Program
+# Research Program
 
+**Section:** Service Information
 **Product:** Service Information
 **Source:** https://kinsta.com/docs/service-information/kinsta-research-program/
-**Kinsta last updated:** August 23, 2024
+**Kinsta last updated:** 2024-08-23T14:34:03
 
 ---
 

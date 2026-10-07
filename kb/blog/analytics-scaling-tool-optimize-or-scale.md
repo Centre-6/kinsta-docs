@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Development", "Analytics as a scaling tool: knowing when to optimize, not just how"]
-kinsta_last_updated: "2026-05-15T18:22:05+00:00"
-sitemap_lastmod: "2026-05-15T18:22:05"
-fetched_at: "2026-10-07T22:42:27Z"
-sha256: "967282afe8f387c137d67d66b5410918e01e4ec1c8250675d6e40a309b28252b"
-body_chars: 15531
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-15T18:22:05"
+change_signal: "2026-05-15T18:22:05"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "8d6545ac6ea5ddc481f6ad6640a45a97b73f19484974ad0dfb87f5511d5f6e97"
+body_chars: 14638
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Analytics as a scaling tool: knowing when to optimize, not just how
 
-**Section:** Resource Center > Blog > WordPress Development > Analytics as a scaling tool: knowing when to optimize, not just how
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/analytics-scaling-tool-optimize-or-scale/
-**Kinsta last updated:** 2026-05-15T18:22:05+00:00
+**Kinsta last updated:** 2026-05-15T18:22:05
 
 ## On this page
 
@@ -46,17 +45,6 @@ status: "live"
 - [Stop treating analytics like a reporting add-on](#stop-treating-analytics-like-a-reporting-add-on)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   May 15, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/04/analytics-as-a-scaling-tool-knowing-when-to-optimize-not-just-how-1024x512.png)
 
 Scaling problems rarely appear out of nowhere. They usually build quietly until a campaign launch, a [traffic spike](https://kinsta.com/blog/how-to-handle-traffic-surges/), a seasonal rush, or a slow checkout experience forces everyone to pay attention.
 
@@ -229,13 +217,3 @@ When you can see trends, usage patterns, and early signs of strain, you can time
 This makes growth feel more predictable and far less stressful.
 
 Explore [MyKinsta](https://kinsta.com/mykinsta/) to better understand your usage patterns, performance signals, and scaling needs before they become urgent.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

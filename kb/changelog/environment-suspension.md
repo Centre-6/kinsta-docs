@@ -1,33 +1,27 @@
 ---
 url: "https://kinsta.com/changelog/environment-suspension/"
-title: "Make a site \"disappear\" with environment suspension"
+title: "Make a site \u201cdisappear\u201d with environment suspension"
 tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Make a site \u201cdisappear\u201d with environment suspension"]
-kinsta_last_updated: "2026-10-02T20:14:45+00:00"
-sitemap_lastmod: "2026-10-02T20:24:18+00:00"
-fetched_at: "2026-10-07T22:37:52Z"
-sha256: "d68bc51705d761b83640827564d4da255e1792e16b7561a83544867b30c957ea"
-body_chars: 2824
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-10-02T20:14:45"
+change_signal: "2026-10-02T20:14:45"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "fb1f0bad75e794fcebe0b4309ad9d9560a581e1829720a6b6585e8dc2a45e035"
+body_chars: 2617
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Make a site "disappear" with environment suspension
+# Make a site “disappear” with environment suspension
 
-**Section:** Changelog > Make a site “disappear” with environment suspension
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/environment-suspension/
-**Kinsta last updated:** 2026-10-02T20:14:45+00:00
+**Kinsta last updated:** 2026-10-02T20:14:45
 
 ---
-
-Published
-:   October 2, 2026
-
-![An illustration representing the suspend environment feature in MyKinsta.](https://kinsta.com/wp-content/uploads/2026/10/mykinsta-sites-suspend-site-changelog-1024x536.png)
 
 Releasing features we hope you never have to use isn’t our usual style, but we admit that the ability to rapidly take a site offline and make it inaccessible to visitors and administrators is one.
 

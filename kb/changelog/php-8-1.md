@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "PHP 8.1 Is Now Available for All Environments"]
-kinsta_last_updated: "2026-04-20T09:33:51+00:00"
-sitemap_lastmod: "2026-04-20T09:33:51+00:00"
-fetched_at: "2026-10-07T22:37:22Z"
-sha256: "c93e7037a9ee6c8e57ae3ff8afe53ab5c29d038657796a4ceecbd62f71879f6c"
-body_chars: 3330
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-04-20T09:33:51"
+change_signal: "2026-04-20T09:33:51"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "d764d0d30d19b876056d44bd034d5fb8fda4f222d02ea30a9c22c2b5d7bca284"
+body_chars: 3224
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # PHP 8.1 Is Now Available for All Environments
 
-**Section:** Changelog > PHP 8.1 Is Now Available for All Environments
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/php-8-1/
-**Kinsta last updated:** 2026-04-20T09:33:51+00:00
+**Kinsta last updated:** 2026-04-20T09:33:51
 
 ---
-
-Updated
-:   April 20, 2026
-
-![PHP 8.1](https://kinsta.com/wp-content/uploads/2021/12/php-8-1-kinsta.jpg)
 
 Every time a new version of PHP is released we all get excited because it usually brings in new, [interesting features](https://kinsta.com/blog/php-8-1/#new-features-in-php-81) and [performance improvements](https://kinsta.com/blog/php-8-1/#performance-improvements-with-inheritance-cache). That’s exactly what happened with [PHP 8.1](https://kinsta.com/blog/php-8-1/), which was not only released on November 25, 2021, but is now available at Kinsta for all environments.
 

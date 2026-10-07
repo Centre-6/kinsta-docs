@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/service-information/money-back-guarantee/"
-title: "Service Information - WordPress Hosting Money-Back Guarantee"
+title: "WordPress Hosting Money-Back Guarantee"
 tier: "docs"
 product: "service-information"
 product_label: "Service Information"
 subsection: "money-back-guarantee"
-section: []
-kinsta_last_updated: "August 23, 2024"
-sitemap_lastmod: "2024-08-23T08:48:28+00:00"
-fetched_at: "2026-10-07T22:38:21Z"
-sha256: "e352511f02758157dc33caa8aa04da4c71d0594b3f5b7ca902116c1377ba2fb8"
-body_chars: 3509
-extracted_with: "main article"
+section: ["Service Information"]
+kinsta_last_updated: "2024-08-23T08:48:28"
+change_signal: "2024-08-23T08:48:28"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "89d8e54bd6ff020bfbfdbeedb56f61808a9b1600d89c55764e05d91ffcb421fb"
+body_chars: 3506
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Service Information - WordPress Hosting Money-Back Guarantee
+# WordPress Hosting Money-Back Guarantee
 
+**Section:** Service Information
 **Product:** Service Information
 **Source:** https://kinsta.com/docs/service-information/money-back-guarantee/
-**Kinsta last updated:** August 23, 2024
+**Kinsta last updated:** 2024-08-23T08:48:28
 
 ## On this page
 
@@ -33,7 +34,7 @@ At Kinsta, if you cancel your plan within 30 days after activating it, Kinsta wi
 
 - The Money-Back Guarantee is only available to first-time customers.
 - You can upgrade or downgrade your hosting plan during the initial 30-day period. However, the Money-Back Guarantee period does not start over each time you switch plans.
-- [Dedicated server](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/dedicated-server/) fees are **not** included in the Money-Back Guarantee.
+- [Dedicated server](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/dedicated-server) fees are **not** included in the Money-Back Guarantee.
 - One-time fees are **not** included in the Money-Back Guarantee. An example of a one-time fee is an infrastructure upgrade to handle a large-scale traffic event.
 - [Overages](https://kinsta.com/docs/billing/wordpress-hosting-plans/overages/) are **not** included in the Money-Back Guarantee.
 
@@ -45,7 +46,7 @@ If you’re considering Kinsta as your hosting platform, we offer the [first mon
 
 ### Credits
 
-If you cancel any [add-on](https://kinsta.com/docs/wordpress-hosting/wordpress-add-ons/) after the first 30 days, you will receive a prorated [credit](https://kinsta.com/docs/billing/account-credits/) for the add-on fees to your Account Balance for the remaining days of the current billing period. For example, if you have a monthly plan with an add-on and your current billing period starts on May 1st, then you cancel the add-on on May 15th, you’ll receive a [credit](https://kinsta.com/docs/billing/account-credits/) on your Account Balance for the canceled add-on for the remaining 16 days.
+If you cancel any [add-on](https://kinsta.com/docs/wordpress-hosting/wordpress-add-ons) after the first 30 days, you will receive a prorated [credit](https://kinsta.com/docs/billing/account-credits/) for the add-on fees to your Account Balance for the remaining days of the current billing period. For example, if you have a monthly plan with an add-on and your current billing period starts on May 1st, then you cancel the add-on on May 15th, you’ll receive a [credit](https://kinsta.com/docs/billing/account-credits/) on your Account Balance for the canceled add-on for the remaining 16 days.
 
 Any [credits](https://kinsta.com/docs/billing/account-credits/) are automatically used to offset money owed to Kinsta on your next or final invoice. Credits have no intrinsic or cash value, are not redeemable for cash, and are non-refundable.
 
@@ -55,6 +56,6 @@ Any [credits](https://kinsta.com/docs/billing/account-credits/) are automaticall
 
 If any fees are unpaid at the time of cancellation, we will issue a final invoice, and you will be responsible for these fees, subject to any [credits](https://kinsta.com/docs/billing/account-credits/).
 
-The company owner can cancel the WordPress plan from within MyKinsta under the **username** > **Company Settings** > **My Plan** > **Cancel plan**. For more information, refer to [Cancel WordPress Plan](https://kinsta.com/docs/billing/wordpress-hosting-plans/cancel-wordpress-plan/).
+The company owner can cancel the WordPress plan from within MyKinsta under the **username** > **Company Settings** > **My Plan** > **Cancel plan**. For more information, refer to [Cancel WordPress Plan](https://kinsta.com/docs/billing/wordpress-hosting-plans/cancel-wordpress-plan).
 
 If you have any further questions, please [contact our Billing team](https://kinsta.com/docs/support/contact-support/).

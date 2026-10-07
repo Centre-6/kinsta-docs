@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Cloudflare", "Managing DNS centrally for multiple client sites with Cloudflare"]
-kinsta_last_updated: "2026-03-12T11:19:45+00:00"
-sitemap_lastmod: "2026-03-12T11:19:45"
-fetched_at: "2026-10-07T22:42:49Z"
-sha256: "c3a369c8a5b6f896e31c91b3c46b76f5932fc7d7a8ee0ca42af186f4e30bc243"
-body_chars: 8291
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-03-12T11:19:45"
+change_signal: "2026-03-12T11:19:45"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "306ad9ec4561165f9c306b1cba956d7dd4aeb40486d454f40aba22bde9aa6b75"
+body_chars: 7398
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Managing DNS centrally for multiple client sites with Cloudflare
 
-**Section:** Resource Center > Blog > Cloudflare > Managing DNS centrally for multiple client sites with Cloudflare
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/centralized-dns-cloudflare-agencies/
-**Kinsta last updated:** 2026-03-12T11:19:45+00:00
+**Kinsta last updated:** 2026-03-12T11:19:45
 
 ## On this page
 
@@ -34,17 +33,6 @@ status: "live"
 - [A better DNS workflow for agencies](#a-better-dns-workflow-for-agencies)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   March 12, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/02/managng-dns-centrally-for-multiple-client-sites-with-cloudflare-1024x512.png)
 
 One major issue agencies encounter when [switching hosting providers](https://kinsta.com/blog/signs-to-change-website-host/), updating email records, or making any [DNS](https://kinsta.com/blog/what-is-dns/) changes is DNS access.
 
@@ -136,13 +124,3 @@ For agencies managing multiple client sites, DNS should not slow work or depend 
 This approach keeps domain ownership with the client, avoids the need for registrar access, and gives agencies a consistent way to manage DNS across all sites. As the number of client sites grows, this consistency becomes even more important.
 
 If you need help setting this up or have questions about DNS configuration for your sites, our [Support team](https://kinsta.com/kinsta-support/) is available to help.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

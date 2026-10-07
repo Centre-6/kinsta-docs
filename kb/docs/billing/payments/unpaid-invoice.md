@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/billing/payments/unpaid-invoice/"
-title: "Payment Methods - Failed Payments"
+title: "Failed Payments"
 tier: "docs"
 product: "billing"
 product_label: "Billing"
 subsection: "payments"
-section: []
-kinsta_last_updated: "August 13, 2024"
-sitemap_lastmod: "2024-08-13T11:28:58+00:00"
-fetched_at: "2026-10-07T22:38:15Z"
-sha256: "7fac1a69dc88850ffbb0fd053b862be899c459fc6f6616a642bc9cc5564319a2"
-body_chars: 7071
-extracted_with: "main article"
+section: ["Billing", "Payment Methods"]
+kinsta_last_updated: "2024-08-13T11:28:58"
+change_signal: "2024-08-13T11:28:58"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "438cabd3b3cd6d15f4eda44e2fc6407342af99e3a72c8acd831f228cf91378b4"
+body_chars: 7023
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Payment Methods - Failed Payments
+# Failed Payments
 
+**Section:** Billing > Payment Methods
 **Product:** Billing
 **Source:** https://kinsta.com/docs/billing/payments/unpaid-invoice/
-**Kinsta last updated:** August 13, 2024
+**Kinsta last updated:** 2024-08-13T11:28:58
 
 ## On this page
 
@@ -54,7 +55,7 @@ We exclusively use Stripe as our credit card processor; we don’t accept PayPal
 
 As explained, our billing system automatically charges your default card on the same day every month. If we are unable to charge the default card, we will attempt to charge any additional card(s) on your account. Payments may fail due to insufficient funds or because the card has been reported lost or expired. The most common reason a payment fails is when a bank simply declines the transaction. If this happens, you will need to contact your bank and ask them to allow Kinsta Inc. to process the payment.
 
-After the first failed payment attempt, we will send an email to the email address you use to log in to [MyKinsta](https://my.kinsta.com/), asking you to work with your bank to ensure payment can be processed successfully. This email is sent to you from the address [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection), so please make sure you treat it as a high priority and make sure it’s not delivered to your promotions tab or spam folder.
+After the first failed payment attempt, we will send an email to the email address you use to log in to [MyKinsta](https://my.kinsta.com/), asking you to work with your bank to ensure payment can be processed successfully. This email is sent to you from the address billing@kinsta.com, so please make sure you treat it as a high priority and make sure it’s not delivered to your promotions tab or spam folder.
 
 If you have an outstanding invoice and wish to retry payment without waiting for our billing system to retry automatically, log in to [MyKinsta](https://my.kinsta.com/), then from the **Dashboard**, click **Company settings,** then **Invoices**, and click the **Pay** button next to the failed invoice.
 

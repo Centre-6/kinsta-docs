@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/devkinsta/devkinsta-troubleshooting/logging/"
-title: "Troubleshooting - Logs and Debugging"
+title: "Logs and Debugging"
 tier: "docs"
 product: "devkinsta"
 product_label: "DevKinsta (local dev tool, not hosting)"
 subsection: "devkinsta-troubleshooting"
-section: []
-kinsta_last_updated: "July 18, 2024"
-sitemap_lastmod: "2024-07-18T08:40:27+00:00"
-fetched_at: "2026-10-07T22:38:05Z"
-sha256: "2fe483afd1f3e6da0ee880c83aefdab6bb9558085c19c5c23461b99127eaaa27"
-body_chars: 2349
-extracted_with: "main article"
+section: ["DevKinsta", "Troubleshooting"]
+kinsta_last_updated: "2024-07-18T08:40:27"
+change_signal: "2024-07-18T08:40:27"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "ce1da26af86c9cc7cbb16252029a67258369915e6ca2d92c265798691e75053e"
+body_chars: 2347
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Troubleshooting - Logs and Debugging
+# Logs and Debugging
 
+**Section:** DevKinsta > Troubleshooting
 **Product:** DevKinsta (local dev tool, not hosting)
 **Source:** https://kinsta.com/docs/devkinsta/devkinsta-troubleshooting/logging/
-**Kinsta last updated:** July 18, 2024
+**Kinsta last updated:** 2024-07-18T08:40:27
 
 ## On this page
 
@@ -70,8 +71,6 @@ The access log is a log of all requests processed by DevKinsta. When you visit y
 
 ### Example
 
-Copy
-
 ```
 [30/Dec/2020:13:49:35 +0000] "GET /wp-content/themes/twentytwentyone/assets/css/print.css?ver=1.0 HTTP/1.1" 200 2897 "http://testsite.local/?skip_cache=1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.119 Electron/9.0.5 Safari/537.36" "-"
 ```
@@ -99,10 +98,10 @@ To view the PHP FastCGI Process Manager logs (PHP-FPM logs), check the file that
 
 To view Docker container logs, use the commands below in the terminal/command line:
 
-**NGINX logs:** `docker logs -f devkinsta_nginx`
+**NGINX logs:**  `docker logs -f devkinsta_nginx`
 
-**PHP-FPM logs:** `docker logs -f devkinsta_fpm`
+**PHP-FPM logs:**  `docker logs -f devkinsta_fpm`
 
-**MariaDB logs:** `docker logs -f devkinsta_db`
+**MariaDB logs:**  `docker logs -f devkinsta_db`
 
-**MailHog logs:** `docker logs -f devkinsta_mailhog`
+**MailHog logs:**  `docker logs -f devkinsta_mailhog`

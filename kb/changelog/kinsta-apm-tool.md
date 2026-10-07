@@ -1,33 +1,27 @@
 ---
 url: "https://kinsta.com/changelog/kinsta-apm-tool/"
-title: "Free Application Performance Monitoring with Kinsta's APM Tool"
+title: "Free Application Performance Monitoring with Kinsta\u2019s APM Tool"
 tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Free Application Performance Monitoring with Kinsta\u2019s APM Tool"]
-kinsta_last_updated: "2026-04-20T09:43:11+00:00"
-sitemap_lastmod: "2026-04-20T09:43:11+00:00"
-fetched_at: "2026-10-07T22:37:25Z"
-sha256: "ca091277c9bd05156bade2c996891e44f0e4a32e37659bef1428b34677ea56de"
-body_chars: 3453
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-04-20T09:43:11"
+change_signal: "2026-04-20T09:43:11"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "46df40be983dbf11209ea3a31e15d1f69453836af892de5bcb8e197783809a2f"
+body_chars: 3329
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Free Application Performance Monitoring with Kinsta's APM Tool
+# Free Application Performance Monitoring with Kinsta’s APM Tool
 
-**Section:** Changelog > Free Application Performance Monitoring with Kinsta’s APM Tool
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/kinsta-apm-tool/
-**Kinsta last updated:** 2026-04-20T09:43:11+00:00
+**Kinsta last updated:** 2026-04-20T09:43:11
 
 ---
-
-Updated
-:   April 20, 2026
-
-![Kinsta APM tool](https://kinsta.com/wp-content/uploads/2020/11/kinsta-apm-tool-1024x512.png)
 
 If there’s one thing we’re obsessed about here at [Kinsta is speed](https://kinsta.com/learn/speed-up-wordpress/). We’ve been investing and putting our resources into creating [high-performance hosting solutions](https://kinsta.com/wordpress-hosting/) for our customers since day one.
 

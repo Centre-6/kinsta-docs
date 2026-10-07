@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/devkinsta/settings/offline-mode/"
-title: "Settings - Offline Mode"
+title: "Offline Mode"
 tier: "docs"
 product: "devkinsta"
 product_label: "DevKinsta (local dev tool, not hosting)"
 subsection: "settings"
-section: []
-kinsta_last_updated: "July 18, 2024"
-sitemap_lastmod: "2024-07-18T08:37:46+00:00"
-fetched_at: "2026-10-07T22:38:04Z"
+section: ["DevKinsta", "Settings"]
+kinsta_last_updated: "2024-07-18T08:37:46"
+change_signal: "2024-07-18T08:37:46"
+fetched_at: "2026-10-07T22:58:19Z"
 sha256: "acc8e4d7db43c699df9af76e6b39e8d55630c4a9cb80393feaa27e8e436430fc"
 body_chars: 1780
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Settings - Offline Mode
+# Offline Mode
 
+**Section:** DevKinsta > Settings
 **Product:** DevKinsta (local dev tool, not hosting)
 **Source:** https://kinsta.com/docs/devkinsta/settings/offline-mode/
-**Kinsta last updated:** July 18, 2024
+**Kinsta last updated:** 2024-07-18T08:37:46
 
 ---
 

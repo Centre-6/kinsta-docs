@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/redirect-rules/"
-title: "WordPress Hosting - Redirects"
+title: "Redirects"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "redirect-rules"
-section: []
-kinsta_last_updated: "February 18, 2026"
-sitemap_lastmod: "2026-02-18T05:53:42+00:00"
-fetched_at: "2026-10-07T22:39:28Z"
-sha256: "595b2666d73840641ceb205214741938160dbb7a8391261839c86ecb7635855c"
-body_chars: 19183
-extracted_with: "main article"
+section: ["WordPress Hosting"]
+kinsta_last_updated: "2026-02-18T05:53:42"
+change_signal: "2026-02-18T05:53:42"
+fetched_at: "2026-10-07T22:58:18Z"
+sha256: "68dc8b557c8d1ab333a1656d4e756180a1860290a72a8eea43196fe0380027a4"
+body_chars: 19189
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# WordPress Hosting - Redirects
+# Redirects
 
+**Section:** WordPress Hosting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/redirect-rules/
-**Kinsta last updated:** February 18, 2026
+**Kinsta last updated:** 2026-02-18T05:53:42
 
 ## On this page
 
@@ -53,7 +54,7 @@ You can add redirect rules from right within [MyKinsta](https://my.kinsta.com). 
 
 Using free WordPress plugins to implement redirects can sometimes cause performance issues as most of them utilize the [wp_redirect function](https://developer.wordpress.org/reference/functions/wp_redirect/), which requires additional code execution and resources. Some of them also add [autoloaded data](https://kinsta.com/blog/wp-options-autoloaded-data/) to your `wp_options` table, which increases database bloat. Adding them in MyKinsta means the rules are implemented at the server level, which is a much more optimal way.
 
-We recommend [clearing your cache](https://kinsta.com/docs/wordpress-hosting/caching/) after adding or removing redirects.
+We recommend [clearing your cache](https://kinsta.com/docs/wordpress-hosting/caching) after adding or removing redirects.
 
 ## How to add a redirect rule
 
@@ -129,15 +130,11 @@ The following regex examples can be used with the MyKinsta redirect tool:
 
 ### Include your https://domain.com/store page
 
-Copy
-
 ```
 ^/store
 ```
 
 ### Include your https://domain.com/store page (with case-insensitive redirection)
-
-Copy
 
 ```
 (?i)^/store
@@ -145,15 +142,11 @@ Copy
 
 ### Include a single file, such as https://domain.com/store.php
 
-Copy
-
 ```
 ^/store.php
 ```
 
 ### Include all files of the same type, such as all of the PHP files
-
-Copy
 
 ```
 ^/store/.*.php
@@ -165,15 +158,11 @@ It is recommended to specify the redirection string `/` to decrease the chance o
 
 **Note:** Since our tool automatically applies regex, the `.*` wildcard to match anything is automatically applied and isn’t needed in this case.
 
-Copy
-
 ```
 /store or /store/
 ```
 
 ### Include both of the following URLs: https://mydomain.com/fast-racing and https://mydomain.com/fast-car-racing
-
-Copy
 
 ```
 ^/fast(-car)?-racing
@@ -182,8 +171,6 @@ Copy
 ### Redirect all blog posts containing /amp/ to their original non-AMP URL
 
 This is an example from our post on [Disabling Google AMP](https://kinsta.com/blog/disable-google-amp/). We needed to redirect all blog posts containing `/amp/` to their original non-AMP URL to ensure they got re-indexed to their original URLs. In other words, we catch everything before `/amp/` in the URI and append that in place of “$1”.
-
-Copy
 
 ```
 /(.*)\/amp
@@ -344,8 +331,6 @@ Paste and import redirect rules in bulk.
 
 Bulk import also supports regular expressions (regex). Examples:
 
-Copy
-
 ```
 301,all,^/oldpath/?$,https://newlocation.com/newpath
 301,www.domain.com,^/oldpath/?$,https://newlocation.com/newpath
@@ -365,7 +350,7 @@ Export redirects to CSV from MyKinsta.
 
 If you want to migrate your current redirects from a WordPress plugin to MyKinsta, many of them have export options available in their settings (export option example below from the EPS redirects plugin). Just ensure they are properly formatted before bulk importing.
 
-![Export redirects from EPS Redirects plugin settings.](https://kinsta.com/wp-content/uploads/2017/05/export-redirects.png)
+![Export redirects from EPS Redirects plugin settings.](https://kinsta.com/wp-content/uploads/2017/05/export-redirects.png "Export redirects from EPS Redirects plugin settings.")
 
 Export redirects from EPS Redirects plugin settings.
 

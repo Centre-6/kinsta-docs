@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/migrate-guru/"
-title: "Migrations - Migrate Guru"
+title: "Migrate Guru"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-migrations"
-section: []
-kinsta_last_updated: "April 20, 2026"
-sitemap_lastmod: "2026-04-20T15:04:44+00:00"
-fetched_at: "2026-10-07T22:40:02Z"
-sha256: "6c0bd3fd1b72c7c6250c1c05fc8e3455fa1fa3364f4911336862d8ffdc92d8de"
-body_chars: 5096
-extracted_with: "main article"
+section: ["WordPress Hosting", "Migrations"]
+kinsta_last_updated: "2026-04-20T15:04:44"
+change_signal: "2026-04-20T15:04:44"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "7da38478623ce18ce8f0a614284e1e7939d94a3a522b277d82fce224446a6aba"
+body_chars: 5101
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Migrations - Migrate Guru
+# Migrate Guru
 
+**Section:** WordPress Hosting > Migrations
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/migrate-guru/
-**Kinsta last updated:** April 20, 2026
+**Kinsta last updated:** 2026-04-20T15:04:44
 
 ## On this page
 
@@ -53,6 +54,7 @@ While your new site is being created, you can move on to the next steps.
 
 1. While the site is being created in MyKinsta, go to your existing website (the one you want to migrate) and log in to the WordPress Admin area.
 2. Navigate to **Plugins** > **Add New**, and then search for **Migrate Guru**.
+
    ![Install Migrate Guru from the WordPress repository.](https://kinsta.com/wp-content/uploads/2023/11/wordpress-install-migrate-guru.png)
 
    Install Migrate Guru from the WordPress repository.
@@ -71,18 +73,22 @@ Copy Key in Migrate Guru on your new site.
 
 1. Go back to your existing site that you want to migrate to MyKinsta, and within WP Admin, select **Migrate Guru**.
 2. In step 1, click **Yes, I’ve installed it**.
+
    ![Step 1: confirm you've installed the plugin on both sites in Migrate Guru.](https://kinsta.com/wp-content/uploads/2023/11/wordpress-migrate-guru-step-1-1.png)
 
    Step 1: Confirm you’ve installed the plugin on both sites in Migrate Guru.
 3. In step 2, paste the key you copied from your new site, and click **Validate Key**.
+
    ![Step 2: validate your key in Migrate Guru.](https://kinsta.com/wp-content/uploads/2023/11/wordpress-migrate-guru-step-2.png)
 
    Step 2: Validate your key in Migrate Guru.
 4. In step 3, enter your email address, confirm the sites are correct for migrating from and to, and click **Initiate Migration**.
+
    ![Step 3: Initiate the migration in Migrate Guru. ](https://kinsta.com/wp-content/uploads/2023/11/wordpress-migrate-guru-step-3.png)
 
    Step 3: Initiate the migration in Migrate Guru.
 5. Migrate Guru will then redirect you to their BlogVault page, which shows you the migration progress.
+
    ![Migration progress.](https://kinsta.com/wp-content/uploads/2023/11/wordpress-migrate-guru-progress.png)
 
    Migration progress.

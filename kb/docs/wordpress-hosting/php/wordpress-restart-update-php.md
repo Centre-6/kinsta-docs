@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/php/wordpress-restart-update-php/"
-title: "PHP - Restart and Update PHP"
+title: "Restart and Update PHP"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "php"
-section: []
-kinsta_last_updated: "May 28, 2026"
-sitemap_lastmod: "2026-05-28T07:57:50+00:00"
-fetched_at: "2026-10-07T22:40:19Z"
+section: ["WordPress Hosting", "PHP"]
+kinsta_last_updated: "2026-05-28T07:57:50"
+change_signal: "2026-05-28T07:57:50"
+fetched_at: "2026-10-07T22:58:17Z"
 sha256: "bca25f96ffba5c14438404c743c977ce13006d17edd90db756b2b81b2662b9f8"
 body_chars: 3377
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# PHP - Restart and Update PHP
+# Restart and Update PHP
 
+**Section:** WordPress Hosting > PHP
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/php/wordpress-restart-update-php/
-**Kinsta last updated:** May 28, 2026
+**Kinsta last updated:** 2026-05-28T07:57:50
 
 ## On this page
 

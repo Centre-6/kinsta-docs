@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/company-settings/wordpress-saml-sso/google-workspace-saml-sso/"
-title: "SAML Single Sign-On (SSO) - Google Workspace SAML SSO"
+title: "Google Workspace SAML SSO"
 tier: "docs"
 product: "company-settings"
 product_label: "MyKinsta Company Settings"
 subsection: "wordpress-saml-sso"
-section: []
-kinsta_last_updated: "January 16, 2026"
-sitemap_lastmod: "2026-01-16T15:21:11+00:00"
-fetched_at: "2026-10-07T22:39:11Z"
+section: ["Company Settings", "SAML Single Sign-On (SSO)"]
+kinsta_last_updated: "2026-01-16T15:21:11"
+change_signal: "2026-01-16T15:21:11"
+fetched_at: "2026-10-07T22:58:17Z"
 sha256: "d72c639f582e3db86982bd62e4a5cb25148158bb143d9c2a3cf3ef38eae2fe7a"
 body_chars: 10158
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# SAML Single Sign-On (SSO) - Google Workspace SAML SSO
+# Google Workspace SAML SSO
 
+**Section:** Company Settings > SAML Single Sign-On (SSO)
 **Product:** MyKinsta Company Settings
 **Source:** https://kinsta.com/docs/company-settings/wordpress-saml-sso/google-workspace-saml-sso/
-**Kinsta last updated:** January 16, 2026
+**Kinsta last updated:** 2026-01-16T15:21:11
 
 ## On this page
 

@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-wp-admin/"
-title: "Site Management - WP Admin"
+title: "WP Admin"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "site-management"
-section: []
-kinsta_last_updated: "June 19, 2026"
-sitemap_lastmod: "2026-06-19T15:08:13+00:00"
-fetched_at: "2026-10-07T22:40:31Z"
+section: ["WordPress Hosting", "Site Management"]
+kinsta_last_updated: "2026-06-19T15:08:13"
+change_signal: "2026-06-19T15:08:13"
+fetched_at: "2026-10-07T22:58:17Z"
 sha256: "778bfa099474112120dbb359bc76b7dd953b4e103671bf9f5f1c77bf55f19f17"
 body_chars: 7013
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Site Management - WP Admin
+# WP Admin
 
+**Section:** WordPress Hosting > Site Management
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-wp-admin/
-**Kinsta last updated:** June 19, 2026
+**Kinsta last updated:** 2026-06-19T15:08:13
 
 ## On this page
 

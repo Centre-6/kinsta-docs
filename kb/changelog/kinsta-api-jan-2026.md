@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Manage WordPress plugins and themes with the Kinsta API"]
-kinsta_last_updated: "2026-05-20T20:31:31+00:00"
-sitemap_lastmod: "2026-05-20T20:31:31+00:00"
-fetched_at: "2026-10-07T22:37:40Z"
-sha256: "d375742c89611a2a401b780c2f4efdc377cc340e8b36826263be159171c28f84"
-body_chars: 6724
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:31:31"
+change_signal: "2026-05-20T20:31:31"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "94a6062b4817d71a96486dd794603122949e2596a95f79745c198bebe0baf772"
+body_chars: 6613
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Manage WordPress plugins and themes with the Kinsta API
 
-**Section:** Changelog > Manage WordPress plugins and themes with the Kinsta API
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/kinsta-api-jan-2026/
-**Kinsta last updated:** 2026-05-20T20:31:31+00:00
+**Kinsta last updated:** 2026-05-20T20:31:31
 
 ## On this page
 
@@ -31,11 +30,6 @@ status: "live"
 - [Better visibility into WordPress plugins and themes](#better-visibility-into-wordpress-plugins-and-themes)
 
 ---
-
-Updated
-:   May 20, 2026
-
-![](https://kinsta.com/wp-content/uploads/2026/01/new-api-endpoints_4-1024x536.png)
 
 We’ve added new [API](https://kinsta.com/docs/kinsta-api/) endpoints that make it easier to retrieve WordPress plugins and themes at both the company and site level.
 

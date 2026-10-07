@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/site-management/git/"
-title: "Site Management - Git"
+title: "Git"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "site-management"
-section: []
-kinsta_last_updated: "July 1, 2025"
-sitemap_lastmod: "2025-07-01T15:48:40+00:00"
-fetched_at: "2026-10-07T22:38:45Z"
-sha256: "a188dcab5fa0f22b95e2a9516d87dea293e531b407d4789ac4f501d7b72168d3"
-body_chars: 4640
-extracted_with: "main article"
+section: ["WordPress Hosting", "Site Management"]
+kinsta_last_updated: "2025-07-01T15:48:40"
+change_signal: "2025-07-01T15:48:40"
+fetched_at: "2026-10-07T22:58:18Z"
+sha256: "50a6eae9f876a29483570a4007ebbce51faaa0aa6edd924d3e3a3296ca2cdfda"
+body_chars: 4587
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Site Management - Git
+# Git
 
+**Section:** WordPress Hosting > Site Management
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/site-management/git/
-**Kinsta last updated:** July 1, 2025
+**Kinsta last updated:** 2025-07-01T15:48:40
 
 ## On this page
 
@@ -59,10 +60,8 @@ In the examples below, we’re using GitHub. If you’re using a different servi
 
 The command to pull your repo to your **public** directory will look something like this:
 
-Copy
-
 ```
-ssh user@ip-address -p portnumber "cd public-root && git pull https:// github.com/USER/REPO.git "
+ssh user@ip-address -p portnumber "cd public-root && git pull https://github.com/USER/REPO.git"
 ```
 
 Replace the bold values with your site’s details from MyKinsta:
@@ -74,10 +73,8 @@ Replace the bold values with your site’s details from MyKinsta:
 
 If it’s a private repo, you’ll need a way to authenticate or log in. Here’s an example of pulling a private repository from GitHub by adding login credentials to the command:
 
-Copy
-
 ```
-ssh user@ip-address -p portnumber "cd public-root && git pull https:// username:password @ github.com/USER/REPO.git "
+ssh user@ip-address -p portnumber "cd public-root && git pull https://username:password@github.com/USER/REPO.git"
 ```
 
 ### Pull a private repo with 2FA
@@ -90,10 +87,8 @@ If two-factor authentication is enabled, an access token/app password is needed.
 
 Here’s an example of how to pull a repo that has 2FA enabled from GitHub, using a token to authenticate:
 
-Copy
-
 ```
-ssh user@ip-address -p portnumber "cd public-root && git pull https:// TOKEN @ github.com/USER/REPO.git "
+ssh user@ip-address -p portnumber "cd public-root && git pull https://TOKEN@github.com/USER/REPO.git"
 ```
 
 Note: If the git pull above doesn’t contain credentials and the HTTPS path, it will attempt to look locally (rather than at the hosted repo) and show the message: “Everything up-to-date.”
@@ -102,20 +97,16 @@ Note: If the git pull above doesn’t contain credentials and the HTTPS path, it
 
 To clone a repo:
 
-Copy
-
 ```
-git clone https:// github.com/USER/REPO.git
+git clone https://github.com/USER/REPO.git
 ```
 
 ### Clone a private repo
 
 If it’s a private repo, you’ll need a way to authenticate or log in. Here’s an example of pulling a private repository from GitHub by adding login credentials to the command:
 
-Copy
-
 ```
-git clone https:// username:password @ github.com/USER/REPO.git
+git clone https://username:password@github.com/USER/REPO.git
 ```
 
 ### Clone a private repo with 2FA
@@ -128,8 +119,6 @@ If two-factor authentication is enabled, an access token/app password is needed.
 
 Here’s an example of how to clone a repo that has 2FA enabled at GitHub, using a token to authenticate:
 
-Copy
-
 ```
-git clone https:// TOKEN @ github.com/USER/REPO.git
+git clone https://TOKEN@github.com/USER/REPO.git
 ```

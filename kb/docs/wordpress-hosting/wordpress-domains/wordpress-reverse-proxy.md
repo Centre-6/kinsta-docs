@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-domains/wordpress-reverse-proxy/"
-title: "Domains and DNS - Reverse Proxy"
+title: "Reverse Proxy"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-domains"
-section: []
-kinsta_last_updated: "May 11, 2026"
-sitemap_lastmod: "2026-05-11T15:50:27+00:00"
-fetched_at: "2026-10-07T22:40:09Z"
+section: ["WordPress Hosting", "Domains and DNS"]
+kinsta_last_updated: "2026-05-11T15:50:27"
+change_signal: "2026-05-11T15:50:27"
+fetched_at: "2026-10-07T22:58:18Z"
 sha256: "1fd23d6ac3561d6209b4570b1c1cf1c5de3d738634aaf39cc87f34874c2a3aed"
 body_chars: 6042
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Domains and DNS - Reverse Proxy
+# Reverse Proxy
 
+**Section:** WordPress Hosting > Domains and DNS
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-domains/wordpress-reverse-proxy/
-**Kinsta last updated:** May 11, 2026
+**Kinsta last updated:** 2026-05-11T15:50:27
 
 ## On this page
 

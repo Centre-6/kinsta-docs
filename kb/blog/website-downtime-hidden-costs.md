@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Performance", "The hidden costs of website downtime and what you can do about it"]
-kinsta_last_updated: "2026-02-06T14:23:05+00:00"
-sitemap_lastmod: "2026-02-06T14:23:05"
-fetched_at: "2026-10-07T22:42:51Z"
-sha256: "ddf9677d46f3494115624091ff38c187f0c77d89cdaa783db2dcbdde521e6b02"
-body_chars: 18056
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-02-06T14:23:05"
+change_signal: "2026-02-06T14:23:05"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "61955cdbd6ee26bfe9559d7cec59dbf84fb43de3870916a261f54489f507fdbe"
+body_chars: 17159
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # The hidden costs of website downtime and what you can do about it
 
-**Section:** Resource Center > Blog > WordPress Performance > The hidden costs of website downtime and what you can do about it
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/website-downtime-hidden-costs/
-**Kinsta last updated:** 2026-02-06T14:23:05+00:00
+**Kinsta last updated:** 2026-02-06T14:23:05
 
 ## On this page
 
@@ -49,17 +48,6 @@ status: "live"
 - [Uptime is revenue protection, not just reliability](#uptime-is-revenue-protection-not-just-reliability)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   February 6, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/01/the-hidden-costs-of-website-downtime-and-what-you-can-do-about-it-1024x512.png)
 
 You’ve planned a campaign for weeks; emails are scheduled, ads are live, and traffic starts pouring in. Then the site slows to a crawl, or worse, it goes offline entirely. Orders fail, forms don’t submit, and the momentum you worked so hard to build quietly disappears while your analytics dashboard struggles to keep up.
 
@@ -253,13 +241,3 @@ Downtime isn’t just a reliability issue. It’s a real-deal revenue risk. Lost
 That’s why prevention matters. Avoiding downtime is almost always cheaper than recovering from it, especially during campaigns and launches where timing and performance directly affect results. Reliable uptime protects momentum when demand is highest.
 
 [Managed hosting](https://kinsta.com/wordpress-hosting/) is a strategic investment in consistency, trust, and growth. If your business depends on campaigns performing as planned, it’s worth reassessing whether your current setup supports that goal. For many teams, Kinsta fills that role by keeping sites [fast, stable, and ready when it counts](https://kinsta.com/wordpress-hosting/). And now is a great time to get started!
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

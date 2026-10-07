@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/"
-title: "WordPress Hosting - Troubleshooting"
+title: "Troubleshooting"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-troubleshooting"
-section: []
-kinsta_last_updated: "January 21, 2026"
-sitemap_lastmod: "2026-01-21T10:45:09+00:00"
-fetched_at: "2026-10-07T22:39:13Z"
-sha256: "7056da771e67a23edfd921453788629c588924215dcbb9036f4af4519582b303"
-body_chars: 2561
-extracted_with: "main article"
+section: ["WordPress Hosting"]
+kinsta_last_updated: "2026-01-21T10:45:09"
+change_signal: "2026-01-21T10:45:09"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "160a89d3374815323d0670c080ddd787ea04a89254e49b1e86251828c10abd2d"
+body_chars: 2555
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# WordPress Hosting - Troubleshooting
+# Troubleshooting
 
+**Section:** WordPress Hosting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/
-**Kinsta last updated:** January 21, 2026
+**Kinsta last updated:** 2026-01-21T10:45:09
 
 ---
 
@@ -27,12 +28,12 @@ The WordPress troubleshooting section of our documentation helps you to identify
 
 - [Server Logs](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/view-server-logs/): Explains how to access and download your server logs, what each log file contains, and the formats.
 - [Debugging](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/wordpress-debugging/): How to enable debug mode in WordPress to troubleshoot and identify any issues with your site.
-- [Troubleshooting Performance](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/troubleshooting-wordpress-performance/): How to troubleshoot common performance issues on your site.
-- [Speed and Load Testing](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/website-testing-tools/): How to perform speed and load testing before making your site live.
-- [Cloudflare Errors](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/cloudflare-errors/): This explains what to do when you get errors 520, 521, or 1020.
-- [Server Errors](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/server-errors/): How to fix errors 502 and 504.
-- [Database Connection Errors](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/fix-error-establishing-a-database-connection-in-wordpress/): What to do when you can’t connect to your database.
-- [SSH and SFTP Errors](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/cant-connect-delete-ssh-known-hosts/): What to do when you can’t connect via SSH or SFTP.
+- [Troubleshooting Performance](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/troubleshooting-wordpress-performance): How to troubleshoot common performance issues on your site.
+- [Speed and Load Testing](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/website-testing-tools): How to perform speed and load testing before making your site live.
+- [Cloudflare Errors](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/cloudflare-errors): This explains what to do when you get errors 520, 521, or 1020.
+- [Server Errors](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/server-errors): How to fix errors 502 and 504.
+- [Database Connection Errors](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/fix-error-establishing-a-database-connection-in-wordpress): What to do when you can’t connect to your database.
+- [SSH and SFTP Errors](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/cant-connect-delete-ssh-known-hosts): What to do when you can’t connect via SSH or SFTP.
 
 ### Plugin or theme issues
 

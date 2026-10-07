@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-bitbucket-pipelines/"
-title: "Site Management - Bitbucket Pipelines"
+title: "Bitbucket Pipelines"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "site-management"
-section: []
-kinsta_last_updated: "May 27, 2026"
-sitemap_lastmod: "2026-05-27T14:04:50+00:00"
-fetched_at: "2026-10-07T22:40:14Z"
-sha256: "de3b928b35636a68e4d516d5faf93edcbbf8fb5c407ade785dcb349b22882789"
-body_chars: 12244
-extracted_with: "main article"
+section: ["WordPress Hosting", "Site Management"]
+kinsta_last_updated: "2026-05-27T14:04:50"
+change_signal: "2026-05-27T14:04:50"
+fetched_at: "2026-10-07T22:58:17Z"
+sha256: "ed22b56d8307cd884c55da15427f4b3bd08d5479d020609132254b3e3678e417"
+body_chars: 12178
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Site Management - Bitbucket Pipelines
+# Bitbucket Pipelines
 
+**Section:** WordPress Hosting > Site Management
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-bitbucket-pipelines/
-**Kinsta last updated:** May 27, 2026
+**Kinsta last updated:** 2026-05-27T14:04:50
 
 ## On this page
 
@@ -37,13 +38,13 @@ status: "live"
 
 ---
 
-For advanced users, Bitbucket CI/CD (Continuous Integration/Continuous Delivery or Continuous Deployment) can automatically deploy code changes to your Kinsta site whenever a new commit is pushed to the designated branch. This setup enables seamless code deployment from your local environment via [SSH](https://kinsta.com/docs/wordpress-hosting/connect-to-ssh/) and [Bitbucket Pipelines](https://www.atlassian.com/software/bitbucket/features/pipelines), allowing continuous updates to your site.
+For advanced users, Bitbucket CI/CD (Continuous Integration/Continuous Delivery or Continuous Deployment) can automatically deploy code changes to your Kinsta site whenever a new commit is pushed to the designated branch. This setup enables seamless code deployment from your local environment via [SSH](https://kinsta.com/docs/wordpress-hosting/connect-to-ssh) and [Bitbucket Pipelines](https://www.atlassian.com/software/bitbucket/features/pipelines), allowing continuous updates to your site.
 
 To follow these steps, you must have an existing site hosted on Kinsta and a [Bitbucket account](https://bitbucket.org/product/).
 
 ## 1. Download a backup of your site
 
-You can download a backup of your site to set up the Bitbucket repository and work on it locally. Alternatively, you can use [DevKinsta](https://kinsta.com/docs/devkinsta/) to pull your site from the Kinsta server and work on it locally.
+You can download a backup of your site to set up the Bitbucket repository and work on it locally. Alternatively, you can use [DevKinsta](https://kinsta.com/docs/devkinsta) to pull your site from the Kinsta server and work on it locally.
 
 In [MyKinsta](https://my.kinsta.com/), go to**Sites** > ***sitename*** > **Backups** > **Download** > **Create backup now**.
 
@@ -63,12 +64,10 @@ In Bitbucket, go to your workspace and create a new repository. Ensure **Include
 
 To securely connect to your Bitbucket repository, you must set up SSH authentication.
 
-Generate an SSH key pair on your local machine using the following command, replacing `[email protected]` with your email address:
-
-Copy
+Generate an SSH key pair on your local machine using the following command, replacing `user@email.com` with your email address:
 
 ```
-ssh-keygen -t ed25519 -C "[email protected]"
+ssh-keygen -t ed25519 -C "user@email.com"
 ```
 
 Save the key pair in a location you can easily reference (e.g., `~/.ssh/id_rsa_bitbucket`).
@@ -85,8 +84,6 @@ Add the same key in [MyKinsta](https://my.kinsta.com/), go to your username > **
 
 Open the folder containing your site’s files in your preferred code editor and use the following commands to push your code to Bitbucket, replacing `your-username` and `your-repo` with your Bitbucket username and repository name:
 
-Copy
-
 ```
 # Initialize a new Git repository
 git init
@@ -95,7 +92,7 @@ git add .
 # Commit the files with a message
 git commit -m "Initial commit of WordPress site files"
 # Add the Bitbucket repository as the remote origin
-git remote add origin [email protected]:your-username/your-repo.git
+git remote add origin git@bitbucket.org:your-username/your-repo.git
 # Push the files to Bitbucket
 git push -u origin main
 ```
@@ -110,12 +107,10 @@ Open a new terminal and SSH into your Kinsta server using the **SSH terminal com
 
 SSH terminal command for your site.
 
-Enter your site’s password and then generate a new SSH key using the following command, replacing `[email protected]` with your email address:
-
-Copy
+Enter your site’s password and then generate a new SSH key using the following command, replacing `your-email@example.com` with your email address:
 
 ```
-ssh-keygen -t rsa -b 4096 -C "[email protected]"
+ssh-keygen -t rsa -b 4096 -C "your-email@example.com"
 ```
 
 Press **Enter** to save the key to the default location and leave the passphrase blank when prompted.
@@ -148,8 +143,6 @@ Add your SSH key in MyKinsta.
 
 Access the contents of the public key file (e.g., `~/.ssh/id_rsa.pub`), with the following command:
 
-Copy
-
 ```
 cat ~/.ssh/id_rsa.pub
 ```
@@ -166,27 +159,21 @@ Path on the site’s Info page.
 
 In the terminal, navigate to your site’s live directory with the following command, replacing `/www/your-site/public` with the path copied from MyKinsta.
 
-Copy
-
 ```
 cd /www/your-site/public
 ```
 
 Initialize the directory as a Git repository and set the remote URL to use SSH with the following command, replacing `your-username` and `your-repo` with your Bitbucket credentials and repository:
 
-Copy
-
 ```
 git init
-git remote add origin [email protected]:your-username/your-repo.git
+git remote add origin git@bitbucket.org:your-username/your-repo.git
 ```
 
 Confirm that the SSH setup works by running the following command:
 
-Copy
-
 ```
-ssh -T [email protected]
+ssh -T git@bitbucket.org
 ```
 
 You should see a message similar to: “authenticated via ssh key. You can use git to connect to Bitbucket. Shell access is disabled.” Your Kinsta server is now ready to receive and deploy updates from Bitbucket directly through Bitbucket pipelines.
@@ -206,8 +193,6 @@ In Bitbucket, go to **Repository Settings** > **Repository Variables** and add
 - `PORT`: This is the SSH **Port** used by your Kinsta server. Kinsta servers use a custom port, so you must specify that here.
 - `SSH_PRIVATE_KEY`: This is your base64-encoded SSH private key from your local machine. Bitbucket pipelines use this key to authenticate to your Kinsta server. To encode your private key in base64, run the following command, copy the output, and add it as the value:
 
-  Copy
-
   ```
   cat ~/.ssh/id_rsa | base64
   ```
@@ -215,8 +200,6 @@ In Bitbucket, go to **Repository Settings** > **Repository Variables** and add
 ## 10. Bitbucket Pipeline configuration
 
 To automate deployments, you need to create a `bitbucket-pipelines.yml` configuration file. In the local folder containing your site’s files, create a new file called `bitbucket-pipelines.yml` and add the following content to the file, replacing `your-site` with the folder name from the path on your Kinsta site:
-
-Copy
 
 ```
 image: atlassian/default-image:3
@@ -261,18 +244,14 @@ For troubleshooting, check the pipeline logs in Bitbucket, especially if `DEBUG`
 
 If the pipeline isn’t connecting to your Kinsta server properly, this could be due to the remote URL being set to HTTPS instead of SSH. To confirm, [SSH](https://kinsta.com/docs/wordpress-hosting/connect-to-ssh/) into your Kinsta server and run the following command in your site’s directory:
 
-Copy
-
 ```
 git remote -v
 ```
 
 If it shows `https://` instead of `ssh://`, you’ll need to update the remote URL so that the SSH key can be used for authentication. Run the following command to switch to SSH:
 
-Copy
-
 ```
-git remote set-url origin [email protected]:your-username/your-repo.git
+git remote set-url origin git@bitbucket.org:your-username/your-repo.git
 ```
 
 After updating the URL, push your changes again, and the pipeline should connect using the SSH key.

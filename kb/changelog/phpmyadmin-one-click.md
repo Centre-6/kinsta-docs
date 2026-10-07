@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "phpMyAdmin: You can get there from here in one click"]
-kinsta_last_updated: "2025-11-21T22:34:06+00:00"
-sitemap_lastmod: "2025-11-21T22:34:06+00:00"
-fetched_at: "2026-10-07T22:37:12Z"
-sha256: "a30de7d90490e898fef75e957308e52fdeb419c11b24be035b604ee3dd131862"
-body_chars: 2330
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-11-21T22:34:06"
+change_signal: "2025-11-21T22:34:06"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "0490609ad86f4032b10c47218221f3bc1317caa5935cb403c214ba3c9db14be5"
+body_chars: 2102
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # phpMyAdmin: You can get there from here in one click
 
-**Section:** Changelog > phpMyAdmin: You can get there from here in one click
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/phpmyadmin-one-click/
-**Kinsta last updated:** 2025-11-21T22:34:06+00:00
+**Kinsta last updated:** 2025-11-21T22:34:06
 
 ---
-
-Published
-:   November 21, 2025
-
-![An illustration representing phpMyAdmin access for WordPress users in the MyKinsta dashboard.](https://kinsta.com/wp-content/uploads/2025/11/phpmyadmin-one-click-access-mykinsta-1024x536.png)
 
 Kinsta customers who use phpMyAdmin to manage their WordPress databases can now log in to the tool with a single click in the MyKinsta dashboard.
 

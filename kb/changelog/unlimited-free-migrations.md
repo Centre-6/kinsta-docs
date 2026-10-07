@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Free and unlimited WordPress migrations"]
-kinsta_last_updated: "2024-10-23T14:19:20+00:00"
-sitemap_lastmod: "2024-10-23T14:19:20+00:00"
-fetched_at: "2026-10-07T22:36:57Z"
-sha256: "f022474b9d5038388b905fc5d49803a66c88e37244a53773a3dee34d870e7d6b"
-body_chars: 3676
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-10-23T14:19:20"
+change_signal: "2024-10-23T14:19:20"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "2ece1e63345741055a1468d093bea4727f7b56732ab4f200305a2457e09f8571"
+body_chars: 3465
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Free and unlimited WordPress migrations
 
-**Section:** Changelog > Free and unlimited WordPress migrations
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/unlimited-free-migrations/
-**Kinsta last updated:** 2024-10-23T14:19:20+00:00
+**Kinsta last updated:** 2024-10-23T14:19:20
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [Speed up your WordPress site by moving to Kinsta](#speed-up-your-wordpress-site-by-moving-to-kinsta)
 
 ---
-
-Updated
-:   October 23, 2024
-
-![Illustration representing the beginning of a WordPress site migration at Kinsta.](https://kinsta.com/wp-content/uploads/2024/06/unlimited-free-wordpress-migrations-1024x536.png)
 
 We’ve made transferring your WordPress sites to Kinsta from other hosting companies more cost-effective by rolling out unlimited, free migrations — even for the most complex moves.
 

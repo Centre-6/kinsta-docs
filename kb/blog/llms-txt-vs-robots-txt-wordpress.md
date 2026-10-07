@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Bot Traffic", "AI crawlers vs. bot protection vs. robots.txt vs. llms.txt: what actually controls AI access?"]
-kinsta_last_updated: "2026-07-23T19:32:55+00:00"
-sitemap_lastmod: "2026-07-23T19:32:55"
-fetched_at: "2026-10-07T22:42:10Z"
-sha256: "1146f62de07100dbfe726675157c56d4c5813621f8b3c75572283f4fdfc9dd5e"
-body_chars: 14801
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-07-23T19:32:55"
+change_signal: "2026-07-23T19:32:55"
+fetched_at: "2026-10-07T22:58:24Z"
+sha256: "2d689006e6d56757c12c4ffb690a67147b9b4150157452ca7655656aab3c6a2b"
+body_chars: 13882
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # AI crawlers vs. bot protection vs. robots.txt vs. llms.txt: what actually controls AI access?
 
-**Section:** Resource Center > Blog > Bot Traffic > AI crawlers vs. bot protection vs. robots.txt vs. llms.txt: what actually controls AI access?
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/llms-txt-vs-robots-txt-wordpress/
-**Kinsta last updated:** 2026-07-23T19:32:55+00:00
+**Kinsta last updated:** 2026-07-23T19:32:55
 
 ## On this page
 
@@ -36,17 +35,6 @@ status: "live"
 - [Where this leaves you](#where-this-leaves-you)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   July 29, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/07/ai-crawlers-vs-bot-protection-vs-robots-txt-vs-llms-txt-what-actually-controls-ai-access-1024x512.png)
 
 Two people asked us the same question during our [bot traffic reality check live event](https://kinsta.com/webinars/bot-traffic-reality-check/), and we never got to either one live: does an llms.txt file actually stop AI from hammering your site?
 
@@ -214,13 +202,3 @@ Stop thinking of these four as competing options and start treating them as a st
 4. **Bot protection is where enforcement actually lives**, because it’s the only layer here that can act on a request that ignores everything you’ve asked for.
 
 If the question on your mind is less “how do I control this” and more “how do I get found by it,” our guides to [AEO for WordPress](https://kinsta.com/blog/aeo-wordpress/) and [GEO vs. AEO vs. SEO](https://kinsta.com/blog/geo-vs-aeo-vs-seo-wordpress/) pick up where this one leaves off. To explore the controls covered here, see [Kinsta Bot Protection](https://kinsta.com/bot-protection/).
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

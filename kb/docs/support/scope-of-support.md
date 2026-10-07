@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/support/scope-of-support/"
-title: "Support - Scope of Support"
+title: "Scope of Support"
 tier: "docs"
 product: "support"
 product_label: "Support"
 subsection: "scope-of-support"
-section: []
-kinsta_last_updated: "February 2, 2026"
-sitemap_lastmod: "2026-02-02T16:59:18+00:00"
-fetched_at: "2026-10-07T22:39:20Z"
+section: ["Support"]
+kinsta_last_updated: "2026-02-02T16:59:18"
+change_signal: "2026-02-02T16:59:18"
+fetched_at: "2026-10-07T22:58:20Z"
 sha256: "e4794ac110866783f5912ffcc8085b420e1aabf154d88b2c9fc5561d0c4d1e8d"
 body_chars: 1523
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Support - Scope of Support
+# Scope of Support
 
+**Section:** Support
 **Product:** Support
 **Source:** https://kinsta.com/docs/support/scope-of-support/
-**Kinsta last updated:** February 2, 2026
+**Kinsta last updated:** 2026-02-02T16:59:18
 
 ## On this page
 

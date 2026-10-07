@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Development", "Using headless WordPress to build a website with Lovable"]
-kinsta_last_updated: "2025-12-17T05:37:56+00:00"
-sitemap_lastmod: "2025-12-17T05:37:56"
-fetched_at: "2026-10-07T22:43:03Z"
-sha256: "4474dbc87b2aa3ef0e76d0ff9b9710964eb407e670df6291599f0ff72ea03d2f"
-body_chars: 16730
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-12-17T05:37:56"
+change_signal: "2025-12-17T05:37:56"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "49ab8675c1571cca6b9ee0d7fcb779de2c1f4dd7d8f1c120aa272aaa35bda780"
+body_chars: 16078
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Using headless WordPress to build a website with Lovable
 
-**Section:** Resource Center > Blog > WordPress Development > Using headless WordPress to build a website with Lovable
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/build-wordpress-website-lovable/
-**Kinsta last updated:** 2025-12-17T05:37:56+00:00
+**Kinsta last updated:** 2025-12-17T05:37:56
 
 ## On this page
 
@@ -39,17 +38,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Author
-:   [Bud Kraus](https://kinsta.com/blog/author/budkraus/ "Posts by Bud Kraus")
-
-Updated
-:   December 17, 2025
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/11/using-headless-wordpress-to-build-a-website-with-lovable-1024x512.png)
 
 Artificial intelligence, improved development tooling, and modern hosting environments are giving [headless WordPress](https://kinsta.com/blog/headless-wordpress-seo/) a fresh wave of attention among designers and [developers](https://kinsta.com/blog/types-of-developers/). This evolution is shaping how distributed digital experiences are designed, built, and deployed.
 
@@ -370,7 +358,3 @@ Headless WordPress opens up a space where design and development meet with almos
 As AI continues to shape workflows, headless WordPress emerges as a flexible, future-ready approach for creators seeking speed, control, and freedom in equal measure.
 
 If you’re ready to explore what headless WordPress can do for your next project, start with a hosting platform built for performance and reliability. [Explore Kinsta’s hosting plans](https://kinsta.com/wordpress-hosting/), the ideal foundation for WordPress, headless, or hybrid builds.
-
-Bud Kraus
-
-Bud Kraus has been working with WordPress as an in-class and online instructor, site developer, and content creator since 2009. He has produced instructional videos and written many articles for WordPress businesses.

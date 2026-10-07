@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Kinsta Unveils New and Improved Documentation"]
-kinsta_last_updated: "2026-04-20T09:35:12+00:00"
-sitemap_lastmod: "2026-04-20T09:35:12+00:00"
-fetched_at: "2026-10-07T22:37:22Z"
-sha256: "2b361795babff0d05d9653acd5fed65678bab2a3e2e030c67cc8be2a00c2b6de"
-body_chars: 2563
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-04-20T09:35:12"
+change_signal: "2026-04-20T09:35:12"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "749b2a12c8f92b48353d1231991c678c32a72dae2014d784197835846ce414d4"
+body_chars: 2368
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Kinsta Unveils New and Improved Documentation
 
-**Section:** Changelog > Kinsta Unveils New and Improved Documentation
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/new-documentation/
-**Kinsta last updated:** 2026-04-20T09:35:12+00:00
+**Kinsta last updated:** 2026-04-20T09:35:12
 
 ## On this page
 
@@ -32,11 +31,6 @@ status: "live"
   - [Documentation in Other Languages](#documentation-in-other-languages)
 
 ---
-
-Updated
-:   April 20, 2026
-
-![Illustration reflecting the new design for Kinsta's documentation.](https://kinsta.com/wp-content/uploads/2023/11/new-design-for-kinsta-documentation-1024x536.jpg)
 
 We’ve got a brand new [Kinsta “Docs” site](https://kinsta.com/docs/)!
 

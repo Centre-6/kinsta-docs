@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/devkinsta/devkinsta-site-management/subdomain-multisite/"
-title: "Site Management - Multisite Subdomain"
+title: "Multisite Subdomain"
 tier: "docs"
 product: "devkinsta"
 product_label: "DevKinsta (local dev tool, not hosting)"
 subsection: "devkinsta-site-management"
-section: []
-kinsta_last_updated: "August 19, 2024"
-sitemap_lastmod: "2024-08-19T12:08:44+00:00"
-fetched_at: "2026-10-07T22:38:17Z"
-sha256: "18995076784edfa4b022aaadba91ab19cf2f49375c1caa81ece3aa0cdc78e3a4"
-body_chars: 2509
-extracted_with: "main article"
+section: ["DevKinsta", "Site Management"]
+kinsta_last_updated: "2024-08-19T12:08:44"
+change_signal: "2024-08-19T12:08:44"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "091b18fed03730739e9c5acc2fbd900913d3310c7ed468c899d56cf950da9732"
+body_chars: 2566
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Site Management - Multisite Subdomain
+# Multisite Subdomain
 
+**Section:** DevKinsta > Site Management
 **Product:** DevKinsta (local dev tool, not hosting)
 **Source:** https://kinsta.com/docs/devkinsta/devkinsta-site-management/subdomain-multisite/
-**Kinsta last updated:** August 19, 2024
+**Kinsta last updated:** 2024-08-19T12:08:44
 
 ---
 
@@ -53,6 +54,6 @@ Note: If you haven’t already, add your new subsite(s) in your WordPress dashbo
 
 You should now be able to visit your subsite on your local site.
 
-![Viewing a DevKinsta subdomain multisite in the browser.](https://kinsta.com/wp-content/uploads/2022/06/devkinsta-subdomain-multisite-browser.png)
+![Viewing a DevKinsta subdomain multisite in the browser.](https://kinsta.com/wp-content/uploads/2022/06/devkinsta-subdomain-multisite-browser.png "Viewing a DevKinsta subdomain multisite in the browser")
 
 Viewing a DevKinsta subdomain multisite in the browser.

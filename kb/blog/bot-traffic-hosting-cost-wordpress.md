@@ -1,26 +1,25 @@
 ---
 url: "https://kinsta.com/blog/bot-traffic-hosting-cost-wordpress/"
-title: "The hidden cost of bot traffic on WordPress: what bandwidth reports don't show"
+title: "The hidden cost of bot traffic on WordPress: what bandwidth reports don\u2019t show"
 tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Bot Traffic", "The hidden cost of bot traffic on WordPress: what bandwidth reports don\u2019t show"]
-kinsta_last_updated: "2026-06-29T16:22:25+00:00"
-sitemap_lastmod: "2026-06-29T16:22:25"
-fetched_at: "2026-10-07T22:42:09Z"
-sha256: "16c57a9238d19bf983c0a24bead32ebdeb05fb6168a9998db53c28de5198b231"
-body_chars: 17140
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-29T16:22:25"
+change_signal: "2026-06-29T16:22:25"
+fetched_at: "2026-10-07T22:58:24Z"
+sha256: "d7e262a27b32b773d6af3f1498503aba05cdd9a37488a0ced1d9276bba8d075a"
+body_chars: 16245
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# The hidden cost of bot traffic on WordPress: what bandwidth reports don't show
+# The hidden cost of bot traffic on WordPress: what bandwidth reports don’t show
 
-**Section:** Resource Center > Blog > Bot Traffic > The hidden cost of bot traffic on WordPress: what bandwidth reports don’t show
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/bot-traffic-hosting-cost-wordpress/
-**Kinsta last updated:** 2026-06-29T16:22:25+00:00
+**Kinsta last updated:** 2026-06-29T16:22:25
 
 ## On this page
 
@@ -39,17 +38,6 @@ status: "live"
 - [The question has changed](#the-question-has-changed)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   August 4, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/06/the-hidden-cost-of-bot-traffic-bandwidth-vs-infrastructure-load-1024x512.png)
 
 Kinsta [analyzed more than 10 billion HTTP requests](https://kinsta.com/ai-bot-traffic/) across its hosting infrastructure and found that bots hit add-to-cart URLs on WordPress sites 7.67 million times in a single 24-hour period. One crawler alone generated 550 million requests over 30 days before a rule stopped it.
 
@@ -236,13 +224,3 @@ Bot traffic doesn’t need to take a site offline to cost something. It needs on
 Getting visibility into that traffic, and having the controls to act on what you see, is what changes the situation. You can’t manage what you can’t see, and you can’t act on what you see if your only options are block everything or leave it alone.
 
 For WordPress teams managing content-heavy sites, WooCommerce stores, or large client portfolios,[Kinsta’s managed WordPress hosting](https://kinsta.com/wordpress-hosting/) puts those controls in MyKinsta, at no additional cost, adjustable per environment without a support ticket. Start with the[AI & Bot Traffic Report](https://kinsta.com/ai-bot-traffic/) for the full picture of what’s hitting WordPress infrastructure and what it costs.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

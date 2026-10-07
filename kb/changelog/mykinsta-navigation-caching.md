@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Find all your WordPress caching tools together in MyKinsta"]
-kinsta_last_updated: "2024-10-23T14:19:30+00:00"
-sitemap_lastmod: "2024-10-23T14:19:30+00:00"
-fetched_at: "2026-10-07T22:36:58Z"
-sha256: "096c8ae89981f57634ff3292d9f27d851592864a8310cf360832f47f1d1f15db"
-body_chars: 2848
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-10-23T14:19:30"
+change_signal: "2024-10-23T14:19:30"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "548f3fe22d5f0f83e1ca8f4f38f8411fe904043d1c338f828a3f453271f2326f"
+body_chars: 2619
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Find all your WordPress caching tools together in MyKinsta
 
-**Section:** Changelog > Find all your WordPress caching tools together in MyKinsta
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/mykinsta-navigation-caching/
-**Kinsta last updated:** 2024-10-23T14:19:30+00:00
+**Kinsta last updated:** 2024-10-23T14:19:30
 
 ---
-
-Updated
-:   October 23, 2024
-
-![Illustration representing the MyKinsta Caching page, with the words: MyKinsta navigation — Caching.](https://kinsta.com/wp-content/uploads/2024/07/mykinsta-navigation-update-caching-1024x536.png)
 
 Various kinds of caching are essential to speeding up a WordPress site, and Kinsta provides all the tools you need to take advantage of those technologies. But, we admit, the [MyKinsta dashboard](https://kinsta.com/mykinsta/) didn’t have all those tools in the same box.
 

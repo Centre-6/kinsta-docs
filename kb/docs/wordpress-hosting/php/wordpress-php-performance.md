@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-performance/"
-title: "PHP - PHP Performance"
+title: "PHP Performance"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "php"
-section: []
-kinsta_last_updated: "May 20, 2026"
-sitemap_lastmod: "2026-05-20T20:32:12+00:00"
-fetched_at: "2026-10-07T22:40:12Z"
-sha256: "6904ad3a2a730c3885b0b507d3083549fbcde0b04242882939f5b4107c9351e7"
-body_chars: 26649
-extracted_with: "main article"
+section: ["WordPress Hosting", "PHP"]
+kinsta_last_updated: "2026-05-20T20:32:12"
+change_signal: "2026-05-20T20:32:12"
+fetched_at: "2026-10-07T22:58:17Z"
+sha256: "1c20a4608b080adf9fdbfe138f687aac2018d02ba5fc398657d52efb3e06345a"
+body_chars: 26643
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# PHP - PHP Performance
+# PHP Performance
 
+**Section:** WordPress Hosting > PHP
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-performance/
-**Kinsta last updated:** May 20, 2026
+**Kinsta last updated:** 2026-05-20T20:32:12
 
 ## On this page
 
@@ -310,8 +311,6 @@ For example, if your site experiences a surge in traffic, all PHP threads might 
 If you want to [increase the number of PHP threads](#change-php-performance) for your site, you can do this within **Sites** > ***sitename*** > **Info** > **PHP performance** > **Change**.
 
 If you are investigating website performance and determining if your site is continuously using up its PHP threads, you can monitor PHP thread activity using tools in an SSH session. For example, the following custom command monitors the number of active PHP threads every 0.3 seconds:
-
-Copy
 
 ```
 watch -n 0.3 "ps aux | awk '\$(NF-2) ~ /php-fpm/ && \$(NF-1) ~ /pool/ && \$8 ~ /R/ { print \$0 }' | wc -l"

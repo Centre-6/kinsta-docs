@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Create accounts for additional SFTP users in MyKinsta"]
-kinsta_last_updated: "2025-04-24T20:44:22+00:00"
-sitemap_lastmod: "2025-04-24T20:44:22+00:00"
-fetched_at: "2026-10-07T22:37:06Z"
-sha256: "e597baa23129606e989fbca83e4c563bf68bc136465a4d609d384f2666c1a475"
-body_chars: 4903
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-04-24T20:44:22"
+change_signal: "2025-04-24T20:44:22"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "2736e55e3c0ec15d9e3e1632f193759e5da859377991d49697526f2c3ad47713"
+body_chars: 4691
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Create accounts for additional SFTP users in MyKinsta
 
-**Section:** Changelog > Create accounts for additional SFTP users in MyKinsta
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/additional-sftp-users/
-**Kinsta last updated:** 2025-04-24T20:44:22+00:00
+**Kinsta last updated:** 2025-04-24T20:44:22
 
 ## On this page
 
@@ -30,11 +29,6 @@ status: "live"
 - [WordPress management made easier and more flexible](#wordpress-management-made-easier-and-more-flexible)
 
 ---
-
-Published
-:   April 24, 2025
-
-![An illustration representing the dialog in MyKinsta for adding additional SFTP users.](https://kinsta.com/wp-content/uploads/2025/04/changelog-additional-sftp-users-1024x512.png)
 
 You can now create multiple SFTP user accounts for each WordPress website you manage in your [MyKinsta dashboard](https://kinsta.com/mykinsta/). This means Kinsta customers can assign SFTP logins to members of their team without having to share the credentials of the Primary SFTP/SSH user that is initially enabled for each WordPress environment.
 

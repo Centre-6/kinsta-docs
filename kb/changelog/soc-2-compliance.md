@@ -1,33 +1,27 @@
 ---
 url: "https://kinsta.com/changelog/soc-2-compliance/"
-title: "Kinsta's Security Efforts Recognized as SOC 2 Compliant"
+title: "Kinsta\u2019s Security Efforts Recognized as SOC 2 Compliant"
 tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Kinsta\u2019s Security Efforts Recognized as SOC 2 Compliant"]
-kinsta_last_updated: "2024-08-28T14:51:23+00:00"
-sitemap_lastmod: "2024-08-28T14:51:23+00:00"
-fetched_at: "2026-10-07T22:36:57Z"
-sha256: "28376699c835503beda28691741eae58f88655ac0fbc90f8fc50eba0c9cdc0b5"
-body_chars: 5108
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-08-28T14:51:23"
+change_signal: "2024-08-28T14:51:23"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "28a6063ac0b3e184ab8b1fe41d0831c047dba405afdac730fc5edfae7ef44053"
+body_chars: 4913
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Kinsta's Security Efforts Recognized as SOC 2 Compliant
+# Kinsta’s Security Efforts Recognized as SOC 2 Compliant
 
-**Section:** Changelog > Kinsta’s Security Efforts Recognized as SOC 2 Compliant
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/soc-2-compliance/
-**Kinsta last updated:** 2024-08-28T14:51:23+00:00
+**Kinsta last updated:** 2024-08-28T14:51:23
 
 ---
-
-Updated
-:   August 28, 2024
-
-![Illustration including AICPA's SOC 2 for Service Organizations logo.](https://kinsta.com/wp-content/uploads/2023/09/kinsta-achieves-soc-2-compliance-1024x536.jpg)
 
 An independent audit of cybersecurity here at Kinsta has provided another reason for customers to feel confident that their data is safe on our hosting platforms.
 

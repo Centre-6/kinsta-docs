@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Development", "How to build PHP-only Gutenberg blocks"]
-kinsta_last_updated: "2026-03-19T15:08:28+00:00"
-sitemap_lastmod: "2026-03-19T15:08:28"
-fetched_at: "2026-10-07T22:42:39Z"
-sha256: "6b343e09dedb79c10edff743377462f45ea8d3432870bfca9371fa8916f070ea"
-body_chars: 26586
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-03-19T15:08:28"
+change_signal: "2026-03-19T15:08:28"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "159bfc25bd0c497ebdf72eb911c2a461a39b401519e3e6b1b87066c2cc6cd09c"
+body_chars: 25591
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How to build PHP-only Gutenberg blocks
 
-**Section:** Resource Center > Blog > WordPress Development > How to build PHP-only Gutenberg blocks
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/php-only-gutenberg-blocks/
-**Kinsta last updated:** 2026-03-19T15:08:28+00:00
+**Kinsta last updated:** 2026-03-19T15:08:28
 
 ## On this page
 
@@ -32,17 +31,6 @@ status: "live"
 - [How is WordPress development changing with PHP-only blocks?](#how-is-wordpress-development-changing-with-php-only-blocks)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Updated
-:   March 19, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/02/how-to-build-php-only-gutenberg-blocks-1024x512.png)
 
 For years, mastering Gutenberg block development required an in-depth understanding of technologies such as React and Node.js, as well as complex build steps and JavaScript tools.
 
@@ -576,11 +564,3 @@ And we can also reasonably expect future improvements and feature additions, mor
 One thing is for sure: with PHP-only blocks, building Gutenberg blocks has become much easier.
 
 If WordPress development is your job, Kinsta provides the [developer tools you need](https://kinsta.com/blog/wordpress-agency-tech-stack/), enabling you to focus on WordPress development, removing the need for complex configurations and tedious maintenance tasks: [SSH](https://kinsta.com/blog/remote-wordpress-development-kinsta-ssh/), [SFTP](https://kinsta.com/blog/sftp-ssh-features/), [Git integration](https://kinsta.com/blog/how-to-setup-ci-cd-pipeline/), [automatic updates](https://kinsta.com/blog/kinsta-automatic-updates/), [one-click staging](https://kinsta.com/wordpress-hosting/staging/), a built-in [local development tool](https://kinsta.com/devkinsta/features/), and much more. Try it out firsthand with [your first month free](https://kinsta.com/first-month-free/).
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

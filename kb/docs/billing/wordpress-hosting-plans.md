@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/billing/wordpress-hosting-plans/"
-title: "Billing - WordPress Hosting Plans"
+title: "WordPress Hosting Plans"
 tier: "docs"
 product: "billing"
 product_label: "Billing"
 subsection: "wordpress-hosting-plans"
-section: []
-kinsta_last_updated: "February 24, 2026"
-sitemap_lastmod: "2026-02-24T16:14:30+00:00"
-fetched_at: "2026-10-07T22:39:36Z"
-sha256: "16f8a7d8b0c206aa0b80925d208893ade61dacae1673e26e11b022b84bef0972"
-body_chars: 43707
-extracted_with: "main article"
+section: ["Billing"]
+kinsta_last_updated: "2026-02-24T16:14:30"
+change_signal: "2026-02-24T16:14:30"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "d999bd7a173031b9c3cba0b553c4c0fb19119ae1dbb201abe51af87800ba9538"
+body_chars: 43701
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Billing - WordPress Hosting Plans
+# WordPress Hosting Plans
 
+**Section:** Billing
 **Product:** Billing
 **Source:** https://kinsta.com/docs/billing/wordpress-hosting-plans/
-**Kinsta last updated:** February 24, 2026
+**Kinsta last updated:** 2026-02-24T16:14:30
 
 ## On this page
 
@@ -74,7 +75,7 @@ status: "live"
 
 This article contains all the information you need about Kinsta’s WordPress Hosting plans, including how Kinsta counts WordPress installs, how to add a new plan, manage multiple plans, switch your plan, and request a custom or agency plan.
 
-If you’re thinking of leaving Kinsta or need to remove a WordPress plan, refer to [Cancel WordPress Plan](https://kinsta.com/docs/billing/wordpress-hosting-plans/cancel-wordpress-plan/).
+If you’re thinking of leaving Kinsta or need to remove a WordPress plan, refer to [Cancel WordPress Plan](https://kinsta.com/docs/billing/wordpress-hosting-plans/cancel-wordpress-plan).
 
 ## How Kinsta counts WordPress installs
 
@@ -92,7 +93,7 @@ We do not allow for the creation of additional databases in [phpMyAdmin](https:/
 
 ### WordPress installs vs domains
 
-WordPress is capable of operating in two different modes – single-site and [multisite](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/multisite-network/).
+WordPress is capable of operating in two different modes – single-site and [multisite](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/multisite-network).
 
 #### WordPress single-site mode
 
@@ -139,9 +140,9 @@ To remove these restrictions, you’ll need to end the free period and begin you
 
 Billing begins in your second month and you will be charged for the plan and any add-ons from this date. For example, if you sign up for a Single 35k visits plan on 1 September and add the Premium staging environment add-on on 15 September, the add-on is free until 30 September, when your free period ends. If you upgrade to a plan that doesn’t include the first month free, the add-on becomes chargeable from the date you switch plans. If you no longer require the add-on, you can cancel it before your plan renews or before you switch, and you will not be charged for the time the add-on was active during the free period.
 
-You have the flexibility to [switch plans](https://kinsta.com/docs/billing/wordpress-hosting-plans/#switch-your-plan) at any time. If you switch from the Single 35k visits or the Single 20GB bandwidth plan to the WP 2 plan within the first 30 days, your free period will continue for the remainder of the 30 days. If you upgrade to a plan that doesn’t include the first month free, the free period will end, and billing will start from the date of the switch. However, you’ll still qualify for our [30-day Money-Back Guarantee](https://kinsta.com/docs/service-information/money-back-guarantee/), which will begin from the date you switch plans. If you switch back to a plan that includes the first month free, the free month won’t be reinstated, but the Money-Back Guarantee will remain valid for 30 days from when you first switched to a plan without a free month. For example, if you sign up for a Single 35k visits plan on 15 September and then switch to a Single 315k visits plan on 1 Oct, the free month ends, but the money-back guarantee period starts. If you then switch to a WP 2 plan on 20 October, the money-back guarantee still applies until 30 October.
+You have the flexibility to [switch plans](https://kinsta.com/docs/billing/wordpress-hosting-plans/#switch-your-plan) at any time. If you switch from the Single 35k visits or the Single 20GB bandwidth plan to the WP 2 plan within the first 30 days, your free period will continue for the remainder of the 30 days. If you upgrade to a plan that doesn’t include the first month free, the free period will end, and billing will start from the date of the switch. However, you’ll still qualify for our [30-day Money-Back Guarantee](https://kinsta.com/docs/service-information/money-back-guarantee), which will begin from the date you switch plans. If you switch back to a plan that includes the first month free, the free month won’t be reinstated, but the Money-Back Guarantee will remain valid for 30 days from when you first switched to a plan without a free month. For example, if you sign up for a Single 35k visits plan on 15 September and then switch to a Single 315k visits plan on 1 Oct, the free month ends, but the money-back guarantee period starts. If you then switch to a WP 2 plan on 20 October, the money-back guarantee still applies until 30 October.
 
-Please note the free month offer applies only to the first WordPress plan you subscribe to. If you [cancel your WordPress plan](https://kinsta.com/docs/billing/wordpress-hosting-plans/cancel-wordpress-plan/) during the free month period, it will be terminated immediately, and you won’t be eligible to start another plan with a free month.
+Please note the free month offer applies only to the first WordPress plan you subscribe to. If you [cancel your WordPress plan](https://kinsta.com/docs/billing/wordpress-hosting-plans/cancel-wordpress-plan) during the free month period, it will be terminated immediately, and you won’t be eligible to start another plan with a free month.
 
 ## Add a new plan
 
@@ -266,7 +267,7 @@ There are a multitude of reasons why you might need to upgrade or downgrade your
 
 **Our system is prorated**, which means we calculate the unused time on the old plan and the remaining time on the new plan within the monthly or annual billing period. We use Stripe as our payment provider, and the prorated amount is calculated down to the second. You can, in fact, upgrade or downgrade multiple times in a month, and everything is automated on our end.
 
-If you’re currently on a plan with a free first month and you switch to a plan without a free month, the free period will end, and you’ll be charged from the date of the switch. However, you’ll still be eligible for the [30-day Money-Back Guarantee](https://kinsta.com/docs/service-information/money-back-guarantee/).
+If you’re currently on a plan with a free first month and you switch to a plan without a free month, the free period will end, and you’ll be charged from the date of the switch. However, you’ll still be eligible for the [30-day Money-Back Guarantee](https://kinsta.com/docs/service-information/money-back-guarantee).
 
 ### Upgrades are not applied retroactively
 
@@ -367,7 +368,7 @@ The total paid amount at the beginning of your new period is **$15.16**.
 
 When switching from a monthly to an annual plan or an annual to a monthly plan, your existing plan is closed, and a new plan with a new billing date is started; this includes any add-ons.
 
-The system automatically calculates a [credit](https://kinsta.com/docs/billing/account-credits/) based on the remaining time on your current plan and applies it toward the amount due for the new plan. If the credit amount exceeds the amount due, the remaining credits are automatically used to offset money owed to Kinsta on your next invoice.
+The system automatically calculates a [credit](https://kinsta.com/docs/billing/account-credits) based on the remaining time on your current plan and applies it toward the amount due for the new plan. If the credit amount exceeds the amount due, the remaining credits are automatically used to offset money owed to Kinsta on your next invoice.
 
 Credits have no intrinsic or cash value, are not redeemable for cash, and are non-refundable.
 

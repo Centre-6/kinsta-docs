@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Development", "How to create magic effects in WordPress with core blocks"]
-kinsta_last_updated: "2025-12-05T14:00:21+00:00"
-sitemap_lastmod: "2025-12-05T14:00:21"
-fetched_at: "2026-10-07T22:43:00Z"
-sha256: "500569f5e9667b1d615a2e085196d67feafec3113f990d54a09b51c35e4a4861"
-body_chars: 20005
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-12-05T14:00:21"
+change_signal: "2025-12-05T14:00:21"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "6552d751ce9cddfa8409409a24b35c0e4a5448953ff8cf8eadff919332ae8f12"
+body_chars: 19140
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How to create magic effects in WordPress with core blocks
 
-**Section:** Resource Center > Blog > WordPress Development > How to create magic effects in WordPress with core blocks
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/magic-effects-wordpress-core-blocks/
-**Kinsta last updated:** 2025-12-05T14:00:21+00:00
+**Kinsta last updated:** 2025-12-05T14:00:21
 
 ## On this page
 
@@ -44,17 +43,6 @@ status: "live"
 - [Conclusion](#conclusion)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   December 25, 2025
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/12/magic-effects-with-core-blocks-1024x512.png)
 
 Most WordPress users don’t realize how far the block editor has come. Core blocks like Cover, Group, Columns, and Image now include enough built-in design controls to create layered depth, cinematic scroll effects, bold typography, and polished layouts that previously required custom CSS or page builders.
 
@@ -309,13 +297,3 @@ Even the most impressive effects rely on the environment powering them, which ma
 - [PHP threads](https://kinsta.com/blog/php-threads-vs-php-memory-limit/) and [optimized databases](https://kinsta.com/blog/wordpress-database-optimization/), ensuring your dynamic content (like block transitions or animations) executes without delay.
 
 That means your site looks and *feels* fast even with large, full-viewport sections and cinematic visuals. [Check out Kinsta](https://kinsta.com/) today.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

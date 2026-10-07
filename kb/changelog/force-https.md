@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Force HTTPS Tool Now Available on MyKinsta"]
-kinsta_last_updated: "2020-06-11T15:35:06+00:00"
-sitemap_lastmod: "2020-06-11T15:35:06+00:00"
-fetched_at: "2026-10-07T22:36:41Z"
-sha256: "3e8d2d257f38596ab8253873e297d684b0e0d4b135ad0d729e6dd80475fe6895"
-body_chars: 1921
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2020-06-11T15:35:06"
+change_signal: "2020-06-11T15:35:06"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "2bb723df401b05e5114d42a87a2df84465908874ce23ab862a38211234ce06c8"
+body_chars: 1804
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Force HTTPS Tool Now Available on MyKinsta
 
-**Section:** Changelog > Force HTTPS Tool Now Available on MyKinsta
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/force-https/
-**Kinsta last updated:** 2020-06-11T15:35:06+00:00
+**Kinsta last updated:** 2020-06-11T15:35:06
 
 ---
-
-Updated
-:   June 11, 2020
-
-![Force HTTPS](https://kinsta.com/wp-content/uploads/2018/12/force-https-1-1024x512.png)
 
 Using an SSL certificate and making sure all website visitors use the HTTPS protocol is a great way to increase your security and SEO rank. Since July Google has been marking all plain HTTP traffic unsafe – a great step towards a better internet.
 

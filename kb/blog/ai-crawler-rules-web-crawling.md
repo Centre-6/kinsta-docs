@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Bot Traffic", "Why AI crawlers are breaking the rules of web-crawling"]
-kinsta_last_updated: "2026-06-29T16:06:25+00:00"
-sitemap_lastmod: "2026-06-29T16:06:25"
-fetched_at: "2026-10-07T22:42:09Z"
-sha256: "b54feececce995d530e5ddbd2a3b88eb2466b006753288bd4eddacc019cea0f3"
-body_chars: 16272
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-29T16:06:25"
+change_signal: "2026-06-29T16:06:25"
+fetched_at: "2026-10-07T22:58:24Z"
+sha256: "c34a30401514f03c73d6162dcb8d3b7cdedffad8f1a9f0ae514cab8f074e32e2"
+body_chars: 15386
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Why AI crawlers are breaking the rules of web-crawling
 
-**Section:** Resource Center > Blog > Bot Traffic > Why AI crawlers are breaking the rules of web-crawling
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/ai-crawler-rules-web-crawling/
-**Kinsta last updated:** 2026-06-29T16:06:25+00:00
+**Kinsta last updated:** 2026-06-29T16:06:25
 
 ## On this page
 
@@ -34,17 +33,6 @@ status: "live"
 - [The new rules of web crawling need closer management from you](#the-new-rules-of-web-crawling-need-closer-management-from-you)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   August 6, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/06/why-ai-crawlers-are-breaking-the-rules-of-web-crawling-1024x512.png)
 
 In 2025, bots accounted for 53% of all web traffic, the first time automated traffic had outpaced humans in a calendar year. By June 2026, [Cloudflare Radar](https://radar.cloudflare.com/) put that figure at 57.5%, a crossover that Cloudflare’s own CEO said arrived years ahead of his projections.
 
@@ -175,13 +163,3 @@ While internet behavior has changed, your hosting likely hasn’t. AI crawlers d
 The solution is short sequence within your control. First, confirm the cause in MyKinsta’s analytics. Next, set the right **Protection level** within MyKinsta and switch on **Block AI crawlers** to shed AI crawler load without losing search visibility. Then, protect what you rely on through **Always Allow**, so stricter settings don’t break a trusted integration. Each change takes effect without downtime, so you can adjust as the patterns shift.
 
 If you manage lots of client sites, Kinsta’s [Agency Partner Program](https://kinsta.com/agency-partner-program/) packages these controls with dedicated support. [Explore Kinsta’s managed WordPress hosting](https://kinsta.com/wordpress-hosting/) to put that control to work.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

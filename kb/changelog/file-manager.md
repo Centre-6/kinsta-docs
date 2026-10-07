@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Manage WordPress files in the MyKinsta dashboard"]
-kinsta_last_updated: "2026-06-06T13:30:35+00:00"
-sitemap_lastmod: "2026-06-06T13:30:35+00:00"
-fetched_at: "2026-10-07T22:37:47Z"
-sha256: "e729019d4491d3725ddc6c91547f37d486741ec08be3b6f4e2b27ea5cde740cf"
-body_chars: 7717
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-06T13:30:35"
+change_signal: "2026-06-06T13:30:35"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "d2244b0a76e1e7c4727897013925a88cd02473e6ff29b953e12d456c8fa32742"
+body_chars: 7520
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Manage WordPress files in the MyKinsta dashboard
 
-**Section:** Changelog > Manage WordPress files in the MyKinsta dashboard
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/file-manager/
-**Kinsta last updated:** 2026-06-06T13:30:35+00:00
+**Kinsta last updated:** 2026-06-06T13:30:35
 
 ## On this page
 
@@ -31,11 +30,6 @@ status: "live"
 - [Tell us what you think](#tell-us-what-you-think)
 
 ---
-
-Updated
-:   June 6, 2026
-
-![An illustration representing the new file manager within the MyKinsta dashboard.](https://kinsta.com/wp-content/uploads/2026/06/mykinsta-new-file-manager-1024x536.png)
 
 Based on our totally unscientific survey (we asked a few people), the file most often edited in a WordPress installation is `config.php`. Usually less than 4KB, this file contains the information a site needs to get online after a migration or changes (sometimes unexpected) to the database backend.
 

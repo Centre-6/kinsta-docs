@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Fetch files and target specific paths with the Kinsta API"]
-kinsta_last_updated: "2026-05-20T20:32:08+00:00"
-sitemap_lastmod: "2026-05-20T20:32:08+00:00"
-fetched_at: "2026-10-07T22:37:44Z"
-sha256: "881a53d0bcdb4cb0980962302f314f4ac1c74f7b47c88230031998f03533ea42"
-body_chars: 5032
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:32:08"
+change_signal: "2026-05-20T20:32:08"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "c7ff4baef884878ecc58ccdd55afe0b1403f3992c9b282e64f9e98c1c35cd3a8"
+body_chars: 4920
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Fetch files and target specific paths with the Kinsta API
 
-**Section:** Changelog > Fetch files and target specific paths with the Kinsta API
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/kinsta-api-jun-2025/
-**Kinsta last updated:** 2026-05-20T20:32:08+00:00
+**Kinsta last updated:** 2026-05-20T20:32:08
 
 ## On this page
 
@@ -30,11 +29,6 @@ status: "live"
 - [Kinsta API: Built for teams managing at scale](#kinsta-api-built-for-teams-managing-at-scale)
 
 ---
-
-Updated
-:   May 20, 2026
-
-![](https://kinsta.com/wp-content/uploads/2025/06/new-api-enhancements-1024x536.png)
 
 Working with environments just got easier. This Kinsta API update introduces new ways to fetch file structure data, perform [selective file pushes between environments](https://kinsta.com/docs/wordpress-hosting/staging-environment/#push-environment-to-live-or-staging), and retrieve all environments in a single request when listing sites.
 

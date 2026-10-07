@@ -1,26 +1,25 @@
 ---
 url: "https://kinsta.com/changelog/bot-protection-analytics/"
-title: "See exactly where your site's traffic goes with bot protection"
+title: "See exactly where your site\u2019s traffic goes with bot protection"
 tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "See exactly where your site\u2019s traffic goes with bot protection"]
-kinsta_last_updated: "2026-07-23T14:58:51+00:00"
-sitemap_lastmod: "2026-07-23T15:26:22+00:00"
-fetched_at: "2026-10-07T22:37:48Z"
-sha256: "dff8a636f9aabd5d72da3b0a426c72c193417cb0da04e2c938c25db09d54bc3a"
-body_chars: 5872
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-07-23T14:58:51"
+change_signal: "2026-07-23T14:58:51"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "fa03e1cf0daeb4a0822c5352061bdea61e0aa9b20ea4441496b4f126c1912ac2"
+body_chars: 5738
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# See exactly where your site's traffic goes with bot protection
+# See exactly where your site’s traffic goes with bot protection
 
-**Section:** Changelog > See exactly where your site’s traffic goes with bot protection
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/bot-protection-analytics/
-**Kinsta last updated:** 2026-07-23T14:58:51+00:00
+**Kinsta last updated:** 2026-07-23T14:58:51
 
 ## On this page
 
@@ -32,11 +31,6 @@ status: "live"
 - [Try it out](#try-it-out)
 
 ---
-
-Published
-:   July 23, 2026
-
-![](https://kinsta.com/wp-content/uploads/2026/07/featured-image-bot-protection-analytics-1024x536.png)
 
 Back in May, we [launched the bot protection tool](https://kinsta.com/changelog/bot-protection/) in MyKinsta to everyone, giving you control over how automated traffic is handled on your site.
 

@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta Services", "Why AI makes infrastructure decisions more important"]
-kinsta_last_updated: "2026-08-17T16:33:34+00:00"
-sitemap_lastmod: "2026-08-17T16:33:34"
-fetched_at: "2026-10-07T22:42:06Z"
-sha256: "10bfc5891641c28027c1e40c902ced4f8fb03df942a334e21d3827f906aa9727"
-body_chars: 36043
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-08-17T16:33:34"
+change_signal: "2026-08-17T16:33:34"
+fetched_at: "2026-10-07T22:58:24Z"
+sha256: "d6ebab108478f5505b807829e7c3095156595c233f544c376d19b7a404d23937"
+body_chars: 35050
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Why AI makes infrastructure decisions more important
 
-**Section:** Resource Center > Blog > Kinsta Services > Why AI makes infrastructure decisions more important
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/ai-wordpress-infrastructure/
-**Kinsta last updated:** 2026-08-17T16:33:34+00:00
+**Kinsta last updated:** 2026-08-17T16:33:34
 
 ## On this page
 
@@ -46,17 +45,6 @@ status: "live"
 - [Is AI an opportunity or a threat for your business?](#is-ai-an-opportunity-or-a-threat-for-your-business)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Published
-:   August 18, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/08/why-ai-makes-infrastructure-decisions-more-important-1024x512.png)
 
 Has anyone told you that AI changes everything? Is it true that fewer visitors to your website reduces the importance of your site’s infrastructure and turns your hosting from a [strategic asset](https://kinsta.com/blog/scaling-smarter-not-harder/) into a commodity?
 
@@ -219,9 +207,9 @@ Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +http
 
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; robots.txt; +https://openai.com/searchbot
 
-Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; [email protected])
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)
 
-Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; [email protected])
+Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; spider-feedback@bytedance.com)
 ```
 
 Not all LLM bots have the same impact on your site. Some, such as GPTBot, OAI-SearchBot, and ClaudeBot, are beneficial to your business as they allow AI models to learn from your content and cite your site as an authoritative source—helping you boost visibility and enhance brand reputation within generative responses. Others, like Bytespider, can be more harmful because they crawl servers aggressively, consuming compute resources without offering a return in brand visibility or qualified traffic.
@@ -417,11 +405,3 @@ In this new landscape, site architecture and hosting infrastructure are decisive
 Maintaining granular control over bot traffic is equally strategic. It allows you to filter out harmful scrapers while granting access to bots that drive real business value, preserving server resources, and protecting site performance.
 
 Kinsta continues to solidify its role as the premier managed host for growth-oriented companies competing in an AI-driven market. Check out our [hosting plans](https://kinsta.com/pricing/) or start a [chat with our sales team](https://kinsta.com/talk-to-sales/) today to discuss your business needs.
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

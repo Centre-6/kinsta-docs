@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/service-information/files-and-database-storage/"
-title: "Service Information - Files and Database Storage"
+title: "Files and Database Storage"
 tier: "docs"
 product: "service-information"
 product_label: "Service Information"
 subsection: "files-and-database-storage"
-section: []
-kinsta_last_updated: "June 15, 2026"
-sitemap_lastmod: "2026-06-15T09:47:49+00:00"
-fetched_at: "2026-10-07T22:40:29Z"
+section: ["Service Information"]
+kinsta_last_updated: "2026-06-15T09:47:49"
+change_signal: "2026-06-15T09:47:49"
+fetched_at: "2026-10-07T22:58:20Z"
 sha256: "7b19ad0f939935395c060f691bccb7e2a0e89f8a362e3503eed9e7ca92832799"
 body_chars: 4040
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Service Information - Files and Database Storage
+# Files and Database Storage
 
+**Section:** Service Information
 **Product:** Service Information
 **Source:** https://kinsta.com/docs/service-information/files-and-database-storage/
-**Kinsta last updated:** June 15, 2026
+**Kinsta last updated:** 2026-06-15T09:47:49
 
 ## On this page
 

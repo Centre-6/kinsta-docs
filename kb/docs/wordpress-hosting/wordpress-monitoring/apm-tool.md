@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-monitoring/apm-tool/"
-title: "Monitoring"
+title: "Kinsta\u2019s APM Tool"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-monitoring"
-section: []
-kinsta_last_updated: "July 7, 2025"
-sitemap_lastmod: "2025-07-07T10:31:24+00:00"
-fetched_at: "2026-10-07T22:38:50Z"
-sha256: "95390559615f61d53ea61bb8be04ac00ae5080cdafdb51ffae5a77c33fb50076"
-body_chars: 33210
-extracted_with: "main article"
+section: ["WordPress Hosting", "Monitoring"]
+kinsta_last_updated: "2025-07-07T10:31:24"
+change_signal: "2025-07-07T10:31:24"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "e7f1b864f0c0484ab93c9f4d4a50e0a68000601f90f397d9304cba5c6dd8c351"
+body_chars: 33294
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Monitoring
+# Kinsta’s APM Tool
 
+**Section:** WordPress Hosting > Monitoring
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-monitoring/apm-tool/
-**Kinsta last updated:** July 7, 2025
+**Kinsta last updated:** 2025-07-07T10:31:24
 
 ## On this page
 
@@ -70,7 +71,7 @@ status: "live"
 
 [Kinsta’s APM tool](https://kinsta.com/apm-tool/) helps you identify [PHP performance](https://kinsta.com/docs/wordpress-hosting/php/) bottlenecks on your WordPress site without having to sign up for third-party monitoring services like [New Relic](https://kinsta.com/docs/wordpress-hosting/wordpress-monitoring/custom-new-relic-tracking/).
 
-Available at no additional charge on [all plans](https://kinsta.com/pricing/), the APM tool can be really useful when [troubleshooting your website](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/troubleshooting-wordpress-performance/). The APM tool is designed to capture timestamped information about your WordPress site’s PHP processes, MySQL database queries, external HTTP calls, and more.
+Available at no additional charge on [all plans](https://kinsta.com/pricing/), the APM tool can be really useful when [troubleshooting your website](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/troubleshooting-wordpress-performance). The APM tool is designed to capture timestamped information about your WordPress site’s PHP processes, MySQL database queries, external HTTP calls, and more.
 
 With the APM data, you can dig into specific slow page loads to identify the root cause of the issue. For more details on resolving performance issues on specific types of sites using the APM tool, see these guides:
 
@@ -263,7 +264,7 @@ If you click on a span in the transaction trace timeline, you’ll be able to se
 
 For example, if you click on a MySQL query span, you’ll see the database query that was executed along with the stack trace. By inspecting the span details, you can gain a deeper level of insight into PHP transactions on your WordPress site.
 
-![Span details in the transaction trace timeline.](https://kinsta.com/wp-content/uploads/2022/10/mykinsta-apm-span-details.png)
+![Span details in the transaction trace timeline.](https://kinsta.com/wp-content/uploads/2022/10/mykinsta-apm-span-details.png "Span details in the transaction trace timeline")
 
 Span details in the transaction trace timeline.
 
@@ -329,7 +330,7 @@ Each URL in the first column of the list is followed by the HTTP method used for
 
 ## Diagnose performance issues
 
-Kinsta’s APM tool is a powerful tool for [troubleshooting your website](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/troubleshooting-wordpress-performance/). This article will take you through a few different scenarios for troubleshooting performance issues on a site using the APM tool to investigate and analyze the issues.
+Kinsta’s APM tool is a powerful tool for [troubleshooting your website](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/troubleshooting-wordpress-performance). This article will take you through a few different scenarios for troubleshooting performance issues on a site using the APM tool to investigate and analyze the issues.
 
 ### Getting started
 
@@ -364,7 +365,7 @@ The update_card_payment span takes up 5,002.21 ms of the transaction.
 
 Clicking on that span opens the **Span details** modal/pop-up and includes the stack trace of the span.
 
-![View the span details, including the stack trace.](https://kinsta.com/wp-content/uploads/2022/04/apm-update-card-payment-stack-trace.png)
+![View the span details, including the stack trace.](https://kinsta.com/wp-content/uploads/2022/04/apm-update-card-payment-stack-trace.png "View the span details, including the stack trace.")
 
 View the span details, including the stack trace.
 
@@ -473,15 +474,11 @@ At this time, the APM is only fully compatible with WordPress.
 
 Yes, but if [WP-CLI](https://kinsta.com/blog/wp-cli/) is a dependency in your site’s **composer.json** file, you’ll need to add a configuration so that Kinsta’s autoloader can work together with the WP-CLI autoloader:
 
-Copy
-
 ```
 "prepend-autoloader": false
 ```
 
 Here’s an example config array from a Bedrock site after adding the prepend configuration:
-
-Copy
 
 ```
 "config": {
@@ -503,7 +500,7 @@ APM data is retained for 14 days. To view data older than 24 hours, click the ti
 
 ## Summary
 
-[Kinsta’s APM tool](https://kinsta.com/changelog/kinsta-apm-tool/) gives context to [performance issues on your WordPress site](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/troubleshooting-wordpress-performance/). Instead of generic [HTTP 502 errors](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/server-errors/#502-bad-gateway-error) or [timeouts](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/server-errors/#504-gateway-timeout-error), the APM tool provides detailed breakdowns of slow requests.
+[Kinsta’s APM tool](https://kinsta.com/changelog/kinsta-apm-tool/) gives context to [performance issues on your WordPress site](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/troubleshooting-wordpress-performance). Instead of generic [HTTP 502 errors](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/server-errors#502-bad-gateway-error) or [timeouts](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/server-errors#504-gateway-timeout-error), the APM tool provides detailed breakdowns of slow requests.
 
 With Kinsta’s APM tool, you’ll be able to debug performance issues without installing a plugin like [Query Monitor](https://kinsta.com/blog/query-monitor/) or activating a third-party service like New Relic.
 

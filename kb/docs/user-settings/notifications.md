@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/user-settings/notifications/"
-title: "User Settings - Notifications"
+title: "Notifications"
 tier: "docs"
 product: "user-settings"
 product_label: "MyKinsta User Settings"
 subsection: "notifications"
-section: []
-kinsta_last_updated: "April 27, 2026"
-sitemap_lastmod: "2026-04-27T10:02:14+00:00"
-fetched_at: "2026-10-07T22:40:06Z"
-sha256: "2d2c013659a6544c3f4c46a4ad643475094d8eeac0786e389f91c24ae06d7c90"
-body_chars: 8575
-extracted_with: "main article"
+section: ["User Settings"]
+kinsta_last_updated: "2026-04-27T10:02:14"
+change_signal: "2026-04-27T10:02:14"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "e24f8d65ee45fb3a83930cf57561c63582567d89580ee1c814cb643249518e9d"
+body_chars: 8576
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# User Settings - Notifications
+# Notifications
 
+**Section:** User Settings
 **Product:** MyKinsta User Settings
 **Source:** https://kinsta.com/docs/user-settings/notifications/
-**Kinsta last updated:** April 27, 2026
+**Kinsta last updated:** 2026-04-27T10:02:14
 
 ## On this page
 
@@ -79,7 +80,7 @@ If you regularly exceed your plan’s limit, you may want to consider upgrading 
 
 If you want to be alerted before a potential overage, we recommend enabling plan limit alerts in MyKinsta. When these alerts are enabled, we’ll send you a notification at 80% and 100% of your plan usage. For visits overages, you’ll also receive an email when you exceed your plan’s usage by 10%.
 
-By default, plan limit alerts are enabled on all accounts. These alerts are available for the **Company Owner**, **Company Administrator**, and **Company Billing** [user roles](https://kinsta.com/docs/company-settings/user-management/). If you would like to send plan limit alerts to someone who does not require site access, you can [invite them to your company](https://kinsta.com/docs/company-settings/user-management/#invite-a-user-to-your-company) in MyKinsta with the “Company Billing” role.
+By default, plan limit alerts are enabled on all accounts. These alerts are available for the **Company Owner**, **Company Administrator**, and **Company Billing**  [user roles](https://kinsta.com/docs/company-settings/user-management/). If you would like to send plan limit alerts to someone who does not require site access, you can [invite them to your company](https://kinsta.com/docs/company-settings/user-management/#invite-a-user-to-your-company) in MyKinsta with the “Company Billing” role.
 
 ### Newsletter
 

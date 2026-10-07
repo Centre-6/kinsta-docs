@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "API", "Unlocking new possibilities with the WordPress Interactivity API"]
-kinsta_last_updated: "2025-11-10T11:25:28+00:00"
-sitemap_lastmod: "2025-11-10T11:25:28"
-fetched_at: "2026-10-07T22:43:13Z"
-sha256: "992cfb8590f6a01f51e4e8b382965e17592487bf18caf1959d8ed4291d334c84"
-body_chars: 37263
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-11-10T11:25:28"
+change_signal: "2025-11-10T11:25:28"
+fetched_at: "2026-10-07T22:58:28Z"
+sha256: "0d46ac373138841dea735c3bda9b5f079cdccf6d9f8977d5ccb35e253283ef60"
+body_chars: 36271
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Unlocking new possibilities with the WordPress Interactivity API
 
-**Section:** Resource Center > Blog > API > Unlocking new possibilities with the WordPress Interactivity API
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-interactivity-api/
-**Kinsta last updated:** 2025-11-10T11:25:28+00:00
+**Kinsta last updated:** 2025-11-10T11:25:28
 
 ## On this page
 
@@ -44,17 +43,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Updated
-:   November 10, 2025
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/10/how-to-create-interactive-blocks-1024x512.png)
 
 In previous posts on this blog, we have explored WordPress block development from various angles. We have examined the development of both [static](https://kinsta.com/blog/gutenberg-blocks/) and [dynamic](https://kinsta.com/blog/dynamic-blocks/) blocks and [extended the functionality of core blocks](https://kinsta.com/blog/gutenberg-plugin/). However, the approach we have taken so far has essentially allowed us to create standard blocks that did not react to user interactions in real time. In short, these blocks were non-interactive.
 
@@ -811,11 +799,3 @@ In this article, we introduced the main features of the WordPress Interactivity 
 We hope that we have provided you with the necessary tools and knowledge to create fantastic, dynamic, and interactive WordPress websites using the WordPress Interactivity API.
 
 Happy coding!
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

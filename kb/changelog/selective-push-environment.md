@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Get selective when pushing staged environments"]
-kinsta_last_updated: "2024-05-11T03:36:58+00:00"
-sitemap_lastmod: "2024-05-11T03:36:58+00:00"
-fetched_at: "2026-10-07T22:36:50Z"
-sha256: "7f98f2430966d753d2a1747c7da183195c120af930b2ad8a25d224fd78d04ba3"
-body_chars: 4484
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-05-11T03:36:58"
+change_signal: "2024-05-11T03:36:58"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "269ba62cd6fcbf23ac03d71e7d9354641445fe0eac9a1e6af2e26774fc4d2c66"
+body_chars: 4229
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Get selective when pushing staged environments
 
-**Section:** Changelog > Get selective when pushing staged environments
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/selective-push-environment/
-**Kinsta last updated:** 2024-05-11T03:36:58+00:00
+**Kinsta last updated:** 2024-05-11T03:36:58
 
 ---
-
-Updated
-:   May 11, 2024
-
-![Illustration representing the WordPress staged-site deployment feature in MyKinsta and the words, 'Selective push environment.'](https://kinsta.com/wp-content/uploads/2024/05/changelog-selective-push-environment-1024x536.png)
 
 An upgraded **Push environment** tool in the MyKinsta dashboard is giving [Managed WordPress Hosting](https://kinsta.com/wordpress-hosting/) customers dramatically more power when publishing from [staged environments](https://kinsta.com/docs/wordpress-hosting/staging-environment/).
 

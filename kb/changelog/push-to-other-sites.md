@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Cross-site deployments of WordPress environments are now possible"]
-kinsta_last_updated: "2025-11-03T11:56:11+00:00"
-sitemap_lastmod: "2025-11-03T11:56:11+00:00"
-fetched_at: "2026-10-07T22:37:09Z"
-sha256: "a56f549e3dfac219b744518b05a3e0bbb0f631b23fa45ca373b68e10a18d5e8f"
-body_chars: 3526
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-11-03T11:56:11"
+change_signal: "2025-11-03T11:56:11"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "a4cd89bcdbea407d12f6c75f7f2ea70787cc936851477ddf36b183d391d44bdf"
+body_chars: 3309
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Cross-site deployments of WordPress environments are now possible
 
-**Section:** Changelog > Cross-site deployments of WordPress environments are now possible
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/push-to-other-sites/
-**Kinsta last updated:** 2025-11-03T11:56:11+00:00
+**Kinsta last updated:** 2025-11-03T11:56:11
 
 ---
-
-Updated
-:   November 3, 2025
-
-![An image showing a screenshot of the Push Environment interface in the MyKinsta dashboard.](https://kinsta.com/wp-content/uploads/2025/10/push-environment-to-other-sites-1024x536.png)
 
 Another enhancement to the **Push Environment** functionality of the [MyKinsta dashboard](https://kinsta.com/mykinsta/) has made it possible to deploy environments across distinct WordPress sites.
 

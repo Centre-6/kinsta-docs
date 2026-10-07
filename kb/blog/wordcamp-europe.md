@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta Events", "Meet Kinsta at WordCamp Europe 2026 in Krak\u00f3w, Poland"]
-kinsta_last_updated: "2026-05-21T14:03:02+00:00"
-sitemap_lastmod: "2026-05-21T14:03:02"
-fetched_at: "2026-10-07T22:42:26Z"
-sha256: "52d81c985c2e3a9e3b175e934fcb06abb3f3f4adaebd4ff15ab9a446d47ff443"
-body_chars: 5667
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-21T14:03:02"
+change_signal: "2026-05-21T14:03:02"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "5f0319bfd9b0027d814b866455a36d0f709f160ee4e1dc4e84800406a82e7a44"
+body_chars: 5216
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Meet Kinsta at WordCamp Europe 2026 in Kraków, Poland
 
-**Section:** Resource Center > Blog > Kinsta Events > Meet Kinsta at WordCamp Europe 2026 in Kraków, Poland
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordcamp-europe/
-**Kinsta last updated:** 2026-05-21T14:03:02+00:00
+**Kinsta last updated:** 2026-05-21T14:03:02
 
 ## On this page
 
@@ -30,17 +29,6 @@ status: "live"
 - [Let’s meet in Kraków](#lets-meet-in-kraków)
 
 ---
-
-Author
-:   [Nikolett Poesz](https://kinsta.com/blog/author/nikolettpoesz/ "Posts by Nikolett Poesz")
-
-Updated
-:   May 21, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/05/WCEU-blog-2026-1-1024x536.png)
 
 [**WordCamp Europe 2026**](https://europe.wordcamp.org/2026/) is almost here, and Kinsta is excited to be part of it once again.
 
@@ -101,7 +89,3 @@ And just as importantly, WordCamp Europe gives us a chance to support the commun
 If you’re coming to WordCamp Europe 2026, we hope you’ll stop by the Kinsta booth and say hi to our team. Don’t forget to enter our sweepstakes and grab some exclusive swag designed just for this event!
 
 We can’t wait to see you in Kraków.
-
-Nikolett Poesz
-
-Multilingual Content Associate at Kinsta

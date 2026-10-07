@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/devkinsta/devkinsta-database/database-tools/"
-title: "Database Management - External Database Tools"
+title: "External Database Tools"
 tier: "docs"
 product: "devkinsta"
 product_label: "DevKinsta (local dev tool, not hosting)"
 subsection: "devkinsta-database"
-section: []
-kinsta_last_updated: "August 13, 2024"
-sitemap_lastmod: "2024-08-13T11:21:21+00:00"
-fetched_at: "2026-10-07T22:38:14Z"
+section: ["DevKinsta", "Database Management"]
+kinsta_last_updated: "2024-08-13T11:21:21"
+change_signal: "2024-08-13T11:21:21"
+fetched_at: "2026-10-07T22:58:19Z"
 sha256: "ec8d6fe64376743c7869045d300d46048f52e1a944c4394d8b832cf7afbbf2ef"
 body_chars: 2612
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Database Management - External Database Tools
+# External Database Tools
 
+**Section:** DevKinsta > Database Management
 **Product:** DevKinsta (local dev tool, not hosting)
 **Source:** https://kinsta.com/docs/devkinsta/devkinsta-database/database-tools/
-**Kinsta last updated:** August 13, 2024
+**Kinsta last updated:** 2024-08-13T11:21:21
 
 ---
 

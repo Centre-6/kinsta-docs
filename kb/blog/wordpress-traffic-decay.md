@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Performance", "What happens to WordPress performance during traffic decay (not spikes)"]
-kinsta_last_updated: "2026-03-11T16:06:32+00:00"
-sitemap_lastmod: "2026-03-11T16:06:32"
-fetched_at: "2026-10-07T22:42:36Z"
-sha256: "5340820fc9416e2a71707f72b3abaa40c049ff6302c3e3ca186ebe0e207a495a"
-body_chars: 13060
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-03-11T16:06:32"
+change_signal: "2026-03-11T16:06:32"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "333cb50d347864f6aeab9ffedaf095b81ab6411709996ee576d741158f40bf66"
+body_chars: 12171
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # What happens to WordPress performance during traffic decay (not spikes)
 
-**Section:** Resource Center > Blog > WordPress Performance > What happens to WordPress performance during traffic decay (not spikes)
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-traffic-decay/
-**Kinsta last updated:** 2026-03-11T16:06:32+00:00
+**Kinsta last updated:** 2026-03-11T16:06:32
 
 ## On this page
 
@@ -35,17 +34,6 @@ status: "live"
 - [Hosting infrastructure should support business growth, not traffic curves](#hosting-infrastructure-should-support-business-growth-not-traffic-curves)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   April 2, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/04/what-happens-to-wordpress-performance-during-traffic-decay-1024x512.png)
 
 Most performance advice focuses on what happens when traffic spikes, such as capacity planning, cache warm-ups, and [scaling](https://kinsta.com/blog/scaling-smarter-not-harder/). For most WordPress sites, the common story runs in the other direction: a period of traffic decay as activity returns to normal after a campaign ends, a seasonal peak passes, or a product launch fades.
 
@@ -149,13 +137,3 @@ If you’re evaluating your current hosting setup, ask questions. For example, c
 [Kinsta’s managed WordPress hosting](https://kinsta.com/wordpress-hosting/) is built around isolated containers, a multi-layer caching stack, and dedicated resources that don’t fluctuate with traffic levels. This means your site performs the same at the end of a campaign as it did at the peak.
 
 Want to ask questions? [Reach out to our team](https://kinsta.com/contact-us/) anytime.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

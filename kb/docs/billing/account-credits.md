@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/billing/account-credits/"
-title: "Billing - Account Credits"
+title: "Account Credits"
 tier: "docs"
 product: "billing"
 product_label: "Billing"
 subsection: "account-credits"
-section: []
-kinsta_last_updated: "June 25, 2024"
-sitemap_lastmod: "2024-06-25T12:13:24+00:00"
-fetched_at: "2026-10-07T22:37:59Z"
+section: ["Billing"]
+kinsta_last_updated: "2024-06-25T12:13:24"
+change_signal: "2024-06-25T12:13:24"
+fetched_at: "2026-10-07T22:58:18Z"
 sha256: "bc2749f9ab3f3804ac3c5ca3d6985cca5a9cf08702306d38d7e7dde592dd2192"
 body_chars: 1134
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Billing - Account Credits
+# Account Credits
 
+**Section:** Billing
 **Product:** Billing
 **Source:** https://kinsta.com/docs/billing/account-credits/
-**Kinsta last updated:** June 25, 2024
+**Kinsta last updated:** 2024-06-25T12:13:24
 
 ---
 

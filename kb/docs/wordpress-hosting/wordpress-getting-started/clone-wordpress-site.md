@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/clone-wordpress-site/"
-title: "Get Started - Clone a Site"
+title: "Clone a Site"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-getting-started"
-section: []
-kinsta_last_updated: "June 11, 2025"
-sitemap_lastmod: "2025-06-11T15:42:57+00:00"
-fetched_at: "2026-10-07T22:38:41Z"
-sha256: "e0415d8e89d1775019f4ec027c94c583634b5bf5a451e7cb457e483cd0d9c6a2"
-body_chars: 3459
-extracted_with: "main article"
+section: ["WordPress Hosting", "Get Started"]
+kinsta_last_updated: "2025-06-11T15:42:57"
+change_signal: "2025-06-11T15:42:57"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "99b0d3cb8e93b95cab5d9e453c833df1c72f0d7eebafd6854525b42280448c57"
+body_chars: 3462
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Get Started - Clone a Site
+# Clone a Site
 
+**Section:** WordPress Hosting > Get Started
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/clone-wordpress-site/
-**Kinsta last updated:** June 11, 2025
+**Kinsta last updated:** 2025-06-11T15:42:57
 
 ## On this page
 
@@ -36,14 +37,17 @@ To use this feature, you’ll need to be on a Multiple-site plan, and you’ll n
 ## Clone your site in MyKinsta
 
 1. Log in to [MyKinsta](https://my.kinsta.com/), click on **Sites** > **Add site** > **Create new site**.
+
    ![Create a WordPress site in MyKinsta.](https://kinsta.com/wp-content/uploads/2023/11/wordpress-add-site-5.png)
 
    Create a WordPress site in MyKinsta.
 2. On the **Add site** page, select **Clone** and click **Continue**.
+
    ![Clone an existing environment in MyKinsta.](https://kinsta.com/wp-content/uploads/2026/01/wordpress-add-site-clone.png)
 
    Clone an existing environment in MyKinsta.
 3. Select the site you want to clone and either the **Live** or **Staging** environment. Enter a name for the new site and click **Continue**.  
+
    ![Next step in cloning an existing environment in MyKinsta.](https://kinsta.com/wp-content/uploads/2023/11/wordpress-clone-environment.png)
 
    Next step in cloning an existing environment in MyKinsta.

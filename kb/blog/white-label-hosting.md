@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Agency", "What is white-label hosting? (And what Kinsta offers agencies and resellers)"]
-kinsta_last_updated: "2025-12-01T10:24:15+00:00"
-sitemap_lastmod: "2025-12-01T10:24:15"
-fetched_at: "2026-10-07T22:43:08Z"
-sha256: "015ff1f3ca9198a259e12e066086cf6845bc0f41a8edb45375fff9f877fe3b27"
-body_chars: 9519
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-12-01T10:24:15"
+change_signal: "2025-12-01T10:24:15"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "600af169b30ce5c05c46d22b4a7545520b08a25edc74086dd162dff1fd6df329"
+body_chars: 8716
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # What is white-label hosting? (And what Kinsta offers agencies and resellers)
 
-**Section:** Resource Center > Blog > Agency > What is white-label hosting? (And what Kinsta offers agencies and resellers)
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/white-label-hosting/
-**Kinsta last updated:** 2025-12-01T10:24:15+00:00
+**Kinsta last updated:** 2025-12-01T10:24:15
 
 ## On this page
 
@@ -36,17 +35,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Author
-:   [Steve Bonisteel](https://kinsta.com/blog/author/stevebonisteel/ "Posts by Steve Bonisteel")
-
-Updated
-:   December 1, 2025
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![An illustration representing the WordPress configuration settings required to disable Kinsta branding related to the MU plugin.](https://kinsta.com/wp-content/uploads/2025/11/what-is-white-label-hosting-at-kinsta-1024x512.png)
 
 If you want to offer web hosting but don’t want to manage your own server infrastructure, white-label web hosting could be the solution.
 
@@ -156,8 +144,3 @@ In addition to offering dedicated hosting plans for agencies, Kinsta also lets y
 While Kinsta doesn’t currently extend that white-labeling to the MyKinsta hosting dashboard itself, you do get granular access controls for situations where you need to give customers access to the MyKinsta dashboard.
 
 If you’re ready to get started, [browse Kinsta’s agency hosting plans today](https://kinsta.com/wordpress-hosting/agencies/).
-
-Steve Bonisteel
-[Kinsta](https://kinsta.com/)
-
-Steve Bonisteel is a Technical Editor at Kinsta who began his writing career as a print journalist, chasing ambulances and fire trucks. He has been covering Internet-related technology since the late 1990s.

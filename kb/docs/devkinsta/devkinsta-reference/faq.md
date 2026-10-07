@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/devkinsta/devkinsta-reference/faq/"
-title: "Reference - FAQs"
+title: "FAQs"
 tier: "docs"
 product: "devkinsta"
 product_label: "DevKinsta (local dev tool, not hosting)"
 subsection: "devkinsta-reference"
-section: []
-kinsta_last_updated: "August 19, 2024"
-sitemap_lastmod: "2024-08-19T12:45:05+00:00"
-fetched_at: "2026-10-07T22:38:20Z"
-sha256: "3250c6930c9278fe301c2c0dd3cc5420d0ef57e9fc9ecfda414966371ce83ace"
-body_chars: 7023
-extracted_with: "main article"
+section: ["DevKinsta", "Reference"]
+kinsta_last_updated: "2024-08-19T12:45:05"
+change_signal: "2024-08-19T12:45:05"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "6382f70e87ea65fee4da6a195c1d87f3d5235c6f4ee546833f80be709757eee3"
+body_chars: 7012
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Reference - FAQs
+# FAQs
 
+**Section:** DevKinsta > Reference
 **Product:** DevKinsta (local dev tool, not hosting)
 **Source:** https://kinsta.com/docs/devkinsta/devkinsta-reference/faq/
-**Kinsta last updated:** August 19, 2024
+**Kinsta last updated:** 2024-08-19T12:45:05
 
 ## On this page
 
@@ -53,14 +54,14 @@ DevKinsta makes it easy to develop WordPress sites locally and push the site dir
 
 ## What operating systems does DevKinsta support? What are the minimum system requirements to run DevKinsta?
 
-For detailed instructions, refer to [DevKinsta Installation](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/installation/) or the [Docker Desktop documentation](https://docs.docker.com/desktop/). DevKinsta is available for the following operating systems:
+For detailed instructions, refer to [DevKinsta Installation](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/installation) or the [Docker Desktop documentation](https://docs.docker.com/desktop/). DevKinsta is available for the following operating systems:
 
 ### Windows
 
 - Windows 10 64-bit: Pro, Enterprise, or Education (Build 16299 or later)
 - Windows 10 Home (version 1903 or higher)
 
-For more information, see the [requirements and installation instructions for Windows](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/installation/#windows).
+For more information, see the [requirements and installation instructions for Windows](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/installation#windows).
 
 ### Mac
 
@@ -69,13 +70,13 @@ For more information, see the [requirements and installation instructions for Wi
   - Intel’s hardware support for memory management unit (MMU) virtualization, including Extended Page Tables (EPT) and Unrestricted Mode.
   - Or Apple silicon’s Virtualization Extensions.
 
-For more information, see the [requirements and installation instructions for Mac](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/installation/#mac).
+For more information, see the [requirements and installation instructions for Mac](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/installation#mac).
 
 ### Linux
 
 - Ubuntu 20.04 LTS (or later)
 
-For more information, see the [requirements and installation instructions for Linux](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/installation/#linux).
+For more information, see the [requirements and installation instructions for Linux](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/installation#linux).
 
 Officially, DevKinsta is only supported for Ubuntu. You’re free to try it on any other Debian-based distro, but they’re not supported officially as of yet.
 
@@ -85,7 +86,7 @@ Visit the [DevKinsta Download](https://kinsta.com/devkinsta/download/) page and 
 
 ## How do I install DevKinsta?
 
-See our guide for instructions on [how to install DevKinsta on Windows, macOS, or Linux](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/installation/). Alternatively, you can [watch our video](https://kinsta.com/webinars/install-and-use-devkinsta/) to learn how to install and use DevKinsta.
+See our guide for instructions on [how to install DevKinsta on Windows, macOS, or Linux](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/installation). Alternatively, you can [watch our video](https://kinsta.com/webinars/install-and-use-devkinsta/) to learn how to install and use DevKinsta.
 
 ## Where can I ask for help?
 
@@ -103,7 +104,7 @@ Feature requests can be made through our [community forum](https://community.kin
 
 ## Can I publish or download my live site using DevKinsta?
 
-When pushing changes from DevKinsta to MyKinsta, you can only push to a Standard or Premium Staging Environment; you can’t push to a live site directly from DevKinsta. Learn more about [how to import a site](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/creating-a-site/#import-from-mykinsta) from MyKinsta and how to [publish a site](https://kinsta.com/docs/devkinsta/devkinsta-integration/#push-changes-to-staging) in our documentation.
+When pushing changes from DevKinsta to MyKinsta, you can only push to a Standard or Premium Staging Environment; you can’t push to a live site directly from DevKinsta. Learn more about [how to import a site](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/creating-a-site#import-from-mykinsta) from MyKinsta and how to [publish a site](https://kinsta.com/docs/devkinsta/devkinsta-integration#push-changes-to-staging) in our documentation.
 
 ## Can I use DevKinsta for non-WordPress sites?
 
@@ -115,11 +116,11 @@ DevKinsta will automatically update. You can configure auto-updates by going to 
 
 ## How do I use the email features within DevKinsta?
 
-We’ve implemented a local email application called MailHog within DevKinsta so you can test if emails are sent from the site. Emails will not be sent externally and will only appear within DevKinsta. [More information on how to use MailHog can be found here](https://kinsta.com/docs/devkinsta/devkinsta-site-management/email-inbox/).
+We’ve implemented a local email application called MailHog within DevKinsta so you can test if emails are sent from the site. Emails will not be sent externally and will only appear within DevKinsta. [More information on how to use MailHog can be found here](https://kinsta.com/docs/devkinsta/devkinsta-site-management/email-inbox).
 
 ## How do I access the database?
 
-You can view the database by accessing Adminer for each site. Adminer is a user interface for managing your database. It is very similar to phpMyAdmin, but has a reduced footprint and is snappier to work with. [More information on how to use Adminer can be found here](https://kinsta.com/docs/devkinsta/devkinsta-database/database-manager/).
+You can view the database by accessing Adminer for each site. Adminer is a user interface for managing your database. It is very similar to phpMyAdmin, but has a reduced footprint and is snappier to work with. [More information on how to use Adminer can be found here](https://kinsta.com/docs/devkinsta/devkinsta-database/database-manager).
 
 ## What should I do if I get an error when launching DevKinsta?
 
@@ -141,8 +142,8 @@ DevKinsta is in active development, and some fields reflect features and setting
 
 ## How do I access phpMyAdmin?
 
-DevKinsta uses Adminer instead of phpMyAdmin. Adminer is a lightweight alternative to phpMyAdmin that includes all of the necessary features for local WordPress development. To learn all about Adminer, take a look at our [Adminer documentation](https://kinsta.com/docs/devkinsta/devkinsta-database/database-manager/).
+DevKinsta uses Adminer instead of phpMyAdmin. Adminer is a lightweight alternative to phpMyAdmin that includes all of the necessary features for local WordPress development. To learn all about Adminer, take a look at our [Adminer documentation](https://kinsta.com/docs/devkinsta/devkinsta-database/database-manager).
 
 ## Can I use third-party database tools like Sequel Pro or TablePlus?
 
-Yes, third-party database management tools are supported. To learn more about how to connect third-party database tools to DevKinsta sites, check out our [database tools documentation](https://kinsta.com/docs/devkinsta/devkinsta-database/database-tools/).
+Yes, third-party database management tools are supported. To learn more about how to connect third-party database tools to DevKinsta sites, check out our [database tools documentation](https://kinsta.com/docs/devkinsta/devkinsta-database/database-tools).

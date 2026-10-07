@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/service-information/new-accounts-from-russia/"
-title: "Service Information - Russian Accounts and Domains"
+title: "Russian Accounts and Domains"
 tier: "docs"
 product: "service-information"
 product_label: "Service Information"
 subsection: "new-accounts-from-russia"
-section: []
-kinsta_last_updated: "January 25, 2024"
-sitemap_lastmod: "2024-01-25T17:30:59+00:00"
-fetched_at: "2026-10-07T22:37:57Z"
+section: ["Service Information"]
+kinsta_last_updated: "2024-01-25T17:30:59"
+change_signal: "2024-01-25T17:30:59"
+fetched_at: "2026-10-07T22:58:20Z"
 sha256: "49a96181e83e33dd931a5b12f441d78fb0844b991d9f7fddd059c901d19912ea"
 body_chars: 1101
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Service Information - Russian Accounts and Domains
+# Russian Accounts and Domains
 
+**Section:** Service Information
 **Product:** Service Information
 **Source:** https://kinsta.com/docs/service-information/new-accounts-from-russia/
-**Kinsta last updated:** January 25, 2024
+**Kinsta last updated:** 2024-01-25T17:30:59
 
 ---
 

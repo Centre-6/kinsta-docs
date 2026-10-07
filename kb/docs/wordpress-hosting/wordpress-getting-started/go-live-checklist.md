@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/go-live-checklist/"
-title: "Get Started - Go Live Checklist"
+title: "Go Live Checklist"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-getting-started"
-section: []
-kinsta_last_updated: "April 9, 2026"
-sitemap_lastmod: "2026-04-09T12:22:55+00:00"
-fetched_at: "2026-10-07T22:39:52Z"
-sha256: "9d3bc7dd3ef9fa4610a1f3bc4588202ee24c1e7d0e6aa81f41be792f74cf7aed"
-body_chars: 5721
-extracted_with: "main article"
+section: ["WordPress Hosting", "Get Started"]
+kinsta_last_updated: "2026-04-09T12:22:55"
+change_signal: "2026-04-09T12:22:55"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "4c4b951c046dec4f089e398eaa8e18c1f32348b063b85fc33f78a5a44519a423"
+body_chars: 5720
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Get Started - Go Live Checklist
+# Go Live Checklist
 
+**Section:** WordPress Hosting > Get Started
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/go-live-checklist/
-**Kinsta last updated:** April 9, 2026
+**Kinsta last updated:** 2026-04-09T12:22:55
 
 ## On this page
 
@@ -79,7 +80,7 @@ If you want to redirect all HTTP traffic to HTTPS (we recommend this), we have a
 
 ## 4. Install the Kinsta MU plugin
 
-Our [Kinsta MU plugin](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/) is automatically installed on new WordPress installations created here at Kinsta. If you migrated your site yourself, you’ll need to download and install the Kinsta MU plugin manually. This includes our full-page caching and other functionality, such as integration with [Kinsta’s CDN](https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/kinsta-cdn/).
+Our [Kinsta MU plugin](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin) is automatically installed on new WordPress installations created here at Kinsta. If you migrated your site yourself, you’ll need to download and install the Kinsta MU plugin manually. This includes our full-page caching and other functionality, such as integration with [Kinsta’s CDN](https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/kinsta-cdn/).
 
 ## 5. Enable Kinsta’s CDN
 

@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Access more traffic and response insights with the Kinsta API"]
-kinsta_last_updated: "2026-05-20T20:30:55+00:00"
-sitemap_lastmod: "2026-05-20T20:30:55+00:00"
-fetched_at: "2026-10-07T22:37:39Z"
-sha256: "73f3526f1ab0619356b6ddabda406c4f5bbf3383856d51c061070a49c0d210b6"
-body_chars: 5897
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:30:55"
+change_signal: "2026-05-20T20:30:55"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "733f7add64acfd6a47f4453b0127a73c3804d848d0cd1aff8762543af01e5c6d"
+body_chars: 5784
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Access more traffic and response insights with the Kinsta API
 
-**Section:** Changelog > Access more traffic and response insights with the Kinsta API
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/kinsta-api-mar-2026/
-**Kinsta last updated:** 2026-05-20T20:30:55+00:00
+**Kinsta last updated:** 2026-05-20T20:30:55
 
 ## On this page
 
@@ -31,11 +30,6 @@ status: "live"
 - [Build on your analytics workflows](#build-on-your-analytics-workflows)
 
 ---
-
-Updated
-:   May 20, 2026
-
-![](https://kinsta.com/wp-content/uploads/2026/03/5-new-api-endpoints-1-1024x536.png)
 
 Kinsta already provides analytics in MyKinsta, but with our latest update, you can access more of that data programmatically via the [Kinsta API](https://kinsta.com/docs/kinsta-api/).
 

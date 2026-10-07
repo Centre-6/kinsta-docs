@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/wordpress-manual-migration/"
-title: "Migrations - Manual Migration"
+title: "Manual Migration"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-migrations"
-section: []
-kinsta_last_updated: "March 30, 2026"
-sitemap_lastmod: "2026-03-30T08:53:09+00:00"
-fetched_at: "2026-10-07T22:39:50Z"
+section: ["WordPress Hosting", "Migrations"]
+kinsta_last_updated: "2026-03-30T08:53:09"
+change_signal: "2026-03-30T08:53:09"
+fetched_at: "2026-10-07T22:58:17Z"
 sha256: "78a376c56d48b82ae63707e4b282a51f5993cfd852e015c33e495c5fd0b9384e"
 body_chars: 14399
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Migrations - Manual Migration
+# Manual Migration
 
+**Section:** WordPress Hosting > Migrations
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/wordpress-manual-migration/
-**Kinsta last updated:** March 30, 2026
+**Kinsta last updated:** 2026-03-30T08:53:09
 
 ## On this page
 

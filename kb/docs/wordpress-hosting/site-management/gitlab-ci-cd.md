@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/site-management/gitlab-ci-cd/"
-title: "Site Management - GitLab CI/CD"
+title: "GitLab CI/CD"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "site-management"
-section: []
-kinsta_last_updated: "February 18, 2026"
-sitemap_lastmod: "2026-02-18T05:53:41+00:00"
-fetched_at: "2026-10-07T22:39:27Z"
-sha256: "9fc773b41f0037547876d65df6f4ba030c3eb81840ea21c83da772644891df0e"
-body_chars: 17150
-extracted_with: "main article"
+section: ["WordPress Hosting", "Site Management"]
+kinsta_last_updated: "2026-02-18T05:53:41"
+change_signal: "2026-02-18T05:53:41"
+fetched_at: "2026-10-07T22:58:18Z"
+sha256: "4a5f86063df2325a2e890a87c6683ac7f872d4f044d258979b88dada8b03c49e"
+body_chars: 17135
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Site Management - GitLab CI/CD
+# GitLab CI/CD
 
+**Section:** WordPress Hosting > Site Management
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/site-management/gitlab-ci-cd/
-**Kinsta last updated:** February 18, 2026
+**Kinsta last updated:** 2026-02-18T05:53:41
 
 ## On this page
 
@@ -83,15 +84,11 @@ Next, you’ll need to add SSH keys to GitLab and MyKinsta to allow the two plat
 
 First, [SSH into](https://kinsta.com/docs/wordpress-hosting/connect-to-ssh/) your Kinsta site’s live environment and run the `cat` command below to display your SSH public key.
 
-Copy
-
 ```
 cat ~/.ssh/id_rsa.pub
 ```
 
 Your public key should look similar to the one below. Keep your command line window open for the now, and go back to GitLab in your web browser.
-
-Copy
 
 ```
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC7zdjwd6UIUJ5t4YnXNi6yhdHgrvIV2xgjvJ3592wd1Hzmnta4dau7yOIxQDU7/oNIr6DIskuIUii5ruGi4YZpIwB/AWGrn/uWb+FXJFiQHMZq9rCFcqtZXT0fyzKiSNkblV4F1RaPQJRvxfSUsSQ3jJU3FX8CF1c4R40CiBKkSHM8uavVIIESzgIHRiWVxkL9F6SKzg8GeTctJaAa3W+q1F1T60OKYmzH3OLdA37ZNmkm1CYWa8SF0JjOszxOnPwhfQ49P5r+rftXRFLz/7hGJ8CnUyzErSiUdUKNknUAB+w4KEZshQSNuiken0+GKqIw83dWWSyjiJJigcyDez2s+3AqDLHPG45NoBEXuBXjPQ9C08hokVyKlbzd/P2qvcnzUT5S6zTuaYOW+50+fiXeYkJlEoYYxoGRVx6FFdFqWyJx5UyaDv7QY3iQH0qct1iq9XGXMhBxIecIAEPUwF8nOp15in8L+5UIFMiNnihztTAXysc+8xvVwbuRlQIeR/E= ansible-generated on fvj-kinstagit
@@ -135,8 +132,6 @@ Next, you’ll need to add the SSH private key from your site’s live environme
 
 To find your private key, switch back to your command line window, and run the command below. Be sure not to share your SSH private key anywhere outside of GitLab.
 
-Copy
-
 ```
 cat ~/.ssh/id_rsa
 ```
@@ -165,15 +160,11 @@ Clone with SSH in GitLab.
 
 Switch back to your command line window and navigate to your live environment’s home directory. If you are unsure how to get to your home directory, use the command below.
 
-Copy
-
 ```
 cd ~/
 ```
 
 Once you’re in the home directory, run the `git clone` command with the repository address you copied from GitLab.
-
-Copy
 
 ```
 git clone [your-repository-url-here]
@@ -187,8 +178,6 @@ Clone your GitLab repository to your Kinsta live environment.
 
 At Kinsta, our Nginx configuration serves content from the **~/public** folder. Thus, you need to delete the current **~/public** folder and rename your cloned repo folder to **~/public**. To do this, run the two commands below.
 
-Copy
-
 ```
 rm -rf ~/public
 mv ~/your-repo-folder-name ~/public
@@ -198,18 +187,14 @@ mv ~/your-repo-folder-name ~/public
 
 Next, use the command below to navigate to the **~/public** folder.
 
-Copy
-
 ```
 cd ~/public
 ```
 
 Run the two commands below to configure your GitLab repo. Be sure to specify your valid email address and a username associated with your GitLab account.
 
-Copy
-
 ```
-git config --global user.email "[email protected]"
+git config --global user.email "youremail@address.com"
 git config --global user.name "brian"
 ```
 
@@ -217,15 +202,13 @@ git config --global user.name "brian"
 
 Now that the GitLab repo has been cloned to your Kinsta live environment and configured, let’s install WordPress. You can install WordPress manually by downloading it from wordpress.org, or you can install it with WP-CLI. For this example, we’ll use WP-CLI to install WordPress with the command below in the **~/public** folder.
 
-Copy
-
 ```
 wp core download
 ```
 
 After installing WordPress, your **~/public** folder should look like this:
 
-![A fresh WordPress installation with WordPress core files and directories.](https://kinsta.com/wp-content/uploads/2018/02/wp-cli-install-wordpress.png)
+![A fresh WordPress installation with WordPress core files and directories.](https://kinsta.com/wp-content/uploads/2018/02/wp-cli-install-wordpress.png "A fresh WordPress installation with WordPress core files and directories")
 
 A fresh WordPress installation with WordPress core files and directories.
 
@@ -251,15 +234,11 @@ A new WordPress install.
 
 Next, you’ll need to set up a configuration file to instruct GitLab to initiate automatic deployments after the repo’s main branch has been updated. To do this, make sure you’re in the **~/public** folder in your Kinsta live environment (run `cd ~/public` to navigate there if needed) and create a new file called **.gitlab-ci.yml** with the command below.
 
-Copy
-
 ```
 touch .gitlab-ci.yml
 ```
 
 After the file has been created, add the following text to the file. You can either edit the file with nano or vim in the command line or [with SFTP](https://kinsta.com/docs/wordpress-hosting/connecting-with-sftp/) and a text or code editor. If you use an SFTP client, be sure to enable hidden files in order to see the **.gitlab-ci.yml** file.
-
-Copy
 
 ```
 before_script:
@@ -275,7 +254,8 @@ before_script:
 deploy_live:
     environment:
         name: Live
-        url: your-primary-domain script:
+        url: your-primary-domain
+    script:
         - ssh user@ip-address -p port-number "cd public-root && git checkout main && git pull origin main && exit"
     only:
         - main
@@ -295,13 +275,12 @@ The `only: - main` section of the file refers to the repository branch that will
 
 If you’d like to implement additional granularity to the configuration to account for a staging environment, you can add an additional `deploy_staging` block with the URL and SSH details for your Kinsta staging environment. Update the branch to match your Git repository’s staging branch; the example below uses `git checkout staging`.
 
-Copy
-
 ```
 deploy_staging:
     environment:
         name: Staging
-        url: your-staging-domain script:
+        url: your-staging-domain
+    script:
         - ssh user@ip-address -p port-number "cd public-root && git checkout staging && git pull origin staging && exit"
     only:
         - staging
@@ -312,8 +291,6 @@ Notice the `only: - staging` section as well – this means pushing to the `stag
 ## Initial commit to GitLab
 
 Now that WordPress and the GitLab configuration file are set up, let’s make an initial commit to GitLab. We’ll create a new branch called **v0.1**, start tracking the files in the repo, commit the changes, and push the changes to GitLab on the **v0.1** branch. Run the commands below from **~/public** to trigger the initial commit.
-
-Copy
 
 ```
 git checkout -b v0.1
@@ -338,8 +315,6 @@ Create a new staging environment in MyKinsta.
 
 After creating your site’s staging environment, SSH into the staging environment in a new command line window (keep the separate window for your live environment open) and run the command below to check for any code changes.
 
-Copy
-
 ```
 cd ~/public && git status
 ```
@@ -356,15 +331,11 @@ Finally, let’s make some changes to the staging environment and push a new com
 
 For this example, let’s install the Yoast SEO plugin using WP-CLI with the command below.
 
-Copy
-
 ```
 wp plugin install wordpress-seo
 ```
 
 After the Yoast SEO plugin has been installed, run the commands below to make a commit and push the changes to the **v0.1** branch.
-
-Copy
 
 ```
 git add .
@@ -373,8 +344,6 @@ git push origin v0.1
 ```
 
 Finally, let’s switch to the **main** branch, merge **v0.1** to **main**, and push **main** to GitLab with the commands below. This will cause GitLab to initiate a deployment process to your Kinsta live environment because of the `only: - main` setting in the GitLab configuration file.
-
-Copy
 
 ```
 git checkout main

@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "WP-CLI v2 Is Now the Default on All Kinsta Servers"]
-kinsta_last_updated: "2020-08-30T14:40:02+00:00"
-sitemap_lastmod: "2020-08-30T14:40:02+00:00"
-fetched_at: "2026-10-07T22:36:41Z"
-sha256: "35d432ee5e1a79877cec97fb8c5e3e8634917874a2c490839d6d5ccec8fa6dd2"
-body_chars: 1076
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2020-08-30T14:40:02"
+change_signal: "2020-08-30T14:40:02"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "1e070eb378a5be80d620b4fcb25de44f5b11c80481bd98d8eb85e5a13867d54e"
+body_chars: 961
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # WP-CLI v2 Is Now the Default on All Kinsta Servers
 
-**Section:** Changelog > WP-CLI v2 Is Now the Default on All Kinsta Servers
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/wp-cli-v2/
-**Kinsta last updated:** 2020-08-30T14:40:02+00:00
+**Kinsta last updated:** 2020-08-30T14:40:02
 
 ---
-
-Updated
-:   August 30, 2020
-
-![WP-CLI v2](https://kinsta.com/wp-content/uploads/2018/11/wp-cli-v2-1-1024x512.png)
 
 Today we’ve got a little update for all of you WordPress developers! You’ll be happy to hear that **WP-CLI v2.0.1 is now the default on all Kinsta servers**.
 

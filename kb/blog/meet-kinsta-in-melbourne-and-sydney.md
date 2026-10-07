@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta Events", "Meet Kinsta in Melbourne and Sydney"]
-kinsta_last_updated: "2026-05-07T06:45:57+00:00"
-sitemap_lastmod: "2026-05-07T06:45:57"
-fetched_at: "2026-10-07T22:42:29Z"
-sha256: "75440fe12efa417d7e7c12a942cfb5415439cd71e5e19d8acdcec6abe9611894"
-body_chars: 3887
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-07T06:45:57"
+change_signal: "2026-05-07T06:45:57"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "44495ab9c8d2243eab4304ddb285058312bfde5de6e92564e72ab76e5be4fa9b"
+body_chars: 3429
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Meet Kinsta in Melbourne and Sydney
 
-**Section:** Resource Center > Blog > Kinsta Events > Meet Kinsta in Melbourne and Sydney
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/meet-kinsta-in-melbourne-and-sydney/
-**Kinsta last updated:** 2026-05-07T06:45:57+00:00
+**Kinsta last updated:** 2026-05-07T06:45:57
 
 ## On this page
 
@@ -29,17 +28,6 @@ status: "live"
 - [Let’s meet in Melbourne and Sydney](#lets-meet-in-melbourne-and-sydney)
 
 ---
-
-Author
-:   [Nikolett Poesz](https://kinsta.com/blog/author/nikolettpoesz/ "Posts by Nikolett Poesz")
-
-Published
-:   May 7, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/05/australian-events-2026-1024x512.png)
 
 We’re excited to announce that Kinsta is heading back to Australia this May! From **May 11 to 14**, our team will participate in, sponsor, and host several events across **Melbourne and Sydney**, connecting with digital marketers, agencies, publishers, technology leaders, and WordPress professionals.
 
@@ -87,7 +75,3 @@ Whether you’re attending Digital Marketers Australia, joining one of our priva
 Come say hi to Alex and Sam, learn more about [**Kinsta’s managed hosting for WordPress**](https://kinsta.com/wordpress-hosting/), and explore how we can support your next project, campaign, or client build.
 
 See you in Australia!
-
-Nikolett Poesz
-
-Multilingual Content Associate at Kinsta

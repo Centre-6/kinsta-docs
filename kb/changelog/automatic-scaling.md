@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Automatic Scaling Helps Your Application Keep Pace With Demand"]
-kinsta_last_updated: "2026-05-14T19:00:51+00:00"
-sitemap_lastmod: "2026-05-14T19:00:51+00:00"
-fetched_at: "2026-10-07T22:37:33Z"
-sha256: "4ff3beace654a915cf8fb3f292376be5c56e6dc911242cf614c3da263f2b3ba9"
-body_chars: 5533
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-14T19:00:51"
+change_signal: "2026-05-14T19:00:51"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "5c6bfd20f644f5bebcd92e80991126e3cf0522922ae09b8f598ec65327dfef07"
+body_chars: 5341
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Automatic Scaling Helps Your Application Keep Pace With Demand
 
-**Section:** Changelog > Automatic Scaling Helps Your Application Keep Pace With Demand
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/automatic-scaling/
-**Kinsta last updated:** 2026-05-14T19:00:51+00:00
+**Kinsta last updated:** 2026-05-14T19:00:51
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [Start Autoscaling Your Application Today](#start-autoscaling-your-application-today)
 
 ---
-
-Updated
-:   May 14, 2026
-
-![Illustration representing the automatic horizontal scaling configuration interface.](https://kinsta.com/wp-content/uploads/2023/10/automatic-scaling-1024x536.jpg)
 
 The addition of automatic horizontal scaling to Kinsta’s Application Hosting platform means it’s now easier to deliver exactly the power your app needs to meet changing demands on server resources.
 

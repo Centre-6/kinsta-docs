@@ -6,12 +6,12 @@ product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection:
 section: []
-kinsta_last_updated: "October 14, 2025"
-sitemap_lastmod: "2025-10-14T11:39:06+00:00"
-fetched_at: "2026-10-07T22:38:56Z"
-sha256: "80ce1697c5248ba68c54310f6077e9f40187f8f0f9e360815f87daf17eb0b2dc"
-body_chars: 4593
-extracted_with: "main article"
+kinsta_last_updated: "2025-10-14T11:39:06"
+change_signal: "2025-10-14T11:39:06"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "600fe75b01ccf9777751dfa231a6f4ca608ee33d04851371c47dfea287195d16"
+body_chars: 4591
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
@@ -19,7 +19,7 @@ status: "live"
 
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/
-**Kinsta last updated:** October 14, 2025
+**Kinsta last updated:** 2025-10-14T11:39:06
 
 ## On this page
 
@@ -41,13 +41,13 @@ Our [Managed WordPress Hosting](https://kinsta.com/wordpress-hosting/) includes 
 
 ## Security
 
-We keep your site safe from the infrastructure side with free hack fixes through our [Security Pledge](https://kinsta.com/docs/service-information/malware-removal/) and cloud-based 1st layer defense through our [Cloudflare integration](https://kinsta.com/blog/cloudflare-integration/) on all Managed WordPress sites hosted at Kinsta. Our Cloudflare integration helps to protect against code and [SQL injection](https://kinsta.com/blog/sql-injection/), Layer 7 [DDoS attacks](https://kinsta.com/blog/what-is-a-ddos-attack/), and generic malware/vulnerability scanners.
+We keep your site safe from the infrastructure side with free hack fixes through our [Security Pledge](https://kinsta.com/docs/service-information/malware-removal) and cloud-based 1st layer defense through our [Cloudflare integration](https://kinsta.com/blog/cloudflare-integration/) on all Managed WordPress sites hosted at Kinsta. Our Cloudflare integration helps to protect against code and [SQL injection](https://kinsta.com/blog/sql-injection/), Layer 7 [DDoS attacks](https://kinsta.com/blog/what-is-a-ddos-attack/), and generic malware/vulnerability scanners.
 
 You will still be responsible for ensuring the security of your site’s application stack, including updating plugins and themes.
 
 ## Uptime
 
-In addition, [we’re responsible for uptime](https://kinsta.com/docs/service-information/guaranteed-uptime/), including infrastructure and OS-level configurations. We monitor your site’s uptime and respond to any issues that cause the site not to load. You can also enable [site monitoring notifications](https://kinsta.com/docs/user-settings/notifications/) to receive emails for critical errors that can affect your site’s uptime.
+In addition, [we’re responsible for uptime](https://kinsta.com/docs/service-information/guaranteed-uptime/), including infrastructure and OS-level configurations. We monitor your site’s uptime and respond to any issues that cause the site not to load. You can also enable [site monitoring notifications](https://kinsta.com/docs/user-settings/notifications) to receive emails for critical errors that can affect your site’s uptime.
 
 ## Automatic MySQL database optimizations
 

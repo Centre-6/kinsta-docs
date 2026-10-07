@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/early-hints/"
-title: "Tools - Early Hints"
+title: "Early Hints"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "mykinsta-tools"
-section: []
-kinsta_last_updated: "August 5, 2025"
-sitemap_lastmod: "2025-08-05T12:37:53+00:00"
-fetched_at: "2026-10-07T22:38:52Z"
-sha256: "9c2817514d89508f69aa0941249bbc258a567c0d866c533862583f301c1c16dd"
-body_chars: 5646
-extracted_with: "main article"
+section: ["WordPress Hosting", "Tools"]
+kinsta_last_updated: "2025-08-05T12:37:53"
+change_signal: "2025-08-05T12:37:53"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "cb947bb57c226b08f85e9391e9ca796868e663e4051b687780463078cfcb201c"
+body_chars: 5641
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Tools - Early Hints
+# Early Hints
 
+**Section:** WordPress Hosting > Tools
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/early-hints/
-**Kinsta last updated:** August 5, 2025
+**Kinsta last updated:** 2025-08-05T12:37:53
 
 ## On this page
 
@@ -56,7 +57,7 @@ These tools allow you to easily define and manage `preload` and `preconnect` hea
 
 ## Important notes
 
-1. You must enable the `Link:` response header with either the `preload` or `preconnect`[rel type](https://blog.cloudflare.com/early-hints/#now-turning-200-ok-link-headers-into-103-early-hints) to indicate the resources you want to include in the Early Hints response. You can use a WordPress plugin to add `preload` or `preconnect` headers to your assets in WordPress.
+1. You must enable the `Link:` response header with either the `preload` or `preconnect` [rel type](https://blog.cloudflare.com/early-hints/#now-turning-200-ok-link-headers-into-103-early-hints) to indicate the resources you want to include in the Early Hints response. You can use a WordPress plugin to add `preload` or `preconnect` headers to your assets in WordPress.
 2. The 103 Early Hints status code is compatible with the latest versions of Chrome, Edge, Safari, and Firefox. If a browser doesn’t support Early Hints and a 103 response header is sent to it, nothing will happen; the browser will simply ignore it.
 3. If your site has more than 20 domains, enabling Early Hints may take 5 or more minutes, depending on the total number of domains.
 4. You cannot use Early Hints with a temporary kinsta.cloud domain.
@@ -87,8 +88,6 @@ To confirm Early Hints is working, inspect the HTTP headers of a page on your si
 - Our free [HTTP status and redirect checker](https://kinsta.com/tools/redirect-checker/).
 - Your web browser’s built-in developer tools.
 - The `curl` command in Terminal (command line), substituting the URL at the end of this example with the URL of the page you want to test:
-
-Copy
 
 ```
 curl -L -s -o /dev/null -D - https://kinstaexample.com

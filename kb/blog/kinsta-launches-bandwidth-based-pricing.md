@@ -5,35 +5,23 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta News", "Kinsta Launches Bandwidth-Based Pricing to Give Website Owners and Developers More Hosting Control"]
-kinsta_last_updated: "2026-03-02T13:37:21+00:00"
-sitemap_lastmod: "2026-03-02T13:37:21"
-fetched_at: "2026-10-07T22:43:13Z"
-sha256: "effa580dc6aa1213fe69f2fe2fb144b9b398511c1c6ba235b764ebdfab303192"
-body_chars: 4677
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-03-02T13:37:21"
+change_signal: "2026-03-02T13:37:21"
+fetched_at: "2026-10-07T22:58:28Z"
+sha256: "1428ce7f1166ed60835ada803a769665d44130e0bf26cb5e71dffbcd428a2484"
+body_chars: 3980
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Kinsta Launches Bandwidth-Based Pricing to Give Website Owners and Developers More Hosting Control
 
-**Section:** Resource Center > Blog > Kinsta News > Kinsta Launches Bandwidth-Based Pricing to Give Website Owners and Developers More Hosting Control
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/kinsta-launches-bandwidth-based-pricing/
-**Kinsta last updated:** 2026-03-02T13:37:21+00:00
+**Kinsta last updated:** 2026-03-02T13:37:21
 
 ---
-
-Author
-:   [Kinsta](https://kinsta.com/blog/author/kinstateam/ "Posts by Kinsta")
-
-Updated
-:   March 2, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![Bandwidth-based pricing plans at Kinsta](https://kinsta.com/wp-content/uploads/2025/11/kinstas-new-bandwidth-pricing-option-pr-1024x512.png)
 
 *Kinsta evolves with customer needs, business realities and challenges of the modern web*
 
@@ -67,7 +55,3 @@ Serving small companies to Fortune 500 enterprises, Kinsta supports more than 23
 For more information about Kinsta and to sign up for a risk-free trial, visit [kinsta.com.](https://kinsta.com/)
 
 This content was originally published on [Business Wire](https://www.businesswire.com/news/home/20251103501509/en/Kinsta-Launches-Bandwidth-Based-Pricing-to-Give-Website-Owners-and-Developers-More-Hosting-Control).
-
-Kinsta
-
-The Kinsta Team consists of WordPress experts, performance engineers, and support professionals passionate about fast, secure, and scalable hosting. We publish in-depth guides, research, and practical advice to help you build and grow with WordPress.

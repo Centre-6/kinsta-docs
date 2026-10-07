@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress SEO", "AI crawlers explained: How AI bots interact\u00a0with your WordPress site"]
-kinsta_last_updated: "2026-07-17T13:56:56+00:00"
-sitemap_lastmod: "2026-07-17T13:56:56"
-fetched_at: "2026-10-07T22:42:57Z"
-sha256: "c1f4c1fc60ddef1c100e508a473904e0d08889b2b3501db6fb5fc51a577de06b"
-body_chars: 18896
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-07-17T13:56:56"
+change_signal: "2026-07-17T13:56:56"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "f227e81e185d74007ccb1cc9f49ab2247c00067eca6cd09c31ffe19d2e901323"
+body_chars: 17994
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # AI crawlers explained: How AI bots interact with your WordPress site
 
-**Section:** Resource Center > Blog > WordPress SEO > AI crawlers explained: How AI bots interact with your WordPress site
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/ai-crawlers-wordpress/
-**Kinsta last updated:** 2026-07-17T13:56:56+00:00
+**Kinsta last updated:** 2026-07-17T13:56:56
 
 ## On this page
 
@@ -39,17 +38,6 @@ status: "live"
 - [What this shift means for your WordPress site](#what-this-shift-means-for-your-wordpress-site)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   July 17, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/12/what-are-ai-crawlers-and-how-do-they-interact-with-your-wordpress-website-1024x512.png)
 
 Websites aren’t built just to publish content, and [metadata](https://kinsta.com/blog/meta-description-wordpress/) isn’t fine-tuned for fun; it’s all of these activities that work together so your pages can be discovered more easily. For years, Google Search has been the primary gateway to that visibility, thanks largely to its [web crawlers](https://kinsta.com/blog/crawler-list/).
 
@@ -252,13 +240,3 @@ AI crawlers are now part of how people discover information online. The technolo
 The good news is that WordPress sites are already in a strong position. Because WordPress outputs fully rendered HTML, most AI crawlers can interpret your content clearly without special handling. The real strategic decision isn’t whether AI crawlers can access your site, it’s how much access helps your goals, and which of the several available control points (`robots.txt`, bot protection, or both) you use to enforce that decision. And as the mix of traffic types evolves, it’s helpful to have hosting options that make resource usage easier to understand and manage.
 
 Kinsta’s [bandwidth-based plans](https://kinsta.com/blog/bandwidth-based-plans/) offer a more predictable way to account for total data transfer, regardless of the source of the requests. Combined with [Kinsta bot protection](https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/wordpress-tools-bot-protection/#block-ai-crawlers) AI crawler controls and your own `robots.txt` rules, you have full control over how your site is accessed, without needing to run a separate service just to manage it.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

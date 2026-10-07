@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Get the jump on MyKinsta navigation with new shortcut features"]
-kinsta_last_updated: "2026-05-14T18:57:38+00:00"
-sitemap_lastmod: "2026-05-14T18:57:38+00:00"
-fetched_at: "2026-10-07T22:37:30Z"
-sha256: "1db621ca255c1271d6b241e0162c463d1ff88102000ac4643bcb3e10ae17b0ec"
-body_chars: 3844
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-14T18:57:38"
+change_signal: "2026-05-14T18:57:38"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "04e1d163cee8132acd18eebf4d1c4bb2ae8fa0c132222562d9ac114c1e4d9b3e"
+body_chars: 3612
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Get the jump on MyKinsta navigation with new shortcut features
 
-**Section:** Changelog > Get the jump on MyKinsta navigation with new shortcut features
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/mykinsta-navigation/
-**Kinsta last updated:** 2026-05-14T18:57:38+00:00
+**Kinsta last updated:** 2026-05-14T18:57:38
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [One dashboard for everything Kinsta](#one-dashboard-for-everything-kinsta)
 
 ---
-
-Updated
-:   May 14, 2026
-
-![An illustration representing the updated MyKinsta navigation, including the 'Jump to or search' dialog.](https://kinsta.com/wp-content/uploads/2024/05/mykinsta-navigation-jump-to-or-search-1024x536.png)
 
 New navigation features are making it easier to get where you need to go within the [MyKinsta dashboard](https://kinsta.com/mykinsta/).
 

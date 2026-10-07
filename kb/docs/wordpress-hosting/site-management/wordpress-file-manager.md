@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-file-manager/"
-title: "Site Management - File Manager"
+title: "File Manager"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "site-management"
-section: []
-kinsta_last_updated: "June 19, 2026"
-sitemap_lastmod: "2026-06-19T15:21:57+00:00"
-fetched_at: "2026-10-07T22:40:32Z"
-sha256: "0a78c4e5ff49ad15509cd1868f7b97e94e77dd824d92971b47b713772fd2056a"
-body_chars: 16160
-extracted_with: "main article"
+section: ["WordPress Hosting", "Site Management"]
+kinsta_last_updated: "2026-06-19T15:21:57"
+change_signal: "2026-06-19T15:21:57"
+fetched_at: "2026-10-07T22:58:16Z"
+sha256: "fe9dc67157ac6102dbaa63a4c50deca3608d2aa7a78e7d98a3567b5bd4e65db3"
+body_chars: 16163
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Site Management - File Manager
+# File Manager
 
+**Section:** WordPress Hosting > Site Management
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-file-manager/
-**Kinsta last updated:** June 19, 2026
+**Kinsta last updated:** 2026-06-19T15:21:57
 
 ## On this page
 
@@ -193,14 +194,17 @@ Kinsta’s File Manager provides a quick and easy way to download log files from
 
 1. In MyKinsta, go to **Sites** > ***sitename*** > **Files**.
 2. To access the site’s root directory, click the root directory path in the breadcrumbs.
+
    ![Click the root directory path to access the logs.](https://kinsta.com/wp-content/uploads/2026/06/wordpress-file-manager-root.png)
 
    Click the root directory path to access the logs.
 3. Open the **logs** folder.
+
    ![Open the logs folder. ](https://kinsta.com/wp-content/uploads/2026/06/wordpress-file-manager-logs.png)
 
    Open the logs folder.
 4. Locate the log file you want to download, click the kebab (three-dots), and then click **Download**.
+
    ![Download the log file. ](https://kinsta.com/wp-content/uploads/2026/06/wordpress-file-manager-download-logs.png)
 
    Download the log file.

@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Track monthly usage and run WP-CLI commands with the Kinsta API"]
-kinsta_last_updated: "2026-05-20T20:31:33+00:00"
-sitemap_lastmod: "2026-05-20T20:31:33+00:00"
-fetched_at: "2026-10-07T22:37:41Z"
-sha256: "83a19b73f84679340608d3a0a9af498f38a8be220f95b82fde187ed4f3bb3306"
-body_chars: 3354
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:31:33"
+change_signal: "2026-05-20T20:31:33"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "154a1bcb879993880cc4b4a0b92a4840c238639d3d32fec012738b1612d4507f"
+body_chars: 3243
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Track monthly usage and run WP-CLI commands with the Kinsta API
 
-**Section:** Changelog > Track monthly usage and run WP-CLI commands with the Kinsta API
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/kinsta-api-dec-2025/
-**Kinsta last updated:** 2026-05-20T20:31:33+00:00
+**Kinsta last updated:** 2026-05-20T20:31:33
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [Build on your workflows with the latest Kinsta API additions](#build-on-your-workflows-with-the-latest-kinsta-api-additions)
 
 ---
-
-Updated
-:   May 20, 2026
-
-![](https://kinsta.com/wp-content/uploads/2025/12/new-api-endpoints_3-1024x536.png)
 
 Tracking your website’s resource usage and automating WordPress operations just got easier. This update introduces new endpoints for retrieving current-month usage metrics and running WP-CLI commands directly through the [Kinsta API](https://api-docs.kinsta.com/).
 

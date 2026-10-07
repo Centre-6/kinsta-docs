@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/wordpress-connection-errors/"
-title: "Troubleshooting - Connection Errors"
+title: "Connection Errors"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-troubleshooting"
-section: []
-kinsta_last_updated: "October 11, 2024"
-sitemap_lastmod: "2024-10-11T15:21:09+00:00"
-fetched_at: "2026-10-07T22:38:25Z"
-sha256: "c0354bfa2d7629dea20c7a879ad5f1468c4c8061ff8dde8ac154ca6cae3c88d6"
-body_chars: 6775
-extracted_with: "main article"
+section: ["WordPress Hosting", "Troubleshooting"]
+kinsta_last_updated: "2024-10-11T15:21:09"
+change_signal: "2024-10-11T15:21:09"
+fetched_at: "2026-10-07T22:58:18Z"
+sha256: "42e0e70e7442854482ba1d1cc7df5e818775c50305bfdfce182c960b59b792bf"
+body_chars: 6774
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Troubleshooting - Connection Errors
+# Connection Errors
 
+**Section:** WordPress Hosting > Troubleshooting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/wordpress-connection-errors/
-**Kinsta last updated:** October 11, 2024
+**Kinsta last updated:** 2024-10-11T15:21:09
 
 ## On this page
 
@@ -94,4 +95,4 @@ If you are the owner of the site that has the connection error, you should check
    - In [MyKinsta](https://my.kinsta.com/) ensure your plan is active and hasn’t been cancelled due to a [failed payment](https://kinsta.com/docs/billing/payments/unpaid-invoice/).
    - Make sure your domain registration is up to date. If the domain has expired, renew it with your registrar.
 
-If none of the steps above resolve the issue, please [contact our Support Team](https://kinsta.com/docs/support/contact-support/).
+If none of the steps above resolve the issue, please [contact our Support Team](https://kinsta.com/docs/support/contact-support).

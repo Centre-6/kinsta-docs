@@ -5,35 +5,23 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta News", "The cloud became too complex. Sevalla is building the off-ramp for production teams"]
-kinsta_last_updated: "2026-06-08T08:43:47+00:00"
-sitemap_lastmod: "2026-06-08T08:43:47"
-fetched_at: "2026-10-07T22:42:22Z"
-sha256: "36f0a9335f52f532e9c6e89242cdc4e4f0d22849bf8eab84e713146c02ffec21"
-body_chars: 5807
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-08T08:43:47"
+change_signal: "2026-06-08T08:43:47"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "05f3c0014f2a0fd9c6ee2c8f33a636616833ca7b8d805cd7c3a883d7196d4f7b"
+body_chars: 5107
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # The cloud became too complex. Sevalla is building the off-ramp for production teams
 
-**Section:** Resource Center > Blog > Kinsta News > The cloud became too complex. Sevalla is building the off-ramp for production teams
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/the-cloud-became-too-complex-sevalla-is-building-the-off-ramp-for-production-teams/
-**Kinsta last updated:** 2026-06-08T08:43:47+00:00
+**Kinsta last updated:** 2026-06-08T08:43:47
 
 ---
-
-Author
-:   [Kinsta](https://kinsta.com/blog/author/kinstateam/ "Posts by Kinsta")
-
-Updated
-:   June 8, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/06/the-cloud-became-too-complex-sevalla-is-building-the-off-ramp-for-production-teams-1024x511.png)
 
 *Production platform helps development teams build and run AI-enabled applications without managing infrastructure, pipelines, or Kubernetes overhead*
 
@@ -72,7 +60,3 @@ Developers can start deploying applications on Sevalla immediately with a free t
 Sevalla by Kinsta is a production platform for developer-led teams that want to deploy and run applications without managing cloud infrastructure or Kubernetes. The platform supports production applications, databases, object storage, static sites, and background workloads through a usage-based model designed for operational simplicity without losing control.
 
 This content was originally published on [Business Wire](https://www.businesswire.com/news/home/20260602635107/en/The-Cloud-Became-Too-Complex.-Sevalla-Is-Building-the-Off-Ramp-for-Production-Teams).
-
-Kinsta
-
-The Kinsta Team consists of WordPress experts, performance engineers, and support professionals passionate about fast, secure, and scalable hosting. We publish in-depth guides, research, and practical advice to help you build and grow with WordPress.

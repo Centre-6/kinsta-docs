@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Kinsta Static Site Hosting is Fast and Free"]
-kinsta_last_updated: "2026-05-06T14:31:09+00:00"
-sitemap_lastmod: "2026-05-06T14:31:09+00:00"
-fetched_at: "2026-10-07T22:37:26Z"
-sha256: "e055883bb324511a9cf47dbd8714017abffb4ff9168de4c2064353f3fd49320e"
-body_chars: 6634
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-06T14:31:09"
+change_signal: "2026-05-06T14:31:09"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "3ead02808479ba1acfac871b6a083ede206be2cef81901c55584dfdc4b0e260a"
+body_chars: 6470
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Kinsta Static Site Hosting is Fast and Free
 
-**Section:** Changelog > Kinsta Static Site Hosting is Fast and Free
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/static-site-hosting/
-**Kinsta last updated:** 2026-05-06T14:31:09+00:00
+**Kinsta last updated:** 2026-05-06T14:31:09
 
 ## On this page
 
@@ -30,11 +29,6 @@ status: "live"
 - [Time to Start Building Your Static Site](#time-to-start-building-your-static-site)
 
 ---
-
-Updated
-:   May 6, 2026
-
-![An illustration representing static site hosting.](https://kinsta.com/wp-content/uploads/2023/10/free-static-site-hosting-1024x536.jpg)
 
 After months of Beta testing, Kinsta is making [Static Site Hosting](https://sevalla.com/static-site-hosting/) available to anyone who needs to serve up HTML pages and assets like JavaScript and CSS files at lightning-fast speed.
 

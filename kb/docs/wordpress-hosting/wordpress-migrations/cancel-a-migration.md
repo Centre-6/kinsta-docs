@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/cancel-a-migration/"
-title: "Migrations - Cancel a Migration Request"
+title: "Cancel a Migration Request"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-migrations"
-section: []
-kinsta_last_updated: "April 20, 2026"
-sitemap_lastmod: "2026-04-20T09:56:20+00:00"
-fetched_at: "2026-10-07T22:40:01Z"
+section: ["WordPress Hosting", "Migrations"]
+kinsta_last_updated: "2026-04-20T09:56:20"
+change_signal: "2026-04-20T09:56:20"
+fetched_at: "2026-10-07T22:58:16Z"
 sha256: "50d0b0aef1ddeeac1ca839a6c710c9b7c1dc6e76fa289793da08e18e3b3fffc6"
 body_chars: 1315
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Migrations - Cancel a Migration Request
+# Cancel a Migration Request
 
+**Section:** WordPress Hosting > Migrations
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/cancel-a-migration/
-**Kinsta last updated:** April 20, 2026
+**Kinsta last updated:** 2026-04-20T09:56:20
 
 ---
 

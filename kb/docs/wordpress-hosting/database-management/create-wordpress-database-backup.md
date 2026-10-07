@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/database-management/create-wordpress-database-backup/"
-title: "Database Management - Database Backup"
+title: "Database Backup"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "database-management"
-section: []
-kinsta_last_updated: "October 15, 2025"
-sitemap_lastmod: "2025-10-15T10:44:15+00:00"
-fetched_at: "2026-10-07T22:38:58Z"
-sha256: "a989db5c7da40e04df42991d4b8dec3e32c2424322d1eaf67b5186ba40c9f7b1"
-body_chars: 4602
-extracted_with: "main article"
+section: ["WordPress Hosting", "Database Management"]
+kinsta_last_updated: "2025-10-15T10:44:15"
+change_signal: "2025-10-15T10:44:15"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "1b570b64013a01019b586b927d57bb90352c25e8a6cb18145b4e12a050fd1edb"
+body_chars: 4587
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Database Management - Database Backup
+# Database Backup
 
+**Section:** WordPress Hosting > Database Management
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/database-management/create-wordpress-database-backup/
-**Kinsta last updated:** October 15, 2025
+**Kinsta last updated:** 2025-10-15T10:44:15
 
 ## On this page
 
@@ -38,6 +39,7 @@ With this option, you’ll extract your site’s database from a backup you down
 
 1. If you haven’t already, log in to [MyKinsta](https://my.kinsta.com) and select your site on the **Sites** page.
 2. Go to **Backups** > **Download** and click on the **Create backup now** button. This may take a bit of time to complete, depending on the size of your site. We’ll keep you updated with a notification in MyKinsta as well as an email to let you know when it’s ready.
+
    ![Downloadable backups in MyKinsta.](https://kinsta.com/wp-content/uploads/2023/11/wordpress-backups-download.png)
 
    Downloadable backups in MyKinsta.
@@ -55,11 +57,13 @@ With this option, you’ll extract your site’s database from a backup you down
 
 1. Log in to [MyKinsta](https://my.kinsta.com), go to **Sites**, and select your site in the list.
 2. On the **Info** tab, scroll down to **Database access**. Click **Open phpMyAdmin**, which will open phpMyAdmin in a new tab in your browser and automatically log you in using your database credentials.
+
    ![Open phpMyAdmin from MyKinsta.](https://kinsta.com/wp-content/uploads/2025/11/wordpress-open-phpmyadmin.png)
 
    Open phpMyAdmin from MyKinsta.
 3. Click on the **Export** tab near the top of the page.
 4. Select the **Quick** export method, keep the format as **SQL**, and click **Export** to download your database backup (.SQL file).
+
    ![Exporting a database with the quick export method in phpMyAdmin.](https://kinsta.com/wp-content/uploads/2026/04/phpmyadmin-export.png)
 
    Exporting a database with the quick export method in phpMyAdmin.
@@ -70,14 +74,10 @@ If you have trouble with the phpMyAdmin interface or just want to use a differen
 
 1. Connect to your server [with SSH](https://kinsta.com/docs/wordpress-hosting/connect-to-ssh/) and navigate to the public directory:
 
-   Copy
-
    ```
    cd public
    ```
 2. Export your site’s database (replace db-backup-name with your preferred file name):
-
-   Copy
 
    ```
    wp db export db-backup-name.sql

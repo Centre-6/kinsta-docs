@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/devkinsta/devkinsta-troubleshooting/xdebug-support/"
-title: "Troubleshooting - Xdebug Support"
+title: "Xdebug Support"
 tier: "docs"
 product: "devkinsta"
 product_label: "DevKinsta (local dev tool, not hosting)"
 subsection: "devkinsta-troubleshooting"
-section: []
-kinsta_last_updated: "July 18, 2024"
-sitemap_lastmod: "2024-07-18T08:40:53+00:00"
-fetched_at: "2026-10-07T22:38:06Z"
-sha256: "aac1c4ceecb0f3be706badc2724e766b0102649f862c86cdc71cbe12ded251ec"
-body_chars: 1750
-extracted_with: "main article"
+section: ["DevKinsta", "Troubleshooting"]
+kinsta_last_updated: "2024-07-18T08:40:53"
+change_signal: "2024-07-18T08:40:53"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "e4f5a1bae32a42d59f1fff25cc8de14766be8af91bf8f16f1ddeb4f1cb3ec908"
+body_chars: 1705
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Troubleshooting - Xdebug Support
+# Xdebug Support
 
+**Section:** DevKinsta > Troubleshooting
 **Product:** DevKinsta (local dev tool, not hosting)
 **Source:** https://kinsta.com/docs/devkinsta/devkinsta-troubleshooting/xdebug-support/
-**Kinsta last updated:** July 18, 2024
+**Kinsta last updated:** 2024-07-18T08:40:53
 
 ## On this page
 
@@ -40,23 +41,17 @@ In order to make the necessary changes to configure Xdebug with your site in Dev
 
 ### Mac
 
-Copy
-
 ```
 ifconfig -l | xargs -n1 ipconfig getifaddr
 ```
 
 If that doesn’t return your IP address, try the following:
 
-Copy
-
 ```
 ipconfig getifaddr en0
 ```
 
 or
-
-Copy
 
 ```
 ipconfig getifaddr en1
@@ -66,15 +61,11 @@ ipconfig getifaddr en1
 
 Run this command in WSL:
 
-Copy
-
 ```
 grep nameserver /etc/resolv.conf | cut -d ' ' -f2
 ```
 
 ### Linux
-
-Copy
 
 ```
 hostname -I | cut -d ' ' -f1
@@ -85,8 +76,6 @@ hostname -I | cut -d ' ' -f1
 1. Open DevKinsta and navigate to the Site configurations screen for the site where you want to enable Xdebug.
 2. Scroll down to **PHP.ini Editor**, add the following, replacing <youripaddress> with your actual IP address, and click the **Save changes** button:
 
-   Copy
-
    ```
    xdebug.client_host = <youripaddress>
    ```
@@ -96,8 +85,6 @@ hostname -I | cut -d ' ' -f1
 In your preferred IDE or code editor, open your site and edit your debugging configuration.
 
 In this example, we’re using Visual Studio Code (aka VS Code), so we’ll edit the **launch.json** file and configure the path to our site. Replace SITE_NAME with the actual folder name of your site.
-
-Copy
 
 ```
 {

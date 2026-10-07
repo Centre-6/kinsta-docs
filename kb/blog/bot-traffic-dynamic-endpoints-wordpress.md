@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Bot Traffic", "Why dynamic endpoints are the most expensive part of bot traffic"]
-kinsta_last_updated: "2026-05-12T16:50:52+00:00"
-sitemap_lastmod: "2026-05-12T16:50:52"
-fetched_at: "2026-10-07T22:42:22Z"
-sha256: "07b3541e92fc3d57cf1b0999f97a36ad32012f7e2a04ed2b2ec65abe0accd0df"
-body_chars: 13627
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-12T16:50:52"
+change_signal: "2026-05-12T16:50:52"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "11869ad2c3009d0475fd08b6247201eb7c6c3d4d1723b42968b1a96761751f14"
+body_chars: 12732
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Why dynamic endpoints are the most expensive part of bot traffic
 
-**Section:** Resource Center > Blog > Bot Traffic > Why dynamic endpoints are the most expensive part of bot traffic
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/bot-traffic-dynamic-endpoints-wordpress/
-**Kinsta last updated:** 2026-05-12T16:50:52+00:00
+**Kinsta last updated:** 2026-05-12T16:50:52
 
 ## On this page
 
@@ -38,17 +37,6 @@ status: "live"
 - [Going deeper: The full picture on bot traffic](#going-deeper-the-full-picture-on-bot-traffic)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   June 4, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/05/why-dynamic-endpoints-are-the-most-expensive-part-off-bot-traffic-1024x512.png)
 
 Bot traffic is often framed as a security problem or an SEO problem. But on [WordPress hosting infrastructure](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/wordpress-infrastructure/), it shows up as a performance problem, specifically one concentrated in a very particular set of URLs.
 
@@ -189,13 +177,3 @@ For a complete look at what’s changed, the data behind it, and a framework for
 If you’re ready to act on what you’ve read here, [Kinsta’s Bot Protection](https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/wordpress-tools-bot-protection/) handles the most common patterns automatically, including protection for high-cost dynamic endpoints. Enable your desired level of protection once in MyKinsta, and the system manages the rest.
 
 You can also reach out to the support team if you need clarification.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

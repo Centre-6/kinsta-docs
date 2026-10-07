@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-analytics-mykinsta/counting-visits/"
-title: "Analytics - Counting Visits"
+title: "Counting Visits"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-analytics-mykinsta"
-section: []
-kinsta_last_updated: "October 27, 2025"
-sitemap_lastmod: "2025-10-27T10:00:55+00:00"
-fetched_at: "2026-10-07T22:39:00Z"
+section: ["WordPress Hosting", "Analytics"]
+kinsta_last_updated: "2025-10-27T10:00:55"
+change_signal: "2025-10-27T10:00:55"
+fetched_at: "2026-10-07T22:58:19Z"
 sha256: "1660f27dd52797c58091a1cea608c919eaef4788280aa07a09f46b1e51c961d6"
 body_chars: 16026
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Analytics - Counting Visits
+# Counting Visits
 
+**Section:** WordPress Hosting > Analytics
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-analytics-mykinsta/counting-visits/
-**Kinsta last updated:** October 27, 2025
+**Kinsta last updated:** 2025-10-27T10:00:55
 
 ## On this page
 

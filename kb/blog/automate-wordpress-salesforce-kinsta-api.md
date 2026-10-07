@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "API", "How to automate WordPress go-live from Salesforce using the Kinsta API"]
-kinsta_last_updated: "2026-06-19T10:48:58+00:00"
-sitemap_lastmod: "2026-06-19T10:48:58"
-fetched_at: "2026-10-07T22:42:26Z"
-sha256: "2114113f8ff3c0c974b5f66f6c255dd480e3dffed45276cfe222d59552d06ea6"
-body_chars: 19649
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-19T10:48:58"
+change_signal: "2026-06-19T10:48:58"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "b97e7ca6642bd8f93bae1b309ae4ed3d087b7465bda82a26198c47c5361b97f5"
+body_chars: 18750
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How to automate WordPress go-live from Salesforce using the Kinsta API
 
-**Section:** Resource Center > Blog > API > How to automate WordPress go-live from Salesforce using the Kinsta API
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/automate-wordpress-salesforce-kinsta-api/
-**Kinsta last updated:** 2026-06-19T10:48:58+00:00
+**Kinsta last updated:** 2026-06-19T10:48:58
 
 ## On this page
 
@@ -37,17 +36,6 @@ status: "live"
 - [Automating your agency’s deployment workflow with Salesforce and Kinsta](#automating-your-agencys-deployment-workflow-with-salesforce-and-kinsta)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   June 19, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/04/how-to-automate-wordpress-go-live-from-salesforce-using-the-kinsta-api-1024x512.png)
 
 When a deal closes in Salesforce, the site it represents still depends on a separate set of manual steps to go live. A [developer](https://kinsta.com/blog/types-of-developers/) has to find the right client site in [MyKinsta](https://kinsta.com/mykinsta/), create a backup, and [push staging to production](https://kinsta.com/docs/wordpress-hosting/staging-environment/), all at the right moment.
 
@@ -386,13 +374,3 @@ You can close the loop between the Kinsta API and Salesforce through a middlewar
 When the middleware is ready for production, [Sevalla](https://sevalla.com/) is a deployment target built for exactly this kind of Node.js service. You push the project to a Git provider, connect the repository, add the environment variables, and update the Salesforce HTTP Callout URL to the live middleware address.
 
 For agencies building automation across a client portfolio, Kinsta’s [Agency Partner Program](https://kinsta.com/agency-partner-program/) provides the infrastructure partnership and dedicated support that make this kind of work sustainable at scale.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

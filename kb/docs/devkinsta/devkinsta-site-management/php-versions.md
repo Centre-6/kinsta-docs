@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/devkinsta/devkinsta-site-management/php-versions/"
-title: "Site Management - PHP Versions"
+title: "PHP Versions"
 tier: "docs"
 product: "devkinsta"
 product_label: "DevKinsta (local dev tool, not hosting)"
 subsection: "devkinsta-site-management"
-section: []
-kinsta_last_updated: "January 28, 2026"
-sitemap_lastmod: "2026-01-28T17:25:01+00:00"
-fetched_at: "2026-10-07T22:39:17Z"
+section: ["DevKinsta", "Site Management"]
+kinsta_last_updated: "2026-01-28T17:25:01"
+change_signal: "2026-01-28T17:25:01"
+fetched_at: "2026-10-07T22:58:19Z"
 sha256: "d288d71f321081f7ee9a0e261f76e315cf19e43de6cf6f2e44dc6f84dd14b27b"
 body_chars: 700
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Site Management - PHP Versions
+# PHP Versions
 
+**Section:** DevKinsta > Site Management
 **Product:** DevKinsta (local dev tool, not hosting)
 **Source:** https://kinsta.com/docs/devkinsta/devkinsta-site-management/php-versions/
-**Kinsta last updated:** January 28, 2026
+**Kinsta last updated:** 2026-01-28T17:25:01
 
 ---
 

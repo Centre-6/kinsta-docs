@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Hosting", "How to organize multiple WordPress sites in MyKinsta: from chaos to order"]
-kinsta_last_updated: "2026-07-02T15:50:23+00:00"
-sitemap_lastmod: "2026-07-02T15:50:23"
-fetched_at: "2026-10-07T22:42:07Z"
-sha256: "9f122fa221573bb5bc2e3843320bd515b0f376707eee70fcf0ca3ea4020deca7"
-body_chars: 17552
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-07-02T15:50:23"
+change_signal: "2026-07-02T15:50:23"
+fetched_at: "2026-10-07T22:58:24Z"
+sha256: "2b890f9dc591e6698f6df316cff75d79c26b8315adfc00192c81efe913b36e1d"
+body_chars: 16618
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How to organize multiple WordPress sites in MyKinsta: from chaos to order
 
-**Section:** Resource Center > Blog > WordPress Hosting > How to organize multiple WordPress sites in MyKinsta: from chaos to order
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/organize-wordpress-sites/
-**Kinsta last updated:** 2026-07-02T15:50:23+00:00
+**Kinsta last updated:** 2026-07-02T15:50:23
 
 ## On this page
 
@@ -38,17 +37,6 @@ status: "live"
 - [Take control of your portfolio with MyKinsta](#take-control-of-your-portfolio-with-mykinsta)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   August 13, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/07/from-chaos-to-order-strategies-for-tagging-and-organizing-hundreds-of-sites-without-losing-controless-1024x512.png)
 
 [Kinsta’s agency plans](https://kinsta.com/pricing/) put every site you manage within MyKinsta. This gives you control, but to keep a large portfolio in order, you have to build the system. Kinsta includes the tools to do it.
 
@@ -229,13 +217,3 @@ The difference between a chaotic site list and an organized one is a system with
 If you’re starting today, the first 30 minutes involve exporting your sites and renaming them to one convention, building the label taxonomy and rules, applying the labels in bulk, then auditing your user roles. Documenting the system is also vital.
 
 The Kinsta API takes over once you outgrow the dashboard’s filters. As it keeps expanding, the system you build in the dashboard becomes the foundation for your workflows. Check out [Kinsta’s managed WordPress hosting](https://kinsta.com/wordpress-hosting/) to set up your organized portfolio and put it to work.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

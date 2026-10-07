@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Security", "Reliability under human error: when editors, developers, or plugins break things"]
-kinsta_last_updated: "2026-05-20T20:30:49+00:00"
-sitemap_lastmod: "2026-05-20T20:30:49"
-fetched_at: "2026-10-07T22:42:31Z"
-sha256: "e70de06748a33332651fe7ac5a995f00fdb36771a022edea895077d0d13b8989"
-body_chars: 12303
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:30:49"
+change_signal: "2026-05-20T20:30:49"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "a1dbb3c1f180e0a46e82938ac274e22513dd79a59c156397c0b99412f5b0d5b8"
+body_chars: 11635
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Reliability under human error: when editors, developers, or plugins break things
 
-**Section:** Resource Center > Blog > WordPress Security > Reliability under human error: when editors, developers, or plugins break things
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/reliability-under-human-error/
-**Kinsta last updated:** 2026-05-20T20:30:49+00:00
+**Kinsta last updated:** 2026-05-20T20:30:49
 
 ## On this page
 
@@ -32,17 +31,6 @@ status: "live"
   - [Reliability is what happens after things go wrong](#reliability-is-what-happens-after-things-go-wrong)
 
 ---
-
-Author
-:   [Bud Kraus](https://kinsta.com/blog/author/budkraus/ "Posts by Bud Kraus")
-
-Updated
-:   May 20, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/03/reliability-under-human-error-when-editors-developers-or-plugins-break-things-1024x513.png)
 
 Most WordPress outages don’t start with [traffic spikes](https://kinsta.com/blog/how-to-handle-traffic-surges/) or infrastructure failures. They start with ordinary changes, such as a plugin update, a configuration file adjustment, or a small fix pushed live.
 
@@ -185,7 +173,3 @@ What separates stable sites from fragile ones is how those mistakes are handled.
 This is the kind of environment Kinsta is designed to support. From [built-in staging](https://kinsta.com/docs/wordpress-hosting/staging-environment/) and [automatic backups](https://kinsta.com/docs/wordpress-hosting/wordpress-backups/) to fast, controlled restore points, the goal is not just to keep sites online but to make them resilient to the everyday changes that typically cause problems.
 
 If your current setup makes recovery slow, uncertain, or stressful, it may be worth rethinking not just how you manage your site, but the system that supports it.
-
-Bud Kraus
-
-Bud Kraus has been working with WordPress as an in-class and online instructor, site developer, and content creator since 2009. He has produced instructional videos and written many articles for WordPress businesses.

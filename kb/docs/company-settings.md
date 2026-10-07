@@ -6,12 +6,12 @@ product: "company-settings"
 product_label: "MyKinsta Company Settings"
 subsection:
 section: []
-kinsta_last_updated: "March 7, 2025"
-sitemap_lastmod: "2025-03-07T16:13:17+00:00"
-fetched_at: "2026-10-07T22:38:30Z"
-sha256: "286c202b3f69424fade884a581d85302497379d67714ca3fa2bfb230bb761ce4"
-body_chars: 1901
-extracted_with: "main article"
+kinsta_last_updated: "2025-03-07T16:13:17"
+change_signal: "2025-03-07T16:13:17"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "5e106ceb224da4ca5eec13b85ad8ed1c7ad4d0d0cb94b9d19820050f9fa6040f"
+body_chars: 1900
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
@@ -19,7 +19,7 @@ status: "live"
 
 **Product:** MyKinsta Company Settings
 **Source:** https://kinsta.com/docs/company-settings/
-**Kinsta last updated:** March 7, 2025
+**Kinsta last updated:** 2025-03-07T16:13:17
 
 ---
 
@@ -36,7 +36,7 @@ The company settings documentation includes the following:
 - [Create a company](https://kinsta.com/docs/company-settings/create-company/)
 - [Transfer ownership of a company or site](https://kinsta.com/docs/company-settings/transfer-ownership/)
 - [User management](https://kinsta.com/docs/company-settings/user-management/)
-- [Activity log](https://kinsta.com/docs/company-settings/activity-log/)
+- [Activity log](https://kinsta.com/docs/company-settings/activity-log)
 
 You can access the company settings within **Company settings**.
 

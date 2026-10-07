@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "You can now add your SSH keys in MyKinsta"]
-kinsta_last_updated: "2024-12-02T19:03:36+00:00"
-sitemap_lastmod: "2024-12-02T19:03:36+00:00"
-fetched_at: "2026-10-07T22:36:59Z"
-sha256: "d98c4720238e043a07db5d33012545e689eedd766c9e81040b86e6f1a809d12e"
-body_chars: 1774
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-12-02T19:03:36"
+change_signal: "2024-12-02T19:03:36"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "1dd991e950dd961bcd3bf9b2c0ac50ac67458e39f71e6d4a46979eb5cb2cbe31"
+body_chars: 1662
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # You can now add your SSH keys in MyKinsta
 
-**Section:** Changelog > You can now add your SSH keys in MyKinsta
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/add-ssh-keys/
-**Kinsta last updated:** 2024-12-02T19:03:36+00:00
+**Kinsta last updated:** 2024-12-02T19:03:36
 
 ## On this page
 
@@ -30,11 +29,6 @@ status: "live"
   - [Step 3](#step-3)
 
 ---
-
-Updated
-:   December 2, 2024
-
-![SSH keys](https://kinsta.com/wp-content/uploads/2018/06/ssh-keys-1024x512.png)
 
 Being WordPress developers ourselves, we are always trying to figure out ways to speed up development workflows. Many of you utilize SSH here at Kinsta on a daily basis. Whether it is to perform common sysadmin tasks or run tools such as Composer, WP-CLI, etc.
 

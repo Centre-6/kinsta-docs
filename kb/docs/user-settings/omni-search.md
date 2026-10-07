@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/user-settings/omni-search/"
-title: "User Settings - Omni-Search"
+title: "Omni-Search"
 tier: "docs"
 product: "user-settings"
 product_label: "MyKinsta User Settings"
 subsection: "omni-search"
-section: []
-kinsta_last_updated: "February 5, 2025"
-sitemap_lastmod: "2025-02-05T16:40:21+00:00"
-fetched_at: "2026-10-07T22:38:30Z"
+section: ["User Settings"]
+kinsta_last_updated: "2025-02-05T16:40:21"
+change_signal: "2025-02-05T16:40:21"
+fetched_at: "2026-10-07T22:58:18Z"
 sha256: "cf80669608dffc71c9d66904386196d25e8dbc063ffa988239b56c8edd996fd2"
 body_chars: 1161
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# User Settings - Omni-Search
+# Omni-Search
 
+**Section:** User Settings
 **Product:** MyKinsta User Settings
 **Source:** https://kinsta.com/docs/user-settings/omni-search/
-**Kinsta last updated:** February 5, 2025
+**Kinsta last updated:** 2025-02-05T16:40:21
 
 ---
 

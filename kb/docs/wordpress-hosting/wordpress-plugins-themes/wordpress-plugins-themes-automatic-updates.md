@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-plugins-themes-automatic-updates/"
-title: "Plugins and Themes - Automatic Updates"
+title: "Automatic Updates"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-plugins-themes"
-section: []
-kinsta_last_updated: "June 8, 2026"
-sitemap_lastmod: "2026-06-08T13:48:40+00:00"
-fetched_at: "2026-10-07T22:40:25Z"
+section: ["WordPress Hosting", "Plugins and Themes"]
+kinsta_last_updated: "2026-06-08T13:48:40"
+change_signal: "2026-06-08T13:48:40"
+fetched_at: "2026-10-07T22:58:17Z"
 sha256: "276c70c19d9eefafc24f9aee2afaccc84cefacd5a6e2c183a3c8624a624370da"
 body_chars: 20241
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Plugins and Themes - Automatic Updates
+# Automatic Updates
 
+**Section:** WordPress Hosting > Plugins and Themes
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-plugins-themes-automatic-updates/
-**Kinsta last updated:** June 8, 2026
+**Kinsta last updated:** 2026-06-08T13:48:40
 
 ## On this page
 

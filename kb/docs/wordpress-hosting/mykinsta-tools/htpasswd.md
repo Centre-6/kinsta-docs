@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/htpasswd/"
-title: "Tools - htpasswd Protection"
+title: "htpasswd Protection"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "mykinsta-tools"
-section: []
-kinsta_last_updated: "September 24, 2024"
-sitemap_lastmod: "2024-09-24T14:13:22+00:00"
-fetched_at: "2026-10-07T22:38:24Z"
-sha256: "7340c2794bfa14097876ac0ef5e598c88dbc1b0b135d064f83fa8cca32499ecf"
-body_chars: 4304
-extracted_with: "main article"
+section: ["WordPress Hosting", "Tools"]
+kinsta_last_updated: "2024-09-24T14:13:22"
+change_signal: "2024-09-24T14:13:22"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "108ff8fd1e8b3e6f974b2b27e668f83204e902965d62e8a19e4fd2fe6c3bc419"
+body_chars: 4349
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Tools - htpasswd Protection
+# htpasswd Protection
 
+**Section:** WordPress Hosting > Tools
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/htpasswd/
-**Kinsta last updated:** September 24, 2024
+**Kinsta last updated:** 2024-09-24T14:13:22
 
 ## On this page
 
@@ -39,6 +40,7 @@ Our **.htpasswd** tool adds password protection to your **entire** WordPress sit
 1. Log in to [MyKinsta](https://my.kinsta.com/login/).
 2. Go to**Sites** and click on the site that you want to enable password protection on.
 3. Click on **Tools** on the left-hand side. Then scroll down, and under **Password protection**, click **Enable**.
+
    ![Enable .htpasswd protection.](https://kinsta.com/wp-content/uploads/2025/06/wordpress-tools-password-protection.png)
 
    Enable .htpasswd protection.
@@ -72,7 +74,7 @@ The security prompt may appear slightly different, depending on your browser. In
 
 In Mozilla Firefox, it will be an **Authentication Required** modal/pop-up.
 
-![Authentication required prompt in Firefox.](https://kinsta.com/wp-content/uploads/2019/08/authentication-required-prompt-in-firefox.png)
+![Authentication required prompt in Firefox.](https://kinsta.com/wp-content/uploads/2019/08/authentication-required-prompt-in-firefox.png "Authentication required prompt in Firefox")
 
 Authentication required prompt in Firefox.
 

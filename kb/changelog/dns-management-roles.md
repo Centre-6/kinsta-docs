@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "A new option for sharing the management of DNS in MyKinsta"]
-kinsta_last_updated: "2024-04-09T15:50:54+00:00"
-sitemap_lastmod: "2024-04-09T13:50:54+00:00"
-fetched_at: "2026-10-07T22:36:50Z"
-sha256: "cfdc8e1ab930d60aeccb94efe67993395661de6902d6f4672777fd5afd13d050"
-body_chars: 4162
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-04-09T13:50:54"
+change_signal: "2024-04-09T13:50:54"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "ab4bc765714038c7c6eb82a8379649bc2897a16dd3c403b06b3e8b2d744ad623"
+body_chars: 3927
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # A new option for sharing the management of DNS in MyKinsta
 
-**Section:** Changelog > A new option for sharing the management of DNS in MyKinsta
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/dns-management-roles/
-**Kinsta last updated:** 2024-04-09T15:50:54+00:00
+**Kinsta last updated:** 2024-04-09T13:50:54
 
 ---
-
-Published
-:   April 9, 2024
-
-![Illustration of the MyKinsta DNS Managament dialog and the words 'DNS management for site administrators.'](https://kinsta.com/wp-content/uploads/2024/04/dns-management-site-administrators-1024x536.png)
 
 Kinsta’s [Managed WordPress Hosting](https://kinsta.com/wordpress-hosting/) customers now have increased flexibility when managing [DNS](https://kinsta.com/blog/what-is-dns/) records associated with their website domains.
 

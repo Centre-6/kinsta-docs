@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Bot Traffic", "Why bot traffic is now an infrastructure problem (not just an SEO problem)"]
-kinsta_last_updated: "2026-05-19T12:29:34+00:00"
-sitemap_lastmod: "2026-05-19T12:29:34"
-fetched_at: "2026-10-07T22:42:18Z"
-sha256: "12fd935bbb4eab9e817c92f0d086f10458df7dd00ba6f4a668b2a91ace103ed9"
-body_chars: 21561
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-19T12:29:34"
+change_signal: "2026-05-19T12:29:34"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "ed57a47f2f543a04b021fcb7aac035bddcadaa67d38c984e849779fef2231163"
+body_chars: 20658
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Why bot traffic is now an infrastructure problem (not just an SEO problem)
 
-**Section:** Resource Center > Blog > Bot Traffic > Why bot traffic is now an infrastructure problem (not just an SEO problem)
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/ai-bot-traffic-wordpress-infrastructure-problem/
-**Kinsta last updated:** 2026-05-19T12:29:34+00:00
+**Kinsta last updated:** 2026-05-19T12:29:34
 
 ## On this page
 
@@ -36,17 +35,6 @@ status: "live"
 - [The bigger picture: this problem will get harder](#the-bigger-picture-this-problem-will-get-harder)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   June 23, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/05/why-bot-traffic-is-now-an-infrastructure-problem-not-just-an-seo-problem-1024x512.png)
 
 Over the past 18 months, the focus on bot traffic has shifted from crawling and indexing to its impact on your server’s core performance, your hosting bill, and your ability to serve real customers.
 
@@ -257,13 +245,3 @@ Most site owners can’t keep up with that on their own. Bot behavior evolves fa
 This is the case for infrastructure that handles it for you. Kinsta’s platform blocks 15–20% of malicious traffic before it ever reaches your site, sits on Cloudflare’s enterprise network, and gives you bot protection controls that adapt to how your site actually behaves. As bot traffic continues to evolve, the difference between a hosting platform that treats this as an infrastructure problem and one that treats it as a footnote will become increasingly hard to ignore.
 
 The sites that navigate this well won’t be the ones that blocked the most. They’ll be the ones running on infrastructure built to handle bots best.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

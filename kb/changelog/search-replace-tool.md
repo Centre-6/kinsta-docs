@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Search and Replace Tool Launched"]
-kinsta_last_updated: "2020-12-30T16:51:07+00:00"
-sitemap_lastmod: "2020-12-30T16:51:07+00:00"
-fetched_at: "2026-10-07T22:36:42Z"
-sha256: "2b483c37aa6a4ff7a834c24950c7ac613a1c7a49cdd31da6fd1dc85928c4a7ec"
-body_chars: 1416
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2020-12-30T16:51:07"
+change_signal: "2020-12-30T16:51:07"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "3731834bc1835d39fd60841938643b7eb838e502b7e5bca45bbfdfa9122fb112"
+body_chars: 1268
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Search and Replace Tool Launched
 
-**Section:** Changelog > Search and Replace Tool Launched
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/search-replace-tool/
-**Kinsta last updated:** 2020-12-30T16:51:07+00:00
+**Kinsta last updated:** 2020-12-30T16:51:07
 
 ---
-
-Updated
-:   December 30, 2020
-
-![Kinsta search and replace tool](https://kinsta.com/wp-content/uploads/2017/12/search-replace-tool-1-1024x512.png)
 
 We just launched our search and replace tool and it’s now available in the [MyKinsta dashboard](https://my.kinsta.com/) for all clients. This was a highly requested feature, as it **helps make bulk updates on your site a breeze!**
 

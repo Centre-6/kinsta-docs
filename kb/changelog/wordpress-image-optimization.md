@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Speed things up with automatic Image Optimization"]
-kinsta_last_updated: "2026-05-14T19:04:20+00:00"
-sitemap_lastmod: "2026-05-14T19:04:20+00:00"
-fetched_at: "2026-10-07T22:37:35Z"
-sha256: "f8a9c03d5b47c0de6d37e62bf7530dea5658c5ab80cfe75b5730c43f714cafa5"
-body_chars: 4804
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-14T19:04:20"
+change_signal: "2026-05-14T19:04:20"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "e6909cf71fd0bf0ee1183df9b3b03141692f2325bd8088656d223d918627dae2"
+body_chars: 4648
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Speed things up with automatic Image Optimization
 
-**Section:** Changelog > Speed things up with automatic Image Optimization
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/wordpress-image-optimization/
-**Kinsta last updated:** 2026-05-14T19:04:20+00:00
+**Kinsta last updated:** 2026-05-14T19:04:20
 
 ## On this page
 
@@ -30,11 +29,6 @@ status: "live"
 - [Take control of asset optimization](#take-control-of-asset-optimization)
 
 ---
-
-Updated
-:   May 14, 2026
-
-![Image Optimization at Kinsta](https://kinsta.com/wp-content/uploads/2022/12/Feature-Update-Image-Optimization_EN-1024x536.png)
 
 Attention, WordPress users! We’re excited to announce the release of our new free Image Optimization feature for all customers on Kinsta’s Managed WordPress Hosting.
 

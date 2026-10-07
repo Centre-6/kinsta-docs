@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/sucuri/"
-title: "CDN - Sucuri"
+title: "Sucuri"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-cdn"
-section: []
-kinsta_last_updated: "August 13, 2024"
-sitemap_lastmod: "2024-08-13T10:13:27+00:00"
-fetched_at: "2026-10-07T22:38:12Z"
-sha256: "a6480f8ad7ab0d6e241178b25ff05a3727b1c715cdadcc24f720a89064ea2ba1"
-body_chars: 13287
-extracted_with: "main article"
+section: ["WordPress Hosting", "CDN"]
+kinsta_last_updated: "2024-08-13T10:13:27"
+change_signal: "2024-08-13T10:13:27"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "bf5a7cc09fd9fac795f88563aafa3cf869763895f9de93bf36032a088ae98b05"
+body_chars: 13860
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# CDN - Sucuri
+# Sucuri
 
+**Section:** WordPress Hosting > CDN
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/sucuri/
-**Kinsta last updated:** August 13, 2024
+**Kinsta last updated:** 2024-08-13T10:13:27
 
 ## On this page
 
@@ -74,7 +75,7 @@ Log in to your Sucuri dashboard and click on the **Add Site** link near the uppe
 
 In the modal/pop-up that appears, enter your domain name and click the Add Sites button.
 
-![Add a site for monitoring in Sucuri.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-add-site.png)
+![Add a site for monitoring in Sucuri.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-add-site.png "Add a site for monitoring in Sucuri")
 
 Add a site for monitoring in Sucuri.
 
@@ -82,7 +83,7 @@ Add a site for monitoring in Sucuri.
 
 A notification appears that your site has been added and asks you if you would like to request a malware cleanup. Unless you need that, you can click the **Not Yet** button.
 
-![Decline malware clean up in Sucuri.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-site-added-malware-clean-up-prompt.png)
+![Decline malware clean up in Sucuri.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-site-added-malware-clean-up-prompt.png "Decline malware clean up in Sucuri")
 
 Decline malware cleanup in Sucuri.
 
@@ -90,7 +91,7 @@ Decline malware cleanup in Sucuri.
 
 To add Sucuri Firewall to your site, back on the My Sites page, under your domain name, click the **Add** button next to **Firewall not added**.
 
-![Adding Sucuri Firewall to your site in your Sucuri dashboard.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-add-firewall.png)
+![Adding Sucuri Firewall to your site in your Sucuri dashboard.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-add-firewall.png "Adding Sucuri Firewall to your site in your Sucuri dashboard")
 
 Adding Sucuri Firewall to your site in your Sucuri dashboard.
 
@@ -98,7 +99,7 @@ Adding Sucuri Firewall to your site in your Sucuri dashboard.
 
 On the **Firewall** page of your Sucuri dashboard, navigate to **Settings** > **General** > **Hosting IP Address**. If it hasn’t already been added automatically, add the [Site IP address](https://kinsta.com/docs/wordpress-hosting/site-management/ip-addresses/) of your site from MyKinsta.
 
-![Viewing your Hosting IP Address in Sucuri.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-firewall-hosting-ip.png)
+![Viewing your Hosting IP Address in Sucuri.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-firewall-hosting-ip.png "Viewing your Hosting IP Address in Sucuri")
 
 Viewing your Hosting IP Address in Sucuri.
 
@@ -110,7 +111,7 @@ Click Overview in the left sidebar navigation and scroll down to the **Activatin
 
 Click the internal domains link provided and make sure your site loads.
 
-![Checking your Sucuri internal domain.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-internal-domains-link.png)
+![Checking your Sucuri internal domain.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-internal-domains-link.png "Checking your Sucuri internal domain")
 
 Checking your Sucuri internal domain.
 
@@ -124,7 +125,7 @@ For this method, you’ll be changing your [DNS records](https://kinsta.com/blog
 
 Skip the “Click here to use our DNS servers” link and copy the A record that you need to point your domain to.
 
-![Copying your Sucuri A record.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-a-record-ip.png)
+![Copying your Sucuri A record.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-a-record-ip.png "Copying your Sucuri A record")
 
 Copying your Sucuri A record.
 
@@ -161,7 +162,7 @@ The steps to add or edit your domain’s DNS records may vary depending on your 
 
 Back in the Sucuri dashboard, you’ll see a status message showing the service is activated once DNS has finished propagating.
 
-![Firewall service active in Sucuri dashboard.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-firewall-activated.png)
+![Firewall service active in Sucuri dashboard.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-firewall-activated.png "Firewall service active in Sucuri dashboard")
 
 Firewall service active in Sucuri dashboard.
 
@@ -175,7 +176,7 @@ With this method, you’ll be changing your [domain’s name servers](https://ki
 
 Click the “Click here to use our DNS servers” link.
 
-![Clicking on the DNS servers link in Sucuri.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-use-sucuri-dns.png)
+![Clicking on the DNS servers link in Sucuri.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-use-sucuri-dns.png "Clicking on the DNS servers link in Sucuri")
 
 Clicking on the DNS servers link in Sucuri.
 
@@ -183,7 +184,7 @@ Clicking on the DNS servers link in Sucuri.
 
 This will take you to the DNS Manager page in Sucuri. Click on the **Activate** button to turn it on, and Sucuri will begin collecting your DNS records.
 
-![Activate DNS Manager in Sucuri.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-activate-dns-manager.png)
+![Activate DNS Manager in Sucuri.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-activate-dns-manager.png "Activate DNS Manager in Sucuri")
 
 Activate DNS Manager in Sucuri.
 
@@ -197,7 +198,7 @@ In a new browser tab, log in to your [domain registrar](https://kinsta.com/blog/
 
 Copy each of the name servers from Sucuri and paste them in at your registrar. Be sure to **either overwrite the existing name servers or delete them and add the new ones**.
 
-![Copy Sucuri name servers.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-name-servers.png)
+![Copy Sucuri name servers.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-name-servers.png "Copy Sucuri name servers.")
 
 Copy Sucuri name servers.
 
@@ -207,7 +208,7 @@ Allow for [DNS to propagate](https://kinsta.com/blog/dns-propagation/) the name 
 
 Back in the Sucuri dashboard, you’ll see a status message showing the service is activated once DNS has finished propagating.
 
-![Firewall service active in Sucuri dashboard.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-firewall-activated.png)
+![Firewall service active in Sucuri dashboard.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-firewall-activated.png "Firewall service active in Sucuri dashboard")
 
 Firewall service active in Sucuri dashboard.
 
@@ -217,7 +218,7 @@ Now that your site is connected to Sucuri, follow the steps in the next section 
 
 On the **Firewall** page, click on the **HTTPS/SSL** tab and scroll down to the **HTTPS Options**. Select **Full HTTPS** and click the **Save** button. This is important for preventing [redirect loops](https://kinsta.com/blog/err_too_many_redirects/) or other SSL errors.
 
-![Set SSL Mode to Full HTTPS in Sucuri.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-full-https.png)
+![Set SSL Mode to Full HTTPS in Sucuri.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-full-https.png "Set SSL Mode to Full HTTPS in Sucuri")
 
 Set SSL Mode to Full HTTPS in Sucuri.
 
@@ -251,7 +252,7 @@ If Cloudflare returns a 403 page on the front end or the login page, try Sucuri�
 
 If enabling **Force passing the hostname via TLS/SSL** doesn’t resolve the 403 error, disable Sucuri to see if that resolves the error and contact Sucuri support with the details.
 
-![Select Force passing the hostname via TLS/SSL Advanced Security Options in Sucuri.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-security-force-passing-hostname.png)
+![Select Force passing the hostname via TLS/SSL Advanced Security Options in Sucuri.](https://kinsta.com/wp-content/uploads/2021/09/sucuri-security-force-passing-hostname.png "Select Force passing the hostname via TLS/SSL Advanced Security Options in Sucuri")
 
 Select Force passing the hostname via TLS/SSL Advanced Security Options in Sucuri.
 

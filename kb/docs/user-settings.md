@@ -6,12 +6,12 @@ product: "user-settings"
 product_label: "MyKinsta User Settings"
 subsection:
 section: []
-kinsta_last_updated: "April 20, 2026"
-sitemap_lastmod: "2026-04-20T09:38:28+00:00"
-fetched_at: "2026-10-07T22:39:55Z"
-sha256: "7843d02d7206549b5926580d2b4bbef8c801cf0bc2eaf86fc8e70864c1bbbbff"
-body_chars: 1543
-extracted_with: "main article"
+kinsta_last_updated: "2026-04-20T09:38:28"
+change_signal: "2026-04-20T09:38:28"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "9f1ef3a4d8902657921fec6dd6ba75218f38f248bff4d308fe097a797b99a2b9"
+body_chars: 1542
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
@@ -19,7 +19,7 @@ status: "live"
 
 **Product:** MyKinsta User Settings
 **Source:** https://kinsta.com/docs/user-settings/
-**Kinsta last updated:** April 20, 2026
+**Kinsta last updated:** 2026-04-20T09:38:28
 
 ---
 
@@ -42,6 +42,6 @@ Access your user settings in MyKinsta.
 The user settings documentation contains information about the following:
 
 - [Logging In](https://kinsta.com/docs/user-settings/logging-in/) – Find out how to enable single sign-on (SSO), two-factor authentication (2FA), and how to reset your MyKinsta password.
-- [Notifications](https://kinsta.com/docs/user-settings/notifications/) – How to choose which notifications you want to receive from Kinsta.
+- [Notifications](https://kinsta.com/docs/user-settings/notifications) – How to choose which notifications you want to receive from Kinsta.
 - [Omni-Search](https://kinsta.com/docs/user-settings/omni-search/) – Find out how to navigate the MyKinsta user interface using commands.
 - [Delete My Kinsta Account](https://kinsta.com/docs/user-settings/delete-account/) – Find out how to completely remove your MyKinsta account.

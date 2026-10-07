@@ -1,26 +1,25 @@
 ---
 url: "https://kinsta.com/blog/the-complete-guide-to-managing-a-wordpress-multisite-network/"
-title: "Complete guide to managing a WordPress multisite network"
+title: "The complete guide to managing a WordPress multisite network"
 tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "The complete guide to managing a WordPress multisite network"]
-kinsta_last_updated: "2026-03-10T23:00:17+00:00"
-sitemap_lastmod: "2026-03-10T23:00:17"
-fetched_at: "2026-10-07T22:42:59Z"
-sha256: "0a2f9a661d1429d937e304e5573406e4996534b72c7d678eba76f511df429ca9"
-body_chars: 34934
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-03-10T23:00:17"
+change_signal: "2026-03-10T23:00:17"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "a38a5cb48c92536a4662f7bb5377f49d4401fa0224dcb19eac54b816c7eddce3"
+body_chars: 34138
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Complete guide to managing a WordPress multisite network
+# The complete guide to managing a WordPress multisite network
 
-**Section:** Resource Center > Blog > The complete guide to managing a WordPress multisite network
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/the-complete-guide-to-managing-a-wordpress-multisite-network/
-**Kinsta last updated:** 2026-03-10T23:00:17+00:00
+**Kinsta last updated:** 2026-03-10T23:00:17
 
 ## On this page
 
@@ -46,17 +45,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Author
-:   [Steve Bonisteel](https://kinsta.com/blog/author/stevebonisteel/ "Posts by Steve Bonisteel")
-
-Updated
-:   March 10, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![An illustration showing hands stacking building blocks that represent components of a WordPress multisite network.](https://kinsta.com/wp-content/uploads/2024/11/agencies-managing-wordpress-multisite-network-1024x512.png)
 
 If a typical WordPress site is like a single storefront, a [WordPress multisite network](https://kinsta.com/wordpress-hosting/multisite/) is an entire shopping complex: each site operates as an independent entity yet benefits from centralized management and shared resources. WordPress multisite network management can be a headache unless you have a solid hosting infrastructure as the foundation.
 
@@ -389,8 +377,3 @@ Kinsta offers [robust DNS management](https://kinsta.com/docs/wordpress-hosting/
 WordPress multisite network management requires careful planning and the right tools, but Kinsta can ease the burden through its rich architecture and infrastructure. For instance, you can build your development and deployment pipeline around DevKinsta and the built-in staging functionality. In addition, you have a wealth of monitoring and security options within the MyKinsta dashboard, including analytics and the APM tool.
 
 What challenges are you facing with WordPress multisite network management? Share your experiences in the comments section below!
-
-Steve Bonisteel
-[Kinsta](https://kinsta.com/)
-
-Steve Bonisteel is a Technical Editor at Kinsta who began his writing career as a print journalist, chasing ambulances and fire trucks. He has been covering Internet-related technology since the late 1990s.

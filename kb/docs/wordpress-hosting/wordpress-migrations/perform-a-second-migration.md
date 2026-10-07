@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/perform-a-second-migration/"
-title: "Migrations - Updating a Migrated Site Before Going Live"
+title: "Updating a Migrated Site Before Going Live"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-migrations"
-section: []
-kinsta_last_updated: "April 20, 2026"
-sitemap_lastmod: "2026-04-20T09:55:58+00:00"
-fetched_at: "2026-10-07T22:40:00Z"
-sha256: "e68a2591451442d8095308ea760277910767b1f06dad9b7b3a75aeef92d0e4f4"
-body_chars: 2840
-extracted_with: "main article"
+section: ["WordPress Hosting", "Migrations"]
+kinsta_last_updated: "2026-04-20T09:55:58"
+change_signal: "2026-04-20T09:55:58"
+fetched_at: "2026-10-07T22:58:16Z"
+sha256: "5b4e56b6532143534c1993a3bd72076ad15b78107c05304849ff56a69d2801dc"
+body_chars: 2839
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Migrations - Updating a Migrated Site Before Going Live
+# Updating a Migrated Site Before Going Live
 
+**Section:** WordPress Hosting > Migrations
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/perform-a-second-migration/
-**Kinsta last updated:** April 20, 2026
+**Kinsta last updated:** 2026-04-20T09:55:58
 
 ---
 
@@ -31,7 +32,7 @@ The first option is to manually migrate the changes yourself. This can be done i
 
 - Use the content export and import features built into WordPress to export content from your prior host and import it here at Kinsta. Then, install any necessary new plugins and themes and apply updates or settings to themes, plugins, and the WordPress core.
 - There are many backup and [migration plugins](https://kinsta.com/blog/wordpress-migration-plugins/) that can be used to migrate a WordPress site. While [we don’t allow backup plugins](https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-banned-incompatible-plugins/) for ongoing backups on our platform, if there’s a backup or migration plugin you’re familiar with and comfortable with, you’re welcome to use it to migrate a fresh copy of your site.
-- Copy changed files to our servers using [SFTP](https://kinsta.com/docs/wordpress-hosting/connecting-with-sftp/) or [SSH](https://kinsta.com/docs/wordpress-hosting/connect-to-ssh/). Then, use a fresh dump of the live site [database](https://kinsta.com/docs/wordpress-hosting/database-management/create-wordpress-database-backup/) and import it using either [phpMyAdmin or WP-CLI.](https://kinsta.com/docs/wordpress-hosting/database-management/restore-import-mysql-database/) This process is described in [Manual Migration](https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/wordpress-manual-migration/).
+- Copy changed files to our servers using [SFTP](https://kinsta.com/docs/wordpress-hosting/connecting-with-sftp/) or [SSH](https://kinsta.com/docs/wordpress-hosting/connect-to-ssh/). Then, use a fresh dump of the live site [database](https://kinsta.com/docs/wordpress-hosting/database-management/create-wordpress-database-backup/) and import it using either [phpMyAdmin or WP-CLI.](https://kinsta.com/docs/wordpress-hosting/database-management/restore-import-mysql-database) This process is described in [Manual Migration](https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/wordpress-manual-migration/).
 
 Prior to beginning this process, it’s important to note any changes that were made to the site here at Kinsta after the initial migration. If you modified the WordPress configuration, changed files, or added or removed plugins or themes here at Kinsta after the initial migration, those changes may be overwritten when you migrate the site a second time, depending on the process you use.
 

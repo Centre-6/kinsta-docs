@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/devkinsta/devkinsta-getting-started/creating-a-site/"
-title: "Get Started - Create a Site"
+title: "Create a Site"
 tier: "docs"
 product: "devkinsta"
 product_label: "DevKinsta (local dev tool, not hosting)"
 subsection: "devkinsta-getting-started"
-section: []
-kinsta_last_updated: "July 18, 2024"
-sitemap_lastmod: "2024-07-18T08:34:27+00:00"
-fetched_at: "2026-10-07T22:38:02Z"
-sha256: "15c0fc4e3b31ff259b39ca339664aafa52d7782e95554abd65776b0b06b1db3e"
-body_chars: 7515
-extracted_with: "main article"
+section: ["DevKinsta", "Get Started"]
+kinsta_last_updated: "2024-07-18T08:34:27"
+change_signal: "2024-07-18T08:34:27"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "adf08ce8353662f9594ee5166fc7749c7b7feef91829003b19efa9c508a09d04"
+body_chars: 7511
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Get Started - Create a Site
+# Create a Site
 
+**Section:** DevKinsta > Get Started
 **Product:** DevKinsta (local dev tool, not hosting)
 **Source:** https://kinsta.com/docs/devkinsta/devkinsta-getting-started/creating-a-site/
-**Kinsta last updated:** July 18, 2024
+**Kinsta last updated:** 2024-07-18T08:34:27
 
 ## On this page
 
@@ -42,7 +43,7 @@ status: "live"
 
 This page will walk you through creating a WordPress site with DevKinsta. When you first launch DevKinsta, you’ll see three different site creation options.
 
-Once you have created at least one site, you will also have the option to [clone a site](#clone-a-site) from the [Sites List](https://kinsta.com/docs/devkinsta/devkinsta-site-management/#the-sites-list).
+Once you have created at least one site, you will also have the option to [clone a site](#clone-a-site) from the [Sites List](https://kinsta.com/docs/devkinsta/devkinsta-site-management#the-sites-list).
 
 ## New WordPress site
 
@@ -105,12 +106,12 @@ Choose this option if you want to create an empty site without WordPress.
 
 ### Import backup
 
-Choose this option to create a site from a WordPress backup. For more details, see our [Create a Site From a Backup](https://kinsta.com/docs/devkinsta/devkinsta-integration/#create-a-site-from-a-backup) guide. After creating the site, you can view it in DevKinsta’s **Sites** list.
+Choose this option to create a site from a WordPress backup. For more details, see our [Create a Site From a Backup](https://kinsta.com/docs/devkinsta/devkinsta-integration#create-a-site-from-a-backup) guide. After creating the site, you can view it in DevKinsta’s **Sites** list.
 
 ## Customizing sites
 
 - **Site name**: this will show up in the site list.
-- **PHP version**: We recommend always using the latest version. See our [PHP versions guide](https://kinsta.com/docs/devkinsta/devkinsta-site-management/php-versions/) for more information.
+- **PHP version**: We recommend always using the latest version. See our [PHP versions guide](https://kinsta.com/docs/devkinsta/devkinsta-site-management/php-versions) for more information.
 - **Database name**: The name of your database. You will likely not need to change this unless you are doing custom development.
 - **Site title**: This will become your actual site title. It populates the WordPress setting of the same name.
 - **WordPress admin email**: This will be the admin user’s email address. We recommend **not** using actual email addresses.
@@ -146,7 +147,7 @@ In the last step, DevKinsta creates a preview of your site, which will be displa
 
 With the clone site feature in DevKinsta, you can copy your entire [WordPress site](https://kinsta.com/blog/what-is-wordpress/), including the database and files. This can be used with a “template” site to quickly create sites with the same theme, plugins, and settings.
 
-To clone a site, go to the [Sites page](https://kinsta.com/docs/devkinsta/devkinsta-site-management/), click the kebab (three-dot) menu next to the site you want to clone and select **Clone Site** in the dropdown menu.
+To clone a site, go to the [Sites page](https://kinsta.com/docs/devkinsta/devkinsta-site-management), click the kebab (three-dot) menu next to the site you want to clone and select **Clone Site** in the dropdown menu.
 
 ![Clone an existing WordPress site in DevKinsta.](https://kinsta.com/wp-content/uploads/2023/11/devkinsta-clone-site-1024x444.png)
 

@@ -5,35 +5,23 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta Events", "Meet Kinsta at brightonSEO 2026"]
-kinsta_last_updated: "2026-04-17T15:40:06+00:00"
-sitemap_lastmod: "2026-04-17T15:40:06"
-fetched_at: "2026-10-07T22:42:33Z"
-sha256: "cea1886750bc3c8ab2d8ee69e5dcf1f66c815494165e41caff7b2b277c0577d8"
-body_chars: 3510
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-04-17T15:40:06"
+change_signal: "2026-04-17T15:40:06"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "ea6fb30578b9a1fc46b56af748d3d2600cd00256210125cc508dbbaaf74dff66"
+body_chars: 3055
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Meet Kinsta at brightonSEO 2026
 
-**Section:** Resource Center > Blog > Kinsta Events > Meet Kinsta at brightonSEO 2026
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/brightonseo/
-**Kinsta last updated:** 2026-04-17T15:40:06+00:00
+**Kinsta last updated:** 2026-04-17T15:40:06
 
 ---
-
-Author
-:   [Nikolett Poesz](https://kinsta.com/blog/author/nikolettpoesz/ "Posts by Nikolett Poesz")
-
-Published
-:   April 17, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/10/brightonSEO-2025-1024x512.png)
 
 Kinsta is excited to share that we’re heading back to the United Kingdom to sponsor [**brightonSEO 2026**](https://brightonseo.com/events/april-2026), the world’s biggest search conference, taking place from **April 30 to May 1 at the Brighton Centre**.
 
@@ -67,7 +55,3 @@ brightonSEO is always a highlight on the calendar for SEO and digital marketing 
 If you’re planning to attend, come and find us in bright orange T-shirts at the Kinsta booth. We’d love to meet you, hear about what you’re working on, and show you how Kinsta can support your growth with [hosting that’s built for performance](https://kinsta.com/wordpress-hosting/).
 
 See you in Brighton!
-
-Nikolett Poesz
-
-Multilingual Content Associate at Kinsta

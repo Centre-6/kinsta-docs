@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-github-cicd/"
-title: "Site Management - GitHub Actions Integration"
+title: "GitHub Actions Integration"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "site-management"
-section: []
-kinsta_last_updated: "November 17, 2025"
-sitemap_lastmod: "2025-11-17T09:38:43+00:00"
-fetched_at: "2026-10-07T22:39:07Z"
-sha256: "ea61ed715b187987968be0377b220f012124d134124ba071423158cf0d712a96"
-body_chars: 8557
-extracted_with: "main article"
+section: ["WordPress Hosting", "Site Management"]
+kinsta_last_updated: "2025-11-17T09:38:43"
+change_signal: "2025-11-17T09:38:43"
+fetched_at: "2026-10-07T22:58:18Z"
+sha256: "557ff411a4789d1c3c413c8406e14c34413a34f738915cb41afb610adf9b3ba8"
+body_chars: 8519
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Site Management - GitHub Actions Integration
+# GitHub Actions Integration
 
+**Section:** WordPress Hosting > Site Management
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-github-cicd/
-**Kinsta last updated:** November 17, 2025
+**Kinsta last updated:** 2025-11-17T09:38:43
 
 ## On this page
 
@@ -34,13 +35,13 @@ status: "live"
 
 ---
 
-For advanced users, GitHub CI/CD (Continuous Integration/Continuous Delivery or Continuous Deployment) can automatically deploy code changes to your Kinsta site whenever a new commit is pushed to the designated branch. This setup enables seamless code deployment from your local environment via [SSH](https://kinsta.com/docs/wordpress-hosting/connect-to-ssh/) and [GitHub actions](https://docs.github.com/en/actions), allowing continuous updates to your site.
+For advanced users, GitHub CI/CD (Continuous Integration/Continuous Delivery or Continuous Deployment) can automatically deploy code changes to your Kinsta site whenever a new commit is pushed to the designated branch. This setup enables seamless code deployment from your local environment via [SSH](https://kinsta.com/docs/wordpress-hosting/connect-to-ssh) and [GitHub actions](https://docs.github.com/en/actions), allowing continuous updates to your site.
 
 To follow these steps, you must have an existing site hosted on Kinsta and a [GitHub account](https://github.com/).
 
 ## 1. Download a backup of your site
 
-You can download a backup of your site to set up the GitHub repository and work on it locally. Alternatively, you can use [DevKinsta](https://kinsta.com/docs/devkinsta/) to pull your site from the Kinsta server and work on it locally.
+You can download a backup of your site to set up the GitHub repository and work on it locally. Alternatively, you can use [DevKinsta](https://kinsta.com/docs/devkinsta) to pull your site from the Kinsta server and work on it locally.
 
 In [MyKinsta](https://my.kinsta.com/), go to**Sites** > ***sitename*** > **Backups** > **Download** > **Create backup now**.
 
@@ -84,12 +85,10 @@ Open a new terminal and SSH into your Kinsta server using the **SSH terminal com
 
 SSH terminal command for your site.
 
-Enter your site’s password and then generate a new SSH key using the following command, replacing `[email protected]` with your email address:
-
-Copy
+Enter your site’s password and then generate a new SSH key using the following command, replacing `your-email@example.com` with your email address:
 
 ```
-ssh-keygen -t rsa -b 4096 -C "[email protected]"
+ssh-keygen -t rsa -b 4096 -C "your-email@example.com"
 ```
 
 Press **Enter** to save the key to the default location and leave the passphrase blank when prompted.
@@ -101,8 +100,6 @@ Generate an SSH key.
 ## 5. Add the SSH key to GitHub
 
 Access the contents of the public key file (e.g., `~/.ssh/id_rsa.pub`), with the following command:
-
-Copy
 
 ```
 cat ~/.ssh/id_rsa.pub
@@ -120,27 +117,21 @@ Path on your site’s Info page.
 
 In the terminal, navigate to your site’s live directory with the following command, replacing `/www/your-site/public` with the path copied from MyKinsta.
 
-Copy
-
 ```
 cd /www/your-site/public
 ```
 
 Initialize the directory as a Git repository and set the remote URL to use SSH with the following command, replacing `your-username` and `your-repo` with your git credentials and repository:
 
-Copy
-
 ```
 git init
-git remote add origin [email protected]:your-username/your-repo.git
+git remote add origin git@github.com:your-username/your-repo.git
 ```
 
 Confirm that the SSH setup works by running the following command:
 
-Copy
-
 ```
-ssh -T [email protected]
+ssh -T git@github.com
 ```
 
 You should see a message similar to: “Hi your-username! You’ve successfully authenticated, but GitHub does not provide shell access.” Your Kinsta server is now ready to receive and deploy updates from GitHub directly through GitHub Actions.
@@ -150,8 +141,6 @@ You should see a message similar to: “Hi your-username! You’ve successfully 
 This workflow deploys changes to Kinsta automatically whenever you push to the `main` branch. To automate the deployment, you need to define how the deployment will happen using a [YAML](https://yaml.org/) file.
 
 In your GitHub repository, create a new directory called `.github/workflows` inside this directory, create a new file called `deploy.yml` and add the following content to the file, replacing `your-site` with the folder name from the path on your Kinsta site:
-
-Copy
 
 ```
 name: Deploy to Kinsta
@@ -174,11 +163,11 @@ jobs:
 
       # Checkout the latest code from the GitHub repository
       - name: Checkout code
-        uses: actions/[email protected]
+        uses: actions/checkout@v4.1.6
 
       # Deploy to Kinsta via SSH
       - name: Deploy via SSH
-        uses: appleboy/[email protected]
+        uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.KINSTA_SERVER_IP }}
           username: ${{ secrets.KINSTA_USERNAME }}
@@ -197,7 +186,7 @@ This workflow does the following:
 
 - **Trigger**: The workflow is triggered every time code is pushed to the `main` branch of your GitHub repository.
 - **Jobs**: The workflow contains one `job` called `deploy`, which runs on an Ubuntu virtual machine (`ubuntu-latest`).
-- **Checkout code**: This uses the `actions/[email protected]` action to pull the latest code from your GitHub repository.
+- **Checkout code**: This uses the `actions/checkout@v4.1.6` action to pull the latest code from your GitHub repository.
 - **Deploy to Kinsta via SSH**:
   - The `appleboy/ssh-action` plugin establishes an SSH connection with your Kinsta server using the secrets you’ve stored in GitHub (host, username, password, and, optionally, the port). The script within this step runs the following commands:
   - **Deployment Commands**:

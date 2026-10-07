@@ -5,27 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Introducing Companies"]
-kinsta_last_updated: "2023-05-01T10:53:30+00:00"
-sitemap_lastmod: "2023-05-01T10:53:30+00:00"
-fetched_at: "2026-10-07T22:36:45Z"
-sha256: "14371259a880dc877b7c5a51e560379859fc9309c3947d3d1a9266a8d05a3a54"
-body_chars: 971
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2023-05-01T10:53:30"
+change_signal: "2023-05-01T10:53:30"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "b5d0883fe75991688811ac62e61f53201c4ccc1295da4b037bff121bc57cdc35"
+body_chars: 946
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Introducing Companies
 
-**Section:** Changelog > Introducing Companies
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/introducing-companies/
-**Kinsta last updated:** 2023-05-01T10:53:30+00:00
+**Kinsta last updated:** 2023-05-01T10:53:30
 
 ---
-
-Updated
-:   May 1, 2023
 
 We love working with agencies and other organizations managing websites for multiple clients and we want to make their experience the best possible. Today we’ve added a new companies feature to the My Kinsta dashboard which will allow our clients to manage their assets much more easily.
 

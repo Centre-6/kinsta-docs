@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "MyKinsta now locks accounts after repeated failed logins"]
-kinsta_last_updated: "2025-07-14T14:13:17+00:00"
-sitemap_lastmod: "2025-07-14T14:13:17+00:00"
-fetched_at: "2026-10-07T22:37:07Z"
-sha256: "dcfe4b69e15becca39a181250b1f6c62568a1cdd9b9d39db1b7f9822c3b83704"
-body_chars: 3098
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-07-14T14:13:17"
+change_signal: "2025-07-14T14:13:17"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "9a3ed175cb13586429f7a94609d7c2a53a3784988dfd2cfbb2da83d4d42a5732"
+body_chars: 2981
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # MyKinsta now locks accounts after repeated failed logins
 
-**Section:** Changelog > MyKinsta now locks accounts after repeated failed logins
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/account-lockout/
-**Kinsta last updated:** 2025-07-14T14:13:17+00:00
+**Kinsta last updated:** 2025-07-14T14:13:17
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [Security is built-in at Kinsta](#security-is-built-in-at-kinsta)
 
 ---
-
-Updated
-:   July 14, 2025
-
-![](https://kinsta.com/wp-content/uploads/2025/07/mykinsta-account-lockout-1024x536.png)
 
 As part of our ongoing effort to enhance platform security and protect [customer accounts](https://kinsta.com/docs/company-settings/user-management/), we’ve introduced a new **account lockout** system in the [MyKinsta dashboard](https://kinsta.com/mykinsta/). This follows our recent move to require [two-factor authentication](https://kinsta.com/changelog/two-factor-authentication/) (2FA) for all logins.
 

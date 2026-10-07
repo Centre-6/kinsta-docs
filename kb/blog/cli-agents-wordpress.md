@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Development", "Automating WordPress operations with CLI agents on Kinsta"]
-kinsta_last_updated: "2026-09-23T12:41:16+00:00"
-sitemap_lastmod: "2026-09-23T12:41:16"
-fetched_at: "2026-10-07T22:41:57Z"
-sha256: "00ec7edb91362684b9aaed97e8052fef4a52cf0eab5a14bb6873683fffd4e1b8"
-body_chars: 30158
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-09-23T12:41:16"
+change_signal: "2026-09-23T12:41:16"
+fetched_at: "2026-10-07T22:58:24Z"
+sha256: "e776e4e5af1d668f6a2db06094369e9720f7c780f40dd3758c10f4b08b1e5cd1"
+body_chars: 29138
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Automating WordPress operations with CLI agents on Kinsta
 
-**Section:** Resource Center > Blog > WordPress Development > Automating WordPress operations with CLI agents on Kinsta
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/cli-agents-wordpress/
-**Kinsta last updated:** 2026-09-23T12:41:16+00:00
+**Kinsta last updated:** 2026-09-23T12:41:16
 
 ## On this page
 
@@ -58,17 +57,6 @@ status: "live"
 - [Conclusions and next steps](#conclusions-and-next-steps)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Published
-:   September 29, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/09/automating-wordpress-operations-with-cli-agents-on-kinsta-1024x512.png)
 
 There’s a lot of buzz about CLI coding agents today.
 
@@ -646,11 +634,3 @@ Ultimately, the biggest difference will likely come from you—by learning how t
 If automation is your priority today, Kinsta gives you all the tools you need to turn your terminal into an operational control panel for managing your hosting and all your sites. A powerful REST API, SSH access, and WP-CLI are ready to use for all our clients, regardless of their plan.
 
 Try Kinsta free for a month, risk-free. Check out our plans [here](https://kinsta.com/pricing/).
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

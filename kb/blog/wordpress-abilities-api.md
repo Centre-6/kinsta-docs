@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "API", "Getting started with the WordPress Abilities API: A practical guide"]
-kinsta_last_updated: "2026-06-30T12:22:10+00:00"
-sitemap_lastmod: "2026-06-30T12:22:10"
-fetched_at: "2026-10-07T22:42:11Z"
-sha256: "71cab855ec263c543d7ccc88fc819298b93d8588d97cc323994138d794045901"
-body_chars: 32550
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-30T12:22:10"
+change_signal: "2026-06-30T12:22:10"
+fetched_at: "2026-10-07T22:58:24Z"
+sha256: "1bc77c55f0f41980ac96180aacf4d2d7552291b585c9bc2fad94f82742f1d42d"
+body_chars: 31531
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Getting started with the WordPress Abilities API: A practical guide
 
-**Section:** Resource Center > Blog > API > Getting started with the WordPress Abilities API: A practical guide
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-abilities-api/
-**Kinsta last updated:** 2026-06-30T12:22:10+00:00
+**Kinsta last updated:** 2026-06-30T12:22:10
 
 ## On this page
 
@@ -37,17 +36,6 @@ status: "live"
 - [The future of WordPress is agentic](#the-future-of-wordpress-is-agentic)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Published
-:   July 28, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/07/getting-started-with-the-wordpress-abilities-a-i-a-practical-guide-1024x512.png)
 
 The Abilities API, introduced in [WordPress 6.9](https://kinsta.com/blog/wordpress-6-9/#abilities-api), establishes a shared language, allowing all WordPress components—both core and plugins—to expose their functionality in a unified, understandable way for humans and machines alike. This makes your WordPress site ready for integration with external automation tools in a standardized and secure manner.
 
@@ -829,7 +817,7 @@ When you run this command, the ability will provide a JSON object similar to the
 	"description": "",
 	"url": "http://yoursite.kinsta.cloud",
 	"wpurl": "http://yoursite.kinsta.cloud",
-	"admin_email": "[email protected]",
+	"admin_email": "yourname@youremail.com",
 	"charset": "UTF-8",
 	"language": "en-US",
 	"version": "7.1-alpha-62550"
@@ -974,11 +962,3 @@ While the [AI Client and the new connector architecture](https://kinsta.com/blog
 For WordPress developers, the new Abilities API represents an architectural turning point, characterized by decoupling functionality from plugins that contain its logic, enforcing security through the input/output contract, and enabling native interoperability across the entire ecosystem.
 
 Taken together, these features ensure that the Abilities API is not just another API, but a true distributed execution engine that offers a glimpse into an increasingly agentic future for WordPress.
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

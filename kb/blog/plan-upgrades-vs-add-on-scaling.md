@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta Services", "Plan upgrades vs. add-on scaling: Making the right choice this holiday season"]
-kinsta_last_updated: "2025-11-19T21:06:49+00:00"
-sitemap_lastmod: "2025-11-19T21:06:49"
-fetched_at: "2026-10-07T22:43:12Z"
-sha256: "02fc08a2d92b33fecf3860ab3b48177878726c99e4c8926b9272fffa19055ad0"
-body_chars: 14584
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-11-19T21:06:49"
+change_signal: "2025-11-19T21:06:49"
+fetched_at: "2026-10-07T22:58:28Z"
+sha256: "d4e48da3c937b870ce4de33819311191b2a5f2eaefd3698893459d129ccb3bbb"
+body_chars: 13676
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Plan upgrades vs. add-on scaling: Making the right choice this holiday season
 
-**Section:** Resource Center > Blog > Kinsta Services > Plan upgrades vs. add-on scaling: Making the right choice this holiday season
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/plan-upgrades-vs-add-on-scaling/
-**Kinsta last updated:** 2025-11-19T21:06:49+00:00
+**Kinsta last updated:** 2025-11-19T21:06:49
 
 ## On this page
 
@@ -41,17 +40,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   November 19, 2025
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/10/plan-upgrades-vs-add-on-scaling-making-the-right-choice-this-holiday-season-1024x512.png)
 
 Every November, it happens like clockwork. Stores roll out their biggest sales of the year, [traffic surges](https://kinsta.com/blog/high-traffic-wordpress-hosting/) overnight, and dashboards light up with warnings. In the rush to keep everything running smoothly, many merchants hit the panic button and upgrade their entire hosting plan, even when they don’t actually need to.
 
@@ -211,13 +199,3 @@ Holiday traffic spikes don’t have to send you scrambling for a bigger hosting 
 Add-ons like the [PHP performance add-on](https://kinsta.com/docs/wordpress-hosting/wordpress-add-ons/#php-performance-add-on), [Disk space add-on](https://kinsta.com/docs/billing/wordpress-hosting-plans/overages/#disk-space-add-on), and [Automatic external backups](https://kinsta.com/docs/wordpress-hosting/wordpress-backups/#external-backups-add-on) give you the flexibility to handle seasonal surges without overcommitting. And if you’re managing multiple brands or clients, the [WordPress site add-on](https://kinsta.com/docs/billing/wordpress-hosting-plans/#wordpress-site-add-on) makes it easy to launch new sites or campaigns without bumping up your entire plan.
 
 Ready to gear up for the holidays? [Log in to MyKinsta](https://my.kinsta.com/login/) to make the necessary updates to keep your store fast, reliable, and prepared for whatever this season brings.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

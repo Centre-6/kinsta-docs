@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Access website analytics with the Kinsta API"]
-kinsta_last_updated: "2026-05-20T20:31:39+00:00"
-sitemap_lastmod: "2026-05-20T20:31:39+00:00"
-fetched_at: "2026-10-07T22:37:42Z"
-sha256: "60faba202a115ee0b24a122d178bf4950d0c1995d879ec0116f00d59799585cc"
-body_chars: 6163
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:31:39"
+change_signal: "2026-05-20T20:31:39"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "e8d5365b84fea09d8395dfc7ebb57260e160fe1d1543f0088a300393b39748fd"
+body_chars: 6054
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Access website analytics with the Kinsta API
 
-**Section:** Changelog > Access website analytics with the Kinsta API
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/kinsta-api-nov-2025/
-**Kinsta last updated:** 2026-05-20T20:31:39+00:00
+**Kinsta last updated:** 2026-05-20T20:31:39
 
 ## On this page
 
@@ -31,11 +30,6 @@ status: "live"
 - [Build analytics into your own tools](#build-analytics-into-your-own-tools)
 
 ---
-
-Updated
-:   May 20, 2026
-
-![](https://kinsta.com/wp-content/uploads/2025/11/new-api-endpoints-1024x536.png)
 
 [Analytics](https://kinsta.com/docs/wordpress-hosting/wordpress-analytics-mykinsta/) has always been one of the most-requested features for the [Kinsta API](https://api-docs.kinsta.com/), and it’s finally here.
 

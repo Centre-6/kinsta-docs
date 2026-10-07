@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/billing/tax-vat-gst/"
-title: "Billing - Tax, VAT, and GST"
+title: "Tax, VAT, and GST"
 tier: "docs"
 product: "billing"
 product_label: "Billing"
 subsection: "tax-vat-gst"
-section: []
-kinsta_last_updated: "October 14, 2025"
-sitemap_lastmod: "2025-10-14T07:46:31+00:00"
-fetched_at: "2026-10-07T22:38:55Z"
-sha256: "09990c92c1ab0756dde78278344a67fcd3599c48235cc2525d20e61135a19299"
-body_chars: 11375
-extracted_with: "main article"
+section: ["Billing"]
+kinsta_last_updated: "2025-10-14T07:46:31"
+change_signal: "2025-10-14T07:46:31"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "3a0e94701201bf6d35572c73a7113ab369d79d599e6f1901757d7c246c717d87"
+body_chars: 11373
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Billing - Tax, VAT, and GST
+# Tax, VAT, and GST
 
+**Section:** Billing
 **Product:** Billing
 **Source:** https://kinsta.com/docs/billing/tax-vat-gst/
-**Kinsta last updated:** October 14, 2025
+**Kinsta last updated:** 2025-10-14T07:46:31
 
 ## On this page
 
@@ -58,7 +59,7 @@ If you have questions about adding your tax exemption certificate, VAT number, o
 
 ## US sales tax
 
-To comply with US tax regulations, Kinsta adds sales tax to invoices for customers located in some states in the United States based on your billing address within [Billing Details](https://kinsta.com/docs/billing/update-billing-address/).
+To comply with US tax regulations, Kinsta adds sales tax to invoices for customers located in some states in the United States based on your billing address within [Billing Details](https://kinsta.com/docs/billing/update-billing-address).
 
 Sales tax is a consumption tax imposed by the government on the sale of goods and services. Sales tax is governed by states and may also be charged by local municipalities, so the **percentage may vary from one city and state to the next**. You can read more about sales tax at [usa.gov](https://www.usa.gov/state-taxes).
 
@@ -68,7 +69,7 @@ For example, the sales tax rate in Texas is 6.25% at the time of writing. If you
 
 ### States affected by US sales tax
 
-Sales tax is calculated and applied based on the location where services are performed. We determine where our services are being used by looking at the address you provide when you sign up. [You can review and update this address in MyKinsta](https://kinsta.com/docs/billing/update-billing-address/).
+Sales tax is calculated and applied based on the location where services are performed. We determine where our services are being used by looking at the address you provide when you sign up. [You can review and update this address in MyKinsta](https://kinsta.com/docs/billing/update-billing-address).
 
 Sales tax will be applied to the invoices of customers utilizing our services in any of the following states:
 

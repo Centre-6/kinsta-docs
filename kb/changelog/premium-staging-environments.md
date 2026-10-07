@@ -1,33 +1,27 @@
 ---
 url: "https://kinsta.com/changelog/premium-staging-environments/"
-title: "Introducing Kinsta's Premium Staging Environment add-On"
+title: "Introducing Kinsta\u2019s Premium Staging Environment add-On"
 tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Introducing Kinsta\u2019s Premium Staging Environment add-On"]
-kinsta_last_updated: "2025-05-08T20:03:17+00:00"
-sitemap_lastmod: "2025-05-08T20:03:17+00:00"
-fetched_at: "2026-10-07T22:37:06Z"
-sha256: "c65cea994b3f3f6b72affa96b229d3e38eb70c40deaa6e63fae6f6ab84db1412"
-body_chars: 3926
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-05-08T20:03:17"
+change_signal: "2025-05-08T20:03:17"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "9d9eacf0bd24c5eb27ff4fb8ac74c0e151660a9fe352d9614111db6ef4dc72cf"
+body_chars: 3758
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Introducing Kinsta's Premium Staging Environment add-On
+# Introducing Kinsta’s Premium Staging Environment add-On
 
-**Section:** Changelog > Introducing Kinsta’s Premium Staging Environment add-On
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/premium-staging-environments/
-**Kinsta last updated:** 2025-05-08T20:03:17+00:00
+**Kinsta last updated:** 2025-05-08T20:03:17
 
 ---
-
-Updated
-:   May 8, 2025
-
-![Kinsta's Premium Staging Environment Add-On](https://kinsta.com/wp-content/uploads/2022/08/premium-staging-environment-add-on-1024x536.png)
 
 Every account on Kinsta comes [equipped with a staging environment](https://kinsta.com/wordpress-hosting/staging/) for testing and development purposes. This is rapidly becoming a standard feature across the hosting industry.
 

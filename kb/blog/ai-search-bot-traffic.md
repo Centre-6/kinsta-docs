@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Bot Traffic", "Can I still benefit from AI search without letting bots destroy my server?"]
-kinsta_last_updated: "2026-09-03T15:30:06+00:00"
-sitemap_lastmod: "2026-09-03T15:30:06"
-fetched_at: "2026-10-07T22:42:01Z"
-sha256: "353f731598dabc3701cac4896ef4290163c223bbf049c941cf43ccd2c483a5f3"
-body_chars: 18594
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-09-03T15:30:06"
+change_signal: "2026-09-03T15:30:06"
+fetched_at: "2026-10-07T22:58:24Z"
+sha256: "5f40c18af06620601718b1f0e55b95975d7fc1c0f817402107983d4a44db9021"
+body_chars: 17558
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Can I still benefit from AI search without letting bots destroy my server?
 
-**Section:** Resource Center > Blog > Bot Traffic > Can I still benefit from AI search without letting bots destroy my server?
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/ai-search-bot-traffic/
-**Kinsta last updated:** 2026-09-03T15:30:06+00:00
+**Kinsta last updated:** 2026-09-03T15:30:06
 
 ## On this page
 
@@ -39,17 +38,6 @@ status: "live"
 - [Control access without disappearing](#control-access-without-disappearing)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Published
-:   September 15, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/09/can-i-still-benefit-from-ai-search-without-letting-bots-destroy-my-server-1024x512.png)
 
 If you want your site to appear in AI search, allowing crawlers can seem like the obvious choice. But if automated traffic consumes too many server resources, blocking it seems just as reasonable. The problem is treating those two options as mutually exclusive.
 
@@ -236,11 +224,3 @@ Keep the search and AI traffic that helps people find your site, but pay attenti
 Those decisions may change as crawler behavior, AI referral patterns, and your own priorities evolve. The important thing is having enough visibility to see what is happening and enough control to respond.
 
 Learn more about [Kinsta Bot Protection](https://kinsta.com/bot-protection/) and explore the findings in our [AI & Bot Traffic Report](https://kinsta.com/ai-bot-traffic/).
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

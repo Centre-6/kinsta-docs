@@ -1,26 +1,25 @@
 ---
 url: "https://kinsta.com/blog/wordpress-for-ai-agents/"
-title: "Building WordPress for AI agents, not just human visitors"
+title: "Building WordPress for AI agents instead of just human visitors"
 tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Bot Traffic", "Building WordPress for AI agents instead of just human visitors"]
-kinsta_last_updated: "2026-09-15T16:08:46+00:00"
-sitemap_lastmod: "2026-09-15T16:08:46"
-fetched_at: "2026-10-07T22:42:00Z"
-sha256: "54c728cd6f75e914b044c9c2e75322bf9af637bd535ab1ca671e6d74744edf05"
-body_chars: 16397
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-09-15T16:08:46"
+change_signal: "2026-09-15T16:08:46"
+fetched_at: "2026-10-07T22:58:24Z"
+sha256: "8eda3e4e1954cda472fa83f2d0be1eca10aeff73a7f73f8197903504c4fb49a2"
+body_chars: 15372
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Building WordPress for AI agents, not just human visitors
+# Building WordPress for AI agents instead of just human visitors
 
-**Section:** Resource Center > Blog > Bot Traffic > Building WordPress for AI agents instead of just human visitors
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-for-ai-agents/
-**Kinsta last updated:** 2026-09-15T16:08:46+00:00
+**Kinsta last updated:** 2026-09-15T16:08:46
 
 ## On this page
 
@@ -34,17 +33,6 @@ status: "live"
 - [Build for people and the software acting for them](#build-for-people-and-the-software-acting-for-them)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Published
-:   September 17, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/09/building-wordress-for-ai-agents-instead-of-just-human-visitors-1024x512.png)
 
 WordPress sites have always been designed with people in mind. When someone visits a page, they look around the site, complete a form, click a button, or sign up for an account. The browser is at the heart of this experience, and that’s why developers construct the site around the actions that people carry out on the screen.
 
@@ -197,11 +185,3 @@ More of this work is starting to happen without anyone clicking through WordPres
 You don’t need to rebuild every WordPress site around AI agents today. But you do need to stop assuming that every future interaction will begin with a person opening a browser. [Kinsta’s managed WordPress hosting](https://kinsta.com/wordpress-hosting/) gives developers the performance, visibility, and tooling to support human visitors and increasingly automated workflows.
 
 Your next customer may still be human. The difference is that software may interact with your site on their behalf.
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

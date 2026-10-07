@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/service-information/status-page/"
-title: "Service Information - System Status"
+title: "System Status"
 tier: "docs"
 product: "service-information"
 product_label: "Service Information"
 subsection: "status-page"
-section: []
-kinsta_last_updated: "July 18, 2024"
-sitemap_lastmod: "2024-07-18T09:44:17+00:00"
-fetched_at: "2026-10-07T22:38:08Z"
+section: ["Service Information"]
+kinsta_last_updated: "2024-07-18T09:44:17"
+change_signal: "2024-07-18T09:44:17"
+fetched_at: "2026-10-07T22:58:20Z"
 sha256: "6948cc2fdafcadf9b5be6b8d0ec2159e26c74eb32104879179d48bfe388fcf7b"
 body_chars: 718
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Service Information - System Status
+# System Status
 
+**Section:** Service Information
 **Product:** Service Information
 **Source:** https://kinsta.com/docs/service-information/status-page/
-**Kinsta last updated:** July 18, 2024
+**Kinsta last updated:** 2024-07-18T09:44:17
 
 ---
 

@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Subdomain delegation with NS records now available in Kinsta DNS"]
-kinsta_last_updated: "2026-04-20T09:30:51+00:00"
-sitemap_lastmod: "2026-04-20T09:30:51+00:00"
-fetched_at: "2026-10-07T22:37:19Z"
-sha256: "12478f13fe627e9c5a5d95b497a0daf266763f098fc20209864a9e8e364340c0"
-body_chars: 2300
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-04-20T09:30:51"
+change_signal: "2026-04-20T09:30:51"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "b5e1ba32c87c440966e6f68e33d343aa6321d1773a6ee76123dee7dd1efd6f5b"
+body_chars: 2178
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Subdomain delegation with NS records now available in Kinsta DNS
 
-**Section:** Changelog > Subdomain delegation with NS records now available in Kinsta DNS
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/subdomain-delegation-with-ns-records/
-**Kinsta last updated:** 2026-04-20T09:30:51+00:00
+**Kinsta last updated:** 2026-04-20T09:30:51
 
 ---
-
-Updated
-:   April 20, 2026
-
-![](https://kinsta.com/wp-content/uploads/2025/09/subdomain-NS-record-creation-1024x536.png)
 
 We’ve added support for creating [NS records](https://kinsta.com/docs/wordpress-hosting/wordpress-domains/dns/#ns-record) for subdomains in [Kinsta DNS](https://kinsta.com/docs/wordpress-hosting/wordpress-domains/dns/).
 

@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/company-settings/user-management/"
-title: "Company Settings - User Management"
+title: "User Management"
 tier: "docs"
 product: "company-settings"
 product_label: "MyKinsta Company Settings"
 subsection: "user-management"
-section: []
-kinsta_last_updated: "March 25, 2026"
-sitemap_lastmod: "2026-03-25T10:32:33+00:00"
-fetched_at: "2026-10-07T22:39:48Z"
-sha256: "27110628d002dad88a90e78b89b3785ec297e0df26fc6f636d73771ebe6d502d"
-body_chars: 18369
-extracted_with: "main article"
+section: ["Company Settings"]
+kinsta_last_updated: "2026-03-25T10:32:33"
+change_signal: "2026-03-25T10:32:33"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "9df6d4ce4cccbeb6c31f4f7cd899a95acddfdd08b5aa95c9ba94039301691972"
+body_chars: 18374
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Company Settings - User Management
+# User Management
 
+**Section:** Company Settings
 **Product:** MyKinsta Company Settings
 **Source:** https://kinsta.com/docs/company-settings/user-management/
-**Kinsta last updated:** March 25, 2026
+**Kinsta last updated:** 2026-03-25T10:32:33
 
 ## On this page
 
@@ -183,14 +184,17 @@ Invite users to your company in MyKinsta.
 
 1. Enter the email address of the user you’d like to invite. You can invite up to 10 users by separating their email addresses with commas in the email field.
 2. Select **Company** to choose between **Company Administrator**, **Company Developer**, or **Company Billing**.
+
    ![User invite details with company access.](https://kinsta.com/wp-content/uploads/2026/01/wordpress-invite-user-access-level.png)
 
    User invite details with company access.
 3. If you only want to grant access to a particular site, select **Site**, either type the name of the site you want the user to have access to, or select it from the list.
+
    ![Choose the site you want to grant the user access to.](https://kinsta.com/wp-content/uploads/2026/01/wordpress-invite-users-site.png)
 
    Choose the site you want to grant the user access to.
 4. You also need to select the [user role](#user-roles) (**Site developer** or **Site administrator**) for each site.
+
    ![Choose the user role.](https://kinsta.com/wp-content/uploads/2026/01/wordpress-invite-users-site-role.png)
 
    Choose the user role.
@@ -238,10 +242,12 @@ To invite a user to a site from the **User management** page, follow the steps b
 
 1. Log in to [MyKinsta](https://my.kinsta.com/) and go to **Sites**.
 2. Select the required site > **User management** > **Invite users**.
+
    ![Invite users to a site in MyKinsta.](https://kinsta.com/wp-content/uploads/2026/01/wordpress-site-invite-users.png)
 
    Invite users to a site in MyKinsta.
 3. Enter the email address of the user you’d like to invite. You can invite up to 10 users by separating their email addresses with commas in the email field. Select **Site administrator** or **Site developer** in the dropdown menu.
+
    ![Invite a user to your site in MyKinsta.](https://kinsta.com/wp-content/uploads/2026/01/wordpress-invite-users-site-email.png)
 
    Invite a user to your site in MyKinsta.

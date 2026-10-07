@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Bot Traffic", "What happens when AI agents become your new website operators?"]
-kinsta_last_updated: "2026-09-21T11:25:22+00:00"
-sitemap_lastmod: "2026-09-21T11:25:22"
-fetched_at: "2026-10-07T22:41:58Z"
-sha256: "ac78c5de12cb2bdbb260f02c4b263f0da7fa2e03f4e18757fc10c03610bf87e2"
-body_chars: 17439
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-09-21T11:25:22"
+change_signal: "2026-09-21T11:25:22"
+fetched_at: "2026-10-07T22:58:24Z"
+sha256: "444d6d9214da5bc56e52d89a243269f04ffaf280c2b394f6ad5c3ee9932eb24b"
+body_chars: 16415
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # What happens when AI agents become your new website operators?
 
-**Section:** Resource Center > Blog > Bot Traffic > What happens when AI agents become your new website operators?
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/ai-wordpress-operators/
-**Kinsta last updated:** 2026-09-21T11:25:22+00:00
+**Kinsta last updated:** 2026-09-21T11:25:22
 
 ## On this page
 
@@ -39,17 +38,6 @@ status: "live"
 - [Humans still run the operation](#humans-still-run-the-operation)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Published
-:   September 24, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/09/what-happens-when-ai-agents-become-your-new-website-operators-1024x512.png)
 
 AI agents don’t just answer questions anymore. They can carry out tasks.
 
@@ -245,11 +233,3 @@ Developers still make architecture decisions. Agencies still know what matters t
 What changes is how much day-to-day work someone has to do by hand. Teams still make the decisions and remain responsible for the result, but software can handle more of what happens in between.
 
 Your next website operator may be an AI agent. The bigger change is that your team may spend less time operating the website and more time deciding how those operations should work.
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Introducing Nixpacks for Streamlined Deployments"]
-kinsta_last_updated: "2026-05-14T19:08:07+00:00"
-sitemap_lastmod: "2026-05-14T19:08:07+00:00"
-fetched_at: "2026-10-07T22:37:38Z"
-sha256: "847161b6be68e83c44685536f278b2b81942a4842aff351bbc37eb08ccbbd5d7"
-body_chars: 4919
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-14T19:08:07"
+change_signal: "2026-05-14T19:08:07"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "8784d659762963befb21609f38abf369c068f95bd0d0af03b1eed7bc85271d12"
+body_chars: 4768
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Introducing Nixpacks for Streamlined Deployments
 
-**Section:** Changelog > Introducing Nixpacks for Streamlined Deployments
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/nixpacks/
-**Kinsta last updated:** 2026-05-14T19:08:07+00:00
+**Kinsta last updated:** 2026-05-14T19:08:07
 
 ## On this page
 
@@ -30,11 +29,6 @@ status: "live"
 - [Experience the Future of Container Image Creation](#experience-the-future-of-container-image-creation)
 
 ---
-
-Updated
-:   May 14, 2026
-
-![Introducing Nixpacks](https://kinsta.com/wp-content/uploads/2023/09/Introducing-Nixpacks_Feature_Updates_EN-1024x535.jpg)
 
 When [we introduced Application Hosting](https://kinsta.com/changelog/application-database-hosting/), it came with two methods for setting up container images based on your repository: one [using Buildpacks](https://docs.sevalla.com/applications/build-options/buildpacks), which automates the container image setup, and the other via a [Dockerfile](https://docs.sevalla.com/applications/build-options/dockerfile), granting you the freedom to work with any programming language.
 

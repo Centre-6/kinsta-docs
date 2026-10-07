@@ -1,33 +1,27 @@
 ---
 url: "https://kinsta.com/changelog/application-overview/"
-title: "MyKinsta offers a \"big-picture\" view of your application"
+title: "MyKinsta offers a \u201cbig-picture\u201d view of your application"
 tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "MyKinsta offers a \u201cbig-picture\u201d view of your application"]
-kinsta_last_updated: "2026-05-14T19:01:52+00:00"
-sitemap_lastmod: "2026-05-14T19:01:52+00:00"
-fetched_at: "2026-10-07T22:37:34Z"
-sha256: "9e9b8b0306bd1c5456526f3312406bed233777a381808633daace79046e0cabe"
-body_chars: 4487
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-14T19:01:52"
+change_signal: "2026-05-14T19:01:52"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "ba99aa033680898ca7f92908c67fa8863f56323781effe5d26de462cd7d62593"
+body_chars: 4304
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# MyKinsta offers a "big-picture" view of your application
+# MyKinsta offers a “big-picture” view of your application
 
-**Section:** Changelog > MyKinsta offers a “big-picture” view of your application
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/application-overview/
-**Kinsta last updated:** 2026-05-14T19:01:52+00:00
+**Kinsta last updated:** 2026-05-14T19:01:52
 
 ---
-
-Updated
-:   May 14, 2026
-
-![Illustration of the Application Overview diagram in MyKinsta.](https://kinsta.com/wp-content/uploads/2024/04/new-app-overview-page-mykinsta-1024x536.png)
 
 An update of the [MyKinsta](https://kinsta.com/mykinsta/) dashboard gives [Web Application Hosting](https://sevalla.com/application-hosting/) customers a new perspective on their projects.
 

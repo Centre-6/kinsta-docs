@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Cloudflare", "Kinsta Bot Protection vs. Cloudflare: What\u2019s the difference, and which should you use?"]
-kinsta_last_updated: "2026-07-16T14:26:05+00:00"
-sitemap_lastmod: "2026-07-16T14:26:05"
-fetched_at: "2026-10-07T22:42:14Z"
-sha256: "a7a38abbf8854a7f5fc000e2de87ce4e8945490441721b16ed8a2d0abacce327"
-body_chars: 22791
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-07-16T14:26:05"
+change_signal: "2026-07-16T14:26:05"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "c63c1d88c94daa925157f95be9df3dfb93ceed90c4d72f81674d73ddb9ce94ff"
+body_chars: 21879
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Kinsta Bot Protection vs. Cloudflare: What’s the difference, and which should you use?
 
-**Section:** Resource Center > Blog > Cloudflare > Kinsta Bot Protection vs. Cloudflare: What’s the difference, and which should you use?
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/kinsta-bot-protection-vs-cloudflare/
-**Kinsta last updated:** 2026-07-16T14:26:05+00:00
+**Kinsta last updated:** 2026-07-16T14:26:05
 
 ## On this page
 
@@ -48,17 +47,6 @@ status: "live"
 - [Bot protection is becoming part of WordPress operations](#bot-protection-is-becoming-part-of-wordpress-operations)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   July 16, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/07/kinsta-bot-protection-vs-cloudflare-whats-the-difference-and-which-should-you-use-1024x512.png)
 
 Bot traffic is no longer a background problem for WordPress site owners. In our [AI & Bot Traffic Report](https://kinsta.com/ai-bot-traffic/), we analyzed more than 10 billion requests across Kinsta-managed infrastructure and found that automated traffic is [now an infrastructure problem](https://kinsta.com/blog/ai-bot-traffic-wordpress-infrastructure-problem/), not just a footnote in security or analytics.
 
@@ -299,13 +287,3 @@ Bot protection is no longer something site owners can treat as a one-time securi
 As crawlers, AI tools, scrapers, and automated systems become more active across the web, WordPress teams need a way to manage non-human traffic without turning every site into a custom rule-building project. That’s the role Kinsta Bot Protection is built to play: a managed starting point with protection levels, AI crawler controls, WordPress-aware defaults, and visibility inside MyKinsta.
 
 To go deeper, watch the [Bot Traffic Reality Check webinar](https://kinsta.com/webinars/bot-traffic-reality-check/), read [Kinsta’s AI & Bot Traffic Report](https://kinsta.com/ai-bot-traffic/), or [enable Bot Protection](https://kinsta.com/bot-protection/) from your MyKinsta dashboard to see what automated traffic is actually hitting your site.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

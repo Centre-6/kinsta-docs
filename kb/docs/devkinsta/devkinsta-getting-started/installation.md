@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/devkinsta/devkinsta-getting-started/installation/"
-title: "Get Started - Installation"
+title: "Installation"
 tier: "docs"
 product: "devkinsta"
 product_label: "DevKinsta (local dev tool, not hosting)"
 subsection: "devkinsta-getting-started"
-section: []
-kinsta_last_updated: "August 19, 2024"
-sitemap_lastmod: "2024-08-19T12:02:13+00:00"
-fetched_at: "2026-10-07T22:38:17Z"
-sha256: "f8448b5a16795df2e26a8f8ea3c69eecc2db083f4d3030144d0168e06e2d5783"
-body_chars: 5930
-extracted_with: "main article"
+section: ["DevKinsta", "Get Started"]
+kinsta_last_updated: "2024-08-19T12:02:13"
+change_signal: "2024-08-19T12:02:13"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "5d71ce5c4450d53b0e595a8b44f4e3c7edfdb342f4af26b25d52e717797af373"
+body_chars: 6001
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Get Started - Installation
+# Installation
 
+**Section:** DevKinsta > Get Started
 **Product:** DevKinsta (local dev tool, not hosting)
 **Source:** https://kinsta.com/docs/devkinsta/devkinsta-getting-started/installation/
-**Kinsta last updated:** August 19, 2024
+**Kinsta last updated:** 2024-08-19T12:02:13
 
 ## On this page
 
@@ -99,8 +100,6 @@ Depending on your operating system, follow the instructions outlined below.
 
   You can check to see if your machine has this support by running the following command in a terminal:
 
-  Copy
-
   ```
   sysctl kern.hv_support
   ```
@@ -147,11 +146,9 @@ If Docker Desktop and Docker Engine are both installed on Ubuntu, you can only a
 
 Check which context is currently in use with `docker context list` or `docker context ls`, which will return a list of contexts. The active context is indicated with an asterisk (*).
 
-![A list of Docker contexts, with the active context indicated with an asterisk (*).](https://kinsta.com/wp-content/uploads/2023/03/devkinsta-docker-context-list.png)
+![A list of Docker contexts, with the active context indicated with an asterisk (*).](https://kinsta.com/wp-content/uploads/2023/03/devkinsta-docker-context-list.png "A list of Docker contexts, with the active context indicated with an asterisk (*).")
 
 To switch the context to Docker Engine, run:
-
-Copy
 
 ```
 docker context use default

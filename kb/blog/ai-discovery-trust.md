@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta News", "Are websites dead? AI discovery, trust, and website quality"]
-kinsta_last_updated: "2026-09-22T13:09:15+00:00"
-sitemap_lastmod: "2026-09-22T13:09:15"
-fetched_at: "2026-10-07T22:42:00Z"
-sha256: "51cbd32cecc2c1342b6e49b006808f9b73f45124844e8b131a4d640a3fc80832"
-body_chars: 3361
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-09-22T13:09:15"
+change_signal: "2026-09-22T13:09:15"
+fetched_at: "2026-10-07T22:58:24Z"
+sha256: "1ba3d215a85dd3102139084f9deb1129c4eb6a2544895c38786e2aa9fbe47101"
+body_chars: 2669
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Are websites dead? AI discovery, trust, and website quality
 
-**Section:** Resource Center > Blog > Kinsta News > Are websites dead? AI discovery, trust, and website quality
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/ai-discovery-trust/
-**Kinsta last updated:** 2026-09-22T13:09:15+00:00
+**Kinsta last updated:** 2026-09-22T13:09:15
 
 ## On this page
 
@@ -30,17 +29,6 @@ status: "live"
 - [Reviews and authenticity](#reviews-and-authenticity)
 
 ---
-
-Author
-:   [Kinsta](https://kinsta.com/blog/author/kinstateam/ "Posts by Kinsta")
-
-Updated
-:   September 22, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![Ai discovery](https://kinsta.com/wp-content/uploads/2026/09/are-websites-dead-ai-discovery-trust-and-website-quality-1024x512.png)
 
 *What consumers actually do after an AI recommendation, according to new Kinsta survey data*
 
@@ -93,7 +81,3 @@ Website quality also affects how consumers perceive the company behind it:
 *Survey methodology*
 
 [*Propeller Insights*](https://urldefense.proofpoint.com/v2/url?u=https-3A__propellerinsights.com_&d=DwMGaQ&c=euGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&r=r119Cscp_1OUNVQQT-Y2Uzj6FwyoZ5M500Evhv6RTrY&m=fXUe3i0wQJTaECkFZydI_I949jqBKa57E02ATQdo39-mwBvqJEhLCEEiy8uwbInI&s=pT-WicKZCVqVxT0lv_cfCYejXhzrFZuzhNHP2P13l-A&e=) *conducted a national survey of 1,008 U.S. consumers for Kinsta. The margin of error is plus or minus 3 percentage points with a 95% level of confidence.*
-
-Kinsta
-
-The Kinsta Team consists of WordPress experts, performance engineers, and support professionals passionate about fast, secure, and scalable hosting. We publish in-depth guides, research, and practical advice to help you build and grow with WordPress.

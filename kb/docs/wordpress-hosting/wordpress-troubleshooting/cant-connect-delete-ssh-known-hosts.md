@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/cant-connect-delete-ssh-known-hosts/"
-title: "Troubleshooting - SSH and SFTP Connection Errors"
+title: "SSH and SFTP Connection Errors"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-troubleshooting"
-section: []
-kinsta_last_updated: "February 18, 2026"
-sitemap_lastmod: "2026-02-18T05:53:44+00:00"
-fetched_at: "2026-10-07T22:39:29Z"
-sha256: "a68275c4716b46d2f0b3bbac8997ae3d7fb6ddf72628089267e6c799f3815f8b"
-body_chars: 4683
-extracted_with: "main article"
+section: ["WordPress Hosting", "Troubleshooting"]
+kinsta_last_updated: "2026-02-18T05:53:44"
+change_signal: "2026-02-18T05:53:44"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "a225622ebd18143d9b826c7431dff8e6c110dfdb2655d2fdfffd75eeed36bab9"
+body_chars: 4659
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Troubleshooting - SSH and SFTP Connection Errors
+# SSH and SFTP Connection Errors
 
+**Section:** WordPress Hosting > Troubleshooting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/cant-connect-delete-ssh-known-hosts/
-**Kinsta last updated:** February 18, 2026
+**Kinsta last updated:** 2026-02-18T05:53:44
 
 ## On this page
 
@@ -36,8 +37,6 @@ Have issues connecting via [SSH](https://kinsta.com/docs/wordpress-hosting/conne
 For example, if you push one environment to another, such as staging to live, a new SSH key fingerprint is generated. Since the **known_hosts** file is used to verify SSH and SFTP connections, the mismatch can block the connection.
 
 To resolve this, you’ll need to remove the outdated entry from your **known_hosts** file and reconnect to accept the new fingerprint.
-
-Copy
 
 ```
 [user@hostname ~]$ ssh root@user
@@ -69,8 +68,6 @@ If the issue persists, follow the directions below to delete entries from your `
 
 1. Open up Terminal and edit your **known_hosts** file in [nano text editor](https://www.nano-editor.org/) with the following command:
 
-Copy
-
 ```
 nano ~/.ssh/known_hosts
 ```
@@ -93,15 +90,11 @@ If you’re not sure which SSH client you’re using, check if the error message
 2. Identify the IP address and port for the site you are trying to connect to by looking for the specific IP address and port within the error message. You can also find the IP address within the SFTP/SSH section on your site’s Info tab in MyKinsta. For example, `[34.64.255.111]:48129`.
 3. Remove all entries that start with your site’s IP address from the `known_hosts` file. You can do this by manually editing the file within a text editor, or by using the `ssh-keygen -R` command, for example:
 
-   Copy
-
    ```
    ssh-keygen -R [hostname_or_IP]
    ```
 
    or
-
-   Copy
 
    ```
    ssh-keygen -R "[IP]:[Port]"
@@ -110,11 +103,14 @@ If you’re not sure which SSH client you’re using, check if the error message
 #### PuTTY SSH client
 
 1. Launch **regedit** from your start menu. The example below is using Windows 10.
+
    ![regedit](https://kinsta.com/wp-content/uploads/2016/09/regedit-1.png)
 
    Windows regedit
 2. Browse to the following directory:  
-   **HKEY_CURRENT_USERSoftWareSimonTathamPuTTYSshHostKeys**![sshhostkeys](https://kinsta.com/wp-content/uploads/2016/09/sshhostkeys-1.png)
+   **HKEY_CURRENT_USERSoftWareSimonTathamPuTTYSshHostKeys**
+
+   ![sshhostkeys](https://kinsta.com/wp-content/uploads/2016/09/sshhostkeys-1.png)
 
    SshHostKeys
 3. Remove all entries that end with your site’s Host IP address (found in the SFTP/SSH section on your site’s Info tab in MyKinsta).

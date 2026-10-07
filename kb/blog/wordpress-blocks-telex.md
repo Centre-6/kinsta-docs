@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Development", "Building WordPress blocks with Telex"]
-kinsta_last_updated: "2026-01-20T16:30:42+00:00"
-sitemap_lastmod: "2026-01-20T16:30:42"
-fetched_at: "2026-10-07T22:42:49Z"
-sha256: "c92d33f7d191a6273461d732dd75ad5bb5b269a380591b1be087a6cd0258c9a8"
-body_chars: 10391
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-01-20T16:30:42"
+change_signal: "2026-01-20T16:30:42"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "8c1c59f03878d8f0e0117e95c94cd7feadd897d9ef686f1adca9e578abbba3b9"
+body_chars: 9755
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Building WordPress blocks with Telex
 
-**Section:** Resource Center > Blog > WordPress Development > Building WordPress blocks with Telex
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-blocks-telex/
-**Kinsta last updated:** 2026-01-20T16:30:42+00:00
+**Kinsta last updated:** 2026-01-20T16:30:42
 
 ## On this page
 
@@ -31,17 +30,6 @@ status: "live"
 - [What’s next for building blocks with AI](#whats-next-for-building-blocks-with-ai)
 
 ---
-
-Author
-:   [Bud Kraus](https://kinsta.com/blog/author/budkraus/ "Posts by Bud Kraus")
-
-Published
-:   February 12, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/01/building-a-wordpress-block-weith-telex-1024x512.png)
 
 [Telex](https://telex.automattic.ai/) is an experimental, browser-based free tool from Automattic that uses AI to generate [WordPress blocks](https://kinsta.com/blog/gutenberg-blocks/) from natural language prompts.
 
@@ -192,7 +180,3 @@ Telex offers a glimpse into how AI can fit into modern WordPress development. It
 At the same time, the examples here show that understanding the block editor still matters.
 
 Once a block is ready to move beyond experimentation, having a reliable [WordPress environment like Kinsta](https://kinsta.com/wordpress-hosting/) makes it easier to test, iterate, and ship with confidence.
-
-Bud Kraus
-
-Bud Kraus has been working with WordPress as an in-class and online instructor, site developer, and content creator since 2009. He has produced instructional videos and written many articles for WordPress businesses.

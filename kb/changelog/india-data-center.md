@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "India Data Center Is Now Available in Mumbai"]
-kinsta_last_updated: "2024-07-12T19:49:39+00:00"
-sitemap_lastmod: "2024-07-12T19:49:39+00:00"
-fetched_at: "2026-10-07T22:36:53Z"
-sha256: "5b42cb881f027f2eb7ce5bd7bee9186c9df525b22e19088101f6fe606f2e7f51"
-body_chars: 1675
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-07-12T19:49:39"
+change_signal: "2024-07-12T19:49:39"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "1825b126684ad48c482bc208a9f661edd9746b50ffd027a86bba8e1bf8010ffe"
+body_chars: 1531
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # India Data Center Is Now Available in Mumbai
 
-**Section:** Changelog > India Data Center Is Now Available in Mumbai
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/india-data-center/
-**Kinsta last updated:** 2024-07-12T19:49:39+00:00
+**Kinsta last updated:** 2024-07-12T19:49:39
 
 ---
-
-Updated
-:   July 12, 2024
-
-![India data center in Mumbai](https://kinsta.com/wp-content/uploads/2017/11/india-data-center-mumbai-1024x577.png)
 
 We always roll out new locations alongside Google Cloud Platform and are excited to announce that the data center in Mumbai, India is now available for hosting your WordPress sites. Kinsta now has 13 [Google Cloud data centers](https://kinsta.com/docs/service-information/data-center-locations/) you can choose from, allowing you to place your website in a geographical location closest to your visitors. This ensures low latency and blazing fast load times.
 

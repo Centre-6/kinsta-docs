@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/fastly-cdn/"
-title: "CDN - Fastly CDN"
+title: "Fastly CDN"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-cdn"
-section: []
-kinsta_last_updated: "February 11, 2026"
-sitemap_lastmod: "2026-02-11T16:46:41+00:00"
-fetched_at: "2026-10-07T22:39:23Z"
-sha256: "9afc961dca5e340e699fb000123c3dc0ed00713e732bfd1c0b0266a952f35383"
-body_chars: 12626
-extracted_with: "main article"
+section: ["WordPress Hosting", "CDN"]
+kinsta_last_updated: "2026-02-11T16:46:41"
+change_signal: "2026-02-11T16:46:41"
+fetched_at: "2026-10-07T22:58:18Z"
+sha256: "18280692bde98ea9d37117791cbf7d2f42ea4c32f27b45fdb2ff7d0eaa0de386"
+body_chars: 12631
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# CDN - Fastly CDN
+# Fastly CDN
 
+**Section:** WordPress Hosting > CDN
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/fastly-cdn/
-**Kinsta last updated:** February 11, 2026
+**Kinsta last updated:** 2026-02-11T16:46:41
 
 ## On this page
 
@@ -119,16 +120,19 @@ Fastly offers a couple of different options for TLS, but we’ll only be coverin
 If you need to upload a third-party certificate at Fastly, that option is [available for an additional fee](https://www.fastly.com/pricing/#tls/ssl-secure-connections), and you’ll need to follow their guide for [using certificates you manage](https://docs.fastly.com/en/guides/serving-https-traffic-using-certificates-you-manage) instead of the instructions here.
 
 1. Click **Security** and within **TLS Management**, click **Manage certificates**.
+
    ![Manage TLS certificates within Fastly.](https://kinsta.com/wp-content/uploads/2023/11/fastly-tls-management.png)
 
    Manage TLS certificates within Fastly.
 2. If this is your first time setting up TLS on a domain in Fastly, click **Get started**. Otherwise, click **Secure another domain** on the right side of the page. In the dropdown that appears, select **Use certificates Fastly obtains for you**.
 3. On the **Subscription details** page, within **Domains**, enter your domain name and click **Add**. Select **Let’s Encrypt** as the certification authority and if you’re adding a domain, leave TLS configuration on the default of **TLS 1.3**, click **Submit**.
+
    ![Add your TLS subscription details within Fastly.](https://kinsta.com/wp-content/uploads/2023/11/fastly-tls-subscription-1.png)
 
    Add your TLS subscription details within Fastly.
 4. On the **Subscription details** page, click the copy (clipboard) icon to copy the target for custom CNAME you’ll need to add to your DNS records for verification.  
    **Note:** When you add your domain in MyKinsta it includes a CNAME verification record, you’ll need to remove that record to verify the domain with Fastly. This won’t affect your domain’s functionality in MyKinsta, the verification record is only required during the initial setup and can be safely deleted afterward.
+
    ![CNAME record details to verify your domain.](https://kinsta.com/wp-content/uploads/2023/11/fastly-tls-cname.png)
 
    CNAME record details to verify your domain.
@@ -137,6 +141,7 @@ If you need to upload a third-party certificate at Fastly, that option is [avail
    1. Within MyKinsta, click **DNS management** and select the domain you want to add a DNS record to.
    2. Click **Add a DNS record**, select **CNAME** and add your **Hostname** and **Points to** values. The Hostname needs to be in the format _acme-challenge.www.DOMAIN_NAME (e.g., _acme-challenge.www.myawesomesite.com) and the Points to value needs to be the target you copied from the Verify domain ownership pop-up at Fastly.
    3. Click **Add DNS record** to save your new CNAME record. Note: It may take up to 1 hour for the [DNS record to propagate](https://kinsta.com/blog/dns-propagation/).
+
       ![Adding your domain verification CNAME in Kinsta's DNS.](https://kinsta.com/wp-content/uploads/2023/11/wordpress-add-fastly-dns-cname-1024x465.png)
 
       Adding your domain verification CNAME in Kinsta’s DNS.
@@ -150,6 +155,7 @@ Once TLS is set up on your Fastly service, you’re ready to take it live. This 
    - Hostname: www
    - Points to: j.sni.global.fastly.net
 3. Click **Change DNS record** (updating a DNS record) or **Add DNS record** (adding a new DNS record) to save your DNS record. Note: It may take up to 1 hour for this DNS change to propagate.
+
    ![Pointing your domain’s www CNAME to Fastly in Kinsta's DNS.](https://kinsta.com/wp-content/uploads/2023/11/wordpress-change-fastly-dns-cname-1024x465.png)
 
    Pointing your domain’s www CNAME to Fastly in Kinsta’s DNS.

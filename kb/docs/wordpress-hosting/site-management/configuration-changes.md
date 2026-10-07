@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/site-management/configuration-changes/"
-title: "Site Management - Configuration Changes"
+title: "Configuration Changes"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "site-management"
-section: []
-kinsta_last_updated: "July 1, 2025"
-sitemap_lastmod: "2025-07-01T15:45:03+00:00"
-fetched_at: "2026-10-07T22:38:44Z"
-sha256: "08865de8295654bf6e9531ed38a95b26620fc15b59807d8ef19cf98d8d336562"
-body_chars: 2818
-extracted_with: "main article"
+section: ["WordPress Hosting", "Site Management"]
+kinsta_last_updated: "2025-07-01T15:45:03"
+change_signal: "2025-07-01T15:45:03"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "c1c533ea773324062a021573556c17415e912024e4d8a5e376ec087190e10bf3"
+body_chars: 2901
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Site Management - Configuration Changes
+# Configuration Changes
 
+**Section:** WordPress Hosting > Site Management
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/site-management/configuration-changes/
-**Kinsta last updated:** July 1, 2025
+**Kinsta last updated:** 2025-07-01T15:45:03
 
 ## On this page
 
@@ -60,7 +61,7 @@ Enable .htpasswd protection.
 
 After it’s enabled, your WordPress site will then require authentication to access it. You can change the credentials at any time or disable it when you no longer need it.
 
-![Password protection requires signing in before viewing the site in your browser.](https://kinsta.com/wp-content/uploads/2021/11/htpasswd-authentication-prompt.png)
+![Password protection requires signing in before viewing the site in your browser.](https://kinsta.com/wp-content/uploads/2021/11/htpasswd-authentication-prompt.png "Password protection requires signing in before viewing the site in your browser.")
 
 Password protection requires signing in before viewing the site in your browser.
 

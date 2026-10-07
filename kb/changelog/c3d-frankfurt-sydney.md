@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Kinsta adopts faster C3D VMs in Frankfurt and Sydney data centers"]
-kinsta_last_updated: "2025-11-17T12:07:28+00:00"
-sitemap_lastmod: "2025-11-17T12:07:28+00:00"
-fetched_at: "2026-10-07T22:37:11Z"
-sha256: "e00d576f3afdac3c6d3ac1e9b34f8fd3f06ee43b539875de4717d7ff37221c9c"
-body_chars: 3484
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-11-17T12:07:28"
+change_signal: "2025-11-17T12:07:28"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "5170feaffd84d756e97c73f609453f34588198c841588b4cf34e557cf99993c5"
+body_chars: 3227
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Kinsta adopts faster C3D VMs in Frankfurt and Sydney data centers
 
-**Section:** Changelog > Kinsta adopts faster C3D VMs in Frankfurt and Sydney data centers
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/c3d-frankfurt-sydney/
-**Kinsta last updated:** 2025-11-17T12:07:28+00:00
+**Kinsta last updated:** 2025-11-17T12:07:28
 
 ---
-
-Updated
-:   November 17, 2025
-
-![A reference to C3D data centers and an illustration showing the location of the Frankfurt and Sydney data centers on a map.](https://kinsta.com/wp-content/uploads/2024/08/new-c3d-data-centers-frankfurt-sydney-1024x536.jpg)
 
 Kinsta is moving its [Managed WordPress Hosting](https://kinsta.com/wordpress-hosting/) platform to the Google Cloud’s fastest virtual machines in two more data centers: Frankfurt, Germany, and Syndey, Australia.
 

@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Performance", "How WordPress hosting handles partial failures (APIs, CDNs, and third-party scripts)"]
-kinsta_last_updated: "2026-03-18T18:52:10+00:00"
-sitemap_lastmod: "2026-03-18T18:52:10"
-fetched_at: "2026-10-07T22:42:34Z"
-sha256: "cddc81395d2f3877014c6c0e35d1a03906ba70ae4d1a18c09b3e1cda6428bde1"
-body_chars: 16361
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-03-18T18:52:10"
+change_signal: "2026-03-18T18:52:10"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "d3e35cdadf1f032eb0276f709cb8ded0819e959b088adf22999aff62beac85aa"
+body_chars: 15465
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How WordPress hosting handles partial failures (APIs, CDNs, and third-party scripts)
 
-**Section:** Resource Center > Blog > WordPress Performance > How WordPress hosting handles partial failures (APIs, CDNs, and third-party scripts)
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-performance-partial-failures/
-**Kinsta last updated:** 2026-03-18T18:52:10+00:00
+**Kinsta last updated:** 2026-03-18T18:52:10
 
 ## On this page
 
@@ -38,17 +37,6 @@ status: "live"
 - [Your hosting should do more than give your site speed](#your-hosting-should-do-more-than-give-your-site-speed)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   April 9, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/04/how-hosting-impacts-wordpress-performance-during-partial-failures-1024x512.png)
 
 Most WordPress performance problems get traced back to the hosting environment, which is sometimes the right diagnosis. However, third-party dependencies trigger the same alarm bells, yet live outside the host’s control.
 
@@ -250,13 +238,3 @@ Third-party failures are part of running a WordPress site with real-world depend
 Using an infrastructure that implements container isolation, a dedicated PHP thread pool, built-in timeout limits, and [application monitoring](https://kinsta.com/apm-tool/) lets you understand a hosting problem from a dependency problem.
 
 If you’re ready to see how Kinsta’s infrastructure handles this for your WordPress sites, explore [Kinsta’s hosting plans](https://kinsta.com/pricing/). Alternatively, [speak to the team](https://kinsta.com/contact-us/) about how Kinsta can benefit your specific setup.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

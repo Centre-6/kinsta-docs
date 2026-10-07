@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/devkinsta/devkinsta-troubleshooting/error-codes/"
-title: "Troubleshooting - Error Codes"
+title: "Error Codes"
 tier: "docs"
 product: "devkinsta"
 product_label: "DevKinsta (local dev tool, not hosting)"
 subsection: "devkinsta-troubleshooting"
-section: []
-kinsta_last_updated: "February 18, 2026"
-sitemap_lastmod: "2026-02-18T05:53:46+00:00"
-fetched_at: "2026-10-07T22:39:31Z"
-sha256: "a486674c44d6596c1603e819b1cbf47ea543995aa4ef08876f2a78812bea8cf7"
-body_chars: 33694
-extracted_with: "main article"
+section: ["DevKinsta", "Troubleshooting"]
+kinsta_last_updated: "2026-02-18T05:53:46"
+change_signal: "2026-02-18T05:53:46"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "64dd650090c315f363fa7e460ef281f7aefe608215fba027c179f0f1b2dc713a"
+body_chars: 33610
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Troubleshooting - Error Codes
+# Error Codes
 
+**Section:** DevKinsta > Troubleshooting
 **Product:** DevKinsta (local dev tool, not hosting)
 **Source:** https://kinsta.com/docs/devkinsta/devkinsta-troubleshooting/error-codes/
-**Kinsta last updated:** February 18, 2026
+**Kinsta last updated:** 2026-02-18T05:53:46
 
 ## On this page
 
@@ -271,23 +272,17 @@ If you’re unable to start DevKinsta and access the log file through the Help a
 
 ### Windows
 
-Copy
-
 ```
 %userprofile%\AppData\Roaming\DevKinsta\logs
 ```
 
 ### Mac
 
-Copy
-
 ```
 /Users/<yourusername>/Library/Logs/DevKinsta
 ```
 
 ### Linux
-
-Copy
 
 ```
 ~/.config/DevKinsta/logs on Ubuntu
@@ -321,7 +316,7 @@ This error appears when DevKinsta can’t install Docker Desktop; this may be du
 
 ### Solution
 
-Ensure your computer aligns with the [system requirements](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/installation/) and try to install Docker Desktop manually. For more information about installing Docker Desktop manually, refer to Docker’s installation guides for [Mac](https://docs.docker.com/desktop/install/mac-install/), [Windows](https://docs.docker.com/desktop/install/windows-install/), or [Linux](https://docs.docker.com/desktop/install/linux-install/). When you have installed Docker Desktop, restart DevKinsta.
+Ensure your computer aligns with the [system requirements](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/installation) and try to install Docker Desktop manually. For more information about installing Docker Desktop manually, refer to Docker’s installation guides for [Mac](https://docs.docker.com/desktop/install/mac-install/), [Windows](https://docs.docker.com/desktop/install/windows-install/), or [Linux](https://docs.docker.com/desktop/install/linux-install/). When you have installed Docker Desktop, restart DevKinsta.
 
 ## DK0004
 
@@ -372,8 +367,6 @@ DevKinsta couldn’t start Docker containers.
 ### Solution
 
 Stop the DevKinsta-related Docker containers using the following command and then restart DevKinsta.
-
-Copy
 
 ```
 docker kill devkinsta_fpm && docker kill devkinsta_nginx && docker kill devkinsta_adminer && docker kill devkinsta_db && docker kill devkinsta_mailhog
@@ -597,16 +590,12 @@ Close the process using port `80` using one of the following commands:
 
 #### find & kill process on macOS
 
-Copy
-
 ```
 # find & kill processes which are using port 80
 sudo lsof -i tcp:80 | grep LISTEN | awk '{print $2}' | xargs kill -9
 ```
 
 #### find & kill process on Windows
-
-Copy
 
 ```
 # find processes which are using port 80
@@ -812,15 +801,11 @@ You may see this error when the site’s database cannot be deleted due to inter
 
 You can manually delete the database using the CLI by running the following command in the terminal:
 
-Copy
-
 ```
 docker exec devkinsta_db bin/sh -c 'mysql -u root -p[YOUR_DB_PASSWORD] -e "drop database [YOUR_SITE];"'
 ```
 
 You can check whether the database has been deleted or not by running the following command in the terminal:
-
-Copy
 
 ```
 docker exec devkinsta_db bin/sh -c 'mysql -u root -p[YOUR_DB_PASSWORD] -e "show databases;"'
@@ -868,8 +853,6 @@ Click **Retry**; if this does not resolve the issue, relaunch DevKinsta or recre
 
 For example, to create the container on ports 80 and 443 on macOS, and Linux, you can run the following command in the terminal, replacing or setting the `${LATEST_IMAGE_VERSION}` variable with the latest version of our DevKinsta Docker image:
 
-Copy
-
 ```
 docker run --network devkinst_network --name devkinsta_nginx \\
 -p 80:80 -p 443:443 \\
@@ -884,8 +867,6 @@ docker run --network devkinst_network --name devkinsta_nginx \\
 On Windows, you can use the same command without the linebreaks and the `\\` separators.
 
 To get the latest version of our images, run:
-
-Copy
 
 ```
 docker image ls --filter=reference='kinsta/devkinsta_*'
@@ -969,8 +950,6 @@ You may see this error when DevKinsta fails to restart a Docker container.
 
 You can restart the container manually in Docker Desktop or in the terminal (replace `<container>` with the container name):
 
-Copy
-
 ```
 docker start <container>
 ```
@@ -1036,7 +1015,7 @@ If this error occurs, it may be due to one of the following:
 
 ### Solution
 
-Check if [WP-CLI](https://kinsta.com/docs/devkinsta/wp-cli/) is working on your remote (MyKinsta) site. If WP-CLI works but reports database-related issues, then your site is not [connecting to the database properly](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/fix-error-establishing-a-database-connection-in-wordpress/). Review the database settings in your site’s **wp-config.php** file and confirm the database details are correct.
+Check if [WP-CLI](https://kinsta.com/docs/devkinsta/wp-cli) is working on your remote (MyKinsta) site. If WP-CLI works but reports database-related issues, then your site is not [connecting to the database properly](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/fix-error-establishing-a-database-connection-in-wordpress). Review the database settings in your site’s **wp-config.php** file and confirm the database details are correct.
 
 If your remote database is down, contact our [Support team](https://kinsta.com/docs/support/contact-support/) to help resolve that issue.
 
@@ -1061,8 +1040,6 @@ Couldn’t delete a site’s URL from the DNS server of the FPM container.
 ### Solution
 
 You can delete the URL manually with the following command (replace http://example.com with the URL you want to delete):
-
-Copy
 
 ```
 docker exec devkinsta_fpm dns_server delete -d http://example.com
@@ -1097,8 +1074,6 @@ The Nginx service must be restarted when a site is created, renamed, or deleted.
 ### Solution
 
 To restart the Nginx container manually, open a terminal window and run the following:
-
-Copy
 
 ```
 docker stop devkinsta_nginx
@@ -1138,7 +1113,7 @@ DevKinsta sometimes needs to install plugins, and this error appears when DevKin
 
 ### Solution
 
-This can be fixed by manually installing the plugin via [WP-CLI](https://kinsta.com/docs/devkinsta/wp-cli/).
+This can be fixed by manually installing the plugin via [WP-CLI](https://kinsta.com/docs/devkinsta/wp-cli).
 
 ## DK0077
 
@@ -1148,7 +1123,7 @@ DevKinsta sometimes needs to remove plugins, and this error appears when DevKins
 
 ### Solution
 
-This can be fixed by manually removing the plugin via [WP-CLI](https://kinsta.com/docs/devkinsta/wp-cli/).
+This can be fixed by manually removing the plugin via [WP-CLI](https://kinsta.com/docs/devkinsta/wp-cli).
 
 ## DK0078
 
@@ -1158,7 +1133,7 @@ DevKinsta couldn’t update one of the WP options in the site database using a W
 
 ### Solution
 
-This can be fixed by manually updating the option via [WP-CLI](https://kinsta.com/docs/devkinsta/wp-cli/).
+This can be fixed by manually updating the option via [WP-CLI](https://kinsta.com/docs/devkinsta/wp-cli).
 
 ## DK0081
 

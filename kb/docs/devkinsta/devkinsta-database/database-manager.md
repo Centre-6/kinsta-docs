@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/devkinsta/devkinsta-database/database-manager/"
-title: "Database Management - Database Manager"
+title: "Database Manager"
 tier: "docs"
 product: "devkinsta"
 product_label: "DevKinsta (local dev tool, not hosting)"
 subsection: "devkinsta-database"
-section: []
-kinsta_last_updated: "August 19, 2024"
-sitemap_lastmod: "2024-08-19T12:21:44+00:00"
-fetched_at: "2026-10-07T22:38:18Z"
-sha256: "447bbc877d40e931f2304893ad70922823a44586d0206898893459092d9ae07e"
-body_chars: 3301
-extracted_with: "main article"
+section: ["DevKinsta", "Database Management"]
+kinsta_last_updated: "2024-08-19T12:21:44"
+change_signal: "2024-08-19T12:21:44"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "aa3b540f29b7d542ef640003b7f8ce2c06621e9c109f50b442f1db69ae2fab94"
+body_chars: 3277
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Database Management - Database Manager
+# Database Manager
 
+**Section:** DevKinsta > Database Management
 **Product:** DevKinsta (local dev tool, not hosting)
 **Source:** https://kinsta.com/docs/devkinsta/devkinsta-database/database-manager/
-**Kinsta last updated:** August 19, 2024
+**Kinsta last updated:** 2024-08-19T12:21:44
 
 ## On this page
 
@@ -85,23 +86,17 @@ If you’d like to access your database via the terminal/command line, you can d
 
 Enter the `devkinsta_db` container:
 
-Copy
-
 ```
 docker exec -it devkinsta_db bash
 ```
 
 Connect to the database:
 
-Copy
-
 ```
 mysql -h localhost -u root -p
 ```
 
 Run SQL commands like:
-
-Copy
 
 ```
 show databases;
@@ -116,8 +111,6 @@ You can find this information on the **Site** info page.
 DevKinsta database details.
 
 Enter the database directly from the host OS:
-
-Copy
 
 ```
 mysql -h 192.168.99.254 -P 15100 -u root -p

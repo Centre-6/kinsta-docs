@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/site-preview/"
-title: "Tools - Site Preview"
+title: "Site Preview"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "mykinsta-tools"
-section: []
-kinsta_last_updated: "May 6, 2026"
-sitemap_lastmod: "2026-05-06T10:52:01+00:00"
-fetched_at: "2026-10-07T22:40:09Z"
-sha256: "ecc2af2e741c8163b3106d0fefe037572e40a2c3bd9edb172d160aed6fd9224e"
-body_chars: 5047
-extracted_with: "main article"
+section: ["WordPress Hosting", "Tools"]
+kinsta_last_updated: "2026-05-06T10:52:01"
+change_signal: "2026-05-06T10:52:01"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "1458c7eee73f56d30273c732b5d81a14741e6d96f927b1f16efab478f2943358"
+body_chars: 5114
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Tools - Site Preview
+# Site Preview
 
+**Section:** WordPress Hosting > Tools
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/site-preview/
-**Kinsta last updated:** May 6, 2026
+**Kinsta last updated:** 2026-05-06T10:52:01
 
 ## On this page
 
@@ -56,7 +57,7 @@ Open your site’s temporary URL.
 
 You’ll be able to view the site just like you normally would on the live domain. You can also confirm that Site Preview is working by inspecting your site with your browser’s developer tools and looking for the `X-Kinsta-preview-mode: active` header on the Network tab.
 
-![Viewing the X-Kinsta-preview-mode: active header in your browser.](https://kinsta.com/wp-content/uploads/2021/12/preview-mode-active-header.jpg)
+![Viewing the X-Kinsta-preview-mode: active header in your browser.](https://kinsta.com/wp-content/uploads/2021/12/preview-mode-active-header.jpg "Viewing the X-Kinsta-preview-mode: active header in your browser")
 
 Viewing the X-Kinsta-preview-mode: active header in your browser.
 

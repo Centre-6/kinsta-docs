@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "PHP Updates", "PHP 8.5 benchmarks: The state of PHP performance across major CMSs and frameworks"]
-kinsta_last_updated: "2025-12-13T22:44:47+00:00"
-sitemap_lastmod: "2025-12-13T22:44:47"
-fetched_at: "2026-10-07T22:43:05Z"
-sha256: "35e1b7e3f4458225b8ebdf769a263a409ad31cb09e4e451f4d4f9866cc3633c8"
-body_chars: 27501
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-12-13T22:44:47"
+change_signal: "2025-12-13T22:44:47"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "5784abb9fc8eb38497fe68f7e3783c31af26e8e41e98e22af7760160aadb21bb"
+body_chars: 26653
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # PHP 8.5 benchmarks: The state of PHP performance across major CMSs and frameworks
 
-**Section:** Resource Center > Blog > PHP Updates > PHP 8.5 benchmarks: The state of PHP performance across major CMSs and frameworks
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/php-benchmarks/
-**Kinsta last updated:** 2025-12-13T22:44:47+00:00
+**Kinsta last updated:** 2025-12-13T22:44:47
 
 ## On this page
 
@@ -61,17 +60,6 @@ status: "live"
 - [What these benchmarks mean in practice](#what-these-benchmarks-mean-in-practice)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   December 13, 2025
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/12/php-benchmark-2-1024x512.png)
 
 PHP 8.5 has now been officially released, and developers naturally want to know what kind of performance improvements they can expect across popular CMSs and frameworks.
 
@@ -523,13 +511,3 @@ Kinsta’s infrastructure is also [SOC 2 compliant](https://kinsta.com/docs/serv
 For teams building modern web applications with frameworks such as Laravel, CodeIgniter, or other PHP-based stacks, [Sevalla](https://sevalla.com/) (a product by Kinsta) offers a comprehensive cloud application platform that supports Docker-based deployments, auto-scaling, managed databases, and containerized apps, which is a strong match for real-world PHP workloads.
 
 [Join](https://kinsta.com/pricing/) thousands of developers and businesses already running WordPress faster with Kinsta.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

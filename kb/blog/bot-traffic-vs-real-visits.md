@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Issues", "How to distinguish traffic from bots to identify real visits, helpful bots, and harmful attacks"]
-kinsta_last_updated: "2026-06-02T15:23:05+00:00"
-sitemap_lastmod: "2026-06-02T15:23:05"
-fetched_at: "2026-10-07T22:42:40Z"
-sha256: "b77ad2e3a627de92b5e2e89f93f56af2351ce6cc33f7f94d0f893044812b6a87"
-body_chars: 21116
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-02T15:23:05"
+change_signal: "2026-06-02T15:23:05"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "e2938b3103081b8d7afcbd066f93ff793f320ef10f48ff8b7c396eac500b4469"
+body_chars: 20197
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How to distinguish traffic from bots to identify real visits, helpful bots, and harmful attacks
 
-**Section:** Resource Center > Blog > WordPress Issues > How to distinguish traffic from bots to identify real visits, helpful bots, and harmful attacks
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/bot-traffic-vs-real-visits/
-**Kinsta last updated:** 2026-06-02T15:23:05+00:00
+**Kinsta last updated:** 2026-06-02T15:23:05
 
 ## On this page
 
@@ -55,17 +54,6 @@ status: "live"
 - [Use traffic source information to make better decisions](#use-traffic-source-information-to-make-better-decisions)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   June 2, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/03/break-down-the-traffic-from-bots-to-identify-real-visits-helpful-bots-and-harmful-attacks-1-1024x512.png)
 
 More traffic should mean more success, but in practice, it often doesn’t. Many websites see rising visit counts while conversions, engagement, and revenue remain flat, leaving teams wondering why “growth” doesn’t feel like growth at all.
 
@@ -256,13 +244,3 @@ More accurate traffic classification also improves operational decisions. Perfor
 If your current hosting environment provides limited visibility into traffic sources, it may be worth evaluating platforms that offer deeper traffic intelligence and integrated bot management tools. [Managed environments like Kinsta](https://kinsta.com/wordpress-hosting/) provide built-in analytics, firewall protections, and edge-level traffic insights that help distinguish real users from [automated activity](https://kinsta.com/blog/ai-crawlers-wordpress/).
 
 Kinsta’s newer [bandwidth-based hosting plans](https://kinsta.com/blog/bandwidth-based-plans/) also add flexibility by more closely pairing hosting resources with actual traffic consumption. If you have questions, you can [talk to our support team](https://kinsta.com/kinsta-support/) anytime.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

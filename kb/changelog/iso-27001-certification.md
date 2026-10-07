@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Kinsta earns ISO 27001 certification for its data security and privacy efforts"]
-kinsta_last_updated: "2024-08-16T20:31:30+00:00"
-sitemap_lastmod: "2024-08-16T18:31:30+00:00"
-fetched_at: "2026-10-07T22:36:56Z"
-sha256: "407f97becf3d0204cd570ee1da50e221af5356fdbefc54fee68df6e8770468c0"
-body_chars: 4652
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-08-16T18:31:30"
+change_signal: "2024-08-16T18:31:30"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "d0a27f1bbc233604b543ff1b8f50dd98da889bdd94a68d83d40b30c7b1b908f5"
+body_chars: 4433
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Kinsta earns ISO 27001 certification for its data security and privacy efforts
 
-**Section:** Changelog > Kinsta earns ISO 27001 certification for its data security and privacy efforts
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/iso-27001-certification/
-**Kinsta last updated:** 2024-08-16T20:31:30+00:00
+**Kinsta last updated:** 2024-08-16T18:31:30
 
 ---
-
-Published
-:   August 16, 2024
-
-![An illustration representing various information security standards, including ISO 27001.](https://kinsta.com/wp-content/uploads/2024/08/changelog-iso-27001-certification-1024x536.jpg)
 
 Customers have even more reason to trust Kinsta now that its information security management practices have been recognized as meeting the most demanding international standards.
 

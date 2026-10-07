@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "API", "Why WordPress needs APIs before it needs more AI"]
-kinsta_last_updated: "2026-09-15T19:01:16+00:00"
-sitemap_lastmod: "2026-09-15T19:01:16"
-fetched_at: "2026-10-07T22:41:56Z"
-sha256: "022f4679511ca7ef3167c01c6747a0da2801f03fe94152d51b44d9265d95b905"
-body_chars: 13153
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-09-15T19:01:16"
+change_signal: "2026-09-15T19:01:16"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "c4c6d7a5afd64533557441fc72fe2c5a2dd7deefcc4b1123896f924cefc35922"
+body_chars: 12410
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Why WordPress needs APIs before it needs more AI
 
-**Section:** Resource Center > Blog > API > Why WordPress needs APIs before it needs more AI
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-needs-apis/
-**Kinsta last updated:** 2026-09-15T19:01:16+00:00
+**Kinsta last updated:** 2026-09-15T19:01:16
 
 ## On this page
 
@@ -33,17 +32,6 @@ status: "live"
 - [The API is the interface; everything else is presentation](#the-api-is-the-interface-everything-else-is-presentation)
 
 ---
-
-Author
-:   [Jeremy Holcombe](https://kinsta.com/blog/author/jeremyholcombe/ "Posts by Jeremy Holcombe")
-
-Published
-:   October 1, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![WordPress APIs before more AI](https://kinsta.com/wp-content/uploads/2026/10/why-wordpress-needs-apis-before-it-needs-more-ai-1024x512.png)
 
 If you ask an AI agent to provision a WordPress website, the result depends on the tools it has. With browser automation, what matters is whether the User Interface (UI) elements match the script. However, using an API means the process repeats the same way every time. In a nutshell, what you can achieve depends on whether your choice of solution has an available API.
 
@@ -145,10 +133,3 @@ Dashboards will never go away because humans are at the center of any technologi
 The Kinsta API lets you automate routine tasks and gives problem solvers the ability to build solutions. Even so, without clear documentation and reliability through access controls, no human or agentic AI can build anything dependable.
 
 Kinsta’s [agency hosting for WordPress](https://kinsta.com/wordpress-hosting/agencies/) includes full API access, built-in security tools, and consistent performance. Plus, we migrate all your existing WordPress sites for free.
-
-Jeremy Holcombe
-[Kinsta](https://kinsta.com/)
-
-Senior Editor at Kinsta, WordPress Web Developer, and Content Writer. Outside of all things WordPress, I enjoy the beach, golf, and movies. I also have tall people problems.
-
-- [LinkedIn](https://www.linkedin.com/in/jeremyholcombe/)

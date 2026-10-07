@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Agency", "The 40Q agency on how Kinsta\u2019s infrastructure backs modern WordPress development"]
-kinsta_last_updated: "2026-06-01T11:02:56+00:00"
-sitemap_lastmod: "2026-06-01T11:02:56"
-fetched_at: "2026-10-07T22:42:24Z"
-sha256: "192a737be54eba9de82fdf5579a0bc31660c6e99967ff36465576c2fbc38c13a"
-body_chars: 7068
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-01T11:02:56"
+change_signal: "2026-06-01T11:02:56"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "fc215213b428d9ce65ded0f902233750821a5ae87359dcd66dd29c2a8a478d49"
+body_chars: 6308
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # The 40Q agency on how Kinsta’s infrastructure backs modern WordPress development
 
-**Section:** Resource Center > Blog > Agency > The 40Q agency on how Kinsta’s infrastructure backs modern WordPress development
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/40q-on-modern-wordpress-development/
-**Kinsta last updated:** 2026-06-01T11:02:56+00:00
+**Kinsta last updated:** 2026-06-01T11:02:56
 
 ## On this page
 
@@ -34,17 +33,6 @@ status: "live"
 - [Better developer experience leads to better client outcomes](#better-developer-experience-leads-to-better-client-outcomes)
 
 ---
-
-Author
-:   [Maximo Martínez Soria](https://kinsta.com/blog/author/maximomartinezsoria/ "Posts by Maximo Martínez Soria")
-
-Updated
-:   June 1, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![An illustration representing modern WordPress development and dev ops automation.](https://kinsta.com/wp-content/uploads/2026/05/40Q-agency-modern-wordpress-development-1024x511.png)
 
 At 40Q, we think about WordPress differently than most agencies.
 
@@ -156,7 +144,3 @@ That means clients get better performance, fewer avoidable issues, more stable r
 That is one reason we care so much about tools like Bedrock and Sage, and why it matters that Kinsta supports that kind of setup.
 
 And when the foundation is right, everything built on top of it gets better.
-
-Maximo Martínez Soria
-
-Maximo Martínez Soria is the CTO of 40Q, an enterprise WordPress agency. With over 10 years of experience in web development, he is passionate about crafting high-performance digital experiences for enterprise clients.

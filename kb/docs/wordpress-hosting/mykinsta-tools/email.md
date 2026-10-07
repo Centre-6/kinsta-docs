@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/email/"
-title: "Tools - Email"
+title: "Email"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "mykinsta-tools"
-section: []
-kinsta_last_updated: "September 17, 2024"
-sitemap_lastmod: "2024-09-17T10:25:37+00:00"
-fetched_at: "2026-10-07T22:38:23Z"
-sha256: "ebef6feefe9602a36df8f0ce4daf4f4bb6281a431f6e8e8ed4b9f1ac6d3bca37"
-body_chars: 8472
-extracted_with: "main article"
+section: ["WordPress Hosting", "Tools"]
+kinsta_last_updated: "2024-09-17T10:25:37"
+change_signal: "2024-09-17T10:25:37"
+fetched_at: "2026-10-07T22:58:18Z"
+sha256: "d39d06f98aa0b748d9540b424184ec09fd27e5a072d26f8eb0b193e7480840aa"
+body_chars: 8367
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Tools - Email
+# Email
 
+**Section:** WordPress Hosting > Tools
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/email/
-**Kinsta last updated:** September 17, 2024
+**Kinsta last updated:** 2024-09-17T10:25:37
 
 ## On this page
 
@@ -57,7 +58,7 @@ For other DNS providers, we recommend checking their specific documentation for 
 
 Your email provider will allow you to send and receive emails from and to your email address, but what about emails you need your site to send? Those are called transactional emails, which are those emails that are generated automatically by your WordPress website in response to some sort of user activity.
 
-At Kinsta, all of our plans include support for transactional email on both Production and Staging sites. We send transactional emails via MailChannels, a secure and reliable email service. The address used for sending emails is called the ‘header from’ address, and you can configure it in WP Admin > **Settings** > **General** > **Administrator** **Email Address**. Transactional emails use the ‘envelope from’ address if this email address is not set. At Kinsta, we use [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection) as the ‘envelope from’ address. Some email clients display both the ‘header from’ and ‘envelope from’ addresses. For instance, if your email is ‘[[email protected]](https://kinsta.com/cdn-cgi/l/email-protection)‘ and your website is ‘mywebsite’, the email might show ‘[[email protected]](https://kinsta.com/cdn-cgi/l/email-protection) via mywebsite.kinstamailservice.com’.
+At Kinsta, all of our plans include support for transactional email on both Production and Staging sites. We send transactional emails via MailChannels, a secure and reliable email service. The address used for sending emails is called the ‘header from’ address, and you can configure it in WP Admin > **Settings** > **General** > **Administrator** **Email Address**. Transactional emails use the ‘envelope from’ address if this email address is not set. At Kinsta, we use containername@containername.kinstamailservice.com as the ‘envelope from’ address. Some email clients display both the ‘header from’ and ‘envelope from’ addresses. For instance, if your email is ‘wordpress@testsite.com‘ and your website is ‘mywebsite’, the email might show ‘wordpress@testsite.com via mywebsite.kinstamailservice.com’.
 
 If you want to change the address used for sending emails but don’t want to change the administrator email address, you can use a plugin such as [WP Change Email Sender](https://wordpress.org/plugins/wp-change-email-sender/).
 

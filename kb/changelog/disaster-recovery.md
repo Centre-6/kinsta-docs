@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Go beyond backups with Kinsta Disaster Recovery"]
-kinsta_last_updated: "2026-08-19T14:49:55+00:00"
-sitemap_lastmod: "2026-08-19T19:23:39+00:00"
-fetched_at: "2026-10-07T22:37:50Z"
-sha256: "b0dfeab0b45fd9c9511f9181b977cfb5032c19dc2537298ab3dc7b06b0277d68"
-body_chars: 4932
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-08-19T14:49:55"
+change_signal: "2026-08-19T14:49:55"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "5083fc6cacc83644e81e8f065444da10c2512fd5d34e2a9048c7d12813de9839"
+body_chars: 4691
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Go beyond backups with Kinsta Disaster Recovery
 
-**Section:** Changelog > Go beyond backups with Kinsta Disaster Recovery
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/disaster-recovery/
-**Kinsta last updated:** 2026-08-19T14:49:55+00:00
+**Kinsta last updated:** 2026-08-19T14:49:55
 
 ---
-
-Published
-:   August 19, 2026
-
-![An illustration representing replication of a website across data centers with the words 'Disaster recovery.'](https://kinsta.com/wp-content/uploads/2026/08/kinstas-disaster-recovery-changelog-1024x536.png)
 
 In 2021, fire at a data center building in Strasbourg, France, destroyed thousands of servers and knocked more than 3.5 million websites offline. [Reuters reported](https://www.reuters.com/article/world/millions-of-websites-offline-after-fire-at-french-cloud-services-firm-idUSKBN2B20NT/) at the time that affected customers of the data center’s operator, OVHcloud, included the French government, banks, news organizations, and about two percent of all websites using the .fr country code top-level domain.
 

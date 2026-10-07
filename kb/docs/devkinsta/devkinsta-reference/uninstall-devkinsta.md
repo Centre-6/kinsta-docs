@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/devkinsta/devkinsta-reference/uninstall-devkinsta/"
-title: "Reference - Uninstall DevKinsta"
+title: "Uninstall DevKinsta"
 tier: "docs"
 product: "devkinsta"
 product_label: "DevKinsta (local dev tool, not hosting)"
 subsection: "devkinsta-reference"
-section: []
-kinsta_last_updated: "February 18, 2026"
-sitemap_lastmod: "2026-02-18T05:53:47+00:00"
-fetched_at: "2026-10-07T22:39:32Z"
-sha256: "0a8e704c553bc1bfa3e2192a1dd79e440df688ad3ad5ff44e6985f6fe3b61471"
-body_chars: 1636
-extracted_with: "main article"
+section: ["DevKinsta", "Reference"]
+kinsta_last_updated: "2026-02-18T05:53:47"
+change_signal: "2026-02-18T05:53:47"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "d6cf0afda082954331d7910454205885081f9ac54d6da3a5ea0108f1a33ea08a"
+body_chars: 1624
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Reference - Uninstall DevKinsta
+# Uninstall DevKinsta
 
+**Section:** DevKinsta > Reference
 **Product:** DevKinsta (local dev tool, not hosting)
 **Source:** https://kinsta.com/docs/devkinsta/devkinsta-reference/uninstall-devkinsta/
-**Kinsta last updated:** February 18, 2026
+**Kinsta last updated:** 2026-02-18T05:53:47
 
 ## On this page
 
@@ -52,8 +53,6 @@ Open **Finder** and click on **Applications** in the sidebar. Drag and drop the 
 
 In terminal/command-line, remove the DevKinsta application with:
 
-Copy
-
 ```
 sudo rm /usr/share/applications/dev-kinsta.desktop
 ```
@@ -69,8 +68,6 @@ On all OS, Docker containers, volumes, and networks starting with **devkinsta_**
 If you do not need Docker for other applications and wish to remove it too, in Docker Desktop go to **Preferences** > **Troubleshoot** > **Uninstall**.
 
 On Linux, you can also remove Docker with:
-
-Copy
 
 ```
 sudo apt-get purge docker-ce docker-ce-cli containerd.io

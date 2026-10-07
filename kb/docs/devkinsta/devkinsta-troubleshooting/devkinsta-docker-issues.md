@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/devkinsta/devkinsta-troubleshooting/devkinsta-docker-issues/"
-title: "Troubleshooting - Docker Issues"
+title: "Docker Issues"
 tier: "docs"
 product: "devkinsta"
 product_label: "DevKinsta (local dev tool, not hosting)"
 subsection: "devkinsta-troubleshooting"
-section: []
-kinsta_last_updated: "April 7, 2025"
-sitemap_lastmod: "2025-04-07T15:17:36+00:00"
-fetched_at: "2026-10-07T22:38:35Z"
-sha256: "17ceb0288f78ab120a655fd2343bd91cfdedd51b5636a324527dff8cc40316f1"
-body_chars: 2247
-extracted_with: "main article"
+section: ["DevKinsta", "Troubleshooting"]
+kinsta_last_updated: "2025-04-07T15:17:36"
+change_signal: "2025-04-07T15:17:36"
+fetched_at: "2026-10-07T22:58:17Z"
+sha256: "dff07016257815f23fae85bbb44bdc78f6b2a42df89366184c9e0e82a04c33a5"
+body_chars: 2241
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Troubleshooting - Docker Issues
+# Docker Issues
 
+**Section:** DevKinsta > Troubleshooting
 **Product:** DevKinsta (local dev tool, not hosting)
 **Source:** https://kinsta.com/docs/devkinsta/devkinsta-troubleshooting/devkinsta-docker-issues/
-**Kinsta last updated:** April 7, 2025
+**Kinsta last updated:** 2025-04-07T15:17:36
 
 ## On this page
 
@@ -47,8 +48,6 @@ Close Docker Desktop and open DevKinsta again.
 ## Create the Docker socket symlink
 
 To ensure the proper symlink is set up for the Docker socket file, run the following command:
-
-Copy
 
 ```
 sudo ln -s “$HOME/.docker/run/docker.sock” /var/run/docker.sock

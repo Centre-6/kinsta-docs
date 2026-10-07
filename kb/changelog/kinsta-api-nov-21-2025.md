@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Generate phpMyAdmin login link and view API activity with the Kinsta API"]
-kinsta_last_updated: "2026-05-20T20:31:36+00:00"
-sitemap_lastmod: "2026-05-20T20:31:36+00:00"
-fetched_at: "2026-10-07T22:37:41Z"
-sha256: "40a2cbc37f9c5b1dd804fb20802491a8fdcdd3b5a6714baf989cb46357a33433"
-body_chars: 6272
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:31:36"
+change_signal: "2026-05-20T20:31:36"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "a1cd38b64a392800332422537518c964171c13352d8017fe7b4c0c16c54db746"
+body_chars: 6055
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Generate phpMyAdmin login link and view API activity with the Kinsta API
 
-**Section:** Changelog > Generate phpMyAdmin login link and view API activity with the Kinsta API
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/kinsta-api-nov-21-2025/
-**Kinsta last updated:** 2026-05-20T20:31:36+00:00
+**Kinsta last updated:** 2026-05-20T20:31:36
 
 ## On this page
 
@@ -31,11 +30,6 @@ status: "live"
 - [Build visibility and security into your workflow](#build-visibility-and-security-into-your-workflow)
 
 ---
-
-Updated
-:   May 20, 2026
-
-![An illustration with an image of the MyKinsta dashboard and the words 'Kinsta product update.'](https://kinsta.com/wp-content/uploads/2024/04/kinsta-product-update-changelog-1024x536.png)
 
 We have introduced an API endpoint that generates short-lived phpMyAdmin login links, making database access faster and easier to automate.
 

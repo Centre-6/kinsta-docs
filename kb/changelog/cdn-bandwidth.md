@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Increasing Kinsta\u2019s Free CDN Bandwidth (Up to 500%)"]
-kinsta_last_updated: "2025-09-19T06:35:21+00:00"
-sitemap_lastmod: "2025-09-19T06:35:21+00:00"
-fetched_at: "2026-10-07T22:37:08Z"
-sha256: "4c15bac4a4aded790c1cab881aada6bf5c915df192aa2ebe4723a3cde201bae7"
-body_chars: 3108
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-09-19T06:35:21"
+change_signal: "2025-09-19T06:35:21"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "227b8fa56efa8115e99f1843f9e54d7358bf7c2d268e95462f9079a43f4654e8"
+body_chars: 2963
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Increasing Kinsta’s Free CDN Bandwidth (Up to 500%)
 
-**Section:** Changelog > Increasing Kinsta’s Free CDN Bandwidth (Up to 500%)
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/cdn-bandwidth/
-**Kinsta last updated:** 2025-09-19T06:35:21+00:00
+**Kinsta last updated:** 2025-09-19T06:35:21
 
 ---
-
-Updated
-:   September 19, 2025
-
-![Kinsta’s Free CDN Bandwidth](https://kinsta.com/wp-content/uploads/2022/02/kinsta-cdn-bandwidth-1024x512.png)
 
 [Speed is everything in today’s web world](https://kinsta.com/wordpress-hosting/). Users worldwide expect pages and websites to load fast. If that doesn’t happen in a few seconds, they simply leave.
 

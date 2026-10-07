@@ -1,33 +1,27 @@
 ---
 url: "https://kinsta.com/changelog/bulk-actions-change-cdn/"
-title: "Change CDN status added to MyKinsta's Bulk Actions"
+title: "Change CDN status added to MyKinsta\u2019s Bulk Actions"
 tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Change CDN status added to MyKinsta\u2019s Bulk Actions"]
-kinsta_last_updated: "2026-05-14T18:59:21+00:00"
-sitemap_lastmod: "2026-05-14T18:59:21+00:00"
-fetched_at: "2026-10-07T22:37:31Z"
-sha256: "89bc5b0dde5e20467fe0b0dde65889a512b51d69cd8d6908dcd264458bfab109"
-body_chars: 4058
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-14T18:59:21"
+change_signal: "2026-05-14T18:59:21"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "fe6b6de483417a5e60a39629e82222cb061d920a13b27e65bb86299a57f26c03"
+body_chars: 3857
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Change CDN status added to MyKinsta's Bulk Actions
+# Change CDN status added to MyKinsta’s Bulk Actions
 
-**Section:** Changelog > Change CDN status added to MyKinsta’s Bulk Actions
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/bulk-actions-change-cdn/
-**Kinsta last updated:** 2026-05-14T18:59:21+00:00
+**Kinsta last updated:** 2026-05-14T18:59:21
 
 ---
-
-Updated
-:   May 14, 2026
-
-![An illustration representing the Bulk Actions menu in the MyKinsta dashboard.](https://kinsta.com/wp-content/uploads/2024/06/mykinsta-bulk-actions-change-cdn-1024x536.png)
 
 We’ve added the ability to enable and disable Kinsta CDN support to the [Bulk Actions](https://kinsta.com/changelog/bulk-actions/) available to [Managed WordPress Hosting](https://kinsta.com/wordpress-hosting/) customers. With just a few clicks, you can simultaneously change Kinsta CDN status across multiple website environments .
 

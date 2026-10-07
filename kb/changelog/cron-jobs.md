@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Run, Automate, and Schedule Your Tasks with Cron Jobs"]
-kinsta_last_updated: "2026-05-14T19:05:32+00:00"
-sitemap_lastmod: "2026-05-14T19:05:32+00:00"
-fetched_at: "2026-10-07T22:37:37Z"
-sha256: "8801d3b75caffc332f794e7c547e72f2da4ca6aac24441c56b920ed3fd1d837d"
-body_chars: 3294
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-14T19:05:32"
+change_signal: "2026-05-14T19:05:32"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "f71908227e83a6aefbbb4ddbd037db5390c72eab1836c4fe9158a366958444ea"
+body_chars: 3159
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Run, Automate, and Schedule Your Tasks with Cron Jobs
 
-**Section:** Changelog > Run, Automate, and Schedule Your Tasks with Cron Jobs
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/cron-jobs/
-**Kinsta last updated:** 2026-05-14T19:05:32+00:00
+**Kinsta last updated:** 2026-05-14T19:05:32
 
 ---
-
-Updated
-:   May 14, 2026
-
-![Cover image about cron jobs](https://kinsta.com/wp-content/uploads/2023/04/cron-jobs-kinsta-1024x536.jpg)
 
 Repetitive and recurring tasks are the enemy of efficiency, yet they’re part of your daily life as a web professional working with and managing applications. Think of:
 

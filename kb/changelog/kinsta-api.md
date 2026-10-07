@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Introducing Kinsta API: The Power of Automation for Site Management"]
-kinsta_last_updated: "2026-05-06T15:16:32+00:00"
-sitemap_lastmod: "2026-05-06T15:16:32+00:00"
-fetched_at: "2026-10-07T22:37:29Z"
-sha256: "775b79d570ddec0cec7da37f67fea2c8039977020db52abd2bd8fbc37a884e2d"
-body_chars: 7690
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-06T15:16:32"
+change_signal: "2026-05-06T15:16:32"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "05500b66c59254f525b9cae806856515e6e2a7e4f4e8181275ffed7616d94635"
+body_chars: 7578
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Introducing Kinsta API: The Power of Automation for Site Management
 
-**Section:** Changelog > Introducing Kinsta API: The Power of Automation for Site Management
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/kinsta-api/
-**Kinsta last updated:** 2026-05-06T15:16:32+00:00
+**Kinsta last updated:** 2026-05-06T15:16:32
 
 ## On this page
 
@@ -37,11 +36,6 @@ status: "live"
 - [Troubleshooting](#troubleshooting)
 
 ---
-
-Updated
-:   May 6, 2026
-
-![Kinsta API](https://kinsta.com/wp-content/uploads/2023/05/Kinsta_API-1024x535.jpeg)
 
 Traditionally, our services at Kinsta have relied on manual interactions through [MyKinsta](https://kinsta.com/mykinsta/), limiting the scope to human interactions only. But hold on tight because everything is about to change!
 

@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Development", "Blade templating in WordPress: modern template development with Radicle on Kinsta"]
-kinsta_last_updated: "2026-05-20T20:31:13+00:00"
-sitemap_lastmod: "2026-05-20T20:31:13"
-fetched_at: "2026-10-07T22:42:46Z"
-sha256: "93ae050d8eb59900a25c41605c3987718c2fe2274fab2476e54fc91a99e3c547"
-body_chars: 16736
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:31:13"
+change_signal: "2026-05-20T20:31:13"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "fd42731065eba7b8b9b454501a74663a02cab48229f3683969291682487f332a"
+body_chars: 15828
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Blade templating in WordPress: modern template development with Radicle on Kinsta
 
-**Section:** Resource Center > Blog > WordPress Development > Blade templating in WordPress: modern template development with Radicle on Kinsta
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/blade-templating-wordpress-radicle/
-**Kinsta last updated:** 2026-05-20T20:31:13+00:00
+**Kinsta last updated:** 2026-05-20T20:31:13
 
 ## On this page
 
@@ -33,17 +32,6 @@ status: "live"
 - [Modern WordPress theme development includes Radicle and Kinsta](#modern-wordpress-theme-development-includes-radicle-and-kinsta)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   May 20, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/01/blade-templating-in-wordpress-modern-template-development-with-radicle-on-kinsta-1024x512.png)
 
 Traditional WordPress theme development relies on repeating header and footer markup across template files. Each time you update a navigation menu or footer element, you need to locate every template file that includes the markup and make the necessary changes in multiple locations. This creates maintenance overheads and increases the risk of inconsistencies across your site.
 
@@ -344,13 +332,3 @@ The combination of Radicle’s Laravel-inspired structure and [Kinsta’s manage
 Your next step depends on your current setup. If you’re starting fresh, begin by installing Radicle and creating your first Blade component. If you’re migrating an existing theme, identify repetitive markup patterns and convert them to components one section at a time. Focus on high-value areas such as navigation, headers, and footers where component benefits are immediate.
 
 If you need managed WordPress hosting that supports modern development workflows, [Kinsta offers functionality](https://kinsta.com/wordpress-hosting/) that works with tools such as Radicle and Acorn.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

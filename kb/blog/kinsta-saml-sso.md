@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta Services", "Kinsta SAML SSO is here: Scale your agency faster and more securely"]
-kinsta_last_updated: "2026-05-20T10:50:10+00:00"
-sitemap_lastmod: "2026-05-20T10:50:10"
-fetched_at: "2026-10-07T22:43:04Z"
-sha256: "f98b06304da54dde106ba0578a509eaba4d70d56f406265730bd07783d5fdf47"
-body_chars: 20095
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T10:50:10"
+change_signal: "2026-05-20T10:50:10"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "4de24fd673e678539f3765cf038b9be34e9b2ca9afa749aa520b760355364e5d"
+body_chars: 19056
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Kinsta SAML SSO is here: Scale your agency faster and more securely
 
-**Section:** Resource Center > Blog > Kinsta Services > Kinsta SAML SSO is here: Scale your agency faster and more securely
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/kinsta-saml-sso/
-**Kinsta last updated:** 2026-05-20T10:50:10+00:00
+**Kinsta last updated:** 2026-05-20T10:50:10
 
 ## On this page
 
@@ -38,17 +37,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Updated
-:   May 20, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/10/kinsta-saml-sso-is-here-how-your-agency-will-scale-faster-and-safer-than-ever-before-1024x512.png)
 
 Organizations rely on countless online apps and services daily, each of which requires different logins, making password management a growing challenge.
 
@@ -243,11 +231,3 @@ Kinsta’s SAML SSO authentication feature complements the multi-user capabiliti
 Account administrators can assign predefined roles to provisioned users, make exceptions to the IdP provisioning process, and block access to specific users. For agencies with dozens of developers and team members in different roles, Kinsta SAML SSO is essential for enhancing security, flexibility, and operational efficiency.
 
 Curious to try our premium managed WordPress hosting? [Try Kinsta for free today](https://kinsta.com/pricing/)!
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

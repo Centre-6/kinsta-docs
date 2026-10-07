@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-users/"
-title: "Site Management - WordPress Users"
+title: "WordPress Users"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "site-management"
-section: []
-kinsta_last_updated: "December 12, 2024"
-sitemap_lastmod: "2024-12-12T17:03:02+00:00"
-fetched_at: "2026-10-07T22:38:27Z"
-sha256: "dd167ab67d24fa5445096e46768391e76c6d6949887681230e501fb13fa4c1c2"
-body_chars: 11383
-extracted_with: "main article"
+section: ["WordPress Hosting", "Site Management"]
+kinsta_last_updated: "2024-12-12T17:03:02"
+change_signal: "2024-12-12T17:03:02"
+fetched_at: "2026-10-07T22:58:18Z"
+sha256: "df734a8df73adac44032e10628d517a5fcd5f41da4962edc87cacc56e2781341"
+body_chars: 11254
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Site Management - WordPress Users
+# WordPress Users
 
+**Section:** WordPress Hosting > Site Management
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-users/
-**Kinsta last updated:** December 12, 2024
+**Kinsta last updated:** 2024-12-12T17:03:02
 
 ## On this page
 
@@ -69,6 +70,7 @@ For a full list of roles and capabilities, refer to the [WordPress Roles and Cap
 
 1. Open WP Admin from [MyKinsta](https://my.kinsta.com/), click**Sites** > ***sitename*** > **Info** > **Open WP Admin**.
 2. Within WP Admin, click **Users** > **Add New User**, complete the fields as required, choose a user **Role**, and click **Add New User**.
+
    ![Add a new WordPress user in WP Admin. ](https://kinsta.com/wp-content/uploads/2024/05/wordpress-add-user-987x1024.png)
 
    Add a new WordPress user in WP Admin.
@@ -79,19 +81,16 @@ This method requires directly editing your WordPress site’s database, so we on
 
 1. Open phpMyAdmin from [MyKinsta](https://my.kinsta.com/), click**Sites** > ***sitename*** > **Info**, within **Database access**, click **Open phpMyAdmin**. If you are prompted for a username and password, use your **Database username** and **Database password** from MyKinsta to log in.
 2. Within phpMyAdmin, click your ***sitename*** and then click the `wp_users` table.
+
    ![Select the wp_users table within phpMyAdmin. ](https://kinsta.com/wp-content/uploads/2024/05/phpmyadmin-wp_users.png)
 
    Select the wp_users table within phpMyAdmin.
 3. Click **SQL** and enter the following command, replacing the `VALUES` with the new user details:
 
-   Copy
-
    ```
    INSERT INTO `wp_users` (`user_login`, `user_pass`, `user_nicename`, `user_email`, `user_status`) VALUES ('your username', MD5('your password'), 'your firstname & your lastname', 'your email', '0')
    ```
 4. Click **Go**, click back to the **SQL** tab, and enter the following commands; this gives the user administrator privileges. You can change this after the user is created within WP Admin:
-
-   Copy
 
    ```
    INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALUES (NULL, (Select max(id) FROM wp_users), 'wp_capabilities', 'a:1:{s:13:"administrator";s:1:"1";}');
@@ -105,14 +104,10 @@ This method requires directly editing your WordPress site’s database, so we re
 
 1. Connect to your server [with SSH](https://kinsta.com/docs/wordpress-hosting/connect-to-ssh/) and navigate to the public directory:
 
-   Copy
-
    ```
    cd public
    ```
 2. Run the following command, replacing the `$username` and `$emailaddress` with the new user details and `$role` with the role you want to assign the new user to, for example, administrator:
-
-   Copy
 
    ```
    wp user create $username $emailaddress --role=$role
@@ -120,22 +115,21 @@ This method requires directly editing your WordPress site’s database, so we re
 
    For example:
 
-   Copy
-
    ```
-   wp user create newuser [email protected] --role=administrator
+   wp user create newuser user@example.com --role=administrator
    ```
 
    When the command completes it returns a password for the new user.
 
 ## Manage users
 
-When you add users, they are stored in your [WordPress database](https://kinsta.com/docs/wordpress-hosting/database-management/). A user with administrator access can edit all of the user fields within WP Admin, with the exception of the username. You can delete a user and create a new one to change the username, or if you want to edit the username, you must do this directly within the database with phpMyAdmin.
+When you add users, they are stored in your [WordPress database](https://kinsta.com/docs/wordpress-hosting/database-management). A user with administrator access can edit all of the user fields within WP Admin, with the exception of the username. You can delete a user and create a new one to change the username, or if you want to edit the username, you must do this directly within the database with phpMyAdmin.
 
 ### Manage a user in WP Admin
 
 1. Open WP Admin from [MyKinsta](https://my.kinsta.com/), click**Sites** > ***sitename*** > **Info** > **Open WP Admin**.
 2. Within WP Admin, click **Users**, hover over the user you want to edit, and click **Edit.**
+
    ![Edit a WordPress user in WP Admin.](https://kinsta.com/wp-content/uploads/2024/05/wordpress-edit-users-1024x319.png)
 
    Edit a WordPress user in WP Admin.
@@ -146,10 +140,12 @@ This method requires directly editing your WordPress site’s database, so we on
 
 1. Open phpMyAdmin from [MyKinsta](https://my.kinsta.com/), click **Sites** > ***sitename*** > **Info;** within **Database access**, click **Open phpMyAdmin**. If you are prompted for a username and password, use your **Database username** and **Database password** from MyKinsta to log in.
 2. Within phpMyAdmin, click your ***sitename*** and then click the `wp_users` table.
+
    ![Select the wp_users table within phpMyAdmin. ](https://kinsta.com/wp-content/uploads/2024/05/phpmyadmin-wp_users.png)
 
    Select the wp_users table within phpMyAdmin.
 3. Click **Edit** on the user you want to change, or double-click the field you want to change.
+
    ![Edit a user within the wp_users table in phpMyAdmin. ](https://kinsta.com/wp-content/uploads/2024/05/phpmyadmin-edit-user.png)
 
    Edit a user within the wp_users table in phpMyAdmin.
@@ -160,25 +156,19 @@ This method requires directly editing your WordPress site’s database, so we re
 
 1. Connect to your server [with SSH](https://kinsta.com/docs/wordpress-hosting/connect-to-ssh/) and navigate to the public directory:
 
-   Copy
-
    ```
    cd public
    ```
 2. Run the following command, replacing `$user` with the username, `$field` with the field you want to update, `$value` with the new data you want to enter:
 
-   Copy
-
    ```
    wp user update $user -—$field=$value
    ```
 
-   For example, to replace the email on the Kinsta user with [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection), you would use the following:
-
-   Copy
+   For example, to replace the email on the Kinsta user with example@kinsta.com, you would use the following:
 
    ```
-   wp user update Kinsta -—[email protected]
+   wp user update Kinsta -—user_email=example@kinsta.com
    ```
 
 ## Delete a user
@@ -187,6 +177,7 @@ This method requires directly editing your WordPress site’s database, so we re
 
 1. Open WP Admin from [MyKinsta](https://my.kinsta.com/), click **Sites** > ***sitename*** > **Info** > **Open WP Admin**.
 2. Within WP Admin, click **Users**, hover over the user you want to remove, and click **Delete.**
+
    ![Delete a WordPress user in WP Admin. ](https://kinsta.com/wp-content/uploads/2024/05/wordpress-delete-users-1024x319.png)
 
    Delete a WordPress user in WP Admin.
@@ -197,10 +188,12 @@ This method requires directly editing your WordPress site’s database, so we on
 
 1. Open phpMyAdmin from [MyKinsta](https://my.kinsta.com/), click**Sites** > ***sitename*** > **Info;** within **Database access**, click **Open phpMyAdmin**. If you are prompted for a username and password, use your **Database username** and **Database password** from MyKinsta to log in.
 2. Within phpMyAdmin, click your ***sitename*** and then click the `wp_users` table.
+
    ![Select the wp_users table within phpMyAdmin. ](https://kinsta.com/wp-content/uploads/2024/05/phpmyadmin-wp_users.png)
 
    Select the wp_users table within phpMyAdmin.
 3. Click **Delete** on the user you want to remove.
+
    ![Delete a user within the wp_users table in phpMyAdmin.](https://kinsta.com/wp-content/uploads/2024/05/phpmyadmin-delete-user.png)
 
    Delete a user within the wp_users table in phpMyAdmin.
@@ -211,22 +204,16 @@ This method requires directly editing your WordPress site’s database, so we re
 
 1. Connect to your server [with SSH](https://kinsta.com/docs/wordpress-hosting/connect-to-ssh/) and navigate to the public directory:
 
-   Copy
-
    ```
    cd public
    ```
 2. Run the following command, replacing `$username` with the username you want to delete:
-
-   Copy
 
    ```
    wp user delete $username
    ```
 
    This also deletes all of their posts. If you want to remove the user and reassign the posts to another user, use the following command, replacing `$username` with the username you want to delete and `$anotherusername` with the username you want to assign the posts to:
-
-   Copy
 
    ```
    wp user delete $username --reassign=$anotherusername

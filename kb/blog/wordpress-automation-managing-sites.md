@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Agency", "How automation changes the economics of managing WordPress at scale"]
-kinsta_last_updated: "2026-03-31T15:50:44+00:00"
-sitemap_lastmod: "2026-03-31T15:50:44"
-fetched_at: "2026-10-07T22:42:32Z"
-sha256: "520dbf613c3ca5821cb26133843677560b8a438ccfb76fb80648087b0dc40806"
-body_chars: 15030
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-03-31T15:50:44"
+change_signal: "2026-03-31T15:50:44"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "0eceb76419afdce356c053a012cbc076aaba58f0fa5811f00171761aa4dff8a6"
+body_chars: 14131
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How automation changes the economics of managing WordPress at scale
 
-**Section:** Resource Center > Blog > Agency > How automation changes the economics of managing WordPress at scale
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-automation-managing-sites/
-**Kinsta last updated:** 2026-03-31T15:50:44+00:00
+**Kinsta last updated:** 2026-03-31T15:50:44
 
 ## On this page
 
@@ -35,17 +34,6 @@ status: "live"
 - [Automation is the foundation of profitable WordPress management](#automation-is-the-foundation-of-profitable-wordpress-management)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   April 21, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/04/how-automation-changes-the-economics-of-managing-wordpress-at-scale-1024x512.png)
 
 WordPress [agency growth](https://kinsta.com/agency-growth-insights/) can be as simple as winning a new client, adding a site to your portfolio, and including it on your update schedule. This scales as you gain more clients, but while a handful of sites are manageable, a bigger portfolio means your time and resources become scarce.
 
@@ -210,13 +198,3 @@ Running a WordPress agency at scale requires systems that can maintain sites wit
 Kinsta gives you infrastructure automation that handles server-level work, bulk actions that compress hours of per-site maintenance into minutes, and an API that integrates your hosting into deployment pipelines. To get the full benefits, map where manual work is concentrated in your current workflow and identify which layer of automation removes it. From there, you know which MyKinsta tool to choose for the job.
 
 If you manage WordPress sites at scale and want to see how the platform is built to support your business, [explore Kinsta’s agency hosting plans](https://kinsta.com/wordpress-hosting/agencies/).
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

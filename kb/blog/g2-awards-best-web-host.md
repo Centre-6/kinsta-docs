@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta Services", "Customers say we\u2019re a great web host. G2 says we\u2019re #1"]
-kinsta_last_updated: "2026-02-23T01:47:10+00:00"
-sitemap_lastmod: "2026-02-23T01:47:10"
-fetched_at: "2026-10-07T22:42:46Z"
-sha256: "7c390f06aebc94d1484d4972dafee17a8a5148304e380aed927d627cde1a0852"
-body_chars: 10711
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-02-23T01:47:10"
+change_signal: "2026-02-23T01:47:10"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "f0b65875d9bd2b95d7ecd6a9999ed3c51a49a0bce278527176af69544816af40"
+body_chars: 9938
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Customers say we’re a great web host. G2 says we’re #1
 
-**Section:** Resource Center > Blog > Kinsta Services > Customers say we’re a great web host. G2 says we’re #1
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/g2-awards-best-web-host/
-**Kinsta last updated:** 2026-02-23T01:47:10+00:00
+**Kinsta last updated:** 2026-02-23T01:47:10
 
 ## On this page
 
@@ -32,17 +31,6 @@ status: "live"
 - [“Thanks to all the big people”](#thanks-to-all-the-big-people)
 
 ---
-
-Author
-:   [Steve Bonisteel](https://kinsta.com/blog/author/stevebonisteel/ "Posts by Steve Bonisteel")
-
-Updated
-:   February 23, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![An illustration including a G2 badge and the words, 'Voted #1 in Best Hosting Products on G2.'](https://kinsta.com/wp-content/uploads/2026/02/g2-voted-first-in-best-hosting-products-1024x512.png)
 
 If you ask us what makes Kinsta web hosting superior, we could go on all day. (And, please, do ask.) But what really matters is what customers say about our services. So, we’re proud to announce that customer opinion has put Kinsta on top of the [Web Hosting Products category](https://www.g2.com/best-software-companies/top-hosting) in G2’s Best Software Awards for 2026.
 
@@ -159,8 +147,3 @@ Finally, another thing that makes Kinsta superior is our customers. We have over
 What’s more, many of them visit G2 and say nice things about us. And that has made us #1.
 
 So, we thank them.
-
-Steve Bonisteel
-[Kinsta](https://kinsta.com/)
-
-Steve Bonisteel is a Technical Editor at Kinsta who began his writing career as a print journalist, chasing ambulances and fire trucks. He has been covering Internet-related technology since the late 1990s.

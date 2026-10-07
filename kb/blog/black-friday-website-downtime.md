@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Hosting", "How much revenue could downtime cost you on Black Friday?"]
-kinsta_last_updated: "2026-06-12T14:25:04+00:00"
-sitemap_lastmod: "2026-06-12T14:25:04"
-fetched_at: "2026-10-07T22:43:18Z"
-sha256: "661f90033bfe06abe595d8b8ee4155b0e19c6fc74a685ff9279a756e1a703843"
-body_chars: 14420
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-12T14:25:04"
+change_signal: "2026-06-12T14:25:04"
+fetched_at: "2026-10-07T22:58:28Z"
+sha256: "8af5453e25ca0cc775e9d876aa07467a51bea749162d701a87b1be80889e57af"
+body_chars: 13533
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How much revenue could downtime cost you on Black Friday?
 
-**Section:** Resource Center > Blog > WordPress Hosting > How much revenue could downtime cost you on Black Friday?
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/black-friday-website-downtime/
-**Kinsta last updated:** 2026-06-12T14:25:04+00:00
+**Kinsta last updated:** 2026-06-12T14:25:04
 
 ## On this page
 
@@ -39,17 +38,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   June 12, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/10/how-much-revenue-could-downtime-cost-you-on-black-friday-1-1024x512.png)
 
 Black Friday week is one of the biggest sales periods of the year for e-commerce. Adobe Analytics reported that shoppers spent a record [$10.8 billion online](https://business.adobe.com/resources/holiday-shopping-report.html) on Black Friday in 2024 alone.
 
@@ -210,13 +198,3 @@ Black Friday week is one of the most lucrative and riskiest times of the year fo
 With the right hosting foundation, scaled PHP threads, proactive monitoring, and security protections, your store can stay fast and reliable no matter how intense the surge.
 
 Don’t wait until the busiest week of the year to find out if your store can handle the demand. [Talk to our team](https://kinsta.com/talk-to-sales/) today about scaling PHP threads, securing your checkout, and migrating to Kinsta’s managed hosting for WordPress.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

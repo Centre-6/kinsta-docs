@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/cloudfront/"
-title: "CDN - Amazon CloudFront"
+title: "Amazon CloudFront"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-cdn"
-section: []
-kinsta_last_updated: "May 5, 2025"
-sitemap_lastmod: "2025-05-05T15:07:23+00:00"
-fetched_at: "2026-10-07T22:38:40Z"
+section: ["WordPress Hosting", "CDN"]
+kinsta_last_updated: "2025-05-05T15:07:23"
+change_signal: "2025-05-05T15:07:23"
+fetched_at: "2026-10-07T22:58:18Z"
 sha256: "5256cff02980405d303139b3d18fb1254ae4ab999345a2a29c77e01397990ad5"
 body_chars: 15169
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# CDN - Amazon CloudFront
+# Amazon CloudFront
 
+**Section:** WordPress Hosting > CDN
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/cloudfront/
-**Kinsta last updated:** May 5, 2025
+**Kinsta last updated:** 2025-05-05T15:07:23
 
 ## On this page
 

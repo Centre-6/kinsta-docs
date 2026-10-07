@@ -1,26 +1,25 @@
 ---
 url: "https://kinsta.com/changelog/early-hints/"
-title: "Boost Your Website's Speed With New Early Hints Feature"
+title: "Boost Your Website\u2019s Speed With New Early Hints Feature"
 tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Boost Your Website\u2019s Speed With New Early Hints Feature"]
-kinsta_last_updated: "2026-03-09T10:28:59+00:00"
-sitemap_lastmod: "2026-03-09T10:28:59+00:00"
-fetched_at: "2026-10-07T22:37:16Z"
-sha256: "e87b795497b68dd4ee324fca9193985f4bb5cf905a9366bfcf05da087cd16882"
-body_chars: 4541
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-03-09T10:28:59"
+change_signal: "2026-03-09T10:28:59"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "8318409d8cd8c23d5941155ba36a6af1c92407d3e192c16dc4af6570aad4196c"
+body_chars: 4393
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Boost Your Website's Speed With New Early Hints Feature
+# Boost Your Website’s Speed With New Early Hints Feature
 
-**Section:** Changelog > Boost Your Website’s Speed With New Early Hints Feature
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/early-hints/
-**Kinsta last updated:** 2026-03-09T10:28:59+00:00
+**Kinsta last updated:** 2026-03-09T10:28:59
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [Better Performance Starts With Better Hosting](#better-performance-starts-with-better-hosting)
 
 ---
-
-Updated
-:   March 9, 2026
-
-![Early Hints for WordPress](https://kinsta.com/wp-content/uploads/2023/03/early-hints-for-wordpress-dark-1024x536.png)
 
 Having a fast, responsive website is key to maintaining a successful web presence and online business.
 

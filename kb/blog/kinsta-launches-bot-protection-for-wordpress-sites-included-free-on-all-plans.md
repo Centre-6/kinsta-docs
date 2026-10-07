@@ -5,35 +5,23 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta News", "Kinsta launches Bot Protection for WordPress sites, included free on all plans"]
-kinsta_last_updated: "2026-06-22T09:37:22+00:00"
-sitemap_lastmod: "2026-06-22T09:37:22"
-fetched_at: "2026-10-07T22:42:21Z"
-sha256: "0eea5294c77880dac205a4ae67fbd1aee902a201bc9c37495fa16cd0c607966c"
-body_chars: 5240
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-22T09:37:22"
+change_signal: "2026-06-22T09:37:22"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "c18fdcf8e4df033cfe9ea3ed0bcd9a02393ddac51f2eac8b24d108b17fd07f58"
+body_chars: 4585
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Kinsta launches Bot Protection for WordPress sites, included free on all plans
 
-**Section:** Resource Center > Blog > Kinsta News > Kinsta launches Bot Protection for WordPress sites, included free on all plans
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/kinsta-launches-bot-protection-for-wordpress-sites-included-free-on-all-plans/
-**Kinsta last updated:** 2026-06-22T09:37:22+00:00
+**Kinsta last updated:** 2026-06-22T09:37:22
 
 ---
-
-Author
-:   [Kinsta](https://kinsta.com/blog/author/kinstateam/ "Posts by Kinsta")
-
-Updated
-:   June 22, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/05/kinsta-bot-protection-featured-image-1024x536.png)
 
 *New MyKinsta feature gives site owners and agencies direct control over AI and automated traffic across every environment, with no support ticket or paid add-on required*
 
@@ -66,7 +54,3 @@ Kinsta is a premium managed hosting for WordPress solution — designed for all 
 For more information about Kinsta and to sign up for a risk-free trial, visit [kinsta.com](https://cts.businesswire.com/ct/CT?id=smartlink&url=http%3A%2F%2Fkinsta.com&esheet=54549969&newsitemid=20260609399685&lan=en-US&anchor=kinsta.com&index=3&md5=99bd1197e07f4517ab5bc1d54cf6ff04).
 
 This content was originally published on [Business Wire](https://www.businesswire.com/news/home/20260609399685/en/Kinsta-Launches-Bot-Protection-for-WordPress-Sites-Included-Free-on-All-Plans)
-
-Kinsta
-
-The Kinsta Team consists of WordPress experts, performance engineers, and support professionals passionate about fast, secure, and scalable hosting. We publish in-depth guides, research, and practical advice to help you build and grow with WordPress.

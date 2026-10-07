@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/cloudflare/"
-title: "CDN - Cloudflare"
+title: "Cloudflare"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-cdn"
-section: []
-kinsta_last_updated: "June 23, 2026"
-sitemap_lastmod: "2026-06-23T10:54:50+00:00"
-fetched_at: "2026-10-07T22:40:34Z"
-sha256: "a10d01c7d4be54247d5cc447fd7e1161cbdc78f64466118de50c998da1727cbf"
+section: ["WordPress Hosting", "CDN"]
+kinsta_last_updated: "2026-06-23T10:54:50"
+change_signal: "2026-06-23T10:54:50"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "a015fd04ff82b5d1ed8125b245f5b75af5ae3b057d524e18bda6b866fdda5cc9"
 body_chars: 15033
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# CDN - Cloudflare
+# Cloudflare
 
+**Section:** WordPress Hosting > CDN
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/cloudflare/
-**Kinsta last updated:** June 23, 2026
+**Kinsta last updated:** 2026-06-23T10:54:50
 
 ## On this page
 
@@ -77,6 +78,7 @@ Review your DNS records.
 
 1. Remove all existing A records in Cloudflare DNS
 2. Add a CNAME record for the root/apex domain, pointing to **[sitename].hosting.kinsta.cloud**. The **[sitename]** must be the **Database name** from the **Database access** section of your site’s **Info** page.
+
    ![Add a new CNAME record to your domain in Cloudflare.](https://kinsta.com/wp-content/uploads/2023/11/cloudflare-cname-record.png)
 
    Add a new CNAME record to your domain in Cloudflare.
@@ -183,7 +185,7 @@ If unexpected cache behavior is seen, [open a new chat with our Support team](ht
 
 The Firewall / WAF settings in your Cloudflare account are applied first, followed by settings in our Cloudflare integration. This means if we block an IP address, your account’s settings cannot override that, and the request will be blocked by our Cloudflare integration.
 
-You can block an IP address in your Cloudflare account, and it will be blocked and will not make it to our Cloudflare integration. So, you can tighten your firewall / WAF settings beyond what we have configured with our Cloudflare integration, but you cannot loosen settings or allow IP addresses that Kinsta has blocked. To learn more about how Kinsta protects your site, refer to [Kinsta Firewall](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/wordpress-infrastructure/#kinsta-firewall).
+You can block an IP address in your Cloudflare account, and it will be blocked and will not make it to our Cloudflare integration. So, you can tighten your firewall / WAF settings beyond what we have configured with our Cloudflare integration, but you cannot loosen settings or allow IP addresses that Kinsta has blocked. To learn more about how Kinsta protects your site, refer to [Kinsta Firewall](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/wordpress-infrastructure#kinsta-firewall).
 
 ### JavaScript challenges
 

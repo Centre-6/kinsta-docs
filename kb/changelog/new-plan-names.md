@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "We\u2019ve renamed our WordPress hosting plans and boosted resource limits"]
-kinsta_last_updated: "2025-04-24T18:19:13+00:00"
-sitemap_lastmod: "2025-04-24T18:19:13+00:00"
-fetched_at: "2026-10-07T22:37:05Z"
-sha256: "99b19ebab7cfee24620adc5e515bea4c447b1078abe77d9415c5deaea88872f3"
-body_chars: 3094
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-04-24T18:19:13"
+change_signal: "2025-04-24T18:19:13"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "2a26657fa039448b4f5d44e818b0f857918c481c1fec076462c740cd9ede961b"
+body_chars: 2895
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # We’ve renamed our WordPress hosting plans and boosted resource limits
 
-**Section:** Changelog > We’ve renamed our WordPress hosting plans and boosted resource limits
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/new-plan-names/
-**Kinsta last updated:** 2025-04-24T18:19:13+00:00
+**Kinsta last updated:** 2025-04-24T18:19:13
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [It’s a great time to try hosting at Kinsta!](#its-a-great-time-to-try-hosting-at-kinsta)
 
 ---
-
-Updated
-:   April 24, 2025
-
-![An illustration representing Kinsta's Managed WordPress Hosting pricing page.](https://kinsta.com/wp-content/uploads/2024/11/wordpress-hosting-plan-names-1024x536.png)
 
 Kinsta’s [Managed WordPress Hosting](https://kinsta.com/wordpress-hosting/) plans have new names to better reflect the resources behind each.
 

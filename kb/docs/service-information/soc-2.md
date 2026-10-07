@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/service-information/soc-2/"
-title: "Service Information - SOC 2"
+title: "SOC 2"
 tier: "docs"
 product: "service-information"
 product_label: "Service Information"
 subsection: "soc-2"
-section: []
-kinsta_last_updated: "January 25, 2024"
-sitemap_lastmod: "2024-01-25T17:31:27+00:00"
-fetched_at: "2026-10-07T22:37:58Z"
+section: ["Service Information"]
+kinsta_last_updated: "2024-01-25T17:31:27"
+change_signal: "2024-01-25T17:31:27"
+fetched_at: "2026-10-07T22:58:20Z"
 sha256: "c7ab0ecc0f7fa6f048e77ab537ce1ab920a10c512662342567725d0e3f61c4cd"
 body_chars: 2534
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Service Information - SOC 2
+# SOC 2
 
+**Section:** Service Information
 **Product:** Service Information
 **Source:** https://kinsta.com/docs/service-information/soc-2/
-**Kinsta last updated:** January 25, 2024
+**Kinsta last updated:** 2024-01-25T17:31:27
 
 ## On this page
 

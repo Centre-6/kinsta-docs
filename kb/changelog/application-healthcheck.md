@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Slash application downtime with Kinsta healthcheck"]
-kinsta_last_updated: "2026-05-14T19:05:00+00:00"
-sitemap_lastmod: "2026-05-14T19:05:00+00:00"
-fetched_at: "2026-10-07T22:37:36Z"
-sha256: "301b4dd7d076cd74bb40028ce3b6af993869f47fb75ea2e63f02fd7dae875c52"
-body_chars: 3492
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-14T19:05:00"
+change_signal: "2026-05-14T19:05:00"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "4d11df7ddd7b883626c60bb2ff901cea8b99e4bfdc3f3afaff12322578268e1f"
+body_chars: 3286
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Slash application downtime with Kinsta healthcheck
 
-**Section:** Changelog > Slash application downtime with Kinsta healthcheck
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/application-healthcheck/
-**Kinsta last updated:** 2026-05-14T19:05:00+00:00
+**Kinsta last updated:** 2026-05-14T19:05:00
 
 ---
-
-Updated
-:   May 14, 2026
-
-![Illustration showing the MyKinsta dashboard the words 'Healthcheck for Applications'](https://kinsta.com/wp-content/uploads/2024/05/hosted-application-healthcheck-1024x536.png)
 
 A new healthcheck feature can help [Web Application Hosting](https://sevalla.com/application-hosting/) customers keep their apps up and running consistently, even during redeployments.
 

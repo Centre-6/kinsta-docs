@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/billing/billing-questions/"
-title: "Billing - FAQs"
+title: "FAQs"
 tier: "docs"
 product: "billing"
 product_label: "Billing"
 subsection: "billing-questions"
-section: []
-kinsta_last_updated: "May 27, 2026"
-sitemap_lastmod: "2026-05-27T13:44:43+00:00"
-fetched_at: "2026-10-07T22:40:13Z"
-sha256: "08e96d8064ef45cd7f25a8af3ac130f093a4145bcedb0e728d270db170c14f2f"
-body_chars: 8866
-extracted_with: "main article"
+section: ["Billing"]
+kinsta_last_updated: "2026-05-27T13:44:43"
+change_signal: "2026-05-27T13:44:43"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "37e8c577a603d6a8213726b83836b6491a1767d38129a6401d798df75bd90a04"
+body_chars: 8865
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Billing - FAQs
+# FAQs
 
+**Section:** Billing
 **Product:** Billing
 **Source:** https://kinsta.com/docs/billing/billing-questions/
-**Kinsta last updated:** May 27, 2026
+**Kinsta last updated:** 2026-05-27T13:44:43
 
 ## On this page
 
@@ -50,7 +51,7 @@ Many of the questions below come directly from our billing and sales teams and a
 
 ## Does Kinsta send email notifications when I exceed my hosting plan’s limit?
 
-[Overage notifications](https://kinsta.com/docs/user-settings/notifications/) via email and MyKinsta messages are enabled by default on all accounts. You can customize the notification method (email, MyKinsta, or both) in your [User Settings](https://my.kinsta.com/profile) in MyKinsta.
+[Overage notifications](https://kinsta.com/docs/user-settings/notifications) via email and MyKinsta messages are enabled by default on all accounts. You can customize the notification method (email, MyKinsta, or both) in your [User Settings](https://my.kinsta.com/profile) in MyKinsta.
 
 Learn more about [how overages work at Kinsta](https://kinsta.com/docs/billing/wordpress-hosting-plans/overages/).
 

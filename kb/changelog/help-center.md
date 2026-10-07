@@ -1,26 +1,25 @@
 ---
 url: "https://kinsta.com/changelog/help-center/"
-title: "Kinsta's Help Center \u2014 The New Home for Support Answers and Documentation"
+title: "Kinsta\u2019s Help Center \u2014 The New Home for Support Answers and Documentation"
 tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Kinsta\u2019s Help Center \u2014 The New Home for Support Answers and Documentation"]
-kinsta_last_updated: "2026-04-20T09:39:27+00:00"
-sitemap_lastmod: "2026-04-20T09:39:27+00:00"
-fetched_at: "2026-10-07T22:37:23Z"
-sha256: "10a885d139456fc441f70ee7cbbca46a688c36dc330bc540ceb0efea0e2751b8"
-body_chars: 5892
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-04-20T09:39:27"
+change_signal: "2026-04-20T09:39:27"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "44ab3b0bab0982df5dc30f77f1de3d2c6e5f77efa829cfc60857cf71846b0869"
+body_chars: 5748
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Kinsta's Help Center — The New Home for Support Answers and Documentation
+# Kinsta’s Help Center — The New Home for Support Answers and Documentation
 
-**Section:** Changelog > Kinsta’s Help Center — The New Home for Support Answers and Documentation
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/help-center/
-**Kinsta last updated:** 2026-04-20T09:39:27+00:00
+**Kinsta last updated:** 2026-04-20T09:39:27
 
 ## On this page
 
@@ -31,11 +30,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Updated
-:   April 20, 2026
-
-![Kinsta's Help Center cover image](https://kinsta.com/wp-content/uploads/2021/11/kinsta-help-center-1024x512.png)
 
 Providing great support is much more than answering questions we receive. It’s about walking in our customers’ shoes and providing actionable information to get issues fixed. It’s proactively helping people whose business website is experiencing an issue. It’s about turning unknowns into resourceful opportunities and actively suggesting what the best course of action could be.
 

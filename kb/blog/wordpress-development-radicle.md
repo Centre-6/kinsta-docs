@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Development", "WordPress development with Radicle: deploying on Kinsta"]
-kinsta_last_updated: "2026-05-20T20:31:37+00:00"
-sitemap_lastmod: "2026-05-20T20:31:37"
-fetched_at: "2026-10-07T22:43:10Z"
-sha256: "2996ef15616f1ce8b056cdede5e1a7dd8c07e00ce0685cdc65dedc2ae26e0093"
-body_chars: 20009
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:31:37"
+change_signal: "2026-05-20T20:31:37"
+fetched_at: "2026-10-07T22:58:28Z"
+sha256: "688c5f9296b0256f96536080c5f9a5e14cd9818e142b9693e74286aa72b137fa"
+body_chars: 19174
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # WordPress development with Radicle: deploying on Kinsta
 
-**Section:** Resource Center > Blog > WordPress Development > WordPress development with Radicle: deploying on Kinsta
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-development-radicle/
-**Kinsta last updated:** 2026-05-20T20:31:37+00:00
+**Kinsta last updated:** 2026-05-20T20:31:37
 
 ## On this page
 
@@ -37,17 +36,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   May 20, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/10/radicle-1024x512.png)
 
 Modern WordPress development has evolved beyond manual setups and inconsistent deployment workflows. Radicle combines [Roots](https://roots.io/)‘ and other WordPress dev tools, such as [Bedrock](https://roots.io/bedrock/), [Sage](https://roots.io/sage/), and [Acorn](https://roots.io/acorn/), into a single starter stack.
 
@@ -360,13 +348,3 @@ Radicle transforms WordPress development by integrating Bedrock’s improved str
 Deploying to Kinsta requires configuration beyond standard WordPress hosting but delivers benefits in security, maintainability, and developer experience that justifies the setup effort.
 
 When you’re ready to deploy modern WordPress applications with confidence, [explore Kinsta’s managed WordPress hosting](https://kinsta.com/wordpress-hosting/) and experience a hosting infrastructure that supports your desired custom development workflow.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

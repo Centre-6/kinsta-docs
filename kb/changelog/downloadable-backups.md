@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Downloadable backups are now available in MyKinsta"]
-kinsta_last_updated: "2024-07-26T18:04:58+00:00"
-sitemap_lastmod: "2024-07-26T18:04:58+00:00"
-fetched_at: "2026-10-07T22:36:54Z"
-sha256: "ee5368e9b02a11668fb949d96d0f8834d6796027aa2e4ed86346ee1293e693c7"
-body_chars: 1723
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-07-26T18:04:58"
+change_signal: "2024-07-26T18:04:58"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "d4b58ebc45800ae5b6b05c8358ff13a9a8c6d96b35c8118db815f31308b77af8"
+body_chars: 1578
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Downloadable backups are now available in MyKinsta
 
-**Section:** Changelog > Downloadable backups are now available in MyKinsta
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/downloadable-backups/
-**Kinsta last updated:** 2024-07-26T18:04:58+00:00
+**Kinsta last updated:** 2024-07-26T18:04:58
 
 ---
-
-Updated
-:   July 26, 2024
-
-![WordPress downloadable backups](https://kinsta.com/wp-content/uploads/2018/06/downloadable-backups-2-1024x512.png)
 
 We are excited to announce that **downloadable backups** are now available!
 

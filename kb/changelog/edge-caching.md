@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "New Edge Caching Feature Slashes Page Load Times"]
-kinsta_last_updated: "2024-02-13T15:02:36+00:00"
-sitemap_lastmod: "2024-02-13T15:02:36+00:00"
-fetched_at: "2026-10-07T22:36:48Z"
-sha256: "9b1dc1707d905dc105f47ffbba9c9a89050c1115c4e08a82b86aebd0f9631d37"
-body_chars: 8921
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-02-13T15:02:36"
+change_signal: "2024-02-13T15:02:36"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "caaa44aa3664e7efdf49d92d75fe444362e152fcbf592689b80ec1cbf2a38659"
+body_chars: 8762
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # New Edge Caching Feature Slashes Page Load Times
 
-**Section:** Changelog > New Edge Caching Feature Slashes Page Load Times
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/edge-caching/
-**Kinsta last updated:** 2024-02-13T15:02:36+00:00
+**Kinsta last updated:** 2024-02-13T15:02:36
 
 ## On this page
 
@@ -33,11 +32,6 @@ status: "live"
 - [It’s All About Speed](#its-all-about-speed)
 
 ---
-
-Updated
-:   February 13, 2024
-
-![Edge Caching Feature Update](https://kinsta.com/wp-content/uploads/2022/12/New-Edge-Caching_Feature_Updates_EN-1024x536.jpg)
 
 Picture this: Your WordPress site is hosted in one of [Kinsta’s North American data centers](https://kinsta.com/docs/service-information/data-center-locations/). Your next visitor is at home in Germany. But instead of traveling halfway around the globe, your site’s pages are delivered to that user at lightning speed from a nearby European server.
 

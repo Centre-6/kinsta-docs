@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "In a rush? Request a site migration in 8 hours (or less)"]
-kinsta_last_updated: "2025-01-03T20:01:53+00:00"
-sitemap_lastmod: "2025-01-03T20:01:53+00:00"
-fetched_at: "2026-10-07T22:37:00Z"
-sha256: "7e87371e38e1fc34853501f4700018d76bb0b7e77d46ac41149ed57bd592d031"
-body_chars: 4916
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-01-03T20:01:53"
+change_signal: "2025-01-03T20:01:53"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "46567ab39266fcdd4a4dad0b88f421c84c154b833721f041ec03db3cb14d3052"
+body_chars: 4683
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # In a rush? Request a site migration in 8 hours (or less)
 
-**Section:** Changelog > In a rush? Request a site migration in 8 hours (or less)
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/expedited-migration/
-**Kinsta last updated:** 2025-01-03T20:01:53+00:00
+**Kinsta last updated:** 2025-01-03T20:01:53
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [Why migrate to Kinsta?](#why-migrate-to-kinsta)
 
 ---
-
-Updated
-:   January 3, 2025
-
-![An illustration representing Kinsta's site migration dialog in MyKinsta, with the text 'Expedited migrations.'](https://kinsta.com/wp-content/uploads/2024/09/mykista-expedited-migrations-1024x536.png)
 
 We recently removed all limitations on our free migrations of WordPress sites from other hosting companies. [Unlimited site transfers](https://kinsta.com/changelog/unlimited-free-migrations/) at no cost make for a great deal, but we know there are times when you might need the job done faster.
 

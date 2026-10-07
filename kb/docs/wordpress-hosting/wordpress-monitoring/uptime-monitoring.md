@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-monitoring/uptime-monitoring/"
-title: "Monitoring - Uptime Monitoring"
+title: "Uptime Monitoring"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-monitoring"
-section: []
-kinsta_last_updated: "February 27, 2026"
-sitemap_lastmod: "2026-02-27T10:05:44+00:00"
-fetched_at: "2026-10-07T22:39:37Z"
+section: ["WordPress Hosting", "Monitoring"]
+kinsta_last_updated: "2026-02-27T10:05:44"
+change_signal: "2026-02-27T10:05:44"
+fetched_at: "2026-10-07T22:58:19Z"
 sha256: "064aa4a1c7c4b54e9a6fd2f9ad0e260ac3b2c2c62cec3db4433dc229bdffd150"
 body_chars: 3916
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Monitoring - Uptime Monitoring
+# Uptime Monitoring
 
+**Section:** WordPress Hosting > Monitoring
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-monitoring/uptime-monitoring/
-**Kinsta last updated:** February 27, 2026
+**Kinsta last updated:** 2026-02-27T10:05:44
 
 ---
 

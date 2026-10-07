@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-plugins-themes-faqs/"
-title: "Plugins and Themes - Plugins and Themes FAQs"
+title: "Plugins and Themes FAQs"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-plugins-themes"
-section: []
-kinsta_last_updated: "March 12, 2025"
-sitemap_lastmod: "2025-03-12T10:58:55+00:00"
-fetched_at: "2026-10-07T22:38:33Z"
-sha256: "30aec494318f1631ec1c8849d3b4d53c5cc2a89f56ba4981d12ec01587a51313"
-body_chars: 2398
-extracted_with: "main article"
+section: ["WordPress Hosting", "Plugins and Themes"]
+kinsta_last_updated: "2025-03-12T10:58:55"
+change_signal: "2025-03-12T10:58:55"
+fetched_at: "2026-10-07T22:58:17Z"
+sha256: "ee41cdc121ba1d065f229f363b2d5379e12269999aad677061db3a39845a47dc"
+body_chars: 2397
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Plugins and Themes - Plugins and Themes FAQs
+# Plugins and Themes FAQs
 
+**Section:** WordPress Hosting > Plugins and Themes
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-plugins-themes-faqs/
-**Kinsta last updated:** March 12, 2025
+**Kinsta last updated:** 2025-03-12T10:58:55
 
 ## On this page
 
@@ -60,5 +61,5 @@ Yes, you can continue to handle plugins and themes through WordPress.
 
 Not quite. While the feature will work just fine on most sites, there are some situations that will prevent this feature from working:
 
-- Issues that prevent us from running [WP-CLI](https://kinsta.com/docs/devkinsta/wp-cli/).
+- Issues that prevent us from running [WP-CLI](https://kinsta.com/docs/devkinsta/wp-cli).
 - Premium (payment required) and custom (built by you or your developer) plugins or themes may not have a publicly available update endpoint, so they cannot be updated from MyKinsta. In some cases, we may detect that a new version is available, but the update process fails due to not being available via the standard WordPress endpoint.

@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Bot Traffic", "Bots are surpassing human traffic on the web. What is really going on?"]
-kinsta_last_updated: "2026-06-29T19:49:51+00:00"
-sitemap_lastmod: "2026-06-29T19:49:51"
-fetched_at: "2026-10-07T22:42:17Z"
-sha256: "b88d80756a4df99c56fabfa567cba6f345c7b2d510ef426b239c41e560e8587a"
-body_chars: 17271
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-29T19:49:51"
+change_signal: "2026-06-29T19:49:51"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "0eb09e0873e851da06da421784fa21eb53f9bc1760acdb65f55b9bfe32371c6c"
+body_chars: 16624
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Bots are surpassing human traffic on the web. What is really going on?
 
-**Section:** Resource Center > Blog > Bot Traffic > Bots are surpassing human traffic on the web. What is really going on?
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/ai-bot-traffic-surpassing-human-web/
-**Kinsta last updated:** 2026-06-29T19:49:51+00:00
+**Kinsta last updated:** 2026-06-29T19:49:51
 
 ## On this page
 
@@ -41,17 +40,6 @@ status: "live"
 - [The line between human and machine is gone](#the-line-between-human-and-machine-is-gone)
 
 ---
-
-Author
-:   [Bud Kraus](https://kinsta.com/blog/author/budkraus/ "Posts by Bud Kraus")
-
-Published
-:   June 30, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/06/the-web-is-becoming-bot-first-traffic-not-human-first-1024x512.png)
 
 This year, the general press has been reporting a historic shift in automated traffic surpassing human-initiated traffic online. And the numbers behind that shift are harder to dismiss than most milestone moments in internet history.
 
@@ -202,7 +190,3 @@ The internet was built on the assumption that there was a person on the other si
 We are well into an age where machines talk to machines without the need for human interaction.
 
 For a deeper look at the data behind this shift, read the [full Kinsta AI & Bot Traffic Report](https://kinsta.com/ai-bot-traffic/). If you’re already seeing the effects on your site, Kinsta’s [Bot Protection](https://kinsta.com/bot-protection/) gives you the controls you need to manage them.
-
-Bud Kraus
-
-Bud Kraus has been working with WordPress as an in-class and online instructor, site developer, and content creator since 2009. He has produced instructional videos and written many articles for WordPress businesses.

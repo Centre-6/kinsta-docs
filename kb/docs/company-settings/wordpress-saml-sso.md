@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/company-settings/wordpress-saml-sso/"
-title: "Company Settings - SAML Single Sign-On (SSO)"
+title: "SAML Single Sign-On (SSO)"
 tier: "docs"
 product: "company-settings"
 product_label: "MyKinsta Company Settings"
 subsection: "wordpress-saml-sso"
-section: []
-kinsta_last_updated: "January 23, 2026"
-sitemap_lastmod: "2026-01-23T10:59:59+00:00"
-fetched_at: "2026-10-07T22:39:16Z"
-sha256: "1e3294358200b01274864cedebec5902f37db5b10c310ba5d7e2bbc644d03154"
-body_chars: 15406
-extracted_with: "main article"
+section: ["Company Settings"]
+kinsta_last_updated: "2026-01-23T10:59:59"
+change_signal: "2026-01-23T10:59:59"
+fetched_at: "2026-10-07T22:58:17Z"
+sha256: "4db6e03b15b047bf25f83536fcee513f2f6e7820029971ce055ab9ecf91a1e7d"
+body_chars: 15404
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Company Settings - SAML Single Sign-On (SSO)
+# SAML Single Sign-On (SSO)
 
+**Section:** Company Settings
 **Product:** MyKinsta Company Settings
 **Source:** https://kinsta.com/docs/company-settings/wordpress-saml-sso/
-**Kinsta last updated:** January 23, 2026
+**Kinsta last updated:** 2026-01-23T10:59:59
 
 ## On this page
 
@@ -61,8 +62,8 @@ For detailed step-by-step guides for the most popular IdPs, refer to one of the 
 
 - [Google Workspace SAML SSO](https://kinsta.com/docs/company-settings/wordpress-saml-sso/google-workspace-saml-sso/)
 - [Microsoft Entra SAML SSO](https://kinsta.com/docs/company-settings/wordpress-saml-sso/microsoft-entra-saml-sso/)
-- [Okta SAML SSO](https://kinsta.com/docs/company-settings/wordpress-saml-sso/okta-saml-sso/)
-- [OneLogin SAML SSO](https://kinsta.com/docs/company-settings/wordpress-saml-sso/onelogin-saml-sso/)
+- [Okta SAML SSO](https://kinsta.com/docs/company-settings/wordpress-saml-sso/okta-saml-sso)
+- [OneLogin SAML SSO](https://kinsta.com/docs/company-settings/wordpress-saml-sso/onelogin-saml-sso)
 - [Ping Identity SAML SSO](https://kinsta.com/docs/company-settings/wordpress-saml-sso/ping-identity-saml-sso/)
 
 ### Enable SSO in MyKinsta

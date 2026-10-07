@@ -7,8 +7,8 @@ product_label: "Kinsta API Reference"
 subsection: "wordpress-site-environments"
 section: []
 kinsta_last_updated:
-sitemap_lastmod: "2026-09-18T09:42:49.592Z"
-fetched_at: "2026-10-07T22:41:16Z"
+change_signal: "2026-09-18T09:42:49.592Z"
+fetched_at: "2026-10-07T22:58:50Z"
 sha256: "6d6f26d1282c7faf4816b90490e1f8bfed4397d2a9e8f633f7722672536e89c9"
 body_chars: 8965
 extracted_with: "main"

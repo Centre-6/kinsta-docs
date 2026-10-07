@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-domains/wordpress-ssl-certificates/"
-title: "Domains and DNS - SSL Certificates"
+title: "SSL Certificates"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-domains"
-section: []
-kinsta_last_updated: "March 16, 2026"
-sitemap_lastmod: "2026-03-16T14:37:11+00:00"
-fetched_at: "2026-10-07T22:39:45Z"
-sha256: "a317afda3168ad372bb8ddb532e9d2a87a92840626d1506e7069bc9199273d13"
-body_chars: 14902
-extracted_with: "main article"
+section: ["WordPress Hosting", "Domains and DNS"]
+kinsta_last_updated: "2026-03-16T14:37:11"
+change_signal: "2026-03-16T14:37:11"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "e38e609f6d26edf7066608677c9950ce703671597938f881f02cc6e8658e8fee"
+body_chars: 14926
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Domains and DNS - SSL Certificates
+# SSL Certificates
 
+**Section:** WordPress Hosting > Domains and DNS
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-domains/wordpress-ssl-certificates/
-**Kinsta last updated:** March 16, 2026
+**Kinsta last updated:** 2026-03-16T14:37:11
 
 ## On this page
 
@@ -135,7 +136,7 @@ Generate CSR form.
 
 The form will generate the **Private Key** file and the **CSR**. Save both of those, as the certificate will be unusable without them.
 
-![CSR and private key.](https://kinsta.com/wp-content/uploads/2022/10/Untitled-2.png)
+![CSR and private key.](https://kinsta.com/wp-content/uploads/2022/10/Untitled-2.png "CSR and private key.")
 
 CSR and private key.
 
@@ -201,6 +202,7 @@ We’ve made redirecting all of your HTTP traffic to HTTPS as easy as possible i
 
 1. Log in to MyKinsta, select your site, and click on **Tools**.
 2. Under **Force HTTPS**, click the **Enable** button.
+
    ![Enable Force HTTPS in MyKinsta.](https://kinsta.com/wp-content/uploads/2025/06/wordpress-tools-force-https.png)
 
    Enable Force HTTPS in MyKinsta.

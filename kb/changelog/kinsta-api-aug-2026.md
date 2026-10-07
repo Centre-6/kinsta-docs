@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Access more visitor data with the Kinsta API"]
-kinsta_last_updated: "2026-08-14T08:57:13+00:00"
-sitemap_lastmod: "2026-08-14T16:42:33+00:00"
-fetched_at: "2026-10-07T22:37:50Z"
-sha256: "e1177f24084d5137cc9d0bdbdaffc89d271baf73bada92d6088554f5fa8cb508"
-body_chars: 6388
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-08-14T08:57:13"
+change_signal: "2026-08-14T08:57:13"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "36fe1d536441dd68bbcbc716901351491ccbebe5a70e91df0b2617c35fc852b1"
+body_chars: 6268
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Access more visitor data with the Kinsta API
 
-**Section:** Changelog > Access more visitor data with the Kinsta API
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/kinsta-api-aug-2026/
-**Kinsta last updated:** 2026-08-14T08:57:13+00:00
+**Kinsta last updated:** 2026-08-14T08:57:13
 
 ## On this page
 
@@ -31,11 +30,6 @@ status: "live"
 - [More visitor data through the Kinsta API](#more-visitor-data-through-the-kinsta-api)
 
 ---
-
-Published
-:   August 14, 2026
-
-![](https://kinsta.com/wp-content/uploads/2026/08/new-analytics-endpoints-1024x536.png)
 
 The [Kinsta API](https://api-docs.kinsta.com/pages/introduction) can now tell you more about the traffic reaching your WordPress environments, including which user agents and browsers are making requests, where those requests were referred from, which hosts they reached, and the networks behind them.
 

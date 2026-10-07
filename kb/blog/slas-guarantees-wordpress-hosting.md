@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Hosting", "SLAs and guarantees: What should your agency expect from your hosting partner?"]
-kinsta_last_updated: "2026-03-04T18:44:31+00:00"
-sitemap_lastmod: "2026-03-04T18:44:31"
-fetched_at: "2026-10-07T22:42:37Z"
-sha256: "99be5f509b7591d96ee5d23ea62577494c63f9028767add35495d47a72d2c012"
-body_chars: 21670
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-03-04T18:44:31"
+change_signal: "2026-03-04T18:44:31"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "be91011dcde1c681545b29e0d70338e59d34a7823b92656a6e3f9c4c096f0027"
+body_chars: 20762
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # SLAs and guarantees: What should your agency expect from your hosting partner?
 
-**Section:** Resource Center > Blog > WordPress Hosting > SLAs and guarantees: What should your agency expect from your hosting partner?
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/slas-guarantees-wordpress-hosting/
-**Kinsta last updated:** 2026-03-04T18:44:31+00:00
+**Kinsta last updated:** 2026-03-04T18:44:31
 
 ## On this page
 
@@ -38,17 +37,6 @@ status: "live"
 - [Think of SLAs as a partnership agreement with your agency](#think-of-slas-as-a-partnership-agreement-with-your-agency)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   March 31, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/02/slas-and-guarantees-what-should-your-agency-expect-from-your-hosting-partner-1024x512.png)
 
 Most agencies don’t think much about [Service Level Agreements (SLAs)](https://kinsta.com/legal/service-level-agreement/) until something goes sideways.
 
@@ -230,13 +218,3 @@ If you’re evaluating partners with those priorities in mind, managed platforms
 If your needs lean toward compliance, dedicated resources, or account management, [Kinsta’s enterprise hosting](https://kinsta.com/wordpress-hosting/enterprise/) is worth a look.
 
 Feel free to [talk to sales](https://kinsta.com/talk-to-sales/) if you wish to understand these further.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

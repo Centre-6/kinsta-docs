@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Improved messaging for Kinsta Automatic Updates"]
-kinsta_last_updated: "2025-09-04T14:04:25+00:00"
-sitemap_lastmod: "2025-09-04T14:04:25+00:00"
-fetched_at: "2026-10-07T22:37:08Z"
-sha256: "786b777f7928fefc2c5e4836b6c9502ec9528a422ec803262aa5357468ad7e92"
-body_chars: 2972
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-09-04T14:04:25"
+change_signal: "2025-09-04T14:04:25"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "77639e7b660eae6a96b14558206a84b800769a628a0b786a5ca0cae52656a5a6"
+body_chars: 2750
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Improved messaging for Kinsta Automatic Updates
 
-**Section:** Changelog > Improved messaging for Kinsta Automatic Updates
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/automatic-updates-messaging/
-**Kinsta last updated:** 2025-09-04T14:04:25+00:00
+**Kinsta last updated:** 2025-09-04T14:04:25
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [Making WordPress management easy](#making-wordpress-management-easy)
 
 ---
-
-Updated
-:   September 4, 2025
-
-![An illustration representing part of the interface for the Kinsta Automatic Updates add-on.](https://kinsta.com/wp-content/uploads/2025/03/kinsta-automatic-updates-changelog-1024x536.jpg)
 
 We’ve added a new option for users of the [Kinsta Automatic Updates](https://kinsta.com/blog/kinsta-automatic-updates/) add-on to manage the alerts they receive when that service works to upgrade plugins and themes on their WordPress sites.
 

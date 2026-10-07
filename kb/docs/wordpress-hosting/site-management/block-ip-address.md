@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/site-management/block-ip-address/"
-title: "Site Management - Block IP Address"
+title: "Block IP Address"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "site-management"
-section: []
-kinsta_last_updated: "March 9, 2026"
-sitemap_lastmod: "2026-03-09T10:31:41+00:00"
-fetched_at: "2026-10-07T22:39:39Z"
+section: ["WordPress Hosting", "Site Management"]
+kinsta_last_updated: "2026-03-09T10:31:41"
+change_signal: "2026-03-09T10:31:41"
+fetched_at: "2026-10-07T22:58:21Z"
 sha256: "2bdc7f5e6eb3b80c94666c0998a143ea95eb535b5ebeb8520650e77c27052375"
 body_chars: 5352
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Site Management - Block IP Address
+# Block IP Address
 
+**Section:** WordPress Hosting > Site Management
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/site-management/block-ip-address/
-**Kinsta last updated:** March 9, 2026
+**Kinsta last updated:** 2026-03-09T10:31:41
 
 ## On this page
 

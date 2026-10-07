@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/company-settings/create-company/"
-title: "Company Settings - New Company"
+title: "New Company"
 tier: "docs"
 product: "company-settings"
 product_label: "MyKinsta Company Settings"
 subsection: "create-company"
-section: []
-kinsta_last_updated: "March 7, 2025"
-sitemap_lastmod: "2025-03-07T16:15:02+00:00"
-fetched_at: "2026-10-07T22:38:31Z"
+section: ["Company Settings"]
+kinsta_last_updated: "2025-03-07T16:15:02"
+change_signal: "2025-03-07T16:15:02"
+fetched_at: "2026-10-07T22:58:21Z"
 sha256: "50762372b6b1fb5305dde1ecdc24d34f4f3c429eca956caba08342c768b28149"
 body_chars: 2422
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Company Settings - New Company
+# New Company
 
+**Section:** Company Settings
 **Product:** MyKinsta Company Settings
 **Source:** https://kinsta.com/docs/company-settings/create-company/
-**Kinsta last updated:** March 7, 2025
+**Kinsta last updated:** 2025-03-07T16:15:02
 
 ## On this page
 

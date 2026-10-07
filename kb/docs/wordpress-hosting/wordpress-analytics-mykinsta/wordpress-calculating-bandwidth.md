@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-analytics-mykinsta/wordpress-calculating-bandwidth/"
-title: "Analytics - Calculating Server Bandwidth"
+title: "Calculating Server Bandwidth"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-analytics-mykinsta"
-section: []
-kinsta_last_updated: "March 9, 2026"
-sitemap_lastmod: "2026-03-09T10:54:04+00:00"
-fetched_at: "2026-10-07T22:39:42Z"
+section: ["WordPress Hosting", "Analytics"]
+kinsta_last_updated: "2026-03-09T10:54:04"
+change_signal: "2026-03-09T10:54:04"
+fetched_at: "2026-10-07T22:58:17Z"
 sha256: "3f3aebab057541f28631b7092b101adbbe07b1bb97bd7803613603501472a220"
 body_chars: 5178
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Analytics - Calculating Server Bandwidth
+# Calculating Server Bandwidth
 
+**Section:** WordPress Hosting > Analytics
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-analytics-mykinsta/wordpress-calculating-bandwidth/
-**Kinsta last updated:** March 9, 2026
+**Kinsta last updated:** 2026-03-09T10:54:04
 
 ## On this page
 

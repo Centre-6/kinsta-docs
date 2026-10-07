@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/database-management/wordpress-database-access/"
-title: "Database Management - Database Access"
+title: "Database Access"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "database-management"
-section: []
-kinsta_last_updated: "April 20, 2026"
-sitemap_lastmod: "2026-04-20T09:41:09+00:00"
-fetched_at: "2026-10-07T22:39:58Z"
-sha256: "1c3c59d1bbc4a2eaa411358f6f5a74348b4dae0629b4dff588ade12010275077"
-body_chars: 13021
-extracted_with: "main article"
+section: ["WordPress Hosting", "Database Management"]
+kinsta_last_updated: "2026-04-20T09:41:09"
+change_signal: "2026-04-20T09:41:09"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "30d3c91af94c5ac4c44d5fc4be85b43ea4c508b3ef0b890698e3e6e7693c3000"
+body_chars: 13053
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Database Management - Database Access
+# Database Access
 
+**Section:** WordPress Hosting > Database Management
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/database-management/wordpress-database-access/
-**Kinsta last updated:** April 20, 2026
+**Kinsta last updated:** 2026-04-20T09:41:09
 
 ## On this page
 
@@ -53,7 +54,7 @@ Database manager in MyKinsta.
 
 ## phpMyAdmin
 
-Kinsta provides one-click access to phpMyAdmin on all hosting plans. phpMyAdmin is a popular free application for [managing MySQL databases](https://kinsta.com/docs/wordpress-hosting/database-management/restore-import-mysql-database/).
+Kinsta provides one-click access to phpMyAdmin on all hosting plans. phpMyAdmin is a popular free application for [managing MySQL databases](https://kinsta.com/docs/wordpress-hosting/database-management/restore-import-mysql-database).
 
 To access phpMyAdmin and manage your WordPress database, log in to [MyKinsta](https://my.kinsta.com/) and navigate to**Sites** > ***sitename*** > **Info**. Scroll down to the **Database access** section and click **Open phpMyAdmin**. This opens in a new tab and automatically logs you in using your database credentials.
 
@@ -63,7 +64,7 @@ If you’re taken to a login screen instead, simply enter the **Database usernam
 
 Open phpMyAdmin from MyKinsta.
 
-Within phpMyAdmin, you can view your database tables, run queries, drop tables, [import data](https://kinsta.com/docs/wordpress-hosting/database-management/restore-import-mysql-database/), [export your WordPress database](https://kinsta.com/docs/wordpress-hosting/database-management/create-wordpress-database-backup/), and more.
+Within phpMyAdmin, you can view your database tables, run queries, drop tables, [import data](https://kinsta.com/docs/wordpress-hosting/database-management/restore-import-mysql-database), [export your WordPress database](https://kinsta.com/docs/wordpress-hosting/database-management/create-wordpress-database-backup/), and more.
 
 ![Viewing your database in phpMyAdmin.](https://kinsta.com/wp-content/uploads/2026/04/wordpress-phpmyadmin.png)
 
@@ -146,18 +147,14 @@ To connect to your database via SSH tunnel, you’ll need a few key pieces of in
 
 In macOS, launch Terminal and run the command below. Be sure to replace “ssh_username”, “ssh_host”, and “ssh_port” with your site’s settings. This command binds your local port 3307 to port 3306 on the remote server containing your database and performs the necessary port forwarding.
 
-Copy
-
 ```
 ssh -fN ssh_username@ssh_host -p ssh_port -L 3307:127.0.0.1:3306
 ```
 
 For the kinstalife site in the screenshot above, the command below can be used to start the SSH session.
 
-Copy
-
 ```
-ssh -fN [email protected] -p 47780 -L 3307:127.0.0.1:3306
+ssh -fN kinstalife@35.224.70.159 -p 47780 -L 3307:127.0.0.1:3306
 ```
 
 Input your SFTP/SSH password when prompted, and press “Enter”. If you do not see an “incorrect password” message, that means you’re good to go!
@@ -170,15 +167,11 @@ At this point, your Mac is set up to connect to your remote database via 127.0.0
 
 Use the command below to connect to your database.
 
-Copy
-
 ```
 mysql --host=127.0.0.1 --port=3307 -u database_username -p --skip_ssl
 ```
 
 For our kinstalife site, we would use the command below.
-
-Copy
 
 ```
 mysql --host=127.0.0.1 --port=3307 -u kinstalife -p --skip_ssl
@@ -194,11 +187,13 @@ MariaDB Server on macOS.
 
 1. [Download HeidiSQL](http://www.heidisql.com/download.php) and install it. When you first launch it you will need to create a new session file using the following information:
    - **Network Type:** MySQL (SSH Tunnel)
-   - **Hostname / IP:** [localhost](https://kinsta.com/blog/what-is-localhost/) (or 127.0.0.1)
+   - **Hostname / IP:**  [localhost](https://kinsta.com/blog/what-is-localhost/) (or 127.0.0.1)
    - **User:** Database username from MyKinsta
    - **Password:** Database password from MyKinsta
    - **Port:** 3306
-   - **Database:** Database name from MyKinsta![New session file HeidiSQL](https://kinsta.com/wp-content/uploads/2015/08/new-session-file-HeidiSQL-1.png)
+   - **Database:** Database name from MyKinsta
+
+   ![New session file HeidiSQL](https://kinsta.com/wp-content/uploads/2015/08/new-session-file-HeidiSQL-1.png)
 
    New session file HeidiSQL
 2. You will then need to [download Plink.exe](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) (PuTTY Link, a command-line connection tool) and specify the location under the **Advanced** tab in HeidiSQL. Use the following information on the SSH tunnel tab.
@@ -206,7 +201,9 @@ MariaDB Server on macOS.
    - **SSH Port:** SFTP/SSH Port from MyKinsta
    - **Username:** SFTP/SSH username from MyKinsta
    - **Password:** SFTP/SSH password from MyKinsta
-   - **Local port:** 3306![SSH tunnel settings in HeidiSQL.](https://kinsta.com/wp-content/uploads/2015/08/HeidiSQL-plink.png)
+   - **Local port:** 3306
+
+   ![SSH tunnel settings in HeidiSQL.](https://kinsta.com/wp-content/uploads/2015/08/HeidiSQL-plink.png "SSH tunnel settings in HeidiSQL")
 
    SSH tunnel settings in HeidiSQL.
 3. Click **Open** and it should prompt you to trust the host and add the key to your registry.
@@ -223,7 +220,9 @@ MariaDB Server on macOS.
    - **SSH Host:**SFTP/SSH Host IP Address from MyKinsta
    - **SSH User:** SFTP/SSH Username from MyKinsta
    - **SSH Password:** SFTP/SSH Password from MyKinsta
-   - **SSH Port:** SFTP/SSH Port from MyKinsta![Sequel Ace](https://kinsta.com/wp-content/uploads/2023/11/wordpress-sequelace.png)
+   - **SSH Port:** SFTP/SSH Port from MyKinsta
+
+   ![Sequel Ace](https://kinsta.com/wp-content/uploads/2023/11/wordpress-sequelace.png)
 
    Sequel Ace
 3. Click **Connect**.
@@ -232,6 +231,7 @@ MariaDB Server on macOS.
 
 1. 1. [Download MySQL Workbench](https://dev.mysql.com/downloads/workbench/) and install it. When you first launch it, you will need to create a new session file.
    2. Open Workbench, click **Database** > **Manage Connections** > **New**, and give your connection a name, and within **Connection Method** choose **Standard TCP/IP over SSH**.
+
       ![MySQL Workbench connection.](https://kinsta.com/wp-content/uploads/2023/11/mysqlworkbench-connect-1024x683.png)
 
       MySQL Workbench connection.

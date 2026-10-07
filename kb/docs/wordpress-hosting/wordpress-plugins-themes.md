@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/"
-title: "WordPress Hosting - Plugins and Themes"
+title: "Plugins and Themes"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-plugins-themes"
-section: []
-kinsta_last_updated: "June 17, 2026"
-sitemap_lastmod: "2026-06-17T11:10:45+00:00"
-fetched_at: "2026-10-07T22:40:30Z"
+section: ["WordPress Hosting"]
+kinsta_last_updated: "2026-06-17T11:10:45"
+change_signal: "2026-06-17T11:10:45"
+fetched_at: "2026-10-07T22:58:17Z"
 sha256: "6f310b0abdc97f14454428584c0623a9eef592605b0d67d8b449074914ef533e"
 body_chars: 3717
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# WordPress Hosting - Plugins and Themes
+# Plugins and Themes
 
+**Section:** WordPress Hosting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/
-**Kinsta last updated:** June 17, 2026
+**Kinsta last updated:** 2026-06-17T11:10:45
 
 ---
 

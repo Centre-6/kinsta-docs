@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/database-management/wordpress-database/"
-title: "Database Management - Database"
+title: "Database"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "database-management"
-section: []
-kinsta_last_updated: "December 22, 2025"
-sitemap_lastmod: "2025-12-22T10:18:31+00:00"
-fetched_at: "2026-10-07T22:39:09Z"
-sha256: "18778e480b12996b2347d04f73baeba0ee32da4da1acbad18b476bae1edc36fb"
-body_chars: 7057
-extracted_with: "main article"
+section: ["WordPress Hosting", "Database Management"]
+kinsta_last_updated: "2025-12-22T10:18:31"
+change_signal: "2025-12-22T10:18:31"
+fetched_at: "2026-10-07T22:58:17Z"
+sha256: "3733498eda898c2f7b275a66e90627a0eba1a5236b95852a1bc196bea4c633fd"
+body_chars: 7027
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Database Management - Database
+# Database
 
+**Section:** WordPress Hosting > Database Management
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/database-management/wordpress-database/
-**Kinsta last updated:** December 22, 2025
+**Kinsta last updated:** 2025-12-22T10:18:31
 
 ## On this page
 
@@ -96,15 +97,11 @@ The following are examples of SQL queries you may want to run in your WordPress 
 
 #### List all users
 
-Copy
-
 ```
 SELECT ID, user_login, user_email, user_registered FROM wp_users;
 ```
 
 #### Get all published posts
-
-Copy
 
 ```
 SELECT ID, post_title, post_date FROM wp_posts WHERE post_type = 'post' AND post_status = 'publish';
@@ -112,23 +109,17 @@ SELECT ID, post_title, post_date FROM wp_posts WHERE post_type = 'post' AND post
 
 #### Get all pages
 
-Copy
-
 ```
 SELECT ID, post_title FROM wp_posts WHERE post_type = 'page';
 ```
 
 #### Get all approved comments
 
-Copy
-
 ```
 SELECT comment_ID, comment_author, comment_content FROM wp_comments WHERE comment_approved = 1;
 ```
 
 #### Delete all spam comments
-
-Copy
 
 ```
 DELETE FROM wp_comments WHERE comment_approved = 'spam';

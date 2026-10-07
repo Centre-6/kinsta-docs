@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Web Development Tools", "How to access and edit your WordPress files in MyKinsta (no FTP client required)"]
-kinsta_last_updated: "2026-07-21T13:48:05+00:00"
-sitemap_lastmod: "2026-07-21T13:48:05"
-fetched_at: "2026-10-07T22:42:12Z"
-sha256: "ba2f3f90c03ca87af0f12d1abb1c53e4f31c6166cd6a3bfe460536a9aec83fbc"
-body_chars: 15924
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-07-21T13:48:05"
+change_signal: "2026-07-21T13:48:05"
+fetched_at: "2026-10-07T22:58:24Z"
+sha256: "e360c55ecb195519a164ff1127eb44c6b9462a1cfa53086050c4b04f359e2a9d"
+body_chars: 15038
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How to access and edit your WordPress files in MyKinsta (no FTP client required)
 
-**Section:** Resource Center > Blog > Web Development Tools > How to access and edit your WordPress files in MyKinsta (no FTP client required)
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-file-manager-mykinsta/
-**Kinsta last updated:** 2026-07-21T13:48:05+00:00
+**Kinsta last updated:** 2026-07-21T13:48:05
 
 ## On this page
 
@@ -47,17 +46,6 @@ status: "live"
 - [Your hosting dashboard is now your file manager too](#your-hosting-dashboard-is-now-your-file-manager-too)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   July 22, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/06/how-to-access-and-edit-your-wordpress-files-in-mykinsta-1024x512.png)
 
 It is 11 p.m., something just broke on a client site, you need to rename a plugin folder to deactivate it, but `wp-admin` is down. So you open [FileZilla](https://kinsta.com/blog/how-to-use-filezilla/), realize you never saved the [SFTP credential](https://kinsta.com/docs/wordpress-hosting/connecting-with-sftp/)s, dig around for the server details, configure a new connection, wait for the directory tree to load, and finally rename a single folder.
 
@@ -284,13 +272,3 @@ It is not a standalone tool you install or configure. It is part of the same das
 Having it one click away inside a dashboard you are already in changes how you respond to those moments.
 
 Head to **Sites > [site name] > Files** to get started. You can also reach out to the [support team](https://kinsta.com/docs/support/contact-support/) if you have questions.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

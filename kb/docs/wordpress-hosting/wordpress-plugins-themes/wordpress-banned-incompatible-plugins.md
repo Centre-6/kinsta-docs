@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-banned-incompatible-plugins/"
-title: "Plugins and Themes - Banned and Incompatible Plugins"
+title: "Banned and Incompatible Plugins"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-plugins-themes"
-section: []
-kinsta_last_updated: "June 3, 2026"
-sitemap_lastmod: "2026-06-03T09:01:16+00:00"
-fetched_at: "2026-10-07T22:40:24Z"
-sha256: "fd50956115b52a97e9b408e7de6bb177be575b61798f92fd6d87af49a26b4c7e"
-body_chars: 8070
-extracted_with: "main article"
+section: ["WordPress Hosting", "Plugins and Themes"]
+kinsta_last_updated: "2026-06-03T09:01:16"
+change_signal: "2026-06-03T09:01:16"
+fetched_at: "2026-10-07T22:58:17Z"
+sha256: "706d6a3889439c243b36244a7485bfd9479f5ca86e783696c302f33b042d333b"
+body_chars: 8064
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Plugins and Themes - Banned and Incompatible Plugins
+# Banned and Incompatible Plugins
 
+**Section:** WordPress Hosting > Plugins and Themes
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-banned-incompatible-plugins/
-**Kinsta last updated:** June 3, 2026
+**Kinsta last updated:** 2026-06-03T09:01:16
 
 ## On this page
 
@@ -129,8 +130,6 @@ It’s important to note that while Wordfence is a powerful security tool, no se
 ## Complete list
 
 Feel free to compare the list below against your current `/wp-content/plugins/` directory. Note: the `updraft` plugin listed here is a different plugin from Updraft Plus.
-
-Copy
 
 ```
 all-in-one-wp-migration

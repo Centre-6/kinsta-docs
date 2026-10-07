@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Hosting", "How managed hosting frees up time for agencies to focus on their core business"]
-kinsta_last_updated: "2026-05-11T18:15:39+00:00"
-sitemap_lastmod: "2026-05-11T18:15:39"
-fetched_at: "2026-10-07T22:43:01Z"
-sha256: "043fdb75db3a628124e7b1c6c910a54266567af8565260cf6afe3aea7dfc512f"
-body_chars: 13786
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-11T18:15:39"
+change_signal: "2026-05-11T18:15:39"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "ee4c4e4eba552ca192341e475d108fa171464f45102e2ed5d905db215c50f87d"
+body_chars: 12880
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How managed hosting frees up time for agencies to focus on their core business
 
-**Section:** Resource Center > Blog > WordPress Hosting > How managed hosting frees up time for agencies to focus on their core business
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/managed-hosting-saves-agencies-time/
-**Kinsta last updated:** 2026-05-11T18:15:39+00:00
+**Kinsta last updated:** 2026-05-11T18:15:39
 
 ## On this page
 
@@ -43,17 +42,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   May 11, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/11/how-managed-hosting-frees-up-time-for-agencies-to-focus-on-their-core-business-1024x512.png)
 
 Most agencies move through their days balancing design work, development timelines, and client communication then suddenly get pulled into a different world the moment a site slows down, a plugin misbehaves, or a server error pops up.
 
@@ -178,13 +166,3 @@ Integrating with the [Kinsta Agency Partner Program](https://kinsta.com/agency-p
 When your hosting partner handles the technical stuff, your agency gains the freedom to focus on the work that moves clients forward.
 
 If you’re ready to shift your energy back to strategy, creativity, and client results, the [Kinsta Agency Program](https://kinsta.com/agency-partner-program/) gives you the tools and support to make it happen. Let Kinsta run the hosting while you focus on growth.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

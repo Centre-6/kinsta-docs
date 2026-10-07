@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Multiple-site management bulks up in MyKinsta"]
-kinsta_last_updated: "2026-10-02T18:59:10+00:00"
-sitemap_lastmod: "2026-10-02T19:17:13+00:00"
-fetched_at: "2026-10-07T22:37:51Z"
-sha256: "0e7e7b5ab38291d8cf590a700d68e17cc80fc52960421410ebe07389e78a341e"
-body_chars: 2906
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-10-02T18:59:10"
+change_signal: "2026-10-02T18:59:10"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "6f38b5f2dae63e1513051ac2b345e25f6fa3a0f14005aeed7b658bf4a32b288f"
+body_chars: 2720
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Multiple-site management bulks up in MyKinsta
 
-**Section:** Changelog > Multiple-site management bulks up in MyKinsta
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/more-bulk-actions/
-**Kinsta last updated:** 2026-10-02T18:59:10+00:00
+**Kinsta last updated:** 2026-10-02T18:59:10
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [More coming](#more-coming)
 
 ---
-
-Published
-:   October 2, 2026
-
-![An illustration representing the bulk actions menu in MyKinsta.](https://kinsta.com/wp-content/uploads/2026/10/kinsta-bulk-actions-update-1024x536.png)
 
 We’ve made more tools available to customers who manage multiple websites by adding four more add-ons to MyKinsta’s “bulk actions” menu.
 

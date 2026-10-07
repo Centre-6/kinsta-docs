@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-reference/technical-faq/"
-title: "Reference - Technical FAQ"
+title: "Technical FAQ"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-reference"
-section: []
-kinsta_last_updated: "September 18, 2026"
-sitemap_lastmod: "2026-09-18T09:56:30+00:00"
-fetched_at: "2026-10-07T22:40:43Z"
-sha256: "db8b4b8566efd8d84cb5d0aa01a8fa4acca22d9de536e600c958a6932513bdb3"
-body_chars: 38732
-extracted_with: "main article"
+section: ["WordPress Hosting", "Reference"]
+kinsta_last_updated: "2026-09-18T09:56:30"
+change_signal: "2026-09-18T09:56:30"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "53579e9b02c3f9e2cc7925d5413ebc060b9dc9288d8429a6a01cd262aa14d348"
+body_chars: 38728
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Reference - Technical FAQ
+# Technical FAQ
 
+**Section:** WordPress Hosting > Reference
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-reference/technical-faq/
-**Kinsta last updated:** September 18, 2026
+**Kinsta last updated:** 2026-09-18T09:56:30
 
 ## On this page
 
@@ -117,7 +118,7 @@ We don’t offer short-term trials, but here’s what we do have:
 - **First month free:** We offer the first month free on our [Single 35k visits, Single 20GB bandwidth, WP 2, and Launch plans](https://kinsta.com/pricing/), allowing you to explore all of Kinsta’s features without any upfront payment. After the first month, regular plan pricing applies.
 - **30-day money-back guarantee:** On all other plans (including add-ons), we offer a [30-day money-back guarantee](https://kinsta.com/docs/service-information/money-back-guarantee/). If you cancel your hosting account within the first 30 days, you’ll receive a full refund, making it a risk-free way to try Kinsta!
 - **No long-term contracts:** You can cancel your subscription at any time without being locked into a long-term commitment.
-- **Looking to try a custom plan:** [Contact our sales team](https://kinsta.com/contact-us/) to discuss what options are available for your site.
+- **Looking to try a custom plan:**  [Contact our sales team](https://kinsta.com/contact-us/) to discuss what options are available for your site.
 
 ### Why does Kinsta cost what it does?
 
@@ -212,11 +213,11 @@ Multisite setups are considered one install each. For example, you could have on
 
 ### Does Kinsta support multisite?
 
-We support [WordPress multisite installations](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/multisite-network/) on our multiple-site plans. If you’re currently on our Single 35k visits plan or Single 20GB bandwidth plan, you’ll need to [upgrade](https://kinsta.com/pricing/) to a Single 65k visits plan, or Single 40GB bandwidth plan, or above to utilize multisite.
+We support [WordPress multisite installations](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/multisite-network) on our multiple-site plans. If you’re currently on our Single 35k visits plan or Single 20GB bandwidth plan, you’ll need to [upgrade](https://kinsta.com/pricing/) to a Single 65k visits plan, or Single 40GB bandwidth plan, or above to utilize multisite.
 
 ### Does Kinsta have staging for multisite environments?
 
-Depending on how your [multisite is set up](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/multisite-network/), it may or may not work with our staging environment.
+Depending on how your [multisite is set up](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/multisite-network), it may or may not work with our staging environment.
 
 - If it’s a subdirectory multisite (example.com, example.com/subsite1, example.com/subsite2), it will work fine with our staging environment.
 - If it’s a subdomain multisite (example.com, subsite1.example.com, subsite2.example.com), it will work fine as long as the subsites don’t require HTTPS. If the subsites do require HTTPS, you’ll have to bypass SSL errors on staging to access the subsites. This doesn’t impact functionality in any way.
@@ -334,7 +335,7 @@ All you usually need to know is that your database hostname is `localhost` at Ki
 
 ### Can I use a caching plugin?
 
-We don’t allow caching plugins because we provide **five types of cache**, which are all automatically done at the software or server level. This is controlled by our [Kinsta MU plugin](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/), which is installed by default on all WordPress sites.
+We don’t allow caching plugins because we provide **five types of cache**, which are all automatically done at the software or server level. This is controlled by our [Kinsta MU plugin](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin), which is installed by default on all WordPress sites.
 
 Read more about [how Kinsta handles caching](https://kinsta.com/blog/wordpress-cache/).
 
@@ -400,7 +401,7 @@ If you’re looking for a dedicated IP because you need to add a single IP to an
 
 ### How often do you perform site monitoring/uptime checks?
 
-Your WordPress site is checked every 3 minutes. If something needs attention, our engineers will begin investigating immediately. If [WordPress site monitoring notifications](https://kinsta.com/docs/user-settings/notifications/) are enabled in MyKinsta, we’ll also send you an email for any site errors, DNS errors, SSL errors, or expired domains.
+Your WordPress site is checked every 3 minutes. If something needs attention, our engineers will begin investigating immediately. If [WordPress site monitoring notifications](https://kinsta.com/docs/user-settings/notifications) are enabled in MyKinsta, we’ll also send you an email for any site errors, DNS errors, SSL errors, or expired domains.
 
 ### Will Kinsta host my emails?
 
@@ -439,7 +440,7 @@ Kinsta utilizes leading cloud platforms in multiple data centers. On our standa
 
 ### Does Kinsta offer reseller/white-label solutions?
 
-We do not offer your typical reseller plan at the moment. However, many agencies use Kinsta and sell hosting to their clients. Our [multi-user permissions](https://kinsta.com/docs/company-settings/user-management/) make this easy. We also do have [white label options](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/#white-label-and-customize-the-kinsta-mu-plugin) on our Kinsta MU plugin which is by default installed on all WordPress sites.
+We do not offer your typical reseller plan at the moment. However, many agencies use Kinsta and sell hosting to their clients. Our [multi-user permissions](https://kinsta.com/docs/company-settings/user-management/) make this easy. We also do have [white label options](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin#white-label-and-customize-the-kinsta-mu-plugin) on our Kinsta MU plugin which is by default installed on all WordPress sites.
 
 You can also earn passive income by referring clients to Kinsta by joining our [affiliate program](https://kinsta.com/affiliates/).
 

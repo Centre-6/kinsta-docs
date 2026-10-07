@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/"
-title: "WordPress Hosting - Must Use (MU) Plugin"
+title: "Must Use (MU) Plugin"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "kinsta-mu-plugin"
-section: []
-kinsta_last_updated: "April 27, 2026"
-sitemap_lastmod: "2026-04-27T09:56:43+00:00"
-fetched_at: "2026-10-07T22:40:05Z"
-sha256: "0d033eda23e7827ca3ed12586dc3333f932049368dc5e3b3684da8c447172852"
-body_chars: 18740
-extracted_with: "main article"
+section: ["WordPress Hosting"]
+kinsta_last_updated: "2026-04-27T09:56:43"
+change_signal: "2026-04-27T09:56:43"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "98903e7603e5021cb408eb25e7514bd17091984356e6bdb0288bebaedcfdf10b"
+body_chars: 18733
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# WordPress Hosting - Must Use (MU) Plugin
+# Must Use (MU) Plugin
 
+**Section:** WordPress Hosting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/
-**Kinsta last updated:** April 27, 2026
+**Kinsta last updated:** 2026-04-27T09:56:43
 
 ## On this page
 
@@ -66,7 +67,7 @@ If you’ve migrated your site yourself or installed WordPress manually, you may
 
 [Connect to your site via SFTP](https://kinsta.com/docs/wordpress-hosting/connecting-with-sftp/) and create a folder called **mu-plugins** in your **wp-content** folder if it doesn’t already exist (finished path: **/wp-content/mu-plugins/**).
 
-![The mu-plugins folder in FTP.](https://kinsta.com/wp-content/uploads/2016/08/mu-plugins-folder.png)
+![The mu-plugins folder in FTP.](https://kinsta.com/wp-content/uploads/2016/08/mu-plugins-folder.png "The mu-plugins folder in FTP")
 
 The mu-plugins folder in FTP.
 
@@ -78,7 +79,7 @@ After ensuring the **mu-plugins** folder has been created, [download the Kinsta 
 
 Upload the **kinsta-mu-plugins** folder and **kinsta-mu-plugins.php** file to the **/wp-content/mu-plugins/** directory.
 
-![Kinsta MU plugin folder and file in FTP.](https://kinsta.com/wp-content/uploads/2016/08/kinsta-mu-plugins.png)
+![Kinsta MU plugin folder and file in FTP.](https://kinsta.com/wp-content/uploads/2016/08/kinsta-mu-plugins.png "Kinsta MU plugin folder and file in FTP")
 
 Kinsta MU plugin folder and file in FTP.
 
@@ -92,10 +93,8 @@ If your site is [built with Bedrock](https://kinsta.com/blog/bedrock-trellis/) o
 
 Begin by declaring the Kinsta MU plugin as a package repository in the `repositories` array in your **composer.json** file:
 
-Copy
-
 ```
-{
+    {
       "type": "package",
       "package": {
         "name": "kinsta/kinsta-mu-plugins",
@@ -115,15 +114,11 @@ Copy
 
 Next, run the following command in your site’s **bedrock** directory (or the directory where your **composer.json** file is located).
 
-Copy
-
 ```
 composer require kinsta/kinsta-mu-plugins
 ```
 
 Or, add the Kinsta MU plugin to the `require` array in your **composer.json** file. Here’s an example `require` array from a Bedrock site after adding the Kinsta MU plugin:
-
-Copy
 
 ```
 "require": {
@@ -143,8 +138,6 @@ Copy
 #### 3. Fix the path for Kinsta MU plugin assets
 
 To fix the path to assets used by the MU plugin, add the following to your site’s configuration file (**bedrock/config/application.php** in Bedrock sites):
-
-Copy
 
 ```
 /**
@@ -209,8 +202,6 @@ Custom URL single path in Kinsta Cache.
 
 The group path purges all the URLs that start with that specific URL. This can be especially useful if you have a custom post type and need the cache cleared on it and the posts underneath it. For example, if you add `https://yourdomain.com/custom-post-type/` as a group path URL, then it will purge the cache on the following:
 
-Copy
-
 ```
 https://yourdomain.com/custom-post-type/
 https://yourdomain.com/custom-post-type/post-1
@@ -250,8 +241,6 @@ Autopurge controllers handle various events, such as post updates, option change
 
 **Hook**
 
-Copy
-
 ```
 apply_filters('kinsta/kmp/cache/autopurge', $status, $controller_name);
 ```
@@ -262,8 +251,6 @@ apply_filters('kinsta/kmp/cache/autopurge', $status, $controller_name);
 - `$controller_name` (`string`): The name of the controller being checked. You can list available controllers by running `wp kinsta cache autopurge list`.
 
 **Example**
-
-Copy
 
 ```
 add_filter('kinsta/kmp/cache/autopurge', function($status, $controller_name) {
@@ -280,8 +267,6 @@ add_filter('kinsta/kmp/cache/autopurge', function($status, $controller_name) {
 This filter allows you to customize which WordPress options trigger a cache purge when updated.  
 **Hook**
 
-Copy
-
 ```
 apply_filters('kinsta/kmp/cache/autopurge/wp/options', $option_names);
 ```
@@ -291,8 +276,6 @@ apply_filters('kinsta/kmp/cache/autopurge/wp/options', $option_names);
 - `$option_names` (`array`): A list of option names that will trigger automatic cache clearing when updated.
 
 **Default options**
-
-Copy
 
 ```
 [
@@ -305,8 +288,6 @@ Copy
 ```
 
 **Example**
-
-Copy
 
 ```
 add_filter('kinsta/kmp/cache/autopurge/wp/options', function($option_names) {
@@ -364,8 +345,6 @@ To white label your admin, you’ll need to define a constant, preferably in the
 
 Here’s an example of a white label configuration in **wp-config.php**.
 
-Copy
-
 ```
 /* Kinsta MU Plugin White Labeling */
 define('KINSTAMU_WHITELABEL', true);
@@ -380,8 +359,6 @@ You can customize the menu slug, title, and icon by passing an array that define
 - `menu_icon`: Changes the menu icon. To find out how to format the URL for the icon, refer to the `icon_url` parameter within [WordPress Developer Resources](https://developer.wordpress.org/reference/functions/add_menu_page/).
 
 For example:
-
-Copy
 
 ```
 /* Kinsta MU Plugin White Labeling */
@@ -400,8 +377,6 @@ The plugin uses the `WPMU_PLUGIN_URL WP` variable to define paths to the plugin�
 
 Here’s an example of a custom MU plugin path in **wp-config.php**.
 
-Copy
-
 ```
 /* Custom MU plugin path */
 define( 'KINSTAMU_CUSTOM_MUPLUGIN_URL', 'http://kinstaexample.com/custom-wp-content/mu-plugins')
@@ -412,8 +387,6 @@ define( 'KINSTAMU_CUSTOM_MUPLUGIN_URL', 'http://kinstaexample.com/custom-wp-cont
 ### Define a capability for access
 
 The `KINSTAMU_CAPABILITY` constant defines what capability a user must have to use the plugin admin functionality. It accepts any of the default [WordPress Roles and Capabilities](https://wordpress.org/documentation/article/roles-and-capabilities/), like: `activate_plugins` or `publish_pages`. Here’s an example with the `KINSTAMU_CAPABILITY` constant added:
-
-Copy
 
 ```
 /* Capability to use the caching plugin */

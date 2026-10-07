@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Agency", "4 agency founders share the decisions that shaped their businesses"]
-kinsta_last_updated: "2026-03-23T11:22:29+00:00"
-sitemap_lastmod: "2026-03-23T11:22:29"
-fetched_at: "2026-10-07T22:42:40Z"
-sha256: "b981f7487758034ae6ca8479e0ad28f298a3b6266a2b85bf74dfda906e27bf95"
-body_chars: 9594
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-03-23T11:22:29"
+change_signal: "2026-03-23T11:22:29"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "bc92e344a26718015b298bf75e47d2231765f554aa19a0ed20b78f33ea7027e3"
+body_chars: 8932
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # 4 agency founders share the decisions that shaped their businesses
 
-**Section:** Resource Center > Blog > Agency > 4 agency founders share the decisions that shaped their businesses
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/agency-founders-share-the-decisions-that-shaped-their-businesses/
-**Kinsta last updated:** 2026-03-23T11:22:29+00:00
+**Kinsta last updated:** 2026-03-23T11:22:29
 
 ## On this page
 
@@ -31,17 +30,6 @@ status: "live"
 - [What we noticed across all four conversations](#what-we-noticed-across-all-four-conversations)
 
 ---
-
-Author
-:   [Christina Scannapiego](https://kinsta.com/blog/author/christinascannapiego/ "Posts by Christina Scannapiego")
-
-Updated
-:   March 23, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/03/agency-growth-1024x513.png)
 
 ***15 years of agency building, condensed into four honest conversations***
 
@@ -112,8 +100,3 @@ In fact, every founder in this series runs their client sites on Kinsta because,
 The [Kinsta Agency Partner Program](https://kinsta.com/agency-partner-program/) exists for agencies at the stage where hosting decisions have real consequences, who need co-marketing support and lead referrals, and where the cost of downtime is measured in client relationships as well as dollars.
 
 [**Explore the full series**](https://kinsta.com/agency-growth-insights/)
-
-Christina Scannapiego
-[Kinsta](https://kinsta.com/)
-
-Christina Scannapiego is Head of Content at Kinsta. Drawing on her background in journalism and SaaS marketing, she covers product innovation, performance, and business growth on the modern web.

@@ -1,26 +1,25 @@
 ---
 url: "https://kinsta.com/blog/wordpress-7-0/"
-title: "What's new in WordPress 7.0: AI integration, new blocks, and much more"
+title: "What\u2019s new in WordPress 7.0: AI integration, new blocks, and much more"
 tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Updates", "What\u2019s new in WordPress 7.0: AI integration, new blocks, and much more"]
-kinsta_last_updated: "2026-05-08T16:38:29+00:00"
-sitemap_lastmod: "2026-05-08T16:38:29"
-fetched_at: "2026-10-07T22:42:30Z"
-sha256: "f7524ebd278231c2e62b98dabe5df62f81e55594ca419f15b36df654140c5748"
-body_chars: 44951
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-08T16:38:29"
+change_signal: "2026-05-08T16:38:29"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "f3329008dd0d347926ed2f395bb1adca596522f3af8d472b58111e268350bce2"
+body_chars: 43919
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# What's new in WordPress 7.0: AI integration, new blocks, and much more
+# What’s new in WordPress 7.0: AI integration, new blocks, and much more
 
-**Section:** Resource Center > Blog > WordPress Updates > What’s new in WordPress 7.0: AI integration, new blocks, and much more
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-7-0/
-**Kinsta last updated:** 2026-05-08T16:38:29+00:00
+**Kinsta last updated:** 2026-05-08T16:38:29
 
 ## On this page
 
@@ -59,17 +58,6 @@ status: "live"
 - [Looking ahead: 7.0 marks a new era for WordPress](#looking-ahead-70-marks-a-new-era-for-wordpress)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Updated
-:   May 8, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/03/whats-new-in-wordpress7.0-ai-integration-real-time-collaboration-and-much-more-1024x513.png)
 
 Get the fireworks ready! With 7.0, WordPress enters a bold new era.
 
@@ -778,11 +766,3 @@ But WordPress 7.0 is more than just AI. The editing experience has been complete
 Beyond AI integration, developers will benefit from enhancements that streamline the development workflow and unlock previously unseen possibilities. From the iframed editor and pseudo-class support in `theme.json` to the Client-side Abilities API and PHP-only blocks, WordPress 7.0 provides a multitude of tools to build increasingly powerful sites and applications.
 
 To fully leverage the potential of WordPress 7.0, you need a cutting-edge hosting service optimized for performance and security. At Kinsta, you’ll find everything you need to push WordPress to its maximum potential. [Check out our plans](https://kinsta.com/pricing/) and find the one that best fits your site’s needs.
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

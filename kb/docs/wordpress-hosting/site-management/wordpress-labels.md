@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-labels/"
-title: "Site Management - Labels"
+title: "Labels"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "site-management"
-section: []
-kinsta_last_updated: "May 28, 2026"
-sitemap_lastmod: "2026-05-28T08:01:41+00:00"
-fetched_at: "2026-10-07T22:40:21Z"
+section: ["WordPress Hosting", "Site Management"]
+kinsta_last_updated: "2026-05-28T08:01:41"
+change_signal: "2026-05-28T08:01:41"
+fetched_at: "2026-10-07T22:58:18Z"
 sha256: "4e9623c73ecafc933fd5494a8b73a22cbb047e78fa5c91d814620d8d60ae4165"
 body_chars: 4515
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Site Management - Labels
+# Labels
 
+**Section:** WordPress Hosting > Site Management
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-labels/
-**Kinsta last updated:** May 28, 2026
+**Kinsta last updated:** 2026-05-28T08:01:41
 
 ## On this page
 

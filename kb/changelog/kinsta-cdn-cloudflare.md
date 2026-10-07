@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Kinsta CDN Is Now Powered by Cloudflare"]
-kinsta_last_updated: "2021-07-13T10:44:40+00:00"
-sitemap_lastmod: "2021-07-13T10:44:40+00:00"
-fetched_at: "2026-10-07T22:36:44Z"
-sha256: "96d739ae6da6954b60706081fea80dd9dc22f5617f191ca2a796de7fbcf04773"
-body_chars: 6509
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2021-07-13T10:44:40"
+change_signal: "2021-07-13T10:44:40"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "686f518854beda22c961ac4d629e799f275d9406c374a9ca405b705c563f6e9e"
+body_chars: 6359
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Kinsta CDN Is Now Powered by Cloudflare
 
-**Section:** Changelog > Kinsta CDN Is Now Powered by Cloudflare
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/kinsta-cdn-cloudflare/
-**Kinsta last updated:** 2021-07-13T10:44:40+00:00
+**Kinsta last updated:** 2021-07-13T10:44:40
 
 ## On this page
 
@@ -33,11 +32,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Updated
-:   July 13, 2021
-
-![Kinsta CDN is now powered by Cloudflare!](https://kinsta.com/wp-content/uploads/2021/07/cloudflare-cdn_EN-1024x512.png)
 
 Earlier in 2021, we announced a [free Cloudflare integration](https://kinsta.com/cloudflare-integration/) for all sites hosted on Kinsta. The first phase of our Cloudflare integration brought a variety of security enhancements such as an enterprise-level firewall, free [DDoS](https://kinsta.com/blog/what-is-a-ddos-attack/) protection, [HTTP/3](https://kinsta.com/blog/http3/) support, and more.
 

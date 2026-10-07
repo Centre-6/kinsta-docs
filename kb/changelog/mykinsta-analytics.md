@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "MyKinsta Analytics Revamped to Give You More Data"]
-kinsta_last_updated: "2026-03-09T10:38:48+00:00"
-sitemap_lastmod: "2026-03-09T10:38:48+00:00"
-fetched_at: "2026-10-07T22:37:16Z"
-sha256: "03a103dd3cead6e94cff1b6055788aafdfa4098922b2085f28877900b6baa88c"
-body_chars: 1667
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-03-09T10:38:48"
+change_signal: "2026-03-09T10:38:48"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "d0cffb80164e2e3186d01bf31d20de87ab8a86966c5a33b610cc18b4fd0e2bdc"
+body_chars: 1538
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # MyKinsta Analytics Revamped to Give You More Data
 
-**Section:** Changelog > MyKinsta Analytics Revamped to Give You More Data
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/mykinsta-analytics/
-**Kinsta last updated:** 2026-03-09T10:38:48+00:00
+**Kinsta last updated:** 2026-03-09T10:38:48
 
 ---
-
-Updated
-:   March 9, 2026
-
-![mykinsta analytics](https://kinsta.com/wp-content/uploads/2017/08/mykinsta-analytics-1024x512.png)
 
 One thing we love here at Kinsta is data. That’s why we have completely revamped MyKinsta Analytics. You can now quickly gain insights into what is really happening on your WordPress site. The new reports include everything from resource usage, performance monitoring, and even security. These are separated into separate sections in the [MyKinsta](https://my.kinsta.com/) dashboard:
 

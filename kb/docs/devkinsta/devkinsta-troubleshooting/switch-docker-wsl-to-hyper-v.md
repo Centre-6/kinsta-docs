@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/devkinsta/devkinsta-troubleshooting/switch-docker-wsl-to-hyper-v/"
-title: "Troubleshooting - Windows Issues"
+title: "Windows Issues"
 tier: "docs"
 product: "devkinsta"
 product_label: "DevKinsta (local dev tool, not hosting)"
 subsection: "devkinsta-troubleshooting"
-section: []
-kinsta_last_updated: "July 18, 2024"
-sitemap_lastmod: "2024-07-18T08:42:27+00:00"
-fetched_at: "2026-10-07T22:38:07Z"
-sha256: "57b6ad34993c136a637d15971830c446a41434911c5368e3344717010fca5eef"
-body_chars: 2873
-extracted_with: "main article"
+section: ["DevKinsta", "Troubleshooting"]
+kinsta_last_updated: "2024-07-18T08:42:27"
+change_signal: "2024-07-18T08:42:27"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "ec8676be361a2c5820fdd910ffe6c7f17599bb2b5e494d232d71d2949fa67dab"
+body_chars: 2870
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Troubleshooting - Windows Issues
+# Windows Issues
 
+**Section:** DevKinsta > Troubleshooting
 **Product:** DevKinsta (local dev tool, not hosting)
 **Source:** https://kinsta.com/docs/devkinsta/devkinsta-troubleshooting/switch-docker-wsl-to-hyper-v/
-**Kinsta last updated:** July 18, 2024
+**Kinsta last updated:** 2024-07-18T08:42:27
 
 ## On this page
 
@@ -46,10 +47,10 @@ Because Docker keeps the WSL and Hyper-V database volumes separate, any database
 
 ### Option 2
 
-1. [Push any site(s) you have in DevKinsta to Staging](https://kinsta.com/docs/devkinsta/devkinsta-integration/#push-changes-to-staging) (or make backups) before switching to Hyper-V.
-2. Reset Docker and completely [uninstall DevKinsta](https://kinsta.com/docs/devkinsta/devkinsta-reference/uninstall-devkinsta/) so that you start fresh.
+1. [Push any site(s) you have in DevKinsta to Staging](https://kinsta.com/docs/devkinsta/devkinsta-integration#push-changes-to-staging) (or make backups) before switching to Hyper-V.
+2. Reset Docker and completely [uninstall DevKinsta](https://kinsta.com/docs/devkinsta/devkinsta-reference/uninstall-devkinsta) so that you start fresh.
 3. Make sure Hyper-V and Containers Windows features are enabled before reinstalling DevKinsta.
-4. [Pull your site(s) from Staging to DevKinsta](https://kinsta.com/docs/devkinsta/devkinsta-integration/#pull-a-site-from-kinsta) (or restore from a backup). Note: When pulling a site from Kinsta, you can choose to pull from any environment, so make sure you’re pulling from the same Staging environment you pushed to above.
+4. [Pull your site(s) from Staging to DevKinsta](https://kinsta.com/docs/devkinsta/devkinsta-integration#pull-a-site-from-kinsta) (or restore from a backup). Note: When pulling a site from Kinsta, you can choose to pull from any environment, so make sure you’re pulling from the same Staging environment you pushed to above.
 
 ### Option 3
 

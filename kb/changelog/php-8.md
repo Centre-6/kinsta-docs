@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "PHP 8.0 Now Available for All Environments and Websites"]
-kinsta_last_updated: "2026-04-20T09:33:19+00:00"
-sitemap_lastmod: "2026-04-20T09:33:19+00:00"
-fetched_at: "2026-10-07T22:37:21Z"
-sha256: "0c406a95aa8a6980f31ea43634b97073423f3aa8fb4d9244f944d58926eda2dd"
-body_chars: 2820
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-04-20T09:33:19"
+change_signal: "2026-04-20T09:33:19"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "5778fa4f8e3195f74c8aeca293a28656180ca635489e070e17fa0cecceec26dd"
+body_chars: 2716
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # PHP 8.0 Now Available for All Environments and Websites
 
-**Section:** Changelog > PHP 8.0 Now Available for All Environments and Websites
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/php-8/
-**Kinsta last updated:** 2026-04-20T09:33:19+00:00
+**Kinsta last updated:** 2026-04-20T09:33:19
 
 ---
-
-Updated
-:   April 20, 2026
-
-![PHP 8](https://kinsta.com/wp-content/uploads/2020/12/php-8-1024x512.png)
 
 Now that [PHP 8.0 has been officially released](https://kinsta.com/blog/php-8/), we’ve made it available for all environments on Kinsta. Previously, [PHP 8.0 (RC1)](https://kinsta.com/changelog/php-8-availability/) was only available for staging environments to prevent [incompatibility errors](https://kinsta.com/blog/500-internal-server-error/) on production sites.
 

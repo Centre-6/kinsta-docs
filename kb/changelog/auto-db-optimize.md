@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Automatic MySQL Database Optimizations, Self-Healing PHP, GCP Firewall"]
-kinsta_last_updated: "2026-02-11T16:13:12+00:00"
-sitemap_lastmod: "2026-02-11T16:13:12+00:00"
-fetched_at: "2026-10-07T22:37:14Z"
-sha256: "8004065902f88ac57c7246451428a2ae556d1d1f4adc2637b969b42d55615fc7"
-body_chars: 8047
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-02-11T16:13:12"
+change_signal: "2026-02-11T16:13:12"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "87038ef50dae9db585d5ca380c68c3ac67d6154bd170ddf578762985ae579997"
+body_chars: 7893
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Automatic MySQL Database Optimizations, Self-Healing PHP, GCP Firewall
 
-**Section:** Changelog > Automatic MySQL Database Optimizations, Self-Healing PHP, GCP Firewall
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/auto-db-optimize/
-**Kinsta last updated:** 2026-02-11T16:13:12+00:00
+**Kinsta last updated:** 2026-02-11T16:13:12
 
 ## On this page
 
@@ -33,11 +32,6 @@ status: "live"
 - [We Now Support Wordfence](#we-now-support-wordfence)
 
 ---
-
-Updated
-:   February 11, 2026
-
-![Automatic MySQL database optimizations](https://kinsta.com/wp-content/uploads/2019/09/auto-db-optimize-v2-1024x512.png)
 
 If you’re already a Kinsta client, you’ve probably become accustomed to our monthly (sometimes weekly) feature updates. It’s very important for us to share what we’re working on so that you can see first-hand that your feedback, suggestions, and even complaints aren’t going unnoticed. Without you, we wouldn’t be here.
 

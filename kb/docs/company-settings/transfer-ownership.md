@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/company-settings/transfer-ownership/"
-title: "Company Settings - Transfer Ownership"
+title: "Transfer Ownership"
 tier: "docs"
 product: "company-settings"
 product_label: "MyKinsta Company Settings"
 subsection: "transfer-ownership"
-section: []
-kinsta_last_updated: "October 1, 2025"
-sitemap_lastmod: "2025-10-01T11:31:07+00:00"
-fetched_at: "2026-10-07T22:38:54Z"
-sha256: "ae6804b7f8d78e296b84f4d153f269453db3cb8c4e8d6ccb6d0c70a82d7e2ba1"
-body_chars: 12477
-extracted_with: "main article"
+section: ["Company Settings"]
+kinsta_last_updated: "2025-10-01T11:31:07"
+change_signal: "2025-10-01T11:31:07"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "fa3f9d3cc84481447eee11f87e3c7249c0da5343f15d99bd220ff813caae1cf9"
+body_chars: 12476
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Company Settings - Transfer Ownership
+# Transfer Ownership
 
+**Section:** Company Settings
 **Product:** MyKinsta Company Settings
 **Source:** https://kinsta.com/docs/company-settings/transfer-ownership/
-**Kinsta last updated:** October 1, 2025
+**Kinsta last updated:** 2025-10-01T11:31:07
 
 ## On this page
 
@@ -121,7 +122,7 @@ To confirm the site transfer, accept the following prompts:
 - The site will be transferred from this company account.
 - Transferring this site does not cancel the WordPress Hosting plan. This prompt only appears if the site you are transferring is the only WordPress site on your plan.
 
-Enter the site name and click **Transfer** **site**. Once the site is transferred, you’ll have an open spot in your plan for a new site. If you also want to cancel your WordPress Plan, you can do this from within **Company settings** > **My Plan** > **Cancel plan**; refer to [Cancel WordPress Plan](https://kinsta.com/docs/billing/wordpress-hosting-plans/cancel-wordpress-plan/).
+Enter the site name and click **Transfer** **site**. Once the site is transferred, you’ll have an open spot in your plan for a new site. If you also want to cancel your WordPress Plan, you can do this from within **Company settings** > **My Plan** > **Cancel plan**; refer to [Cancel WordPress Plan](https://kinsta.com/docs/billing/wordpress-hosting-plans/cancel-wordpress-plan).
 
 ![Click the Transfer site button to confirm your site transfer.](https://kinsta.com/wp-content/uploads/2023/11/wordpress-transfer-site-confirmation-1024x574.png)
 

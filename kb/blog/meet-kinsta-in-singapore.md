@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta Events", "Meet Kinsta in Singapore this October"]
-kinsta_last_updated: "2026-09-25T11:01:18+00:00"
-sitemap_lastmod: "2026-09-25T11:01:18"
-fetched_at: "2026-10-07T22:41:58Z"
-sha256: "7c83fa9a87ac7b33fdd7048894df0df61f99e2d9c4220691e62735f6169891f5"
-body_chars: 4996
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-09-25T11:01:18"
+change_signal: "2026-09-25T11:01:18"
+fetched_at: "2026-10-07T22:58:24Z"
+sha256: "c0275f0035e351b4d7de9c01f4f72ae001c7a8c8d1afb0f0935ac879b61a6e0f"
+body_chars: 4532
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Meet Kinsta in Singapore this October
 
-**Section:** Resource Center > Blog > Kinsta Events > Meet Kinsta in Singapore this October
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/meet-kinsta-in-singapore/
-**Kinsta last updated:** 2026-09-25T11:01:18+00:00
+**Kinsta last updated:** 2026-09-25T11:01:18
 
 ## On this page
 
@@ -30,17 +29,6 @@ status: "live"
 - [Let’s connect in Singapore](#lets-connect-in-singapore)
 
 ---
-
-Author
-:   [Nikolett Poesz](https://kinsta.com/blog/author/nikolettpoesz/ "Posts by Nikolett Poesz")
-
-Published
-:   September 25, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/09/singapore-events-2026-1024x512.png)
 
 We’re thrilled to share that Kinsta is heading back to Singapore this October! From **October 12 to 15,** our team will be in town for the [Hypergrowth Summit](https://hypergrowthsummit.asia/) and a series of exclusive networking dinners.
 
@@ -100,7 +88,3 @@ From small-group dinners to conversations between summit sessions, we’re looki
 Joining us at Hypergrowth Summit or taking a seat at one of our private dinners? Come say hello, tell us about your next challenge, and discover how Kinsta can support your website, team, or business.
 
 See you in Singapore!
-
-Nikolett Poesz
-
-Multilingual Content Associate at Kinsta

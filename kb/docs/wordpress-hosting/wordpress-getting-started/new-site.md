@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/new-site/"
-title: "Get Started - Add Site"
+title: "Add Site"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-getting-started"
-section: []
-kinsta_last_updated: "October 15, 2025"
-sitemap_lastmod: "2025-10-15T10:39:25+00:00"
-fetched_at: "2026-10-07T22:38:57Z"
-sha256: "e3e3e084719e8254d93aaecce667d17fe2f0ed58820f187e14865bfc71b8ebc1"
-body_chars: 8956
-extracted_with: "main article"
+section: ["WordPress Hosting", "Get Started"]
+kinsta_last_updated: "2025-10-15T10:39:25"
+change_signal: "2025-10-15T10:39:25"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "152f27278aefaa452bf5a1a868476d0b920abc90b3501e4aa571c313d5fcf29a"
+body_chars: 8955
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Get Started - Add Site
+# Add Site
 
+**Section:** WordPress Hosting > Get Started
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/new-site/
-**Kinsta last updated:** October 15, 2025
+**Kinsta last updated:** 2025-10-15T10:39:25
 
 ## On this page
 
@@ -105,7 +106,7 @@ Choose the language for your WordPress dashboard. This doesn’t need to match t
 
 ### Install WordPress multisite
 
-Tick this box if you would like to create a [WordPress Multisite](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/multisite-network/) installation. Once selected, you may choose between a **Subdomain** and **Subdirectory** install.
+Tick this box if you would like to create a [WordPress Multisite](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/multisite-network) installation. Once selected, you may choose between a **Subdomain** and **Subdirectory** install.
 
 ## Empty environment (Without WordPress)
 

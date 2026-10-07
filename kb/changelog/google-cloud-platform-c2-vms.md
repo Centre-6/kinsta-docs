@@ -1,33 +1,27 @@
 ---
 url: "https://kinsta.com/changelog/google-cloud-platform-c2-vms/"
-title: "Rolling out Google Cloud's Compute-Optimized (C2) VMs to Everyone"
+title: "Rolling out Google Cloud\u2019s Compute-Optimized (C2) VMs to Everyone"
 tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Rolling out Google Cloud\u2019s Compute-Optimized (C2) VMs to Everyone"]
-kinsta_last_updated: "2020-12-10T17:45:18+00:00"
-sitemap_lastmod: "2020-12-10T17:45:18+00:00"
-fetched_at: "2026-10-07T22:36:42Z"
-sha256: "656f9d9be8c1c304c9869e3bd5963adb1059706719464e58bf4d60bf3f07b921"
-body_chars: 4164
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2020-12-10T17:45:18"
+change_signal: "2020-12-10T17:45:18"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "7ff64db586528c260e2756ef4bcc413b3775815086c80e3a89bfc46547fa513a"
+body_chars: 3994
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Rolling out Google Cloud's Compute-Optimized (C2) VMs to Everyone
+# Rolling out Google Cloud’s Compute-Optimized (C2) VMs to Everyone
 
-**Section:** Changelog > Rolling out Google Cloud’s Compute-Optimized (C2) VMs to Everyone
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/google-cloud-platform-c2-vms/
-**Kinsta last updated:** 2020-12-10T17:45:18+00:00
+**Kinsta last updated:** 2020-12-10T17:45:18
 
 ---
-
-Updated
-:   December 10, 2020
-
-![GCP compute-optimized C2 machines](https://kinsta.com/wp-content/uploads/2019/10/gcp-c2-unrivaled-wordpress-performance-1-1024x512.png)
 
 Kinsta is always trying to push the boundaries when it comes to performance, and today we’re taking it to a whole other level. We are excited to announce that we are **moving to Google Cloud Platform’s (GCP) next-gen compute-optimized (C2) virtual machines**. They will be the backbone of our infrastructure going forward, and the default for new WordPress sites that you spin up in available regions.
 

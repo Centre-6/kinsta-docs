@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/connect-to-ssh/"
-title: "WordPress Hosting - SSH"
+title: "SSH"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "connect-to-ssh"
-section: []
-kinsta_last_updated: "April 20, 2026"
-sitemap_lastmod: "2026-04-20T09:39:54+00:00"
-fetched_at: "2026-10-07T22:39:57Z"
-sha256: "3c5816246841b2bec64b84abcfa59a58f25c6ee79c069a3876567b098b74ab5d"
-body_chars: 15372
-extracted_with: "main article"
+section: ["WordPress Hosting"]
+kinsta_last_updated: "2026-04-20T09:39:54"
+change_signal: "2026-04-20T09:39:54"
+fetched_at: "2026-10-07T22:58:18Z"
+sha256: "4b11830c780c43f46b0fe82cbb3708063161bf99c7ad8e0eb972fb2195cce8ed"
+body_chars: 16054
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# WordPress Hosting - SSH
+# SSH
 
+**Section:** WordPress Hosting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/connect-to-ssh/
-**Kinsta last updated:** April 20, 2026
+**Kinsta last updated:** 2026-04-20T09:39:54
 
 ## On this page
 
@@ -137,31 +138,35 @@ The easiest method for connecting via SSH is to use a username and password. To 
 Windows users require a terminal client to connect to SSH. We recommend downloading the free [PuTTY client](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) using the .msi installer. This also includes PuTTYgen, which you’ll need if you want to use SSH keys.
 
 1. Launch PuTTY and enter your **Host IP Address** and the unique **Port** number (both found in MyKinsta > **Sites** > ***sitename*** > **Info** > **Primary SFTP/SSH user** > **Host**). Then click **Open**.
-   ![SSH PuTTY client for Windows.](https://kinsta.com/wp-content/uploads/2015/04/ssh-putty-client.jpg)
+
+   ![SSH PuTTY client for Windows.](https://kinsta.com/wp-content/uploads/2015/04/ssh-putty-client.jpg "SSH PuTTY client for Windows")
 
    SSH PuTTY client for Windows.
 2. If this is your first time connecting, you will most likely see a rsa2 key prompt. Go ahead and click **Yes**, which will trust the host in the future.
-   ![PuTTY security alert about rsa2 key.](https://kinsta.com/wp-content/uploads/2015/04/putty-security-alert-rsa2-key.jpg)
+
+   ![PuTTY security alert about rsa2 key.](https://kinsta.com/wp-content/uploads/2015/04/putty-security-alert-rsa2-key.jpg "PuTTY security alert about rsa2 key.")
 
    PuTTY security alert about rsa2 key.
 3. In the terminal screen, you’ll need to enter your Kinsta username and press Enter/return.
-   ![Enter your Kinsta username in PuTTY and press Enter/return.](https://kinsta.com/wp-content/uploads/2015/04/login-putty-username.jpg)
+
+   ![Enter your Kinsta username in PuTTY and press Enter/return.](https://kinsta.com/wp-content/uploads/2015/04/login-putty-username.jpg "Enter your Kinsta username in PuTTY and press Enter/return")
 
    Enter your Kinsta username in PuTTY and press Enter/return.
 4. You’ll then be prompted to enter your password. Press Enter/return again.
-   ![Enter your SSH password in PuTTY.](https://kinsta.com/wp-content/uploads/2015/04/ssh-password-login.jpg)
+
+   ![Enter your SSH password in PuTTY.](https://kinsta.com/wp-content/uploads/2015/04/ssh-password-login.jpg "Enter your SSH password in PuTTY")
 
    Enter your SSH password in PuTTY.
 
 You’re now connected via SSH to your WordPress site.
 
-![SSH login successful with PuTTY.](https://kinsta.com/wp-content/uploads/2015/04/login-successful-ssh.jpg)
+![SSH login successful with PuTTY.](https://kinsta.com/wp-content/uploads/2015/04/login-successful-ssh.jpg "SSH login successful with PuTTY")
 
 SSH login successful with PuTTY.
 
 You can run commands such as `ls` or `cd` to list items and navigate throughout your site’s directories. [WP-CLI](https://kinsta.com/blog/wp-cli/) is also installed by default on all sites.
 
-![Running SSH commands in PuTTY.](https://kinsta.com/wp-content/uploads/2015/04/run-ssh-commands.jpg)
+![Running SSH commands in PuTTY.](https://kinsta.com/wp-content/uploads/2015/04/run-ssh-commands.jpg "Running SSH commands in PuTTY")
 
 Running SSH commands in PuTTY.
 
@@ -171,8 +176,6 @@ On Mac or Linux, it’s a lot easier to connect to SSH because the operating sys
 
 1. Open the terminal by going to **Applications** > **Utilities** and double-clicking on **Terminal**.
 2. Then enter the command like this (You can copy/paste this command directly from MyKinsta):
-
-Copy
 
 ```
 ssh username@hostip -p portnumber
@@ -190,15 +193,18 @@ Another option for connecting to SSH is to generate an SSH key pair. SSH keys pr
 
 1. Launch PuTTYgen. If you haven’t downloaded it yet, you can [grab it here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
 2. The default parameters should be fine in most configurations. Click on **Generate**.
-   ![Generate a new key in PuTTY Key Generator.](https://kinsta.com/wp-content/uploads/2021/11/putty-key-generator.png)
+
+   ![Generate a new key in PuTTY Key Generator.](https://kinsta.com/wp-content/uploads/2021/11/putty-key-generator.png "Generate a new key in PuTTY Key Generator")
 
    Generate a new key in PuTTY Key Generator.
 3. Move your mouse around to generate some randomness.
-   ![Moving your mouse around to create randomness in PuTTY Key Generator.](https://kinsta.com/wp-content/uploads/2015/04/putty-gen-move-mouse.png)
+
+   ![Moving your mouse around to create randomness in PuTTY Key Generator.](https://kinsta.com/wp-content/uploads/2015/04/putty-gen-move-mouse.png "Moving your mouse around to create randomness in PuTTY Key Generator")
 
    Moving your mouse around to create randomness in PuTTY Key Generator.
 4. Save both your public (.txt) and private key (.ppk). **Important:** Keep your private key safe and don’t share it with anyone.
-   ![Save public and private keys from PuTTY Key Generator.](https://kinsta.com/wp-content/uploads/2015/04/save-public-and-private-keys.png)
+
+   ![Save public and private keys from PuTTY Key Generator.](https://kinsta.com/wp-content/uploads/2015/04/save-public-and-private-keys.png "Save public and private keys from PuTTY Key Generator")
 
    Save public and private keys from PuTTY Key Generator.
 5. **Leave the PuTTY window open** and skip down to where you [add your public key to MyKinsta](#how-to-add-ssh-keys-in-mykinsta).
@@ -207,23 +213,17 @@ Another option for connecting to SSH is to generate an SSH key pair. SSH keys pr
 
 Launch the Terminal from **Applications** > **Utilities** > **Terminal** and use the following command to start the key generation:
 
-Copy
-
 ```
 ssh-keygen -t rsa
 ```
 
 Choose a location to save your private key. If you leave it blank, it will save it here:
 
-Copy
-
 ```
 /home/youruser/.ssh/id_rsa
 ```
 
 The public key (.PUB) will get created in the same location.
-
-Copy
 
 ```
 /home/youruser/.ssh/id_rsa.pub
@@ -236,10 +236,12 @@ You will then be prompted to choose a passphrase. You can leave it empty if you 
 Now that you have your SSH keys, you can upload your **public key** to MyKinsta.
 
 1. Click into your user profile in the top-right corner, and click on **User Settings**.
+
    ![MyKinsta user settings.](https://kinsta.com/wp-content/uploads/2026/01/wordpress-user-settings.png)
 
    MyKinsta user settings.
 2. In the **My Account** tab, click on the **Add SSH key** button.
+
    ![Add SSH key in MyKinsta.](https://kinsta.com/wp-content/uploads/2026/01/wordpress-add-ssh-key.png)
 
    Add SSH key in MyKinsta.
@@ -247,13 +249,12 @@ Now that you have your SSH keys, you can upload your **public key** to MyKinsta.
    - If you’re running Windows, copy and paste the public key directly from PuTTYgen.
    - If you’re running Mac/Linux, you can copy your public key to your clipboard by using the following command in Terminal:
 
-Copy
-
 ```
 pbcopy < ~/.ssh/id_rsa.pub
 ```
 
 4. After you paste your public key, click the **Add SSH key** button.
+
    ![A valid rsa key in MyKinsta.](https://kinsta.com/wp-content/uploads/2023/11/wordpress-add-ssh-key-add-1024x471.png)
 
    A valid rsa key in MyKinsta.
@@ -261,33 +262,38 @@ pbcopy < ~/.ssh/id_rsa.pub
 ### How to connect to SSH on Windows with SSH keys
 
 1. Launch [PuTTY](http://www.putty.org/) and enter your **Host IP Address** and the unique **Port** number (both found in MyKinsta > **Sites** > ***sitename*** > **Info** > **Primary** **SFTP/SSH user** > **Host**).
-   ![Host Name and Port number in PuTTY client.](https://kinsta.com/wp-content/uploads/2015/04/ssh-putty-client.jpg)
+
+   ![Host Name and Port number in PuTTY client.](https://kinsta.com/wp-content/uploads/2015/04/ssh-putty-client.jpg "Host Name and Port number in PuTTY client")
 
    Host IP and Port number in PuTTY client.
 2. Under **Connection** > **Data** enter your Kinsta username in the **Auto-login username** field.
-   ![SSH Auto-login username in PuTTY.](https://kinsta.com/wp-content/uploads/2015/04/ssh-auto-login-username.png)
+
+   ![SSH Auto-login username in PuTTY.](https://kinsta.com/wp-content/uploads/2015/04/ssh-auto-login-username.png "SSH Auto-login username in PuTTY")
 
    SSH Auto-login username in PuTTY.
 3. Under **Connection** > **SSH** > **Auth** > **Credentials**, click the **Browse** button and select your private key file for authentication.
-   ![Add your SSH private key file in PuTTY.](https://kinsta.com/wp-content/uploads/2021/11/putty-ssh-private-key.png)
+
+   ![Add your SSH private key file in PuTTY.](https://kinsta.com/wp-content/uploads/2021/11/putty-ssh-private-key.png "Add your SSH private key file in PuTTY")
 
    Add your SSH private key file in PuTTY.
 4. Under **Session**, enter a new **Saved Sessions** name and click on **Save**. Click the **Open** button to start a new session.
-   ![Name and save your SSH session in PuTTY.](https://kinsta.com/wp-content/uploads/2015/04/ssh-save-session.png)
+
+   ![Name and save your SSH session in PuTTY.](https://kinsta.com/wp-content/uploads/2015/04/ssh-save-session.png "Name and save your SSH session in PuTTY")
 
    Name and save your SSH session in PuTTY.
 5. You’ll most likely see a security alert about a change in keys. Click on **Yes**.
-   ![Click Yes in the PuTTY security alert about a change in keys.](https://kinsta.com/wp-content/uploads/2015/04/putty-security-alert.png)
+
+   ![Click Yes in the PuTTY security alert about a change in keys.](https://kinsta.com/wp-content/uploads/2015/04/putty-security-alert.png "Click Yes in the PuTTY security alert about a change in keys")
 
    Click Yes in the PuTTY security alert about a change in keys.
 6. If you set up a passphrase, you’ll need to enter that.
-   ![Enter passphrase for key, if applicable.](https://kinsta.com/wp-content/uploads/2015/04/ssh-passphrase.png)
+   ![Enter passphrase for key, if applicable.](https://kinsta.com/wp-content/uploads/2015/04/ssh-passphrase.png "Enter passphrase for key, if applicable.")
 
    Enter passphrase for key, if applicable.
 
    Otherwise, you’ll be logged right in.
 
-   ![Logged into the site with an SSH key.](https://kinsta.com/wp-content/uploads/2015/04/kinsta-ssh.png)
+   ![Logged into the site with an SSH key.](https://kinsta.com/wp-content/uploads/2015/04/kinsta-ssh.png "Logged into the site with an SSH key")
 
    Logged into the site with an SSH key.
 
@@ -296,16 +302,12 @@ pbcopy < ~/.ssh/id_rsa.pub
 1. Launch the Terminal from **Applications** > **Utilities** > **Terminal**.
 2. You now need to load your saved private key using the following command:
 
-Copy
-
 ```
 ssh-add ~/.ssh/id_rsa
 ```
 
 3. If you set a passphrase for your key, you’ll be prompted to enter that.
 4. Enter the command in the following form (You can copy/paste this directly from MyKinsta):
-
-Copy
 
 ```
 ssh username@hostip -p portnumber
@@ -339,4 +341,4 @@ If you want to enable access and show the connection details, click **Enable** >
 
 ## Additional notes
 
-If you have trouble connecting, you might need to [change the password](#Change-the-SSH-Password) or [delete entries from your known_hosts file](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/cant-connect-delete-ssh-known-hosts/).
+If you have trouble connecting, you might need to [change the password](#Change-the-SSH-Password) or [delete entries from your known_hosts file](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/cant-connect-delete-ssh-known-hosts).

@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Two-factor authentication is now required for MyKinsta logins"]
-kinsta_last_updated: "2026-01-14T17:34:13+00:00"
-sitemap_lastmod: "2026-01-14T17:34:13+00:00"
-fetched_at: "2026-10-07T22:37:12Z"
-sha256: "4d8cc6b8fd8cba9550dd84778f6b16f6e298f80129fe4dd7dd2a96da810b202a"
-body_chars: 5816
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-01-14T17:34:13"
+change_signal: "2026-01-14T17:34:13"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "9a04164ea93e5676002cdcef69ec7daba1cbaa7bbfff5522cdbd8143238b8b39"
+body_chars: 5600
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Two-factor authentication is now required for MyKinsta logins
 
-**Section:** Changelog > Two-factor authentication is now required for MyKinsta logins
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/two-factor-authentication/
-**Kinsta last updated:** 2026-01-14T17:34:13+00:00
+**Kinsta last updated:** 2026-01-14T17:34:13
 
 ## On this page
 
@@ -31,11 +30,6 @@ status: "live"
 - [Kinsta: Focused on security](#kinsta-focused-on-security)
 
 ---
-
-Updated
-:   January 14, 2026
-
-![An illustration showing two pieced of a puzzle connecting, representing two-factor authentication.](https://kinsta.com/wp-content/uploads/2025/05/mykinsta-mandatory-2fa-1024x512.png)
 
 Kinsta now requires two-factor authentication (2FA) for access to the [MyKinsta dashboard](https://kinsta.com/mykinsta/).
 

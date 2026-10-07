@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-constants/"
-title: "PHP - PHP Constants"
+title: "PHP Constants"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "php"
-section: []
-kinsta_last_updated: "December 10, 2024"
-sitemap_lastmod: "2024-12-10T12:23:07+00:00"
-fetched_at: "2026-10-07T22:38:26Z"
-sha256: "7cdf535960503c5e3a6b761d699aa0f22c3306c7eaddc0fdb89d8bf71fd0906c"
-body_chars: 2637
-extracted_with: "main article"
+section: ["WordPress Hosting", "PHP"]
+kinsta_last_updated: "2024-12-10T12:23:07"
+change_signal: "2024-12-10T12:23:07"
+fetched_at: "2026-10-07T22:58:17Z"
+sha256: "de2f5871c41bc5ebbaac045b3962657ba940b2987c6ac200f605c4ccf50705cb"
+body_chars: 2615
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# PHP - PHP Constants
+# PHP Constants
 
+**Section:** WordPress Hosting > PHP
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-constants/
-**Kinsta last updated:** December 10, 2024
+**Kinsta last updated:** 2024-12-10T12:23:07
 
 ---
 
@@ -35,8 +36,6 @@ If you use a non-standard WordPress setup, such as Bedrock or Trellis, Kinsta ma
 
 To resolve this issue, Kinsta provides the `SERVER_SECRET_DB_PASSWORD` PHP constant for use on the Kinsta servers. When you define this constant within the `config.php` file, MyKinsta uses it to identify your site’s database password. You can define it as follows:
 
-Copy
-
 ```
 define('DB_PASSWORD', defined('SERVER_SECRET_DB_PASSWORD') ? SERVER_SECRET_DB : 'asdijfhkjasdbfkjhbajiksd' );
 ```
@@ -50,8 +49,6 @@ You can define the following PHP constants to use with Kinsta servers:
 
 For example, you can define the constants in the `config.php` file as follows:
 
-Copy
-
 ```
 define('DB_NAME', defined('SERVER_SECRET_DB_NAME') ? SERVER_SECRET_DB_NAME : 'newsitetest');
 define('DB_USER', defined('SERVER_SECRET_DB_USER') ? SERVER_SECRET_DB_USER : 'newsitetest');
@@ -61,8 +58,6 @@ define('DB_HOST', defined('SERVER_SECRET_DB_HOST') ? SERVER_SECRET_DB_HOST : 'lo
 
 Alternatively, you can define the constants as follows:
 
-Copy
-
 ```
 define('DB_NAME',SERVER_SECRET_DB_NAME);
 define('DB_USER',SERVER_SECRET_DB_USER);
@@ -70,7 +65,7 @@ define('DB_PASSWORD',SERVER_SECRET_DB_PASSWORD);
 define('DB_HOST',SERVER_SECRET_DB_HOST);
 ```
 
-### WP_ENVIRONMENT_TYPE
+### `WP_ENVIRONMENT_TYPE`
 
 Kinsta automatically sets the `WP_ENVIRONMENT_TYPE` environment variable for each environment. This tells WordPress, and any plugins or themes that check for it, whether it’s running in production, staging, or development.
 
@@ -81,8 +76,6 @@ Kinsta automatically sets the `WP_ENVIRONMENT_TYPE` environment variable for eac
 | Development | development |
 
 You can read the value in PHP using the WordPress helper function:
-
-Copy
 
 ```
 php$environment = wp_get_environment_type();

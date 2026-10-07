@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/wordpress-migration-faqs/"
-title: "Migrations - Migration FAQs"
+title: "Migration FAQs"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-migrations"
-section: []
-kinsta_last_updated: "April 20, 2026"
-sitemap_lastmod: "2026-04-20T09:41:51+00:00"
-fetched_at: "2026-10-07T22:39:59Z"
+section: ["WordPress Hosting", "Migrations"]
+kinsta_last_updated: "2026-04-20T09:41:51"
+change_signal: "2026-04-20T09:41:51"
+fetched_at: "2026-10-07T22:58:17Z"
 sha256: "d9765027898d02fd2670959da6b59caffd8801447c7a0f2ec59d02975908ebbe"
 body_chars: 8467
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Migrations - Migration FAQs
+# Migration FAQs
 
+**Section:** WordPress Hosting > Migrations
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/wordpress-migration-faqs/
-**Kinsta last updated:** April 20, 2026
+**Kinsta last updated:** 2026-04-20T09:41:51
 
 ## On this page
 

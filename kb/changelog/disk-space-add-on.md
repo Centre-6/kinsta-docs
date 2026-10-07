@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Disk Space Add-on Is Now Available in MyKinsta"]
-kinsta_last_updated: "2019-11-12T16:37:05+00:00"
-sitemap_lastmod: "2019-11-12T16:37:05+00:00"
-fetched_at: "2026-10-07T22:36:40Z"
-sha256: "35aa7471e958f0734f7127338f717782917057f294262edb0ed781e953668a61"
-body_chars: 2366
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2019-11-12T16:37:05"
+change_signal: "2019-11-12T16:37:05"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "50f350a8aff7e8aa0441cd482a3f5cd21b8e487c049d3fd45677c1f042acfd51"
+body_chars: 2233
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Disk Space Add-on Is Now Available in MyKinsta
 
-**Section:** Changelog > Disk Space Add-on Is Now Available in MyKinsta
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/disk-space-add-on/
-**Kinsta last updated:** 2019-11-12T16:37:05+00:00
+**Kinsta last updated:** 2019-11-12T16:37:05
 
 ---
-
-Updated
-:   November 12, 2019
-
-![Disk space add-on](https://kinsta.com/wp-content/uploads/2019/10/disk-space-add-on-2-1024x512.png)
 
 We are excited to announce that one of our most highly requested features over the past year is now available; a **disk space add-on**.
 

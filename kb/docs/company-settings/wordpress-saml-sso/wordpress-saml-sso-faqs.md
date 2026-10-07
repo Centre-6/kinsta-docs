@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/company-settings/wordpress-saml-sso/wordpress-saml-sso-faqs/"
-title: "SAML Single Sign-On (SSO) - SAML SSO FAQs"
+title: "SAML SSO FAQs"
 tier: "docs"
 product: "company-settings"
 product_label: "MyKinsta Company Settings"
 subsection: "wordpress-saml-sso"
-section: []
-kinsta_last_updated: "October 27, 2025"
-sitemap_lastmod: "2025-10-27T11:05:21+00:00"
-fetched_at: "2026-10-07T22:39:01Z"
+section: ["Company Settings", "SAML Single Sign-On (SSO)"]
+kinsta_last_updated: "2025-10-27T11:05:21"
+change_signal: "2025-10-27T11:05:21"
+fetched_at: "2026-10-07T22:58:17Z"
 sha256: "f9012da2039733a4de38989c0e303b2e5a41aa58bcb14e63edd52ac931ab0311"
 body_chars: 3244
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# SAML Single Sign-On (SSO) - SAML SSO FAQs
+# SAML SSO FAQs
 
+**Section:** Company Settings > SAML Single Sign-On (SSO)
 **Product:** MyKinsta Company Settings
 **Source:** https://kinsta.com/docs/company-settings/wordpress-saml-sso/wordpress-saml-sso-faqs/
-**Kinsta last updated:** October 27, 2025
+**Kinsta last updated:** 2025-10-27T11:05:21
 
 ## On this page
 

@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/mykinsta-search-replace-tool/"
-title: "Tools - Search and Replace"
+title: "Search and Replace"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "mykinsta-tools"
-section: []
-kinsta_last_updated: "August 13, 2024"
-sitemap_lastmod: "2024-08-13T09:56:47+00:00"
-fetched_at: "2026-10-07T22:38:11Z"
-sha256: "96f35492add97badcf8c492446bd902f03d0bf953e4cd6ff16068c86998cb30a"
-body_chars: 9058
-extracted_with: "main article"
+section: ["WordPress Hosting", "Tools"]
+kinsta_last_updated: "2024-08-13T09:56:47"
+change_signal: "2024-08-13T09:56:47"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "fc96c9f79762b048ccdaee4de155e68c848787ddd0f317236fdcc6def269b7e8"
+body_chars: 9059
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Tools - Search and Replace
+# Search and Replace
 
+**Section:** WordPress Hosting > Tools
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/mykinsta-search-replace-tool/
-**Kinsta last updated:** August 13, 2024
+**Kinsta last updated:** 2024-08-13T09:56:47
 
 ## On this page
 
@@ -40,7 +41,7 @@ status: "live"
 
 In [MyKinsta](https://my.kinsta.com/), you can find a handy tool for doing a search and replace on your site’s content without having to install a plugin, install a script, or use the command line.
 
-**Note:** When a search and replace is performed, we automatically create a [system-generated backup](https://kinsta.com/docs/wordpress-hosting/wordpress-backups-and-disaster-recovery/wordpress-backups/) in MyKinsta that can be restored if needed (**Sites** > ***sitename*** > **Backups****> System generated**).
+**Note:** When a search and replace is performed, we automatically create a [system-generated backup](https://kinsta.com/docs/wordpress-hosting/wordpress-backups-and-disaster-recovery/wordpress-backups/) in MyKinsta that can be restored if needed (**Sites** > ***sitename*** > **Backups** **> System generated**).
 
 ## How to use the search and replace tool in MyKinsta
 

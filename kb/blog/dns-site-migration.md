@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Development", "How DNS really works during a site migration (and how to avoid downtime)"]
-kinsta_last_updated: "2026-03-12T11:23:54+00:00"
-sitemap_lastmod: "2026-03-12T11:23:54"
-fetched_at: "2026-10-07T22:42:45Z"
-sha256: "6a137a0e3b8274b31d1cfd4571dcc15207fffa66f266a749e52366a831e4f8a5"
-body_chars: 18766
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-03-12T11:23:54"
+change_signal: "2026-03-12T11:23:54"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "44d3d0b4763614e6397e70bd0ce7c72f42e47ae4f764d9ddda29142b0d4f1b15"
+body_chars: 17892
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How DNS really works during a site migration (and how to avoid downtime)
 
-**Section:** Resource Center > Blog > WordPress Development > How DNS really works during a site migration (and how to avoid downtime)
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/dns-site-migration/
-**Kinsta last updated:** 2026-03-12T11:23:54+00:00
+**Kinsta last updated:** 2026-03-12T11:23:54
 
 ## On this page
 
@@ -45,17 +44,6 @@ status: "live"
 - [Downtime during migration is usually optional](#downtime-during-migration-is-usually-optional)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   March 12, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/02/how-dns-really-works-during-a-site-migration-1024x512.png)
 
 You [migrate a site](https://kinsta.com/blog/wordpress-migration-myths/), everything looks fine on your end, and then the messages start coming in. Some visitors see the new site, others are still hitting the old one, and a few report errors you can’t reproduce at all.
 
@@ -255,13 +243,3 @@ Downtime during a site migration is usually the result of rushed changes, overla
 The safest migrations prioritize preparation over speed. Hosting, application configuration, and SSL are validated first. DNS is updated last, with realistic expectations about propagation and caching.
 
 With the right workflow and support, site migrations don’t need to be stressful or risky. And when DNS changes occur on top of a stable, managed environment, such as the [managed hosting services](https://kinsta.com/wordpress-hosting/) provided by Kinsta, downtime becomes a thing of the past.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Bot Traffic", "The 7 biggest mistakes site owners make after discovering AI bot traffic"]
-kinsta_last_updated: "2026-09-17T12:00:59+00:00"
-sitemap_lastmod: "2026-09-17T12:00:59"
-fetched_at: "2026-10-07T22:41:59Z"
-sha256: "90bc48f782ba21ba3fabedbd9f039479f8ff66c093db10098bda216f49b197b8"
-body_chars: 18736
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-09-17T12:00:59"
+change_signal: "2026-09-17T12:00:59"
+fetched_at: "2026-10-07T22:58:24Z"
+sha256: "263eb8ee1284ba011effcf368c7ec9aaf2e303465c6c8e27136f2d3e964dd878"
+body_chars: 17783
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # The 7 biggest mistakes site owners make after discovering AI bot traffic
 
-**Section:** Resource Center > Blog > Bot Traffic > The 7 biggest mistakes site owners make after discovering AI bot traffic
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/managing-ai-bot-traffic/
-**Kinsta last updated:** 2026-09-17T12:00:59+00:00
+**Kinsta last updated:** 2026-09-17T12:00:59
 
 ## On this page
 
@@ -34,17 +33,6 @@ status: "live"
 - [What to do when you discover AI bot traffic](#what-to-do-when-you-discover-ai-bot-traffic)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   September 22, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![Mistakes site owners make when it comes to AI](https://kinsta.com/wp-content/uploads/2026/09/the-7-biggest-mistakes-site-owners-make-after-discovering-ai-bot-traffic-1024x512.png)
 
 When you discover that a large share of your website traffic comes from bots, blocking them can feel like the obvious next step. In some cases, the numbers do call for an immediate response.
 
@@ -258,13 +246,3 @@ From there, choose the smallest change that solves the problem. That could mean 
 Kinsta customers can do much of this investigation directly in MyKinsta. [Bot traffic analytics](https://kinsta.com/docs/wordpress-hosting/wordpress-analytics-mykinsta/#bot-traffic) separates AI crawlers, excessive-rate AI crawlers, verified bots, automated traffic, and other request types, while **Top traffic** shows the paths, user agents, countries, and IPs behind them.
 
 You can also compare that activity with [cache behavior](https://kinsta.com/docs/wordpress-hosting/wordpress-analytics-mykinsta/#cache), [server bandwidth](https://kinsta.com/docs/wordpress-hosting/wordpress-analytics-mykinsta/#bandwidth), and [PHP performance](https://kinsta.com/docs/wordpress-hosting/wordpress-analytics-mykinsta/#performance) to see whether the traffic is actually pressuring your site before deciding what to block.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

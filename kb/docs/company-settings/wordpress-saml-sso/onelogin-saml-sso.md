@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/company-settings/wordpress-saml-sso/onelogin-saml-sso/"
-title: "SAML Single Sign-On (SSO) - OneLogin SAML SSO"
+title: "OneLogin SAML SSO"
 tier: "docs"
 product: "company-settings"
 product_label: "MyKinsta Company Settings"
 subsection: "wordpress-saml-sso"
-section: []
-kinsta_last_updated: "January 16, 2026"
-sitemap_lastmod: "2026-01-16T16:29:41+00:00"
-fetched_at: "2026-10-07T22:39:12Z"
+section: ["Company Settings", "SAML Single Sign-On (SSO)"]
+kinsta_last_updated: "2026-01-16T16:29:41"
+change_signal: "2026-01-16T16:29:41"
+fetched_at: "2026-10-07T22:58:17Z"
 sha256: "7142025e26a0b3f8be788a88ae1fdf6c5d862d41d3df9e944cd12e7310d9b2d0"
 body_chars: 10553
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# SAML Single Sign-On (SSO) - OneLogin SAML SSO
+# OneLogin SAML SSO
 
+**Section:** Company Settings > SAML Single Sign-On (SSO)
 **Product:** MyKinsta Company Settings
 **Source:** https://kinsta.com/docs/company-settings/wordpress-saml-sso/onelogin-saml-sso/
-**Kinsta last updated:** January 16, 2026
+**Kinsta last updated:** 2026-01-16T16:29:41
 
 ## On this page
 

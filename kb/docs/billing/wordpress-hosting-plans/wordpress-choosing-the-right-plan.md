@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/billing/wordpress-hosting-plans/wordpress-choosing-the-right-plan/"
-title: "WordPress Hosting Plans - Choosing the Right Plan"
+title: "Choosing the Right Plan"
 tier: "docs"
 product: "billing"
 product_label: "Billing"
 subsection: "wordpress-hosting-plans"
-section: []
-kinsta_last_updated: "February 5, 2026"
-sitemap_lastmod: "2026-02-05T12:01:51+00:00"
-fetched_at: "2026-10-07T22:39:21Z"
+section: ["Billing", "WordPress Hosting Plans"]
+kinsta_last_updated: "2026-02-05T12:01:51"
+change_signal: "2026-02-05T12:01:51"
+fetched_at: "2026-10-07T22:58:17Z"
 sha256: "396c7f7db41c5ba2c52328d20917d115ce904427edf9a3affa8556f9a7ba3e91"
 body_chars: 8689
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# WordPress Hosting Plans - Choosing the Right Plan
+# Choosing the Right Plan
 
+**Section:** Billing > WordPress Hosting Plans
 **Product:** Billing
 **Source:** https://kinsta.com/docs/billing/wordpress-hosting-plans/wordpress-choosing-the-right-plan/
-**Kinsta last updated:** February 5, 2026
+**Kinsta last updated:** 2026-02-05T12:01:51
 
 ## On this page
 

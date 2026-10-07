@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/migrating-to-kinsta/"
-title: "Migrations"
+title: "Kinsta Migration"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-migrations"
-section: []
-kinsta_last_updated: "April 21, 2026"
-sitemap_lastmod: "2026-04-21T09:45:13+00:00"
-fetched_at: "2026-10-07T22:40:04Z"
-sha256: "4b8fad7acbf0d0588233c2f5baa4e10c5dc601e04fb6a53629d7f2811e01845e"
-body_chars: 23773
-extracted_with: "main article"
+section: ["WordPress Hosting", "Migrations"]
+kinsta_last_updated: "2026-04-21T09:45:13"
+change_signal: "2026-04-21T09:45:13"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "5fd9f99d294282e7ebe8dea887b9a58eabea6c4b3d90b369e59a7092a03cdbf8"
+body_chars: 23683
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Migrations
+# Kinsta Migration
 
+**Section:** WordPress Hosting > Migrations
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/migrating-to-kinsta/
-**Kinsta last updated:** April 21, 2026
+**Kinsta last updated:** 2026-04-21T09:45:13
 
 ## On this page
 
@@ -74,7 +75,7 @@ In order to request a migration, you must be a [Company Owner or Company Adminis
 ### What to prepare
 
 1. **Check that you have an available site slot**. Kinsta creates a new site for your migration. Make sure your plan has an open spot before you begin.
-2. **Gather your hosting credentials**. You’ll need your current host’s SFTP/SSH details, username, and password. If your host uses two-factor authentication (Cloudways, GoDaddy, SiteGround, or WP Engine), add **[[email protected]](https://kinsta.com/cdn-cgi/l/email-protection)** to your account before submitting your request, as 2FA can block our team’s access.
+2. **Gather your hosting credentials**. You’ll need your current host’s SFTP/SSH details, username, and password. If your host uses two-factor authentication (Cloudways, GoDaddy, SiteGround, or WP Engine), add **migrations@kinsta.com** to your account before submitting your request, as 2FA can block our team’s access.
 3. **If migrating from a backup**, make sure it contains both your site files and database, and that it’s ready to upload or accessible via a shareable link (Dropbox preferred).
 4. **If your site is an e-commerce, membership, or community site**, plan for maintenance mode. Your site will need to be taken offline during the migration to prevent data loss. Coordinate the timing so you’re available to review and go live quickly afterward.
 5. **Decide on SSL**. You’ll need to choose whether to generate a new free SSL certificate through Kinsta’s Cloudflare integration or upload your existing certificate. Have your key and certificate files ready if using the latter.
@@ -182,7 +183,7 @@ There are two types of migrations to choose from:
 
 On the **Source details** tab, select your current hosting provider. We’ll then ask for the details we need to access your site. Depending on your provider, we’ll ask you to either:
 
-- **Add us as a user:** Add **[[email protected]](https://kinsta.com/cdn-cgi/l/email-protection)** as a user on your current hosting account.
+- **Add us as a user:** Add **migrations@kinsta.com** as a user on your current hosting account.
 - **Provide your hosting details:** Enter the login and connection details for your current host. This may include your host’s name, your username and password, and your SFTP connection details. For some hosts, we may also ask for your hosting control panel login. After entering your details, select **I confirm that I have tested the credentials provided above and they are working correctly**.
 
 You can usually find these details in your current host’s control panel. For instructions specific to your provider, see [Source Details by Hosting Provider](https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/migration-source-details/). You can also contact your current host or the [Kinsta Support team](https://kinsta.com/docs/support/contact-support/) for help.

@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-analytics-mykinsta/"
-title: "WordPress Hosting - Analytics"
+title: "Analytics"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-analytics-mykinsta"
-section: []
-kinsta_last_updated: "May 20, 2026"
-sitemap_lastmod: "2026-05-20T09:00:24+00:00"
-fetched_at: "2026-10-07T22:40:11Z"
-sha256: "2e1694f8f473b5e64458d652174e69e21b0b45f3cb36ae8ecb46b62e4c810f91"
-body_chars: 39779
-extracted_with: "main article"
+section: ["WordPress Hosting"]
+kinsta_last_updated: "2026-05-20T09:00:24"
+change_signal: "2026-05-20T09:00:24"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "d40bbd0e34eb729ce4cbd9f4895ce9c1c05242e847530002651fce85e2a12d3f"
+body_chars: 39825
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# WordPress Hosting - Analytics
+# Analytics
 
+**Section:** WordPress Hosting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-analytics-mykinsta/
-**Kinsta last updated:** May 20, 2026
+**Kinsta last updated:** 2026-05-20T09:00:24
 
 ## On this page
 
@@ -270,7 +271,7 @@ Whenever a file or resource is requested from Kinsta’s servers, it sends a val
 
 - **HIT:** A HIT means that the resource is being served from the cache on Kinsta’s servers. Typically, this is what you want to see.
 - **BYPASS:** This means that a rule or conflict is probably preventing the resource from caching. We have rules in place so that certain things on your WordPress site aren’t cached. For example, your **/wp-login.php** page isn’t cached, which ensures proper functionality when you log in to your dashboard.
-- **MISS:** This means that the content was not yet in the cache but will be after the first request. The second request to that file will be a cache HIT. Remember that each time you purge the cache on your WordPress site, it has to be rebuilt by people visiting it. This is why we recommend not clearing the entire cache constantly. The [Kinsta MU plugin](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/) automatically purges only certain sections of your site so the rest can remain cached. Read more about [how Kinsta handles caching](https://kinsta.com/blog/wordpress-cache/).
+- **MISS:** This means that the content was not yet in the cache but will be after the first request. The second request to that file will be a cache HIT. Remember that each time you purge the cache on your WordPress site, it has to be rebuilt by people visiting it. This is why we recommend not clearing the entire cache constantly. The [Kinsta MU plugin](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin) automatically purges only certain sections of your site so the rest can remain cached. Read more about [how Kinsta handles caching](https://kinsta.com/blog/wordpress-cache/).
 - **EXPIRED:** This means the cached content has expired, and the new content from the hosting server has been fetched.
 
 The Server cache component stack report shows the total number of cache response header values generated from your site.
@@ -395,7 +396,7 @@ When it comes to WordPress, you may have seen **admin-ajax.php** in your speed 
 
 The most common issues with Ajax in WordPress are plugins causing it to spike and CPU issues on the back end. For more details, check out our in-depth post on [diagnosing high Admin-AJAX usage](https://kinsta.com/blog/admin-ajax-php/) on your WordPress site.
 
-![admin-ajax.php load time in a waterfall chart.](https://kinsta.com/wp-content/uploads/2022/08/high-admin-ajax-usage-1.png)
+![admin-ajax.php load time in a waterfall chart.](https://kinsta.com/wp-content/uploads/2022/08/high-admin-ajax-usage-1.png "admin-ajax.php load time in a waterfall chart")
 
 admin-ajax.php load time in a waterfall chart.
 
@@ -446,7 +447,7 @@ Response stats.
 The **500 error breakdown** chart shows you the total number of 500 errors that occurred on the server. Here is a more in-depth explanation of what each of these means:
 
 - **500: “There was an error on the server and the request could not be completed.”** A generic code that means there was an “[internal server error](https://kinsta.com/blog/500-internal-server-error/).” Something went wrong on the server, and the requested resource was not delivered.
-- **502: “Bad Gateway.”** This error code typically means that one server has received an invalid response from another. Sometimes a query or request will take too long, so it is canceled or killed by the server. Read more about how to fix a [502 bad gateway error](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/server-errors/#502-bad-gateway-error).
+- **502: “Bad Gateway.”** This error code typically means that one server has received an invalid response from another. Sometimes a query or request will take too long, so it is canceled or killed by the server. Read more about how to fix a [502 bad gateway error](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/server-errors#502-bad-gateway-error).
 - **503: “The server is unavailable to handle this request right now.”** The request cannot be completed right now. This code may be returned by an overloaded server that cannot handle additional requests. We have a step-by-step guide on [how to fix the 503 service unavailable error in WordPress](https://kinsta.com/blog/http-error-503/).
 
 ![500 error breakdown graph.](https://kinsta.com/wp-content/uploads/2023/11/wordpress-analytics-500-errors.png)

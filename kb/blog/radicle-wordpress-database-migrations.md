@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Hosting", "Running Laravel-style migrations in WordPress with Radicle and Kinsta"]
-kinsta_last_updated: "2026-05-20T20:31:29+00:00"
-sitemap_lastmod: "2026-05-20T20:31:29"
-fetched_at: "2026-10-07T22:42:54Z"
-sha256: "0f560e19087e55bccddd6125fdc84f9a3789362c5880ce554a42873bf82849a8"
-body_chars: 16237
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:31:29"
+change_signal: "2026-05-20T20:31:29"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "ab6f0984655b760cb129536da9b2329d266cc30b21c08ff3b06718be8dc9b5dd"
+body_chars: 15316
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Running Laravel-style migrations in WordPress with Radicle and Kinsta
 
-**Section:** Resource Center > Blog > WordPress Hosting > Running Laravel-style migrations in WordPress with Radicle and Kinsta
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/radicle-wordpress-database-migrations/
-**Kinsta last updated:** 2026-05-20T20:31:29+00:00
+**Kinsta last updated:** 2026-05-20T20:31:29
 
 ## On this page
 
@@ -36,17 +35,6 @@ status: "live"
 - [Building reliable database workflows for WordPress](#building-reliable-database-workflows-for-wordpress)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   May 20, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/01/laravel-migrations-with-radicle-and-kinsta-automating-database-schema-management-for-wordpres-1024x512.png)
 
 Managing database schema changes across WordPress environments is often an error-prone and time-consuming task. A single misplaced SQL query or forgotten database modification is a site-breaking action during deployment. Furthermore, actions such as manual SQL scripts and direct edits lack version control, audit trails, and coordination across environments.
 
@@ -258,13 +246,3 @@ Laravel migrations through [Radicle’s](https://roots.io/radicle/) implementati
 As such, modern WordPress development that includes tools such as Radicle and Acorn means you don’t have to choose between WordPress’ ecosystem and professional tooling frameworks. The same pattern applies to [Laravel queues](https://roots.io/acorn/docs/creating-and-processing-laravel-queues/), [Blade templating](https://kinsta.com/blog/laravel-blade/), and custom WP-CLI commands through Acorn.
 
 If you’re ready to adopt this workflow, the next step is to establish migration conventions, such as defining naming patterns for migration files, process documentation, and establishing testing requirements before key merges. [Kinsta’s managed hosting for WordPress](https://kinsta.com/wordpress-hosting/) offers built-in developer tools to help (such as SSH access, staging environments, and Database Studio) that supports modern workflows, including Radicle and Acorn migrations.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

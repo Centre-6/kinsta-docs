@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/site-management/"
-title: "WordPress Hosting - Site Management"
+title: "Site Management"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "site-management"
-section: []
-kinsta_last_updated: "May 27, 2026"
-sitemap_lastmod: "2026-05-27T16:28:23+00:00"
-fetched_at: "2026-10-07T22:40:15Z"
-sha256: "af8307f9c8cb954197ba2210ac80739da3bf40f31a83425f303a4a7d5acf3d4f"
-body_chars: 17412
-extracted_with: "main article"
+section: ["WordPress Hosting"]
+kinsta_last_updated: "2026-05-27T16:28:23"
+change_signal: "2026-05-27T16:28:23"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "2c93a86f2f01d9f01c0f4ac1e312f2b614d84ab530dad6193e5bba8768cf5da5"
+body_chars: 17408
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# WordPress Hosting - Site Management
+# Site Management
 
+**Section:** WordPress Hosting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/site-management/
-**Kinsta last updated:** May 27, 2026
+**Kinsta last updated:** 2026-05-27T16:28:23
 
 ## On this page
 
@@ -64,7 +65,7 @@ To save you the time and effort of updating and changing sites individually, you
   - **Change external backups:** Enable or disable the [external backups add-on](https://kinsta.com/docs/wordpress-hosting/wordpress-backups-and-disaster-recovery/wordpress-backups/#external-backups-add-on).
   - **Change hourly backups:** Enable or disable the [hourly backups add-on](https://kinsta.com/docs/wordpress-hosting/wordpress-backups-and-disaster-recovery/wordpress-backups/#hourly-backups-add-on).
 - **Export to CSV:** [Exports a list of selected sites](#export-a-list-of-wordpress-sites) to a CSV file.
-- **Change labels:**Use this option to update the [site labels](https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-labels/).
+- **Change labels:**Use this option to update the [site labels](https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-labels).
 
 ![Perform bulk actions for your WordPress environments from Sites.](https://kinsta.com/wp-content/uploads/2026/09/wordpress-sites-bulk-actions-1.png)
 
@@ -149,7 +150,7 @@ You can reset your site to reinstall WordPress while keeping some of the site co
 
 - It removes all of the WordPress files, the database, and all standard and premium staging environments and installs a new WordPress.
 - The PHP threads and memory per thread within [PHP performance](https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-performance/#view-php-performance) are retained, including any add-ons.
-- Your [backups](https://kinsta.com/docs/wordpress-hosting/wordpress-backups/) and  [activity log](https://kinsta.com/docs/company-settings/activity-log/) are retained.
+- Your [backups](https://kinsta.com/docs/wordpress-hosting/wordpress-backups/) and  [activity log](https://kinsta.com/docs/company-settings/activity-log) are retained.
 - Your [domain name(s)](https://kinsta.com/docs/wordpress-hosting/wordpress-domains/) are also retained; therefore, no DNS changes are required unless you change the domain.
 - [Redirects](https://kinsta.com/docs/wordpress-hosting/redirect-rules/) are removed and need to be added again if still required.
 - You cannot configure the site options that you selected when the site was created. For example, if you selected **Install Yoast SEO** when the site was first created, this option remains enabled when you reset the site and cannot be changed.
@@ -204,7 +205,7 @@ Then, enter your site’s name followed by a dash and the word “live” (**sit
 
 Delete WordPress site confirmation.
 
-Once the site is deleted, you’ll have an open spot in your plan for a new site. If you also want to cancel your WordPress Plan, you can do this within **Company settings** > **My Plan** > **Cancel plan**; refer to [Cancel WordPress Plan](https://kinsta.com/docs/billing/wordpress-hosting-plans/cancel-wordpress-plan/).
+Once the site is deleted, you’ll have an open spot in your plan for a new site. If you also want to cancel your WordPress Plan, you can do this within **Company settings** > **My Plan** > **Cancel plan**; refer to [Cancel WordPress Plan](https://kinsta.com/docs/billing/wordpress-hosting-plans/cancel-wordpress-plan).
 
 ## Change your site’s path
 
@@ -261,7 +262,7 @@ To request an increase in the allowed size beyond the default 128 MB limit, you 
 
 ### Max upload file size for WordPress multisite
 
-In a [WordPress Multisite Network](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/multisite-network/), you can set the max upload file size for the subsites in the WordPress Network Admin. Log in to your WordPress dashboard and go to **Settings** > **Network Settings**. Scroll down to the **Upload Settings** section.
+In a [WordPress Multisite Network](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/multisite-network), you can set the max upload file size for the subsites in the WordPress Network Admin. Log in to your WordPress dashboard and go to **Settings** > **Network Settings**. Scroll down to the **Upload Settings** section.
 
 To increase the max upload file size for your network’s subsites beyond the 1500KB (~1.5MB) default, enter the new value in the **Max upload file size** field and click the **Save Changes** button.
 

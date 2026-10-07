@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Development", "How Kinsta helps developers run complex WordPress sites at scale"]
-kinsta_last_updated: "2026-05-11T18:23:49+00:00"
-sitemap_lastmod: "2026-05-11T18:23:49"
-fetched_at: "2026-10-07T22:43:01Z"
-sha256: "d39466e0ddc6f63452fb024a5f0639a47ddf04f584cc8452e15359442e6ebe10"
-body_chars: 14974
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-11T18:23:49"
+change_signal: "2026-05-11T18:23:49"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "cd4fdfc5346b2a985020642dda547f3fc42e0d64782b525b6a28b043b698844d"
+body_chars: 14037
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How Kinsta helps developers run complex WordPress sites at scale
 
-**Section:** Resource Center > Blog > WordPress Development > How Kinsta helps developers run complex WordPress sites at scale
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/scaling-complex-wordpress-sites/
-**Kinsta last updated:** 2026-05-11T18:23:49+00:00
+**Kinsta last updated:** 2026-05-11T18:23:49
 
 ## On this page
 
@@ -40,17 +39,6 @@ status: "live"
 - [Conclusion](#conclusion)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   May 11, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/11/infrastructure-built-for-the-developers-who-build-everything-else-how-kinsta-supports-complex-wordpress-sites-1024x512.png)
 
 Managing complex WordPress sites means dealing with plugin-heavy architectures, thousands of concurrent users, and clients who expect consistent performance. When you handle dozens of high-traffic builds for enterprise clients, standard hosting infrastructure breaks down.
 
@@ -216,13 +204,3 @@ If you need programmatic control beyond what the MyKinsta interface provides, th
 Complex WordPress sites need infrastructure that keeps them fast, scalable, and reliable while supporting modern developer workflows. Kinsta delivers this through containerized hosting, advanced performance tools, and a powerful cloud foundation that eliminates maintenance overhead.
 
 If you’re ready to see how Kinsta supports complex WordPress builds, explore our [agency hosting solutions](https://kinsta.com/wordpress-hosting/agencies/) designed for developer-led teams.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

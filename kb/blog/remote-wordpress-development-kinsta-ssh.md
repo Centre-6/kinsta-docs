@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Hosting", "Remote WordPress development on Kinsta with SSH"]
-kinsta_last_updated: "2026-02-05T09:57:10+00:00"
-sitemap_lastmod: "2026-02-05T09:57:10"
-fetched_at: "2026-10-07T22:42:51Z"
-sha256: "76923d1c87a81a6c5981e714794854402835b754b6f844cf8b77a25d2e2c89be"
-body_chars: 6792
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-02-05T09:57:10"
+change_signal: "2026-02-05T09:57:10"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "5fb97b6a577f3b32b7a6a4715cbf184b13a8d756085e32112baf0fb7545503a4"
+body_chars: 5913
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Remote WordPress development on Kinsta with SSH
 
-**Section:** Resource Center > Blog > WordPress Hosting > Remote WordPress development on Kinsta with SSH
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/remote-wordpress-development-kinsta-ssh/
-**Kinsta last updated:** 2026-02-05T09:57:10+00:00
+**Kinsta last updated:** 2026-02-05T09:57:10
 
 ## On this page
 
@@ -29,17 +28,6 @@ status: "live"
 - [When remote WordPress development makes sense](#when-remote-wordpress-development-makes-sense)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   February 5, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/02/remote-wordpress-development-on-kinsta-with-ssh-1024x512.png)
 
 Local WordPress development often starts simple but quickly becomes complex. As sites grow larger and databases get heavier, maintaining local environments can feel like unnecessary overhead, especially when your production and staging environments already live on [powerful hosting infrastructure](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/wordpress-infrastructure/).
 
@@ -137,13 +125,3 @@ In a recent LinkedIn discussion about moving WordPress sites between hosts, [one
 That said, remote development should be used intentionally. For ongoing feature development or larger changes, pairing this approach with a [staging environment](https://kinsta.com/docs/wordpress-hosting/staging-environment/) and [MyKinsta’s Push Environments](https://kinsta.com/docs/wordpress-hosting/wordpress-push-environments/) provides a safer and more structured workflow.
 
 If you’re already hosting WordPress sites on Kinsta, SSH access is available by default. And if you’re exploring hosting options that support modern, developer-friendly workflows, Kinsta’s [managed hosting for WordPress](https://kinsta.com/wordpress-hosting/) is built with SSH, staging, and flexible deployment tools out of the box.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

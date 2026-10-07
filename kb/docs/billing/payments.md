@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/billing/payments/"
-title: "Billing - Payment Methods"
+title: "Payment Methods"
 tier: "docs"
 product: "billing"
 product_label: "Billing"
 subsection: "payments"
-section: []
-kinsta_last_updated: "April 8, 2025"
-sitemap_lastmod: "2025-04-08T09:22:08+00:00"
-fetched_at: "2026-10-07T22:38:36Z"
-sha256: "685eb634b9607ee0c7101613999c8f091bced6285e45a28a7fcadce8eb867ebb"
-body_chars: 5026
-extracted_with: "main article"
+section: ["Billing"]
+kinsta_last_updated: "2025-04-08T09:22:08"
+change_signal: "2025-04-08T09:22:08"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "4ef1dfcea66271ff1c3797453253dcdca9bec53a5faacd1d0135a6f59af3051a"
+body_chars: 5025
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Billing - Payment Methods
+# Payment Methods
 
+**Section:** Billing
 **Product:** Billing
 **Source:** https://kinsta.com/docs/billing/payments/
-**Kinsta last updated:** April 8, 2025
+**Kinsta last updated:** 2025-04-08T09:22:08
 
 ## On this page
 
@@ -95,7 +96,7 @@ Add a cross-border credit card in MyKinsta.
 
 ## Update your credit/debit card
 
-Keeping your payment information up to date helps to prevent service interruptions caused by [failed payments](https://kinsta.com/docs/billing/payments/unpaid-invoice/).
+Keeping your payment information up to date helps to prevent service interruptions caused by [failed payments](https://kinsta.com/docs/billing/payments/unpaid-invoice).
 
 To change the card holder name, credit or debit card number, CVC number, or expiration date, you’ll need to add a new card.
 

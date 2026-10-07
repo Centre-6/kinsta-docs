@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-reference/ssl-faq/"
-title: "Reference - SSL FAQ"
+title: "SSL FAQ"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-reference"
-section: []
-kinsta_last_updated: "March 25, 2025"
-sitemap_lastmod: "2025-03-25T11:53:37+00:00"
-fetched_at: "2026-10-07T22:38:34Z"
+section: ["WordPress Hosting", "Reference"]
+kinsta_last_updated: "2025-03-25T11:53:37"
+change_signal: "2025-03-25T11:53:37"
+fetched_at: "2026-10-07T22:58:19Z"
 sha256: "55f0853cec0d9bff0f61b8b48e5bf7cf63aaa0c515c278ff17d1673581eaeadf"
 body_chars: 6473
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Reference - SSL FAQ
+# SSL FAQ
 
+**Section:** WordPress Hosting > Reference
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-reference/ssl-faq/
-**Kinsta last updated:** March 25, 2025
+**Kinsta last updated:** 2025-03-25T11:53:37
 
 ## On this page
 

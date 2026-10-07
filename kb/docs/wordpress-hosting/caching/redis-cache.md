@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/caching/redis-cache/"
-title: "Caching - Redis Caching"
+title: "Redis Caching"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "caching"
-section: []
-kinsta_last_updated: "July 28, 2025"
-sitemap_lastmod: "2025-07-28T16:38:32+00:00"
-fetched_at: "2026-10-07T22:38:51Z"
-sha256: "e78f567e84a763cb801058ef3f59d037803468d5cedcb1b8889454e8d1d56116"
-body_chars: 12975
-extracted_with: "main article"
+section: ["WordPress Hosting", "Caching"]
+kinsta_last_updated: "2025-07-28T16:38:32"
+change_signal: "2025-07-28T16:38:32"
+fetched_at: "2026-10-07T22:58:18Z"
+sha256: "390f2a2f336581fa9cea548b50fa403035e75cf5879377541cc205566943f9ef"
+body_chars: 12939
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Caching - Redis Caching
+# Redis Caching
 
+**Section:** WordPress Hosting > Caching
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/caching/redis-cache/
-**Kinsta last updated:** July 28, 2025
+**Kinsta last updated:** 2025-07-28T16:38:32
 
 ## On this page
 
@@ -50,7 +51,7 @@ Many managed Redis solutions run your cache on a totally separate network from y
 
 By eliminating external network calls, this local integration is especially beneficial for resource-intensive applications such as WooCommerce stores, membership sites, or high-traffic WordPress installations.
 
-Using a persistent object cache such as Redis cache allows for the **reuse of cached objects** rather than requiring the [MySQL database](https://kinsta.com/docs/wordpress-hosting/database-management/restore-import-mysql-database/) to be queried a second time for the same object. The result is that Redis can reduce the load on a website’s MySQL database, simultaneously decreasing the response time of the site and increasing the site’s ability to scale and handle additional traffic.
+Using a persistent object cache such as Redis cache allows for the **reuse of cached objects** rather than requiring the [MySQL database](https://kinsta.com/docs/wordpress-hosting/database-management/restore-import-mysql-database) to be queried a second time for the same object. The result is that Redis can reduce the load on a website’s MySQL database, simultaneously decreasing the response time of the site and increasing the site’s ability to scale and handle additional traffic.
 
 ## Sites that will benefit most from Redis cache
 
@@ -115,10 +116,12 @@ If you see an error that WordPress is not available, you should reinstall WordPr
    - port (we take security seriously here at Kinsta, each site uses a different port)
    - username (SFTP Username, not your email address)
    - password
+
      ![SFTP/SSH credentials.](https://kinsta.com/wp-content/uploads/2023/11/wordpress-sftp-ssh-info-1.png)
 
      SFTP/SSH credentials.
 4. In RedisInsight, select **Use SSH Tunnel**. In the section below, enter your **Host**, **Port**, **Username**, and **Password** from MyKinsta, and click **Add Redis Database**.
+
    ![Enter your MyKinsta SSH credentials to connect to RedisInsight.](https://kinsta.com/wp-content/uploads/2023/11/redisinsight-database-connection-1024x800.png)
 
    Enter your MyKinsta SSH credentials to connect to RedisInsight.
@@ -139,7 +142,7 @@ Clear the server cache on the Caching tab in MyKinsta.
 
 ### Clear cache in your WordPress Dashboard
 
-With the [Kinsta MU plugin](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/) (installed by default on all Kinsta-hosted sites), you can purge object cache (and other types of cache) in your WordPress dashboard. Log in to your WordPress dashboard and do one of the following:
+With the [Kinsta MU plugin](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin) (installed by default on all Kinsta-hosted sites), you can purge object cache (and other types of cache) in your WordPress dashboard. Log in to your WordPress dashboard and do one of the following:
 
 - Click the **Clear All Caches** button on the **Kinsta Cache** plugin page in your WordPress dashboard.
 - Click the **Clear Caches** link on the WordPress admin toolbar.
@@ -154,15 +157,11 @@ Clear cache in WordPress with Kinsta MU plugin.
 
 [Connect to your server with SSH](https://kinsta.com/docs/wordpress-hosting/connect-to-ssh/) and navigate to your site’s document root:
 
-Copy
-
 ```
 cd public
 ```
 
 If the Kinsta Must Use (MU) Plugin is installed on the site, you can clear the Redis object cache with this command:
-
-Copy
 
 ```
 wp kinsta cache purge --object
@@ -170,15 +169,11 @@ wp kinsta cache purge --object
 
 To clear **all** cache, add the `--all` flag:
 
-Copy
-
 ```
 wp kinsta cache purge --all
 ```
 
 Exit SSH with the following command:
-
-Copy
 
 ```
 quit
@@ -188,15 +183,11 @@ quit
 
 Connect to your server with [SSH](https://kinsta.com/docs/wordpress-hosting/connect-to-ssh/) and flush the Redis cache with the following command:
 
-Copy
-
 ```
 redis-cli flushall async
 ```
 
 Exit SSH with the following command:
-
-Copy
 
 ```
 quit

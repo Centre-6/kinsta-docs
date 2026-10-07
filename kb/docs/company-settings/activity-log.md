@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/company-settings/activity-log/"
-title: "Company Settings - Activity Log"
+title: "Activity Log"
 tier: "docs"
 product: "company-settings"
 product_label: "MyKinsta Company Settings"
 subsection: "activity-log"
-section: []
-kinsta_last_updated: "February 12, 2026"
-sitemap_lastmod: "2026-02-12T10:21:21+00:00"
-fetched_at: "2026-10-07T22:39:25Z"
+section: ["Company Settings"]
+kinsta_last_updated: "2026-02-12T10:21:21"
+change_signal: "2026-02-12T10:21:21"
+fetched_at: "2026-10-07T22:58:20Z"
 sha256: "e4556627d1350035c6785023665cd328b3d987a9a8b00e87c1c6f73c455eacd5"
 body_chars: 2571
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Company Settings - Activity Log
+# Activity Log
 
+**Section:** Company Settings
 **Product:** MyKinsta Company Settings
 **Source:** https://kinsta.com/docs/company-settings/activity-log/
-**Kinsta last updated:** February 12, 2026
+**Kinsta last updated:** 2026-02-12T10:21:21
 
 ## On this page
 

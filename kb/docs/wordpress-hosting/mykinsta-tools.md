@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/"
-title: "WordPress Hosting - Tools"
+title: "Tools"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "mykinsta-tools"
-section: []
-kinsta_last_updated: "May 5, 2026"
-sitemap_lastmod: "2026-05-05T09:57:58+00:00"
-fetched_at: "2026-10-07T22:40:07Z"
-sha256: "5c18666466d7d3c08f8de5228d55733b3eeaaa724d5ea10ce00cd9fae05cb602"
-body_chars: 10438
-extracted_with: "main article"
+section: ["WordPress Hosting"]
+kinsta_last_updated: "2026-05-05T09:57:58"
+change_signal: "2026-05-05T09:57:58"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "b45330bd95611e67516df1e18983545ff8c0457a7768dc160d789a19e95df2d6"
+body_chars: 10437
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# WordPress Hosting - Tools
+# Tools
 
+**Section:** WordPress Hosting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/
-**Kinsta last updated:** May 5, 2026
+**Kinsta last updated:** 2026-05-05T09:57:58
 
 ## On this page
 
@@ -162,4 +163,4 @@ The [Site Preview](https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/site
 
 ## DevKinsta
 
-[DevKinsta](https://kinsta.com/docs/devkinsta/) is Kinsta’s local development tool that makes it possible to design, develop, and deploy WordPress sites with a single click on your local machine. DevKinsta is free and available for macOS, Windows, and Ubuntu. Click the **Download** button to get started.
+[DevKinsta](https://kinsta.com/docs/devkinsta) is Kinsta’s local development tool that makes it possible to design, develop, and deploy WordPress sites with a single click on your local machine. DevKinsta is free and available for macOS, Windows, and Ubuntu. Click the **Download** button to get started.

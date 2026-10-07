@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/wordpress-infrastructure/"
-title: "Get Started - Infrastructure"
+title: "Infrastructure"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-getting-started"
-section: []
-kinsta_last_updated: "January 13, 2026"
-sitemap_lastmod: "2026-01-13T15:49:38+00:00"
-fetched_at: "2026-10-07T22:39:10Z"
+section: ["WordPress Hosting", "Get Started"]
+kinsta_last_updated: "2026-01-13T15:49:38"
+change_signal: "2026-01-13T15:49:38"
+fetched_at: "2026-10-07T22:58:18Z"
 sha256: "bed97794a8868645e147416a0ef894238389079e4152833a320b17c63517ce6b"
 body_chars: 2150
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Get Started - Infrastructure
+# Infrastructure
 
+**Section:** WordPress Hosting > Get Started
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/wordpress-infrastructure/
-**Kinsta last updated:** January 13, 2026
+**Kinsta last updated:** 2026-01-13T15:49:38
 
 ---
 

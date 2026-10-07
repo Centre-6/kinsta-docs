@@ -1,26 +1,25 @@
 ---
 url: "https://kinsta.com/blog/kinsta-wp-admin-auto-login/"
-title: "Manage hundreds of sites with Kinsta's WP Admin auto-login"
+title: "Manage hundreds of sites with Kinsta\u2019s WP Admin auto-login"
 tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta Services", "Manage hundreds of sites with Kinsta\u2019s WP Admin auto-login"]
-kinsta_last_updated: "2026-03-11T15:00:29+00:00"
-sitemap_lastmod: "2026-03-11T15:00:29"
-fetched_at: "2026-10-07T22:42:42Z"
-sha256: "468999a3902a1d7b597f9e8acff397c098f377e0ab6d210e9a7acbd4c40b96b7"
-body_chars: 13874
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-03-11T15:00:29"
+change_signal: "2026-03-11T15:00:29"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "1c76adad37daa39a0e9b5d98c5f7f036702153f6a9e61980a5f38232ca2c3666"
+body_chars: 12856
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Manage hundreds of sites with Kinsta's WP Admin auto-login
+# Manage hundreds of sites with Kinsta’s WP Admin auto-login
 
-**Section:** Resource Center > Blog > Kinsta Services > Manage hundreds of sites with Kinsta’s WP Admin auto-login
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/kinsta-wp-admin-auto-login/
-**Kinsta last updated:** 2026-03-11T15:00:29+00:00
+**Kinsta last updated:** 2026-03-11T15:00:29
 
 ## On this page
 
@@ -37,17 +36,6 @@ status: "live"
 - [More time for high-value activities](#more-time-for-high-value-activities)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Published
-:   March 11, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/03/manage-hundreds-of-sites-with-kinstas-wp-admin-auto-login-1-1024x512.png)
 
 For an agency managing dozens or hundreds of WordPress sites, site management isn’t just a technical challenge—it’s a race against time and a battle for security. Every time a team member jumps from one site to another, they experience “login friction.” Retrieving credentials for every site and passing [two-factor authentication](https://kinsta.com/blog/benefits-of-two-factor-authentication/) (2FA) for each one, every single time, is a waste of time and resources.
 
@@ -175,11 +163,3 @@ At Kinsta, we strive to simplify site management, especially for agencies with d
 With this new feature, your agency’s teams will spend less time logging into your clients’ sites, have granular access governance, and can focus on the tasks that matter most to you without worrying about access management.
 
 WP Admin auto-login is available on all Kinsta plans at no extra cost. Ready to turn MyKinsta into your centralized command center? Check out [our plans](https://kinsta.com/pricing/) or [contact sales](https://kinsta.com/talk-to-sales/) to learn more.
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

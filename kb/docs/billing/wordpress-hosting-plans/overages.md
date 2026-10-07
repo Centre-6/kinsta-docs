@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/billing/wordpress-hosting-plans/overages/"
-title: "WordPress Hosting Plans - Overages"
+title: "Overages"
 tier: "docs"
 product: "billing"
 product_label: "Billing"
 subsection: "wordpress-hosting-plans"
-section: []
-kinsta_last_updated: "March 9, 2026"
-sitemap_lastmod: "2026-03-09T10:55:16+00:00"
-fetched_at: "2026-10-07T22:39:43Z"
-sha256: "e2ea00b65b461351ae00e055f4e77af431cf51afd3549e53d35572f68f8899c0"
-body_chars: 9323
-extracted_with: "main article"
+section: ["Billing", "WordPress Hosting Plans"]
+kinsta_last_updated: "2026-03-09T10:55:16"
+change_signal: "2026-03-09T10:55:16"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "729d6031e2d9d42f57e48aac3b55579ec5c758affad3d560093144ba6be77c2a"
+body_chars: 9322
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# WordPress Hosting Plans - Overages
+# Overages
 
+**Section:** Billing > WordPress Hosting Plans
 **Product:** Billing
 **Source:** https://kinsta.com/docs/billing/wordpress-hosting-plans/overages/
-**Kinsta last updated:** March 9, 2026
+**Kinsta last updated:** 2026-03-09T10:55:16
 
 ## On this page
 
@@ -41,7 +42,7 @@ If you regularly exceed your plan’s limit, you may want to consider upgrading 
 
 ## Plan limit alerts
 
-[Plan limit alerts](https://kinsta.com/docs/user-settings/notifications/) are enabled by default on all accounts, but you can enable/disable them by visiting [User Settings](https://my.kinsta.com/profile).
+[Plan limit alerts](https://kinsta.com/docs/user-settings/notifications) are enabled by default on all accounts, but you can enable/disable them by visiting [User Settings](https://my.kinsta.com/profile).
 
 In [MyKinsta](https://my.kinsta.com/), click on your username in the top right corner and select **User Settings** in the menu that appears.
 

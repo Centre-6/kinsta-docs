@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Manage WordPress Admin auto-login users with the Kinsta API"]
-kinsta_last_updated: "2026-05-20T20:30:51+00:00"
-sitemap_lastmod: "2026-05-20T20:30:51+00:00"
-fetched_at: "2026-10-07T22:37:39Z"
-sha256: "25fb0dc45f7c024ae521bc0f01a3e7278b6e7841932676bdbf26336b3a2a1bb9"
-body_chars: 3731
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:30:51"
+change_signal: "2026-05-20T20:30:51"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "3e757a718b103b1a75a3407a5758e48c94fcb8acc1b448129d171d4c0c032159"
+body_chars: 3532
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Manage WordPress Admin auto-login users with the Kinsta API
 
-**Section:** Changelog > Manage WordPress Admin auto-login users with the Kinsta API
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/kinsta-api-apr-2026/
-**Kinsta last updated:** 2026-05-20T20:30:51+00:00
+**Kinsta last updated:** 2026-05-20T20:30:51
 
 ## On this page
 
@@ -30,11 +29,6 @@ status: "live"
 - [Add WP Admin auto-login to your own workflows](#add-wp-admin-auto-login-to-your-own-workflows)
 
 ---
-
-Updated
-:   May 20, 2026
-
-![An illustration representing steps for WordPress auto-login and the title "New API endpoints."](https://kinsta.com/wp-content/uploads/2026/04/kinsta-api-endpoints-for-wp-admin-login-1024x536.png)
 
 In March, Kinsta introduced [one-click access to WordPress Admin](https://kinsta.com/changelog/wordpress-admin-login/) in MyKinsta. Now, we have extended that feature to the [Kinsta API](https://kinsta.com/docs/kinsta-api/) with three new endpoints for checking whether a matching WordPress admin user exists, creating one when needed, and generating a login link.
 
@@ -50,7 +44,7 @@ This is useful when you want to decide whether to create a user first or go stra
 
 ```
 curl --request GET \
-  --url https://api.kinsta.com/v2/sites/environments/{env_id}/[email protected] \
+  --url https://api.kinsta.com/v2/sites/environments/{env_id}/wpa-user-exists?email=user@example.com \
   --header 'Authorization: Bearer <token>'
 ```
 
@@ -79,7 +73,7 @@ curl --request POST \
   --header 'Content-Type: application/json' \
   --data '
 {
-  "email": "[email protected]",
+  "email": "john@example.com",
   "first_name": "John",
   "last_name": "Doe"
 }
@@ -110,7 +104,7 @@ curl --request POST \
   --header 'Authorization: Bearer <token>' \
   --header 'Content-Type: application/json' \
   --data '{
-    "email": "[email protected]"
+    "email": "development@example.com"
   }'
 ```
 

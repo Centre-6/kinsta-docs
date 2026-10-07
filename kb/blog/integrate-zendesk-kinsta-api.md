@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "API", "Build an automated backup workflow for WordPress using Zendesk and the Kinsta API"]
-kinsta_last_updated: "2026-04-27T14:39:11+00:00"
-sitemap_lastmod: "2026-04-27T14:39:11"
-fetched_at: "2026-10-07T22:42:27Z"
-sha256: "009978565d1c053371c494e8c4733cd95f93011261fee98f5e9f47ced9a1fa58"
-body_chars: 15425
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-04-27T14:39:11"
+change_signal: "2026-04-27T14:39:11"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "4b61fc506886eb6504913539167d6c7c4ed02cdf1d8d80321a715a6a47a8f89d"
+body_chars: 14530
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Build an automated backup workflow for WordPress using Zendesk and the Kinsta API
 
-**Section:** Resource Center > Blog > API > Build an automated backup workflow for WordPress using Zendesk and the Kinsta API
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/integrate-zendesk-kinsta-api/
-**Kinsta last updated:** 2026-04-27T14:39:11+00:00
+**Kinsta last updated:** 2026-04-27T14:39:11
 
 ## On this page
 
@@ -36,17 +35,6 @@ status: "live"
 - [Kinsta can help you protect client sites the moment something goes wrong](#kinsta-can-help-you-protect-client-sites-the-moment-something-goes-wrong)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   May 19, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/04/how-to-integrate-zendesk-with-kinsta-hosting-using-the-kinsta-api-1024x512.png)
 
 When an urgent support ticket comes in, the instinct is to jump in and fix the issue as quickly as possible. On a live WordPress site, though, that kind of speed can backfire.
 
@@ -277,13 +265,3 @@ For local development, `ngrok` handles the connection between Zendesk and `local
 If you manage client sites at scale, [Kinsta’s Automatic Updates](https://kinsta.com/add-ons/kinsta-automatic-updates/) add-on pairs naturally with this workflow. This keeps plugins and themes up to date, runs automated visual tests after each update, and rolls back the change if something breaks. What’s more, you can set this up on a custom schedule per site.
 
 If you have any questions, reach out to the [support team](https://kinsta.com/kinsta-support/) anytime.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

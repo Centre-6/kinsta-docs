@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/devkinsta/devkinsta-site-management/"
-title: "DevKinsta - Site Management"
+title: "Site Management"
 tier: "docs"
 product: "devkinsta"
 product_label: "DevKinsta (local dev tool, not hosting)"
 subsection: "devkinsta-site-management"
-section: []
-kinsta_last_updated: "February 18, 2026"
-sitemap_lastmod: "2026-02-18T05:53:45+00:00"
-fetched_at: "2026-10-07T22:39:29Z"
-sha256: "4e96ec863fb2eb365c061491528a03ce941314cb4aa148145465ed083af89d16"
-body_chars: 5754
-extracted_with: "main article"
+section: ["DevKinsta"]
+kinsta_last_updated: "2026-02-18T05:53:45"
+change_signal: "2026-02-18T05:53:45"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "dce1b9d79484fa06205de26603c830225bf356ae62738dd42b3821c0c85f1364"
+body_chars: 5749
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# DevKinsta - Site Management
+# Site Management
 
+**Section:** DevKinsta
 **Product:** DevKinsta (local dev tool, not hosting)
 **Source:** https://kinsta.com/docs/devkinsta/devkinsta-site-management/
-**Kinsta last updated:** February 18, 2026
+**Kinsta last updated:** 2026-02-18T05:53:45
 
 ## On this page
 
@@ -52,7 +53,7 @@ The **Sites** list is your development center where you can see everything you�
 
 Sites list in DevKinsta.
 
-The list shows you some at-a-glance details like WordPress and PHP versions and site size. You can open the site or the site folder with quick buttons, or you can click the kebab (three-dot) menu next to each site to [**clone a site**](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/creating-a-site/#clone-a-site) or access the **database manager** and other tools.
+The list shows you some at-a-glance details like WordPress and PHP versions and site size. You can open the site or the site folder with quick buttons, or you can click the kebab (three-dot) menu next to each site to [**clone a site**](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/creating-a-site#clone-a-site) or access the **database manager** and other tools.
 
 You can click on any site to go to the **Site info** page, where you’ll find more information and tools.
 
@@ -144,7 +145,7 @@ All of your PHP files, WordPress theme, and dependencies are located in your def
 - `C:\Users\username\DevKinsta\sitename` is the default directory for Windows users.
 - `/users/username/DevKinsta/sitename` is the default folder for Mac users.
 
-You can change the default site folder in [Settings](https://kinsta.com/docs/devkinsta/settings/).
+You can change the default site folder in [Settings](https://kinsta.com/docs/devkinsta/settings).
 
 ## WordPress backend (WP Admin)
 
@@ -161,11 +162,11 @@ Adminer is a database management tool and can be accessed by:
 - clicking the kebab (three-dot) icon in the **Sites** list and selecting **Open database Manager** in the dropdown menu,
 - or clicking the **Database manager** button on the **Site** info page.
 
-For more information about Adminer, see our [Database Manager](https://kinsta.com/docs/devkinsta/devkinsta-database/database-manager/) guide.
+For more information about Adminer, see our [Database Manager](https://kinsta.com/docs/devkinsta/devkinsta-database/database-manager) guide.
 
 ## Email inbox
 
-DevKinsta catches all emails that are sent by your site. You can manage emails site by site. More details are available in our [Email Inbox](https://kinsta.com/docs/devkinsta/devkinsta-site-management/email-inbox/) article.
+DevKinsta catches all emails that are sent by your site. You can manage emails site by site. More details are available in our [Email Inbox](https://kinsta.com/docs/devkinsta/devkinsta-site-management/email-inbox) article.
 
 ![DevKinsta Email inbox.](https://kinsta.com/wp-content/uploads/2023/11/devkinsta-email-inbox.png)
 
@@ -173,4 +174,4 @@ DevKinsta Email inbox.
 
 ## Logging
 
-Both **access.logs** and **php-fpm.logs** are available for debugging and troubleshooting your site locally. Navigate to the **DevKinsta/logs/** folder to view site logs. Every site’s separate log file can be viewed in your favorite text editor. Head over to [Logging](https://kinsta.com/docs/devkinsta/devkinsta-troubleshooting/logging/). to learn more.
+Both **access.logs** and **php-fpm.logs** are available for debugging and troubleshooting your site locally. Navigate to the **DevKinsta/logs/** folder to view site logs. Every site’s separate log file can be viewed in your favorite text editor. Head over to [Logging](https://kinsta.com/docs/devkinsta/devkinsta-troubleshooting/logging). to learn more.

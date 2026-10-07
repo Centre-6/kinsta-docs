@@ -1,31 +1,32 @@
 ---
 url: "https://kinsta.com/docs/service-information/guaranteed-uptime/"
-title: "Service Information - Guaranteed Uptime"
+title: "Guaranteed Uptime"
 tier: "docs"
 product: "service-information"
 product_label: "Service Information"
 subsection: "guaranteed-uptime"
-section: []
-kinsta_last_updated: "October 24, 2025"
-sitemap_lastmod: "2025-10-24T15:01:47+00:00"
-fetched_at: "2026-10-07T22:38:59Z"
-sha256: "eb38cf386d6be4bb2a09690aae821c65782a826e36f2e6b4e1ceda7a2a1eceeb"
-body_chars: 3389
-extracted_with: "main article"
+section: ["Service Information"]
+kinsta_last_updated: "2025-10-24T15:01:47"
+change_signal: "2025-10-24T15:01:47"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "3406ed873e84f43dc62242ede768663700b45cdd598dc4f8df3b105973fb5b7c"
+body_chars: 3388
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Service Information - Guaranteed Uptime
+# Guaranteed Uptime
 
+**Section:** Service Information
 **Product:** Service Information
 **Source:** https://kinsta.com/docs/service-information/guaranteed-uptime/
-**Kinsta last updated:** October 24, 2025
+**Kinsta last updated:** 2025-10-24T15:01:47
 
 ---
 
 At Kinsta, whilst we do not offer high availability (HA) hosting, we do offer a Service Level Agreement (SLA)  backed uptime guarantee. At Kinsta, every site on our platform runs in a single Linux container, and the site database runs as a service within the site container, all built on high-performance, enterprise-grade servers. We do not run multiple load-balanced instances of each site infrastructure.
 
-For more details about our infrastructure and architecture, refer to [WordPress Hosting infrastructure](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/wordpress-infrastructure/).
+For more details about our infrastructure and architecture, refer to [WordPress Hosting infrastructure](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/wordpress-infrastructure).
 
 Thanks to the flexibility of container-based infrastructure, proactive load management by our Engineering team, and leading cloud platforms, we are able to offer an [SLA-backed uptime guarantee of up to](https://kinsta.com/legal/service-level-agreement/) [99.9%](https://kinsta.com/legal/service-level-agreement/). For custom plans, we can offer an enhanced uptime guarantee of up to 99.99%. For more information, please [contact our Sales team](https://kinsta.com/talk-to-sales/).
 

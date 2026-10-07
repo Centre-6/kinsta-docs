@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Hosting", "Maximize your return on Ad spend with faster hosting for WordPress"]
-kinsta_last_updated: "2026-05-19T14:43:48+00:00"
-sitemap_lastmod: "2026-05-19T14:43:48"
-fetched_at: "2026-10-07T22:43:15Z"
-sha256: "6f1660c784dd988e06c575b2f4601237248dad65dfe94be598b79bde6ac276e9"
-body_chars: 13390
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-19T14:43:48"
+change_signal: "2026-05-19T14:43:48"
+fetched_at: "2026-10-07T22:58:28Z"
+sha256: "e1ab87764801098a0e6715539e0aba4c82533a8e46e4c83d52d898612e22ac70"
+body_chars: 12656
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Maximize your return on Ad spend with faster hosting for WordPress
 
-**Section:** Resource Center > Blog > WordPress Hosting > Maximize your return on Ad spend with faster hosting for WordPress
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/improve-ad-roi-wordpress-site-speed/
-**Kinsta last updated:** 2026-05-19T14:43:48+00:00
+**Kinsta last updated:** 2026-05-19T14:43:48
 
 ## On this page
 
@@ -47,17 +46,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Author
-:   [Jeremy Holcombe](https://kinsta.com/blog/author/jeremyholcombe/ "Posts by Jeremy Holcombe")
-
-Updated
-:   May 19, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/09/maximizing-ad-spend-roi-with-lightning-fast-wordpress-hosting-from-kinsta-1024x512.png)
 
 As an [agency](https://kinsta.com/blog/wordpress-agency/), you’re responsible for making sure every dollar counts when you run ads. Clients expect results, not excuses. However, when a landing page loads too slowly, all that carefully planned ad spend starts slipping through the cracks.
 
@@ -210,10 +198,3 @@ For agencies, that impact is huge. Speed and stability lead to happier clients, 
 With Kinsta, you get that foundation: enterprise-grade infrastructure, global speed, and hosting designed for agencies that run high-stakes campaigns.
 
 [See how Kinsta partners with agencies](https://kinsta.com/wordpress-hosting/agencies/) to maximize ROI, protect every ad dollar, and turn more clicks into clients.
-
-Jeremy Holcombe
-[Kinsta](https://kinsta.com/)
-
-Senior Editor at Kinsta, WordPress Web Developer, and Content Writer. Outside of all things WordPress, I enjoy the beach, golf, and movies. I also have tall people problems.
-
-- [LinkedIn](https://www.linkedin.com/in/jeremyholcombe/)

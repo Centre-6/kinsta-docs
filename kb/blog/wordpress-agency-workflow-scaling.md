@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Agency", "Why agency growth breaks workflows long before it breaks infrastructure"]
-kinsta_last_updated: "2026-07-16T17:08:11+00:00"
-sitemap_lastmod: "2026-07-16T17:08:11"
-fetched_at: "2026-10-07T22:42:05Z"
-sha256: "9c9ab2cb5d37a5ccd8081b1841eeb7517f4e2a87fcca51e39a5d879816f8107f"
-body_chars: 13755
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-07-16T17:08:11"
+change_signal: "2026-07-16T17:08:11"
+fetched_at: "2026-10-07T22:58:24Z"
+sha256: "d1f1abbfab06a7bca144c02fc17d89585ba25eadc5d114908279db7d535aed5e"
+body_chars: 12851
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Why agency growth breaks workflows long before it breaks infrastructure
 
-**Section:** Resource Center > Blog > Agency > Why agency growth breaks workflows long before it breaks infrastructure
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-agency-workflow-scaling/
-**Kinsta last updated:** 2026-07-16T17:08:11+00:00
+**Kinsta last updated:** 2026-07-16T17:08:11
 
 ## On this page
 
@@ -33,17 +32,6 @@ status: "live"
 - [Stronger workflows make growth less fragile](#stronger-workflows-make-growth-less-fragile)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   August 20, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/07/why-agency-growth-breaks-workflows-long-before-it-breaks-infrastructure-1024x512.png)
 
 An agency manages 35 client sites with a small development team. The sites are online, the infrastructure is holding, and nothing looks especially urgent from the outside.
 
@@ -206,13 +194,3 @@ Agency growth doesn’t always break WordPress infrastructure first. More often 
 Growing agencies don’t need complexity for its own sake. They need clearer systems for the work they already do every day, like assigning access, testing changes, managing updates, onboarding clients, transferring ownership, and explaining usage.
 
 If your agency is adding WordPress clients faster than your workflows can keep up with, [Kinsta’s agency hosting](https://kinsta.com/wordpress-hosting/agencies/) and the [Agency Partner Program](https://kinsta.com/agency-partner-program/) are built for the operating model growing agencies need.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

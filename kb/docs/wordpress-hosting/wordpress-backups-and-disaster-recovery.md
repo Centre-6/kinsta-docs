@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-backups-and-disaster-recovery/"
-title: "WordPress Hosting - Backups and Disaster Recovery"
+title: "Backups and Disaster Recovery"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-backups-and-disaster-recovery"
-section: []
-kinsta_last_updated: "September 1, 2026"
-sitemap_lastmod: "2026-09-01T14:54:50+00:00"
-fetched_at: "2026-10-07T22:40:41Z"
+section: ["WordPress Hosting"]
+kinsta_last_updated: "2026-09-01T14:52:55"
+change_signal: "2026-09-01T14:52:55"
+fetched_at: "2026-10-07T22:58:16Z"
 sha256: "5f1d876806e284fdfa2e9c62ce16d9e1506c98c6f770f7859d07fb6518249470"
 body_chars: 4668
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# WordPress Hosting - Backups and Disaster Recovery
+# Backups and Disaster Recovery
 
+**Section:** WordPress Hosting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-backups-and-disaster-recovery/
-**Kinsta last updated:** September 1, 2026
+**Kinsta last updated:** 2026-09-01T14:52:55
 
 ## On this page
 

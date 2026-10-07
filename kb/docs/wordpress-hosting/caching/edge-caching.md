@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/caching/edge-caching/"
-title: "Caching - Edge Caching"
+title: "Edge Caching"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "caching"
-section: []
-kinsta_last_updated: "May 28, 2026"
-sitemap_lastmod: "2026-05-28T07:52:18+00:00"
-fetched_at: "2026-10-07T22:40:17Z"
-sha256: "c32ddf0bbf679f0bfa6aa64ee29731b2b0b14cc37e99d111a6f4f0bb3f092951"
-body_chars: 17493
-extracted_with: "main article"
+section: ["WordPress Hosting", "Caching"]
+kinsta_last_updated: "2026-05-28T07:52:18"
+change_signal: "2026-05-28T07:52:18"
+fetched_at: "2026-10-07T22:58:18Z"
+sha256: "b461073a3a627a5502c1e7362561bbc0034718fcb790fdf69d1de230058916eb"
+body_chars: 17511
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Caching - Edge Caching
+# Edge Caching
 
+**Section:** WordPress Hosting > Caching
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/caching/edge-caching/
-**Kinsta last updated:** May 28, 2026
+**Kinsta last updated:** 2026-05-28T07:52:18
 
 ## On this page
 
@@ -118,7 +119,7 @@ Either of these methods will clear both **edge caching** and **site cache**.
 
 Clear cache in WordPress with Kinsta MU plugin.
 
-If you would like the cache to be automatically cleared for specific URLs or paths when you make changes on your site, you can configure those in the Kinsta MU plugin Settings. Click **Kinsta Cache** in the left sidebar and add the URLs you want to purge when updates are made to your site. For more information, check out our guide on [Adding Custom Caching URLs](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/#add-custom-caching-urls) in the Kinsta MU plugin.
+If you would like the cache to be automatically cleared for specific URLs or paths when you make changes on your site, you can configure those in the Kinsta MU plugin Settings. Click **Kinsta Cache** in the left sidebar and add the URLs you want to purge when updates are made to your site. For more information, check out our guide on [Adding Custom Caching URLs](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin#add-custom-caching-urls) in the Kinsta MU plugin.
 
 ### Clear cache with WP-CLI
 
@@ -126,23 +127,17 @@ If the Kinsta Must Use (MU) plugin is installed, you can clear edge caching (and
 
 [Connect to your server with SSH](https://kinsta.com/docs/wordpress-hosting/connect-to-ssh/) and navigate to your site’s document root:
 
-Copy
-
 ```
 cd public
 ```
 
 If the Kinsta Must Use (MU) Plugin is installed on the site, you can clear the full-page cache and the edge cache (when [edge caching](https://kinsta.com/docs/wordpress-hosting/caching/edge-caching/) is enabled) with this command:
 
-Copy
-
 ```
 wp kinsta cache purge
 ```
 
 To clear **all** cache, add the `--all` flag:
-
-Copy
 
 ```
 wp kinsta cache purge --all
@@ -153,10 +148,12 @@ wp kinsta cache purge --all
 The cache is set to expire every 24 hours by default, but you can adjust this to be longer if needed. To change the cache expiration:
 
 1. Go to [MyKinsta](https://my.kinsta.com/) >**Sites** > ***sitename*** > **Caching** > **Server Caching**.
+
    ![Change the cache expiration in the Caching tab in MyKinsta.](https://kinsta.com/wp-content/uploads/2023/11/wordpress-server-caching-change-expiration.png)
 
    Change the cache expiration in the Caching tab in MyKinsta.
 2. Select **Change cache expiration**, in the modal/pop-up that appears, select your desired cache expiration, and click **Change expiration**.
+
    ![Select the cache expiration time.](https://kinsta.com/wp-content/uploads/2024/07/wordpress-cache-expiration-confirm-1024x664.png)
 
    Select the cache expiration time.
@@ -165,7 +162,7 @@ This changes the server cache and edge cache expiration. For sites that don’t 
 
 ## Test edge caching
 
-Before testing your site with a [website speed test tool](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/website-testing-tools/), we recommend inspecting the HTTP headers of a page to confirm it is loading from the edge cache. Below are a few ways to check your site’s HTTP headers.
+Before testing your site with a [website speed test tool](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/website-testing-tools), we recommend inspecting the HTTP headers of a page to confirm it is loading from the edge cache. Below are a few ways to check your site’s HTTP headers.
 
 ### Check edge caching with Kinsta’s HTTP status and redirect checker
 
@@ -185,7 +182,7 @@ Scroll down until you see **Response headers**. In this section, there are two h
 
 You can use your web browser’s built-in developer tools to check whether edge caching is working. For this example, we’ll use Google Chrome to inspect HTTP headers for our site’s homepage. To launch the Chrome developer tools, right-click anywhere on the page and click **Inspect**.
 
-![Inspect with browser dev tools in Chrome.](https://kinsta.com/wp-content/uploads/2022/07/pasted-image-0-1.png)
+![Inspect with browser dev tools in Chrome.](https://kinsta.com/wp-content/uploads/2022/07/pasted-image-0-1.png "Inspect with browser dev tools in Chrome")
 
 Inspect with browser dev tools in Chrome.
 
@@ -200,8 +197,6 @@ In the **Headers** tab, scroll down until you see the **Response Headers**. In t
 ### Check edge caching in Terminal
 
 If you’re familiar with using Terminal (command line), you can also check HTTP headers with the `curl` command. Use the command below and substitute the URL at the end of the command with your site’s URL.
-
-Copy
 
 ```
 curl -L -s -o /dev/null -D - https://kinstaexample.com
@@ -238,7 +233,7 @@ Disable Edge Caching.
 2. Clearing edge cache in all of Cloudflare’s data centers may take 2-5 minutes to fully complete. Once you see the completion notice in MyKinsta, please allow 2-5 minutes for the cache to be cleared in all data centers. If you have a page that needs to be updated more often, our [Support team](https://kinsta.com/docs/support/contact-support/) can help you exclude that page from edge caching.
 3. Edge caching can be enabled on live sites and [Premium Staging Environments](https://kinsta.com/docs/wordpress-hosting/staging-environment/). It cannot be enabled for [Standard Staging Environments](https://kinsta.com/docs/wordpress-hosting/staging-environment/).
 4. Edge caching is incompatible with narrow-scope geolocation cache variations or advanced site cache custom exclusions like combinations of custom cookies and URIs.
-5. Edge caching serves your Kinsta site/page cache but does not serve static assets like images, JavaScript files, and CSS files. [Kinsta CDN](https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/kinsta-cdn/), which is independent of edge caching, can be enabled to serve your site’s static assets. If Kinsta CDN is enabled, your site has an additional caching layer managed separately from edge caching. The CDN cache can be cleared with the [Kinsta MU plugin](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/), with [WP-CLI](https://kinsta.com/docs/wordpress-hosting/caching/site-caching/#clear-cache-with-wp-cli) (if the Kinsta MU plugin is installed), or by [clearing the CDN cache](https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/kinsta-cdn/#how-to-disable-or-purge-kinstas-cdn) in MyKinsta.
+5. Edge caching serves your Kinsta site/page cache but does not serve static assets like images, JavaScript files, and CSS files. [Kinsta CDN](https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/kinsta-cdn/), which is independent of edge caching, can be enabled to serve your site’s static assets. If Kinsta CDN is enabled, your site has an additional caching layer managed separately from edge caching. The CDN cache can be cleared with the [Kinsta MU plugin](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin), with [WP-CLI](https://kinsta.com/docs/wordpress-hosting/caching/site-caching/#clear-cache-with-wp-cli) (if the Kinsta MU plugin is installed), or by [clearing the CDN cache](https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/kinsta-cdn/#how-to-disable-or-purge-kinstas-cdn) in MyKinsta.
 6. We have caching rules in place for edge caching to work with standard WordPress, BuddyPress, WooCommerce, and Easy Digital Downloads sites. We exclude common private URIs and cookies, so your WordPress dashboard, forums, cart pages, or anywhere a user is logged in will automatically bypass caching. If you’re using a customized WordPress setup, there may be additional sections of your site that need to bypass the cache or additional rules that need to be added for compatibility. If that is the case, you can always [contact our Support team](https://kinsta.com/docs/support/contact-support/).
 7. Edge caching will not work for requests that return a [`Set-Cookie` Response Header](https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/#remove-set-cookie-headers). By default, the `Set-Cookie` response header is removed from cached responses in all newly created sites at Kinsta. A `Set-Cookie` response header is typically used to provide data intended for a specific client. Caching that response header could show visitors data that isn’t intended for them.
 8. When updating pages in WordPress, there’s no need to manually clear the Site cache or edge caching; both will be automatically cleared.

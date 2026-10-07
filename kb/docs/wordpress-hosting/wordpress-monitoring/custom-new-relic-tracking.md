@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-monitoring/custom-new-relic-tracking/"
-title: "Monitoring - New Relic Monitoring"
+title: "New Relic Monitoring"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-monitoring"
-section: []
-kinsta_last_updated: "December 19, 2025"
-sitemap_lastmod: "2025-12-19T11:57:04+00:00"
-fetched_at: "2026-10-07T22:39:08Z"
+section: ["WordPress Hosting", "Monitoring"]
+kinsta_last_updated: "2025-12-19T11:57:04"
+change_signal: "2025-12-19T11:57:04"
+fetched_at: "2026-10-07T22:58:20Z"
 sha256: "3ee3c9fd5248502c64cccb529b7cb005c9a2e6f9ed0e4834825f5f5d68e15b98"
 body_chars: 4857
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Monitoring - New Relic Monitoring
+# New Relic Monitoring
 
+**Section:** WordPress Hosting > Monitoring
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-monitoring/custom-new-relic-tracking/
-**Kinsta last updated:** December 19, 2025
+**Kinsta last updated:** 2025-12-19T11:57:04
 
 ## On this page
 

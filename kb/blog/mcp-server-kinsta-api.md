@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "API", "Create your own MCP Server to control WordPress hosting with AI"]
-kinsta_last_updated: "2026-05-20T20:31:12+00:00"
-sitemap_lastmod: "2026-05-20T20:31:12"
-fetched_at: "2026-10-07T22:42:44Z"
-sha256: "68a821e7c7588b3e53a012e1257383111372c9cd9767d42b91f46f26a75f6df1"
-body_chars: 25745
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:31:12"
+change_signal: "2026-05-20T20:31:12"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "90072b102f8f59eefcbd941614b9819439562512c4c9c4eb00d1f9431f769c2c"
+body_chars: 24854
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Create your own MCP Server to control WordPress hosting with AI
 
-**Section:** Resource Center > Blog > API > Create your own MCP Server to control WordPress hosting with AI
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/mcp-server-kinsta-api/
-**Kinsta last updated:** 2026-05-20T20:31:12+00:00
+**Kinsta last updated:** 2026-05-20T20:31:12
 
 ## On this page
 
@@ -46,17 +45,6 @@ status: "live"
 - [A different way to work with the tools you already have](#a-different-way-to-work-with-the-tools-you-already-have)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   May 20, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/01/create-your-own-mcp-server-to-control-wordpress-hosting-with-AI-1024x512.png)
 
 If you manage a lot of WordPress sites, you are always looking for the next easy way to limit the amount of time you spend accessing dashboards and clicking through a series of buttons.
 
@@ -881,13 +869,3 @@ Where this goes next is up to you. You might keep things simple and read-only. Y
 As you explore new tools and workflows like this, having a solid hosting foundation matters. The last thing you want is to lose time dealing with downtime or performance issues instead of building and improving your sites.
 
 Kinsta provides managed hosting for WordPress that keeps your sites running reliably, even when you’re offline. You can explore our [hosting plans](https://kinsta.com/pricing/) or [talk to our sales team](https://kinsta.com/talk-to-sales/) to find the right plan for you.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-maintenance-mode/"
-title: "Plugins and Themes - WordPress Maintenance Mode"
+title: "WordPress Maintenance Mode"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-plugins-themes"
-section: []
-kinsta_last_updated: "March 12, 2025"
-sitemap_lastmod: "2025-03-12T10:57:54+00:00"
-fetched_at: "2026-10-07T22:38:32Z"
+section: ["WordPress Hosting", "Plugins and Themes"]
+kinsta_last_updated: "2025-03-12T10:57:54"
+change_signal: "2025-03-12T10:57:54"
+fetched_at: "2026-10-07T22:58:17Z"
 sha256: "10fc3990ce01e9691834d20106289163ff2b63a4a279a86a3af2eb8d0767c48b"
 body_chars: 2190
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Plugins and Themes - WordPress Maintenance Mode
+# WordPress Maintenance Mode
 
+**Section:** WordPress Hosting > Plugins and Themes
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-maintenance-mode/
-**Kinsta last updated:** March 12, 2025
+**Kinsta last updated:** 2025-03-12T10:57:54
 
 ## On this page
 

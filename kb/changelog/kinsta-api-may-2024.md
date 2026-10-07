@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Access application metrics and company user data with Kinsta API"]
-kinsta_last_updated: "2026-05-06T15:09:06+00:00"
-sitemap_lastmod: "2026-05-06T15:09:06+00:00"
-fetched_at: "2026-10-07T22:37:27Z"
-sha256: "b7eb2cdc56b88ac61b7659e544e46bc50341908692417ad0755e855f0170cbdb"
-body_chars: 10606
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-06T15:09:06"
+change_signal: "2026-05-06T15:09:06"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "1f0b94398dedb422ab194612ec4ca3ff59b39760e108ab11c01016fb6a02e380"
+body_chars: 10469
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Access application metrics and company user data with Kinsta API
 
-**Section:** Changelog > Access application metrics and company user data with Kinsta API
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/kinsta-api-may-2024/
-**Kinsta last updated:** 2026-05-06T15:09:06+00:00
+**Kinsta last updated:** 2026-05-06T15:09:06
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [Get started with Kinsta API today](#get-started-with-kinsta-api-today)
 
 ---
-
-Updated
-:   May 6, 2026
-
-![](https://kinsta.com/wp-content/uploads/2024/04/2024-04-kinsta-changelog-new-Kinsta-API-endpoints-1024x536.png)
 
 We’re excited to announce the release of new endpoints on the [Kinsta API](https://kinsta.com/docs/kinsta-api/) that allow you to [access detailed analytics about your applications](https://api-docs.kinsta.com/tag/Application-Metrics) and [retrieve information about your company users](https://api-docs.kinsta.com/api-reference/company-users/get-list-of-company-users) on Kinsta.
 
@@ -187,7 +181,7 @@ To access this data, send a GET request to: `https://api.kinsta.com/v2/company/{
       {
         "user": {
           "id": "54fb80af-576c-4fdc-ba4f-b596c83f15a1",
-          "email": "[email protected]",
+          "email": "example@exmample.com",
           "image": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
           "full_name": "John Doe"
         }

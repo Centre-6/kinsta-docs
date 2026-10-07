@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/bunny/"
-title: "CDN - Bunny"
+title: "Bunny"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-cdn"
-section: []
-kinsta_last_updated: "November 7, 2025"
-sitemap_lastmod: "2025-11-07T10:26:59+00:00"
-fetched_at: "2026-10-07T22:39:03Z"
+section: ["WordPress Hosting", "CDN"]
+kinsta_last_updated: "2025-11-07T10:26:59"
+change_signal: "2025-11-07T10:26:59"
+fetched_at: "2026-10-07T22:58:17Z"
 sha256: "362e3ea7787085a6d7441aa88c41c60b9a825533f1d69133cf809f6d21233dfc"
 body_chars: 8452
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# CDN - Bunny
+# Bunny
 
+**Section:** WordPress Hosting > CDN
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/bunny/
-**Kinsta last updated:** November 7, 2025
+**Kinsta last updated:** 2025-11-07T10:26:59
 
 ## On this page
 

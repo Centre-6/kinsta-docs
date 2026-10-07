@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Agency", "How Kinsta can help your website maintenance agency grow"]
-kinsta_last_updated: "2025-10-02T15:38:33+00:00"
-sitemap_lastmod: "2025-10-02T15:38:33"
-fetched_at: "2026-10-07T22:43:16Z"
-sha256: "c5bd719c591597c3359e5e8c82230fa1ede3498a059de13ebba0ff75495dc38a"
-body_chars: 17255
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-10-02T15:38:33"
+change_signal: "2025-10-02T15:38:33"
+fetched_at: "2026-10-07T22:58:28Z"
+sha256: "a7c3fcf3c9d3f98e9e02ae4013862704fc16aa90286ec39a1a71e213861ec5c7"
+body_chars: 16483
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How Kinsta can help your website maintenance agency grow
 
-**Section:** Resource Center > Blog > Agency > How Kinsta can help your website maintenance agency grow
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/website-maintenance-agency/
-**Kinsta last updated:** 2025-10-02T15:38:33+00:00
+**Kinsta last updated:** 2025-10-02T15:38:33
 
 ## On this page
 
@@ -42,17 +41,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Author
-:   [Steve Bonisteel](https://kinsta.com/blog/author/stevebonisteel/ "Posts by Steve Bonisteel")
-
-Published
-:   October 23, 2025
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![An illustration representing the website maintenance toolboxes of WordPress agencies.](https://kinsta.com/wp-content/uploads/2025/10/kinsta-helps-website-maintenance-agencies-grow-1024x512.png)
 
 If you’re running a website maintenance agency for WordPress users, it’s important that your clients have quality hosting. That’s because optimized hosting can eliminate maintenance issues before they happen.
 
@@ -238,8 +226,3 @@ As the foundation of your clients’ sites, your clients’ hosting providers ca
 If your clients host their own sites, recommending Kinsta can give them a strong foundation, make your life easier as a maintenance service, and earn you a 10% recurring subscription for the life of your clients’ plans.
 
 If you offer your own hosting service (or are thinking about getting into the space), Kinsta can handle a lot of basic maintenance tasks for you, while also letting you earn predictable margins on the hosting services you provide.
-
-Steve Bonisteel
-[Kinsta](https://kinsta.com/)
-
-Steve Bonisteel is a Technical Editor at Kinsta who began his writing career as a print journalist, chasing ambulances and fire trucks. He has been covering Internet-related technology since the late 1990s.

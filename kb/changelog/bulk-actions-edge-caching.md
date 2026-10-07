@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Configure Edge Caching for multiple WordPress sites with Bulk Actions"]
-kinsta_last_updated: "2026-05-14T18:59:50+00:00"
-sitemap_lastmod: "2026-05-14T18:59:50+00:00"
-fetched_at: "2026-10-07T22:37:32Z"
-sha256: "ab07984cc7b2de3ca078ea71a1c578ffd7681c1243436680d470aa2dd3cca6d8"
-body_chars: 3385
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-14T18:59:50"
+change_signal: "2026-05-14T18:59:50"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "4032e9afb9ae8bee6007daed0a790299bb390dc5cffaf879a13d86bf1f61bb22"
+body_chars: 3158
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Configure Edge Caching for multiple WordPress sites with Bulk Actions
 
-**Section:** Changelog > Configure Edge Caching for multiple WordPress sites with Bulk Actions
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/bulk-actions-edge-caching/
-**Kinsta last updated:** 2026-05-14T18:59:50+00:00
+**Kinsta last updated:** 2026-05-14T18:59:50
 
 ---
-
-Updated
-:   May 14, 2026
-
-![Illustration showing the Actions menu in MyKinsyta with the words: Bulk actions — Edge Caching](https://kinsta.com/wp-content/uploads/2024/05/mykinsta-bulk-actions-change-edge-caching-1024x536.png)
 
 Kinsta has added to the list of tasks that can be accomplished with the [Bulk Actions](https://kinsta.com/changelog/bulk-actions/) feature available to [Managed WordPress Hosting](https://kinsta.com/wordpress-hosting/) customers. With just a few clicks, you can now enable or disable [Edge Caching](https://kinsta.com/edge-caching/) across multiple website environments.
 

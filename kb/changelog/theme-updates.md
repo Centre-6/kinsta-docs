@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Update WordPress themes across multiple sites with just a few clicks"]
-kinsta_last_updated: "2025-04-11T17:33:00+00:00"
-sitemap_lastmod: "2025-04-11T17:33:00+00:00"
-fetched_at: "2026-10-07T22:37:05Z"
-sha256: "4582d7a10ed54b1a3a8d33aaf68fe64d4f82d61056a7603697abe03e1374599b"
-body_chars: 4594
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-04-11T17:33:00"
+change_signal: "2025-04-11T17:33:00"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "a86c67a7a45151242048868fedf6cb72727eee419908b0df20f89b7523a4d329"
+body_chars: 4377
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Update WordPress themes across multiple sites with just a few clicks
 
-**Section:** Changelog > Update WordPress themes across multiple sites with just a few clicks
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/theme-updates/
-**Kinsta last updated:** 2025-04-11T17:33:00+00:00
+**Kinsta last updated:** 2025-04-11T17:33:00
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [We’re making WordPress management easier](#were-making-wordpress-management-easier)
 
 ---
-
-Updated
-:   April 11, 2025
-
-![An illustration representing a theme update dialog MyKinsta with the words: Easy theme updates.](https://kinsta.com/wp-content/uploads/2024/12/changelog-easy-theme-updater-1024x536.png)
 
 Following up on the release of our improved [plugin management tool](https://kinsta.com/changelog/plugin-updates/), we’re making that same functionality available for themes. That means customers now have a central location within the [MyKinsta dashboard](https://kinsta.com/mykinsta/) for tracking and launching available theme updates across all of their WordPress sites.
 

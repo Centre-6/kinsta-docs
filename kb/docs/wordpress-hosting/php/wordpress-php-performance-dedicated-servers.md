@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-performance-dedicated-servers/"
-title: "PHP - PHP Performance on Dedicated Servers"
+title: "PHP Performance on Dedicated Servers"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "php"
-section: []
-kinsta_last_updated: "February 9, 2026"
-sitemap_lastmod: "2026-02-09T13:48:43+00:00"
-fetched_at: "2026-10-07T22:39:22Z"
+section: ["WordPress Hosting", "PHP"]
+kinsta_last_updated: "2026-02-09T13:48:43"
+change_signal: "2026-02-09T13:48:43"
+fetched_at: "2026-10-07T22:58:17Z"
 sha256: "cd401a8785203d35b2e265968eabe24b3b3f0679d241de042026fc75d0e9b696"
 body_chars: 8179
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# PHP - PHP Performance on Dedicated Servers
+# PHP Performance on Dedicated Servers
 
+**Section:** WordPress Hosting > PHP
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-performance-dedicated-servers/
-**Kinsta last updated:** February 9, 2026
+**Kinsta last updated:** 2026-02-09T13:48:43
 
 ## On this page
 

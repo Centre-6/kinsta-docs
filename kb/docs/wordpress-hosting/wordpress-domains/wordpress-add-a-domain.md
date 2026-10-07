@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-domains/wordpress-add-a-domain/"
-title: "Domains and DNS - Add a Domain"
+title: "Add a Domain"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-domains"
-section: []
-kinsta_last_updated: "August 5, 2026"
-sitemap_lastmod: "2026-08-05T15:24:30+00:00"
-fetched_at: "2026-10-07T22:40:38Z"
-sha256: "032ce503d5ac0d311f15b9e0dd168f37221d0836c3315062977997303b2dc1cb"
-body_chars: 12424
-extracted_with: "main article"
+section: ["WordPress Hosting", "Domains and DNS"]
+kinsta_last_updated: "2026-08-05T14:45:59"
+change_signal: "2026-08-05T14:45:59"
+fetched_at: "2026-10-07T22:58:16Z"
+sha256: "3a6a62f9c666c8b8eb36e761c7876e285baa68ba0a625825106073c6e40b4573"
+body_chars: 12427
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Domains and DNS - Add a Domain
+# Add a Domain
 
+**Section:** WordPress Hosting > Domains and DNS
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-domains/wordpress-add-a-domain/
-**Kinsta last updated:** August 5, 2026
+**Kinsta last updated:** 2026-08-05T14:45:59
 
 ## On this page
 
@@ -71,7 +72,7 @@ Add a domain in MyKinsta.
 
 The primary domain is the main domain visitors use to reach your site. When you first add your site to Kinsta, this defaults to a `kinsta.cloud` address.
 
-To set your custom domain as your primary domain, go to **Sites** > ***sitename*** > **Domains**, scroll to the **Domains****list**, click the kebab (three dots) next to your domain, and select **Make primary domain**. Setting a domain as primary in MyKinsta doesn’t change where it currently resolves. If your site is hosted elsewhere, visitors will keep reaching that host until you also [point the domain](#3-point-your-domain-to-kinsta) to Kinsta by updating your DNS records.
+To set your custom domain as your primary domain, go to **Sites** > ***sitename*** > **Domains**, scroll to the **Domains** **list**, click the kebab (three dots) next to your domain, and select **Make primary domain**. Setting a domain as primary in MyKinsta doesn’t change where it currently resolves. If your site is hosted elsewhere, visitors will keep reaching that host until you also [point the domain](#3-point-your-domain-to-kinsta) to Kinsta by updating your DNS records.
 
 If you have multiple domains or both the www and non-www versions of your domain, setting one as your primary domain doesn’t automatically redirect traffic from the other; you’ll still need to add a 301 redirect yourself, under **Sites** > ***sitename*** > **Redirects**. For more information on setting this up, refer to one of the following:
 
@@ -205,8 +206,8 @@ A few things to know:
 - If you use Cloudflare Pro or higher, [CNAME Flattening](https://developers.cloudflare.com/dns/cname-flattening/) can interfere with verification; temporarily disable it until verification completes.
 - If verification still fails, you can temporarily [disable Universal SSL](https://developers.cloudflare.com/ssl/edge-certificates/universal-ssl/disable-universal-ssl/#disable-universal-ssl-certificate) in Cloudflare, then re-enable it once your domain is verified.
 - Allowlist Kinsta’s monitoring bot in your Cloudflare security rules (such as WAF custom rules or bot protection) so our domain monitoring can run its checks. Add both of the following:
-  - **User agent:** `kinsta-bot`
-  - **IP addresses:** `35.194.36.163` and `34.135.149.39`
+  - **User agent:**  `kinsta-bot`
+  - **IP addresses:**  `35.194.36.163` and `34.135.149.39`
 
 ### If you need to include subdomains (wildcard)
 

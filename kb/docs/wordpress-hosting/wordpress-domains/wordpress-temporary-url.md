@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-domains/wordpress-temporary-url/"
-title: "Domains and DNS - Temporary URL"
+title: "Temporary URL"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-domains"
-section: []
-kinsta_last_updated: "July 1, 2025"
-sitemap_lastmod: "2025-07-01T15:04:06+00:00"
-fetched_at: "2026-10-07T22:38:43Z"
+section: ["WordPress Hosting", "Domains and DNS"]
+kinsta_last_updated: "2025-07-01T15:04:06"
+change_signal: "2025-07-01T15:04:06"
+fetched_at: "2026-10-07T22:58:21Z"
 sha256: "5456b2464eefb8c05a8041f7505670116e618fd5857c8428a191ba737764fbe4"
 body_chars: 3201
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Domains and DNS - Temporary URL
+# Temporary URL
 
+**Section:** WordPress Hosting > Domains and DNS
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-domains/wordpress-temporary-url/
-**Kinsta last updated:** July 1, 2025
+**Kinsta last updated:** 2025-07-01T15:04:06
 
 ---
 

@@ -7,8 +7,8 @@ product_label: "Kinsta API Reference"
 subsection: "backups"
 section: []
 kinsta_last_updated:
-sitemap_lastmod: "2026-09-18T09:42:50.694Z"
-fetched_at: "2026-10-07T22:41:00Z"
+change_signal: "2026-09-18T09:42:50.694Z"
+fetched_at: "2026-10-07T22:58:40Z"
 sha256: "9dd74cf47f0f5d0b148f9dd7cbf02c621464973992e0630b461c91bb5f95f9de"
 body_chars: 6096
 extracted_with: "main"

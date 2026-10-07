@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Bot Traffic", "Why WooCommerce sites are especially vulnerable to bot traffic"]
-kinsta_last_updated: "2026-05-12T17:05:25+00:00"
-sitemap_lastmod: "2026-05-12T17:05:25"
-fetched_at: "2026-10-07T22:42:21Z"
-sha256: "7ac5252682a04b884c814828eb711002d05cc722493eed99fff1c74d699a5497"
-body_chars: 10823
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-12T17:05:25"
+change_signal: "2026-05-12T17:05:25"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "2f4ab966cf39e7bb6c04cee4a8f9582f377d14874438a9d92c45b31301e504b5"
+body_chars: 9929
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Why WooCommerce sites are especially vulnerable to bot traffic
 
-**Section:** Resource Center > Blog > Bot Traffic > Why WooCommerce sites are especially vulnerable to bot traffic
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/woocommerce-bot-traffic/
-**Kinsta last updated:** 2026-05-12T17:05:25+00:00
+**Kinsta last updated:** 2026-05-12T17:05:25
 
 ## On this page
 
@@ -32,17 +31,6 @@ status: "live"
 - [A more practical way to think about bot traffic](#a-more-practical-way-to-think-about-bot-traffic)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   June 9, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/05/why-woocommerce-sites-are-especially-vulnerable-to-bot-traffic-1-1024x512.png)
 
 Over the past year, [bot traffic](https://kinsta.com/blog/bot-traffic-vs-real-visits/) has shifted from something site owners could ignore to something that directly affects how infrastructure behaves. The change isn’t just about volume. It’s about how automated traffic interacts with modern websites, especially [WooCommerce](https://kinsta.com/wordpress-hosting/woocommerce/) stores.
 
@@ -160,13 +148,3 @@ In our analysis of more than 10 billion requests across Kinsta-managed infrastru
 At the same time, managing this manually is rarely practical. It requires adjustments from time to time, clear visibility into traffic patterns, and a way to apply decisions without breaking legitimate usage. This is exactly the gap [Kinsta’s bot protection tool](https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/wordpress-tools-bot-protection/) is designed to solve, giving site owners the ability to control how different types of traffic are handled without relying on one-size-fits-all rules.
 
 Feel free to check out [our docs](https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/wordpress-tools-bot-protection/) and [contact support](https://kinsta.com/contact-us/) if you need more clarification on how this can work for your site or agency.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

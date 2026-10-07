@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-domains/google-mx-records/"
-title: "Domains and DNS - Google MX Records"
+title: "Google MX Records"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-domains"
-section: []
-kinsta_last_updated: "August 13, 2024"
-sitemap_lastmod: "2024-08-13T09:28:18+00:00"
-fetched_at: "2026-10-07T22:38:10Z"
+section: ["WordPress Hosting", "Domains and DNS"]
+kinsta_last_updated: "2024-08-13T09:28:18"
+change_signal: "2024-08-13T09:28:18"
+fetched_at: "2026-10-07T22:58:21Z"
 sha256: "59fc158b40185713f30d76a18b5f61fe94621e20c9ac8608d015db58a4a67010"
 body_chars: 3416
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Domains and DNS - Google MX Records
+# Google MX Records
 
+**Section:** WordPress Hosting > Domains and DNS
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-domains/google-mx-records/
-**Kinsta last updated:** August 13, 2024
+**Kinsta last updated:** 2024-08-13T09:28:18
 
 ## On this page
 

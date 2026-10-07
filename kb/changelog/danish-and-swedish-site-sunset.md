@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Danish and Swedish language support ending (no action required)"]
-kinsta_last_updated: "2026-04-14T18:56:19+00:00"
-sitemap_lastmod: "2026-04-14T18:56:19+00:00"
-fetched_at: "2026-10-07T22:37:18Z"
-sha256: "019d11935d737ad3b7f20ad35e69e88cbcfc45658a6a1027ac98f35113702e2d"
-body_chars: 2182
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-04-14T18:56:19"
+change_signal: "2026-04-14T18:56:19"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "af7fec7c79b687349d8838126b808e2c4ef952659da192a0586c912b94d7b785"
+body_chars: 2069
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Danish and Swedish language support ending (no action required)
 
-**Section:** Changelog > Danish and Swedish language support ending (no action required)
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/danish-and-swedish-site-sunset/
-**Kinsta last updated:** 2026-04-14T18:56:19+00:00
+**Kinsta last updated:** 2026-04-14T18:56:19
 
 ## On this page
 
@@ -30,11 +29,6 @@ status: "live"
 - [What you should do](#what-you-should-do)
 
 ---
-
-Published
-:   April 14, 2026
-
-![](https://kinsta.com/wp-content/uploads/2026/04/dk-se-site-sunset-1024x536.png)
 
 We have decided to sunset the Danish and Swedish versions of our website and platform as part of our ongoing efforts to streamline and improve the overall Kinsta product and content experience.
 

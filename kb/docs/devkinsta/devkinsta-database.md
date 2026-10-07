@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/devkinsta/devkinsta-database/"
-title: "DevKinsta - Database Management"
+title: "Database Management"
 tier: "docs"
 product: "devkinsta"
 product_label: "DevKinsta (local dev tool, not hosting)"
 subsection: "devkinsta-database"
-section: []
-kinsta_last_updated: "January 25, 2024"
-sitemap_lastmod: "2024-01-25T16:46:07+00:00"
-fetched_at: "2026-10-07T22:37:55Z"
+section: ["DevKinsta"]
+kinsta_last_updated: "2024-01-25T16:46:07"
+change_signal: "2024-01-25T16:46:07"
+fetched_at: "2026-10-07T22:58:19Z"
 sha256: "e3c4d5ea760ee42a2c21b48b5c4f2436f8eb5fb9328a72091e2c9e64aeb2eba3"
 body_chars: 250
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# DevKinsta - Database Management
+# Database Management
 
+**Section:** DevKinsta
 **Product:** DevKinsta (local dev tool, not hosting)
 **Source:** https://kinsta.com/docs/devkinsta/devkinsta-database/
-**Kinsta last updated:** January 25, 2024
+**Kinsta last updated:** 2024-01-25T16:46:07
 
 ---
 

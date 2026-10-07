@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Hosting", "What happens when one site gets hacked on shared hosting?"]
-kinsta_last_updated: "2026-05-11T18:24:13+00:00"
-sitemap_lastmod: "2026-05-11T18:24:13"
-fetched_at: "2026-10-07T22:42:54Z"
-sha256: "7015da8a6df722630dead960a09ededf883a14c0efde32fe7df26bb5c275ddfe"
-body_chars: 10983
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-11T18:24:13"
+change_signal: "2026-05-11T18:24:13"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "552c36b014af8a6fb8db99ed61ba3c962fb6744d0fb34f9c41390329d1d22539"
+body_chars: 10099
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # What happens when one site gets hacked on shared hosting?
 
-**Section:** Resource Center > Blog > WordPress Hosting > What happens when one site gets hacked on shared hosting?
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/shared-hosting-security-risks/
-**Kinsta last updated:** 2026-05-11T18:24:13+00:00
+**Kinsta last updated:** 2026-05-11T18:24:13
 
 ## On this page
 
@@ -33,17 +32,6 @@ status: "live"
 - [Understanding what site isolation means for your hosting strategy](#understanding-what-site-isolation-means-for-your-hosting-strategy)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   May 11, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/01/what-happens-when-one-site-gets-hacked-on-shared-hosting-1024x512.png)
 
 Managing client sites at scale requires thinking about infrastructure security in ways beyond simply installing security plugins or enforcing strong passwords.
 
@@ -141,13 +129,3 @@ Shifting from shared hosting to an isolated container architecture can change th
 Across multiple client sites on shared hosting, the probability of at least one site experiencing a security incident approaches near-certainty. The real question becomes whether that incident stays contained to a single site or creates cascading problems across your entire portfolio.
 
 For agencies and teams managing many WordPress sites, hosting is ultimately a portfolio-level risk decision. If you’re looking for infrastructure designed specifically for managing sites at scale, [Kinsta offers solutions tailored for agencies](https://kinsta.com/wordpress-hosting/agencies/) and high-volume WordPress environments.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

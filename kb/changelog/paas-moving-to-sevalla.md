@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Application, database, and static site hosting are moving to Sevalla"]
-kinsta_last_updated: "2026-02-02T15:06:11+00:00"
-sitemap_lastmod: "2026-02-02T15:06:11+00:00"
-fetched_at: "2026-10-07T22:37:13Z"
-sha256: "34095e1e711eefbb94579a8dfea49fa95b0c32c35629c1ddce534c036265ab57"
-body_chars: 3842
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-02-02T15:06:11"
+change_signal: "2026-02-02T15:06:11"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "3e956322cde1716b98b630e862220c1243fa65355e42686b9fb73b3667a8a445"
+body_chars: 3663
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Application, database, and static site hosting are moving to Sevalla
 
-**Section:** Changelog > Application, database, and static site hosting are moving to Sevalla
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/paas-moving-to-sevalla/
-**Kinsta last updated:** 2026-02-02T15:06:11+00:00
+**Kinsta last updated:** 2026-02-02T15:06:11
 
 ## On this page
 
@@ -30,11 +29,6 @@ status: "live"
 - [Getting started with Sevalla](#getting-started-with-sevalla)
 
 ---
-
-Published
-:   February 2, 2026
-
-![](https://kinsta.com/wp-content/uploads/2026/01/featured-image-Application-database-and-static-site-hosting-are-moving-to-Sevalla-1024x536.png)
 
 Over the past few years, Kinsta expanded beyond managed WordPress hosting to support applications, databases, and static sites. As these services evolved, it became clear that they benefit from a dedicated platform built specifically for modern, cloud-native workloads.
 

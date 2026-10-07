@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Add more WordPress sites to your existing hosting plan at Kinsta"]
-kinsta_last_updated: "2025-01-22T18:46:15+00:00"
-sitemap_lastmod: "2025-01-22T18:46:15+00:00"
-fetched_at: "2026-10-07T22:37:01Z"
-sha256: "1c320d1aaa8d0b315789f227d1535be5fcd30325f1c9b2ab87f3df99e6d57c0d"
-body_chars: 3336
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-01-22T18:46:15"
+change_signal: "2025-01-22T18:46:15"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "4d68aac145ae6188c9b8821f4b4cfc9e669c36e3889046722587ebbc30b536fa"
+body_chars: 3122
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Add more WordPress sites to your existing hosting plan at Kinsta
 
-**Section:** Changelog > Add more WordPress sites to your existing hosting plan at Kinsta
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/add-wordpress-sites/
-**Kinsta last updated:** 2025-01-22T18:46:15+00:00
+**Kinsta last updated:** 2025-01-22T18:46:15
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [Adding up Kinsta’s WordPress add-ons](#adding-up-kinstas-wordpress-add-ons)
 
 ---
-
-Updated
-:   January 22, 2025
-
-![Illustration representing the sites add-on with the words: 'Add more WordPress sites.'](https://kinsta.com/wp-content/uploads/2024/09/changelog-wordpress-sites-add-on-1024x536.png)
 
 Kinsta’s [Managed WordPress Hosting](https://kinsta.com/wordpress-hosting/) customers can now increase the number of sites they manage without making a leap to a higher-tier plan.
 

@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/devkinsta/devkinsta-integration/"
-title: "DevKinsta"
+title: "Kinsta Integration"
 tier: "docs"
 product: "devkinsta"
 product_label: "DevKinsta (local dev tool, not hosting)"
 subsection: "devkinsta-integration"
-section: []
-kinsta_last_updated: "August 19, 2024"
-sitemap_lastmod: "2024-08-19T12:36:52+00:00"
-fetched_at: "2026-10-07T22:38:19Z"
-sha256: "9946d204ff220cb6142f4c16f555721bf60cc3fd6db004e5485f106ad2027786"
-body_chars: 8855
-extracted_with: "main article"
+section: ["DevKinsta"]
+kinsta_last_updated: "2024-08-19T12:36:52"
+change_signal: "2024-08-19T12:36:52"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "82a7577da11b745250b94d08cb167e56d17aea1955ceacd3eac5605d82799efb"
+body_chars: 8874
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# DevKinsta
+# Kinsta Integration
 
+**Section:** DevKinsta
 **Product:** DevKinsta (local dev tool, not hosting)
 **Source:** https://kinsta.com/docs/devkinsta/devkinsta-integration/
-**Kinsta last updated:** August 19, 2024
+**Kinsta last updated:** 2024-08-19T12:36:52
 
 ## On this page
 
@@ -43,11 +44,11 @@ This article explains how you can integrate your WordPress sites hosted on MyKin
 
 ## Pull a site from Kinsta
 
-If you have a [Kinsta](https://kinsta.com) account, you can pull your sites into DevKinsta. To import a new site in DevKinsta, see the [Import from MyKinsta section](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/creating-a-site/#import-from-mykinsta) of our Creating a Site With DevKinsta guide.
+If you have a [Kinsta](https://kinsta.com) account, you can pull your sites into DevKinsta. To import a new site in DevKinsta, see the [Import from MyKinsta section](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/creating-a-site#import-from-mykinsta) of our Creating a Site With DevKinsta guide.
 
 1. Select the site you want to pull to in DevKinsta.
 2. Click the **Sync** button and select **Pull from Kinsta** in the dropdown menu.
-3. If you are not already logged in to your MyKinsta account in your [DevKinsta settings](https://kinsta.com/docs/devkinsta/settings/), you’ll be prompted to log in (and [provide 2FA](https://kinsta.com/docs/user-settings/logging-in/#enable-two-factor-authentication-2-fa) if it’s enabled).
+3. If you are not already logged in to your MyKinsta account in your [DevKinsta settings](https://kinsta.com/docs/devkinsta/settings), you’ll be prompted to log in (and [provide 2FA](https://kinsta.com/docs/user-settings/logging-in/#enable-two-factor-authentication-2-fa) if it’s enabled).
 4. Select the environment (Live, [Standard Staging](https://kinsta.com/docs/wordpress-hosting/staging-environment/), or [Premium Staging](https://kinsta.com/docs/wordpress-hosting/staging-environment/#premium-staging-environments)) you want to pull from.
 5. You can choose what to pull from your hosted site to your DevKinsta site:
    - only the selected files,
@@ -56,8 +57,6 @@ If you have a [Kinsta](https://kinsta.com) account, you can pull your sites into
 6. Click **Update local site** to begin the pull process.
 
 As an alternative backup method, when you pull a site into DevKinsta, you can make a local backup of the site using the following command:
-
-Copy
 
 ```
 docker exec -it devkinsta_fpm bash -c "cd /www/kinsta/public/SITENAME && wp db export --allow-root"
@@ -88,7 +87,7 @@ When pushing changes from DevKinsta to MyKinsta, you can only push to a Standard
 
 - [MySQL (database) password](https://kinsta.com/docs/wordpress-hosting/database-management/wordpress-database-access/).
 - [MyKinsta redirects](https://kinsta.com/docs/wordpress-hosting/redirect-rules/).
-- [PHP version](https://kinsta.com/docs/devkinsta/devkinsta-site-management/php-versions/).
+- [PHP version](https://kinsta.com/docs/devkinsta/devkinsta-site-management/php-versions).
 
 ## Create a site from a backup
 
@@ -102,7 +101,7 @@ The first thing you’ll need is a backup of the site you want to add in DevKins
 
 ### Creating a site from a backup in DevKinsta
 
-Once you have your backup file, [create a custom site](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/creating-a-site/) in DevKinsta and select the **Import backup** tab.
+Once you have your backup file, [create a custom site](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/creating-a-site) in DevKinsta and select the **Import backup** tab.
 
 ![Create a custom site and import your backup in DevKinsta.](https://kinsta.com/wp-content/uploads/2023/11/devkinsta-import-backup.png)
 
@@ -113,7 +112,7 @@ Enter your site details and click the **Create site** button. If you do not know
 - If your site is hosted at Kinsta, log in to [MyKinsta](https://my.kinsta.com/), go to**Sites** > ***sitename*** > **Info** and look for the database name under **Database access**.
 - Unpack the backup file and look for the name of the database (**.sql**) file or look for the database name in the **wp-config.php** file.
 
-A search and replace to update the URLs in the database to your local site’s URL is automatically performed during the site creation. Once the site is created, you’re ready to begin [using your local site](https://kinsta.com/docs/devkinsta/devkinsta-site-management/).
+A search and replace to update the URLs in the database to your local site’s URL is automatically performed during the site creation. Once the site is created, you’re ready to begin [using your local site](https://kinsta.com/docs/devkinsta/devkinsta-site-management).
 
 ## Manually import a backup
 
@@ -131,7 +130,7 @@ Once the backup is downloaded, extract it on your local computer.
 
 ### Creating a site in DevKinsta
 
-Create a site in DevKinsta (see our [site creation guide](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/creating-a-site/)) as usual. Once created, you’ll see the site path, which you can click to open.
+Create a site in DevKinsta (see our [site creation guide](https://kinsta.com/docs/devkinsta/devkinsta-getting-started/creating-a-site)) as usual. Once created, you’ll see the site path, which you can click to open.
 
 ![DevKinsta site information.](https://kinsta.com/wp-content/uploads/2023/11/devkinsta-dashboard.png)
 
@@ -145,7 +144,7 @@ Once you open the site path, you’ll see a standard WordPress directory structu
 
 In DevKinsta, click the **Database manager** button to open your local database. Make sure the correct database is selected in the top left in Adminer (the database manager). In the main screen that shows the table list, click the checkbox on the left in the top row of the table list. This will select all tables.
 
-![Select all tables in Adminer.](https://kinsta.com/wp-content/uploads/2021/01/site-import-adminer-1024x1020.png)
+![Select all tables in Adminer.](https://kinsta.com/wp-content/uploads/2021/01/site-import-adminer-1024x1020.png "Select all tables in Adminer.")
 
 Select all tables in Adminer.
 
@@ -158,7 +157,7 @@ Since the database is from a hosted site, there will be a lot of references to y
 You can do so with any of the following tools:
 
 - [interconnect/it Search Replace DB PHP Script](https://interconnectit.com/search-and-replace-for-wordpress-databases/)
-- [WP-CLI](https://kinsta.com/docs/devkinsta/wp-cli/)
+- [WP-CLI](https://kinsta.com/docs/devkinsta/wp-cli)
 - a plugin like [Better Find and Replace](https://wordpress.org/plugins/real-time-auto-find-and-replace/)
 
 For more info about using WP-CLI and how to search and replace URLs, check out these guides:

@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Lock down SFTP/SSH and phpMyAdmin access with IP allowlists"]
-kinsta_last_updated: "2024-07-25T01:42:54+00:00"
-sitemap_lastmod: "2024-07-25T01:42:54+00:00"
-fetched_at: "2026-10-07T22:36:53Z"
-sha256: "a951d421a34c451ae0f586e2fefe684b6b4572553445064edd9b9b95cbd1a183"
-body_chars: 4484
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-07-25T01:42:54"
+change_signal: "2024-07-25T01:42:54"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "55ba7892f0a6fe8f247a5cebbb262e8d5ae1660d0048f982691b651e83c4387d"
+body_chars: 4288
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Lock down SFTP/SSH and phpMyAdmin access with IP allowlists
 
-**Section:** Changelog > Lock down SFTP/SSH and phpMyAdmin access with IP allowlists
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/ip-allowlists/
-**Kinsta last updated:** 2024-07-25T01:42:54+00:00
+**Kinsta last updated:** 2024-07-25T01:42:54
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [We take security seriously at Kinsta](#we-take-security-seriously-at-kinsta)
 
 ---
-
-Updated
-:   July 25, 2024
-
-![An illustration representing the editing of an IP allowlist in MyKinsta.](https://kinsta.com/wp-content/uploads/2024/07/mykinsta-security-ip-allowlists-1024x536.png)
 
 Kinsta’s [Managed WordPress Hosting](https://kinsta.com/wordpress-hosting/) customers can now restrict access to their websites via SFTP/SSH and to their phpMyAdmin database dashboards to clients connecting only from allowed IP addresses.
 

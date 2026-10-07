@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Hosting", "How modern block themes are changing WordPress hosting"]
-kinsta_last_updated: "2026-03-17T11:46:54+00:00"
-sitemap_lastmod: "2026-03-17T11:46:54"
-fetched_at: "2026-10-07T22:42:41Z"
-sha256: "201eea2c56d39c95d93eec138910c761a1b0e6632b0840dd5a2856d095844aa6"
-body_chars: 11849
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-03-17T11:46:54"
+change_signal: "2026-03-17T11:46:54"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "5df2fd71ef4b305377b0299db4e9fa8dff1a6250cf3b1f1eb6779eed1cf65b4b"
+body_chars: 11216
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How modern block themes are changing WordPress hosting
 
-**Section:** Resource Center > Blog > WordPress Hosting > How modern block themes are changing WordPress hosting
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/block-themes-wordpress-hosting/
-**Kinsta last updated:** 2026-03-17T11:46:54+00:00
+**Kinsta last updated:** 2026-03-17T11:46:54
 
 ## On this page
 
@@ -50,17 +49,6 @@ status: "live"
 - [Running WordPress the way it works today](#running-wordpress-the-way-it-works-today)
 
 ---
-
-Author
-:   [Bud Kraus](https://kinsta.com/blog/author/budkraus/ "Posts by Bud Kraus")
-
-Updated
-:   March 17, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/03/how-modern-block-themes-change-hosting-1-1024x512.png)
 
 Managed WordPress hosting exists to run WordPress well. It provides an environment tuned for how WordPress behaves under load, how it handles [caching](https://kinsta.com/blog/wordpress-caching-plugins/), and how it executes PHP.
 
@@ -237,7 +225,3 @@ That is where [managed hosting for WordPress](https://kinsta.com/pricing/) make
 At Kinsta, the entire stack is built specifically for how WordPress operates today, from coordinated caching and persistent object caching to tuned PHP performance and global CDN delivery on powerful cloud infrastructure. The goal is to ensure both visitors and editors experience consistent performance, even when rendering happens dynamically.
 
 Block-based WordPress is not heavier. It is more transparent. And when the foundation is solid, that transparency works in your favor.
-
-Bud Kraus
-
-Bud Kraus has been working with WordPress as an in-class and online instructor, site developer, and content creator since 2009. He has produced instructional videos and written many articles for WordPress businesses.

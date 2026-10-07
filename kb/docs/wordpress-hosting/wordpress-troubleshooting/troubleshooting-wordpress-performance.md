@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/troubleshooting-wordpress-performance/"
-title: "Troubleshooting - Troubleshooting Performance"
+title: "Troubleshooting Performance"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-troubleshooting"
-section: []
-kinsta_last_updated: "July 1, 2025"
-sitemap_lastmod: "2025-07-01T16:33:39+00:00"
-fetched_at: "2026-10-07T22:38:47Z"
-sha256: "239eb7e4287062d0970c637fe6d486aaf7a5d17297263c44b9838aa304520a8e"
-body_chars: 5644
-extracted_with: "main article"
+section: ["WordPress Hosting", "Troubleshooting"]
+kinsta_last_updated: "2025-07-01T16:33:39"
+change_signal: "2025-07-01T16:33:39"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "ee633a3b3c69c58430d808267e6799423c4f887bb94c05ed12400d8bc834a36a"
+body_chars: 5641
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Troubleshooting - Troubleshooting Performance
+# Troubleshooting Performance
 
+**Section:** WordPress Hosting > Troubleshooting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/troubleshooting-wordpress-performance/
-**Kinsta last updated:** July 1, 2025
+**Kinsta last updated:** 2025-07-01T16:33:39
 
 ## On this page
 
@@ -46,7 +47,7 @@ In our experience, most performance issues originate from glitches in plugin or 
 
 ### Check for high admin-ajax.php usage
 
-Make sure [Ajax is properly implemented on your site](https://kinsta.com/blog/admin-ajax-php/#how-to-debug-high-adminajaxphp-usage-on-wordpress). Plugins are typically (but not always) behind high **admin-ajax.php** usage. This usually presents on the front of the site and can often be seen in [speed test reports](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/website-testing-tools/).
+Make sure [Ajax is properly implemented on your site](https://kinsta.com/blog/admin-ajax-php/#how-to-debug-high-adminajaxphp-usage-on-wordpress). Plugins are typically (but not always) behind high **admin-ajax.php** usage. This usually presents on the front of the site and can often be seen in [speed test reports](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/website-testing-tools).
 
 Another common cause for high **admin-ajax.php** usage is due to many logged-in users at the same time in the WordPress dashboard triggering the WordPress Heartbeat API to generate frequent Ajax calls.
 
@@ -103,5 +104,5 @@ To take a deeper dive into troubleshooting some common performance issues and ot
 - [How to Eliminate Render-Blocking JavaScript and CSS in WordPress](https://kinsta.com/blog/eliminate-render-blocking-javascript-css/)
 - [Leverage Browser Caching](https://kinsta.com/blog/leverage-browser-caching/)
 - [How to Fix a 500 Internal Server Error](https://kinsta.com/blog/500-internal-server-error/)
-- [How to Fix a 502 Bad Gateway Error](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/server-errors/#502-bad-gateway-error)
-- [How to Fix a 504 Gateway Timeout Error](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/server-errors/#504-gateway-timeout-error)
+- [How to Fix a 502 Bad Gateway Error](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/server-errors#502-bad-gateway-error)
+- [How to Fix a 504 Gateway Timeout Error](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/server-errors#504-gateway-timeout-error)

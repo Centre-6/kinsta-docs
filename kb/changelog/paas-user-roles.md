@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Assign team members to manage apps, databases, and static sites"]
-kinsta_last_updated: "2026-05-14T18:53:44+00:00"
-sitemap_lastmod: "2026-05-14T18:53:44+00:00"
-fetched_at: "2026-10-07T22:37:30Z"
-sha256: "83f1fd8c786990811870c1ad306af8e497e966279dfb130f20113b76f71b7e44"
-body_chars: 3883
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-14T18:53:44"
+change_signal: "2026-05-14T18:53:44"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "7c6d73f48fa83c60d74de8749f77b69a8e39219613cd81f42c334f56a22005d5"
+body_chars: 3683
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Assign team members to manage apps, databases, and static sites
 
-**Section:** Changelog > Assign team members to manage apps, databases, and static sites
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/paas-user-roles/
-**Kinsta last updated:** 2026-05-14T18:53:44+00:00
+**Kinsta last updated:** 2026-05-14T18:53:44
 
 ---
-
-Updated
-:   May 14, 2026
-
-![Illustration representing the process of assigning user roles for Kinsta's PaaS services.](https://kinsta.com/wp-content/uploads/2024/04/new-paas-user-roles-1024x536.png)
 
 Customers of Kinsta’s [Web Application Hosting](https://sevalla.com/application-hosting/), [Managed Database Hosting](https://sevalla.com/database-hosting/), and [Static Site Hosting](https://sevalla.com/static-site-hosting/) services can now assign other team members to help manage their projects within the [MyKinsta dashboard](https://kinsta.com/mykinsta/).
 

@@ -1,26 +1,25 @@
 ---
 url: "https://kinsta.com/changelog/php-8-3-now-available/"
-title: "PHP 8.3 is available to Kinsta's Managed WordPress Hosting customers"
+title: "PHP 8.3 is available to Kinsta\u2019s Managed WordPress Hosting customers"
 tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "PHP 8.3 is available to Kinsta\u2019s Managed WordPress Hosting customers"]
-kinsta_last_updated: "2024-07-25T16:21:35+00:00"
-sitemap_lastmod: "2024-07-25T16:21:35+00:00"
-fetched_at: "2026-10-07T22:36:54Z"
-sha256: "1d28efb66d5ebb6df1b20423c74a9dd7c82f38b52d9548b57a9f98f009ae3a5c"
-body_chars: 4090
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-07-25T16:21:35"
+change_signal: "2024-07-25T16:21:35"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "7b792179f3dbf1ea98e8c31e7bdb7e7ee9fe17379f96479726c1920132f0c8f8"
+body_chars: 3912
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# PHP 8.3 is available to Kinsta's Managed WordPress Hosting customers
+# PHP 8.3 is available to Kinsta’s Managed WordPress Hosting customers
 
-**Section:** Changelog > PHP 8.3 is available to Kinsta’s Managed WordPress Hosting customers
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/php-8-3-now-available/
-**Kinsta last updated:** 2024-07-25T16:21:35+00:00
+**Kinsta last updated:** 2024-07-25T16:21:35
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [Kinsta is home to fast WordPress sites](#kinsta-is-home-to-fast-wordpress-sites)
 
 ---
-
-Updated
-:   July 25, 2024
-
-![Illustration showing the PHP engine tool in MyKinsta.](https://kinsta.com/wp-content/uploads/2024/01/mykinsta-php-83-engine-available-1024x536.png)
 
 With the recent [release of PHP 8.3](https://kinsta.com/blog/php-8-3/), the Kinsta team has been working to make this “latest and greatest” version available to our [Managed WordPress Hosting](https://kinsta.com/wordpress-hosting/) customers. Our own [WordPress benchmarking](https://kinsta.com/blog/php-benchmarks/#wordpress) showed speed increases when the CMS is hosted on PHP 8.3, and now we’re excited to announce that the release is available in all Kinsta environments.
 

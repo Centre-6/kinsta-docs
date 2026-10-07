@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/support/scope-of-support/managed-wordpress-scope-of-support/"
-title: "Scope of Support - WordPress Hosting"
+title: "WordPress Hosting"
 tier: "docs"
 product: "support"
 product_label: "Support"
 subsection: "scope-of-support"
-section: []
-kinsta_last_updated: "February 19, 2026"
-sitemap_lastmod: "2026-02-19T09:13:05+00:00"
-fetched_at: "2026-10-07T22:39:34Z"
+section: ["Support", "Scope of Support"]
+kinsta_last_updated: "2026-02-19T09:13:05"
+change_signal: "2026-02-19T09:13:05"
+fetched_at: "2026-10-07T22:58:20Z"
 sha256: "bee867263a11550bf183e89bff8fff947822cf1ced29df9035354bfd03e0aebf"
 body_chars: 6805
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Scope of Support - WordPress Hosting
+# WordPress Hosting
 
+**Section:** Support > Scope of Support
 **Product:** Support
 **Source:** https://kinsta.com/docs/support/scope-of-support/managed-wordpress-scope-of-support/
-**Kinsta last updated:** February 19, 2026
+**Kinsta last updated:** 2026-02-19T09:13:05
 
 ## On this page
 

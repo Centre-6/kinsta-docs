@@ -5,27 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Move to a Visitor-Based Pricing Model"]
-kinsta_last_updated: "2026-03-09T10:24:19+00:00"
-sitemap_lastmod: "2026-03-09T10:24:19+00:00"
-fetched_at: "2026-10-07T22:37:15Z"
-sha256: "704a0b871d4d20ca7253a3b41b66a8d524b7460230e0b3ff1a96de3284dc1cad"
-body_chars: 1814
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-03-09T10:24:19"
+change_signal: "2026-03-09T10:24:19"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "234f14ec3e3a0f195b91cdf24f4742ea8a4afee434ce2bdfa93329685055c23c"
+body_chars: 1787
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Move to a Visitor-Based Pricing Model
 
-**Section:** Changelog > Move to a Visitor-Based Pricing Model
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/visitor-based-pricing-model/
-**Kinsta last updated:** 2026-03-09T10:24:19+00:00
+**Kinsta last updated:** 2026-03-09T10:24:19
 
 ---
-
-Updated
-:   March 9, 2026
 
 We have changed our pricing model from bandwidth to visitor-based. The primary reason for doing this is because the **bandwidth-based pricing model was simply too confusing** for clients. First of all, many didn’t know how to quickly look up this information. Secondly, many of our clients also utilize a CDN, so there was then the issue of determining your remaining bandwidth needs after using a CDN. All of this just wound up being too complicated, even for larger enterprise clients.
 

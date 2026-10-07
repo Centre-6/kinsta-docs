@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/wordpress-features/"
-title: "Get Started - Features"
+title: "Features"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-getting-started"
-section: []
-kinsta_last_updated: "March 9, 2026"
-sitemap_lastmod: "2026-03-09T10:30:21+00:00"
-fetched_at: "2026-10-07T22:39:38Z"
+section: ["WordPress Hosting", "Get Started"]
+kinsta_last_updated: "2026-03-09T10:30:21"
+change_signal: "2026-03-09T10:30:21"
+fetched_at: "2026-10-07T22:58:18Z"
 sha256: "e462ac07b044addf670d0a80fe3cfef2b5a69754ad37c70cb84bbda5bc5db5b2"
 body_chars: 4553
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Get Started - Features
+# Features
 
+**Section:** WordPress Hosting > Get Started
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/wordpress-features/
-**Kinsta last updated:** March 9, 2026
+**Kinsta last updated:** 2026-03-09T10:30:21
 
 ---
 

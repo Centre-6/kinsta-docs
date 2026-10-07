@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Agency", "Why client access management is the quiet scaling killer for agencies"]
-kinsta_last_updated: "2026-06-10T18:32:28+00:00"
-sitemap_lastmod: "2026-06-10T18:32:28"
-fetched_at: "2026-10-07T22:42:14Z"
-sha256: "c41842fc09cf646334ec86939b884b972479074c4c9fd1ccdaac2e6e09c10ae9"
-body_chars: 17347
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-10T18:32:28"
+change_signal: "2026-06-10T18:32:28"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "141238f40401b77eb2605a40797889d41c9f9a66086edb97288fb732859eb488"
+body_chars: 16447
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Why client access management is the quiet scaling killer for agencies
 
-**Section:** Resource Center > Blog > Agency > Why client access management is the quiet scaling killer for agencies
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/agency-client-access-management/
-**Kinsta last updated:** 2026-06-10T18:32:28+00:00
+**Kinsta last updated:** 2026-06-10T18:32:28
 
 ## On this page
 
@@ -38,17 +37,6 @@ status: "live"
 - [Your client access structure is really a relationship infrastructure](#your-client-access-structure-is-really-a-relationship-infrastructure)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   July 16, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/06/why-client-access-management-is-the-quiet-scaling-killer-for-agencies-1024x512.png)
 
 When an agency is small, managing user access is more a matter of habit than a process. You share Admin credentials because it’s faster, [grant company-level access](https://kinsta.com/docs/company-settings/user-management/#add-users-from-the-company-users-page) in [MyKinsta](https://kinsta.com/mykinsta/) because setting up a site-level user takes a few extra minutes, and leave a contractor in the system because removing them isn’t urgent.
 
@@ -215,13 +203,3 @@ Access management is an ongoing concern and can have security consequences. The 
 The next step is to put the access policy in writing using the role mapping table above, and run a first quarterly review on your existing portfolio to surface what has already accumulated. From there, the access structure you build becomes visible to clients in the right ways: a contractor who can only access staging, a client whose content tools don’t expose your hosting environment, and a clean offboarding when a project ends. That’s what it looks like when an agency operates with a process rather than a habit.
 
 For agencies managing client sites at scale, Kinsta’s [Agency Partner Program](https://kinsta.com/agency-partner-program/) gives you dedicated support, co-selling resources, and tooling designed around the way agencies hosting on Kinsta work.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

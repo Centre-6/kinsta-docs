@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Access Your Application Through the New Web Terminal"]
-kinsta_last_updated: "2026-05-14T19:07:02+00:00"
-sitemap_lastmod: "2026-05-14T19:07:02+00:00"
-fetched_at: "2026-10-07T22:37:38Z"
-sha256: "cd82bed2842a5338618cdb8bcfe7ff2db2457d61d0725a53a3fd33819b130e05"
-body_chars: 3272
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-14T19:07:02"
+change_signal: "2026-05-14T19:07:02"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "e93e0ef186b450bcfb556a1997ad8ab59fccdee425a787ea730c20626ca69593"
+body_chars: 3090
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Access Your Application Through the New Web Terminal
 
-**Section:** Changelog > Access Your Application Through the New Web Terminal
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/web-terminal/
-**Kinsta last updated:** 2026-05-14T19:07:02+00:00
+**Kinsta last updated:** 2026-05-14T19:07:02
 
 ---
-
-Updated
-:   May 14, 2026
-
-![Command line access with the new Kinsta Web Terminal feature](https://kinsta.com/wp-content/uploads/2023/05/Web_Terminal_Feature_Update_EN-1024x536.jpg)
 
 The web terminal gives you command-line access to the web process on your application so you can securely run scripts and read files. This is a useful tool for debugging issues, performance monitoring, and manually executing scripts ad-hoc.
 

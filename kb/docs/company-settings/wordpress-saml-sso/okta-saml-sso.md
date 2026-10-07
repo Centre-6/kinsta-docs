@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/company-settings/wordpress-saml-sso/okta-saml-sso/"
-title: "SAML Single Sign-On (SSO) - Okta SAML SSO"
+title: "Okta SAML SSO"
 tier: "docs"
 product: "company-settings"
 product_label: "MyKinsta Company Settings"
 subsection: "wordpress-saml-sso"
-section: []
-kinsta_last_updated: "November 14, 2025"
-sitemap_lastmod: "2025-11-14T17:51:30+00:00"
-fetched_at: "2026-10-07T22:39:05Z"
+section: ["Company Settings", "SAML Single Sign-On (SSO)"]
+kinsta_last_updated: "2025-11-14T17:51:30"
+change_signal: "2025-11-14T17:51:30"
+fetched_at: "2026-10-07T22:58:17Z"
 sha256: "003b7fcf3813bb0bfd38cc1b70f000a75290c0b49d50622c1586d8a7e2b3e130"
 body_chars: 9455
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# SAML Single Sign-On (SSO) - Okta SAML SSO
+# Okta SAML SSO
 
+**Section:** Company Settings > SAML Single Sign-On (SSO)
 **Product:** MyKinsta Company Settings
 **Source:** https://kinsta.com/docs/company-settings/wordpress-saml-sso/okta-saml-sso/
-**Kinsta last updated:** November 14, 2025
+**Kinsta last updated:** 2025-11-14T17:51:30
 
 ## On this page
 

@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/proxy-cdn-compatibility-checklist/"
-title: "CDN - Other CDN Providers"
+title: "Other CDN Providers"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-cdn"
-section: []
-kinsta_last_updated: "March 9, 2026"
-sitemap_lastmod: "2026-03-09T10:53:20+00:00"
-fetched_at: "2026-10-07T22:39:41Z"
-sha256: "8e4f4c71259fc1f74bb245a9d9e7a4034dad4633dfa47bbbe3c64bfba90cb2d8"
-body_chars: 5629
-extracted_with: "main article"
+section: ["WordPress Hosting", "CDN"]
+kinsta_last_updated: "2026-03-09T10:53:20"
+change_signal: "2026-03-09T10:53:20"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "ce15df0de3237a9f65f45decf4d70d0ba63231c0070a9800fbafb262d7038503"
+body_chars: 5628
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# CDN - Other CDN Providers
+# Other CDN Providers
 
+**Section:** WordPress Hosting > CDN
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/proxy-cdn-compatibility-checklist/
-**Kinsta last updated:** March 9, 2026
+**Kinsta last updated:** 2026-03-09T10:53:20
 
 ## On this page
 
@@ -38,7 +39,7 @@ status: "live"
 
 While we generally recommend Kinsta customers take advantage of our [Cloudflare integration](https://kinsta.com/blog/cloudflare-integration/), we understand that some sites may need to use an external proxy or CDN. We’ve tested several notable CDN and proxy services for compatibility, which we’ve documented in the articles below:
 
-1. [Fastly](https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/fastly-cdn/)
+1. [Fastly](https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/fastly-cdn)
 2. [CloudFront](https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/cloudfront/)
 3. [Imperva](https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/imperva-cdn/)
 4. [Sucuri](https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/sucuri/)

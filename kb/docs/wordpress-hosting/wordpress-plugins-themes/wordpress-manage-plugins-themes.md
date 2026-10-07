@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-manage-plugins-themes/"
-title: "Plugins and Themes - Manage Plugins and Themes"
+title: "Manage Plugins and Themes"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-plugins-themes"
-section: []
-kinsta_last_updated: "May 28, 2026"
-sitemap_lastmod: "2026-05-28T07:54:14+00:00"
-fetched_at: "2026-10-07T22:40:18Z"
-sha256: "77d5dfbc4304aa01a7e0fd01e3b1ddd54fe6ba6a8837dae59f2ef06212a134c5"
-body_chars: 18314
-extracted_with: "main article"
+section: ["WordPress Hosting", "Plugins and Themes"]
+kinsta_last_updated: "2026-05-28T07:54:14"
+change_signal: "2026-05-28T07:54:14"
+fetched_at: "2026-10-07T22:58:17Z"
+sha256: "ad8734c108c219fff54689bc386b03bbd72928a78a0d2a4a15f58cc9823fa5a0"
+body_chars: 18313
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Plugins and Themes - Manage Plugins and Themes
+# Manage Plugins and Themes
 
+**Section:** WordPress Hosting > Plugins and Themes
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-manage-plugins-themes/
-**Kinsta last updated:** May 28, 2026
+**Kinsta last updated:** 2026-05-28T07:54:14
 
 ## On this page
 
@@ -149,7 +150,7 @@ The action may take a few minutes, and a backup of your site is automatically ge
 
 To see the plugins and themes installed on your site, log in to [MyKinsta](https://my.kinsta.com/), select your site, and click on the **Plugins and themes** tab. On this page, you can:
 
-- See a list of WordPress plugins and themes installed on your site, the status, the version number, the latest update, and if the plugin uses the WordPress automatic update feature. This includes custom plugins, provided the plugin appears when you run the `wp plugin list` [WP-CLI command](https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-wp-cli/).
+- See a list of WordPress plugins and themes installed on your site, the status, the version number, the latest update, and if the plugin uses the WordPress automatic update feature. This includes custom plugins, provided the plugin appears when you run the `wp plugin list` [WP-CLI command](https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-wp-cli).
 - Activate a theme.
 - Activate or deactivate a plugin individually or in bulk.
 - Update each plugin or theme individually or in bulk.

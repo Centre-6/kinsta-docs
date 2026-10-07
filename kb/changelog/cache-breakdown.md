@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "A new view of cache performance for your WordPress site"]
-kinsta_last_updated: "2026-04-05T15:11:44+00:00"
-sitemap_lastmod: "2026-04-05T15:11:44+00:00"
-fetched_at: "2026-10-07T22:37:18Z"
-sha256: "e7f3de9e4f2cf21b79d93540a278b1c13c37c09588906afbe3b850900e80b93c"
-body_chars: 2410
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-04-05T15:11:44"
+change_signal: "2026-04-05T15:11:44"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "85d6fb0805571d61f62b1d35530ba361863c87e7dbe368ecb82df94d85cdc89b"
+body_chars: 2169
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # A new view of cache performance for your WordPress site
 
-**Section:** Changelog > A new view of cache performance for your WordPress site
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/cache-breakdown/
-**Kinsta last updated:** 2026-04-05T15:11:44+00:00
+**Kinsta last updated:** 2026-04-05T15:11:44
 
 ---
-
-Updated
-:   April 5, 2026
-
-![An illustration representing the new Cache Breakdown chart in MyKinsta, along with the text "Analytics."](https://kinsta.com/wp-content/uploads/2026/04/mykinsta-analytics-new-cache-breakdown-chart-1024x536.png)
 
 We’ve updated website analytics reporting in MyKinsta to provide a better picture of cache performance, all the way from your site’s server to Kinsta’s Cloudflare-based CDN and edge cache.
 

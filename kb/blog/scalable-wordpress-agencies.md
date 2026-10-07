@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Agency", "The end of fragile growth: Building scalable, profitable WordPress agencies"]
-kinsta_last_updated: "2026-04-10T15:37:52+00:00"
-sitemap_lastmod: "2026-04-10T15:37:52"
-fetched_at: "2026-10-07T22:43:02Z"
-sha256: "b06bfe56cf85b9d008e04bc102f91595ec3b7b908d91727dbdeebd71d5b3a37f"
-body_chars: 24821
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-04-10T15:37:52"
+change_signal: "2026-04-10T15:37:52"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "517755ec7f31e09b3a341cd965ee9d0fca088c0efaf8853a2dfc409b019cf923"
+body_chars: 23783
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # The end of fragile growth: Building scalable, profitable WordPress agencies
 
-**Section:** Resource Center > Blog > Agency > The end of fragile growth: Building scalable, profitable WordPress agencies
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/scalable-wordpress-agencies/
-**Kinsta last updated:** 2026-04-10T15:37:52+00:00
+**Kinsta last updated:** 2026-04-10T15:37:52
 
 ## On this page
 
@@ -43,17 +42,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Updated
-:   April 10, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/12/the-end-of-fragile-growth-building-scalable-profitable-wordpress-agencies-in-2026-1024x512.png)
 
 Like all organizations, businesses are social systems composed of cultural, technological, and structural elements that interact with one another. The way these elements interact determines whether an organization succeeds or fails.
 
@@ -272,11 +260,3 @@ Shifting from a fragile growth model to a stable or scalable one means transitio
 For all the reasons outlined in this article, Kinsta is not just a premium managed hosting provider; it is also a true strategic partner and an extension of your team.
 
 Try Kinsta today at no risk. Take advantage of the free trial on selected plans and experience the benefits of having a world-class hosting partner for your agency in 2026.
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

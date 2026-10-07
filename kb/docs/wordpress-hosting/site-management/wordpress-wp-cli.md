@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-wp-cli/"
-title: "Site Management - WP-CLI"
+title: "WP-CLI"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "site-management"
-section: []
-kinsta_last_updated: "August 13, 2025"
-sitemap_lastmod: "2025-08-13T07:49:53+00:00"
-fetched_at: "2026-10-07T22:38:53Z"
-sha256: "fc7ac28d840858555e459cf52d763a665192e1c303b83358ab2df416d480cfcc"
-body_chars: 10170
-extracted_with: "main article"
+section: ["WordPress Hosting", "Site Management"]
+kinsta_last_updated: "2025-08-13T07:49:53"
+change_signal: "2025-08-13T07:49:53"
+fetched_at: "2026-10-07T22:58:18Z"
+sha256: "b2026debd56fc51ce3218e62b2d5ddd6509449aec2bc62d4d2eacf05bf18c5b3"
+body_chars: 10019
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Site Management - WP-CLI
+# WP-CLI
 
+**Section:** WordPress Hosting > Site Management
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/site-management/wordpress-wp-cli/
-**Kinsta last updated:** August 13, 2025
+**Kinsta last updated:** 2025-08-13T07:49:53
 
 ## On this page
 
@@ -100,8 +101,6 @@ You’re now connected via SSH to your WordPress site.
 
 To run WP-CLI commands, you must first navigate to your site’s document root; this is where your WordPress files (such as `wp-config.php`, `wp-content`, `wp-admin`, and `wp-includes`) are located. To navigate to your site’s document root on Kinsta, enter the following command:
 
-Copy
-
 ```
 cd public
 ```
@@ -128,8 +127,6 @@ The following is a list of useful options you can add to the end of your command
 
 View a list of installed plugins with the following command:
 
-Copy
-
 ```
 wp plugin list
 ```
@@ -137,8 +134,6 @@ wp plugin list
 #### Activate a plugin
 
 To activate a plugin, use the following command, replacing `$plugin` with the name of the plugin from the `wp plugin list`.
-
-Copy
 
 ```
 wp plugin activate $plugin
@@ -148,8 +143,6 @@ wp plugin activate $plugin
 
 To deactivate a plugin, use the following command, replacing `$plugin` with the name of the plugin from the `wp plugin list`.
 
-Copy
-
 ```
 wp plugin deactivate $plugin
 ```
@@ -158,15 +151,11 @@ wp plugin deactivate $plugin
 
 To update a plugin, use the following command, replacing `$plugin` with the name of the plugin from the `wp plugin list`.
 
-Copy
-
 ```
 wp plugin update $plugin
 ```
 
 #### Update all plugins
-
-Copy
 
 ```
 wp plugin update --all
@@ -175,8 +164,6 @@ wp plugin update --all
 #### Roll back a plugin
 
 If you update a plugin that then breaks something on your site, you can roll it back by installing a specific version using the following command, replacing `$plugin` with the name of the plugin from the `wp plugin list` and `$version`with the required version number.
-
-Copy
 
 ```
 wp plugin update $plugin --version=$version
@@ -188,8 +175,6 @@ wp plugin update $plugin --version=$version
 
 To set the URL for your home page, use the following command, replacing `$URL` with the required URL.
 
-Copy
-
 ```
 wp option update home '$URL'
 ```
@@ -197,8 +182,6 @@ wp option update home '$URL'
 #### Set the site URL
 
 To set the site URL, use the following command, replacing `$URL` with the required URL.
-
-Copy
 
 ```
 wp option update siteurl '$URL'
@@ -210,8 +193,6 @@ wp option update siteurl '$URL'
 
 View a list of all WordPress users with the following command:
 
-Copy
-
 ```
 wp user list
 ```
@@ -219,8 +200,6 @@ wp user list
 #### Create a new user
 
 To create a new user, use the following command, replacing `$username` and `$emailaddress` with the user’s credentials, and `$role` with the role you want to assign the new user to, for example, administrator.
-
-Copy
 
 ```
 wp user create $username $emailaddress -–role=$role
@@ -230,8 +209,6 @@ wp user create $username $emailaddress -–role=$role
 
 To reset a user’s password, use the following command, replacing `$username`with the required username from the `wp user list`.
 
-Copy
-
 ```
 wp user reset-password $username
 ```
@@ -240,21 +217,17 @@ wp user reset-password $username
 
 To update a user, use the following command, replacing `$user`with the required username from the `wp user list`, `$field` with the field you want to update, and `$value` with the new data you want to enter.
 
-Copy
-
 ```
 wp user update $user -—$field=$value
 ```
 
 ### Cache
 
-To use the clear cache commands listed below, the [Kinsta Must Use (MU) plugin](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/) must be installed on the site.
+To use the clear cache commands listed below, the [Kinsta Must Use (MU) plugin](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin) must be installed on the site.
 
 #### Clear all cache
 
 To clear all cache, including site cache, edge cache, CDN cache, and Redis cache, use the following command:
-
-Copy
 
 ```
 wp kinsta cache purge --all
@@ -264,8 +237,6 @@ wp kinsta cache purge --all
 
 To clear the full-page cache and the edge cache, use the following command:
 
-Copy
-
 ```
 wp kinsta cache purge
 ```
@@ -273,8 +244,6 @@ wp kinsta cache purge
 #### Clear site cache without clearing edge cache
 
 To only clear the site cache, use the following command:
-
-Copy
 
 ```
 wp kinsta cache purge --site
@@ -284,8 +253,6 @@ wp kinsta cache purge --site
 
 To only clear the CDN cache, use the following command:
 
-Copy
-
 ```
 wp kinsta cache purge --cdn
 ```
@@ -294,8 +261,6 @@ wp kinsta cache purge --cdn
 
 To only clear the Redis cache, use the following command:
 
-Copy
-
 ```
 wp kinsta cache purge --object
 ```
@@ -303,8 +268,6 @@ wp kinsta cache purge --object
 #### Flush object cache
 
 Flush your site’s object cache with the following command:
-
-Copy
 
 ```
 wp cache flush
@@ -320,8 +283,6 @@ When running any search and replace on your WordPress site, we recommend [backi
 
 To replace an old URL with a new URL, use the following command, replacing `$old-domain` with the URL you want to replace and `$new-domain` with the URL you want to replace it with:
 
-Copy
-
 ```
 wp search-replace '$old-domain' '$new-domain' --skip-columns=guid
 ```
@@ -331,8 +292,6 @@ wp search-replace '$old-domain' '$new-domain' --skip-columns=guid
 #### Replace HTTP with HTTPS
 
 To update your URLs from HTTP to HTTPS, use the following command:
-
-Copy
 
 ```
 wp search-replace 'http://' 'https://' --skip-columns=guid
@@ -344,15 +303,11 @@ wp search-replace 'http://' 'https://' --skip-columns=guid
 
 If you have issues running commands in WP-CLI, this may be due to a theme or plugin experiencing a fatal error. You can add the following to your WP-CLI command to skip loading themes and plugins:
 
-Copy
-
 ```
 --skip-themes --skip-plugins
 ```
 
 For example, to get a list of users and skip the themes and plugins, you can run the following:
-
-Copy
 
 ```
 wp user list --skip-themes --skip-plugins
@@ -360,15 +315,11 @@ wp user list --skip-themes --skip-plugins
 
 If you want to skip specific plugins, you can use the following, replacing `$plugin` with the plugin name and using a comma to separate each plugin:
 
-Copy
-
 ```
 --skip-plugins=$plugin,$plugin
 ```
 
 For example:
-
-Copy
 
 ```
 wp user list --skip-plugins=wordpress-seo,wordfence

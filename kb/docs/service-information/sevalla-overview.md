@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/service-information/sevalla-overview/"
-title: "Service Information - Sevalla"
+title: "Sevalla"
 tier: "docs"
 product: "service-information"
 product_label: "Service Information"
 subsection: "sevalla-overview"
-section: []
-kinsta_last_updated: "February 19, 2026"
-sitemap_lastmod: "2026-02-19T08:57:16+00:00"
-fetched_at: "2026-10-07T22:39:33Z"
+section: ["Service Information"]
+kinsta_last_updated: "2026-02-19T08:57:16"
+change_signal: "2026-02-19T08:57:16"
+fetched_at: "2026-10-07T22:58:17Z"
 sha256: "ed093854c9f35a8ff3993eeb651eacd166c3bbd9685c8e092bf10ffc6b2aad70"
 body_chars: 6168
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Service Information - Sevalla
+# Sevalla
 
+**Section:** Service Information
 **Product:** Service Information
 **Source:** https://kinsta.com/docs/service-information/sevalla-overview/
-**Kinsta last updated:** February 19, 2026
+**Kinsta last updated:** 2026-02-19T08:57:16
 
 ## On this page
 

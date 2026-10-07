@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta Events", "Meet Kinsta in Australia this September"]
-kinsta_last_updated: "2026-08-06T13:28:55+00:00"
-sitemap_lastmod: "2026-08-06T13:28:55"
-fetched_at: "2026-10-07T22:43:09Z"
-sha256: "5d44162ead81e2e8167d046f85a5515d8888b0fe457e4e0b933216e7410cb1f3"
-body_chars: 7566
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-08-06T13:28:55"
+change_signal: "2026-08-06T13:28:55"
+fetched_at: "2026-10-07T22:58:28Z"
+sha256: "dae81b42ab4e76a9be975ffc1555e3f2e4a5e0d0bed3b9988b653238aa9c6105"
+body_chars: 7107
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Meet Kinsta in Australia this September
 
-**Section:** Resource Center > Blog > Kinsta Events > Meet Kinsta in Australia this September
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/meet-kinsta-in-australia/
-**Kinsta last updated:** 2026-08-06T13:28:55+00:00
+**Kinsta last updated:** 2026-08-06T13:28:55
 
 ## On this page
 
@@ -33,17 +32,6 @@ status: "live"
 - [Let’s meet in Australia](#lets-meet-in-australia)
 
 ---
-
-Author
-:   [Nikolett Poesz](https://kinsta.com/blog/author/nikolettpoesz/ "Posts by Nikolett Poesz")
-
-Updated
-:   August 6, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/11/australian-events-2026-1024x512.png)
 
 Following our successful tour earlier this year, Kinsta is heading back to Australia this September! From September 1 to 8, our team is looking forward to a busy week of conferences, community events, and exclusive networking dinners across Sydney, Newcastle, and Perth.
 
@@ -142,7 +130,3 @@ We’re looking forward to another busy week of conversations with Australia’s
 Whether you’re joining us at a conference, attending a masterclass, or taking a seat at one of our private dinners, we’d love to connect! Don’t miss this opportunity to meet our team in person and to learn how Kinsta can support your website, agency, or next digital project.
 
 See you in Australia!
-
-Nikolett Poesz
-
-Multilingual Content Associate at Kinsta

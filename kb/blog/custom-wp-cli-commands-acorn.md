@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Development", "How to build custom WP-CLI commands and automate WordPress maintenance with Acorn"]
-kinsta_last_updated: "2026-05-20T20:31:16+00:00"
-sitemap_lastmod: "2026-05-20T20:31:16"
-fetched_at: "2026-10-07T22:42:48Z"
-sha256: "39a4b3fc195e7ec56b486674fd14e2b3975fabb54837912772390a794b3becdf"
-body_chars: 18031
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:31:16"
+change_signal: "2026-05-20T20:31:16"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "a38f3041a6b396583c6d99d21431c168b83dffb74e4d589787af21e6d07d1a35"
+body_chars: 17149
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How to build custom WP-CLI commands and automate WordPress maintenance with Acorn
 
-**Section:** Resource Center > Blog > WordPress Development > How to build custom WP-CLI commands and automate WordPress maintenance with Acorn
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/custom-wp-cli-commands-acorn/
-**Kinsta last updated:** 2026-05-20T20:31:16+00:00
+**Kinsta last updated:** 2026-05-20T20:31:16
 
 ## On this page
 
@@ -34,17 +33,6 @@ status: "live"
 - [Custom WP-CLI commands are straightforward with Acorn and Artisan Console](#custom-wp-cli-commands-are-straightforward-with-acorn-and-artisan-console)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   May 20, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/01/automating-wordpress-maintenance-with-wp-cli-and-acorn-1024x512.png)
 
 You likely have PHP scripts that do various jobs, such as cleaning up orphaned post metadata or deleting expired transients. Over time, that collection grows and lives in a theme file, a plugin folder, or a tucked-away directory. Acorn helps to rein in this disorganization by bringing Laravel’s Artisan Console to WordPress.
 
@@ -517,13 +505,3 @@ foreach ($terms as $term) {
 You can integrate commands through SSH access and cron scheduling within Kinsta. You can also add commands to your deployment scripts to automate maintenance, for instance using [GitHub Actions](https://kinsta.com/blog/github-actions-secret/) workflows.
 
 If you’re ready to centralize your WordPress maintenance tasks with custom WP-CLI commands, [Kinsta’s managed WordPress hosting](https://kinsta.com/wordpress-hosting/) includes SSH access and WP-CLI on all plans.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

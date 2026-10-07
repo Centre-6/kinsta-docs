@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/devkinsta/wp-cli/"
-title: "DevKinsta - WP-CLI"
+title: "WP-CLI"
 tier: "docs"
 product: "devkinsta"
 product_label: "DevKinsta (local dev tool, not hosting)"
 subsection: "wp-cli"
-section: []
-kinsta_last_updated: "January 25, 2024"
-sitemap_lastmod: "2024-01-25T16:44:42+00:00"
-fetched_at: "2026-10-07T22:37:54Z"
-sha256: "310269b8ea9e055934073ef2adab0922d4ce43f8c1b217fed978d9b895a8604a"
-body_chars: 498
-extracted_with: "main article"
+section: ["DevKinsta"]
+kinsta_last_updated: "2024-01-25T16:44:42"
+change_signal: "2024-01-25T16:44:42"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "0a613dfe36efabe45aba3507b1f026b8ca18f641ff7962184e3262afa273e9fe"
+body_chars: 480
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# DevKinsta - WP-CLI
+# WP-CLI
 
+**Section:** DevKinsta
 **Product:** DevKinsta (local dev tool, not hosting)
 **Source:** https://kinsta.com/docs/devkinsta/wp-cli/
-**Kinsta last updated:** January 25, 2024
+**Kinsta last updated:** 2024-01-25T16:44:42
 
 ---
 
@@ -29,23 +30,17 @@ status: "live"
 
 Enter into `devkinsta_fpm` container:
 
-Copy
-
 ```
 docker exec -u www-data -it devkinsta_fpm bash
 ```
 
 Go to your site folder:
 
-Copy
-
 ```
 cd /www/kinsta/public/siteName
 ```
 
 Run `WP-CLI` command:
-
-Copy
 
 ```
 wp search-replace remote-domain.com my-local-site.local

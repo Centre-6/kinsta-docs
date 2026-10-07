@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta Affiliate Program", "Kinsta\u2019s Black Friday campaign is a win for affiliates"]
-kinsta_last_updated: "2025-12-03T08:56:00+00:00"
-sitemap_lastmod: "2025-12-03T08:56:00"
-fetched_at: "2026-10-07T22:43:10Z"
-sha256: "83914ac56f4f9b54b9e2dd12e08326891a5f4b2da10cff90896a5bbc5c5c3c53"
-body_chars: 5798
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-12-03T08:56:00"
+change_signal: "2025-12-03T08:56:00"
+fetched_at: "2026-10-07T22:58:28Z"
+sha256: "9e546b8bf258f7e4f72a76af361e641f4b7c6c4ea8712689271d2b1ba7a7d7e8"
+body_chars: 5005
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Kinsta’s Black Friday campaign is a win for affiliates
 
-**Section:** Resource Center > Blog > Kinsta Affiliate Program > Kinsta’s Black Friday campaign is a win for affiliates
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/black-friday-affiliates/
-**Kinsta last updated:** 2025-12-03T08:56:00+00:00
+**Kinsta last updated:** 2025-12-03T08:56:00
 
 ## On this page
 
@@ -29,17 +28,6 @@ status: "live"
 - [How affiliates can promote this offer](#how-affiliates-can-promote-this-offer)
 
 ---
-
-Author
-:   [Florina Vanani](https://kinsta.com/blog/author/florinavanani/ "Posts by Florina Vanani")
-
-Updated
-:   December 3, 2025
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![An illustration promoting Kinsta's Black Friday offer with the text, 'Our biggest hosting deal of the year.'](https://kinsta.com/wp-content/uploads/2025/11/kinsta-affiliates-black-friday-2025-1-1024x512.png)
 
 Black Friday is one of the biggest opportunities of the year for affiliates and users seeking better hosting services.
 
@@ -95,10 +83,6 @@ As a Kinsta affiliate, you can:
 - Include the discount in your existing Kinsta content
 - Add Kinsta’s offer to Black Friday deal roundups on your website or newsletter
 - Always use your affiliate link to ensure proper tracking and commission credit
-- Contact the affiliate team for any support at [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection#d8b9bebeb1b4b1b9acbdab98b3b1b6abacb9f6bbb7b5)
+- Contact the affiliate team for any support at [affiliates@kinsta.com](mailto:affiliates@kinsta.com)
 
 Black Friday is a unique and limited opportunity to maximize your affiliate earnings, attract new referrals, and help your audience access Kinsta’s unmatched performance, security, and support.
-
-Florina Vanani
-
-Florina is passionate about helping Kinsta affiliates grow. She plans strategies, looks for new opportunities, and empowers affiliates throughout their journey with support and collaboration.

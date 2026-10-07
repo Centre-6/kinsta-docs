@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Choose bandwidth or visit counts for hosting plan pricing"]
-kinsta_last_updated: "2025-10-01T16:04:58+00:00"
-sitemap_lastmod: "2025-10-01T16:04:58+00:00"
-fetched_at: "2026-10-07T22:37:09Z"
-sha256: "887249860a1c977fd0e912b38936969888eca64115a991d0de4507100767329f"
-body_chars: 4833
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-10-01T16:04:58"
+change_signal: "2025-10-01T16:04:58"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "286694eee4a6af7067fe5475ea7555b3600deb7681a1970a1257d76a130ce781"
+body_chars: 4578
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Choose bandwidth or visit counts for hosting plan pricing
 
-**Section:** Changelog > Choose bandwidth or visit counts for hosting plan pricing
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/bandwidth-or-visits-pricing/
-**Kinsta last updated:** 2025-10-01T16:04:58+00:00
+**Kinsta last updated:** 2025-10-01T16:04:58
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Published
-:   October 1, 2025
-
-![A screenshot showing the interface for updating hosting plans in MyKinsta with the words 'Bandwidth pricing.'](https://kinsta.com/wp-content/uploads/2025/10/bandwidth-pricing-option-for-kinsta-hosting-plans-1024x536.png)
 
 With the addition of [bandwidth-based pricing](https://kinsta.com/blog/bandwidth-based-plans/) for Kinsta’s WordPress hosting plans, we’ve updated the MyKinsta dashboard so that you can choose how you want us to measure activity on your existing websites.
 

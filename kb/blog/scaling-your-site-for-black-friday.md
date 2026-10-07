@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Performance", "How to scale your site for Black Friday with Kinsta\u2019s PHP performance add-on"]
-kinsta_last_updated: "2025-10-06T16:04:57+00:00"
-sitemap_lastmod: "2025-10-06T16:04:57"
-fetched_at: "2026-10-07T22:43:15Z"
-sha256: "0bd689afbad22770e020e7aa474092c427e3b000eb13cfb021543bad070bced1"
-body_chars: 11677
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-10-06T16:04:57"
+change_signal: "2025-10-06T16:04:57"
+fetched_at: "2026-10-07T22:58:28Z"
+sha256: "dd523900a101ef673c746ea45dc4b119047dfd620f6cfcd708efcd2f09053232"
+body_chars: 10935
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How to scale your site for Black Friday with Kinsta’s PHP performance add-on
 
-**Section:** Resource Center > Blog > WordPress Performance > How to scale your site for Black Friday with Kinsta’s PHP performance add-on
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/scaling-your-site-for-black-friday/
-**Kinsta last updated:** 2025-10-06T16:04:57+00:00
+**Kinsta last updated:** 2025-10-06T16:04:57
 
 ## On this page
 
@@ -38,17 +37,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Author
-:   [Jeremy Holcombe](https://kinsta.com/blog/author/jeremyholcombe/ "Posts by Jeremy Holcombe")
-
-Published
-:   October 30, 2025
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/10/how-to-scale-your-site-for-black-friday-with-kinstas-php-performance-add-on-1024x512.png)
 
 Black Friday is one of the [busiest shopping weekends](https://kinsta.com/blog/black-friday-cyber-monday-insights/) of the year for [WooCommerce](https://kinsta.com/blog/woocommerce-tutorial/) stores. It’s also one of the most stressful. A sudden wave of shoppers can push your site to its limits, causing slow load times, errors at checkout, and even complete downtime.
 
@@ -182,10 +170,3 @@ The Kinsta PHP performance add-on takes the stress out of preparing for peak dem
 Don’t let downtime eat into your biggest sales opportunity of the year. Stay prepared, stay fast, and keep every checkout running smoothly.
 
 Start scaling with the [Kinsta PHP performance add-on](https://kinsta.com/docs/wordpress-hosting/wordpress-add-ons/#php-performance-add-on) today and head into Black Friday with confidence.
-
-Jeremy Holcombe
-[Kinsta](https://kinsta.com/)
-
-Senior Editor at Kinsta, WordPress Web Developer, and Content Writer. Outside of all things WordPress, I enjoy the beach, golf, and movies. I also have tall people problems.
-
-- [LinkedIn](https://www.linkedin.com/in/jeremyholcombe/)

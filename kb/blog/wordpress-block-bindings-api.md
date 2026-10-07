@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Development", "The WordPress Block Bindings API: What it is and how to use it to build dynamic websites"]
-kinsta_last_updated: "2025-12-31T07:10:31+00:00"
-sitemap_lastmod: "2025-12-31T07:10:31"
-fetched_at: "2026-10-07T22:43:00Z"
-sha256: "50867b23e9649643f848639427bca8e81921929c9a05cac226f5ffe4a44c2843"
-body_chars: 30579
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-12-31T07:10:31"
+change_signal: "2025-12-31T07:10:31"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "fe6516855d8f907bb4aa5528ce500f17c6617e45afe712098abaa2390efe18d3"
+body_chars: 29532
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # The WordPress Block Bindings API: What it is and how to use it to build dynamic websites
 
-**Section:** Resource Center > Blog > WordPress Development > The WordPress Block Bindings API: What it is and how to use it to build dynamic websites
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-block-bindings-api/
-**Kinsta last updated:** 2025-12-31T07:10:31+00:00
+**Kinsta last updated:** 2025-12-31T07:10:31
 
 ## On this page
 
@@ -35,17 +34,6 @@ status: "live"
 - [What else can you do with the Block Bindings API?](#what-else-can-you-do-with-the-block-bindings-api)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Updated
-:   December 31, 2025
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/12/the-wordpress-block-bindings-api-what-it-is-and-how-to-use-it-to-build-dynamic-websites-1024x512.png)
 
 The Block Bindings API is a powerful tool in the block editor that lets you connect any data source to a block’s attributes.
 
@@ -751,11 +739,3 @@ WordPress is no longer just a blogging platform or a website builder. It is now 
 The more powerful your applications are, the more important your hosting service becomes. Kinsta offers Premium managed hosting with high performance, robust security, extensive automation, and top-notch support recognized as industry-leading by [G2 users](https://kinsta.com/blog/g2-awards/).
 
 The most powerful web applications require the best hosting infrastructure. Take a look at [Kinsta plans](https://kinsta.com/pricing/) to find the one that best suits your site’s needs.
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

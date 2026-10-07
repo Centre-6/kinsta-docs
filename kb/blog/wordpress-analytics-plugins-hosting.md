@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Analytics", "Why hosting-level visibility matters more than plugin-based analytics"]
-kinsta_last_updated: "2026-05-11T11:07:45+00:00"
-sitemap_lastmod: "2026-05-11T11:07:45"
-fetched_at: "2026-10-07T22:42:30Z"
-sha256: "0c1636cddf513afb631352943497ceee1c8ee6cdf267bd572060c3750871129d"
-body_chars: 13715
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-11T11:07:45"
+change_signal: "2026-05-11T11:07:45"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "8919142b2d99c700204b02d269aefd31d4816d42aefd21ea1503ce2e8d0832fc"
+body_chars: 12818
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Why hosting-level visibility matters more than plugin-based analytics
 
-**Section:** Resource Center > Blog > Analytics > Why hosting-level visibility matters more than plugin-based analytics
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-analytics-plugins-hosting/
-**Kinsta last updated:** 2026-05-11T11:07:45+00:00
+**Kinsta last updated:** 2026-05-11T11:07:45
 
 ## On this page
 
@@ -33,17 +32,6 @@ status: "live"
 - [Secure hosting-level visibility for your sites](#secure-hosting-level-visibility-for-your-sites)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   May 11, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/04/why-hosting-level-visibility-matters-more-than-plugin-based-analytics-1024x512.png)
 
 Most WordPress site owners assume that once they install a few [analytics](https://kinsta.com/blog/ga4/) or [performance plugins](https://kinsta.com/blog/wordpress-performance-plugins/), they have a clear picture of how the site is doing.
 
@@ -165,13 +153,3 @@ Plugin-based analytics still have real value. They can help you understand how W
 If you want that kind of visibility built into your hosting environment, Kinsta provides these types of analytics in the [MyKinsta](https://kinsta.com/mykinsta/) dashboard. They give you direct insight into the infrastructure side of WordPress management, so you can troubleshoot faster and make better decisions without relying on extra plugins to fill the gap.
 
 Get started with a [managed hosting plan](https://kinsta.com/wordpress-hosting/) from Kinsta today and see how you can take advantage of MyKinsta and many more excellent features.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

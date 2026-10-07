@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Welcome to the New MyKinsta"]
-kinsta_last_updated: "2026-06-22T11:00:19+00:00"
-sitemap_lastmod: "2026-06-22T11:00:19+00:00"
-fetched_at: "2026-10-07T22:37:48Z"
-sha256: "fcbb231d66427bc9087b0a31be2aefd23687f26c877ddb1d1a98d7546695e927"
-body_chars: 6022
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-22T11:00:19"
+change_signal: "2026-06-22T11:00:19"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "e622f0b783c09e13da9ecc92d44a07bf9408a5d207a6bd7b8c35ce2f66e130ce"
+body_chars: 5899
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Welcome to the New MyKinsta
 
-**Section:** Changelog > Welcome to the New MyKinsta
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/new-mykinsta/
-**Kinsta last updated:** 2026-06-22T11:00:19+00:00
+**Kinsta last updated:** 2026-06-22T11:00:19
 
 ## On this page
 
@@ -30,11 +29,6 @@ status: "live"
   - [Overall Improved Contextual Information](#overall-improved-contextual-information)
 
 ---
-
-Updated
-:   June 22, 2026
-
-![The new MyKinsta](https://kinsta.com/wp-content/uploads/2022/10/Feature-Update-1024x537.png)
 
 [MyKinsta](https://kinsta.com/mykinsta/), the custom-built powerful dashboard Kinsta customers use to manage their sites, has gone through a major overhaul to pave the way for Kinsta’s [upcoming hosting solutions](https://sevalla.com/application-hosting/).
 

@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/site-management/ip-addresses/"
-title: "Site Management - IP Addresses"
+title: "IP Addresses"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "site-management"
-section: []
-kinsta_last_updated: "March 27, 2026"
-sitemap_lastmod: "2026-03-27T09:27:32+00:00"
-fetched_at: "2026-10-07T22:39:49Z"
-sha256: "c4583b7ae4c0bb85202b4c199219ba379951907d671d64f91b9ed50e25609cc1"
-body_chars: 2557
-extracted_with: "main article"
+section: ["WordPress Hosting", "Site Management"]
+kinsta_last_updated: "2026-03-27T09:27:32"
+change_signal: "2026-03-27T09:27:32"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "3f12bb84f86a3f66a3b007777bac7e84dc5db9e9a0d5a3a21cfdf0fad9761cf7"
+body_chars: 2556
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Site Management - IP Addresses
+# IP Addresses
 
+**Section:** WordPress Hosting > Site Management
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/site-management/ip-addresses/
-**Kinsta last updated:** March 27, 2026
+**Kinsta last updated:** 2026-03-27T09:27:32
 
 ## On this page
 
@@ -42,7 +43,7 @@ Site IP Address in MyKinsta.
 
 We use [Cloudflare](https://kinsta.com/cloudflare-integration/) to secure our hosting infrastructure, so the corresponding IP you see for your site is a Cloudflare IP address. This means the owner of the IP address is Cloudflare, Inc., located in the United States of America.
 
-Certain pieces of data related to your website’s visitors, files, and database will necessarily [leave that data center in a few scenarios](https://kinsta.com/docs/service-information/files-and-database-storage/).
+Certain pieces of data related to your website’s visitors, files, and database will necessarily [leave that data center in a few scenarios](https://kinsta.com/docs/service-information/files-and-database-storage).
 
 ## External IP address
 

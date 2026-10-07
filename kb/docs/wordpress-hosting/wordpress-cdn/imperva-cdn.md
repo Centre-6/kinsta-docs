@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/imperva-cdn/"
-title: "CDN - Imperva CDN"
+title: "Imperva CDN"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-cdn"
-section: []
-kinsta_last_updated: "February 11, 2026"
-sitemap_lastmod: "2026-02-11T16:47:51+00:00"
-fetched_at: "2026-10-07T22:39:24Z"
-sha256: "b1d705ef66a9f0e8046207cffd872729a84b85705d70ea743d76a591693b2f5c"
-body_chars: 15518
-extracted_with: "main article"
+section: ["WordPress Hosting", "CDN"]
+kinsta_last_updated: "2026-02-11T16:47:51"
+change_signal: "2026-02-11T16:47:51"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "c4cc61967abf2fcad55aae06d2e7e7ffa0e7b582d30d789bd0a9b8ecdedec5f6"
+body_chars: 16256
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# CDN - Imperva CDN
+# Imperva CDN
 
+**Section:** WordPress Hosting > CDN
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/imperva-cdn/
-**Kinsta last updated:** February 11, 2026
+**Kinsta last updated:** 2026-02-11T16:47:51
 
 ## On this page
 
@@ -59,7 +60,7 @@ If you don’t already have an Imperva account, you can sign up for a [free tria
 
 Log into your Imperva Cloud Security Console and go to the **Application** tab.
 
-![Navigate to the Application tab in Imperva.](https://kinsta.com/wp-content/uploads/2021/08/imperva-application-tab.png)
+![Navigate to the Application tab in Imperva.](https://kinsta.com/wp-content/uploads/2021/08/imperva-application-tab.png "Navigate to the Application tab in Imperva.")
 
 Navigate to the Application tab in Imperva.
 
@@ -67,7 +68,7 @@ Navigate to the Application tab in Imperva.
 
 Under **Add Your Website** enter your site’s domain name in the **Add a website** field. Be sure to enter the one visitors will use to reach your site ([www or non-www](https://kinsta.com/blog/wordpress-seo/#16-choose-your-preferred-domain), or even a [subdomain](https://kinsta.com/blog/wordpress-subdomain/) if that’s what your site uses) and click the **Add website** button.
 
-![Enter your site’s domain name in the Imperva console.](https://kinsta.com/wp-content/uploads/2021/08/imperva-add-website.png)
+![Enter your site’s domain name in the Imperva console.](https://kinsta.com/wp-content/uploads/2021/08/imperva-add-website.png "Enter your site’s domain name in the Imperva console.")
 
 Enter your site’s domain name in the Imperva console.
 
@@ -75,7 +76,7 @@ Enter your site’s domain name in the Imperva console.
 
 This will kick off a scan of your domain’s DNS records. Once that’s complete, you’ll see your current DNS records and options for the Imperva SSL certificate. In most cases, you’ll want to select both **Add wildcard domain SAN** and **Add naked domain SAN**, especially if your site uses the www prefix. An exception will be if the site you’re adding uses a subdomain. In that case, you would want to only select the **Add full domain SAN** option and uncheck **Add naked domain SAN**. Once you’ve made your selections, click the **Continue** button in the lower right corner.
 
-![Select add wildcard domain SAN and Add naked domain SAN.](https://kinsta.com/wp-content/uploads/2021/08/imperva-scan-complete-wildcard-san-naked-domain.png)
+![Select add wildcard domain SAN and Add naked domain SAN.](https://kinsta.com/wp-content/uploads/2021/08/imperva-scan-complete-wildcard-san-naked-domain.png "Select add wildcard domain SAN and Add naked domain SAN.")
 
 Select add wildcard domain SAN and Add naked domain SAN.
 
@@ -83,7 +84,7 @@ Select add wildcard domain SAN and Add naked domain SAN.
 
 After a few minutes, you’ll see the Configure SSL step. Click on the **Let’s start** button in the lower right corner to activate SSL.
 
-![Click the Let's start button to configure your SSL at Imperva.](https://kinsta.com/wp-content/uploads/2021/08/imperva-activate-ssl-start.png)
+![Click the Let's start button to configure your SSL at Imperva.](https://kinsta.com/wp-content/uploads/2021/08/imperva-activate-ssl-start.png "Click the Let's start button to configure your SSL at Imperva.")
 
 Click the Let’s start button to configure your SSL at Imperva.
 
@@ -100,7 +101,7 @@ There are two methods for you to verify ownership of your domain and successfull
 
 While you could use email, the process is limited to certain email addresses only. That’s why we strongly recommend the DNS method, and that’s what we’ll cover here. Click the copy (clipboard) icon to copy the value field that starts with globalsign-domain-verification= so you can add it to your DNS records for verification (see the next step).
 
-![Copy the TXT record to verify your domain for SSL installation.](https://kinsta.com/wp-content/uploads/2021/08/imperva-activate-ssl-copy-txt-record.png)
+![Copy the TXT record to verify your domain for SSL installation.](https://kinsta.com/wp-content/uploads/2021/08/imperva-activate-ssl-copy-txt-record.png "Copy the TXT record to verify your domain for SSL installation.")
 
 Copy the TXT record to verify your domain for SSL installation.
 
@@ -123,13 +124,13 @@ Note: It may take up to 1 hour for your new [DNS record to propagate](https://ki
 
 After [DNS has propagated](https://kinsta.com/blog/dns-propagation/#What-is-DNS-Propagation?), you can click the **I added the TXT records** button in Imperva to start the validation.
 
-![Click I added the TXT records button.](https://kinsta.com/wp-content/uploads/2021/08/imperva-activate-ssl-txt-added.png)
+![Click I added the TXT records button.](https://kinsta.com/wp-content/uploads/2021/08/imperva-activate-ssl-txt-added.png "Click I added the TXT records button.")
 
 Click I added the TXT records button.
 
 Once that’s complete, you’ll see the notification that an SSL certificate was issued and SSL traffic is enabled. Click the **Continue** button in the lower right corner to move on to the next step.
 
-![Click continue to activate your SSL certificate at Imperva.](https://kinsta.com/wp-content/uploads/2021/08/imperva-ssl-certificate-issued-and-enabled.png)
+![Click continue to activate your SSL certificate at Imperva.](https://kinsta.com/wp-content/uploads/2021/08/imperva-ssl-certificate-issued-and-enabled.png "Click continue to activate your SSL certificate at Imperva.")
 
 Click continue to activate your SSL certificate at Imperva.
 
@@ -162,6 +163,7 @@ Next, you’ll need to point your site to Imperva. Once again, we’ll be showin
    1. Leave the Hostname blank unless you’re adding the A record to a subdomain (add the subdomain as Hostname in that case)
    2. IPv4 Address: The second IP address shown in your Imperva console.
    3. Click the **Add DNS record** button to save your DNS record.
+
       ![Add an A second record to point to Imperva.](https://kinsta.com/wp-content/uploads/2023/11/wordpress-add-imperva-dns-a-2-1024x534.png)
 
       Add an A second record to point to Imperva.
@@ -183,7 +185,7 @@ Note: It may take up to 1 hour for your DNS records to propagate.
 
 Once DNS propagates back in your Imperva console, click the **Done** button in the lower right corner to complete the initial onboarding steps.
 
-![Click the Done button to complete onboarding in Imperva.](https://kinsta.com/wp-content/uploads/2021/08/imperva-dns-records-added.png)
+![Click the Done button to complete onboarding in Imperva.](https://kinsta.com/wp-content/uploads/2021/08/imperva-dns-records-added.png "Click the Done button to complete onboarding in Imperva.")
 
 Click the Done button to complete onboarding in Imperva.
 
@@ -192,30 +194,36 @@ Click the Done button to complete onboarding in Imperva.
 Now that DNS is pointed and onboarding is complete, you’ll be taken to the Website Settings screen. The last step is to create a Custom Cache Rule to prevent caching of pages that contain certain WordPress cookies. This prevents unintentional caching of dynamic data.
 
 1. In the left sidebar, go to **Cache** (under Configure) and scroll down until you see the **Custom Cache Rules** section. Click on the **Add Rule** button.
-   ![Add a custom rule in Impeva cache settings.](https://kinsta.com/wp-content/uploads/2021/08/imperva-cache-custom-add-rule.png)
+
+   ![Add a custom rule in Impeva cache settings.](https://kinsta.com/wp-content/uploads/2021/08/imperva-cache-custom-add-rule.png "Add a custom rule in Impeva cache settings.")
 
    Add a custom rule in Impeva cache settings.
 2. Set the following rule filters and click the **Add** button:
    1. if: *Cookie Exists
    2. ==
    3. Value: comment_author|wp-postpass|wordpress_logged_in|edd_items_in_cart|woocommerce_items_in_cart
-      ![Set the filter for your custom cache rule.](https://kinsta.com/wp-content/uploads/2021/08/imperva-cache-custom-add-rule-filter.png)
+
+      ![Set the filter for your custom cache rule.](https://kinsta.com/wp-content/uploads/2021/08/imperva-cache-custom-add-rule-filter.png "Set the filter for your custom cache rule.")
 
       Set the filter for your custom cache rule.
 3. In the Editor window, you’ll see your new custom cache rule has been added.
-   ![New custom cache rule in the cache rule editor.](https://kinsta.com/wp-content/uploads/2021/08/imperva-cache-custom-rule-filter-added-to-editor.png)
+
+   ![New custom cache rule in the cache rule editor.](https://kinsta.com/wp-content/uploads/2021/08/imperva-cache-custom-rule-filter-added-to-editor.png "New custom cache rule in the cache rule editor.")
 
    New custom cache rule in the cache rule editor.
 4. Under the Ruler Filter section, set the **Rule Action** to **Don’t Cache Resource**.
-   ![Set the Rule Action to Don’t Cache Resource.](https://kinsta.com/wp-content/uploads/2021/08/imperva-cache-custom-select-rule-action.png)
+
+   ![Set the Rule Action to Don’t Cache Resource.](https://kinsta.com/wp-content/uploads/2021/08/imperva-cache-custom-select-rule-action.png "Set the Rule Action to Don’t Cache Resource.")
 
    Set the Rule Action to Don’t Cache Resource.
 5. Under **General**, add your Rule Name (e.g., WordPress) and click the **Save** button.
-   ![Name your new custom cache rule and save it.](https://kinsta.com/wp-content/uploads/2021/08/imperva-cache-custom-add-rule-name-enable-save.png)
+
+   ![Name your new custom cache rule and save it.](https://kinsta.com/wp-content/uploads/2021/08/imperva-cache-custom-add-rule-name-enable-save.png "Name your new custom cache rule and save it.")
 
    Name your new custom cache rule and save it.
 6. Back on the Cache Settings page, you’ll see your custom rule has been added and enabled.
-   ![New custom cache rule saved and enabled.](https://kinsta.com/wp-content/uploads/2021/08/imperva-wordpress-custom-cache-rule.png)
+
+   ![New custom cache rule saved and enabled.](https://kinsta.com/wp-content/uploads/2021/08/imperva-wordpress-custom-cache-rule.png "New custom cache rule saved and enabled.")
 
    New custom cache rule saved and enabled.
 

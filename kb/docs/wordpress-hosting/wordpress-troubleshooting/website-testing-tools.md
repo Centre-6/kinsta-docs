@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/website-testing-tools/"
-title: "Troubleshooting - Speed and Load Testing"
+title: "Speed and Load Testing"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-troubleshooting"
-section: []
-kinsta_last_updated: "July 29, 2024"
-sitemap_lastmod: "2024-07-29T12:36:50+00:00"
-fetched_at: "2026-10-07T22:38:10Z"
+section: ["WordPress Hosting", "Troubleshooting"]
+kinsta_last_updated: "2024-07-29T12:36:50"
+change_signal: "2024-07-29T12:36:50"
+fetched_at: "2026-10-07T22:58:19Z"
 sha256: "85ed55d9d0b9f8d832382b29ee08408e68008fa53759d90cefb2d2a090d439f7"
 body_chars: 5367
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Troubleshooting - Speed and Load Testing
+# Speed and Load Testing
 
+**Section:** WordPress Hosting > Troubleshooting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/website-testing-tools/
-**Kinsta last updated:** July 29, 2024
+**Kinsta last updated:** 2024-07-29T12:36:50
 
 ## On this page
 

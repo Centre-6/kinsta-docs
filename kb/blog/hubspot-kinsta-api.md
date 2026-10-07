@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "API", "How to integrate HubSpot with Kinsta using the Kinsta API"]
-kinsta_last_updated: "2026-03-18T19:09:39+00:00"
-sitemap_lastmod: "2026-03-18T19:09:39"
-fetched_at: "2026-10-07T22:42:34Z"
-sha256: "53a93a272be1ff8eb135a23cae654d39169ec079d4ff2023d21ffe285953bcb6"
-body_chars: 14741
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-03-18T19:09:39"
+change_signal: "2026-03-18T19:09:39"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "39cc3a69ba077e8fbabf8c0682b4e4e9edff10147d2630302e19a94309ba2aa7"
+body_chars: 13831
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How to integrate HubSpot with Kinsta using the Kinsta API
 
-**Section:** Resource Center > Blog > API > How to integrate HubSpot with Kinsta using the Kinsta API
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/hubspot-kinsta-api/
-**Kinsta last updated:** 2026-03-18T19:09:39+00:00
+**Kinsta last updated:** 2026-03-18T19:09:39
 
 ## On this page
 
@@ -35,17 +34,6 @@ status: "live"
 - [Automating your agency’s client onboarding with HubSpot and Kinsta](#automating-your-agencys-client-onboarding-with-hubspot-and-kinsta)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   April 14, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/03/how-to-integrate-third-party-services-with-kinsta-hosting-using-the-kinsta-api-1024x513.png)
 
 When a new client signs up for your services, the time between contract and a provisioned WordPress site matters. [MyKinsta](https://kinsta.com/mykinsta/) makes creating and managing WordPress sites straightforward, but agencies handling many client projects often look for ways to automate repetitive setup tasks.
 
@@ -269,13 +257,3 @@ With the integration running, a new WordPress environment begins provisioning as
 To make the middleware accessible to HubSpot, deploy the application so it has a public endpoint. Platforms such as [Sevalla](https://sevalla.com/) (a Kinsta product) can [host Node.js applications](https://sevalla.com/application-hosting/) like this. Once the app is live, update the webhook URL in your HubSpot workflow to point to the deployed endpoint.
 
 For [Kinsta’s managed WordPress hosting](https://kinsta.com/wordpress-hosting/), API access is available on all accounts once you generate an API key in MyKinsta.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

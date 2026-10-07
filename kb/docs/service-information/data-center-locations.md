@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/service-information/data-center-locations/"
-title: "Service Information - Data Center Locations"
+title: "Data Center Locations"
 tier: "docs"
 product: "service-information"
 product_label: "Service Information"
 subsection: "data-center-locations"
-section: []
-kinsta_last_updated: "February 2, 2026"
-sitemap_lastmod: "2026-02-02T15:38:40+00:00"
-fetched_at: "2026-10-07T22:39:18Z"
+section: ["Service Information"]
+kinsta_last_updated: "2026-02-02T15:38:40"
+change_signal: "2026-02-02T15:38:40"
+fetched_at: "2026-10-07T22:58:20Z"
 sha256: "6cbb3a2e648a46d8989e52e7d787aff27587fdd630ab3e0d6bd131323e64c10e"
 body_chars: 2992
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Service Information - Data Center Locations
+# Data Center Locations
 
+**Section:** Service Information
 **Product:** Service Information
 **Source:** https://kinsta.com/docs/service-information/data-center-locations/
-**Kinsta last updated:** February 2, 2026
+**Kinsta last updated:** 2026-02-02T15:38:40
 
 ---
 

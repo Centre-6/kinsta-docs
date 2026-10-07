@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Hosting", "Why vendor trust matters more than vendor size in enterprise hosting"]
-kinsta_last_updated: "2026-06-04T15:54:58+00:00"
-sitemap_lastmod: "2026-06-04T15:54:58"
-fetched_at: "2026-10-07T22:42:16Z"
-sha256: "d2c604d5a0eaf1d10eb01c4fb4cd968c62adc645e7ce4fc3917f42219444308c"
-body_chars: 18941
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-04T15:54:58"
+change_signal: "2026-06-04T15:54:58"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "be584431d2e40f994afdbaf0cbb4f11dfbb07579ff7f7fdd2c1a685fc8d3e9e0"
+body_chars: 18043
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Why vendor trust matters more than vendor size in enterprise hosting
 
-**Section:** Resource Center > Blog > WordPress Hosting > Why vendor trust matters more than vendor size in enterprise hosting
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/vendor-trust-enterprise-wordpress-hosting/
-**Kinsta last updated:** 2026-06-04T15:54:58+00:00
+**Kinsta last updated:** 2026-06-04T15:54:58
 
 ## On this page
 
@@ -40,17 +39,6 @@ status: "live"
 - [Choose accountability over name recognition](#choose-accountability-over-name-recognition)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   July 7, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/05/why-vendor-trust-matters-more-than-vendor-size-in-enterprise-hosting-1024x512.png)
 
 Enterprise hosting decisions often start with a familiar assumption: bigger feels safer.
 
@@ -221,13 +209,3 @@ But enterprise hosting trust isn’t built on name recognition alone. It comes f
 For [enterprise WordPress sites](https://kinsta.com/wordpress-hosting/enterprise/), that matters every day. During launches. During traffic spikes. During incidents. During the routine work of keeping a business-critical site fast, secure, and dependable.
 
 [Kinsta gives enterprise teams a high-accountability hosting partner](https://kinsta.com/wordpress-hosting/enterprise/) built around clarity, performance, and support that doesn’t disappear behind layers. Instead of choosing the biggest logo in the room, teams can choose a provider that stays responsive, transparent, and focused on the work that keeps their site moving.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

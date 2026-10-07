@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-add-ons/"
-title: "WordPress Hosting - Add-Ons"
+title: "Add-Ons"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-add-ons"
-section: []
-kinsta_last_updated: "August 19, 2026"
-sitemap_lastmod: "2026-08-19T15:42:18+00:00"
-fetched_at: "2026-10-07T22:40:40Z"
-sha256: "d38d392ae9529398460023cb9bdfdcba3f5c426f9857f8e72ea98c15e36ab92b"
-body_chars: 56435
-extracted_with: "main article"
+section: ["WordPress Hosting"]
+kinsta_last_updated: "2026-08-19T15:42:18"
+change_signal: "2026-08-19T15:42:18"
+fetched_at: "2026-10-07T22:58:17Z"
+sha256: "8d81a34a6931a61720fa1ea7b5214421f4303a05f1083b095af298dcef957fee"
+body_chars: 56433
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# WordPress Hosting - Add-Ons
+# Add-Ons
 
+**Section:** WordPress Hosting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-add-ons/
-**Kinsta last updated:** August 19, 2026
+**Kinsta last updated:** 2026-08-19T15:42:18
 
 ## On this page
 
@@ -140,7 +141,7 @@ If you want to add additional staging environments, need a staging environment t
 
 You can add up to five [Premium Staging Environments](https://kinsta.com/docs/wordpress-hosting/staging-environment/#create-wordpress-standard-or-premium-staging-environment) to each WordPress site. While a Standard Staging Environment will still work for most testing, using a Premium Staging Environment is ideal for resource-intensive site testing or development.
 
-Each Premium Staging Environment has 12 CPUs, 8 GB of Memory, and the same number of PHP threads you have for your live site (based on your [plan](https://kinsta.com/pricing/)). You can also turn on [Kinsta CDN](https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/kinsta-cdn/) for a Premium Staging Environment. With a testing environment that closely matches your live environment, you can also perform [website speed tests](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/website-testing-tools/) on your test site.
+Each Premium Staging Environment has 12 CPUs, 8 GB of Memory, and the same number of PHP threads you have for your live site (based on your [plan](https://kinsta.com/pricing/)). You can also turn on [Kinsta CDN](https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/kinsta-cdn/) for a Premium Staging Environment. With a testing environment that closely matches your live environment, you can also perform [website speed tests](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/website-testing-tools) on your test site.
 
 The Premium Staging Environment add-on can be purchased for $20/month per site ([prorated](https://kinsta.com/docs/wordpress-hosting/staging-environment/#what-is-prorating)). You can purchase up to 5 premium staging add-ons per site. Each Premium Staging Environment add-on is automatically prorated, and the subscription will appear on your next billing cycle. Including the free Standard Staging Environment, this allows you to have a total of 6 environments for testing and development that are completely separate from your live site.
 
@@ -668,7 +669,7 @@ If you have enabled Kinsta Automatic Updates, this removes the add-on. The first
 
 ## Reverse proxy add-on
 
-When you use a [reverse proxy](https://kinsta.com/docs/wordpress-hosting/wordpress-domains/wordpress-reverse-proxy/), you can serve multiple sites or applications from a single domain regardless of where they are hosted. Using a reverse proxy also keeps the sites separate so they don’t share the same resources.
+When you use a [reverse proxy](https://kinsta.com/docs/wordpress-hosting/wordpress-domains/wordpress-reverse-proxy), you can serve multiple sites or applications from a single domain regardless of where they are hosted. Using a reverse proxy also keeps the sites separate so they don’t share the same resources.
 
 Reverse proxies can be complex to install, configure, and support; if your main site and subsite (proxied site) are hosted on Kinsta, you can purchase the Reverse proxy add-on for $50 per month per site, and the Kinsta support team will set up the reverse proxy for you.
 

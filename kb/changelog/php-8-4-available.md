@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "PHP 8.4 is now available for Kinsta\u2019s WordPress customers"]
-kinsta_last_updated: "2025-02-26T18:23:47+00:00"
-sitemap_lastmod: "2025-02-26T18:23:47+00:00"
-fetched_at: "2026-10-07T22:37:02Z"
-sha256: "c7eccd087a0f10e651c05e2575f4cd5f32ddcd851078d5e51e0fc52abb1d0554"
-body_chars: 4556
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-02-26T18:23:47"
+change_signal: "2025-02-26T18:23:47"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "6eb69d391981c77b536bd3d649767bed69edfc2ca7b7b5385b1644597b67fa52"
+body_chars: 4297
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # PHP 8.4 is now available for Kinsta’s WordPress customers
 
-**Section:** Changelog > PHP 8.4 is now available for Kinsta’s WordPress customers
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/php-8-4-available/
-**Kinsta last updated:** 2025-02-26T18:23:47+00:00
+**Kinsta last updated:** 2025-02-26T18:23:47
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [Kinsta: Always looking ahead](#kinsta-always-looking-ahead)
 
 ---
-
-Updated
-:   February 26, 2025
-
-![An illustration representing the PHP Settings dialog within the MyKinsta dashboard and the words: PHP 8.4.](https://kinsta.com/wp-content/uploads/2024/12/PHP-8.4-is-now-available-for-Kinstas-WordPress-customers-1024x536.png)
 
 [PHP 8.4](https://kinsta.com/blog/php-8-4/) was released in November 2024, and we’re happy to announce that this latest version of the server-side scripting language is available to customers on our [Managed Hosting](https://kinsta.com/wordpress-hosting/) platform.
 

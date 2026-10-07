@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "3 new Kinsta API endpoints for Application Hosting (CDN, Edge Caching, & clear cache)"]
-kinsta_last_updated: "2026-05-06T15:15:29+00:00"
-sitemap_lastmod: "2026-05-06T15:15:29+00:00"
-fetched_at: "2026-10-07T22:37:28Z"
-sha256: "9fdaa9e861707a5f6a2f96b60419b353abf94673c54adc466381d29d0cfc39a8"
-body_chars: 5790
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-06T15:15:29"
+change_signal: "2026-05-06T15:15:29"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "57c265010cc7e20ccbd31d02e61320d2c0a9630b6981ad696d137862889d24a9"
+body_chars: 5650
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # 3 new Kinsta API endpoints for Application Hosting (CDN, Edge Caching, & clear cache)
 
-**Section:** Changelog > 3 new Kinsta API endpoints for Application Hosting (CDN, Edge Caching, & clear cache)
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/kinsta-api-mar-2024/
-**Kinsta last updated:** 2026-05-06T15:15:29+00:00
+**Kinsta last updated:** 2026-05-06T15:15:29
 
 ## On this page
 
@@ -33,11 +32,6 @@ status: "live"
 - [Get started with Kinsta API today](#get-started-with-kinsta-api-today)
 
 ---
-
-Updated
-:   May 6, 2026
-
-![](https://kinsta.com/wp-content/uploads/2024/03/2024-03-kinsta-changelog-new-Kinsta-API-endpoints-1024x536.png)
 
 We are excited to announce the addition of three new endpoints to the [Kinsta API](https://kinsta.com/docs/kinsta-api/) for our [Application Hosting](https://sevalla.com/application-hosting/) service.
 

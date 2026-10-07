@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/caching/site-caching/"
-title: "Caching - Server Caching"
+title: "Server Caching"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "caching"
-section: []
-kinsta_last_updated: "June 3, 2026"
-sitemap_lastmod: "2026-06-03T08:56:42+00:00"
-fetched_at: "2026-10-07T22:40:23Z"
-sha256: "ce6a722ff155e81423b051176abee7eb3264737d525db11a2981a01d1cdff27b"
-body_chars: 8615
-extracted_with: "main article"
+section: ["WordPress Hosting", "Caching"]
+kinsta_last_updated: "2026-06-03T08:56:42"
+change_signal: "2026-06-03T08:56:42"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "48641b4541d4ef75642a9548aba6bd836249424f8a8723d1ee3cc33d89b2dd3b"
+body_chars: 8580
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Caching - Server Caching
+# Server Caching
 
+**Section:** WordPress Hosting > Caching
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/caching/site-caching/
-**Kinsta last updated:** June 3, 2026
+**Kinsta last updated:** 2026-06-03T08:56:42
 
 ## On this page
 
@@ -45,10 +46,12 @@ For more details, please take a look at our detailed post on the topic: [Kinsta 
 The cache is set to expire every 24 hours by default, but you can adjust this to be longer if needed. To change the cache expiration:
 
 1. Go to [MyKinsta](https://my.kinsta.com/) > **WordPress Sites** > ***sitename*** > **Caching** > **Server Caching**.
+
    ![Change the server cache expiration time in the Caching tab.](https://kinsta.com/wp-content/uploads/2023/11/wordpress-server-caching-change-expiration.png)
 
    Change the server cache expiration time in the Caching tab.
 2. Select **Change cache expiration**, in the modal/pop-up that appears, select your desired cache expiration, and click **Change expiration**.
+
    ![Choose the cache expiration time for your environment.](https://kinsta.com/wp-content/uploads/2024/07/wordpress-cache-expiration-confirm-1024x664.png)
 
    Choose the cache expiration time for your environment.
@@ -59,7 +62,7 @@ This changes the server cache and edge cache expiration. For sites that don’t 
 
 When you update posts or pages on your site, the cache should clear automatically. If it doesn’t, you can clear the cache manually; however, if the issue continues and the cache doesn’t clear after making changes, please [contact our Support Team](https://kinsta.com/docs/support/contact-support/) so we can investigate this for you.
 
-To clear the server cache for a single site, go to**Sites** > ***sitename*** > **Caching** > **Server Caching** > **Clear cache**. This also clears the [edge cache](https://kinsta.com/docs/wordpress-hosting/caching/edge-caching/) and the Redis object cache if you’ve added the [Redis addon](https://kinsta.com/docs/wordpress-hosting/caching/redis-cache/) to your site. However, it does **not** [clear the CDN cache](https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/kinsta-cdn/#how-to-disable-or-purge-kinstas-cdn), which provides an additional layer of caching for static assets (e.g. images, CSS files, JavaScript files); this needs to be cleared separately within**Sites** > ***sitename*** > **Caching** > **CDN** > **Clear CDN cache**.
+To clear the server cache for a single site, go to**Sites** > ***sitename*** > **Caching** > **Server Caching** > **Clear cache**. This also clears the [edge cache](https://kinsta.com/docs/wordpress-hosting/caching/edge-caching/) and the Redis object cache if you’ve added the [Redis addon](https://kinsta.com/docs/wordpress-hosting/caching/redis-cache/) to your site. However, it does **not**  [clear the CDN cache](https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/kinsta-cdn/#how-to-disable-or-purge-kinstas-cdn), which provides an additional layer of caching for static assets (e.g. images, CSS files, JavaScript files); this needs to be cleared separately within**Sites** > ***sitename*** > **Caching** > **CDN** > **Clear CDN cache**.
 
 To clear the server, [CDN](https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/kinsta-cdn/), and [edge cache](https://kinsta.com/docs/wordpress-hosting/caching/edge-caching/) together for one or more sites, including staging sites, at once, go to the **Sites** page, select the checkboxes next to the sites you want, click **Actions**, then **Caching**, and choose **Clear cache**. This also clears the Redis object cache if you’ve added the [Redis addon](https://kinsta.com/docs/wordpress-hosting/caching/redis-cache/) to your site.
 
@@ -69,7 +72,7 @@ Clear the server cache on the Caching tab in MyKinsta.
 
 ## Clear cache in your WordPress Dashboard
 
-The [Kinsta Must Use (MU) plugin](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/) is installed by default on all Kinsta-hosted sites. This is not your typical caching plugin, as it works on a server level. It allows you to purge the cache right from the admin bar, including:
+The [Kinsta Must Use (MU) plugin](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin) is installed by default on all Kinsta-hosted sites. This is not your typical caching plugin, as it works on a server level. It allows you to purge the cache right from the admin bar, including:
 
 - All cache.
 - Server cache (aka full-page cache).
@@ -88,7 +91,7 @@ Clear cache from your WordPress dashboard with the Kinsta MU plugin.
 
 To configure automatic purge settings (automatically clear the cache for specific URLs or paths when you make changes to your site), you can configure those URLs in the Kinsta MU Plugin Settings.
 
-Click **Kinsta Cache** in the left sidebar and add the URLs you want to purge when updates are made. For more information, check out our guide on [Adding Custom Caching URLs](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/#add-custom-caching-urls) in the Kinsta MU plugin.
+Click **Kinsta Cache** in the left sidebar and add the URLs you want to purge when updates are made. For more information, check out our guide on [Adding Custom Caching URLs](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin#add-custom-caching-urls) in the Kinsta MU plugin.
 
 - When [Edge Caching](https://kinsta.com/docs/wordpress-hosting/caching/edge-caching/) is enabled on your site, clearing the cache with the Kinsta MU plugin also clears the Edge Cache.
 - When [Kinsta’s CDN](https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/kinsta-cdn/) is enabled, clearing the cache with the Kinsta MU plugin also clears the CDN cache.
@@ -97,15 +100,11 @@ Click **Kinsta Cache** in the left sidebar and add the URLs you want to purge wh
 
 [Connect to your server with SSH](https://kinsta.com/docs/wordpress-hosting/connect-to-ssh/) and navigate to your site’s document root:
 
-Copy
-
 ```
 cd public
 ```
 
 If the Kinsta Must Use (MU) Plugin is installed on the site, you can clear the site cache and the edge cache (when [Edge Caching](https://kinsta.com/docs/wordpress-hosting/caching/edge-caching/) is enabled) with this command:
-
-Copy
 
 ```
 wp kinsta cache purge
@@ -113,15 +112,11 @@ wp kinsta cache purge
 
 If you want to clear the CDN cache, you can use the following command:
 
-Copy
-
 ```
 wp kinsta cache purge --cdn
 ```
 
 If you only want to clear the site cache without clearing the edge cache, add the `--site` flag:
-
-Copy
 
 ```
 wp kinsta cache purge --site
@@ -129,15 +124,11 @@ wp kinsta cache purge --site
 
 To clear **all** cache, add the `--all` flag:
 
-Copy
-
 ```
 wp kinsta cache purge --all
 ```
 
 Exit SSH with the following command:
-
-Copy
 
 ```
 quit

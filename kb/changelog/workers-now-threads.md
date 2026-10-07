@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Those things we called PHP workers? Now we\u2019re calling them threads"]
-kinsta_last_updated: "2024-12-18T20:51:20+00:00"
-sitemap_lastmod: "2024-12-18T20:51:20+00:00"
-fetched_at: "2026-10-07T22:37:00Z"
-sha256: "e2093d2beed7114145923f95865f4f9bf86c7c310502b442b96f6981af61af76"
-body_chars: 3561
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-12-18T20:51:20"
+change_signal: "2024-12-18T20:51:20"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "d4a72a17460151fc1e0ac24cf0092d3f9751c07b63a3300cf846e9b4b18ea02e"
+body_chars: 3323
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Those things we called PHP workers? Now we’re calling them threads
 
-**Section:** Changelog > Those things we called PHP workers? Now we’re calling them threads
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/workers-now-threads/
-**Kinsta last updated:** 2024-12-18T20:51:20+00:00
+**Kinsta last updated:** 2024-12-18T20:51:20
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [Our goal: The fastest, most reliable WordPress hosting](#our-goal-the-fastest-most-reliable-wordpress-hosting)
 
 ---
-
-Updated
-:   December 18, 2024
-
-![An illustration representing the change in terminology at Kinsta, with workers now being called threads.](https://kinsta.com/wp-content/uploads/2024/12/changelog-terminology-threads-workers-1024x536.png)
 
 This isn’t exactly an update to any of Kinsta’s services: Instead, it’s a heads-up that we’re changing the terminology for something we’ve always called PHP “workers” and adopting the more industry-standard term “threads.”
 

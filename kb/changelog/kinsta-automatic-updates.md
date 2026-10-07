@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Kinsta Automatic Updates: Hands-free WordPress plugin and theme management"]
-kinsta_last_updated: "2025-03-28T19:16:13+00:00"
-sitemap_lastmod: "2025-03-28T19:16:13+00:00"
-fetched_at: "2026-10-07T22:37:03Z"
-sha256: "9b236ae05e05bb1a2a339f9873e228ab32e81d3b170a0dc81a4daed1b1dd7c38"
-body_chars: 9211
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-03-28T19:16:13"
+change_signal: "2025-03-28T19:16:13"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "4dad5a55a36c7048f484802cec00319a9a4b760eea4ae7807bf09b9b72f0f3b7"
+body_chars: 8992
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Kinsta Automatic Updates: Hands-free WordPress plugin and theme management
 
-**Section:** Changelog > Kinsta Automatic Updates: Hands-free WordPress plugin and theme management
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/kinsta-automatic-updates/
-**Kinsta last updated:** 2025-03-28T19:16:13+00:00
+**Kinsta last updated:** 2025-03-28T19:16:13
 
 ## On this page
 
@@ -32,11 +31,6 @@ status: "live"
 - [Powerfully simple WordPress hosting](#powerfully-simple-wordpress-hosting)
 
 ---
-
-Updated
-:   March 28, 2025
-
-![An illustration representing part of the interface for the Kinsta Automatic Updates add-on.](https://kinsta.com/wp-content/uploads/2025/03/kinsta-automatic-updates-changelog-1024x536.jpg)
 
 Kinsta’s WordPress hosting customers can now automate updates of plugins and themes and be confident that an unexpected update failure won’t leave a site hanging.
 

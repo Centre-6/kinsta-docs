@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/kinsta-cdn/"
-title: "CDN"
+title: "Kinsta CDN"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-cdn"
-section: []
-kinsta_last_updated: "May 28, 2026"
-sitemap_lastmod: "2026-05-28T08:00:31+00:00"
-fetched_at: "2026-10-07T22:40:20Z"
-sha256: "9b5c5c395dc35c1337233f66adafa36433f6fbd1530b393fe32c2b302f3889af"
-body_chars: 32049
-extracted_with: "main article"
+section: ["WordPress Hosting", "CDN"]
+kinsta_last_updated: "2026-05-28T08:00:31"
+change_signal: "2026-05-28T08:00:31"
+fetched_at: "2026-10-07T22:58:18Z"
+sha256: "85a9326774563fa8e3dc4b6001f83420173b7aeff4cda3a5cf9c34b4ed008845"
+body_chars: 32043
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# CDN
+# Kinsta CDN
 
+**Section:** WordPress Hosting > CDN
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/kinsta-cdn/
-**Kinsta last updated:** May 28, 2026
+**Kinsta last updated:** 2026-05-28T08:00:31
 
 ## On this page
 
@@ -41,9 +42,9 @@ status: "live"
     - [Delete exclusions](#delete-exclusions)
   - [Important notes](#important-notes)
   - [Exclusion examples](#exclusion-examples)
-    - [Exclude all static assets in the /public/wp-content/my-custom-folder directory](#exclude-all-static-assets-in-the-publicwp-contentmy-custom-folder-directory)
+    - [Exclude all static assets in the **/public/wp-content/my-custom-folder** directory](#exclude-all-static-assets-in-the-publicwp-contentmy-custom-folder-directory)
     - [Exclude the data-feed.txt file in the public directory](#exclude-the-data-feedtxt-file-in-the-public-directory)
-    - [Exclude all static assets on the /shop/item-1 page](#exclude-all-static-assets-on-the-shopitem-1-page)
+    - [Exclude all static assets on the **/shop/item-1** page](#exclude-all-static-assets-on-the-shopitem-1-page)
     - [Exclude all PDF files from the CDN](#exclude-all-pdf-files-from-the-cdn)
 - [Image optimization](#image-optimization)
   - [Enabling image optimization](#enabling-image-optimization)
@@ -124,7 +125,7 @@ Cloudflare is a [reverse proxy service](https://kinsta.com/blog/reverse-proxy/),
 
 While Google claims there is [no SEO benefit to serving images from your primary domain](https://www.seroundtable.com/google-images-domain-name-seo-27213.html), there are still a few advantages to not having to rely on a secondary CDN domain. For example, if you share an image URL that uses a secondary CDN domain, it may return an [HTTP 404 error](https://kinsta.com/blog/how-to-fix-error-404-not-found/) if you switch your CDN provider in the future. By caching and serving static assets via your primary domain, you won’t have to worry about this problem.
 
-Lastly, being able to serve assets from the primary domain without dealing with URL rewrites for a secondary domain also improves compatibility with [WordPress multisite](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/multisite-network/).
+Lastly, being able to serve assets from the primary domain without dealing with URL rewrites for a secondary domain also improves compatibility with [WordPress multisite](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/multisite-network).
 
 ### Image optimization
 
@@ -249,7 +250,7 @@ Delete multiple file type exclusions in Kinsta CDN.
 
 ### Exclusion examples
 
-#### Exclude all static assets in the /public/wp-content/my-custom-folder directory
+#### Exclude all static assets in the **/public/wp-content/my-custom-folder** directory
 
 Add **/wp-content/my-custom-folder** to **Exclude files or folders**.
 
@@ -267,7 +268,7 @@ Add **/data-feed.txt** to **Exclude files or folders**.
 
 Add /data-feed.txt to Exclude files or folders in CDN settings.
 
-#### Exclude all static assets on the /shop/item-1 page
+#### Exclude all static assets on the **/shop/item-1** page
 
 Add **/shop/item-1** to **Exclude on URL**.
 
@@ -384,9 +385,7 @@ Clear CDN Cache in MyKinsta.
 
 ### Clear CDN cache with the Kinsta MU plugin
 
-With the [Kinsta MU plugin](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/) installed on your site, you can [clear the CDN cache in your WordPress dashboard](https://kinsta.com/docs/wordpress-hosting/caching/site-caching/) or use [WP-CLI to clear the CDN cache](https://kinsta.com/docs/wordpress-hosting/caching/site-caching/#clear-cache-with-wp-cli) with this command:
-
-Copy
+With the [Kinsta MU plugin](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin) installed on your site, you can [clear the CDN cache in your WordPress dashboard](https://kinsta.com/docs/wordpress-hosting/caching/site-caching/) or use [WP-CLI to clear the CDN cache](https://kinsta.com/docs/wordpress-hosting/caching/site-caching/#clear-cache-with-wp-cli) with this command:
 
 ```
 wp kinsta cache purge --cdn
@@ -497,8 +496,6 @@ If the value of `cf-cache-status` is `DYNAMIC` or `BYPASS` and the value of `ki-
 If you’re familiar with using Terminal (command line), you can also check HTTP headers with the `curl` command. First, you’ll need to find the URL of a static asset on your site. To do this, right-click on an image on your site, and copy the URL.
 
 Next, use the command below and substitute the full URL including the domain at the end of the command with your asset URL including your own domain.
-
-Copy
 
 ```
 curl -L -s -o /dev/null -D - https://kinstacdn.kinstalife.com/wp-content/uploads/2021/01/post-one.jpg

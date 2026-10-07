@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Bot Traffic", "How to reduce bandwidth waste without blocking legitimate users"]
-kinsta_last_updated: "2026-05-14T14:11:26+00:00"
-sitemap_lastmod: "2026-05-14T14:11:26"
-fetched_at: "2026-10-07T22:42:20Z"
-sha256: "9a5ac1c691a75d04fb3fd52f6c04246b6d3571a319317e38d01850c7038141d2"
-body_chars: 16091
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-14T14:11:26"
+change_signal: "2026-05-14T14:11:26"
+fetched_at: "2026-10-07T22:58:25Z"
+sha256: "ebdd5722bd1b0dda1eac0c0fea15b997a232b5503cd7cbc3a0c774adad281e09"
+body_chars: 15197
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How to reduce bandwidth waste without blocking legitimate users
 
-**Section:** Resource Center > Blog > Bot Traffic > How to reduce bandwidth waste without blocking legitimate users
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/reduce-bandwidth-waste-bot-traffic/
-**Kinsta last updated:** 2026-05-14T14:11:26+00:00
+**Kinsta last updated:** 2026-05-14T14:11:26
 
 ## On this page
 
@@ -35,17 +34,6 @@ status: "live"
 - [Stop serving bandwidth to traffic that returns nothing](#stop-serving-bandwidth-to-traffic-that-returns-nothing)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Published
-:   June 16, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/05/how-to-reduce-bandwidth-waste-without-blocking-legitimate-users-1024x512.png)
 
 When resource usage on a client site starts climbing without a matching increase in visits, [bot traffic](https://kinsta.com/blog/bot-traffic-vs-real-visits/) is likely the cause. Bots hitting uncacheable endpoints such as cart actions, filtered product pages, and search queries trigger PHP execution and database queries on every request. As such, your page cache never gets the chance to absorb them.
 
@@ -206,13 +194,3 @@ Unmanaged bot traffic generates server load that no code optimization reaches as
 The answer is not to block all automation, but to selectively filter the traffic that wastes resources while allowing the bots and services your site depends on.
 
 If you want more control over how automated traffic is handled on your site, Kinsta’s [Bot Protection](https://kinsta.com/bot-protection/) gives you the tools to monitor, classify, challenge, and block unwanted traffic directly from MyKinsta.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

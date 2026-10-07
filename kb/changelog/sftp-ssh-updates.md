@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Kinsta offers more ways to manage SFTP/SSH access to WordPress"]
-kinsta_last_updated: "2024-05-31T21:43:47+00:00"
-sitemap_lastmod: "2024-05-31T21:43:47+00:00"
-fetched_at: "2026-10-07T22:36:51Z"
-sha256: "4102beda978f224d547e2ab28c70232d8b1031c42af6bd122e9386cb061c758c"
-body_chars: 6411
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-05-31T21:43:47"
+change_signal: "2024-05-31T21:43:47"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "ff663fe3a9225030500a8cb092228b3f58321dee23244f8cbfb15004de61aced"
+body_chars: 6204
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Kinsta offers more ways to manage SFTP/SSH access to WordPress
 
-**Section:** Changelog > Kinsta offers more ways to manage SFTP/SSH access to WordPress
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/sftp-ssh-updates/
-**Kinsta last updated:** 2024-05-31T21:43:47+00:00
+**Kinsta last updated:** 2024-05-31T21:43:47
 
 ## On this page
 
@@ -31,11 +30,6 @@ status: "live"
 - [We’re serious about security at Kinsta](#were-serious-about-security-at-kinsta)
 
 ---
-
-Updated
-:   May 31, 2024
-
-![An illustration representing the new SFTP/SSH configuration options in MyKinsta.](https://kinsta.com/wp-content/uploads/2024/05/mykinsta-wordpress-sftp-ssh-updates-1024x536.png)
 
 We’ve enhanced secure file transfer protocol (SFTP) and secure shell (SSH) configuration options within the [MyKinsta](https://kinsta.com/mykinsta/) dashboard to give [Managed WordPress Hosting](https://kinsta.com/wordpress-hosting/) customers more control over site security.
 

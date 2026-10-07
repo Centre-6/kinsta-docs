@@ -5,29 +5,23 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Selective Push now supports deployments from live to staging"]
-kinsta_last_updated: "2024-07-05T20:21:04+00:00"
-sitemap_lastmod: "2024-07-05T18:21:04+00:00"
-fetched_at: "2026-10-07T22:36:52Z"
-sha256: "165a3e0fd926e81ea9c8fdd7917d6274b5619c6e775b93ddbb8c599c1376d2f8"
-body_chars: 3591
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-07-05T18:21:04"
+change_signal: "2024-07-05T18:21:04"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "b52d4174ee4d3a0a9da549d78b932587951b6bd269ab367f503872e7a1690e00"
+body_chars: 3341
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Selective Push now supports deployments from live to staging
 
-**Section:** Changelog > Selective Push now supports deployments from live to staging
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/selective-push-from-live/
-**Kinsta last updated:** 2024-07-05T20:21:04+00:00
+**Kinsta last updated:** 2024-07-05T18:21:04
 
 ---
-
-Published
-:   July 5, 2024
-
-![An illustration representing the deployment of assets from a live site and the words: Selective Push Environment.](https://kinsta.com/wp-content/uploads/2024/07/mykinsta-wordpress-selective-push-from-live-1024x536.png)
 
 We’ve enhanced [Selective Push](https://kinsta.com/changelog/selective-push-environment/) functionality in the MyKinsta dashboard to support the deployment of files, folders, and database tables from live WordPress websites to staging environments.
 

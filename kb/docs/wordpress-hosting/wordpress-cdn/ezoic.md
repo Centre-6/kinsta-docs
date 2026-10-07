@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/ezoic/"
-title: "CDN - Ezoic"
+title: "Ezoic"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-cdn"
-section: []
-kinsta_last_updated: "March 9, 2026"
-sitemap_lastmod: "2026-03-09T10:55:39+00:00"
-fetched_at: "2026-10-07T22:39:44Z"
-sha256: "2d4522402f320d1ae9b03a957985f33f262f09913dbaaf780dab180e8efba42c"
-body_chars: 10496
-extracted_with: "main article"
+section: ["WordPress Hosting", "CDN"]
+kinsta_last_updated: "2026-03-09T10:55:39"
+change_signal: "2026-03-09T10:55:39"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "14e05c8f4371884d76853598ecfd8d7f490801374c950f9f1837db69f3525228"
+body_chars: 10552
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# CDN - Ezoic
+# Ezoic
 
+**Section:** WordPress Hosting > CDN
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/ezoic/
-**Kinsta last updated:** March 9, 2026
+**Kinsta last updated:** 2026-03-09T10:55:39
 
 ## On this page
 
@@ -101,7 +102,7 @@ Before updating your name servers, this is a good time to note or take screensho
 
 Allow for [DNS to propagate](https://kinsta.com/blog/dns-propagation/) the name server change. This will usually be in 24 hours, but in some cases may take 48*–*72 hours.
 
-![Integration complete notification in Ezoic dashboard.](https://kinsta.com/wp-content/uploads/2021/07/ezoic-name-servers-complete.png)
+![Integration complete notification in Ezoic dashboard.](https://kinsta.com/wp-content/uploads/2021/07/ezoic-name-servers-complete.png "Integration complete notification in Ezoic dashboard.")
 
 Integration complete notification in Ezoic dashboard.
 

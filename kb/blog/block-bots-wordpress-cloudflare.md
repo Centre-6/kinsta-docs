@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Cloudflare", "How to protect your WordPress site from unwanted bot traffic with Cloudflare"]
-kinsta_last_updated: "2025-11-18T10:23:37+00:00"
-sitemap_lastmod: "2025-11-18T10:23:37"
-fetched_at: "2026-10-07T22:43:11Z"
-sha256: "e42c878480ef35d7a9b0a0074d449d86e4ab6e8b70929b520f1fa45848f9980c"
-body_chars: 10741
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-11-18T10:23:37"
+change_signal: "2025-11-18T10:23:37"
+fetched_at: "2026-10-07T22:58:28Z"
+sha256: "4a96c334089879a63af5fd0b97003d92773c0d6b4e7467dc0393da85adf207a2"
+body_chars: 9832
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # How to protect your WordPress site from unwanted bot traffic with Cloudflare
 
-**Section:** Resource Center > Blog > Cloudflare > How to protect your WordPress site from unwanted bot traffic with Cloudflare
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/block-bots-wordpress-cloudflare/
-**Kinsta last updated:** 2025-11-18T10:23:37+00:00
+**Kinsta last updated:** 2025-11-18T10:23:37
 
 ## On this page
 
@@ -34,17 +33,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   November 18, 2025
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/11/how-to-protect-your-wordpress-site-from-unwanted-bot-traffic-with-cloudflare-1024x512.png)
 
 The web is busier than ever, with not just human visitors, but an increasing wave of automated bots, [crawlers](https://kinsta.com/blog/crawler-list/), and AI tools constantly scanning websites for content and data.
 
@@ -192,13 +180,3 @@ Managing unwanted bot traffic has become part of running a modern website. With 
 For Kinsta customers, pairing these Cloudflare protections with your hosting setup helps your analytics accurately reflect real visitors and maintains consistent resource use. Prefer a built-in, no-configuration option? Kinsta’s own [Bot Protection](https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/wordpress-tools-bot-protection/) tool in MyKinsta covers much of the same ground, including blocking AI crawlers without needing a separate Cloudflare account.
 
 Together, Cloudflare and Kinsta provide you with the visibility and control to focus on your content and users, rather than chasing down bots.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

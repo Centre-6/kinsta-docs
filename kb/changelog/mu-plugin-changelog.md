@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Kinsta Must-Use Plugin \u2014 Changelog"]
-kinsta_last_updated: "2026-06-02T10:19:41+00:00"
-sitemap_lastmod: "2026-06-02T10:19:41+00:00"
-fetched_at: "2026-10-07T22:37:46Z"
-sha256: "047bfa5ad87152d74a75fb810d9d770d1b7bbd4c307322e54ea22028710070b0"
-body_chars: 12136
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-02T10:19:41"
+change_signal: "2026-06-02T10:19:41"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "8eb163a82cc08819b8666999163c3765268b0eef25d2814b16937b74ae649262"
+body_chars: 12000
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Kinsta Must-Use Plugin — Changelog
 
-**Section:** Changelog > Kinsta Must-Use Plugin — Changelog
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/mu-plugin-changelog/
-**Kinsta last updated:** 2026-06-02T10:19:41+00:00
+**Kinsta last updated:** 2026-06-02T10:19:41
 
 ## On this page
 
@@ -147,11 +146,6 @@ status: "live"
   - [Removed](#removed)
 
 ---
-
-Updated
-:   June 2, 2026
-
-![Kinsta must-use plugin](https://kinsta.com/wp-content/uploads/2021/11/kinsta-must-use-plugin-1024x512.png)
 
 The [Kinsta MU plugin](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/) is installed by default on every site hosted at Kinsta and is required to make sure your site runs smoothly in our environment. Check out our documentation on [how to manage its settings](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/#kinsta-mu-plugin-settings) or [update it](https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin#update-the-kinsta-mu-plugin).
 

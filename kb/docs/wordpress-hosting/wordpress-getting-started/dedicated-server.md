@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/dedicated-server/"
-title: "Get Started - Dedicated Server"
+title: "Dedicated Server"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-getting-started"
-section: []
-kinsta_last_updated: "February 4, 2026"
-sitemap_lastmod: "2026-02-04T18:12:25+00:00"
-fetched_at: "2026-10-07T22:39:20Z"
-sha256: "30c8594cdd74ee3b23285be7743c88adff6370e443db64e235be46ba7d1b910f"
-body_chars: 7872
-extracted_with: "main article"
+section: ["WordPress Hosting", "Get Started"]
+kinsta_last_updated: "2026-02-04T18:12:25"
+change_signal: "2026-02-04T18:12:25"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "90b356d85382f00db1dafd80796a145d5d2c3f5dd2ef820f17da6bba7d3aa23a"
+body_chars: 7869
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Get Started - Dedicated Server
+# Dedicated Server
 
+**Section:** WordPress Hosting > Get Started
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/dedicated-server/
-**Kinsta last updated:** February 4, 2026
+**Kinsta last updated:** 2026-02-04T18:12:25
 
 ## On this page
 
@@ -60,8 +61,8 @@ Our team will need this information, along with some other details, to provide a
 - The dedicated server subscription automatically renews and remains active and billable until you [contact our Account Management team](https://kinsta.com/contact-us/) to cancel it.
 - Your current hosting plan at Kinsta needs to be active and have enough visits and disk space for all sites on your plan.
 - **If you anticipate an increase in traffic, and this is your reason for purchasing a dedicated server, ensure your current plan is large enough for that increase. If not, you’ll need to upgrade your plan first.**For example, if you’re currently on a Single 125k plan (125,000 visits/month) and expect your site to receive 1,000,000 visitors, you’ll want to upgrade to at least a Single 1.25M plan that supports 1,250,000 visits/month.
-- Our team’s recommendations are based purely on the data provided and from visiting the site. We do not provide consultation services on how to [improve performance](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/troubleshooting-wordpress-performance/) or find bottlenecks.
-- Adding a dedicated server to an account does not ensure the site will support the intended traffic. Consideration should still be made for how well the [site caches](https://kinsta.com/docs/wordpress-hosting/caching/), how well-optimized the code is, and how much traffic is expected.
+- Our team’s recommendations are based purely on the data provided and from visiting the site. We do not provide consultation services on how to [improve performance](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/troubleshooting-wordpress-performance) or find bottlenecks.
+- Adding a dedicated server to an account does not ensure the site will support the intended traffic. Consideration should still be made for how well the [site caches](https://kinsta.com/docs/wordpress-hosting/caching), how well-optimized the code is, and how much traffic is expected.
 - When you create a [staging environment](https://kinsta.com/docs/wordpress-hosting/staging-environment/) (premium or standard) on a dedicated server, it shares the same resources as the live site. The resources for the staging environments can be adjusted to avoid causing issues with the live site. [Contact our Support team](https://kinsta.com/docs/support/contact-support/) to check the resources on your server, and we will adjust the staging environment resources if required.
 - You can request a server with greater or fewer resources based on how you prefer to move forward.
 
@@ -78,7 +79,7 @@ Our team will need this information, along with some other details, to provide a
 - How will a typical visitor use the site? For example, will they reach a landing page, select a product, and check out? Will they log into the website, select a course, and complete the course by watching videos and reading copy, or something else?
 - If your site is an ecommerce site, requires users to log in, or allows visitors to post content other than comments (like a forum, for example), what plugins are you using for these interactive features (e.g. WooCommerce, BuddyPress, bbPress, Easy Digital Downloads, LearnDash, etc.)?
 - How many [staging environments](https://kinsta.com/docs/wordpress-hosting/staging-environment/) do you require? You can have one standard staging environment and up to five premium staging environments. On a dedicated server, the live and staging environments share the same resources.
-- Is your site a standard WordPress installation, or is it a [multisite installation](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/multisite-network/)?
+- Is your site a standard WordPress installation, or is it a [multisite installation](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/multisite-network)?
 
 If there’s any additional information you think we should know, please include that with your request.
 

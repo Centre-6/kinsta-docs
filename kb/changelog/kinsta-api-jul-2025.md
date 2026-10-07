@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Reset sites, manage DNS records, and more with Kinsta API"]
-kinsta_last_updated: "2026-05-20T20:31:55+00:00"
-sitemap_lastmod: "2026-05-20T20:31:55+00:00"
-fetched_at: "2026-10-07T22:37:43Z"
-sha256: "c05ee157989d554eed203ca47803a18af97d73ab5d4fafb8298c6248ab88cdac"
-body_chars: 8400
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:31:55"
+change_signal: "2026-05-20T20:31:55"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "80eea4137a6bf27148df247e7108a83c26c0bf3acec408ad5aa04c668ca468a8"
+body_chars: 8284
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Reset sites, manage DNS records, and more with Kinsta API
 
-**Section:** Changelog > Reset sites, manage DNS records, and more with Kinsta API
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/kinsta-api-jul-2025/
-**Kinsta last updated:** 2026-05-20T20:31:55+00:00
+**Kinsta last updated:** 2026-05-20T20:31:55
 
 ## On this page
 
@@ -33,11 +32,6 @@ status: "live"
 - [More flexibility for your workflows](#more-flexibility-for-your-workflows)
 
 ---
-
-Updated
-:   May 20, 2026
-
-![](https://kinsta.com/wp-content/uploads/2025/07/new-kinsta-api-endpoints-1024x536.png)
 
 We’ve rolled out a new set of [API](https://api-docs.kinsta.com/) endpoints and enhancements focused on giving WordPress developers more control over site operations, DNS configuration, and resource settings.
 

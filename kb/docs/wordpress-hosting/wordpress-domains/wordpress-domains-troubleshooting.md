@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-domains/wordpress-domains-troubleshooting/"
-title: "Domains and DNS - Domain and DNS Troubleshooting"
+title: "Domain and DNS Troubleshooting"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-domains"
-section: []
-kinsta_last_updated: "August 5, 2026"
-sitemap_lastmod: "2026-08-05T15:24:44+00:00"
-fetched_at: "2026-10-07T22:40:37Z"
+section: ["WordPress Hosting", "Domains and DNS"]
+kinsta_last_updated: "2026-08-05T14:41:56"
+change_signal: "2026-08-05T14:41:56"
+fetched_at: "2026-10-07T22:58:16Z"
 sha256: "7927b3e84680ab92460098f25eb0ae0754d66f0093b56c8fb9e57c573346e136"
 body_chars: 5655
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Domains and DNS - Domain and DNS Troubleshooting
+# Domain and DNS Troubleshooting
 
+**Section:** WordPress Hosting > Domains and DNS
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-domains/wordpress-domains-troubleshooting/
-**Kinsta last updated:** August 5, 2026
+**Kinsta last updated:** 2026-08-05T14:41:56
 
 ## On this page
 

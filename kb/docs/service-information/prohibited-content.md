@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/service-information/prohibited-content/"
-title: "Service Information - Prohibited Content"
+title: "Prohibited Content"
 tier: "docs"
 product: "service-information"
 product_label: "Service Information"
 subsection: "prohibited-content"
-section: []
-kinsta_last_updated: "July 18, 2024"
-sitemap_lastmod: "2024-07-18T09:49:01+00:00"
-fetched_at: "2026-10-07T22:38:09Z"
+section: ["Service Information"]
+kinsta_last_updated: "2024-07-18T09:49:01"
+change_signal: "2024-07-18T09:49:01"
+fetched_at: "2026-10-07T22:58:20Z"
 sha256: "cfe52175f5b8f92a9a9194a6346f966921d1d2eaa90c7db9969096a287576513"
 body_chars: 2411
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Service Information - Prohibited Content
+# Prohibited Content
 
+**Section:** Service Information
 **Product:** Service Information
 **Source:** https://kinsta.com/docs/service-information/prohibited-content/
-**Kinsta last updated:** July 18, 2024
+**Kinsta last updated:** 2024-07-18T09:49:01
 
 ## On this page
 

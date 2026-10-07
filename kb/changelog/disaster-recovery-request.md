@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "It\u2019s easier to get started with Kinsta Disaster Recovery"]
-kinsta_last_updated: "2026-09-08T17:46:30+00:00"
-sitemap_lastmod: "2026-09-08T18:27:27+00:00"
-fetched_at: "2026-10-07T22:37:51Z"
-sha256: "ab092d0b11403370c8034401f6fc6f5c296574edd532b13675d8c9e41a4d333a"
-body_chars: 3938
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-09-08T17:46:30"
+change_signal: "2026-09-08T17:46:30"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "558e43227bb0b64d2ea3e8c954d7aa77d82f0e89ea77831dbffe2d91d13e8d2c"
+body_chars: 3695
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # It’s easier to get started with Kinsta Disaster Recovery
 
-**Section:** Changelog > It’s easier to get started with Kinsta Disaster Recovery
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/disaster-recovery-request/
-**Kinsta last updated:** 2026-09-08T17:46:30+00:00
+**Kinsta last updated:** 2026-09-08T17:46:30
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [Do you need a dedicated server for your WordPress site?](#do-you-need-a-dedicated-server-for-your-wordpress-site)
 
 ---
-
-Published
-:   September 8, 2026
-
-![An illustration representing replication of a website across data centers with the words 'Disaster recovery.'](https://kinsta.com/wp-content/uploads/2026/08/kinstas-disaster-recovery-changelog-1024x536.png)
 
 We’ve made it simpler for our dedicated-server customers to request, cancel, and manage disaster recovery protection for their valuable WordPress properties.
 

@@ -1,26 +1,25 @@
 ---
 url: "https://kinsta.com/changelog/site-transfer-tool/"
-title: "Transfer Sites to Another Company with Kinsta's Enhanced Site Transfer Tool"
+title: "Transfer Sites to Another Company with Kinsta\u2019s Enhanced Site Transfer Tool"
 tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Transfer Sites to Another Company with Kinsta\u2019s Enhanced Site Transfer Tool"]
-kinsta_last_updated: "2026-04-20T09:31:38+00:00"
-sitemap_lastmod: "2026-04-20T09:31:38+00:00"
-fetched_at: "2026-10-07T22:37:20Z"
-sha256: "5375c41b7dcd2d56009c87d839674058bcf89c278051d6d45ae803f3d06d54f3"
-body_chars: 6052
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-04-20T09:31:38"
+change_signal: "2026-04-20T09:31:38"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "b663550a35f6729023e4a6791a2848d12e5ff28e1184ab9bf314db67d082a7f2"
+body_chars: 5896
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Transfer Sites to Another Company with Kinsta's Enhanced Site Transfer Tool
+# Transfer Sites to Another Company with Kinsta’s Enhanced Site Transfer Tool
 
-**Section:** Changelog > Transfer Sites to Another Company with Kinsta’s Enhanced Site Transfer Tool
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/site-transfer-tool/
-**Kinsta last updated:** 2026-04-20T09:31:38+00:00
+**Kinsta last updated:** 2026-04-20T09:31:38
 
 ## On this page
 
@@ -32,11 +31,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Updated
-:   April 20, 2026
-
-![Transferrable site enhancements](https://kinsta.com/wp-content/uploads/2021/11/transferrable-site-enhancements-1024x512.png)
 
 Thanks to [different user roles](https://kinsta.com/docs/company-settings/user-management/#user-roles), Kinsta customers have full control of fine-tuning user access to websites that belong under their accounts. This addresses the needs of all professionals involved in a website but leaves projects hand-offs still an additional procedure for which you had to get help from our Customer Support team.
 

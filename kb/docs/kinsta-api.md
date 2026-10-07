@@ -6,12 +6,12 @@ product: "kinsta-api"
 product_label: "Kinsta API (overview page)"
 subsection:
 section: []
-kinsta_last_updated: "May 14, 2026"
-sitemap_lastmod: "2026-05-14T14:43:54+00:00"
-fetched_at: "2026-10-07T22:40:10Z"
+kinsta_last_updated: "2026-05-14T14:43:54"
+change_signal: "2026-05-14T14:43:54"
+fetched_at: "2026-10-07T22:58:20Z"
 sha256: "72fa316670bb642e7aa66b4747d2cdfb78578232190c886286d8c42d47760bd9"
 body_chars: 7087
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
@@ -19,7 +19,7 @@ status: "live"
 
 **Product:** Kinsta API (overview page)
 **Source:** https://kinsta.com/docs/kinsta-api/
-**Kinsta last updated:** May 14, 2026
+**Kinsta last updated:** 2026-05-14T14:43:54
 
 ## On this page
 

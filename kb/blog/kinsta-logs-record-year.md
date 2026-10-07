@@ -5,35 +5,23 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta News", "Kinsta logs record year as top choice for serious WordPress businesses, with 60% customer growth, new executive hires and a platform buildout"]
-kinsta_last_updated: "2026-04-06T09:04:23+00:00"
-sitemap_lastmod: "2026-04-06T09:04:23"
-fetched_at: "2026-10-07T22:42:37Z"
-sha256: "6474328fa85db740933177096c3346df3a5daeae50200531b6ef24d10462ccbf"
-body_chars: 6429
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-04-06T09:04:23"
+change_signal: "2026-04-06T09:04:23"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "57a0918f819e35e3d755a9f4be5bca1616134152d033a5a62ad2d56bf7bac9d6"
+body_chars: 5768
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Kinsta logs record year as top choice for serious WordPress businesses, with 60% customer growth, new executive hires and a platform buildout
 
-**Section:** Resource Center > Blog > Kinsta News > Kinsta logs record year as top choice for serious WordPress businesses, with 60% customer growth, new executive hires and a platform buildout
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/kinsta-logs-record-year/
-**Kinsta last updated:** 2026-04-06T09:04:23+00:00
+**Kinsta last updated:** 2026-04-06T09:04:23
 
 ---
-
-Author
-:   [Kinsta](https://kinsta.com/blog/author/kinstateam/ "Posts by Kinsta")
-
-Updated
-:   April 6, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/03/kinsta-momentum-press-release-featured-img-1024x512.png)
 
 *The company that G2 just ranked #1 across all web hosting is evolving beyond managed WordPress into a full-stack platform for developers, agencies, and enterprise teams*
 
@@ -72,7 +60,3 @@ Serving small companies to Fortune 500 enterprises, Kinsta supports more than 23
 For more information about Kinsta and to sign up for a risk-free trial, visit [kinsta.com](https://kinsta.com/).
 
 This content was originally published on [Business Wire](https://www.businesswire.com/news/home/20260331370611/en/Kinsta-Logs-Record-Year-as-Top-Choice-for-Serious-WordPress-Businesses-With-60-Customer-Growth-New-Executive-Hires-and-a-Platform-Buildout?feedref=JjAwJuNHiystnCoBq_hl-YuSr57erpAIbLeyuQLuxVtJ97jVXUEoD5vq_ZlWtJI2z51RgqIO9jteeI1Kq_zxBxjUZ7-9_1AgxnhqXMh__QehJxdQLfq8lvnoBbJhjyX2).
-
-Kinsta
-
-The Kinsta Team consists of WordPress experts, performance engineers, and support professionals passionate about fast, secure, and scalable hosting. We publish in-depth guides, research, and practical advice to help you build and grow with WordPress.

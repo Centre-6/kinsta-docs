@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "API", "Automate your Kinsta workflows with Zapier and the Kinsta API"]
-kinsta_last_updated: "2026-03-26T19:36:43+00:00"
-sitemap_lastmod: "2026-03-26T19:36:43"
-fetched_at: "2026-10-07T22:42:38Z"
-sha256: "8cda5166e19a65b988299133949ad92d391be40b9588595b0372fffe6cf8a054"
-body_chars: 10091
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-03-26T19:36:43"
+change_signal: "2026-03-26T19:36:43"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "afa792ac7d1a5e34ad8697bc00fc081b6f230bbfdb89e51c8e60acf1fd128dae"
+body_chars: 9200
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Automate your Kinsta workflows with Zapier and the Kinsta API
 
-**Section:** Resource Center > Blog > API > Automate your Kinsta workflows with Zapier and the Kinsta API
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/automate-workflows-zapier-kinsta-api/
-**Kinsta last updated:** 2026-03-26T19:36:43+00:00
+**Kinsta last updated:** 2026-03-26T19:36:43
 
 ## On this page
 
@@ -33,17 +32,6 @@ status: "live"
 - [Making your hosting environment programmable](#making-your-hosting-environment-programmable)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   March 26, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/03/automate-your-kinsta-workflows-with-zapier-and-the-kinsta-api-1024x512.png)
 
 Managing a large stable of WordPress sites usually requires a lot of clicking to execute repetitive tasks in administrative dashboards.
 
@@ -178,13 +166,3 @@ If you are managing multiple client sites and looking for ways to standardize, s
 Our [Agency Partner Program](https://kinsta.com/agency-partner-program/) is perfect for teams managing multiple sites who want dedicated support, growth benefits, and long-term collaboration.
 
 If you would like to understand how this could fit your workflow, [reach out to our sales team](https://kinsta.com/talk-to-sales/) and have a direct conversation about your setup and goals.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

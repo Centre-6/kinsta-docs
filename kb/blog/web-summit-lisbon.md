@@ -5,35 +5,23 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta Events", "Meet Kinsta at Web Summit Lisbon 2025"]
-kinsta_last_updated: "2025-10-31T12:15:35+00:00"
-sitemap_lastmod: "2025-10-31T12:15:35"
-fetched_at: "2026-10-07T22:43:14Z"
-sha256: "f8e3ade27ea55811995e55c97c0d692f4225658ff780475a8c5ad742b9cefdae"
-body_chars: 3045
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-10-31T12:15:35"
+change_signal: "2025-10-31T12:15:35"
+fetched_at: "2026-10-07T22:58:28Z"
+sha256: "a002af758dccc3990453a42ad02aafd96353093f49f5def6057efdd99262b586"
+body_chars: 2583
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Meet Kinsta at Web Summit Lisbon 2025
 
-**Section:** Resource Center > Blog > Kinsta Events > Meet Kinsta at Web Summit Lisbon 2025
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/web-summit-lisbon/
-**Kinsta last updated:** 2025-10-31T12:15:35+00:00
+**Kinsta last updated:** 2025-10-31T12:15:35
 
 ---
-
-Author
-:   [Nikolett Poesz](https://kinsta.com/blog/author/nikolettpoesz/ "Posts by Nikolett Poesz")
-
-Published
-:   October 31, 2025
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/10/websummit-lisbon-2025-1024x512.png)
 
 We are happy to announce that Kinsta is attending **[Web Summit](https://websummit.com/)** from **November 10-13** at the **MEO Arena in Lisbon**. As one of Europe’s largest tech events, Web Summit brings together global tech leaders and new voices to connect and shape the future of technology.
 
@@ -62,7 +50,3 @@ We’re also bringing some fun swag to the event, so stop by our booth early to 
 ## Let’s meet in Lisbon
 
 We’re excited to see you at Web Summit! Be sure to visit Kinsta’s booth to meet our representatives and pick up some swag. It’s also the perfect opportunity to chat with our team, connect with the community, and discover how partnering with Kinsta can elevate your WordPress projects.
-
-Nikolett Poesz
-
-Multilingual Content Associate at Kinsta

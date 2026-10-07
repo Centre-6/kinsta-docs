@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/service-information/referrals-faq/"
-title: "Service Information - Referral Program"
+title: "Referral Program"
 tier: "docs"
 product: "service-information"
 product_label: "Service Information"
 subsection: "referrals-faq"
-section: []
-kinsta_last_updated: "April 20, 2026"
-sitemap_lastmod: "2026-04-20T09:37:29+00:00"
-fetched_at: "2026-10-07T22:39:54Z"
+section: ["Service Information"]
+kinsta_last_updated: "2026-04-20T09:37:29"
+change_signal: "2026-04-20T09:37:29"
+fetched_at: "2026-10-07T22:58:20Z"
 sha256: "86371c9e691932f7df69493a9fd3d5f4ce0dfff0a61d5b0f9ecf277a72ff084f"
 body_chars: 6124
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Service Information - Referral Program
+# Referral Program
 
+**Section:** Service Information
 **Product:** Service Information
 **Source:** https://kinsta.com/docs/service-information/referrals-faq/
-**Kinsta last updated:** April 20, 2026
+**Kinsta last updated:** 2026-04-20T09:37:29
 
 ## On this page
 

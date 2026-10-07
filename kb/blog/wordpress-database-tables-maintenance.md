@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Agency", "The WordPress database tables that matter most to maintenance agencies"]
-kinsta_last_updated: "2026-01-29T15:49:50+00:00"
-sitemap_lastmod: "2026-01-29T15:49:50"
-fetched_at: "2026-10-07T22:42:55Z"
-sha256: "51601593f9ec17807ed6acd2d523fdcc95cdb049523b431f2f918febde42e9ac"
-body_chars: 15917
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-01-29T15:49:50"
+change_signal: "2026-01-29T15:49:50"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "67bc29c8ed442ba54a1e57b5cd05ee314a6e536f918415cb48017f2ba24c251d"
+body_chars: 15015
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # The WordPress database tables that matter most to maintenance agencies
 
-**Section:** Resource Center > Blog > Agency > The WordPress database tables that matter most to maintenance agencies
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-database-tables-maintenance/
-**Kinsta last updated:** 2026-01-29T15:49:50+00:00
+**Kinsta last updated:** 2026-01-29T15:49:50
 
 ## On this page
 
@@ -36,17 +35,6 @@ status: "live"
 - [From reactive fixes to proactive database maintenance](#from-reactive-fixes-to-proactive-database-maintenance)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   January 29, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/12/the-wordpress-database-tables-that-matter-most-to-maintenance-agencies-1024x512.png)
 
 When a client reports slow admin screens, failed checkouts, or random timeouts, agencies don’t have the luxury of digging through dozens of tables or reverse-engineering plugin behavior. You need to recognize the likely failure points quickly and focus your attention where it matters.
 
@@ -230,13 +218,3 @@ You don’t need to inspect every table or audit every query. You need to know w
 For maintenance agencies, this changes how database work fits into your workflow. Instead of treating database cleanup as a one-off fix after something breaks, it becomes a lightweight, repeatable check.
 
 If you do run into a database issue you can’t resolve, especially one that only surfaces under load, having the right support matters. For sites hosted on Kinsta, our [support team](https://kinsta.com/kinsta-support/) is available 24/7 to help you.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Plugin updates for multiple websites made easy in MyKinsta"]
-kinsta_last_updated: "2025-04-08T15:48:21+00:00"
-sitemap_lastmod: "2025-04-08T15:48:21+00:00"
-fetched_at: "2026-10-07T22:37:03Z"
-sha256: "550fd44b274f44bce847a8ccee1b928a37c223b1c6b3e22f7b77b7b283681605"
-body_chars: 5493
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-04-08T15:48:21"
+change_signal: "2025-04-08T15:48:21"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "029bc677665e1a66d3193d6cc74edb35cbd16ffb9ce34773d19eb6bf9ff61d87"
+body_chars: 5267
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Plugin updates for multiple websites made easy in MyKinsta
 
-**Section:** Changelog > Plugin updates for multiple websites made easy in MyKinsta
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/plugin-updates/
-**Kinsta last updated:** 2025-04-08T15:48:21+00:00
+**Kinsta last updated:** 2025-04-08T15:48:21
 
 ## On this page
 
@@ -29,11 +28,6 @@ status: "live"
 - [WordPress management made easier](#wordpress-management-made-easier)
 
 ---
-
-Updated
-:   April 8, 2025
-
-![An illustration representing the plugin update dialog in MyKinsta with the words: Easy plugin updates.](https://kinsta.com/wp-content/uploads/2024/11/plugin-update-manager-changelog-1024x536.png)
 
 It’s a familiar sight for operators of WordPress websites: that red dot beside the entry for **Plugins** in the [Admin menu](https://kinsta.com/blog/wordpress-admin/) and the number that tells us how many of those plugins are due for an update.
 

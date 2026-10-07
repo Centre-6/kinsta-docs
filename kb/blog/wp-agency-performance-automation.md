@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "API", "Automating performance checks for your WP Agency with PageSpeed Insights API"]
-kinsta_last_updated: "2026-05-20T20:31:24+00:00"
-sitemap_lastmod: "2026-05-20T20:31:24"
-fetched_at: "2026-10-07T22:42:50Z"
-sha256: "78e5bf25c6f893ef70a1a17f98450721b855a9031d518df31e714858296e58a7"
-body_chars: 23425
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:31:24"
+change_signal: "2026-05-20T20:31:24"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "2f9af3fc1c729f1fceb90069e2e661b97f851212751218085b51689780b5e113"
+body_chars: 22394
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Automating performance checks for your WP Agency with PageSpeed Insights API
 
-**Section:** Resource Center > Blog > API > Automating performance checks for your WP Agency with PageSpeed Insights API
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wp-agency-performance-automation/
-**Kinsta last updated:** 2026-05-20T20:31:24+00:00
+**Kinsta last updated:** 2026-05-20T20:31:24
 
 ## On this page
 
@@ -38,17 +37,6 @@ status: "live"
 - [Scaling up: What else can you automate with the Kinsta API?](#scaling-up-what-else-can-you-automate-with-the-kinsta-api)
 
 ---
-
-Author
-:   [Carlo Daniele](https://kinsta.com/blog/author/carlodaniele/ "Posts by Carlo Daniele")
-
-Updated
-:   May 20, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/01/automating-performance-checks-for-your-wp-agency-with-pagespeed-insights-api-1024x512.png)
 
 As your agency adds more clients, maintaining high performance across all the sites you manage can quickly become a challenge. Poorly coded plugins, unoptimized images, and third-party scripts can slow down your client sites and gradually lower [PageSpeed Insights](https://kinsta.com/blog/google-pagespeed-insights/) (PSI) scores.
 
@@ -537,11 +525,3 @@ The Kinsta API enables you to [automate various tasks](https://kinsta.com/blog/k
 Ready to take your agency to the next level? Explore [our plans](https://kinsta.com/pricing/) or [contact our sales team](https://kinsta.com/talk-to-sales/) to discuss your specific needs.
 
 Happy scaling!
-
-Carlo Daniele
-[Kinsta](https://kinsta.com/)
-
-Carlo is a passionate lover of webdesign and front-end development. He has been playing with WordPress for more than 20 years, also in collaboration with Italian and European universities and educational institutions. He has written hundreds of articles and guides about WordPress, published both on Italian and international websites, as well as on printed magazines. You can find him on [LinkedIn](https://www.linkedin.com/in/carlodaniele/).
-
-- [Website](https://frammentidicodice.com/)
-- [Twitter](https://twitter.com/carlodaniele)

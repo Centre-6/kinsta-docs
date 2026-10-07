@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/user-settings/logging-in/"
-title: "User Settings - Logging In"
+title: "Logging In"
 tier: "docs"
 product: "user-settings"
 product_label: "MyKinsta User Settings"
 subsection: "logging-in"
-section: []
-kinsta_last_updated: "April 20, 2026"
-sitemap_lastmod: "2026-04-20T09:39:20+00:00"
-fetched_at: "2026-10-07T22:39:56Z"
-sha256: "36b9ef70d324180818b6b897bd7feaf9751f13bbbd030eed111f409b0df7d7d4"
-body_chars: 15140
-extracted_with: "main article"
+section: ["User Settings"]
+kinsta_last_updated: "2026-04-20T09:39:20"
+change_signal: "2026-04-20T09:39:20"
+fetched_at: "2026-10-07T22:58:20Z"
+sha256: "02c62a275d716c07760f5f71dec8c469761ea7ec79fded69d7ee9c6ee2634477"
+body_chars: 14948
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# User Settings - Logging In
+# Logging In
 
+**Section:** User Settings
 **Product:** MyKinsta User Settings
 **Source:** https://kinsta.com/docs/user-settings/logging-in/
-**Kinsta last updated:** April 20, 2026
+**Kinsta last updated:** 2026-04-20T09:39:20
 
 ## On this page
 
@@ -137,7 +138,7 @@ Next, use the camera on your mobile device to scan the QR code in MyKinsta. Afte
 
 If you have lost access to your authenticator app and cannot log in to MyKinsta, follow the steps below, and our Support team can help you regain access to your account:
 
-- Send an email to [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection#dcafa9acacb3aea89cb7b5b2afa8bdf2bfb3b1) from the email address on file in your MyKinsta account. If you use [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection) to log in to MyKinsta, send us an email from [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection). In the email, let us know you’ve been locked out and need to regain access to your account.
+- Send an email to [support@kinsta.com](mailto:support@kinsta.com) from the email address on file in your MyKinsta account. If you use brian@kinstalife.com to log in to MyKinsta, send us an email from brian@kinstalife.com. In the email, let us know you’ve been locked out and need to regain access to your account.
 - Our Support team will verify your email address to make sure it matches the one we have on file.
 - Our Support team will ask you to provide the last 4 digits and the expiration date of the credit card we have on file for the account.
 - After successfully verifying your email address and credit card details, our Support team will remove the authenticator app protection from your account. You can then log in to MyKinsta and use email authentication to access your account.
@@ -173,6 +174,7 @@ Use Single Sign-On to access and log in to MyKinsta with your Git service provid
 
 1. Log in to [MyKinsta](https://my.kinsta.com/), click your username, then click **User settings**.
 2. On the **My Account** page, scroll down to the **Connect with Git service** section and click on the Git service provider you want to connect to and use for SSO with your MyKinsta account.
+
    ![Connect your Git service to MyKinsta.](https://kinsta.com/wp-content/uploads/2023/11/connect-git-service-1024x125.png)
 
    Connect your Git service to MyKinsta.
@@ -183,6 +185,7 @@ Use Single Sign-On to access and log in to MyKinsta with your Git service provid
 
 1. Log in to [MyKinsta](https://my.kinsta.com/), click your username, then click **User settings**.
 2. In **My Account** scroll down to the **Connect with Git service** section and click **Revoke access** for the Git service you want to disconnect from MyKinsta.
+
    ![Remove access to your Git service.](https://kinsta.com/wp-content/uploads/2023/11/revoke-github-access-1024x174.png)
 
    Remove access to your Git service.
@@ -192,17 +195,20 @@ Use Single Sign-On to access and log in to MyKinsta with your Git service provid
 If you need to reset your MyKinsta password, you can start the process on the [MyKinsta login page](https://my.kinsta.com/login).
 
 1. Click the **Forgot password** link on the MyKinsta login page.
+
    ![Click the forgot password link on the MyKinsta login page.](https://kinsta.com/wp-content/uploads/2023/11/forgot-password-536x1024.png)
 
    Click the forgot password link on the MyKinsta login page.
 2. Enter your email address, and click the **Reset password** button.
+
    ![Enter your email address in the password reset modal/pop-up.](https://kinsta.com/wp-content/uploads/2023/11/reset-password.png)
 
    Enter your email address in the password reset modal/pop-up.
-3. Check your email for the reset password message from `[email protected]` with the subject “Password reset in MyKinsta” (should arrive within 15 minutes or less) and follow the instructions provided.
+3. Check your email for the reset password message from `service@kinsta.com` with the subject “Password reset in MyKinsta” (should arrive within 15 minutes or less) and follow the instructions provided.
+
    ![Password reset email from service@kinsta.com](https://kinsta.com/wp-content/uploads/2023/11/password-reset-email.png)
 
-   Password reset email from [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection)
+   Password reset email from service@kinsta.com
 
 ## Locked account
 

@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta Events", "Meet Kinsta at Digital Summit Dallas"]
-kinsta_last_updated: "2025-12-01T16:43:03+00:00"
-sitemap_lastmod: "2025-12-01T16:43:03"
-fetched_at: "2026-10-07T22:43:06Z"
-sha256: "7692dcfe9b873d351eb0d8518fd817da07247ac77eff38946764ef7074c20c82"
-body_chars: 3372
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2025-12-01T16:43:03"
+change_signal: "2025-12-01T16:43:03"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "b8cd2a5238d88785e4e76adbde31f618012e9d4f14ba13660047e7e3be671589"
+body_chars: 2919
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Meet Kinsta at Digital Summit Dallas
 
-**Section:** Resource Center > Blog > Kinsta Events > Meet Kinsta at Digital Summit Dallas
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/digital-summit-dallas/
-**Kinsta last updated:** 2025-12-01T16:43:03+00:00
+**Kinsta last updated:** 2025-12-01T16:43:03
 
 ## On this page
 
@@ -29,17 +28,6 @@ status: "live"
 - [Let’s meet in Dallas](#lets-meet-in-dallas)
 
 ---
-
-Author
-:   [Darla Toth](https://kinsta.com/blog/author/darlatoth/ "Posts by Darla Toth")
-
-Published
-:   December 1, 2025
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/11/digital-summit-dallas-2025-1024x512.png)
 
 Kinsta is heading to Dallas, Texas, this December! As a sponsor of [**Digital Summit Dallas 2025**](https://www.digitalsummit.com/dallas), we’re excited to join marketers, creators, and digital leaders from the Dallas area and beyond on **December 3-4 at the Irving Convention Center**.
 
@@ -77,7 +65,3 @@ The **first draw will take place on December 3, 2025, at 2:30 pm**, and the **se
 We’re excited to be part of Digital Summit Dallas 2025 and can’t wait to connect with marketers, creators, and digital leaders throughout the event. Stop by the Kinsta booth, chat with the team, join Roger’s session, and take advantage of everything the event has to offer.
 
 See you there!
-
-Darla Toth
-
-Multilingual Content Specialist at Kinsta®

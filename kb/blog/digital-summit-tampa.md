@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta Events", "Meet Kinsta at Digital Summit Tampa"]
-kinsta_last_updated: "2026-03-10T07:25:21+00:00"
-sitemap_lastmod: "2026-03-10T07:25:21"
-fetched_at: "2026-10-07T22:42:43Z"
-sha256: "29874b4b2d065abf07f0b5685aba81c09a91af1c8ad00c874b09b857ca767fdb"
-body_chars: 3878
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-03-10T07:25:21"
+change_signal: "2026-03-10T07:25:21"
+fetched_at: "2026-10-07T22:58:26Z"
+sha256: "56b863f63cc187d92f60233397d4dc6e8b3e20eed3de6649e59b35a5770e6ecc"
+body_chars: 3414
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Meet Kinsta at Digital Summit Tampa
 
-**Section:** Resource Center > Blog > Kinsta Events > Meet Kinsta at Digital Summit Tampa
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/digital-summit-tampa/
-**Kinsta last updated:** 2026-03-10T07:25:21+00:00
+**Kinsta last updated:** 2026-03-10T07:25:21
 
 ## On this page
 
@@ -29,17 +28,6 @@ status: "live"
 - [Let’s meet in Tampa](#lets-meet-in-tampa)
 
 ---
-
-Author
-:   [Nikolett Poesz](https://kinsta.com/blog/author/nikolettpoesz/ "Posts by Nikolett Poesz")
-
-Published
-:   March 10, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/03/digital-summit-tampa-2026-1024x536.png)
 
 We’re thrilled to share that Kinsta is heading to sunny Florida to sponsor [**Digital Summit Tampa 2026**](https://www.digitalsummit.com/tampa). We’re looking forward to meeting you at the Hilton Tampa Downtown on **March 17-18** for expert-led sessions, insightful workshops, and valuable networking opportunities.
 
@@ -80,7 +68,3 @@ We’re excited to be part of Digital Summit Tampa and can’t wait to connect w
 Come chat with the team, attend Roger’s session, and discover how [Kinsta’s high-performance hosting platform](https://kinsta.com/wordpress-hosting/) helps marketing teams, agencies, and businesses build fast, reliable digital experiences.
 
 See you soon in Tampa!
-
-Nikolett Poesz
-
-Multilingual Content Associate at Kinsta

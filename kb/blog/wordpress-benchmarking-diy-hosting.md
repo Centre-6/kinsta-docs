@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "WordPress Hosting", "Performance benchmarking WordPress on Kinsta vs DIY hosting"]
-kinsta_last_updated: "2026-06-22T09:59:30+00:00"
-sitemap_lastmod: "2026-06-22T09:59:30"
-fetched_at: "2026-10-07T22:43:17Z"
-sha256: "7c5a26e8f894a351496bac3e3687972cf1e050bc6addc0c757cf0e49ffe3b15d"
-body_chars: 16066
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-06-22T09:59:30"
+change_signal: "2026-06-22T09:59:30"
+fetched_at: "2026-10-07T22:58:28Z"
+sha256: "27313b72b2da29ff15b1ce13285506a2f2a70927d9fa3083343abdc1dbf25998"
+body_chars: 15345
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Performance benchmarking WordPress on Kinsta vs DIY hosting
 
-**Section:** Resource Center > Blog > WordPress Hosting > Performance benchmarking WordPress on Kinsta vs DIY hosting
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/wordpress-benchmarking-diy-hosting/
-**Kinsta last updated:** 2026-06-22T09:59:30+00:00
+**Kinsta last updated:** 2026-06-22T09:59:30
 
 ## On this page
 
@@ -43,17 +42,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Author
-:   [Jeremy Holcombe](https://kinsta.com/blog/author/jeremyholcombe/ "Posts by Jeremy Holcombe")
-
-Updated
-:   June 22, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2025/09/performance-benchmarking-wordpress-on-kinsta-vs-diy-hosting-1024x512.png)
 
 Developers who run complex WordPress builds often find themselves weighing a familiar question: Is [managed hosting](https://kinsta.com/wordpress-hosting/) actually faster and more reliable than running your own [VPS](https://kinsta.com/blog/shared-hosting/#shared-hosting-vs-vps-hosting) setup?
 
@@ -219,10 +207,3 @@ Benchmarking shows that Kinsta’s managed hosting for WordPress consistently ou
 What makes Kinsta especially valuable for developer-led teams is that none of the expected control is lost. You still get the same command-line access, staging environments, and advanced tools you’d use on a VPS, but without the time sink of patching, monitoring, and firefighting server issues.
 
 For agencies managing multiple complex sites, the advantage is clear: Kinsta delivers high performance and developer freedom while removing infrastructure headaches. Now’s a great time to consider [WordPress agency hosting](https://kinsta.com/wordpress-hosting/agencies/) for your client sites.
-
-Jeremy Holcombe
-[Kinsta](https://kinsta.com/)
-
-Senior Editor at Kinsta, WordPress Web Developer, and Content Writer. Outside of all things WordPress, I enjoy the beach, golf, and movies. I also have tall people problems.
-
-- [LinkedIn](https://www.linkedin.com/in/jeremyholcombe/)

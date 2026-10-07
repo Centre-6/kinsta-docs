@@ -5,22 +5,21 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta News", "Kinsta year in review: the best of 2025"]
-kinsta_last_updated: "2026-02-03T14:36:25+00:00"
-sitemap_lastmod: "2026-02-03T14:36:25"
-fetched_at: "2026-10-07T22:42:52Z"
-sha256: "61c66c7e1157a169790a271a85daf8eead209050f19811a4cdbe67f0b20f3530"
-body_chars: 17367
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-02-03T14:36:25"
+change_signal: "2026-02-03T14:36:25"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "7852ed6e7b4bd19c66539195d5fb6826dc6e3fd0a1e95690c40a544c93398dc7"
+body_chars: 16497
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Kinsta year in review: the best of 2025
 
-**Section:** Resource Center > Blog > Kinsta News > Kinsta year in review: the best of 2025
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/2025-year-in-review/
-**Kinsta last updated:** 2026-02-03T14:36:25+00:00
+**Kinsta last updated:** 2026-02-03T14:36:25
 
 ## On this page
 
@@ -38,17 +37,6 @@ status: "live"
 - [Looking ahead to 2026](#looking-ahead-to-2026)
 
 ---
-
-Author
-:   [Joel Olawanle](https://kinsta.com/blog/author/joelolawanle/ "Posts by Joel Olawanle")
-
-Updated
-:   February 3, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/01/kinsta-year-in-review-the-best-of-2025-1024x512.png)
 
 It’s that time again. We want to take a moment to look back on the year behind us and share a bit of perspective on what’s ahead.
 
@@ -266,13 +254,3 @@ In 2026, our work continues to focus on key areas, such as:
 - Expanded Kinsta API capabilities, with additional endpoints to support automation and integration with existing workflows.
 
 As always, these updates roll out gradually, with a focus on solving real problems and keeping workflows simple as needs evolve.
-
-Joel Olawanle
-[Kinsta](https://kinsta.com/)
-
-Joel is a Frontend developer working at Kinsta as a Technical Editor. He is a passionate teacher with love for open source and has written over 300 technical articles majorly around JavaScript and it's frameworks.
-
-- [Website](https://joelolawanle.com/)
-- [LinkedIn](https://www.linkedin.com/in/olawanlejoel/)
-- [Twitter](https://twitter.com/olawanle_joel)
-- [YouTube](https://www.youtube.com/@joelolawanle)

@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/php/"
-title: "WordPress Hosting - PHP"
+title: "PHP"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "php"
-section: []
-kinsta_last_updated: "September 18, 2026"
-sitemap_lastmod: "2026-09-18T09:54:48+00:00"
-fetched_at: "2026-10-07T22:44:22Z"
-sha256: "a1bd2463a6bda36882ee573fbfa80087743b7ffe3e376b979324ca834e779596"
-body_chars: 10323
-extracted_with: "main article"
+section: ["WordPress Hosting"]
+kinsta_last_updated: "2026-09-18T09:54:48"
+change_signal: "2026-09-18T09:54:48"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "04a6ae9f6e47215d455816ef9859b38c51766fce6e815df97cf3d162a6ada35d"
+body_chars: 10321
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# WordPress Hosting - PHP
+# PHP
 
+**Section:** WordPress Hosting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/php/
-**Kinsta last updated:** September 18, 2026
+**Kinsta last updated:** 2026-09-18T09:54:48
 
 ## On this page
 
@@ -56,7 +57,7 @@ When a visitor visits an uncached page or performs an action on a page (e.g., ad
 7. PHP hands the rendered HTML page back to the web server.
 8. The page is served to the visitor.
 
-If your site does not use caching or is not optimized, PHP threads may be busy for longer, which can degrade performance and lead to timeouts or 503 and 504 errors when visitors access your site. For information about how to check the PHP performance and how to optimize your PHP threads, refer to [PHP performance](https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-performance/).
+If your site does not use caching or is not optimized, PHP threads may be busy for longer, which can degrade performance and lead to timeouts or 503 and 504 errors when visitors access your site. For information about how to check the PHP performance and how to optimize your PHP threads, refer to [PHP performance](https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-performance).
 
 ## PHP threads
 
@@ -66,7 +67,7 @@ Once a PHP thread finishes processing a request (e.g., rendering a page or fetch
 
 PHP threads really come into play when a site doesn’t or can’t cache most of its content. The more dynamic a website is, the more PHP threads it will likely need. Cached content doesn’t require PHP threads; they’re really only needed when the site needs to query the database to get or change information. An optimized site handles requests quickly, freeing up PHP threads for the next request in the queue.
 
-For information about how to optimize your PHP threads, refer to [PHP performance](https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-performance/).
+For information about how to optimize your PHP threads, refer to [PHP performance](https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-performance).
 
 ### Kinsta plans and PHP threads
 

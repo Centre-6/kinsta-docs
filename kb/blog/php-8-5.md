@@ -1,26 +1,25 @@
 ---
 url: "https://kinsta.com/blog/php-8-5/"
-title: "PHP 8.5: Here's what's new in the latest release"
+title: "PHP 8.5: Here\u2019s what\u2019s new in the latest release"
 tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "PHP Updates", "PHP 8.5: Here\u2019s what\u2019s new in the latest release"]
-kinsta_last_updated: "2026-05-20T20:31:34+00:00"
-sitemap_lastmod: "2026-05-20T20:31:34"
-fetched_at: "2026-10-07T22:43:04Z"
-sha256: "6361adb0cb25067cbeb0a7f653ab47e255a777a12a80cff7819bc17a3aab6743"
-body_chars: 14387
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-20T20:31:34"
+change_signal: "2026-05-20T20:31:34"
+fetched_at: "2026-10-07T22:58:27Z"
+sha256: "ab0b36d4dc2fedaa64a3242df66dad60787e803b380ebb337563dfc8db9dc064"
+body_chars: 13645
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# PHP 8.5: Here's what's new in the latest release
+# PHP 8.5: Here’s what’s new in the latest release
 
-**Section:** Resource Center > Blog > PHP Updates > PHP 8.5: Here’s what’s new in the latest release
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/php-8-5/
-**Kinsta last updated:** 2026-05-20T20:31:34+00:00
+**Kinsta last updated:** 2026-05-20T20:31:34
 
 ## On this page
 
@@ -35,17 +34,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Author
-:   [Steve Bonisteel](https://kinsta.com/blog/author/stevebonisteel/ "Posts by Steve Bonisteel")
-
-Updated
-:   May 20, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![An illustration representing the new release of PHP and showing the version number 8.5.](https://kinsta.com/wp-content/uploads/2025/12/whats-new-in-php-8.5-1024x512.png)
 
 The PHP Group has released version 8.5 of the open source scripting language that powers much of the Web, including sites using the WordPress CMS.
 
@@ -311,8 +299,3 @@ That was a look at the highlights of the PHP 8.5 release. We’re confident that
 But any new PHP release encompasses hundreds of changes. You can find a [complete list of PHP 8.5 updates](https://github.com/php/php-src/blob/PHP-8.5/UPGRADING) in the PHP Group’s official GitHub repository.
 
 Meanwhile, here at Kinsta, we’re working to make PHP 8.5 available to our [WordPress hosting](https://kinsta.com/wordpress-hosting/) customers. When that’s online, you’ll be able to switch to the new release using our [PHP settings](https://kinsta.com/docs/wordpress-hosting/php/wordpress-restart-update-php/#update-php) tools.
-
-Steve Bonisteel
-[Kinsta](https://kinsta.com/)
-
-Steve Bonisteel is a Technical Editor at Kinsta who began his writing career as a print journalist, chasing ambulances and fire trucks. He has been covering Internet-related technology since the late 1990s.

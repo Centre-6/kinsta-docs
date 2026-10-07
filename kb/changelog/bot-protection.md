@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "When bots go bad, Kinsta has your back"]
-kinsta_last_updated: "2026-05-28T17:51:15+00:00"
-sitemap_lastmod: "2026-05-28T17:51:15+00:00"
-fetched_at: "2026-10-07T22:37:45Z"
-sha256: "94ed119decc34bb0550079d8374ce465f58e1638933420db3b210558940ddf29"
-body_chars: 7735
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-05-28T17:51:15"
+change_signal: "2026-05-28T17:51:15"
+fetched_at: "2026-10-07T22:58:21Z"
+sha256: "2d78db556dd3dd0f94d06cd2bee68ae7ce21740385ec416df5d77e7d78d64224"
+body_chars: 7534
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # When bots go bad, Kinsta has your back
 
-**Section:** Changelog > When bots go bad, Kinsta has your back
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/bot-protection/
-**Kinsta last updated:** 2026-05-28T17:51:15+00:00
+**Kinsta last updated:** 2026-05-28T17:51:15
 
 ## On this page
 
@@ -31,11 +30,6 @@ status: "live"
 - [Making bot protection work for you](#making-bot-protection-work-for-you)
 
 ---
-
-Updated
-:   May 28, 2026
-
-![An illustration representing key dialogs of the Bot Protection tool in MyKinsta.](https://kinsta.com/wp-content/uploads/2026/05/bot-traffic-control-at-kinsta-1024x536.jpg)
 
 Remember those simpler days when there were “good” bots and ”bad” bots and everyone pretty much agreed on which were which? Today, the nature of automated web traffic is changing, and it’s changing fast.
 

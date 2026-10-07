@@ -5,35 +5,23 @@ tier: "blog"
 product: "blog"
 product_label: "Blog (secondary - never outranks docs)"
 subsection:
-section: ["Resource Center", "Blog", "Kinsta News", "Websites aren\u2019t dead: Consumers still rely on them over AI, new Kinsta report finds"]
-kinsta_last_updated: "2026-09-25T18:37:24+00:00"
-sitemap_lastmod: "2026-09-25T18:37:24"
-fetched_at: "2026-10-07T22:41:57Z"
-sha256: "44c65ccf388e464f73e1b6438ddd5a89b4aa96c5b4ed70176bf5a2cfb846eaa5"
-body_chars: 5518
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-09-25T18:37:24"
+change_signal: "2026-09-25T18:37:24"
+fetched_at: "2026-10-07T22:58:24Z"
+sha256: "91f54dc5e5c83934d255f47c31214455748dd231267ee9f102ecf8ee8ddce207"
+body_chars: 4861
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Websites aren’t dead: Consumers still rely on them over AI, new Kinsta report finds
 
-**Section:** Resource Center > Blog > Kinsta News > Websites aren’t dead: Consumers still rely on them over AI, new Kinsta report finds
 **Product:** Blog (secondary - never outranks docs)
 **Source:** https://kinsta.com/blog/websites-arent-dead/
-**Kinsta last updated:** 2026-09-25T18:37:24+00:00
+**Kinsta last updated:** 2026-09-25T18:37:24
 
 ---
-
-Author
-:   [Kinsta](https://kinsta.com/blog/author/kinstateam/ "Posts by Kinsta")
-
-Published
-:   September 25, 2026
-
-Preferred source
-:   [![](https://kinsta.com/wp-content/themes/kinsta/images/icon-google.svg)Add as a preferred source on Google](https://google.com/preferences/source?q=kinsta.com)
-
-![](https://kinsta.com/wp-content/uploads/2026/09/proprietary-report-blog-article-1024x512.png)
 
 *53.8% of consumers skip websites during early research in favor of AI tools, but many remain skeptical of AI-generated content and turn to a brand’s website to check what it said.*
 
@@ -70,7 +58,3 @@ Kinsta is a premium managed hosting for WordPress solution — designed for all 
 For more information about Kinsta and to sign up for a risk-free trial, visit [kinsta.com](https://cts.businesswire.com/ct/CT?id=smartlink&url=http%3A%2F%2Fkinsta.com&esheet=54608527&newsitemid=20260922890093&lan=en-US&anchor=kinsta.com&index=4&md5=64427c91477bda16011eccc68250c389).
 
 *This content was originally published on [Business Wire](https://www.businesswire.com/news/home/20260922890093/en/Websites-Arent-Dead-Consumers-Still-Rely-on-Them-Over-AI-New-Kinsta-Report-Finds)*
-
-Kinsta
-
-The Kinsta Team consists of WordPress experts, performance engineers, and support professionals passionate about fast, secure, and scalable hosting. We publish in-depth guides, research, and practical advice to help you build and grow with WordPress.

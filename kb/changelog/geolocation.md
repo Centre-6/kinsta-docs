@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Redirect Traffic to Your Site With the New Geolocation Tool"]
-kinsta_last_updated: "2026-04-20T09:39:54+00:00"
-sitemap_lastmod: "2026-04-20T09:39:54+00:00"
-fetched_at: "2026-10-07T22:37:24Z"
-sha256: "765642077fa04f5436b4afb8f62d37f01b67de75b6eef2a1019b1dc218897dcf"
-body_chars: 3205
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2026-04-20T09:39:54"
+change_signal: "2026-04-20T09:39:54"
+fetched_at: "2026-10-07T22:58:23Z"
+sha256: "fb5331d0b528ed38aa80934fefbd26aeb9fe83d84bf9c7044edd8bdb0992e9eb"
+body_chars: 3060
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Redirect Traffic to Your Site With the New Geolocation Tool
 
-**Section:** Changelog > Redirect Traffic to Your Site With the New Geolocation Tool
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/geolocation/
-**Kinsta last updated:** 2026-04-20T09:39:54+00:00
+**Kinsta last updated:** 2026-04-20T09:39:54
 
 ## On this page
 
@@ -31,11 +30,6 @@ status: "live"
 - [Summary](#summary)
 
 ---
-
-Updated
-:   April 20, 2026
-
-![Geolocation tool - MyKinsta](https://kinsta.com/wp-content/uploads/2021/05/gelocation-tool-mykinsta-1024x512.png)
 
 Maintaining a successful website requires you to do everything you can to serve your visitors’ and users’ needs. The more tailored the experience your site delivers, the higher your chances of [conversion](https://kinsta.com/blog/conversion-tracking/).
 

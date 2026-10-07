@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/devkinsta/settings/"
-title: "DevKinsta - Settings"
+title: "Settings"
 tier: "docs"
 product: "devkinsta"
 product_label: "DevKinsta (local dev tool, not hosting)"
 subsection: "settings"
-section: []
-kinsta_last_updated: "May 2, 2025"
-sitemap_lastmod: "2025-05-02T13:31:19+00:00"
-fetched_at: "2026-10-07T22:38:39Z"
+section: ["DevKinsta"]
+kinsta_last_updated: "2025-05-02T13:31:19"
+change_signal: "2025-05-02T13:31:19"
+fetched_at: "2026-10-07T22:58:19Z"
 sha256: "24d232c02e87142dfd8b52a8cd23ea4db1ac08ac9015440042ab991f5be494d6"
 body_chars: 1289
-extracted_with: "main article"
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# DevKinsta - Settings
+# Settings
 
+**Section:** DevKinsta
 **Product:** DevKinsta (local dev tool, not hosting)
 **Source:** https://kinsta.com/docs/devkinsta/settings/
-**Kinsta last updated:** May 2, 2025
+**Kinsta last updated:** 2025-05-02T13:31:19
 
 ## On this page
 

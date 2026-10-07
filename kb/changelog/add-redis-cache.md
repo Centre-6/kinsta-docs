@@ -5,22 +5,21 @@ tier: "changelog"
 product: "changelog"
 product_label: "Changelog"
 subsection:
-section: ["Changelog", "Need a Redis cache? You can serve yourself in MyKinsta"]
-kinsta_last_updated: "2024-11-05T19:49:55+00:00"
-sitemap_lastmod: "2024-11-05T19:49:55+00:00"
-fetched_at: "2026-10-07T22:36:59Z"
-sha256: "8b3fc233cc27ac1d4237a755d3b0a563a8380054c7f2562bde582eb7bf9f16a4"
-body_chars: 4914
-extracted_with: "main article"
+section: []
+kinsta_last_updated: "2024-11-05T19:49:55"
+change_signal: "2024-11-05T19:49:55"
+fetched_at: "2026-10-07T22:58:22Z"
+sha256: "739d5420b1269fe3fb496c6662b99cbe14986e845826d1d970fdd98c2e08dff5"
+body_chars: 4684
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
 # Need a Redis cache? You can serve yourself in MyKinsta
 
-**Section:** Changelog > Need a Redis cache? You can serve yourself in MyKinsta
 **Product:** Changelog
 **Source:** https://kinsta.com/changelog/add-redis-cache/
-**Kinsta last updated:** 2024-11-05T19:49:55+00:00
+**Kinsta last updated:** 2024-11-05T19:49:55
 
 ## On this page
 
@@ -30,11 +29,6 @@ status: "live"
 - [You’re in control of caching at Kinsta](#youre-in-control-of-caching-at-kinsta)
 
 ---
-
-Updated
-:   November 5, 2024
-
-![An illustration representing the dialog for the Redis cache add-on in the MyKinsta dashboard.](https://kinsta.com/wp-content/uploads/2024/08/redis-object-cache-wordperfect-self-serve-1024x536.png)
 
 It just got a lot easier to add [Redis caching](https://kinsta.com/docs/wordpress-hosting/caching/redis-cache/) to your managed [WordPress Hosting](https://kinsta.com/wordpress-hosting/) environment at Kinsta.
 

@@ -1,25 +1,26 @@
 ---
 url: "https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/server-errors/"
-title: "Troubleshooting - Server Errors"
+title: "Server Errors"
 tier: "docs"
 product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-troubleshooting"
-section: []
-kinsta_last_updated: "March 9, 2026"
-sitemap_lastmod: "2026-03-09T10:35:34+00:00"
-fetched_at: "2026-10-07T22:39:40Z"
-sha256: "9da4e513de5fc3f38e64dee5a624ee5e7bd14bdeebef5d5200d51f14db0c027f"
-body_chars: 8422
-extracted_with: "main article"
+section: ["WordPress Hosting", "Troubleshooting"]
+kinsta_last_updated: "2026-03-09T10:35:34"
+change_signal: "2026-03-09T10:35:34"
+fetched_at: "2026-10-07T22:58:19Z"
+sha256: "f4c0eac49fdde970c69e54848377eb261acac62931699353ffc7b63d414d3faa"
+body_chars: 8419
+extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
 
-# Troubleshooting - Server Errors
+# Server Errors
 
+**Section:** WordPress Hosting > Troubleshooting
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/server-errors/
-**Kinsta last updated:** March 9, 2026
+**Kinsta last updated:** 2026-03-09T10:35:34
 
 ## On this page
 
@@ -52,7 +53,7 @@ A 502 error is usually displayed if a single PHP process runs for longer than th
 
 You’ll first need to determine what’s causing the 502 error to find a solution. You may need to increase resources, adjust settings, or find an alternative workflow in some cases.
 
-For instance, if the error occurs when you’re attempting an import, running the import directly on the container using [WP-CLI](https://kinsta.com/docs/devkinsta/wp-cli/) or a local PHP or Bash script is a recommended alternative.
+For instance, if the error occurs when you’re attempting an import, running the import directly on the container using [WP-CLI](https://kinsta.com/docs/devkinsta/wp-cli) or a local PHP or Bash script is a recommended alternative.
 
 ### Finding and resolving a 502 Bad Gateway Error
 
@@ -94,7 +95,7 @@ Like most error troubleshooting, the first step is to figure out the root cause 
 
 #### Errors during import
 
-If the error is occurring during an import, try running the import directly on the server using [WP-CLI](https://kinsta.com/docs/devkinsta/wp-cli/) or a local PHP or Bash script. This will bypass the HTTP connection entirely, allowing you to complete the import without a 504 error.
+If the error is occurring during an import, try running the import directly on the server using [WP-CLI](https://kinsta.com/docs/devkinsta/wp-cli) or a local PHP or Bash script. This will bypass the HTTP connection entirely, allowing you to complete the import without a 504 error.
 
 #### Third-party CDN
 
@@ -114,7 +115,7 @@ If you’re seeing an error related to file size when trying to upload a file, c
 
 #### Corrupted database
 
-Occasionally, a corrupted database can be the source of 504 errors. If you see errors that indicate a corrupted database (e.g. “One or more database tables are unavailable. The database may need to be repaired.” when logging into the WordPress dashboard) see our guide on [repairing a corrupt database](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/fix-error-establishing-a-database-connection-in-wordpress/).
+Occasionally, a corrupted database can be the source of 504 errors. If you see errors that indicate a corrupted database (e.g. “One or more database tables are unavailable. The database may need to be repaired.” when logging into the WordPress dashboard) see our guide on [repairing a corrupt database](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/fix-error-establishing-a-database-connection-in-wordpress).
 
 #### Plugins and themes
 
