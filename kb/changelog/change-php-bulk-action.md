@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Change PHP versions across multiple WordPress sites with Bulk Actions"]
 kinsta_last_updated: "2024-06-24T21:21:05+00:00"
 sitemap_lastmod: "2024-06-24T21:21:05+00:00"
-fetched_at: "2026-10-07T22:35:31Z"
+fetched_at: "2026-10-07T22:36:51Z"
 sha256: "e62d3789df4bdb3e1d1d6ed8eed5a1e5f69a402135832276e68e5aef546307ea"
 body_chars: 2678
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection: "devkinsta-database"
 section: []
 kinsta_last_updated: "August 13, 2024"
 sitemap_lastmod: "2024-08-13T11:21:21+00:00"
-fetched_at: "2026-10-07T22:36:54Z"
+fetched_at: "2026-10-07T22:38:14Z"
 sha256: "ec8d6fe64376743c7869045d300d46048f52e1a944c4394d8b832cf7afbbf2ef"
 body_chars: 2612
 extracted_with: "main article"

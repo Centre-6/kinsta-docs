@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Kinsta Affiliate Program Is Now Open for Registration"]
 kinsta_last_updated: "2026-04-20T09:41:00+00:00"
 sitemap_lastmod: "2026-04-20T09:41:00+00:00"
-fetched_at: "2026-10-07T22:36:04Z"
+fetched_at: "2026-10-07T22:37:24Z"
 sha256: "5754d39531e3223a8578025c6dd7ae97d444d149917f520b60ac6d3f51c21a16"
 body_chars: 1354
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "You can dig deeper into MyKinsta site Analytics"]
 kinsta_last_updated: "2026-02-09T13:21:34+00:00"
 sitemap_lastmod: "2026-02-09T13:21:34+00:00"
-fetched_at: "2026-10-07T22:35:54Z"
+fetched_at: "2026-10-07T22:37:14Z"
 sha256: "232ae31fa272c738753b2a1bf154bfda06b1cf6d7f2a75c9cec094d898e222d5"
 body_chars: 5200
 extracted_with: "main article"

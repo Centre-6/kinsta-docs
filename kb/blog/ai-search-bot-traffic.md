@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Bot Traffic", "Can I still benefit from AI search without letting bots destroy my server?"]
 kinsta_last_updated: "2026-09-03T15:30:06+00:00"
 sitemap_lastmod: "2026-09-03T15:30:06"
-fetched_at: "2026-10-07T22:40:42Z"
+fetched_at: "2026-10-07T22:42:01Z"
 sha256: "353f731598dabc3701cac4896ef4290163c223bbf049c941cf43ccd2c483a5f3"
 body_chars: 18594
 extracted_with: "main article"

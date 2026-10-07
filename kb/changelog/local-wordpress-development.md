@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Introducing DevKinsta, the Free Local WordPress Development Tool (for Everyone)"]
 kinsta_last_updated: "2026-04-20T09:37:00+00:00"
 sitemap_lastmod: "2026-04-20T09:37:00+00:00"
-fetched_at: "2026-10-07T22:36:03Z"
+fetched_at: "2026-10-07T22:37:23Z"
 sha256: "f79d924ffd8c2e99b4ce92f4686e10393efd1cb277c4117e0c2b06a3aaafc572"
 body_chars: 6300
 extracted_with: "main article"

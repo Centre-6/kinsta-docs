@@ -8,7 +8,7 @@ subsection: "files-and-database-storage"
 section: []
 kinsta_last_updated: "June 15, 2026"
 sitemap_lastmod: "2026-06-15T09:47:49+00:00"
-fetched_at: "2026-10-07T22:39:10Z"
+fetched_at: "2026-10-07T22:40:29Z"
 sha256: "7b19ad0f939935395c060f691bccb7e2a0e89f8a362e3503eed9e7ca92832799"
 body_chars: 4040
 extracted_with: "main article"

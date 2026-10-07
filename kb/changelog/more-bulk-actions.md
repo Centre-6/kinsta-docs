@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Multiple-site management bulks up in MyKinsta"]
 kinsta_last_updated: "2026-10-02T18:59:10+00:00"
 sitemap_lastmod: "2026-10-02T19:17:13+00:00"
-fetched_at: "2026-10-07T22:36:31Z"
+fetched_at: "2026-10-07T22:37:51Z"
 sha256: "0e7e7b5ab38291d8cf590a700d68e17cc80fc52960421410ebe07389e78a341e"
 body_chars: 2906
 extracted_with: "main article"

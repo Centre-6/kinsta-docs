@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Redirect Traffic to Your Site With the New Geolocation Tool"]
 kinsta_last_updated: "2026-04-20T09:39:54+00:00"
 sitemap_lastmod: "2026-04-20T09:39:54+00:00"
-fetched_at: "2026-10-07T22:36:04Z"
+fetched_at: "2026-10-07T22:37:24Z"
 sha256: "765642077fa04f5436b4afb8f62d37f01b67de75b6eef2a1019b1dc218897dcf"
 body_chars: 3205
 extracted_with: "main article"

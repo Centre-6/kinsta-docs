@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Development", "Building WordPress blocks with Telex"]
 kinsta_last_updated: "2026-01-20T16:30:42+00:00"
 sitemap_lastmod: "2026-01-20T16:30:42"
-fetched_at: "2026-10-07T22:41:30Z"
+fetched_at: "2026-10-07T22:42:49Z"
 sha256: "c92d33f7d191a6273461d732dd75ad5bb5b269a380591b1be087a6cd0258c9a8"
 body_chars: 10391
 extracted_with: "main article"

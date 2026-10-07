@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Fine-tune CDN, edge cache, and PHP behavior via the Kinsta API"]
 kinsta_last_updated: "2026-05-20T20:32:09+00:00"
 sitemap_lastmod: "2026-05-20T20:32:09+00:00"
-fetched_at: "2026-10-07T22:36:25Z"
+fetched_at: "2026-10-07T22:37:45Z"
 sha256: "6f3f767773ec19cd2fe928550071a3bebff5a8fa0c29f8beeca344ab12c455e9"
 body_chars: 6977
 extracted_with: "main article"

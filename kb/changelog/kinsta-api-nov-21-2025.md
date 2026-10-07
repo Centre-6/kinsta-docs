@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Generate phpMyAdmin login link and view API activity with the Kinsta API"]
 kinsta_last_updated: "2026-05-20T20:31:36+00:00"
 sitemap_lastmod: "2026-05-20T20:31:36+00:00"
-fetched_at: "2026-10-07T22:36:21Z"
+fetched_at: "2026-10-07T22:37:41Z"
 sha256: "40a2cbc37f9c5b1dd804fb20802491a8fdcdd3b5a6714baf989cb46357a33433"
 body_chars: 6272
 extracted_with: "main article"

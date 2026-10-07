@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Kinsta offers WordPress hosting from Google\u2019s Saudi Arabia data center"]
 kinsta_last_updated: "2024-03-21T20:40:17+00:00"
 sitemap_lastmod: "2024-03-21T19:40:17+00:00"
-fetched_at: "2026-10-07T22:35:29Z"
+fetched_at: "2026-10-07T22:36:49Z"
 sha256: "0c9f660cbf03c88a4506599185ee704e398836fae465fc51588e6dc3fa0a0b90"
 body_chars: 3887
 extracted_with: "main article"

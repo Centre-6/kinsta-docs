@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Log in to WordPress Admin dashboards with a single click in MyKinsta"]
 kinsta_last_updated: "2026-03-10T16:00:25+00:00"
 sitemap_lastmod: "2026-03-10T16:00:25+00:00"
-fetched_at: "2026-10-07T22:35:57Z"
+fetched_at: "2026-10-07T22:37:17Z"
 sha256: "3114ba897c34bafa53a07ae51d80fca257172deda2f0a490d7bab9b9a211fe85"
 body_chars: 5826
 extracted_with: "main article"

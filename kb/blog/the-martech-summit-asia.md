@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta Events", "Meet Kinsta at The MarTech Summit Asia 2026"]
 kinsta_last_updated: "2026-02-27T13:54:54+00:00"
 sitemap_lastmod: "2026-02-27T13:54:54"
-fetched_at: "2026-10-07T22:41:26Z"
+fetched_at: "2026-10-07T22:42:45Z"
 sha256: "8ab1a9e0e2261093a13f867c1165a13a3058ac688bc8e8f53471193dc840e1b3"
 body_chars: 3615
 extracted_with: "main article"

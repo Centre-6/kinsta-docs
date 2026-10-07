@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "PHP 8.3 is available to Kinsta\u2019s Managed WordPress Hosting customers"]
 kinsta_last_updated: "2024-07-25T16:21:35+00:00"
 sitemap_lastmod: "2024-07-25T16:21:35+00:00"
-fetched_at: "2026-10-07T22:35:34Z"
+fetched_at: "2026-10-07T22:36:54Z"
 sha256: "1d28efb66d5ebb6df1b20423c74a9dd7c82f38b52d9548b57a9f98f009ae3a5c"
 body_chars: 4090
 extracted_with: "main article"

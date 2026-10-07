@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Development", "3 ways to handle traffic surges without downgrading or upgrading plans"]
 kinsta_last_updated: "2026-05-19T14:41:51+00:00"
 sitemap_lastmod: "2026-05-19T14:41:51"
-fetched_at: "2026-10-07T22:41:53Z"
+fetched_at: "2026-10-07T22:43:12Z"
 sha256: "6e8d82b500b64ebd37fb9fb7a0e64dc1078d684428b6b03387cae08dbb925784"
 body_chars: 12463
 extracted_with: "main article"

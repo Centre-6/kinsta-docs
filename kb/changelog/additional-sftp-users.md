@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Create accounts for additional SFTP users in MyKinsta"]
 kinsta_last_updated: "2025-04-24T20:44:22+00:00"
 sitemap_lastmod: "2025-04-24T20:44:22+00:00"
-fetched_at: "2026-10-07T22:35:46Z"
+fetched_at: "2026-10-07T22:37:06Z"
 sha256: "e597baa23129606e989fbca83e4c563bf68bc136465a4d609d384f2666c1a475"
 body_chars: 4903
 extracted_with: "main article"

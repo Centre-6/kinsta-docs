@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Bot Traffic", "Why dynamic endpoints are the most expensive part of bot traffic"]
 kinsta_last_updated: "2026-05-12T16:50:52+00:00"
 sitemap_lastmod: "2026-05-12T16:50:52"
-fetched_at: "2026-10-07T22:41:03Z"
+fetched_at: "2026-10-07T22:42:22Z"
 sha256: "07b3541e92fc3d57cf1b0999f97a36ad32012f7e2a04ed2b2ec65abe0accd0df"
 body_chars: 13627
 extracted_with: "main article"

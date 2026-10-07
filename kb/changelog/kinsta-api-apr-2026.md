@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Manage WordPress Admin auto-login users with the Kinsta API"]
 kinsta_last_updated: "2026-05-20T20:30:51+00:00"
 sitemap_lastmod: "2026-05-20T20:30:51+00:00"
-fetched_at: "2026-10-07T22:36:19Z"
+fetched_at: "2026-10-07T22:37:39Z"
 sha256: "25fb0dc45f7c024ae521bc0f01a3e7278b6e7841932676bdbf26336b3a2a1bb9"
 body_chars: 3731
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection: "wordpress-migrations"
 section: []
 kinsta_last_updated: "April 21, 2026"
 sitemap_lastmod: "2026-04-21T09:45:13+00:00"
-fetched_at: "2026-10-07T22:38:45Z"
+fetched_at: "2026-10-07T22:40:04Z"
 sha256: "4b8fad7acbf0d0588233c2f5baa4e10c5dc601e04fb6a53629d7f2811e01845e"
 body_chars: 23773
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Development", "WordPress development with Radicle: deploying on Kinsta"]
 kinsta_last_updated: "2026-05-20T20:31:37+00:00"
 sitemap_lastmod: "2026-05-20T20:31:37"
-fetched_at: "2026-10-07T22:41:51Z"
+fetched_at: "2026-10-07T22:43:10Z"
 sha256: "2996ef15616f1ce8b056cdede5e1a7dd8c07e00ce0685cdc65dedc2ae26e0093"
 body_chars: 20009
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection: "wordpress-hosting-plans"
 section: []
 kinsta_last_updated: "February 24, 2026"
 sitemap_lastmod: "2026-02-24T16:14:30+00:00"
-fetched_at: "2026-10-07T22:38:16Z"
+fetched_at: "2026-10-07T22:39:36Z"
 sha256: "16f8a7d8b0c206aa0b80925d208893ade61dacae1673e26e11b022b84bef0972"
 body_chars: 43707
 extracted_with: "main article"

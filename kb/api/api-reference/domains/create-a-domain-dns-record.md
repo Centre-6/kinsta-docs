@@ -8,7 +8,7 @@ subsection: "domains"
 section: []
 kinsta_last_updated:
 sitemap_lastmod: "2026-09-18T09:42:49.368Z"
-fetched_at: "2026-10-07T22:39:45Z"
+fetched_at: "2026-10-07T22:41:03Z"
 sha256: "aef814be8bf61bd636dcc5f4382975b03762894bc80d8b1cb8f6b52b19bd953c"
 body_chars: 9237
 extracted_with: "main"

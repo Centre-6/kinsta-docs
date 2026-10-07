@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "When bots go bad, Kinsta has your back"]
 kinsta_last_updated: "2026-05-28T17:51:15+00:00"
 sitemap_lastmod: "2026-05-28T17:51:15+00:00"
-fetched_at: "2026-10-07T22:36:25Z"
+fetched_at: "2026-10-07T22:37:45Z"
 sha256: "94ed119decc34bb0550079d8374ce465f58e1638933420db3b210558940ddf29"
 body_chars: 7735
 extracted_with: "main article"

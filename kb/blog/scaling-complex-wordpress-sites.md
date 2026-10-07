@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Development", "How Kinsta helps developers run complex WordPress sites at scale"]
 kinsta_last_updated: "2026-05-11T18:23:49+00:00"
 sitemap_lastmod: "2026-05-11T18:23:49"
-fetched_at: "2026-10-07T22:41:43Z"
+fetched_at: "2026-10-07T22:43:01Z"
 sha256: "d39466e0ddc6f63452fb024a5f0639a47ddf04f584cc8452e15359442e6ebe10"
 body_chars: 14974
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection: "wordpress-monitoring"
 section: []
 kinsta_last_updated: "July 2, 2025"
 sitemap_lastmod: "2025-07-02T11:01:43+00:00"
-fetched_at: "2026-10-07T22:37:29Z"
+fetched_at: "2026-10-07T22:38:49Z"
 sha256: "21d41c0b9f3c2f36bcec6862eee4ba0b2f6de0e1a96f183800ca03f585d3a485"
 body_chars: 3755
 extracted_with: "main article"

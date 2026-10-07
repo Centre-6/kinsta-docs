@@ -8,7 +8,7 @@ subsection: "devkinsta-getting-started"
 section: []
 kinsta_last_updated: "August 19, 2024"
 sitemap_lastmod: "2024-08-19T12:02:13+00:00"
-fetched_at: "2026-10-07T22:36:56Z"
+fetched_at: "2026-10-07T22:38:17Z"
 sha256: "f8448b5a16795df2e26a8f8ea3c69eecc2db083f4d3030144d0168e06e2d5783"
 body_chars: 5930
 extracted_with: "main article"

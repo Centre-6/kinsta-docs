@@ -8,7 +8,7 @@ subsection: "kinsta-research-program"
 section: []
 kinsta_last_updated: "August 23, 2024"
 sitemap_lastmod: "2024-08-23T14:34:03+00:00"
-fetched_at: "2026-10-07T22:37:02Z"
+fetched_at: "2026-10-07T22:38:22Z"
 sha256: "e8e612c0a4a374d201b1f7cadaf91d079a0e3233318b17ba2c282365ac738fcc"
 body_chars: 1191
 extracted_with: "main article"

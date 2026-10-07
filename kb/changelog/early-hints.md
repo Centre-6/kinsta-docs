@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Boost Your Website\u2019s Speed With New Early Hints Feature"]
 kinsta_last_updated: "2026-03-09T10:28:59+00:00"
 sitemap_lastmod: "2026-03-09T10:28:59+00:00"
-fetched_at: "2026-10-07T22:35:55Z"
+fetched_at: "2026-10-07T22:37:16Z"
 sha256: "e87b795497b68dd4ee324fca9193985f4bb5cf905a9366bfcf05da087cd16882"
 body_chars: 4541
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress SEO", "AI crawlers explained: How AI bots interact\u00a0with your WordPress site"]
 kinsta_last_updated: "2026-07-17T13:56:56+00:00"
 sitemap_lastmod: "2026-07-17T13:56:56"
-fetched_at: "2026-10-07T22:41:39Z"
+fetched_at: "2026-10-07T22:42:57Z"
 sha256: "c1f4c1fc60ddef1c100e508a473904e0d08889b2b3501db6fb5fc51a577de06b"
 body_chars: 18896
 extracted_with: "main article"

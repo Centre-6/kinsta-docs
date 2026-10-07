@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Hosting", "How much revenue could downtime cost you on Black Friday?"]
 kinsta_last_updated: "2026-06-12T14:25:04+00:00"
 sitemap_lastmod: "2026-06-12T14:25:04"
-fetched_at: "2026-10-07T22:41:59Z"
+fetched_at: "2026-10-07T22:43:18Z"
 sha256: "661f90033bfe06abe595d8b8ee4155b0e19c6fc74a685ff9279a756e1a703843"
 body_chars: 14420
 extracted_with: "main article"

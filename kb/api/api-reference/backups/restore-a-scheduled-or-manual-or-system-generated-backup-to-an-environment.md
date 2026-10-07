@@ -8,7 +8,7 @@ subsection: "backups"
 section: []
 kinsta_last_updated:
 sitemap_lastmod: "2026-09-18T09:42:50.768Z"
-fetched_at: "2026-10-07T22:39:44Z"
+fetched_at: "2026-10-07T22:41:02Z"
 sha256: "635b3ed7a3d1dba81e18bc88853598b3d654a07423a41c2a1c8ca294df629e49"
 body_chars: 8860
 extracted_with: "main"

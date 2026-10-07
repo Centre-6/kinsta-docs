@@ -8,7 +8,7 @@ subsection: "redirect-rules"
 section: []
 kinsta_last_updated: "February 18, 2026"
 sitemap_lastmod: "2026-02-18T05:53:42+00:00"
-fetched_at: "2026-10-07T22:38:08Z"
+fetched_at: "2026-10-07T22:39:28Z"
 sha256: "595b2666d73840641ceb205214741938160dbb7a8391261839c86ecb7635855c"
 body_chars: 19183
 extracted_with: "main article"

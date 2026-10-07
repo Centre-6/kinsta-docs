@@ -1,6 +1,6 @@
 # Kinsta documentation mirror - index
 
-Generated 2026-10-07T22:42:01Z from `manifest.json`. 570 live pages.
+Generated 2026-10-07T22:43:20Z from `manifest.json`. 570 live pages.
 
 Read this to orient before searching. Pages are grouped by **product**, because Kinsta's products reuse the same vocabulary for different mechanics and picking the wrong tree produces a confident wrong answer. Revalidate any page you intend to cite:
 

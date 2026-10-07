@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta Services", "Customers say we\u2019re a great web host. G2 says we\u2019re #1"]
 kinsta_last_updated: "2026-02-23T01:47:10+00:00"
 sitemap_lastmod: "2026-02-23T01:47:10"
-fetched_at: "2026-10-07T22:41:28Z"
+fetched_at: "2026-10-07T22:42:46Z"
 sha256: "7c390f06aebc94d1484d4972dafee17a8a5148304e380aed927d627cde1a0852"
 body_chars: 10711
 extracted_with: "main article"

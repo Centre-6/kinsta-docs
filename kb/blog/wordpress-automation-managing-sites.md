@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Agency", "How automation changes the economics of managing WordPress at scale"]
 kinsta_last_updated: "2026-03-31T15:50:44+00:00"
 sitemap_lastmod: "2026-03-31T15:50:44"
-fetched_at: "2026-10-07T22:41:13Z"
+fetched_at: "2026-10-07T22:42:32Z"
 sha256: "520dbf613c3ca5821cb26133843677560b8a438ccfb76fb80648087b0dc40806"
 body_chars: 15030
 extracted_with: "main article"

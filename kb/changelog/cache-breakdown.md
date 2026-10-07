@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "A new view of cache performance for your WordPress site"]
 kinsta_last_updated: "2026-04-05T15:11:44+00:00"
 sitemap_lastmod: "2026-04-05T15:11:44+00:00"
-fetched_at: "2026-10-07T22:35:58Z"
+fetched_at: "2026-10-07T22:37:18Z"
 sha256: "e7f3de9e4f2cf21b79d93540a278b1c13c37c09588906afbe3b850900e80b93c"
 body_chars: 2410
 extracted_with: "main article"

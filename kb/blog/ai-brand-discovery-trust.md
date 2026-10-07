@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Performance", "Where consumers go to trust a brand: how AI decides whether to cite you"]
 kinsta_last_updated: "2026-08-10T15:42:51+00:00"
 sitemap_lastmod: "2026-08-10T15:42:51"
-fetched_at: "2026-10-07T22:40:45Z"
+fetched_at: "2026-10-07T22:42:03Z"
 sha256: "e7b9592e442abe27b8330969ebe7ae3e3b2ce8345ace7da5719246d11548ec77"
 body_chars: 15952
 extracted_with: "main article"

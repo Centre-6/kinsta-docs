@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta Services", "Manage hundreds of sites with Kinsta\u2019s WP Admin auto-login"]
 kinsta_last_updated: "2026-03-11T15:00:29+00:00"
 sitemap_lastmod: "2026-03-11T15:00:29"
-fetched_at: "2026-10-07T22:41:23Z"
+fetched_at: "2026-10-07T22:42:42Z"
 sha256: "468999a3902a1d7b597f9e8acff397c098f377e0ab6d210e9a7acbd4c40b96b7"
 body_chars: 13874
 extracted_with: "main article"

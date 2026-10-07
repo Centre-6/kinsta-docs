@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Performance", "How WordPress hosting handles partial failures (APIs, CDNs, and third-party scripts)"]
 kinsta_last_updated: "2026-03-18T18:52:10+00:00"
 sitemap_lastmod: "2026-03-18T18:52:10"
-fetched_at: "2026-10-07T22:41:16Z"
+fetched_at: "2026-10-07T22:42:34Z"
 sha256: "cddc81395d2f3877014c6c0e35d1a03906ba70ae4d1a18c09b3e1cda6428bde1"
 body_chars: 16361
 extracted_with: "main article"

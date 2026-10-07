@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Bot Traffic", "Why scaling infrastructure doesn\u2019t fix bot traffic problems"]
 kinsta_last_updated: "2026-06-19T10:48:21+00:00"
 sitemap_lastmod: "2026-06-19T10:48:21"
-fetched_at: "2026-10-07T22:41:00Z"
+fetched_at: "2026-10-07T22:42:19Z"
 sha256: "378aff25a8f54b382bc9dd9121b8944c5a9cdd18e4fe539a58573af4e9bd72ed"
 body_chars: 16227
 extracted_with: "main article"

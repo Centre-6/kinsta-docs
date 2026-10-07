@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Kinsta adopts faster C3D VMs in Frankfurt and Sydney data centers"]
 kinsta_last_updated: "2025-11-17T12:07:28+00:00"
 sitemap_lastmod: "2025-11-17T12:07:28+00:00"
-fetched_at: "2026-10-07T22:35:51Z"
+fetched_at: "2026-10-07T22:37:11Z"
 sha256: "e00d576f3afdac3c6d3ac1e9b34f8fd3f06ee43b539875de4717d7ff37221c9c"
 body_chars: 3484
 extracted_with: "main article"

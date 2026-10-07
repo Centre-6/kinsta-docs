@@ -8,7 +8,7 @@ subsection: "wordpress-getting-started"
 section: []
 kinsta_last_updated: "June 11, 2025"
 sitemap_lastmod: "2025-06-11T15:42:57+00:00"
-fetched_at: "2026-10-07T22:37:22Z"
+fetched_at: "2026-10-07T22:38:41Z"
 sha256: "e0415d8e89d1775019f4ec027c94c583634b5bf5a451e7cb457e483cd0d9c6a2"
 body_chars: 3459
 extracted_with: "main article"

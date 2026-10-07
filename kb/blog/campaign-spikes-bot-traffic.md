@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Ecommerce Tips", "Why bandwidth spikes during campaigns are often bot-driven"]
 kinsta_last_updated: "2026-06-02T13:49:46+00:00"
 sitemap_lastmod: "2026-06-02T13:49:46"
-fetched_at: "2026-10-07T22:41:04Z"
+fetched_at: "2026-10-07T22:42:23Z"
 sha256: "4527947f1d0882ca60d788b89446282de64f240488bf7b500c4bc3354918495b"
 body_chars: 16000
 extracted_with: "main article"

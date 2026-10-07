@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta Events", "Meet Kinsta in Australia this September"]
 kinsta_last_updated: "2026-08-06T13:28:55+00:00"
 sitemap_lastmod: "2026-08-06T13:28:55"
-fetched_at: "2026-10-07T22:41:51Z"
+fetched_at: "2026-10-07T22:43:09Z"
 sha256: "5d44162ead81e2e8167d046f85a5515d8888b0fe457e4e0b933216e7410cb1f3"
 body_chars: 7566
 extracted_with: "main article"

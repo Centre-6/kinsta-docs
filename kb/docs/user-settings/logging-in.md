@@ -8,8 +8,8 @@ subsection: "logging-in"
 section: []
 kinsta_last_updated: "April 20, 2026"
 sitemap_lastmod: "2026-04-20T09:39:20+00:00"
-fetched_at: "2026-10-07T22:38:36Z"
-sha256: "fcc35b0a42a43e80bede6cd7d239955062b2a41c824ebb3ea48751154f7208db"
+fetched_at: "2026-10-07T22:39:56Z"
+sha256: "36b9ef70d324180818b6b897bd7feaf9751f13bbbd030eed111f409b0df7d7d4"
 body_chars: 15140
 extracted_with: "main article"
 status: "live"
@@ -137,7 +137,7 @@ Next, use the camera on your mobile device to scan the QR code in MyKinsta. Afte
 
 If you have lost access to your authenticator app and cannot log in to MyKinsta, follow the steps below, and our Support team can help you regain access to your account:
 
-- Send an email to [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection#493a3c3939263b3d092220273a3d28672a2624) from the email address on file in your MyKinsta account. If you use [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection) to log in to MyKinsta, send us an email from [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection). In the email, let us know you’ve been locked out and need to regain access to your account.
+- Send an email to [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection#dcafa9acacb3aea89cb7b5b2afa8bdf2bfb3b1) from the email address on file in your MyKinsta account. If you use [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection) to log in to MyKinsta, send us an email from [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection). In the email, let us know you’ve been locked out and need to regain access to your account.
 - Our Support team will verify your email address to make sure it matches the one we have on file.
 - Our Support team will ask you to provide the last 4 digits and the expiration date of the credit card we have on file for the account.
 - After successfully verifying your email address and credit card details, our Support team will remove the authenticator app protection from your account. You can then log in to MyKinsta and use email authentication to access your account.

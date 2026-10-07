@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Rolling out Google Cloud\u2019s Compute-Optimized (C2) VMs to Everyone"]
 kinsta_last_updated: "2020-12-10T17:45:18+00:00"
 sitemap_lastmod: "2020-12-10T17:45:18+00:00"
-fetched_at: "2026-10-07T22:35:22Z"
+fetched_at: "2026-10-07T22:36:42Z"
 sha256: "656f9d9be8c1c304c9869e3bd5963adb1059706719464e58bf4d60bf3f07b921"
 body_chars: 4164
 extracted_with: "main article"

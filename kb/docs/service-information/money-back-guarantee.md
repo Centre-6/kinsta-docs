@@ -8,7 +8,7 @@ subsection: "money-back-guarantee"
 section: []
 kinsta_last_updated: "August 23, 2024"
 sitemap_lastmod: "2024-08-23T08:48:28+00:00"
-fetched_at: "2026-10-07T22:37:01Z"
+fetched_at: "2026-10-07T22:38:21Z"
 sha256: "e352511f02758157dc33caa8aa04da4c71d0594b3f5b7ca902116c1377ba2fb8"
 body_chars: 3509
 extracted_with: "main article"

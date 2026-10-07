@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Those things we called PHP workers? Now we\u2019re calling them threads"]
 kinsta_last_updated: "2024-12-18T20:51:20+00:00"
 sitemap_lastmod: "2024-12-18T20:51:20+00:00"
-fetched_at: "2026-10-07T22:35:40Z"
+fetched_at: "2026-10-07T22:37:00Z"
 sha256: "e2093d2beed7114145923f95865f4f9bf86c7c310502b442b96f6981af61af76"
 body_chars: 3561
 extracted_with: "main article"

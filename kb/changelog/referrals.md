@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Save Money With Referrals While Sharing Your Love for Kinsta"]
 kinsta_last_updated: "2026-05-14T19:03:27+00:00"
 sitemap_lastmod: "2026-05-14T19:03:27+00:00"
-fetched_at: "2026-10-07T22:36:15Z"
+fetched_at: "2026-10-07T22:37:35Z"
 sha256: "d460ed3efe81bd433c03b281d70eba0714985e2388466e99b954bb309d050f32"
 body_chars: 5311
 extracted_with: "main article"

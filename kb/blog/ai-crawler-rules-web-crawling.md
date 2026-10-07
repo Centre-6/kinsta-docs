@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Bot Traffic", "Why AI crawlers are breaking the rules of web-crawling"]
 kinsta_last_updated: "2026-06-29T16:06:25+00:00"
 sitemap_lastmod: "2026-06-29T16:06:25"
-fetched_at: "2026-10-07T22:40:50Z"
+fetched_at: "2026-10-07T22:42:09Z"
 sha256: "b54feececce995d530e5ddbd2a3b88eb2466b006753288bd4eddacc019cea0f3"
 body_chars: 16272
 extracted_with: "main article"

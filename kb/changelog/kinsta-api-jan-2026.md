@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Manage WordPress plugins and themes with the Kinsta API"]
 kinsta_last_updated: "2026-05-20T20:31:31+00:00"
 sitemap_lastmod: "2026-05-20T20:31:31+00:00"
-fetched_at: "2026-10-07T22:36:20Z"
+fetched_at: "2026-10-07T22:37:40Z"
 sha256: "d375742c89611a2a401b780c2f4efdc377cc340e8b36826263be159171c28f84"
 body_chars: 6724
 extracted_with: "main article"

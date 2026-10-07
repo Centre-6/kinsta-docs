@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Hosting", "Why vendor trust matters more than vendor size in enterprise hosting"]
 kinsta_last_updated: "2026-06-04T15:54:58+00:00"
 sitemap_lastmod: "2026-06-04T15:54:58"
-fetched_at: "2026-10-07T22:40:57Z"
+fetched_at: "2026-10-07T22:42:16Z"
 sha256: "d2c604d5a0eaf1d10eb01c4fb4cd968c62adc645e7ce4fc3917f42219444308c"
 body_chars: 18941
 extracted_with: "main article"

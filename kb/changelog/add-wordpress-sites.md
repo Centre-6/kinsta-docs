@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Add more WordPress sites to your existing hosting plan at Kinsta"]
 kinsta_last_updated: "2025-01-22T18:46:15+00:00"
 sitemap_lastmod: "2025-01-22T18:46:15+00:00"
-fetched_at: "2026-10-07T22:35:41Z"
+fetched_at: "2026-10-07T22:37:01Z"
 sha256: "1c320d1aaa8d0b315789f227d1535be5fcd30325f1c9b2ab87f3df99e6d57c0d"
 body_chars: 3336
 extracted_with: "main article"

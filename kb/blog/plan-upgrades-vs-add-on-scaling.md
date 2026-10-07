@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta Services", "Plan upgrades vs. add-on scaling: Making the right choice this holiday season"]
 kinsta_last_updated: "2025-11-19T21:06:49+00:00"
 sitemap_lastmod: "2025-11-19T21:06:49"
-fetched_at: "2026-10-07T22:41:54Z"
+fetched_at: "2026-10-07T22:43:12Z"
 sha256: "02fc08a2d92b33fecf3860ab3b48177878726c99e4c8926b9272fffa19055ad0"
 body_chars: 14584
 extracted_with: "main article"

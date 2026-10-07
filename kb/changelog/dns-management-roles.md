@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "A new option for sharing the management of DNS in MyKinsta"]
 kinsta_last_updated: "2024-04-09T15:50:54+00:00"
 sitemap_lastmod: "2024-04-09T13:50:54+00:00"
-fetched_at: "2026-10-07T22:35:30Z"
+fetched_at: "2026-10-07T22:36:50Z"
 sha256: "cfdc8e1ab930d60aeccb94efe67993395661de6902d6f4672777fd5afd13d050"
 body_chars: 4162
 extracted_with: "main article"

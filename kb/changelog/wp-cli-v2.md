@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "WP-CLI v2 Is Now the Default on All Kinsta Servers"]
 kinsta_last_updated: "2020-08-30T14:40:02+00:00"
 sitemap_lastmod: "2020-08-30T14:40:02+00:00"
-fetched_at: "2026-10-07T22:35:21Z"
+fetched_at: "2026-10-07T22:36:41Z"
 sha256: "35d432ee5e1a79877cec97fb8c5e3e8634917874a2c490839d6d5ccec8fa6dd2"
 body_chars: 1076
 extracted_with: "main article"

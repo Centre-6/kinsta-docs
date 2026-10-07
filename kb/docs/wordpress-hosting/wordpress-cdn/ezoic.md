@@ -8,7 +8,7 @@ subsection: "wordpress-cdn"
 section: []
 kinsta_last_updated: "March 9, 2026"
 sitemap_lastmod: "2026-03-09T10:55:39+00:00"
-fetched_at: "2026-10-07T22:38:24Z"
+fetched_at: "2026-10-07T22:39:44Z"
 sha256: "2d4522402f320d1ae9b03a957985f33f262f09913dbaaf780dab180e8efba42c"
 body_chars: 10496
 extracted_with: "main article"

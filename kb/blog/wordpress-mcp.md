@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "API", "How to build a WordPress MCP integration for AI Agents on Kinsta-powered websites"]
 kinsta_last_updated: "2026-08-18T06:06:50+00:00"
 sitemap_lastmod: "2026-08-18T06:06:50"
-fetched_at: "2026-10-07T22:40:47Z"
+fetched_at: "2026-10-07T22:42:06Z"
 sha256: "983eb685080f805eea63d488031276853334c1faed9f6fa4a02344ce12557677"
 body_chars: 28129
 extracted_with: "main article"

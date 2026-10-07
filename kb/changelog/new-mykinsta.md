@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Welcome to the New MyKinsta"]
 kinsta_last_updated: "2026-06-22T11:00:19+00:00"
 sitemap_lastmod: "2026-06-22T11:00:19+00:00"
-fetched_at: "2026-10-07T22:36:28Z"
+fetched_at: "2026-10-07T22:37:48Z"
 sha256: "fcbb231d66427bc9087b0a31be2aefd23687f26c877ddb1d1a98d7546695e927"
 body_chars: 6022
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "API", "Why WordPress needs APIs before it needs more AI"]
 kinsta_last_updated: "2026-09-15T19:01:16+00:00"
 sitemap_lastmod: "2026-09-15T19:01:16"
-fetched_at: "2026-10-07T22:40:37Z"
+fetched_at: "2026-10-07T22:41:56Z"
 sha256: "022f4679511ca7ef3167c01c6747a0da2801f03fe94152d51b44d9265d95b905"
 body_chars: 13153
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Manage your site\u2019s PHP threads and memory use for optimal performance"]
 kinsta_last_updated: "2026-04-20T09:32:12+00:00"
 sitemap_lastmod: "2026-04-20T09:32:12+00:00"
-fetched_at: "2026-10-07T22:36:00Z"
+fetched_at: "2026-10-07T22:37:20Z"
 sha256: "9056e519c9cdcdec4a4f93dde2146f66696d25f297073b4c38aced15ecc80246"
 body_chars: 7680
 extracted_with: "main article"

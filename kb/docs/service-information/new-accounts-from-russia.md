@@ -8,7 +8,7 @@ subsection: "new-accounts-from-russia"
 section: []
 kinsta_last_updated: "January 25, 2024"
 sitemap_lastmod: "2024-01-25T17:30:59+00:00"
-fetched_at: "2026-10-07T22:36:37Z"
+fetched_at: "2026-10-07T22:37:57Z"
 sha256: "49a96181e83e33dd931a5b12f441d78fb0844b991d9f7fddd059c901d19912ea"
 body_chars: 1101
 extracted_with: "main article"

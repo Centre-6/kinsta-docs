@@ -8,7 +8,7 @@ subsection: "wp-cli"
 section: []
 kinsta_last_updated: "January 25, 2024"
 sitemap_lastmod: "2024-01-25T16:44:42+00:00"
-fetched_at: "2026-10-07T22:36:34Z"
+fetched_at: "2026-10-07T22:37:54Z"
 sha256: "310269b8ea9e055934073ef2adab0922d4ce43f8c1b217fed978d9b895a8604a"
 body_chars: 498
 extracted_with: "main article"

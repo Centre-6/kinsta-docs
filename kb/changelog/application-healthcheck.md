@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Slash application downtime with Kinsta healthcheck"]
 kinsta_last_updated: "2026-05-14T19:05:00+00:00"
 sitemap_lastmod: "2026-05-14T19:05:00+00:00"
-fetched_at: "2026-10-07T22:36:16Z"
+fetched_at: "2026-10-07T22:37:36Z"
 sha256: "301b4dd7d076cd74bb40028ce3b6af993869f47fb75ea2e63f02fd7dae875c52"
 body_chars: 3492
 extracted_with: "main article"

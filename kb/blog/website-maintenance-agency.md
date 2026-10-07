@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Agency", "How Kinsta can help your website maintenance agency grow"]
 kinsta_last_updated: "2025-10-02T15:38:33+00:00"
 sitemap_lastmod: "2025-10-02T15:38:33"
-fetched_at: "2026-10-07T22:41:57Z"
+fetched_at: "2026-10-07T22:43:16Z"
 sha256: "c5bd719c591597c3359e5e8c82230fa1ede3498a059de13ebba0ff75495dc38a"
 body_chars: 17255
 extracted_with: "main article"

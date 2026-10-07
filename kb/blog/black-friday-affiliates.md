@@ -8,8 +8,8 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta Affiliate Program", "Kinsta\u2019s Black Friday campaign is a win for affiliates"]
 kinsta_last_updated: "2025-12-03T08:56:00+00:00"
 sitemap_lastmod: "2025-12-03T08:56:00"
-fetched_at: "2026-10-07T22:41:52Z"
-sha256: "79e9ed87a4fbada7b21062af5eca84ee5c42246177acfccfd995b6b557ad8d4b"
+fetched_at: "2026-10-07T22:43:10Z"
+sha256: "83914ac56f4f9b54b9e2dd12e08326891a5f4b2da10cff90896a5bbc5c5c3c53"
 body_chars: 5798
 extracted_with: "main article"
 status: "live"
@@ -95,7 +95,7 @@ As a Kinsta affiliate, you can:
 - Include the discount in your existing Kinsta content
 - Add Kinsta’s offer to Black Friday deal roundups on your website or newsletter
 - Always use your affiliate link to ensure proper tracking and commission credit
-- Contact the affiliate team for any support at [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection#7b1a1d1d1217121a0f1e083b101215080f1a55181416)
+- Contact the affiliate team for any support at [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection#d8b9bebeb1b4b1b9acbdab98b3b1b6abacb9f6bbb7b5)
 
 Black Friday is a unique and limited opportunity to maximize your affiliate earnings, attract new referrals, and help your audience access Kinsta’s unmatched performance, security, and support.
 

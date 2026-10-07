@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "API", "How to set up custom MyKinsta notifications with the Kinsta API to catch issues before they impact users"]
 kinsta_last_updated: "2026-05-20T20:31:10+00:00"
 sitemap_lastmod: "2026-05-20T20:31:10"
-fetched_at: "2026-10-07T22:41:24Z"
+fetched_at: "2026-10-07T22:42:42Z"
 sha256: "bbe69628f60e05d42d0699474332d767e4c906ee2d734fbc5d778bcab9906026"
 body_chars: 38137
 extracted_with: "main article"

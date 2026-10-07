@@ -8,7 +8,7 @@ subsection: "operations"
 section: []
 kinsta_last_updated:
 sitemap_lastmod: "2026-09-18T09:42:50.837Z"
-fetched_at: "2026-10-07T22:39:48Z"
+fetched_at: "2026-10-07T22:41:07Z"
 sha256: "835f6446b7633015073b3eb4ac6eb1c2ac972c443893e4bae158a0d85e944ca7"
 body_chars: 5643
 extracted_with: "main"

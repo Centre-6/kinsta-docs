@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Development", "Analytics as a scaling tool: knowing when to optimize, not just how"]
 kinsta_last_updated: "2026-05-15T18:22:05+00:00"
 sitemap_lastmod: "2026-05-15T18:22:05"
-fetched_at: "2026-10-07T22:41:09Z"
+fetched_at: "2026-10-07T22:42:27Z"
 sha256: "967282afe8f387c137d67d66b5410918e01e4ec1c8250675d6e40a309b28252b"
 body_chars: 15531
 extracted_with: "main article"

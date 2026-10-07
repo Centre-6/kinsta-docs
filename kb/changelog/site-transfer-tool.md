@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Transfer Sites to Another Company with Kinsta\u2019s Enhanced Site Transfer Tool"]
 kinsta_last_updated: "2026-04-20T09:31:38+00:00"
 sitemap_lastmod: "2026-04-20T09:31:38+00:00"
-fetched_at: "2026-10-07T22:36:00Z"
+fetched_at: "2026-10-07T22:37:20Z"
 sha256: "5375c41b7dcd2d56009c87d839674058bcf89c278051d6d45ae803f3d06d54f3"
 body_chars: 6052
 extracted_with: "main article"

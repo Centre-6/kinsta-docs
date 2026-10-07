@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Agency", "Kinsta hosting for devs: infrastructure you don\u2019t have to babysit"]
 kinsta_last_updated: "2026-05-04T10:52:08+00:00"
 sitemap_lastmod: "2026-05-04T10:52:08"
-fetched_at: "2026-10-07T22:41:45Z"
+fetched_at: "2026-10-07T22:43:03Z"
 sha256: "fd2522aa615b013a97fa86ed3a1d4845a6650b3cfbdf3e5d9730205066f32a9a"
 body_chars: 13952
 extracted_with: "main article"

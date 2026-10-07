@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta News", "Kinsta launches Bot Protection for WordPress sites, included free on all plans"]
 kinsta_last_updated: "2026-06-22T09:37:22+00:00"
 sitemap_lastmod: "2026-06-22T09:37:22"
-fetched_at: "2026-10-07T22:41:02Z"
+fetched_at: "2026-10-07T22:42:21Z"
 sha256: "0eea5294c77880dac205a4ae67fbd1aee902a201bc9c37495fa16cd0c607966c"
 body_chars: 5240
 extracted_with: "main article"

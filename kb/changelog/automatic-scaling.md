@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Automatic Scaling Helps Your Application Keep Pace With Demand"]
 kinsta_last_updated: "2026-05-14T19:00:51+00:00"
 sitemap_lastmod: "2026-05-14T19:00:51+00:00"
-fetched_at: "2026-10-07T22:36:13Z"
+fetched_at: "2026-10-07T22:37:33Z"
 sha256: "4ff3beace654a915cf8fb3f292376be5c56e6dc911242cf614c3da263f2b3ba9"
 body_chars: 5533
 extracted_with: "main article"

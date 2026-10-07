@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Agency", "Engineering reliability at scale: Why developer-led agencies trust Kinsta for mission-critical projects"]
 kinsta_last_updated: "2026-06-12T14:24:27+00:00"
 sitemap_lastmod: "2026-06-12T14:24:27"
-fetched_at: "2026-10-07T22:41:33Z"
+fetched_at: "2026-10-07T22:42:52Z"
 sha256: "9716bedef5b4829c55f0c377f94a709dff35a351c3345f550a6c1fba9f426982"
 body_chars: 27414
 extracted_with: "main article"

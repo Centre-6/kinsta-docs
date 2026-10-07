@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress SEO", "AEO for WordPress: Why infrastructure now matters as much as content"]
 kinsta_last_updated: "2026-06-09T13:35:47+00:00"
 sitemap_lastmod: "2026-06-09T13:35:47"
-fetched_at: "2026-10-07T22:41:01Z"
+fetched_at: "2026-10-07T22:42:20Z"
 sha256: "82cb09f836b8891ccab27cfdd9450cf28d89de9d53ea8d2bff58d80b8e8f0857"
 body_chars: 19166
 extracted_with: "main article"

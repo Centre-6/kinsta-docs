@@ -8,7 +8,7 @@ subsection: "available-regions"
 section: []
 kinsta_last_updated:
 sitemap_lastmod: "2026-09-18T09:42:49.258Z"
-fetched_at: "2026-10-07T22:39:39Z"
+fetched_at: "2026-10-07T22:40:58Z"
 sha256: "4c6f0d0c0d229efcaffd06e301a4dfc9d3ee493ec3c66dd89b2edcc6f323d8e4"
 body_chars: 5688
 extracted_with: "main"

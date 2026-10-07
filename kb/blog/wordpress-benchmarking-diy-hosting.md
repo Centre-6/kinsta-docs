@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Hosting", "Performance benchmarking WordPress on Kinsta vs DIY hosting"]
 kinsta_last_updated: "2026-06-22T09:59:30+00:00"
 sitemap_lastmod: "2026-06-22T09:59:30"
-fetched_at: "2026-10-07T22:41:58Z"
+fetched_at: "2026-10-07T22:43:17Z"
 sha256: "7c5a26e8f894a351496bac3e3687972cf1e050bc6addc0c757cf0e49ffe3b15d"
 body_chars: 16066
 extracted_with: "main article"

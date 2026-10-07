@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Hosting", "What happens when one site gets hacked on shared hosting?"]
 kinsta_last_updated: "2026-05-11T18:24:13+00:00"
 sitemap_lastmod: "2026-05-11T18:24:13"
-fetched_at: "2026-10-07T22:41:36Z"
+fetched_at: "2026-10-07T22:42:54Z"
 sha256: "7015da8a6df722630dead960a09ededf883a14c0efde32fe7df26bb5c275ddfe"
 body_chars: 10983
 extracted_with: "main article"

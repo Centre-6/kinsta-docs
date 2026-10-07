@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Improved messaging for Kinsta Automatic Updates"]
 kinsta_last_updated: "2025-09-04T14:04:25+00:00"
 sitemap_lastmod: "2025-09-04T14:04:25+00:00"
-fetched_at: "2026-10-07T22:35:48Z"
+fetched_at: "2026-10-07T22:37:08Z"
 sha256: "786b777f7928fefc2c5e4836b6c9502ec9528a422ec803262aa5357468ad7e92"
 body_chars: 2972
 extracted_with: "main article"

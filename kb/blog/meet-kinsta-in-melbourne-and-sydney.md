@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta Events", "Meet Kinsta in Melbourne and Sydney"]
 kinsta_last_updated: "2026-05-07T06:45:57+00:00"
 sitemap_lastmod: "2026-05-07T06:45:57"
-fetched_at: "2026-10-07T22:41:10Z"
+fetched_at: "2026-10-07T22:42:29Z"
 sha256: "75440fe12efa417d7e7c12a942cfb5415439cd71e5e19d8acdcec6abe9611894"
 body_chars: 3887
 extracted_with: "main article"

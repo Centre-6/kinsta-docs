@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Bot Traffic", "How to reduce bandwidth waste without blocking legitimate users"]
 kinsta_last_updated: "2026-05-14T14:11:26+00:00"
 sitemap_lastmod: "2026-05-14T14:11:26"
-fetched_at: "2026-10-07T22:41:01Z"
+fetched_at: "2026-10-07T22:42:20Z"
 sha256: "9a5ac1c691a75d04fb3fd52f6c04246b6d3571a319317e38d01850c7038141d2"
 body_chars: 16091
 extracted_with: "main article"

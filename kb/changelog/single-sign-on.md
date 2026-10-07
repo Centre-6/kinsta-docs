@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Simplify secure access to MyKinsta with SAML single sign-on"]
 kinsta_last_updated: "2025-11-13T18:01:00+00:00"
 sitemap_lastmod: "2025-11-13T18:01:00+00:00"
-fetched_at: "2026-10-07T22:35:50Z"
+fetched_at: "2026-10-07T22:37:10Z"
 sha256: "d686567a8fd141c92c84a22f16cc4203ccd9892d1e5170a2ea21fafce43fa419"
 body_chars: 5676
 extracted_with: "main article"

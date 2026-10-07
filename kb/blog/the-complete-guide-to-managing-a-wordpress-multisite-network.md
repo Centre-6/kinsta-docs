@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "The complete guide to managing a WordPress multisite network"]
 kinsta_last_updated: "2026-03-10T23:00:17+00:00"
 sitemap_lastmod: "2026-03-10T23:00:17"
-fetched_at: "2026-10-07T22:41:40Z"
+fetched_at: "2026-10-07T22:42:59Z"
 sha256: "0a2f9a661d1429d937e304e5573406e4996534b72c7d678eba76f511df429ca9"
 body_chars: 34934
 extracted_with: "main article"

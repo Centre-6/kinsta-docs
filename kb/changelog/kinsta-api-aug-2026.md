@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Access more visitor data with the Kinsta API"]
 kinsta_last_updated: "2026-08-14T08:57:13+00:00"
 sitemap_lastmod: "2026-08-14T16:42:33+00:00"
-fetched_at: "2026-10-07T22:36:30Z"
+fetched_at: "2026-10-07T22:37:50Z"
 sha256: "e1177f24084d5137cc9d0bdbdaffc89d271baf73bada92d6088554f5fa8cb508"
 body_chars: 6388
 extracted_with: "main article"

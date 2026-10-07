@@ -8,7 +8,7 @@ subsection: "notifications"
 section: []
 kinsta_last_updated: "April 27, 2026"
 sitemap_lastmod: "2026-04-27T10:02:14+00:00"
-fetched_at: "2026-10-07T22:38:47Z"
+fetched_at: "2026-10-07T22:40:06Z"
 sha256: "2d2c013659a6544c3f4c46a4ad643475094d8eeac0786e389f91c24ae06d7c90"
 body_chars: 8575
 extracted_with: "main article"

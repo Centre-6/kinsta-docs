@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Make a site \u201cdisappear\u201d with environment suspension"]
 kinsta_last_updated: "2026-10-02T20:14:45+00:00"
 sitemap_lastmod: "2026-10-02T20:24:18+00:00"
-fetched_at: "2026-10-07T22:36:32Z"
+fetched_at: "2026-10-07T22:37:52Z"
 sha256: "d68bc51705d761b83640827564d4da255e1792e16b7561a83544867b30c957ea"
 body_chars: 2824
 extracted_with: "main article"

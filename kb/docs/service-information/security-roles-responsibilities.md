@@ -8,7 +8,7 @@ subsection: "security-roles-responsibilities"
 section: []
 kinsta_last_updated: "March 4, 2026"
 sitemap_lastmod: "2026-03-04T15:23:12+00:00"
-fetched_at: "2026-10-07T22:38:18Z"
+fetched_at: "2026-10-07T22:39:38Z"
 sha256: "998dc2a73fa11630667c5f4964661fe981572cecc112891d86ecd5140521b08d"
 body_chars: 4016
 extracted_with: "main article"

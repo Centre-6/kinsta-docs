@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Manage WordPress files in the MyKinsta dashboard"]
 kinsta_last_updated: "2026-06-06T13:30:35+00:00"
 sitemap_lastmod: "2026-06-06T13:30:35+00:00"
-fetched_at: "2026-10-07T22:36:27Z"
+fetched_at: "2026-10-07T22:37:47Z"
 sha256: "e729019d4491d3725ddc6c91547f37d486741ec08be3b6f4e2b27ea5cde740cf"
 body_chars: 7717
 extracted_with: "main article"

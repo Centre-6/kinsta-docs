@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta News", "Kinsta logs record year as top choice for serious WordPress businesses, with 60% customer growth, new executive hires and a platform buildout"]
 kinsta_last_updated: "2026-04-06T09:04:23+00:00"
 sitemap_lastmod: "2026-04-06T09:04:23"
-fetched_at: "2026-10-07T22:41:18Z"
+fetched_at: "2026-10-07T22:42:37Z"
 sha256: "6474328fa85db740933177096c3346df3a5daeae50200531b6ef24d10462ccbf"
 body_chars: 6429
 extracted_with: "main article"

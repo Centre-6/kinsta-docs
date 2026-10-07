@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "SEO Strategy", "GEO vs AEO vs SEO: What\u2019s the difference and how to optimize all three for WordPress"]
 kinsta_last_updated: "2026-05-12T16:24:32+00:00"
 sitemap_lastmod: "2026-05-12T16:24:32"
-fetched_at: "2026-10-07T22:41:06Z"
+fetched_at: "2026-10-07T22:42:24Z"
 sha256: "0840f9f5ad1c376545517fb704a889eb0c387f1de71aa8a0537bef7236deec8b"
 body_chars: 19527
 extracted_with: "main article"

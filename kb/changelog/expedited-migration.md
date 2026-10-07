@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "In a rush? Request a site migration in 8 hours (or less)"]
 kinsta_last_updated: "2025-01-03T20:01:53+00:00"
 sitemap_lastmod: "2025-01-03T20:01:53+00:00"
-fetched_at: "2026-10-07T22:35:40Z"
+fetched_at: "2026-10-07T22:37:00Z"
 sha256: "7e87371e38e1fc34853501f4700018d76bb0b7e77d46ac41149ed57bd592d031"
 body_chars: 4916
 extracted_with: "main article"

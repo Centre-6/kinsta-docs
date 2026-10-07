@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Hourly Backups Add-on is Now Available in MyKinsta"]
 kinsta_last_updated: "2023-12-14T00:42:04+00:00"
 sitemap_lastmod: "2023-12-14T00:42:04+00:00"
-fetched_at: "2026-10-07T22:35:27Z"
+fetched_at: "2026-10-07T22:36:47Z"
 sha256: "280909818281b996f97340a787cc5459b27bc579cb1c9158a722ba540d739b92"
 body_chars: 2554
 extracted_with: "main article"

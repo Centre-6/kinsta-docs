@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Agency", "Why scaling agencies optimize for fewer incidents, not faster fixes"]
 kinsta_last_updated: "2026-06-10T18:26:33+00:00"
 sitemap_lastmod: "2026-06-10T18:26:33"
-fetched_at: "2026-10-07T22:40:56Z"
+fetched_at: "2026-10-07T22:42:15Z"
 sha256: "7873c9c696a7d9981d68ddefcf846e5ee6d0e1dfeb7eb7d1ac0e2d96fc28f1ad"
 body_chars: 15701
 extracted_with: "main article"

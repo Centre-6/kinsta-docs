@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Bot Traffic", "The hidden cost of bot traffic on WordPress: what bandwidth reports don\u2019t show"]
 kinsta_last_updated: "2026-06-29T16:22:25+00:00"
 sitemap_lastmod: "2026-06-29T16:22:25"
-fetched_at: "2026-10-07T22:40:51Z"
+fetched_at: "2026-10-07T22:42:09Z"
 sha256: "16c57a9238d19bf983c0a24bead32ebdeb05fb6168a9998db53c28de5198b231"
 body_chars: 17140
 extracted_with: "main article"

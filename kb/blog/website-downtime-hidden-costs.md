@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Performance", "The hidden costs of website downtime and what you can do about it"]
 kinsta_last_updated: "2026-02-06T14:23:05+00:00"
 sitemap_lastmod: "2026-02-06T14:23:05"
-fetched_at: "2026-10-07T22:41:32Z"
+fetched_at: "2026-10-07T22:42:51Z"
 sha256: "ddf9677d46f3494115624091ff38c187f0c77d89cdaa783db2dcbdde521e6b02"
 body_chars: 18056
 extracted_with: "main article"

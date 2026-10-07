@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Turn back time with the new reset option for WordPress sites"]
 kinsta_last_updated: "2024-03-06T16:52:20+00:00"
 sitemap_lastmod: "2024-03-06T15:52:20+00:00"
-fetched_at: "2026-10-07T22:35:28Z"
+fetched_at: "2026-10-07T22:36:48Z"
 sha256: "472792e172526549731e9ba2e3a89d781a8555dc97a82a780b9b27c531972a24"
 body_chars: 4333
 extracted_with: "main article"

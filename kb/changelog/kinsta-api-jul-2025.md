@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Reset sites, manage DNS records, and more with Kinsta API"]
 kinsta_last_updated: "2026-05-20T20:31:55+00:00"
 sitemap_lastmod: "2026-05-20T20:31:55+00:00"
-fetched_at: "2026-10-07T22:36:23Z"
+fetched_at: "2026-10-07T22:37:43Z"
 sha256: "c05ee157989d554eed203ca47803a18af97d73ab5d4fafb8298c6248ab88cdac"
 body_chars: 8400
 extracted_with: "main article"

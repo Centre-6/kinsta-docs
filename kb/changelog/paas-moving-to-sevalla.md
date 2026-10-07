@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Application, database, and static site hosting are moving to Sevalla"]
 kinsta_last_updated: "2026-02-02T15:06:11+00:00"
 sitemap_lastmod: "2026-02-02T15:06:11+00:00"
-fetched_at: "2026-10-07T22:35:53Z"
+fetched_at: "2026-10-07T22:37:13Z"
 sha256: "34095e1e711eefbb94579a8dfea49fa95b0c32c35629c1ddce534c036265ab57"
 body_chars: 3842
 extracted_with: "main article"

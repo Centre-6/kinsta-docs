@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Agency", "4 agency founders share the decisions that shaped their businesses"]
 kinsta_last_updated: "2026-03-23T11:22:29+00:00"
 sitemap_lastmod: "2026-03-23T11:22:29"
-fetched_at: "2026-10-07T22:41:21Z"
+fetched_at: "2026-10-07T22:42:40Z"
 sha256: "b981f7487758034ae6ca8479e0ad28f298a3b6266a2b85bf74dfda906e27bf95"
 body_chars: 9594
 extracted_with: "main article"

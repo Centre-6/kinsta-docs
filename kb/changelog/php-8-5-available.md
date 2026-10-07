@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "PHP 8.5 is now available to Kinsta customers"]
 kinsta_last_updated: "2026-03-19T16:27:54+00:00"
 sitemap_lastmod: "2026-03-19T16:27:54+00:00"
-fetched_at: "2026-10-07T22:35:57Z"
+fetched_at: "2026-10-07T22:37:17Z"
 sha256: "636a0d967c02e52c88ade737fd2ee48f6532be7476a755b0b001ccd6bb6d13f5"
 body_chars: 5659
 extracted_with: "main article"

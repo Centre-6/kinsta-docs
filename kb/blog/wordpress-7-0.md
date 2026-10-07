@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Updates", "What\u2019s new in WordPress 7.0: AI integration, new blocks, and much more"]
 kinsta_last_updated: "2026-05-08T16:38:29+00:00"
 sitemap_lastmod: "2026-05-08T16:38:29"
-fetched_at: "2026-10-07T22:41:12Z"
+fetched_at: "2026-10-07T22:42:30Z"
 sha256: "f7524ebd278231c2e62b98dabe5df62f81e55594ca419f15b36df654140c5748"
 body_chars: 44951
 extracted_with: "main article"

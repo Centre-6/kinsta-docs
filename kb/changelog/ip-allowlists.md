@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Lock down SFTP/SSH and phpMyAdmin access with IP allowlists"]
 kinsta_last_updated: "2024-07-25T01:42:54+00:00"
 sitemap_lastmod: "2024-07-25T01:42:54+00:00"
-fetched_at: "2026-10-07T22:35:33Z"
+fetched_at: "2026-10-07T22:36:53Z"
 sha256: "a951d421a34c451ae0f586e2fefe684b6b4572553445064edd9b9b95cbd1a183"
 body_chars: 4484
 extracted_with: "main article"

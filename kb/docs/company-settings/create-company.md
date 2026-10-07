@@ -8,7 +8,7 @@ subsection: "create-company"
 section: []
 kinsta_last_updated: "March 7, 2025"
 sitemap_lastmod: "2025-03-07T16:15:02+00:00"
-fetched_at: "2026-10-07T22:37:11Z"
+fetched_at: "2026-10-07T22:38:31Z"
 sha256: "50762372b6b1fb5305dde1ecdc24d34f4f3c429eca956caba08342c768b28149"
 body_chars: 2422
 extracted_with: "main article"

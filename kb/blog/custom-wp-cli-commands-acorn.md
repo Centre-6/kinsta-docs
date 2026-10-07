@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Development", "How to build custom WP-CLI commands and automate WordPress maintenance with Acorn"]
 kinsta_last_updated: "2026-05-20T20:31:16+00:00"
 sitemap_lastmod: "2026-05-20T20:31:16"
-fetched_at: "2026-10-07T22:41:29Z"
+fetched_at: "2026-10-07T22:42:48Z"
 sha256: "39a4b3fc195e7ec56b486674fd14e2b3975fabb54837912772390a794b3becdf"
 body_chars: 18031
 extracted_with: "main article"

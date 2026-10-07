@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Bot Traffic", "Your WordPress site now has a third type of visitor (and it completes purchases)"]
 kinsta_last_updated: "2026-08-18T18:18:38+00:00"
 sitemap_lastmod: "2026-08-18T18:18:38"
-fetched_at: "2026-10-07T22:40:43Z"
+fetched_at: "2026-10-07T22:42:02Z"
 sha256: "a3af0f8878fe398dc39d86dce25c88b45811e63a606c68f8e27476faa270608c"
 body_chars: 16513
 extracted_with: "main article"

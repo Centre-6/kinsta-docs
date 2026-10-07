@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Updates", "What\u2019s new in WordPress 7.1: Client-side media processing, design tools, Abilities API, and much more"]
 kinsta_last_updated: "2026-08-07T17:08:42+00:00"
 sitemap_lastmod: "2026-08-07T17:08:42"
-fetched_at: "2026-10-07T22:40:49Z"
+fetched_at: "2026-10-07T22:42:08Z"
 sha256: "1c3e1fedbc7a4477b541f93d42a6d150f14df40f6a1f9d0d43be7896ae5eb9a8"
 body_chars: 42854
 extracted_with: "main article"

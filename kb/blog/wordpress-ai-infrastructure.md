@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Performance", "The more your WordPress site does with AI, the more your infrastructure has to handle"]
 kinsta_last_updated: "2026-08-05T18:35:41+00:00"
 sitemap_lastmod: "2026-08-05T18:35:41"
-fetched_at: "2026-10-07T22:40:46Z"
+fetched_at: "2026-10-07T22:42:04Z"
 sha256: "1f209703091cbb5d58083b4496cba60304c2a2be64568ff024862ed535a6ed4e"
 body_chars: 18464
 extracted_with: "main article"

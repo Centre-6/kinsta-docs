@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Introducing the Remove Set-Cookie Headers Tool"]
 kinsta_last_updated: "2022-06-16T13:01:25+00:00"
 sitemap_lastmod: "2022-06-16T13:01:25+00:00"
-fetched_at: "2026-10-07T22:35:24Z"
+fetched_at: "2026-10-07T22:36:44Z"
 sha256: "9072644a471ab16af0f18ae09afebea10d8a57c28514bbd8a228ef2d0b2356ae"
 body_chars: 2821
 extracted_with: "main article"

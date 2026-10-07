@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "DevKinsta Is Now Available For Ubuntu/Linux Users"]
 kinsta_last_updated: "2021-04-15T10:55:57+00:00"
 sitemap_lastmod: "2021-04-15T10:55:57+00:00"
-fetched_at: "2026-10-07T22:35:23Z"
+fetched_at: "2026-10-07T22:36:43Z"
 sha256: "838af8ac965c553e5e8c0b8bd12e283222cc504c0e7310b44d125318f7535ffe"
 body_chars: 2679
 extracted_with: "main article"

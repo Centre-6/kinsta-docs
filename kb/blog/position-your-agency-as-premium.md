@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Agency", "Strategies to position your agency as a premium service provider"]
 kinsta_last_updated: "2026-01-14T11:12:21+00:00"
 sitemap_lastmod: "2026-01-14T11:12:21"
-fetched_at: "2026-10-07T22:41:38Z"
+fetched_at: "2026-10-07T22:42:57Z"
 sha256: "4ad1a35435f28cb9040344c734e9490e6fc2827e194c09b7684a412399cb9ea8"
 body_chars: 17906
 extracted_with: "main article"

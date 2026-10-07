@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "phpMyAdmin: You can get there from here in one click"]
 kinsta_last_updated: "2025-11-21T22:34:06+00:00"
 sitemap_lastmod: "2025-11-21T22:34:06+00:00"
-fetched_at: "2026-10-07T22:35:52Z"
+fetched_at: "2026-10-07T22:37:12Z"
 sha256: "a30de7d90490e898fef75e957308e52fdeb419c11b24be035b604ee3dd131862"
 body_chars: 2330
 extracted_with: "main article"

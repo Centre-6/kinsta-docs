@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "API", "Create your own MCP Server to control WordPress hosting with AI"]
 kinsta_last_updated: "2026-05-20T20:31:12+00:00"
 sitemap_lastmod: "2026-05-20T20:31:12"
-fetched_at: "2026-10-07T22:41:25Z"
+fetched_at: "2026-10-07T22:42:44Z"
 sha256: "68a821e7c7588b3e53a012e1257383111372c9cd9767d42b91f46f26a75f6df1"
 body_chars: 25745
 extracted_with: "main article"

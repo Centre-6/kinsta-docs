@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Kinsta Static Site Hosting is Fast and Free"]
 kinsta_last_updated: "2026-05-06T14:31:09+00:00"
 sitemap_lastmod: "2026-05-06T14:31:09+00:00"
-fetched_at: "2026-10-07T22:36:06Z"
+fetched_at: "2026-10-07T22:37:26Z"
 sha256: "e055883bb324511a9cf47dbd8714017abffb4ff9168de4c2064353f3fd49320e"
 body_chars: 6634
 extracted_with: "main article"

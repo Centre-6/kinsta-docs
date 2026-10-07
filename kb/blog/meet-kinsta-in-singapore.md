@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta Events", "Meet Kinsta in Singapore this October"]
 kinsta_last_updated: "2026-09-25T11:01:18+00:00"
 sitemap_lastmod: "2026-09-25T11:01:18"
-fetched_at: "2026-10-07T22:40:39Z"
+fetched_at: "2026-10-07T22:41:58Z"
 sha256: "7c83fa9a87ac7b33fdd7048894df0df61f99e2d9c4220691e62735f6169891f5"
 body_chars: 4996
 extracted_with: "main article"

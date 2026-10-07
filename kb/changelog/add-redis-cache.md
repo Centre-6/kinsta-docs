@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Need a Redis cache? You can serve yourself in MyKinsta"]
 kinsta_last_updated: "2024-11-05T19:49:55+00:00"
 sitemap_lastmod: "2024-11-05T19:49:55+00:00"
-fetched_at: "2026-10-07T22:35:39Z"
+fetched_at: "2026-10-07T22:36:59Z"
 sha256: "8b3fc233cc27ac1d4237a755d3b0a563a8380054c7f2562bde582eb7bf9f16a4"
 body_chars: 4914
 extracted_with: "main article"

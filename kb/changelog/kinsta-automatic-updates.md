@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Kinsta Automatic Updates: Hands-free WordPress plugin and theme management"]
 kinsta_last_updated: "2025-03-28T19:16:13+00:00"
 sitemap_lastmod: "2025-03-28T19:16:13+00:00"
-fetched_at: "2026-10-07T22:35:43Z"
+fetched_at: "2026-10-07T22:37:03Z"
 sha256: "9b236ae05e05bb1a2a339f9873e228ab32e81d3b170a0dc81a4daed1b1dd7c38"
 body_chars: 9211
 extracted_with: "main article"

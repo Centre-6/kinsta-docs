@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "See exactly where your site\u2019s traffic goes with bot protection"]
 kinsta_last_updated: "2026-07-23T14:58:51+00:00"
 sitemap_lastmod: "2026-07-23T15:26:22+00:00"
-fetched_at: "2026-10-07T22:36:28Z"
+fetched_at: "2026-10-07T22:37:48Z"
 sha256: "dff8a636f9aabd5d72da3b0a426c72c193417cb0da04e2c938c25db09d54bc3a"
 body_chars: 5872
 extracted_with: "main article"

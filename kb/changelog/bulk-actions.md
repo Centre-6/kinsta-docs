@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Update multiple WordPress sites with MyKinsta\u2019s Bulk Actions"]
 kinsta_last_updated: "2026-05-14T19:00:13+00:00"
 sitemap_lastmod: "2026-05-14T19:00:13+00:00"
-fetched_at: "2026-10-07T22:36:12Z"
+fetched_at: "2026-10-07T22:37:32Z"
 sha256: "9b7a89f280de9e72a2db15fa9ab3ec1db0f9c18d5fbfe3c3c339d0a36b85f5b9"
 body_chars: 6638
 extracted_with: "main article"

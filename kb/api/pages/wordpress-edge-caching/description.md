@@ -8,7 +8,7 @@ subsection: "wordpress-edge-caching"
 section: []
 kinsta_last_updated:
 sitemap_lastmod: "2026-09-18T09:42:55.477Z"
-fetched_at: "2026-10-07T22:40:33Z"
+fetched_at: "2026-10-07T22:41:51Z"
 sha256: "3626e6e009d4779bf2dac9a9cfa6ff352e5348094dbaf396e076486c41cff3bf"
 body_chars: 1273
 extracted_with: "main"

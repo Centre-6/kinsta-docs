@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Agency", "What is white-label hosting? (And what Kinsta offers agencies and resellers)"]
 kinsta_last_updated: "2025-12-01T10:24:15+00:00"
 sitemap_lastmod: "2025-12-01T10:24:15"
-fetched_at: "2026-10-07T22:41:49Z"
+fetched_at: "2026-10-07T22:43:08Z"
 sha256: "015ff1f3ca9198a259e12e066086cf6845bc0f41a8edb45375fff9f877fe3b27"
 body_chars: 9519
 extracted_with: "main article"

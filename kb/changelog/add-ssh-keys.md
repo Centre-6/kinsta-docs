@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "You can now add your SSH keys in MyKinsta"]
 kinsta_last_updated: "2024-12-02T19:03:36+00:00"
 sitemap_lastmod: "2024-12-02T19:03:36+00:00"
-fetched_at: "2026-10-07T22:35:39Z"
+fetched_at: "2026-10-07T22:36:59Z"
 sha256: "d98c4720238e043a07db5d33012545e689eedd766c9e81040b86e6f1a809d12e"
 body_chars: 1774
 extracted_with: "main article"

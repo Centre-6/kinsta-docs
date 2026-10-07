@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Hosting", "How modern block themes are changing WordPress hosting"]
 kinsta_last_updated: "2026-03-17T11:46:54+00:00"
 sitemap_lastmod: "2026-03-17T11:46:54"
-fetched_at: "2026-10-07T22:41:22Z"
+fetched_at: "2026-10-07T22:42:41Z"
 sha256: "201eea2c56d39c95d93eec138910c761a1b0e6632b0840dd5a2856d095844aa6"
 body_chars: 11849
 extracted_with: "main article"

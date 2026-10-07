@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Access Your Application Through the New Web Terminal"]
 kinsta_last_updated: "2026-05-14T19:07:02+00:00"
 sitemap_lastmod: "2026-05-14T19:07:02+00:00"
-fetched_at: "2026-10-07T22:36:18Z"
+fetched_at: "2026-10-07T22:37:38Z"
 sha256: "cd82bed2842a5338618cdb8bcfe7ff2db2457d61d0725a53a3fd33819b130e05"
 body_chars: 3272
 extracted_with: "main article"

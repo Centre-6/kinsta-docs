@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "We\u2019ve renamed our WordPress hosting plans and boosted resource limits"]
 kinsta_last_updated: "2025-04-24T18:19:13+00:00"
 sitemap_lastmod: "2025-04-24T18:19:13+00:00"
-fetched_at: "2026-10-07T22:35:45Z"
+fetched_at: "2026-10-07T22:37:05Z"
 sha256: "99b19ebab7cfee24620adc5e515bea4c447b1078abe77d9415c5deaea88872f3"
 body_chars: 3094
 extracted_with: "main article"

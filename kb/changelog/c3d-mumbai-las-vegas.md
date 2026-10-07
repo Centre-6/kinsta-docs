@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Kinsta adopts Google\u2019s fast C3D VMs in Mumbai and Las Vegas data centers"]
 kinsta_last_updated: "2025-11-17T12:07:12+00:00"
 sitemap_lastmod: "2025-11-17T12:07:12+00:00"
-fetched_at: "2026-10-07T22:35:51Z"
+fetched_at: "2026-10-07T22:37:11Z"
 sha256: "d93936fe78aa7c6dd85be6e26b7dec0830abe91b0a125401d0fa62655209d16b"
 body_chars: 3593
 extracted_with: "main article"

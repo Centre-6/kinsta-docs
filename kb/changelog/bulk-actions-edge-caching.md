@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Configure Edge Caching for multiple WordPress sites with Bulk Actions"]
 kinsta_last_updated: "2026-05-14T18:59:50+00:00"
 sitemap_lastmod: "2026-05-14T18:59:50+00:00"
-fetched_at: "2026-10-07T22:36:12Z"
+fetched_at: "2026-10-07T22:37:32Z"
 sha256: "ab07984cc7b2de3ca078ea71a1c578ffd7681c1243436680d470aa2dd3cca6d8"
 body_chars: 3385
 extracted_with: "main article"

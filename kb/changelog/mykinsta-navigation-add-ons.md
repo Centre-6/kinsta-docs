@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Discover and manage Kinsta\u2019s WordPress Add-ons \u2014 all in one place"]
 kinsta_last_updated: "2025-01-22T20:03:21+00:00"
 sitemap_lastmod: "2025-01-22T20:03:21+00:00"
-fetched_at: "2026-10-07T22:35:42Z"
+fetched_at: "2026-10-07T22:37:02Z"
 sha256: "d8fa08d1f8c2dea0786268c20f69bd56da1dc20b2f61715df65607910e833261"
 body_chars: 4697
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Development", "Using headless WordPress to build a website with Lovable"]
 kinsta_last_updated: "2025-12-17T05:37:56+00:00"
 sitemap_lastmod: "2025-12-17T05:37:56"
-fetched_at: "2026-10-07T22:41:44Z"
+fetched_at: "2026-10-07T22:43:03Z"
 sha256: "4474dbc87b2aa3ef0e76d0ff9b9710964eb407e670df6291599f0ff72ea03d2f"
 body_chars: 16730
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Development", "How to create magic effects in WordPress with core blocks"]
 kinsta_last_updated: "2025-12-05T14:00:21+00:00"
 sitemap_lastmod: "2025-12-05T14:00:21"
-fetched_at: "2026-10-07T22:41:42Z"
+fetched_at: "2026-10-07T22:43:00Z"
 sha256: "500569f5e9667b1d615a2e085196d67feafec3113f990d54a09b51c35e4a4861"
 body_chars: 20005
 extracted_with: "main article"

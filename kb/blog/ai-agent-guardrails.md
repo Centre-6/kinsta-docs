@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Bot Traffic", "Why AI agents need guardrails instead of unlimited access"]
 kinsta_last_updated: "2026-09-15T19:21:31+00:00"
 sitemap_lastmod: "2026-09-15T19:21:31"
-fetched_at: "2026-10-07T22:40:37Z"
+fetched_at: "2026-10-07T22:41:56Z"
 sha256: "621661e0d64bce2e9664159bfaa44137b7ab5d954f2688fd1b8ac012d9d985cb"
 body_chars: 16686
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection: "database-management"
 section: []
 kinsta_last_updated: "April 20, 2026"
 sitemap_lastmod: "2026-04-20T09:40:50+00:00"
-fetched_at: "2026-10-07T22:38:38Z"
+fetched_at: "2026-10-07T22:39:57Z"
 sha256: "4c84a06a6a1dcf621f43d8b756c4ce34f4c87d781befb36eeaaaa87ae67e9472"
 body_chars: 2089
 extracted_with: "main article"

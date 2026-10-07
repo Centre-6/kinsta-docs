@@ -8,7 +8,7 @@ subsection: "wordpress-push-environments"
 section: []
 kinsta_last_updated: "June 12, 2026"
 sitemap_lastmod: "2026-06-12T13:55:35+00:00"
-fetched_at: "2026-10-07T22:39:08Z"
+fetched_at: "2026-10-07T22:40:27Z"
 sha256: "9f10487f4c434c7eff1d5265c3074c3c028e33d48c2fbf33f371eefb80b92229"
 body_chars: 11344
 extracted_with: "main article"

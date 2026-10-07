@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Agency", "The end of fragile growth: Building scalable, profitable WordPress agencies"]
 kinsta_last_updated: "2026-04-10T15:37:52+00:00"
 sitemap_lastmod: "2026-04-10T15:37:52"
-fetched_at: "2026-10-07T22:41:43Z"
+fetched_at: "2026-10-07T22:43:02Z"
 sha256: "b06bfe56cf85b9d008e04bc102f91595ec3b7b908d91727dbdeebd71d5b3a37f"
 body_chars: 24821
 extracted_with: "main article"

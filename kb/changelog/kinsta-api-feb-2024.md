@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "New Kinsta API endpoints enhance WordPress site management"]
 kinsta_last_updated: "2026-05-06T12:08:53+00:00"
 sitemap_lastmod: "2026-05-06T12:08:53+00:00"
-fetched_at: "2026-10-07T22:36:06Z"
+fetched_at: "2026-10-07T22:37:26Z"
 sha256: "27bbf0af04d55830f7e0b8afc371f5396852353be52ddbcd70cec7e577c11f22"
 body_chars: 9697
 extracted_with: "main article"

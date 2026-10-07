@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "New Edge Caching Feature Slashes Page Load Times"]
 kinsta_last_updated: "2024-02-13T15:02:36+00:00"
 sitemap_lastmod: "2024-02-13T15:02:36+00:00"
-fetched_at: "2026-10-07T22:35:28Z"
+fetched_at: "2026-10-07T22:36:48Z"
 sha256: "9b1dc1707d905dc105f47ffbba9c9a89050c1115c4e08a82b86aebd0f9631d37"
 body_chars: 8921
 extracted_with: "main article"

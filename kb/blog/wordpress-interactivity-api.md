@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "API", "Unlocking new possibilities with the WordPress Interactivity API"]
 kinsta_last_updated: "2025-11-10T11:25:28+00:00"
 sitemap_lastmod: "2025-11-10T11:25:28"
-fetched_at: "2026-10-07T22:41:54Z"
+fetched_at: "2026-10-07T22:43:13Z"
 sha256: "992cfb8590f6a01f51e4e8b382965e17592487bf18caf1959d8ed4291d334c84"
 body_chars: 37263
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Hosting", "How to organize multiple WordPress sites in MyKinsta: from chaos to order"]
 kinsta_last_updated: "2026-07-02T15:50:23+00:00"
 sitemap_lastmod: "2026-07-02T15:50:23"
-fetched_at: "2026-10-07T22:40:48Z"
+fetched_at: "2026-10-07T22:42:07Z"
 sha256: "9f122fa221573bb5bc2e3843320bd515b0f376707eee70fcf0ca3ea4020deca7"
 body_chars: 17552
 extracted_with: "main article"

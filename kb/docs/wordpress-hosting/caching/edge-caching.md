@@ -8,7 +8,7 @@ subsection: "caching"
 section: []
 kinsta_last_updated: "May 28, 2026"
 sitemap_lastmod: "2026-05-28T07:52:18+00:00"
-fetched_at: "2026-10-07T22:38:58Z"
+fetched_at: "2026-10-07T22:40:17Z"
 sha256: "c32ddf0bbf679f0bfa6aa64ee29731b2b0b14cc37e99d111a6f4f0bb3f092951"
 body_chars: 17493
 extracted_with: "main article"

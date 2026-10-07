@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta News", "The cloud became too complex. Sevalla is building the off-ramp for production teams"]
 kinsta_last_updated: "2026-06-08T08:43:47+00:00"
 sitemap_lastmod: "2026-06-08T08:43:47"
-fetched_at: "2026-10-07T22:41:04Z"
+fetched_at: "2026-10-07T22:42:22Z"
 sha256: "36f0a9335f52f532e9c6e89242cdc4e4f0d22849bf8eab84e713146c02ffec21"
 body_chars: 5807
 extracted_with: "main article"

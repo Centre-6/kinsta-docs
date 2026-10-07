@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "MyKinsta Analytics Revamped to Give You More Data"]
 kinsta_last_updated: "2026-03-09T10:38:48+00:00"
 sitemap_lastmod: "2026-03-09T10:38:48+00:00"
-fetched_at: "2026-10-07T22:35:56Z"
+fetched_at: "2026-10-07T22:37:16Z"
 sha256: "03a103dd3cead6e94cff1b6055788aafdfa4098922b2085f28877900b6baa88c"
 body_chars: 1667
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Bot Traffic", "The 7 biggest mistakes site owners make after discovering AI bot traffic"]
 kinsta_last_updated: "2026-09-17T12:00:59+00:00"
 sitemap_lastmod: "2026-09-17T12:00:59"
-fetched_at: "2026-10-07T22:40:40Z"
+fetched_at: "2026-10-07T22:41:59Z"
 sha256: "90bc48f782ba21ba3fabedbd9f039479f8ff66c093db10098bda216f49b197b8"
 body_chars: 18736
 extracted_with: "main article"

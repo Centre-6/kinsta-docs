@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Hosting", "Remote WordPress development on Kinsta with SSH"]
 kinsta_last_updated: "2026-02-05T09:57:10+00:00"
 sitemap_lastmod: "2026-02-05T09:57:10"
-fetched_at: "2026-10-07T22:41:33Z"
+fetched_at: "2026-10-07T22:42:51Z"
 sha256: "76923d1c87a81a6c5981e714794854402835b754b6f844cf8b77a25d2e2c89be"
 body_chars: 6792
 extracted_with: "main article"

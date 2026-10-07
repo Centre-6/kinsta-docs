@@ -8,7 +8,7 @@ subsection: "billing-questions"
 section: []
 kinsta_last_updated: "May 27, 2026"
 sitemap_lastmod: "2026-05-27T13:44:43+00:00"
-fetched_at: "2026-10-07T22:38:55Z"
+fetched_at: "2026-10-07T22:40:13Z"
 sha256: "08e96d8064ef45cd7f25a8af3ac130f093a4145bcedb0e728d270db170c14f2f"
 body_chars: 8866
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Agency", "Why agency growth breaks workflows long before it breaks infrastructure"]
 kinsta_last_updated: "2026-07-16T17:08:11+00:00"
 sitemap_lastmod: "2026-07-16T17:08:11"
-fetched_at: "2026-10-07T22:40:46Z"
+fetched_at: "2026-10-07T22:42:05Z"
 sha256: "9c9ab2cb5d37a5ccd8081b1841eeb7517f4e2a87fcca51e39a5d879816f8107f"
 body_chars: 13755
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "API", "Build an automated backup workflow for WordPress using Zendesk and the Kinsta API"]
 kinsta_last_updated: "2026-04-27T14:39:11+00:00"
 sitemap_lastmod: "2026-04-27T14:39:11"
-fetched_at: "2026-10-07T22:41:08Z"
+fetched_at: "2026-10-07T22:42:27Z"
 sha256: "009978565d1c053371c494e8c4733cd95f93011261fee98f5e9f47ced9a1fa58"
 body_chars: 15425
 extracted_with: "main article"

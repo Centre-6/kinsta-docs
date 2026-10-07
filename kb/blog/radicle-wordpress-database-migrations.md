@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Hosting", "Running Laravel-style migrations in WordPress with Radicle and Kinsta"]
 kinsta_last_updated: "2026-05-20T20:31:29+00:00"
 sitemap_lastmod: "2026-05-20T20:31:29"
-fetched_at: "2026-10-07T22:41:35Z"
+fetched_at: "2026-10-07T22:42:54Z"
 sha256: "0f560e19087e55bccddd6125fdc84f9a3789362c5880ce554a42873bf82849a8"
 body_chars: 16237
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "API", "Automating performance checks for your WP Agency with PageSpeed Insights API"]
 kinsta_last_updated: "2026-05-20T20:31:24+00:00"
 sitemap_lastmod: "2026-05-20T20:31:24"
-fetched_at: "2026-10-07T22:41:31Z"
+fetched_at: "2026-10-07T22:42:50Z"
 sha256: "78e5bf25c6f893ef70a1a17f98450721b855a9031d518df31e714858296e58a7"
 body_chars: 23425
 extracted_with: "main article"

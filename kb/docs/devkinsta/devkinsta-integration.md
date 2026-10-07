@@ -8,7 +8,7 @@ subsection: "devkinsta-integration"
 section: []
 kinsta_last_updated: "August 19, 2024"
 sitemap_lastmod: "2024-08-19T12:36:52+00:00"
-fetched_at: "2026-10-07T22:36:59Z"
+fetched_at: "2026-10-07T22:38:19Z"
 sha256: "9946d204ff220cb6142f4c16f555721bf60cc3fd6db004e5485f106ad2027786"
 body_chars: 8855
 extracted_with: "main article"

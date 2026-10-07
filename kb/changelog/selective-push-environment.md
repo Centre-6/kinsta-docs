@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Get selective when pushing staged environments"]
 kinsta_last_updated: "2024-05-11T03:36:58+00:00"
 sitemap_lastmod: "2024-05-11T03:36:58+00:00"
-fetched_at: "2026-10-07T22:35:30Z"
+fetched_at: "2026-10-07T22:36:50Z"
 sha256: "7f98f2430966d753d2a1747c7da183195c120af930b2ad8a25d224fd78d04ba3"
 body_chars: 4484
 extracted_with: "main article"

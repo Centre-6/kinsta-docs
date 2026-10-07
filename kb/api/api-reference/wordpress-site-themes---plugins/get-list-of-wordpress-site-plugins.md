@@ -8,7 +8,7 @@ subsection: "wordpress-site-themes-&-plugins"
 section: []
 kinsta_last_updated:
 sitemap_lastmod: "2026-09-18T09:42:50.106Z"
-fetched_at: "2026-10-07T22:40:11Z"
+fetched_at: "2026-10-07T22:41:30Z"
 sha256: "fc5483e127d5ea0bd4a2e8f9966b64b699445ff5265eafdd1be4c666d121ff98"
 body_chars: 6527
 extracted_with: "main"

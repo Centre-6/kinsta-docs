@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Move to a Visitor-Based Pricing Model"]
 kinsta_last_updated: "2026-03-09T10:24:19+00:00"
 sitemap_lastmod: "2026-03-09T10:24:19+00:00"
-fetched_at: "2026-10-07T22:35:55Z"
+fetched_at: "2026-10-07T22:37:15Z"
 sha256: "704a0b871d4d20ca7253a3b41b66a8d524b7460230e0b3ff1a96de3284dc1cad"
 body_chars: 1814
 extracted_with: "main article"

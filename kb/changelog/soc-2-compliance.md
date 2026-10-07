@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Kinsta\u2019s Security Efforts Recognized as SOC 2 Compliant"]
 kinsta_last_updated: "2024-08-28T14:51:23+00:00"
 sitemap_lastmod: "2024-08-28T14:51:23+00:00"
-fetched_at: "2026-10-07T22:35:37Z"
+fetched_at: "2026-10-07T22:36:57Z"
 sha256: "28376699c835503beda28691741eae58f88655ac0fbc90f8fc50eba0c9cdc0b5"
 body_chars: 5108
 extracted_with: "main article"

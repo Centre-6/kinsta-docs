@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Hosting", "Why your hosting is part of your website\u2019s credibility test"]
 kinsta_last_updated: "2026-08-10T15:33:42+00:00"
 sitemap_lastmod: "2026-08-10T15:33:42"
-fetched_at: "2026-10-07T22:40:45Z"
+fetched_at: "2026-10-07T22:42:04Z"
 sha256: "ff558f93ed68cb7f626e27987ffe5c6236dcd5a55fe1ea3b2cb269b3a00cf7eb"
 body_chars: 15890
 extracted_with: "main article"

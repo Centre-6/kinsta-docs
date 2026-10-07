@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Kinsta now supports end of life PHP versions 7.4 and 8.0"]
 kinsta_last_updated: "2025-04-11T08:37:39+00:00"
 sitemap_lastmod: "2025-04-11T08:37:39+00:00"
-fetched_at: "2026-10-07T22:35:44Z"
+fetched_at: "2026-10-07T22:37:04Z"
 sha256: "d7336796c36e179417e21981761149831d50340e1b07eab1077182f1e21e74cf"
 body_chars: 4002
 extracted_with: "main article"

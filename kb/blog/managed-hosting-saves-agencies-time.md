@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Hosting", "How managed hosting frees up time for agencies to focus on their core business"]
 kinsta_last_updated: "2026-05-11T18:15:39+00:00"
 sitemap_lastmod: "2026-05-11T18:15:39"
-fetched_at: "2026-10-07T22:41:42Z"
+fetched_at: "2026-10-07T22:43:01Z"
 sha256: "043fdb75db3a628124e7b1c6c910a54266567af8565260cf6afe3aea7dfc512f"
 body_chars: 13786
 extracted_with: "main article"

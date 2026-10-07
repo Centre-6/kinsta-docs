@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Fetch files and target specific paths with the Kinsta API"]
 kinsta_last_updated: "2026-05-20T20:32:08+00:00"
 sitemap_lastmod: "2026-05-20T20:32:08+00:00"
-fetched_at: "2026-10-07T22:36:24Z"
+fetched_at: "2026-10-07T22:37:44Z"
 sha256: "881a53d0bcdb4cb0980962302f314f4ac1c74f7b47c88230031998f03533ea42"
 body_chars: 5032
 extracted_with: "main article"

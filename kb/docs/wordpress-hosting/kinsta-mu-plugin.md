@@ -8,7 +8,7 @@ subsection: "kinsta-mu-plugin"
 section: []
 kinsta_last_updated: "April 27, 2026"
 sitemap_lastmod: "2026-04-27T09:56:43+00:00"
-fetched_at: "2026-10-07T22:38:46Z"
+fetched_at: "2026-10-07T22:40:05Z"
 sha256: "0d033eda23e7827ca3ed12586dc3333f932049368dc5e3b3684da8c447172852"
 body_chars: 18740
 extracted_with: "main article"

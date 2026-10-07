@@ -8,8 +8,8 @@ subsection: "contact-support"
 section: []
 kinsta_last_updated: "June 3, 2026"
 sitemap_lastmod: "2026-06-03T08:45:27+00:00"
-fetched_at: "2026-10-07T22:39:04Z"
-sha256: "f7a34a4735fb20d4fb0687b63e2d7a4828a6edd775f385f4a120c5b684308433"
+fetched_at: "2026-10-07T22:40:22Z"
+sha256: "08cdf89ea2df925f6d318356daacedd1bf3d3d96063cec3f4f4e849acad76f04"
 body_chars: 12219
 extracted_with: "main article"
 status: "live"
@@ -151,7 +151,7 @@ Sales inquiries are handled **Monday – Friday**. We can currently assist you i
 - Spanish sales: 1 p.m. to 9 p.m. UTC
 - French sales: 2 p.m. to 8 p.m. UTC
 
-To send our Sales team a message, head over to our [Contact Us](https://kinsta.com/contact-us/) page, email us at [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection#64070b0a10050710240f0d0a1710054a070b09), send us a [WhatsApp message](https://api.whatsapp.com/send/?phone=18886102915&text&type=phone_number&app_absent=0), or call us on **[+1 (888) 610-2915](tel:+18886102915)**. If you’re a current Kinsta client, you can also open a support ticket and ask to chat with our Account Management team.
+To send our Sales team a message, head over to our [Contact Us](https://kinsta.com/contact-us/) page, email us at [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection#15767a7b61747661557e7c7b6661743b767a78), send us a [WhatsApp message](https://api.whatsapp.com/send/?phone=18886102915&text&type=phone_number&app_absent=0), or call us on **[+1 (888) 610-2915](tel:+18886102915)**. If you’re a current Kinsta client, you can also open a support ticket and ask to chat with our Account Management team.
 
 ![Contact Kinsta sales through our Contact us page.](https://kinsta.com/wp-content/uploads/2023/11/contact-us.png)
 
@@ -202,7 +202,7 @@ Take a [tour of MyKinsta](https://kinsta.com/blog/organize-wordpress-sites/).
 
 ### Affiliate program language support and hours
 
-Support for our [Affiliate program](https://kinsta.com/affiliates/) is currently available in **English, Monday – Friday, from 8 a.m. to 5 p.m. UTC.** You can contact our Affiliate Manager directly by emailing [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection#254443434c494c44514056654e4c4b5651440b464a48).
+Support for our [Affiliate program](https://kinsta.com/affiliates/) is currently available in **English, Monday – Friday, from 8 a.m. to 5 p.m. UTC.** You can contact our Affiliate Manager directly by emailing [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection#86e7e0e0efeaefe7f2e3f5c6edefe8f5f2e7a8e5e9eb).
 
 Just as we did with MyKinsta, we decided to [build our own solution](https://kinsta.com/blog/affiliate-system/). Our [affiliate dashboard](https://affiliate.kinsta.com/) is currently available in the following five languages:
 

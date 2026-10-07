@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Bot Traffic", "AI crawlers vs. bot protection vs. robots.txt vs. llms.txt: what actually controls AI access?"]
 kinsta_last_updated: "2026-07-23T19:32:55+00:00"
 sitemap_lastmod: "2026-07-23T19:32:55"
-fetched_at: "2026-10-07T22:40:52Z"
+fetched_at: "2026-10-07T22:42:10Z"
 sha256: "1146f62de07100dbfe726675157c56d4c5813621f8b3c75572283f4fdfc9dd5e"
 body_chars: 14801
 extracted_with: "main article"

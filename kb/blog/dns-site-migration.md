@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Development", "How DNS really works during a site migration (and how to avoid downtime)"]
 kinsta_last_updated: "2026-03-12T11:23:54+00:00"
 sitemap_lastmod: "2026-03-12T11:23:54"
-fetched_at: "2026-10-07T22:41:27Z"
+fetched_at: "2026-10-07T22:42:45Z"
 sha256: "6a137a0e3b8274b31d1cfd4571dcc15207fffa66f266a749e52366a831e4f8a5"
 body_chars: 18766
 extracted_with: "main article"

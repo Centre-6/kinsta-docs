@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Updates", "New features, new blocks, new APIs: here is what\u2019s new in WordPress 6.9"]
 kinsta_last_updated: "2026-05-20T20:31:35+00:00"
 sitemap_lastmod: "2026-05-20T20:31:35"
-fetched_at: "2026-10-07T22:41:48Z"
+fetched_at: "2026-10-07T22:43:07Z"
 sha256: "18aec8a69671f43b8d184404a6b839ba4b3b93cd274306d4a42bf8ef717883c9"
 body_chars: 40048
 extracted_with: "main article"

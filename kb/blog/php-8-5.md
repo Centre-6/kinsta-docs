@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "PHP Updates", "PHP 8.5: Here\u2019s what\u2019s new in the latest release"]
 kinsta_last_updated: "2026-05-20T20:31:34+00:00"
 sitemap_lastmod: "2026-05-20T20:31:34"
-fetched_at: "2026-10-07T22:41:46Z"
+fetched_at: "2026-10-07T22:43:04Z"
 sha256: "6361adb0cb25067cbeb0a7f653ab47e255a777a12a80cff7819bc17a3aab6743"
 body_chars: 14387
 extracted_with: "main article"

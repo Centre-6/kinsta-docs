@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Performance", "WordPress performance during background activity (cron jobs, imports, backups)"]
 kinsta_last_updated: "2026-05-28T07:24:10+00:00"
 sitemap_lastmod: "2026-05-28T07:24:10"
-fetched_at: "2026-10-07T22:40:59Z"
+fetched_at: "2026-10-07T22:42:18Z"
 sha256: "f91aef422b60325b85e18d1c2a361956c4b8d63af068909715710ad51f613389"
 body_chars: 18474
 extracted_with: "main article"

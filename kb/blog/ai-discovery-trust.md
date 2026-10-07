@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta News", "Are websites dead? AI discovery, trust, and website quality"]
 kinsta_last_updated: "2026-09-22T13:09:15+00:00"
 sitemap_lastmod: "2026-09-22T13:09:15"
-fetched_at: "2026-10-07T22:40:41Z"
+fetched_at: "2026-10-07T22:42:00Z"
 sha256: "51cbd32cecc2c1342b6e49b006808f9b73f45124844e8b131a4d640a3fc80832"
 body_chars: 3361
 extracted_with: "main article"

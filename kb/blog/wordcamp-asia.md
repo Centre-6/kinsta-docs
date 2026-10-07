@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta Events", "Meet Kinsta at WordCamp Asia 2026"]
 kinsta_last_updated: "2026-04-01T09:21:22+00:00"
 sitemap_lastmod: "2026-04-01T09:21:22"
-fetched_at: "2026-10-07T22:41:18Z"
+fetched_at: "2026-10-07T22:42:36Z"
 sha256: "4c0b4168293ceab38b5ba279ba1354cbf0c5a037abe4a471365e7f7b15e7c216"
 body_chars: 4019
 extracted_with: "main article"

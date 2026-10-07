@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Kinsta Unveils New and Improved Documentation"]
 kinsta_last_updated: "2026-04-20T09:35:12+00:00"
 sitemap_lastmod: "2026-04-20T09:35:12+00:00"
-fetched_at: "2026-10-07T22:36:02Z"
+fetched_at: "2026-10-07T22:37:22Z"
 sha256: "2b361795babff0d05d9653acd5fed65678bab2a3e2e030c67cc8be2a00c2b6de"
 body_chars: 2563
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Development", "Scaling typeface gracefully with fluid typography"]
 kinsta_last_updated: "2025-10-31T15:51:52+00:00"
 sitemap_lastmod: "2025-10-31T15:51:52"
-fetched_at: "2026-10-07T22:41:49Z"
+fetched_at: "2026-10-07T22:43:08Z"
 sha256: "edd69d4bca5397d9ea494ab9ec2fa1201fd67b2ab9fe98841e8b4a167db2fb0f"
 body_chars: 15185
 extracted_with: "main article"

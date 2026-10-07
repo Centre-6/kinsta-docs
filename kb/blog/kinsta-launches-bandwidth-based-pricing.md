@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta News", "Kinsta Launches Bandwidth-Based Pricing to Give Website Owners and Developers More Hosting Control"]
 kinsta_last_updated: "2026-03-02T13:37:21+00:00"
 sitemap_lastmod: "2026-03-02T13:37:21"
-fetched_at: "2026-10-07T22:41:55Z"
+fetched_at: "2026-10-07T22:43:13Z"
 sha256: "effa580dc6aa1213fe69f2fe2fb144b9b398511c1c6ba235b764ebdfab303192"
 body_chars: 4677
 extracted_with: "main article"

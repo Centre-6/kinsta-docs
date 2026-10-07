@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Agency", "How agencies can deliver predictable results by eliminating hosting variables"]
 kinsta_last_updated: "2026-04-23T15:49:54+00:00"
 sitemap_lastmod: "2026-04-23T15:49:54"
-fetched_at: "2026-10-07T22:41:34Z"
+fetched_at: "2026-10-07T22:42:53Z"
 sha256: "d2606fd9686c6faac02ba4053c8d585ebbdd00d7ab309f998f6e9b1629ce01a9"
 body_chars: 15136
 extracted_with: "main article"

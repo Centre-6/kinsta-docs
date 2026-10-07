@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Cloudflare", "Kinsta Bot Protection vs. Cloudflare: What\u2019s the difference, and which should you use?"]
 kinsta_last_updated: "2026-07-16T14:26:05+00:00"
 sitemap_lastmod: "2026-07-16T14:26:05"
-fetched_at: "2026-10-07T22:40:55Z"
+fetched_at: "2026-10-07T22:42:14Z"
 sha256: "a7a38abbf8854a7f5fc000e2de87ce4e8945490441721b16ed8a2d0abacce327"
 body_chars: 22791
 extracted_with: "main article"

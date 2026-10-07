@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Force HTTPS Tool Now Available on MyKinsta"]
 kinsta_last_updated: "2020-06-11T15:35:06+00:00"
 sitemap_lastmod: "2020-06-11T15:35:06+00:00"
-fetched_at: "2026-10-07T22:35:21Z"
+fetched_at: "2026-10-07T22:36:41Z"
 sha256: "3e8d2d257f38596ab8253873e297d684b0e0d4b135ad0d729e6dd80475fe6895"
 body_chars: 1921
 extracted_with: "main article"

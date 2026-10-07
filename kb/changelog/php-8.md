@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "PHP 8.0 Now Available for All Environments and Websites"]
 kinsta_last_updated: "2026-04-20T09:33:19+00:00"
 sitemap_lastmod: "2026-04-20T09:33:19+00:00"
-fetched_at: "2026-10-07T22:36:01Z"
+fetched_at: "2026-10-07T22:37:21Z"
 sha256: "0c406a95aa8a6980f31ea43634b97073423f3aa8fb4d9244f944d58926eda2dd"
 body_chars: 2820
 extracted_with: "main article"

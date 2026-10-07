@@ -8,7 +8,7 @@ subsection: "wordpress-backups-and-disaster-recovery"
 section: []
 kinsta_last_updated: "January 21, 2026"
 sitemap_lastmod: "2026-01-21T11:00:31+00:00"
-fetched_at: "2026-10-07T22:37:54Z"
+fetched_at: "2026-10-07T22:39:14Z"
 sha256: "dc3d29ec62131a04c6cdb3bb0fdc82c1ab1d037aaaf899438f1a4c6decda76ce"
 body_chars: 4066
 extracted_with: "main article"

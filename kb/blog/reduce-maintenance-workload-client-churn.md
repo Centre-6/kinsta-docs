@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Hosting", "From firefighting to future-proofing: How Kinsta reduces maintenance workload and client churn"]
 kinsta_last_updated: "2025-10-27T09:05:19+00:00"
 sitemap_lastmod: "2025-10-27T09:05:19"
-fetched_at: "2026-10-07T22:41:58Z"
+fetched_at: "2026-10-07T22:43:17Z"
 sha256: "a506404a7293339e62a06a90dd965962b0ca0089ea91bb9085b164bc45921362"
 body_chars: 28632
 extracted_with: "main article"

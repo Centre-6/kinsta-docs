@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "South African data center in Johannesburg is now available"]
 kinsta_last_updated: "2024-02-08T16:33:12+00:00"
 sitemap_lastmod: "2024-02-08T16:33:12+00:00"
-fetched_at: "2026-10-07T22:35:27Z"
+fetched_at: "2026-10-07T22:36:47Z"
 sha256: "51f2be9f0ac97c9d5d503c4989a00d9462a4a4da34254665d74d2892b7220078"
 body_chars: 4028
 extracted_with: "main article"

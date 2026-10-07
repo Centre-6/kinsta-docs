@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Development", "Automating WordPress operations with CLI agents on Kinsta"]
 kinsta_last_updated: "2026-09-23T12:41:16+00:00"
 sitemap_lastmod: "2026-09-23T12:41:16"
-fetched_at: "2026-10-07T22:40:38Z"
+fetched_at: "2026-10-07T22:41:57Z"
 sha256: "00ec7edb91362684b9aaed97e8052fef4a52cf0eab5a14bb6873683fffd4e1b8"
 body_chars: 30158
 extracted_with: "main article"

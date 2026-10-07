@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Introducing Kinsta\u2019s Premium Staging Environment add-On"]
 kinsta_last_updated: "2025-05-08T20:03:17+00:00"
 sitemap_lastmod: "2025-05-08T20:03:17+00:00"
-fetched_at: "2026-10-07T22:35:46Z"
+fetched_at: "2026-10-07T22:37:06Z"
 sha256: "c65cea994b3f3f6b72affa96b229d3e38eb70c40deaa6e63fae6f6ab84db1412"
 body_chars: 3926
 extracted_with: "main article"

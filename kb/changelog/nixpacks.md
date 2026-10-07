@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Introducing Nixpacks for Streamlined Deployments"]
 kinsta_last_updated: "2026-05-14T19:08:07+00:00"
 sitemap_lastmod: "2026-05-14T19:08:07+00:00"
-fetched_at: "2026-10-07T22:36:18Z"
+fetched_at: "2026-10-07T22:37:38Z"
 sha256: "847161b6be68e83c44685536f278b2b81942a4842aff351bbc37eb08ccbbd5d7"
 body_chars: 4919
 extracted_with: "main article"

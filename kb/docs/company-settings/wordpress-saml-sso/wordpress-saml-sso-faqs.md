@@ -8,7 +8,7 @@ subsection: "wordpress-saml-sso"
 section: []
 kinsta_last_updated: "October 27, 2025"
 sitemap_lastmod: "2025-10-27T11:05:21+00:00"
-fetched_at: "2026-10-07T22:37:40Z"
+fetched_at: "2026-10-07T22:39:01Z"
 sha256: "f9012da2039733a4de38989c0e303b2e5a41aa58bcb14e63edd52ac931ab0311"
 body_chars: 3244
 extracted_with: "main article"

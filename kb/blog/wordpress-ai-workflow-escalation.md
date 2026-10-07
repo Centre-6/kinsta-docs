@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Agency", "Why the best AI agent is the one that knows when to ask a human"]
 kinsta_last_updated: "2026-08-18T18:32:53+00:00"
 sitemap_lastmod: "2026-08-18T18:32:53"
-fetched_at: "2026-10-07T22:40:43Z"
+fetched_at: "2026-10-07T22:42:01Z"
 sha256: "4d6d4b1b8f74cd2db5baa3704e2229b4b92d3c8f9ac20bd0fb16610975240467"
 body_chars: 17420
 extracted_with: "main article"

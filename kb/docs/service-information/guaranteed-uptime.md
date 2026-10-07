@@ -8,7 +8,7 @@ subsection: "guaranteed-uptime"
 section: []
 kinsta_last_updated: "October 24, 2025"
 sitemap_lastmod: "2025-10-24T15:01:47+00:00"
-fetched_at: "2026-10-07T22:37:38Z"
+fetched_at: "2026-10-07T22:38:59Z"
 sha256: "eb38cf386d6be4bb2a09690aae821c65782a826e36f2e6b4e1ceda7a2a1eceeb"
 body_chars: 3389
 extracted_with: "main article"

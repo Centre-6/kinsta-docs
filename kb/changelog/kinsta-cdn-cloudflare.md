@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Kinsta CDN Is Now Powered by Cloudflare"]
 kinsta_last_updated: "2021-07-13T10:44:40+00:00"
 sitemap_lastmod: "2021-07-13T10:44:40+00:00"
-fetched_at: "2026-10-07T22:35:24Z"
+fetched_at: "2026-10-07T22:36:44Z"
 sha256: "96d739ae6da6954b60706081fea80dd9dc22f5617f191ca2a796de7fbcf04773"
 body_chars: 6509
 extracted_with: "main article"

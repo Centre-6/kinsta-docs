@@ -8,8 +8,8 @@ subsection: "delete-account"
 section: []
 kinsta_last_updated: "March 12, 2025"
 sitemap_lastmod: "2025-03-12T19:02:20+00:00"
-fetched_at: "2026-10-07T22:37:14Z"
-sha256: "1804945560062ba94e464cb53f677aa7bcb5a485ae02dbe1a8ba30384005eefa"
+fetched_at: "2026-10-07T22:38:34Z"
+sha256: "16700de74977212830330c8eba55d88ec6e63ceb4e26704f1cd83a70de6cfcad"
 body_chars: 4865
 extracted_with: "main article"
 status: "live"
@@ -42,7 +42,7 @@ When you delete a WordPress site, all of its data is destroyed and **not** recov
 - [PHP performance add-on](https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-performance/#change-php-performance)
 - [Kinsta Automatic Updates add-on](https://kinsta.com/docs/wordpress-hosting/wordpress-plugins-themes/wordpress-plugins-themes-automatic-updates/)
 
-It **does not** remove the Redis, Nginx, PHP Memory Limit, Disk Space, or WordPress site add-ons; these are only removed if you [cancel your WordPress Plan](#cancel-your-WordPress-plan). If you want to remove any of these add-ons without canceling your plan, please get in touch with the Account Management team via the live chat in [MyKinsta Dashboard](https://my.kinsta.com/) or e-mail us at [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection#7b1a1818140e150f161a151a1c1e161e150f3b101215080f1a55181416).
+It **does not** remove the Redis, Nginx, PHP Memory Limit, Disk Space, or WordPress site add-ons; these are only removed if you [cancel your WordPress Plan](#cancel-your-WordPress-plan). If you want to remove any of these add-ons without canceling your plan, please get in touch with the Account Management team via the live chat in [MyKinsta Dashboard](https://my.kinsta.com/) or e-mail us at [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection#b7d6d4d4d8c2d9c3dad6d9d6d0d2dad2d9c3f7dcded9c4c3d699d4d8da).
 
 To delete a WordPress site, click **Sites**, select the ***site name*** of the site you want to delete, and click **Delete site**. You must accept the prompts that the files and database for your live site and staging sites will be destroyed, enter your site’s name followed by -live, and click **Delete site.**
 
@@ -56,7 +56,7 @@ Canceling your WordPress plan removes any add-ons linked to the WordPress sites 
 2. You must accept the prompts that all of your live and staging environments, DNS records, CDN configurations, and settings in MyKinsta will be deleted, and click **Next**.
 3. Your final bill is automatically calculated. Click **Next**, enter your MyKinsta password, and click **Cancel plan**.
 
-After cancellation, you can still access MyKinsta and can choose to add a new plan if required. If you want to remove your company or user account, you must open a chat with [Kinsta’s Support Team](https://kinsta.com/docs/support/contact-support/) or send an email to [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection#21525451514e5355614a484f5255400f424e4c) from the email address associated with your MyKinsta account.
+After cancellation, you can still access MyKinsta and can choose to add a new plan if required. If you want to remove your company or user account, you must open a chat with [Kinsta’s Support Team](https://kinsta.com/docs/support/contact-support/) or send an email to [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection#bfcccacfcfd0cdcbffd4d6d1cccbde91dcd0d2) from the email address associated with your MyKinsta account.
 
 ## Delete your company
 
@@ -70,4 +70,4 @@ If you want to transfer the company to another user, refer to [Transfer Ownershi
 
 You cannot remove your MyKinsta user account if you are a Company Owner with active plans or subscriptions.  You must ensure you delete your sites, cancel any WordPress plans, and clear any outstanding invoice balances for the company before you can request a user deletion. If you want to transfer the company to another user, refer to [Transfer Ownership](https://kinsta.com/docs/company-settings/transfer-ownership/). 
 
-To delete your MyKinsta user account, open a chat with our [Support Team](https://kinsta.com/docs/support/contact-support/) or send an email to [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection#3f4c4a4f4f504d4b7f5456514c4b5e115c5052) from the email address associated with your MyKinsta account.
+To delete your MyKinsta user account, open a chat with our [Support Team](https://kinsta.com/docs/support/contact-support/) or send an email to [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection#cbb8bebbbba4b9bf8ba0a2a5b8bfaae5a8a4a6) from the email address associated with your MyKinsta account.

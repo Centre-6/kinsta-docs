@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Hosting", "Migrating to Kinsta: debunking the myths that hold agencies back"]
 kinsta_last_updated: "2026-01-29T16:24:29+00:00"
 sitemap_lastmod: "2026-01-29T16:24:29"
-fetched_at: "2026-10-07T22:41:39Z"
+fetched_at: "2026-10-07T22:42:58Z"
 sha256: "cfdde72ecb87bca98d85c4ce6175dd775874cae5f96693f0db97c0f4564ed063"
 body_chars: 13181
 extracted_with: "main article"

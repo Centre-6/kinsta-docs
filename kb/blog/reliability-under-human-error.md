@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Security", "Reliability under human error: when editors, developers, or plugins break things"]
 kinsta_last_updated: "2026-05-20T20:30:49+00:00"
 sitemap_lastmod: "2026-05-20T20:30:49"
-fetched_at: "2026-10-07T22:41:13Z"
+fetched_at: "2026-10-07T22:42:31Z"
 sha256: "e70de06748a33332651fe7ac5a995f00fdb36771a022edea895077d0d13b8989"
 body_chars: 12303
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Kinsta Must-Use Plugin \u2014 Changelog"]
 kinsta_last_updated: "2026-06-02T10:19:41+00:00"
 sitemap_lastmod: "2026-06-02T10:19:41+00:00"
-fetched_at: "2026-10-07T22:36:26Z"
+fetched_at: "2026-10-07T22:37:46Z"
 sha256: "047bfa5ad87152d74a75fb810d9d770d1b7bbd4c307322e54ea22028710070b0"
 body_chars: 12136
 extracted_with: "main article"

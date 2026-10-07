@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Development", "How to build PHP-only Gutenberg blocks"]
 kinsta_last_updated: "2026-03-19T15:08:28+00:00"
 sitemap_lastmod: "2026-03-19T15:08:28"
-fetched_at: "2026-10-07T22:41:21Z"
+fetched_at: "2026-10-07T22:42:39Z"
 sha256: "6b343e09dedb79c10edff743377462f45ea8d3432870bfca9371fa8916f070ea"
 body_chars: 26586
 extracted_with: "main article"

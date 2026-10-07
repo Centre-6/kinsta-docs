@@ -8,7 +8,7 @@ subsection: "wordpress-troubleshooting"
 section: []
 kinsta_last_updated: "June 19, 2026"
 sitemap_lastmod: "2026-06-19T15:23:09+00:00"
-fetched_at: "2026-10-07T22:39:14Z"
+fetched_at: "2026-10-07T22:40:33Z"
 sha256: "eb7640de201fe2fb23adbefd845530898ab0b74b684b416781cea433661a30bd"
 body_chars: 11402
 extracted_with: "main article"

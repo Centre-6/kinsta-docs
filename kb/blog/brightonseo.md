@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta Events", "Meet Kinsta at brightonSEO 2026"]
 kinsta_last_updated: "2026-04-17T15:40:06+00:00"
 sitemap_lastmod: "2026-04-17T15:40:06"
-fetched_at: "2026-10-07T22:41:14Z"
+fetched_at: "2026-10-07T22:42:33Z"
 sha256: "cea1886750bc3c8ab2d8ee69e5dcf1f66c815494165e41caff7b2b277c0577d8"
 body_chars: 3510
 extracted_with: "main article"

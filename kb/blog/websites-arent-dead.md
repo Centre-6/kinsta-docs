@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta News", "Websites aren\u2019t dead: Consumers still rely on them over AI, new Kinsta report finds"]
 kinsta_last_updated: "2026-09-25T18:37:24+00:00"
 sitemap_lastmod: "2026-09-25T18:37:24"
-fetched_at: "2026-10-07T22:40:39Z"
+fetched_at: "2026-10-07T22:41:57Z"
 sha256: "44c65ccf388e464f73e1b6438ddd5a89b4aa96c5b4ed70176bf5a2cfb846eaa5"
 body_chars: 5518
 extracted_with: "main article"

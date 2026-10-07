@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Persistent Storage: More Long-Term Memory for Application Hosting"]
 kinsta_last_updated: "2026-05-14T19:04:42+00:00"
 sitemap_lastmod: "2026-05-14T19:04:42+00:00"
-fetched_at: "2026-10-07T22:36:16Z"
+fetched_at: "2026-10-07T22:37:36Z"
 sha256: "cf596ae66fd85a13f5fee56a3af145fc78d72b9831aadec6ca420b90976bb6cb"
 body_chars: 6932
 extracted_with: "main article"

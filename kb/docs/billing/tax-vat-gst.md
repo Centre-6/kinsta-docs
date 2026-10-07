@@ -8,7 +8,7 @@ subsection: "tax-vat-gst"
 section: []
 kinsta_last_updated: "October 14, 2025"
 sitemap_lastmod: "2025-10-14T07:46:31+00:00"
-fetched_at: "2026-10-07T22:37:35Z"
+fetched_at: "2026-10-07T22:38:55Z"
 sha256: "09990c92c1ab0756dde78278344a67fcd3599c48235cc2525d20e61135a19299"
 body_chars: 11375
 extracted_with: "main article"

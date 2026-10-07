@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Hosting", "Why Kinsta uses container-based hosting (and why it matters)"]
 kinsta_last_updated: "2026-05-27T14:51:02+00:00"
 sitemap_lastmod: "2026-05-27T14:51:02"
-fetched_at: "2026-10-07T22:41:06Z"
+fetched_at: "2026-10-07T22:42:25Z"
 sha256: "dc512c8a55dee48fca230f214c84e3a53f00dbe6ecec0b398ad31366c1286df9"
 body_chars: 13326
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta Events", "Meet Kinsta at Digital Summit Dallas"]
 kinsta_last_updated: "2025-12-01T16:43:03+00:00"
 sitemap_lastmod: "2025-12-01T16:43:03"
-fetched_at: "2026-10-07T22:41:48Z"
+fetched_at: "2026-10-07T22:43:06Z"
 sha256: "7692dcfe9b873d351eb0d8518fd817da07247ac77eff38946764ef7074c20c82"
 body_chars: 3372
 extracted_with: "main article"

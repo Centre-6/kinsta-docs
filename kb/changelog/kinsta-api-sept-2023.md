@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "New Kinsta API Endpoints: Clear CDN Cache and Push Environment"]
 kinsta_last_updated: "2026-05-06T15:13:54+00:00"
 sitemap_lastmod: "2026-05-06T15:13:54+00:00"
-fetched_at: "2026-10-07T22:36:07Z"
+fetched_at: "2026-10-07T22:37:27Z"
 sha256: "875e4d55ca1f19d90849a96b3155a5fe3950bbf56e5840f238f8c46cbbc43ed0"
 body_chars: 5371
 extracted_with: "main article"

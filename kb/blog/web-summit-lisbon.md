@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta Events", "Meet Kinsta at Web Summit Lisbon 2025"]
 kinsta_last_updated: "2025-10-31T12:15:35+00:00"
 sitemap_lastmod: "2025-10-31T12:15:35"
-fetched_at: "2026-10-07T22:41:55Z"
+fetched_at: "2026-10-07T22:43:14Z"
 sha256: "f8e3ade27ea55811995e55c97c0d692f4225658ff780475a8c5ad742b9cefdae"
 body_chars: 3045
 extracted_with: "main article"

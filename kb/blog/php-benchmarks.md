@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "PHP Updates", "PHP 8.5 benchmarks: The state of PHP performance across major CMSs and frameworks"]
 kinsta_last_updated: "2025-12-13T22:44:47+00:00"
 sitemap_lastmod: "2025-12-13T22:44:47"
-fetched_at: "2026-10-07T22:41:47Z"
+fetched_at: "2026-10-07T22:43:05Z"
 sha256: "35e1b7e3f4458225b8ebdf769a263a409ad31cb09e4e451f4d4f9866cc3633c8"
 body_chars: 27501
 extracted_with: "main article"

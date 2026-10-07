@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "API", "Automate client reporting with Kinsta API and Google AI"]
 kinsta_last_updated: "2026-04-15T17:48:10+00:00"
 sitemap_lastmod: "2026-04-15T17:48:10"
-fetched_at: "2026-10-07T22:41:10Z"
+fetched_at: "2026-10-07T22:42:29Z"
 sha256: "5e0f1de9496081f1b0bb865916ab82606ca396085cfb20daacb079696dab71af"
 body_chars: 35858
 extracted_with: "main article"

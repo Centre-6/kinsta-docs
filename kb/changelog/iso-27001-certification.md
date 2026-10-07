@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Kinsta earns ISO 27001 certification for its data security and privacy efforts"]
 kinsta_last_updated: "2024-08-16T20:31:30+00:00"
 sitemap_lastmod: "2024-08-16T18:31:30+00:00"
-fetched_at: "2026-10-07T22:35:36Z"
+fetched_at: "2026-10-07T22:36:56Z"
 sha256: "407f97becf3d0204cd570ee1da50e221af5356fdbefc54fee68df6e8770468c0"
 body_chars: 4652
 extracted_with: "main article"

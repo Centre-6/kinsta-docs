@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Kinsta\u2019s Help Center \u2014 The New Home for Support Answers and Documentation"]
 kinsta_last_updated: "2026-04-20T09:39:27+00:00"
 sitemap_lastmod: "2026-04-20T09:39:27+00:00"
-fetched_at: "2026-10-07T22:36:03Z"
+fetched_at: "2026-10-07T22:37:23Z"
 sha256: "10a885d139456fc441f70ee7cbbca46a688c36dc330bc540ceb0efea0e2751b8"
 body_chars: 5892
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection: "mykinsta-tools"
 section: []
 kinsta_last_updated: "August 13, 2024"
 sitemap_lastmod: "2024-08-13T09:56:47+00:00"
-fetched_at: "2026-10-07T22:36:51Z"
+fetched_at: "2026-10-07T22:38:11Z"
 sha256: "96f35492add97badcf8c492446bd902f03d0bf953e4cd6ff16068c86998cb30a"
 body_chars: 9058
 extracted_with: "main article"

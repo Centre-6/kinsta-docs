@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Agency", "How to resell hosting with Kinsta and boost your agency\u2019s revenue"]
 kinsta_last_updated: "2026-05-04T10:56:35+00:00"
 sitemap_lastmod: "2026-05-04T10:56:35"
-fetched_at: "2026-10-07T22:41:50Z"
+fetched_at: "2026-10-07T22:43:09Z"
 sha256: "b153ec88f0c05a6cd5c896d873f17b049b763a125617a83a57b81394e613bc54"
 body_chars: 19463
 extracted_with: "main article"

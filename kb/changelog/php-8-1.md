@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "PHP 8.1 Is Now Available for All Environments"]
 kinsta_last_updated: "2026-04-20T09:33:51+00:00"
 sitemap_lastmod: "2026-04-20T09:33:51+00:00"
-fetched_at: "2026-10-07T22:36:01Z"
+fetched_at: "2026-10-07T22:37:22Z"
 sha256: "c93e7037a9ee6c8e57ae3ff8afe53ab5c29d038657796a4ceecbd62f71879f6c"
 body_chars: 3330
 extracted_with: "main article"

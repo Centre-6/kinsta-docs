@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Hosting", "Performance consistency: Why \u201cfast on average\u201d hosting fails real users"]
 kinsta_last_updated: "2026-06-04T16:11:38+00:00"
 sitemap_lastmod: "2026-06-04T16:11:38"
-fetched_at: "2026-10-07T22:40:57Z"
+fetched_at: "2026-10-07T22:42:15Z"
 sha256: "c7e2ff6784fd2b404d8af2ff3646589f1134a7ed9ec16852782eea24de0d4ced"
 body_chars: 17470
 extracted_with: "main article"

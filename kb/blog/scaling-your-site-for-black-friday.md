@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Performance", "How to scale your site for Black Friday with Kinsta\u2019s PHP performance add-on"]
 kinsta_last_updated: "2025-10-06T16:04:57+00:00"
 sitemap_lastmod: "2025-10-06T16:04:57"
-fetched_at: "2026-10-07T22:41:56Z"
+fetched_at: "2026-10-07T22:43:15Z"
 sha256: "0bd689afbad22770e020e7aa474092c427e3b000eb13cfb021543bad070bced1"
 body_chars: 11677
 extracted_with: "main article"

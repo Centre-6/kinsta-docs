@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Increasing Kinsta\u2019s Free CDN Bandwidth (Up to 500%)"]
 kinsta_last_updated: "2025-09-19T06:35:21+00:00"
 sitemap_lastmod: "2025-09-19T06:35:21+00:00"
-fetched_at: "2026-10-07T22:35:48Z"
+fetched_at: "2026-10-07T22:37:08Z"
 sha256: "4c15bac4a4aded790c1cab881aada6bf5c915df192aa2ebe4723a3cde201bae7"
 body_chars: 3108
 extracted_with: "main article"

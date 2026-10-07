@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "We\u2019re Using The Latest Ubuntu 16.04 On All Cloud Servers"]
 kinsta_last_updated: "2023-07-10T21:19:06+00:00"
 sitemap_lastmod: "2023-07-10T21:19:06+00:00"
-fetched_at: "2026-10-07T22:35:26Z"
+fetched_at: "2026-10-07T22:36:46Z"
 sha256: "82ec6d668d9c0565d6367fb207fe5e84dc3239c87dc6a9e5de5d10a26e783162"
 body_chars: 409
 extracted_with: "main article"

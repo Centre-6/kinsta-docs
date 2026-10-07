@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "PHP 8.4 is now available for Kinsta\u2019s WordPress customers"]
 kinsta_last_updated: "2025-02-26T18:23:47+00:00"
 sitemap_lastmod: "2025-02-26T18:23:47+00:00"
-fetched_at: "2026-10-07T22:35:42Z"
+fetched_at: "2026-10-07T22:37:02Z"
 sha256: "c7eccd087a0f10e651c05e2575f4cd5f32ddcd851078d5e51e0fc52abb1d0554"
 body_chars: 4556
 extracted_with: "main article"

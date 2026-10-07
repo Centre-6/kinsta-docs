@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "API", "Automate your Kinsta workflows with Zapier and the Kinsta API"]
 kinsta_last_updated: "2026-03-26T19:36:43+00:00"
 sitemap_lastmod: "2026-03-26T19:36:43"
-fetched_at: "2026-10-07T22:41:19Z"
+fetched_at: "2026-10-07T22:42:38Z"
 sha256: "8cda5166e19a65b988299133949ad92d391be40b9588595b0372fffe6cf8a054"
 body_chars: 10091
 extracted_with: "main article"

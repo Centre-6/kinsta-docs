@@ -8,8 +8,8 @@ subsection: "wordpress-domains"
 section: []
 kinsta_last_updated: "November 5, 2025"
 sitemap_lastmod: "2025-11-05T18:29:56+00:00"
-fetched_at: "2026-10-07T22:37:41Z"
-sha256: "7dee3ac63c3e918e88a185fb4ca5f59c0134685b0cbc902f88fc976b482c1a9e"
+fetched_at: "2026-10-07T22:39:02Z"
+sha256: "105ce5134d720f1eb9b40a660af7aca08a2735eb8d0e3f50d64f695b3aee5b59"
 body_chars: 34979
 extracted_with: "main article"
 status: "live"
@@ -487,7 +487,7 @@ To help prevent email spoofing or your legitimate email messages being sent to a
 At Kinsta, we utilize MailChannels for [transactional email](https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/email/) delivery. This means outgoing emails from your WordPress site are sent through MailChannels’ service. There are two different from addresses when you send emails:
 
 - **Header from:** This is used for identifying the sender to the recipient. It is visible to the recipient and appears in the “From” field of the email message. The header from address is derived from WordPress or a WordPress plugin; by default, it is the site administration email within WordPress Admin > **Settings** > **General** > **Email Address**.
-- **Envelope from:** This is used for routing and handling delivery errors. With Kinsta’s transactional email provided by MailChannels, this is set to [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection#e2918b96878c838f87a2918b96878c838f87cc898b8c9196838f838b8e918790948b8187cc818d8f) and cannot be changed. It is part of the email’s metadata, and typically, it is not visible to the email recipient; however, some mail software may show both the header from and envelope from addresses.
+- **Envelope from:** This is used for routing and handling delivery errors. With Kinsta’s transactional email provided by MailChannels, this is set to [[email protected]](https://kinsta.com/cdn-cgi/l/email-protection#c5b6acb1a0aba4a8a085b6acb1a0aba4a8a0ebaeacabb6b1a4a8a4aca9b6a0b7b3aca6a0eba6aaa8) and cannot be changed. It is part of the email’s metadata, and typically, it is not visible to the email recipient; however, some mail software may show both the header from and envelope from addresses.
 
 If you’re using an SPF TXT record to authorize hostnames for email services on your domain, you’ll need to include MailChannels to ensure reliable email deliverability. To do this, [merge MailChannels](#how-to-merge-an-spf-record) into your existing SPF record. If no SPF record exists, simply [add it to your DNS records](#how-to-add-an-spf-record-for-mailchannels).
 

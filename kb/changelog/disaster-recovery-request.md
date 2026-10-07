@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "It\u2019s easier to get started with Kinsta Disaster Recovery"]
 kinsta_last_updated: "2026-09-08T17:46:30+00:00"
 sitemap_lastmod: "2026-09-08T18:27:27+00:00"
-fetched_at: "2026-10-07T22:36:31Z"
+fetched_at: "2026-10-07T22:37:51Z"
 sha256: "ab092d0b11403370c8034401f6fc6f5c296574edd532b13675d8c9e41a4d333a"
 body_chars: 3938
 extracted_with: "main article"

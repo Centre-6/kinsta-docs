@@ -8,7 +8,7 @@ subsection: "devkinsta-site-management"
 section: []
 kinsta_last_updated: "January 28, 2026"
 sitemap_lastmod: "2026-01-28T17:25:01+00:00"
-fetched_at: "2026-10-07T22:37:57Z"
+fetched_at: "2026-10-07T22:39:17Z"
 sha256: "d288d71f321081f7ee9a0e261f76e315cf19e43de6cf6f2e44dc6f84dd14b27b"
 body_chars: 700
 extracted_with: "main article"

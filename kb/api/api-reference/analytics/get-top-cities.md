@@ -8,7 +8,7 @@ subsection: "analytics"
 section: []
 kinsta_last_updated:
 sitemap_lastmod: "2026-09-18T09:42:50.551Z"
-fetched_at: "2026-10-07T22:39:33Z"
+fetched_at: "2026-10-07T22:40:51Z"
 sha256: "7b03508b2c1c534f0ca30a9033fcf76fb682c6afdf163a4f9397eaa5ef5eac51"
 body_chars: 6668
 extracted_with: "main"

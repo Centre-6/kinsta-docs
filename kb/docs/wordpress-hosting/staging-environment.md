@@ -8,7 +8,7 @@ subsection: "staging-environment"
 section: []
 kinsta_last_updated: "June 15, 2026"
 sitemap_lastmod: "2026-06-15T08:48:27+00:00"
-fetched_at: "2026-10-07T22:39:09Z"
+fetched_at: "2026-10-07T22:40:28Z"
 sha256: "2fd5e1c77d3fa99fcbbdae429852afde51640ff9aa5655c094e169ba3ad024e0"
 body_chars: 31404
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Free Application Performance Monitoring with Kinsta\u2019s APM Tool"]
 kinsta_last_updated: "2026-04-20T09:43:11+00:00"
 sitemap_lastmod: "2026-04-20T09:43:11+00:00"
-fetched_at: "2026-10-07T22:36:05Z"
+fetched_at: "2026-10-07T22:37:25Z"
 sha256: "ca091277c9bd05156bade2c996891e44f0e4a32e37659bef1428b34677ea56de"
 body_chars: 3453
 extracted_with: "main article"

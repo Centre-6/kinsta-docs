@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Agency", "Unlocking developer productivity: How Kinsta frees agencies from infrastructure headaches"]
 kinsta_last_updated: "2026-05-20T20:31:18+00:00"
 sitemap_lastmod: "2026-05-20T20:31:18"
-fetched_at: "2026-10-07T22:41:30Z"
+fetched_at: "2026-10-07T22:42:48Z"
 sha256: "6b6918d6862c50bfc5ec4f88d7ab52356e533338b7b87d88cf51db49843f0dde"
 body_chars: 33586
 extracted_with: "main article"

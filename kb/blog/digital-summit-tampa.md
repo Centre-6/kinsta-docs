@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta Events", "Meet Kinsta at Digital Summit Tampa"]
 kinsta_last_updated: "2026-03-10T07:25:21+00:00"
 sitemap_lastmod: "2026-03-10T07:25:21"
-fetched_at: "2026-10-07T22:41:24Z"
+fetched_at: "2026-10-07T22:42:43Z"
 sha256: "29874b4b2d065abf07f0b5685aba81c09a91af1c8ad00c874b09b857ca767fdb"
 body_chars: 3878
 extracted_with: "main article"

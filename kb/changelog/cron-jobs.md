@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Run, Automate, and Schedule Your Tasks with Cron Jobs"]
 kinsta_last_updated: "2026-05-14T19:05:32+00:00"
 sitemap_lastmod: "2026-05-14T19:05:32+00:00"
-fetched_at: "2026-10-07T22:36:17Z"
+fetched_at: "2026-10-07T22:37:37Z"
 sha256: "8801d3b75caffc332f794e7c547e72f2da4ca6aac24441c56b920ed3fd1d837d"
 body_chars: 3294
 extracted_with: "main article"

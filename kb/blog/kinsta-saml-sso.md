@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta Services", "Kinsta SAML SSO is here: Scale your agency faster and more securely"]
 kinsta_last_updated: "2026-05-20T10:50:10+00:00"
 sitemap_lastmod: "2026-05-20T10:50:10"
-fetched_at: "2026-10-07T22:41:45Z"
+fetched_at: "2026-10-07T22:43:04Z"
 sha256: "f98b06304da54dde106ba0578a509eaba4d70d56f406265730bd07783d5fdf47"
 body_chars: 20095
 extracted_with: "main article"

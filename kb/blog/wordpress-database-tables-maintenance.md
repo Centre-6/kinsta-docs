@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Agency", "The WordPress database tables that matter most to maintenance agencies"]
 kinsta_last_updated: "2026-01-29T15:49:50+00:00"
 sitemap_lastmod: "2026-01-29T15:49:50"
-fetched_at: "2026-10-07T22:41:37Z"
+fetched_at: "2026-10-07T22:42:55Z"
 sha256: "51601593f9ec17807ed6acd2d523fdcc95cdb049523b431f2f918febde42e9ac"
 body_chars: 15917
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection: "omni-search"
 section: []
 kinsta_last_updated: "February 5, 2025"
 sitemap_lastmod: "2025-02-05T16:40:21+00:00"
-fetched_at: "2026-10-07T22:37:10Z"
+fetched_at: "2026-10-07T22:38:30Z"
 sha256: "cf80669608dffc71c9d66904386196d25e8dbc063ffa988239b56c8edd996fd2"
 body_chars: 1161
 extracted_with: "main article"

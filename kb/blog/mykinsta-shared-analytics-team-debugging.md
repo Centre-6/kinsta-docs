@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Hosting", "How better visibility reduces support tickets, blame, and downtime"]
 kinsta_last_updated: "2026-06-30T18:53:26+00:00"
 sitemap_lastmod: "2026-06-30T18:53:26"
-fetched_at: "2026-10-07T22:40:51Z"
+fetched_at: "2026-10-07T22:42:10Z"
 sha256: "95cd3f62305784ec4ad5f015c232c452c67df24e8eeceae552e51133691e2117"
 body_chars: 19234
 extracted_with: "main article"

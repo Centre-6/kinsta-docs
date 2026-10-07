@@ -8,7 +8,7 @@ subsection: "wordpress-reference"
 section: []
 kinsta_last_updated: "September 18, 2026"
 sitemap_lastmod: "2026-09-18T09:56:30+00:00"
-fetched_at: "2026-10-07T22:39:25Z"
+fetched_at: "2026-10-07T22:40:43Z"
 sha256: "db8b4b8566efd8d84cb5d0aa01a8fa4acca22d9de536e600c958a6932513bdb3"
 body_chars: 38732
 extracted_with: "main article"

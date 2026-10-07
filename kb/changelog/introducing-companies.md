@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Introducing Companies"]
 kinsta_last_updated: "2023-05-01T10:53:30+00:00"
 sitemap_lastmod: "2023-05-01T10:53:30+00:00"
-fetched_at: "2026-10-07T22:35:25Z"
+fetched_at: "2026-10-07T22:36:45Z"
 sha256: "14371259a880dc877b7c5a51e560379859fc9309c3947d3d1a9266a8d05a3a54"
 body_chars: 971
 extracted_with: "main article"

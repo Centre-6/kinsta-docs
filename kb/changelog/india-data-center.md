@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "India Data Center Is Now Available in Mumbai"]
 kinsta_last_updated: "2024-07-12T19:49:39+00:00"
 sitemap_lastmod: "2024-07-12T19:49:39+00:00"
-fetched_at: "2026-10-07T22:35:33Z"
+fetched_at: "2026-10-07T22:36:53Z"
 sha256: "5b42cb881f027f2eb7ce5bd7bee9186c9df525b22e19088101f6fe606f2e7f51"
 body_chars: 1675
 extracted_with: "main article"

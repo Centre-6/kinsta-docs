@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Disk Space Add-on Is Now Available in MyKinsta"]
 kinsta_last_updated: "2019-11-12T16:37:05+00:00"
 sitemap_lastmod: "2019-11-12T16:37:05+00:00"
-fetched_at: "2026-10-07T22:35:20Z"
+fetched_at: "2026-10-07T22:36:40Z"
 sha256: "35aa7471e958f0734f7127338f717782917057f294262edb0ed781e953668a61"
 body_chars: 2366
 extracted_with: "main article"

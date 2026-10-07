@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Hosting", "Maximize your return on Ad spend with faster hosting for WordPress"]
 kinsta_last_updated: "2026-05-19T14:43:48+00:00"
 sitemap_lastmod: "2026-05-19T14:43:48"
-fetched_at: "2026-10-07T22:41:57Z"
+fetched_at: "2026-10-07T22:43:15Z"
 sha256: "6f1660c784dd988e06c575b2f4601237248dad65dfe94be598b79bde6ac276e9"
 body_chars: 13390
 extracted_with: "main article"

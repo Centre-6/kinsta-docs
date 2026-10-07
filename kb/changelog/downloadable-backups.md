@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Downloadable backups are now available in MyKinsta"]
 kinsta_last_updated: "2024-07-26T18:04:58+00:00"
 sitemap_lastmod: "2024-07-26T18:04:58+00:00"
-fetched_at: "2026-10-07T22:35:34Z"
+fetched_at: "2026-10-07T22:36:54Z"
 sha256: "ee5368e9b02a11668fb949d96d0f8834d6796027aa2e4ed86346ee1293e693c7"
 body_chars: 1723
 extracted_with: "main article"

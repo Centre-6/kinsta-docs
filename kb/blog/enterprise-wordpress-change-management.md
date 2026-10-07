@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Agency", "How Kinsta helps enterprise WordPress teams manage change without the risk"]
 kinsta_last_updated: "2026-06-18T18:57:27+00:00"
 sitemap_lastmod: "2026-06-18T18:57:27"
-fetched_at: "2026-10-07T22:40:53Z"
+fetched_at: "2026-10-07T22:42:12Z"
 sha256: "f99dfdaf2cc7924de01f505aca2c683420dbde0e57179b6f95e52423bb6dafb7"
 body_chars: 15760
 extracted_with: "main article"

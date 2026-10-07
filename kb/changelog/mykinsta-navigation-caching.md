@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Find all your WordPress caching tools together in MyKinsta"]
 kinsta_last_updated: "2024-10-23T14:19:30+00:00"
 sitemap_lastmod: "2024-10-23T14:19:30+00:00"
-fetched_at: "2026-10-07T22:35:38Z"
+fetched_at: "2026-10-07T22:36:58Z"
 sha256: "096c8ae89981f57634ff3292d9f27d851592864a8310cf360832f47f1d1f15db"
 body_chars: 2848
 extracted_with: "main article"

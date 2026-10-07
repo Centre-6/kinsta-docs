@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "API", "How to automate WordPress go-live from Salesforce using the Kinsta API"]
 kinsta_last_updated: "2026-06-19T10:48:58+00:00"
 sitemap_lastmod: "2026-06-19T10:48:58"
-fetched_at: "2026-10-07T22:41:07Z"
+fetched_at: "2026-10-07T22:42:26Z"
 sha256: "2114113f8ff3c0c974b5f66f6c255dd480e3dffed45276cfe222d59552d06ea6"
 body_chars: 19649
 extracted_with: "main article"

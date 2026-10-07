@@ -8,7 +8,7 @@ subsection: "transfer-ownership"
 section: []
 kinsta_last_updated: "October 1, 2025"
 sitemap_lastmod: "2025-10-01T11:31:07+00:00"
-fetched_at: "2026-10-07T22:37:34Z"
+fetched_at: "2026-10-07T22:38:54Z"
 sha256: "ae6804b7f8d78e296b84f4d153f269453db3cb8c4e8d6ccb6d0c70a82d7e2ba1"
 body_chars: 12477
 extracted_with: "main article"

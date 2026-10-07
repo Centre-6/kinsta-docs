@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Development", "Agile delivery for agencies with Kinsta\u2019s multi-environment setup"]
 kinsta_last_updated: "2025-12-08T10:19:14+00:00"
 sitemap_lastmod: "2025-12-08T10:19:14"
-fetched_at: "2026-10-07T22:41:47Z"
+fetched_at: "2026-10-07T22:43:06Z"
 sha256: "1037bd01acbc9618e5c2f34022236bf498a1203eed0c386eb03c283336e6a619"
 body_chars: 17343
 extracted_with: "main article"

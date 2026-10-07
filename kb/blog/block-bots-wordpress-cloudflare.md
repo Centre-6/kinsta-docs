@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Cloudflare", "How to protect your WordPress site from unwanted bot traffic with Cloudflare"]
 kinsta_last_updated: "2025-11-18T10:23:37+00:00"
 sitemap_lastmod: "2025-11-18T10:23:37"
-fetched_at: "2026-10-07T22:41:52Z"
+fetched_at: "2026-10-07T22:43:11Z"
 sha256: "e42c878480ef35d7a9b0a0074d449d86e4ab6e8b70929b520f1fa45848f9980c"
 body_chars: 10741
 extracted_with: "main article"

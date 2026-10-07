@@ -8,7 +8,7 @@ subsection: "account-credits"
 section: []
 kinsta_last_updated: "June 25, 2024"
 sitemap_lastmod: "2024-06-25T12:13:24+00:00"
-fetched_at: "2026-10-07T22:36:39Z"
+fetched_at: "2026-10-07T22:37:59Z"
 sha256: "bc2749f9ab3f3804ac3c5ca3d6985cca5a9cf08702306d38d7e7dde592dd2192"
 body_chars: 1134
 extracted_with: "main article"

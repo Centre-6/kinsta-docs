@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Selective Push now supports deployments from live to staging"]
 kinsta_last_updated: "2024-07-05T20:21:04+00:00"
 sitemap_lastmod: "2024-07-05T18:21:04+00:00"
-fetched_at: "2026-10-07T22:35:32Z"
+fetched_at: "2026-10-07T22:36:52Z"
 sha256: "165a3e0fd926e81ea9c8fdd7917d6274b5619c6e775b93ddbb8c599c1376d2f8"
 body_chars: 3591
 extracted_with: "main article"

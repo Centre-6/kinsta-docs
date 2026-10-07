@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Choose bandwidth or visit counts for hosting plan pricing"]
 kinsta_last_updated: "2025-10-01T16:04:58+00:00"
 sitemap_lastmod: "2025-10-01T16:04:58+00:00"
-fetched_at: "2026-10-07T22:35:49Z"
+fetched_at: "2026-10-07T22:37:09Z"
 sha256: "887249860a1c977fd0e912b38936969888eca64115a991d0de4507100767329f"
 body_chars: 4833
 extracted_with: "main article"

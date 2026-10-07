@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Agency", "Vibe coding real WordPress workflows using the Kinsta API"]
 kinsta_last_updated: "2026-06-09T08:17:02+00:00"
 sitemap_lastmod: "2026-06-09T08:17:02"
-fetched_at: "2026-10-07T22:40:58Z"
+fetched_at: "2026-10-07T22:42:17Z"
 sha256: "7c10af03a9bddf40640723481e7814147059c3c897c55205bc00d25d177211ca"
 body_chars: 34916
 extracted_with: "main article"

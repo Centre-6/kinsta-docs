@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Development", "Why most WordPress analytics tell you what happened, not why"]
 kinsta_last_updated: "2026-04-20T10:43:13+00:00"
 sitemap_lastmod: "2026-04-20T10:43:13"
-fetched_at: "2026-10-07T22:41:15Z"
+fetched_at: "2026-10-07T22:42:33Z"
 sha256: "2b54896dc2389e9f75dd39196bcb8284900797bbb7a9059b189dc3e125c6fb2a"
 body_chars: 18220
 extracted_with: "main article"

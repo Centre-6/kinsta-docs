@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Development", "WordPress AI integration: A deep dive into architecture and a real-world use case"]
 kinsta_last_updated: "2026-06-17T07:56:33+00:00"
 sitemap_lastmod: "2026-06-17T07:56:33"
-fetched_at: "2026-10-07T22:40:54Z"
+fetched_at: "2026-10-07T22:42:13Z"
 sha256: "b19864e90a99acef21b730a2950ffe5514e48c86b8f4f5ac9365b1e7483653cb"
 body_chars: 39929
 extracted_with: "main article"

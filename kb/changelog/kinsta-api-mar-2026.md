@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Access more traffic and response insights with the Kinsta API"]
 kinsta_last_updated: "2026-05-20T20:30:55+00:00"
 sitemap_lastmod: "2026-05-20T20:30:55+00:00"
-fetched_at: "2026-10-07T22:36:19Z"
+fetched_at: "2026-10-07T22:37:39Z"
 sha256: "73f3526f1ab0619356b6ddabda406c4f5bbf3383856d51c061070a49c0d210b6"
 body_chars: 5897
 extracted_with: "main article"

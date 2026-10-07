@@ -8,7 +8,7 @@ subsection: "wordpress-add-ons"
 section: []
 kinsta_last_updated: "August 19, 2026"
 sitemap_lastmod: "2026-08-19T15:42:18+00:00"
-fetched_at: "2026-10-07T22:39:21Z"
+fetched_at: "2026-10-07T22:40:40Z"
 sha256: "d38d392ae9529398460023cb9bdfdcba3f5c426f9857f8e72ea98c15e36ab92b"
 body_chars: 56435
 extracted_with: "main article"

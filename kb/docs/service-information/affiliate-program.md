@@ -8,7 +8,7 @@ subsection: "affiliate-program"
 section: []
 kinsta_last_updated: "June 2, 2026"
 sitemap_lastmod: "2026-06-02T11:05:31+00:00"
-fetched_at: "2026-10-07T22:39:03Z"
+fetched_at: "2026-10-07T22:40:22Z"
 sha256: "399383771d7609594e59e30d84d88183b7ca43ba7d8c338f86711ea81332c016"
 body_chars: 8858
 extracted_with: "main article"

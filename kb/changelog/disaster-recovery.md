@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Go beyond backups with Kinsta Disaster Recovery"]
 kinsta_last_updated: "2026-08-19T14:49:55+00:00"
 sitemap_lastmod: "2026-08-19T19:23:39+00:00"
-fetched_at: "2026-10-07T22:36:30Z"
+fetched_at: "2026-10-07T22:37:50Z"
 sha256: "b0dfeab0b45fd9c9511f9181b977cfb5032c19dc2537298ab3dc7b06b0277d68"
 body_chars: 4932
 extracted_with: "main article"

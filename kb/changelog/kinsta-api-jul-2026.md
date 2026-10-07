@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Manage domains, HTTPS, logs, and backups with the Kinsta API"]
 kinsta_last_updated: "2026-07-31T16:21:26+00:00"
 sitemap_lastmod: "2026-07-31T16:30:27+00:00"
-fetched_at: "2026-10-07T22:36:29Z"
+fetched_at: "2026-10-07T22:37:49Z"
 sha256: "601ce8e4be821345b5588f1e19865e472023077742ff4114b67c6a92b7d8b09a"
 body_chars: 8754
 extracted_with: "main article"

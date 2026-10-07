@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "API", "How to integrate HubSpot with Kinsta using the Kinsta API"]
 kinsta_last_updated: "2026-03-18T19:09:39+00:00"
 sitemap_lastmod: "2026-03-18T19:09:39"
-fetched_at: "2026-10-07T22:41:15Z"
+fetched_at: "2026-10-07T22:42:34Z"
 sha256: "53a93a272be1ff8eb135a23cae654d39169ec079d4ff2023d21ffe285953bcb6"
 body_chars: 14741
 extracted_with: "main article"

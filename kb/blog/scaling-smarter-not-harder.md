@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta Services", "Scaling smarter, not harder: balancing growth with operational excellence"]
 kinsta_last_updated: "2026-03-19T16:17:09+00:00"
 sitemap_lastmod: "2026-03-19T16:17:09"
-fetched_at: "2026-10-07T22:41:36Z"
+fetched_at: "2026-10-07T22:42:55Z"
 sha256: "f348a7ff6d2e93e970fd2597dcb3b80275a73e962f39d29554417e14b922f31d"
 body_chars: 29190
 extracted_with: "main article"

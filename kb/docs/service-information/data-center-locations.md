@@ -8,7 +8,7 @@ subsection: "data-center-locations"
 section: []
 kinsta_last_updated: "February 2, 2026"
 sitemap_lastmod: "2026-02-02T15:38:40+00:00"
-fetched_at: "2026-10-07T22:37:58Z"
+fetched_at: "2026-10-07T22:39:18Z"
 sha256: "6cbb3a2e648a46d8989e52e7d787aff27587fdd630ab3e0d6bd131323e64c10e"
 body_chars: 2992
 extracted_with: "main article"

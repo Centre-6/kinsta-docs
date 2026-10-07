@@ -8,7 +8,7 @@ subsection: "prohibited-content"
 section: []
 kinsta_last_updated: "July 18, 2024"
 sitemap_lastmod: "2024-07-18T09:49:01+00:00"
-fetched_at: "2026-10-07T22:36:49Z"
+fetched_at: "2026-10-07T22:38:09Z"
 sha256: "cfe52175f5b8f92a9a9194a6346f966921d1d2eaa90c7db9969096a287576513"
 body_chars: 2411
 extracted_with: "main article"

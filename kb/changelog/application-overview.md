@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "MyKinsta offers a \u201cbig-picture\u201d view of your application"]
 kinsta_last_updated: "2026-05-14T19:01:52+00:00"
 sitemap_lastmod: "2026-05-14T19:01:52+00:00"
-fetched_at: "2026-10-07T22:36:14Z"
+fetched_at: "2026-10-07T22:37:34Z"
 sha256: "9e9b8b0306bd1c5456526f3312406bed233777a381808633daace79046e0cabe"
 body_chars: 4487
 extracted_with: "main article"

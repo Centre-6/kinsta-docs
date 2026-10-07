@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Performance", "What happens to WordPress performance during traffic decay (not spikes)"]
 kinsta_last_updated: "2026-03-11T16:06:32+00:00"
 sitemap_lastmod: "2026-03-11T16:06:32"
-fetched_at: "2026-10-07T22:41:17Z"
+fetched_at: "2026-10-07T22:42:36Z"
 sha256: "5340820fc9416e2a71707f72b3abaa40c049ff6302c3e3ca186ebe0e207a495a"
 body_chars: 13060
 extracted_with: "main article"

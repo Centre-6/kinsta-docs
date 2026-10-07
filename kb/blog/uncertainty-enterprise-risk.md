@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta Services", "Enterprise hosting risk isn\u2019t downtime\u2014it\u2019s uncertainty"]
 kinsta_last_updated: "2026-03-03T16:28:07+00:00"
 sitemap_lastmod: "2026-03-03T16:28:07"
-fetched_at: "2026-10-07T22:41:20Z"
+fetched_at: "2026-10-07T22:42:39Z"
 sha256: "e5044f314e352a50eb0811a29bca0226f19b0b178d37af44b5cca0ea032c305f"
 body_chars: 19893
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Change CDN status added to MyKinsta\u2019s Bulk Actions"]
 kinsta_last_updated: "2026-05-14T18:59:21+00:00"
 sitemap_lastmod: "2026-05-14T18:59:21+00:00"
-fetched_at: "2026-10-07T22:36:11Z"
+fetched_at: "2026-10-07T22:37:31Z"
 sha256: "89bc5b0dde5e20467fe0b0dde65889a512b51d69cd8d6908dcd264458bfab109"
 body_chars: 4058
 extracted_with: "main article"

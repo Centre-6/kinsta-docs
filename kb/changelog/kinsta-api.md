@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Introducing Kinsta API: The Power of Automation for Site Management"]
 kinsta_last_updated: "2026-05-06T15:16:32+00:00"
 sitemap_lastmod: "2026-05-06T15:16:32+00:00"
-fetched_at: "2026-10-07T22:36:09Z"
+fetched_at: "2026-10-07T22:37:29Z"
 sha256: "775b79d570ddec0cec7da37f67fea2c8039977020db52abd2bd8fbc37a884e2d"
 body_chars: 7690
 extracted_with: "main article"

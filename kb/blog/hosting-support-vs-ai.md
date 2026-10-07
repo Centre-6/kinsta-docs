@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Hosting", "Why expert hosting support still matters in the age of AI"]
 kinsta_last_updated: "2026-08-14T14:44:13+00:00"
 sitemap_lastmod: "2026-08-14T14:44:13"
-fetched_at: "2026-10-07T22:40:44Z"
+fetched_at: "2026-10-07T22:42:03Z"
 sha256: "2fa6bc7049b12b214c0ae5c4ec879c0ca86f3de631bc4af7f28b7651224ec816"
 body_chars: 16901
 extracted_with: "main article"

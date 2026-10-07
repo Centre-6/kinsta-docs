@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta Events", "Meet Kinsta at WordCamp Europe 2026 in Krak\u00f3w, Poland"]
 kinsta_last_updated: "2026-05-21T14:03:02+00:00"
 sitemap_lastmod: "2026-05-21T14:03:02"
-fetched_at: "2026-10-07T22:41:07Z"
+fetched_at: "2026-10-07T22:42:26Z"
 sha256: "52d81c985c2e3a9e3b175e934fcb06abb3f3f4adaebd4ff15ab9a446d47ff443"
 body_chars: 5667
 extracted_with: "main article"

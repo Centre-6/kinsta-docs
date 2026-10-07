@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Hosting", "What \u201centerprise-ready\u201d means for WordPress (and how some hosts misuse the term)"]
 kinsta_last_updated: "2026-03-31T13:40:29+00:00"
 sitemap_lastmod: "2026-03-31T13:40:29"
-fetched_at: "2026-10-07T22:41:16Z"
+fetched_at: "2026-10-07T22:42:35Z"
 sha256: "b722d4169377cc14aea01ba8a52bc2d476feae1376c231040298ea84f16c6bf0"
 body_chars: 19958
 extracted_with: "main article"

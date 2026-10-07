@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Development", "The WordPress Block Bindings API: What it is and how to use it to build dynamic websites"]
 kinsta_last_updated: "2025-12-31T07:10:31+00:00"
 sitemap_lastmod: "2025-12-31T07:10:31"
-fetched_at: "2026-10-07T22:41:41Z"
+fetched_at: "2026-10-07T22:43:00Z"
 sha256: "50867b23e9649643f848639427bca8e81921929c9a05cac226f5ffe4a44c2843"
 body_chars: 30579
 extracted_with: "main article"

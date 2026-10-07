@@ -8,7 +8,7 @@ subsection: "scope-of-support"
 section: []
 kinsta_last_updated: "February 2, 2026"
 sitemap_lastmod: "2026-02-02T16:59:18+00:00"
-fetched_at: "2026-10-07T22:37:59Z"
+fetched_at: "2026-10-07T22:39:20Z"
 sha256: "e4794ac110866783f5912ffcc8085b420e1aabf154d88b2c9fc5561d0c4d1e8d"
 body_chars: 1523
 extracted_with: "main article"

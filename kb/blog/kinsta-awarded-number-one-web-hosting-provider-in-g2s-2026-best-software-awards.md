@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta News", "Kinsta Awarded #1 Web Hosting Provider in G2\u2019s 2026 Best Software Awards"]
 kinsta_last_updated: "2026-03-02T13:31:13+00:00"
 sitemap_lastmod: "2026-03-02T13:31:13"
-fetched_at: "2026-10-07T22:41:28Z"
+fetched_at: "2026-10-07T22:42:47Z"
 sha256: "c3b6421826215e779a9394dc98e900cdb395c053a4e55cdf21b64fdd8fbd4c19"
 body_chars: 6022
 extracted_with: "main article"

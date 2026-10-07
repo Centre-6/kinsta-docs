@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Hosting", "SLAs and guarantees: What should your agency expect from your hosting partner?"]
 kinsta_last_updated: "2026-03-04T18:44:31+00:00"
 sitemap_lastmod: "2026-03-04T18:44:31"
-fetched_at: "2026-10-07T22:41:19Z"
+fetched_at: "2026-10-07T22:42:37Z"
 sha256: "99be5f509b7591d96ee5d23ea62577494c63f9028767add35495d47a72d2c012"
 body_chars: 21670
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Two-factor authentication is now required for MyKinsta logins"]
 kinsta_last_updated: "2026-01-14T17:34:13+00:00"
 sitemap_lastmod: "2026-01-14T17:34:13+00:00"
-fetched_at: "2026-10-07T22:35:52Z"
+fetched_at: "2026-10-07T22:37:12Z"
 sha256: "4d8cc6b8fd8cba9550dd84778f6b16f6e298f80129fe4dd7dd2a96da810b202a"
 body_chars: 5816
 extracted_with: "main article"

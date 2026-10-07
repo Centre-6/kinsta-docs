@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Cross-site deployments of WordPress environments are now possible"]
 kinsta_last_updated: "2025-11-03T11:56:11+00:00"
 sitemap_lastmod: "2025-11-03T11:56:11+00:00"
-fetched_at: "2026-10-07T22:35:49Z"
+fetched_at: "2026-10-07T22:37:09Z"
 sha256: "a56f549e3dfac219b744518b05a3e0bbb0f631b23fa45ca373b68e10a18d5e8f"
 body_chars: 3526
 extracted_with: "main article"

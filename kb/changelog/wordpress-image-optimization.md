@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Speed things up with automatic Image Optimization"]
 kinsta_last_updated: "2026-05-14T19:04:20+00:00"
 sitemap_lastmod: "2026-05-14T19:04:20+00:00"
-fetched_at: "2026-10-07T22:36:15Z"
+fetched_at: "2026-10-07T22:37:35Z"
 sha256: "f8a9c03d5b47c0de6d37e62bf7530dea5658c5ab80cfe75b5730c43f714cafa5"
 body_chars: 4804
 extracted_with: "main article"

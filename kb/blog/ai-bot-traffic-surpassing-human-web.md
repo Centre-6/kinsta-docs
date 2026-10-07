@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Bot Traffic", "Bots are surpassing human traffic on the web. What is really going on?"]
 kinsta_last_updated: "2026-06-29T19:49:51+00:00"
 sitemap_lastmod: "2026-06-29T19:49:51"
-fetched_at: "2026-10-07T22:40:58Z"
+fetched_at: "2026-10-07T22:42:17Z"
 sha256: "b88d80756a4df99c56fabfa567cba6f345c7b2d510ef426b239c41e560e8587a"
 body_chars: 17271
 extracted_with: "main article"

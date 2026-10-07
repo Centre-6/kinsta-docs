@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Track monthly usage and run WP-CLI commands with the Kinsta API"]
 kinsta_last_updated: "2026-05-20T20:31:33+00:00"
 sitemap_lastmod: "2026-05-20T20:31:33+00:00"
-fetched_at: "2026-10-07T22:36:21Z"
+fetched_at: "2026-10-07T22:37:41Z"
 sha256: "83a19b73f84679340608d3a0a9af498f38a8be220f95b82fde187ed4f3bb3306"
 body_chars: 3354
 extracted_with: "main article"

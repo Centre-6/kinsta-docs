@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "API", "Getting started with the WordPress Abilities API: A practical guide"]
 kinsta_last_updated: "2026-06-30T12:22:10+00:00"
 sitemap_lastmod: "2026-06-30T12:22:10"
-fetched_at: "2026-10-07T22:40:52Z"
+fetched_at: "2026-10-07T22:42:11Z"
 sha256: "71cab855ec263c543d7ccc88fc819298b93d8588d97cc323994138d794045901"
 body_chars: 32550
 extracted_with: "main article"

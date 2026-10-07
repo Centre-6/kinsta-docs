@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Web Development Tools", "How to access and edit your WordPress files in MyKinsta (no FTP client required)"]
 kinsta_last_updated: "2026-07-21T13:48:05+00:00"
 sitemap_lastmod: "2026-07-21T13:48:05"
-fetched_at: "2026-10-07T22:40:54Z"
+fetched_at: "2026-10-07T22:42:12Z"
 sha256: "ba2f3f90c03ca87af0f12d1abb1c53e4f31c6166cd6a3bfe460536a9aec83fbc"
 body_chars: 15924
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Bot Traffic", "What happens when AI agents become your new website operators?"]
 kinsta_last_updated: "2026-09-21T11:25:22+00:00"
 sitemap_lastmod: "2026-09-21T11:25:22"
-fetched_at: "2026-10-07T22:40:40Z"
+fetched_at: "2026-10-07T22:41:58Z"
 sha256: "ac78c5de12cb2bdbb260f02c4b263f0da7fa2e03f4e18757fc10c03610bf87e2"
 body_chars: 17439
 extracted_with: "main article"

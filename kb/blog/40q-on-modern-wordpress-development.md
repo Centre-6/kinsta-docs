@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Agency", "The 40Q agency on how Kinsta\u2019s infrastructure backs modern WordPress development"]
 kinsta_last_updated: "2026-06-01T11:02:56+00:00"
 sitemap_lastmod: "2026-06-01T11:02:56"
-fetched_at: "2026-10-07T22:41:05Z"
+fetched_at: "2026-10-07T22:42:24Z"
 sha256: "192a737be54eba9de82fdf5579a0bc31660c6e99967ff36465576c2fbc38c13a"
 body_chars: 7068
 extracted_with: "main article"

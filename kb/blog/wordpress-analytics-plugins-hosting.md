@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Analytics", "Why hosting-level visibility matters more than plugin-based analytics"]
 kinsta_last_updated: "2026-05-11T11:07:45+00:00"
 sitemap_lastmod: "2026-05-11T11:07:45"
-fetched_at: "2026-10-07T22:41:11Z"
+fetched_at: "2026-10-07T22:42:30Z"
 sha256: "0c1636cddf513afb631352943497ceee1c8ee6cdf267bd572060c3750871129d"
 body_chars: 13715
 extracted_with: "main article"

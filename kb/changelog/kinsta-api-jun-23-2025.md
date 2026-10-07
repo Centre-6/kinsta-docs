@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Change primary domains and manage SFTP access with Kinsta API"]
 kinsta_last_updated: "2026-05-20T20:32:03+00:00"
 sitemap_lastmod: "2026-05-20T20:32:03+00:00"
-fetched_at: "2026-10-07T22:36:24Z"
+fetched_at: "2026-10-07T22:37:44Z"
 sha256: "3bf83525ffcd9d4bf5be185ba403f834f95bc14326f6640e94f323eb0774c0de"
 body_chars: 5936
 extracted_with: "main article"

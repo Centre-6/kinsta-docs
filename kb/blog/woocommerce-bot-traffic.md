@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Bot Traffic", "Why WooCommerce sites are especially vulnerable to bot traffic"]
 kinsta_last_updated: "2026-05-12T17:05:25+00:00"
 sitemap_lastmod: "2026-05-12T17:05:25"
-fetched_at: "2026-10-07T22:41:03Z"
+fetched_at: "2026-10-07T22:42:21Z"
 sha256: "7ac5252682a04b884c814828eb711002d05cc722493eed99fff1c74d699a5497"
 body_chars: 10823
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection: "additional-sftp-users"
 section: []
 kinsta_last_updated:
 sitemap_lastmod: "2026-09-18T09:42:50.387Z"
-fetched_at: "2026-10-07T22:39:27Z"
+fetched_at: "2026-10-07T22:40:45Z"
 sha256: "08e8c59b27057304895a849d3bac9f0e49dee54892d438165bcf5d80b4260944"
 body_chars: 6456
 extracted_with: "main"

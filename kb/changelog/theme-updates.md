@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Update WordPress themes across multiple sites with just a few clicks"]
 kinsta_last_updated: "2025-04-11T17:33:00+00:00"
 sitemap_lastmod: "2025-04-11T17:33:00+00:00"
-fetched_at: "2026-10-07T22:35:45Z"
+fetched_at: "2026-10-07T22:37:05Z"
 sha256: "4582d7a10ed54b1a3a8d33aaf68fe64d4f82d61056a7603697abe03e1374599b"
 body_chars: 4594
 extracted_with: "main article"

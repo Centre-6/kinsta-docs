@@ -8,7 +8,7 @@ subsection: "soc-2"
 section: []
 kinsta_last_updated: "January 25, 2024"
 sitemap_lastmod: "2024-01-25T17:31:27+00:00"
-fetched_at: "2026-10-07T22:36:38Z"
+fetched_at: "2026-10-07T22:37:58Z"
 sha256: "c7ab0ecc0f7fa6f048e77ab537ce1ab920a10c512662342567725d0e3f61c4cd"
 body_chars: 2534
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection: "authentication"
 section: []
 kinsta_last_updated:
 sitemap_lastmod: "2026-09-18T09:42:50.854Z"
-fetched_at: "2026-10-07T22:39:39Z"
+fetched_at: "2026-10-07T22:40:57Z"
 sha256: "662d270677b17c8e7282d338bbe52e15f41fde69e0eff8c8216b2841b8a94e74"
 body_chars: 5177
 extracted_with: "main"

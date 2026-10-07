@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "MyKinsta now locks accounts after repeated failed logins"]
 kinsta_last_updated: "2025-07-14T14:13:17+00:00"
 sitemap_lastmod: "2025-07-14T14:13:17+00:00"
-fetched_at: "2026-10-07T22:35:47Z"
+fetched_at: "2026-10-07T22:37:07Z"
 sha256: "dcfe4b69e15becca39a181250b1f6c62568a1cdd9b9d39db1b7f9822c3b83704"
 body_chars: 3098
 extracted_with: "main article"

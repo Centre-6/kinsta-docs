@@ -8,7 +8,7 @@ subsection: "payments"
 section: []
 kinsta_last_updated: "August 13, 2024"
 sitemap_lastmod: "2024-08-13T11:28:58+00:00"
-fetched_at: "2026-10-07T22:36:55Z"
+fetched_at: "2026-10-07T22:38:15Z"
 sha256: "7fac1a69dc88850ffbb0fd053b862be899c459fc6f6616a642bc9cc5564319a2"
 body_chars: 7071
 extracted_with: "main article"

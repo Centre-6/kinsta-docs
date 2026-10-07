@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Learn PHP", "How Kinsta handles PHP threads, caching, and performance at scale"]
 kinsta_last_updated: "2026-05-11T18:02:40+00:00"
 sitemap_lastmod: "2026-05-11T18:02:40"
-fetched_at: "2026-10-07T22:41:40Z"
+fetched_at: "2026-10-07T22:42:59Z"
 sha256: "3abda46684f2ce0511b52c012a4b92154f92ef117f4f3e868b98a68e6962712f"
 body_chars: 13938
 extracted_with: "main article"

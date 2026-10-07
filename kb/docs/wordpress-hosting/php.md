@@ -8,7 +8,7 @@ subsection: "php"
 section: []
 kinsta_last_updated: "September 18, 2026"
 sitemap_lastmod: "2026-09-18T09:54:48+00:00"
-fetched_at: "2026-10-07T22:39:24Z"
+fetched_at: "2026-10-07T22:40:42Z"
 sha256: "a1bd2463a6bda36882ee573fbfa80087743b7ffe3e376b979324ca834e779596"
 body_chars: 10323
 extracted_with: "main article"

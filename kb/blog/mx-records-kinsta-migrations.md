@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Hosting", "How MX records work during Kinsta migrations"]
 kinsta_last_updated: "2026-05-11T18:17:31+00:00"
 sitemap_lastmod: "2026-05-11T18:17:31"
-fetched_at: "2026-10-07T22:41:25Z"
+fetched_at: "2026-10-07T22:42:43Z"
 sha256: "2043ec6481882383335f722129d16ae6c66e35c5fd1f8be5076134ddb09cfbfc"
 body_chars: 13737
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Subdomain delegation with NS records now available in Kinsta DNS"]
 kinsta_last_updated: "2026-04-20T09:30:51+00:00"
 sitemap_lastmod: "2026-04-20T09:30:51+00:00"
-fetched_at: "2026-10-07T22:35:59Z"
+fetched_at: "2026-10-07T22:37:19Z"
 sha256: "12478f13fe627e9c5a5d95b497a0daf266763f098fc20209864a9e8e364340c0"
 body_chars: 2300
 extracted_with: "main article"

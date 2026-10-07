@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Development", "From one-off fixes to repeatable systems: why automation matures WordPress operations"]
 kinsta_last_updated: "2026-07-02T13:48:54+00:00"
 sitemap_lastmod: "2026-07-02T13:48:54"
-fetched_at: "2026-10-07T22:40:50Z"
+fetched_at: "2026-10-07T22:42:08Z"
 sha256: "5e5c97551946b3d5d008a4ba60e81ad636c8b5b0e61bc63eeb212f612852ce5d"
 body_chars: 21561
 extracted_with: "main article"

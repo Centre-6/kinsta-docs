@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Danish and Swedish language support ending (no action required)"]
 kinsta_last_updated: "2026-04-14T18:56:19+00:00"
 sitemap_lastmod: "2026-04-14T18:56:19+00:00"
-fetched_at: "2026-10-07T22:35:58Z"
+fetched_at: "2026-10-07T22:37:18Z"
 sha256: "019d11935d737ad3b7f20ad35e69e88cbcfc45658a6a1027ac98f35113702e2d"
 body_chars: 2182
 extracted_with: "main article"

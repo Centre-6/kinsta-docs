@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Manage SSH and SFTP access with the Kinsta API"]
 kinsta_last_updated: "2026-05-20T20:31:40+00:00"
 sitemap_lastmod: "2026-05-20T20:31:40+00:00"
-fetched_at: "2026-10-07T22:36:22Z"
+fetched_at: "2026-10-07T22:37:42Z"
 sha256: "00af74702e64be77d843ecf6b45c6ac30d262b4eab9c21cd1fc035e3b80e4ee4"
 body_chars: 7557
 extracted_with: "main article"

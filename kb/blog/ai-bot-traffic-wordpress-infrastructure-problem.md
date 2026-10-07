@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Bot Traffic", "Why bot traffic is now an infrastructure problem (not just an SEO problem)"]
 kinsta_last_updated: "2026-05-19T12:29:34+00:00"
 sitemap_lastmod: "2026-05-19T12:29:34"
-fetched_at: "2026-10-07T22:41:00Z"
+fetched_at: "2026-10-07T22:42:18Z"
 sha256: "12fd935bbb4eab9e817c92f0d086f10458df7dd00ba6f4a668b2a91ace103ed9"
 body_chars: 21561
 extracted_with: "main article"

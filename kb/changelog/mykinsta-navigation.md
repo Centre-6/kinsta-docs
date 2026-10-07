@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Get the jump on MyKinsta navigation with new shortcut features"]
 kinsta_last_updated: "2026-05-14T18:57:38+00:00"
 sitemap_lastmod: "2026-05-14T18:57:38+00:00"
-fetched_at: "2026-10-07T22:36:10Z"
+fetched_at: "2026-10-07T22:37:30Z"
 sha256: "1db621ca255c1271d6b241e0162c463d1ff88102000ac4643bcb3e10ae17b0ec"
 body_chars: 3844
 extracted_with: "main article"

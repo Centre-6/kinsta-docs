@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Cloudflare", "Managing DNS centrally for multiple client sites with Cloudflare"]
 kinsta_last_updated: "2026-03-12T11:19:45+00:00"
 sitemap_lastmod: "2026-03-12T11:19:45"
-fetched_at: "2026-10-07T22:41:31Z"
+fetched_at: "2026-10-07T22:42:49Z"
 sha256: "c3a369c8a5b6f896e31c91b3c46b76f5932fc7d7a8ee0ca42af186f4e30bc243"
 body_chars: 8291
 extracted_with: "main article"

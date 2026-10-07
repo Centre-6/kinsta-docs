@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta News", "Kinsta partners with Fort Lewis College to bring enterprise-grade hosting to Art & Design students"]
 kinsta_last_updated: "2026-01-19T13:28:16+00:00"
 sitemap_lastmod: "2026-01-19T13:28:16"
-fetched_at: "2026-10-07T22:41:37Z"
+fetched_at: "2026-10-07T22:42:56Z"
 sha256: "ec359d02e3563f61216b43d829eb30dd81bd3b2f7e7142d04555f4efdb063488"
 body_chars: 5465
 extracted_with: "main article"

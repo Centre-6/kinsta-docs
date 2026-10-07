@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "An improved Web Terminal for apps gets you to the command line quicker"]
 kinsta_last_updated: "2026-05-14T19:01:16+00:00"
 sitemap_lastmod: "2026-05-14T19:01:16+00:00"
-fetched_at: "2026-10-07T22:36:13Z"
+fetched_at: "2026-10-07T22:37:33Z"
 sha256: "c4dde5a083ae60343a401a8daf49dab24d22e66a9424e368d4e99a1d68fbd509"
 body_chars: 3857
 extracted_with: "main article"

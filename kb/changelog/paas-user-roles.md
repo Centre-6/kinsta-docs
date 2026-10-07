@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Assign team members to manage apps, databases, and static sites"]
 kinsta_last_updated: "2026-05-14T18:53:44+00:00"
 sitemap_lastmod: "2026-05-14T18:53:44+00:00"
-fetched_at: "2026-10-07T22:36:10Z"
+fetched_at: "2026-10-07T22:37:30Z"
 sha256: "83f1fd8c786990811870c1ad306af8e497e966279dfb130f20113b76f71b7e44"
 body_chars: 3883
 extracted_with: "main article"

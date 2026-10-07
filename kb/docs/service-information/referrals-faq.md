@@ -8,7 +8,7 @@ subsection: "referrals-faq"
 section: []
 kinsta_last_updated: "April 20, 2026"
 sitemap_lastmod: "2026-04-20T09:37:29+00:00"
-fetched_at: "2026-10-07T22:38:34Z"
+fetched_at: "2026-10-07T22:39:54Z"
 sha256: "86371c9e691932f7df69493a9fd3d5f4ce0dfff0a61d5b0f9ecf277a72ff084f"
 body_chars: 6124
 extracted_with: "main article"

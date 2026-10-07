@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Agency", "Why client access management is the quiet scaling killer for agencies"]
 kinsta_last_updated: "2026-06-10T18:32:28+00:00"
 sitemap_lastmod: "2026-06-10T18:32:28"
-fetched_at: "2026-10-07T22:40:55Z"
+fetched_at: "2026-10-07T22:42:14Z"
 sha256: "c41842fc09cf646334ec86939b884b972479074c4c9fd1ccdaac2e6e09c10ae9"
 body_chars: 17347
 extracted_with: "main article"

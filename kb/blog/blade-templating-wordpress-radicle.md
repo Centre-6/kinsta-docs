@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Development", "Blade templating in WordPress: modern template development with Radicle on Kinsta"]
 kinsta_last_updated: "2026-05-20T20:31:13+00:00"
 sitemap_lastmod: "2026-05-20T20:31:13"
-fetched_at: "2026-10-07T22:41:27Z"
+fetched_at: "2026-10-07T22:42:46Z"
 sha256: "93ae050d8eb59900a25c41605c3987718c2fe2274fab2476e54fc91a99e3c547"
 body_chars: 16736
 extracted_with: "main article"

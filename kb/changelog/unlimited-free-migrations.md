@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Free and unlimited WordPress migrations"]
 kinsta_last_updated: "2024-10-23T14:19:20+00:00"
 sitemap_lastmod: "2024-10-23T14:19:20+00:00"
-fetched_at: "2026-10-07T22:35:37Z"
+fetched_at: "2026-10-07T22:36:57Z"
 sha256: "f022474b9d5038388b905fc5d49803a66c88e37244a53773a3dee34d870e7d6b"
 body_chars: 3676
 extracted_with: "main article"

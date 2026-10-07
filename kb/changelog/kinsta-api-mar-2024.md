@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "3 new Kinsta API endpoints for Application Hosting (CDN, Edge Caching, & clear cache)"]
 kinsta_last_updated: "2026-05-06T15:15:29+00:00"
 sitemap_lastmod: "2026-05-06T15:15:29+00:00"
-fetched_at: "2026-10-07T22:36:08Z"
+fetched_at: "2026-10-07T22:37:28Z"
 sha256: "9fdaa9e861707a5f6a2f96b60419b353abf94673c54adc466381d29d0cfc39a8"
 body_chars: 5790
 extracted_with: "main article"

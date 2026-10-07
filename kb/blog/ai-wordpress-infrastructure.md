@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta Services", "Why AI makes infrastructure decisions more important"]
 kinsta_last_updated: "2026-08-17T16:33:34+00:00"
 sitemap_lastmod: "2026-08-17T16:33:34"
-fetched_at: "2026-10-07T22:40:48Z"
+fetched_at: "2026-10-07T22:42:06Z"
 sha256: "10bfc5891641c28027c1e40c902ced4f8fb03df942a334e21d3827f906aa9727"
 body_chars: 36043
 extracted_with: "main article"

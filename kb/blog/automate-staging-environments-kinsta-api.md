@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "API", "How to automate sprint environment provisioning with Jira and the Kinsta API"]
 kinsta_last_updated: "2026-06-19T10:49:32+00:00"
 sitemap_lastmod: "2026-06-19T10:49:32"
-fetched_at: "2026-10-07T22:41:09Z"
+fetched_at: "2026-10-07T22:42:28Z"
 sha256: "6d5f48273ef7e350bb18ceb69f611694fd7a184d352bce3b0a54cf5a85f1ff40"
 body_chars: 17856
 extracted_with: "main article"

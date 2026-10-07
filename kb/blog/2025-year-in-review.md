@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Kinsta News", "Kinsta year in review: the best of 2025"]
 kinsta_last_updated: "2026-02-03T14:36:25+00:00"
 sitemap_lastmod: "2026-02-03T14:36:25"
-fetched_at: "2026-10-07T22:41:34Z"
+fetched_at: "2026-10-07T22:42:52Z"
 sha256: "61c66c7e1157a169790a271a85daf8eead209050f19811a4cdbe67f0b20f3530"
 body_chars: 17367
 extracted_with: "main article"

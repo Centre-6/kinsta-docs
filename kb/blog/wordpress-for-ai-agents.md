@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "Bot Traffic", "Building WordPress for AI agents instead of just human visitors"]
 kinsta_last_updated: "2026-09-15T16:08:46+00:00"
 sitemap_lastmod: "2026-09-15T16:08:46"
-fetched_at: "2026-10-07T22:40:42Z"
+fetched_at: "2026-10-07T22:42:00Z"
 sha256: "54c728cd6f75e914b044c9c2e75322bf9af637bd535ab1ca671e6d74744edf05"
 body_chars: 16397
 extracted_with: "main article"

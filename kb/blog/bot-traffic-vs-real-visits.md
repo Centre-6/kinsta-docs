@@ -8,7 +8,7 @@ subsection:
 section: ["Resource Center", "Blog", "WordPress Issues", "How to distinguish traffic from bots to identify real visits, helpful bots, and harmful attacks"]
 kinsta_last_updated: "2026-06-02T15:23:05+00:00"
 sitemap_lastmod: "2026-06-02T15:23:05"
-fetched_at: "2026-10-07T22:41:22Z"
+fetched_at: "2026-10-07T22:42:40Z"
 sha256: "b77ad2e3a627de92b5e2e89f93f56af2351ce6cc33f7f94d0f893044812b6a87"
 body_chars: 21116
 extracted_with: "main article"

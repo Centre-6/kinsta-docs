@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Introducing the New Affiliate Dashboard"]
 kinsta_last_updated: "2026-06-12T15:55:38+00:00"
 sitemap_lastmod: "2026-06-12T15:55:38+00:00"
-fetched_at: "2026-10-07T22:36:27Z"
+fetched_at: "2026-10-07T22:37:47Z"
 sha256: "b75a4d07a8a349572acf23f2d25598ea545988224c28bf17b169351cdce7921c"
 body_chars: 3189
 extracted_with: "main article"

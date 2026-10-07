@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Kinsta Is Adopting Google\u2019s C3D Machines for Even Faster Response Times"]
 kinsta_last_updated: "2024-08-15T14:46:42+00:00"
 sitemap_lastmod: "2024-08-15T14:46:42+00:00"
-fetched_at: "2026-10-07T22:35:36Z"
+fetched_at: "2026-10-07T22:36:56Z"
 sha256: "18c72327e26fc154d337ef6fb899e37060ca5b7b11d57e1a7cfd1149daa423b2"
 body_chars: 4104
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Kinsta Introduces Application Hosting and Database Hosting"]
 kinsta_last_updated: "2026-05-14T18:53:02+00:00"
 sitemap_lastmod: "2026-05-14T18:53:02+00:00"
-fetched_at: "2026-10-07T22:36:09Z"
+fetched_at: "2026-10-07T22:37:29Z"
 sha256: "61333720a805508f5bce0c94f2f4e27101ab4f0a304bbb036b61a271586ddcff"
 body_chars: 7202
 extracted_with: "main article"

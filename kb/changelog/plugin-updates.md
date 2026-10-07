@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Plugin updates for multiple websites made easy in MyKinsta"]
 kinsta_last_updated: "2025-04-08T15:48:21+00:00"
 sitemap_lastmod: "2025-04-08T15:48:21+00:00"
-fetched_at: "2026-10-07T22:35:43Z"
+fetched_at: "2026-10-07T22:37:03Z"
 sha256: "550fd44b274f44bce847a8ccee1b928a37c223b1c6b3e22f7b77b7b283681605"
 body_chars: 5493
 extracted_with: "main article"

@@ -8,7 +8,7 @@ subsection:
 section: ["Changelog", "Kinsta offers more ways to manage SFTP/SSH access to WordPress"]
 kinsta_last_updated: "2024-05-31T21:43:47+00:00"
 sitemap_lastmod: "2024-05-31T21:43:47+00:00"
-fetched_at: "2026-10-07T22:35:31Z"
+fetched_at: "2026-10-07T22:36:51Z"
 sha256: "4102beda978f224d547e2ab28c70232d8b1031c42af6bd122e9386cb061c758c"
 body_chars: 6411
 extracted_with: "main article"

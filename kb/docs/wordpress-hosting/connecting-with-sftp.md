@@ -8,7 +8,7 @@ subsection: "connecting-with-sftp"
 section: []
 kinsta_last_updated: "March 25, 2026"
 sitemap_lastmod: "2026-03-25T10:30:46+00:00"
-fetched_at: "2026-10-07T22:38:27Z"
+fetched_at: "2026-10-07T22:39:47Z"
 sha256: "9f2e89f9fec5aafddd0472f67c47cedd203bcfd372081ce1e739f1a2a762993a"
 body_chars: 14718
 extracted_with: "main article"
