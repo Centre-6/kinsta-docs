@@ -1,0 +1,38 @@
+---
+url: "https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/"
+title: "WordPress Hosting - Get Started"
+tier: "docs"
+product: "wordpress-hosting"
+product_label: "Managed WordPress Hosting"
+subsection: "wordpress-getting-started"
+section: []
+kinsta_last_updated: "April 18, 2025"
+sitemap_lastmod: "2025-04-18T13:09:15+00:00"
+fetched_at: "2026-10-07T22:37:17Z"
+sha256: "5a56605f9d94bf2e20963d3679af2216db2b01d28a1e485cac793326ab93d5ca"
+body_chars: 1801
+extracted_with: "main article"
+status: "live"
+---
+
+# WordPress Hosting - Get Started
+
+**Product:** Managed WordPress Hosting
+**Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/
+**Kinsta last updated:** April 18, 2025
+
+---
+
+Learn all about Managed WordPress Hosting at Kinsta. If you’re new to Kinsta or WordPress, check out our Getting Started documentation below for the first steps with your new site at Kinsta. We’ve also assembled answers to the most [frequently asked questions](https://kinsta.com/docs/wordpress-hosting/wordpress-reference/technical-faq/).
+
+If you’re moving one or more sites to Kinsta, we can help you [migrate all of your WordPress sites](https://kinsta.com/docs/wordpress-hosting/wordpress-migrations/migrating-to-kinsta/). When you’re ready, check out our [go-live checklist](https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/go-live-checklist/) to get your site up and running fast.
+
+Once your site is up and running, we have information on [monitoring your site](https://kinsta.com/docs/wordpress-hosting/wordpress-monitoring/) and [troubleshooting any performance issues](https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/troubleshooting-wordpress-performance/) that may arise.
+
+If you have any questions, don’t hesitate to [open up a chat with our Support team](https://kinsta.com/docs/support/contact-support/). We’re here to help, 24/7.
+
+You can also visit the [WordPress category](https://community.kinsta.com/c/wordpress/29) of our Kinsta Community forum to connect with other developers and knowledgeable community members. The community is a great place to ask questions or share WordPress tips and tricks.
+
+## DevKinsta
+
+If you want an easy-to-use local environment to use for designing and developing your WordPress site, check out [DevKinsta](https://kinsta.com/devkinsta/). It’s free and available for macOS, Windows, and Ubuntu. Join the [DevKinsta Community](https://community.devkinsta.com/) to exchange ideas, ask questions, and give feedback.
