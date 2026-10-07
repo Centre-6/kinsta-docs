@@ -8924,7 +8924,7 @@
       "sha256": "c32ddf0bbf679f0bfa6aa64ee29731b2b0b14cc37e99d111a6f4f0bb3f092951",
       "body_chars": 17493,
       "extracted_with": "main article",
-      "fetched_at": "2026-10-07T22:40:17Z",
+      "fetched_at": "2026-10-07T22:44:01Z",
       "status": "live"
     },
     "https://kinsta.com/docs/wordpress-hosting/caching/redis-cache/": {
@@ -9247,7 +9247,7 @@
       "sha256": "a1bd2463a6bda36882ee573fbfa80087743b7ffe3e376b979324ca834e779596",
       "body_chars": 10323,
       "extracted_with": "main article",
-      "fetched_at": "2026-10-07T22:40:42Z",
+      "fetched_at": "2026-10-07T22:44:22Z",
       "status": "live"
     },
     "https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-constants/": {

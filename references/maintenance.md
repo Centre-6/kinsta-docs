@@ -174,21 +174,53 @@ Report the block as the error you actually observed. "Kinsta returned 403 on 12
 of 14 requests starting 2026-10-07" is actionable; "the docs seem unavailable"
 is not.
 
+## Scope, and the drift to watch for
+
+Four tiers, measured October 7, 2026:
+
+| Tier | Source | Pages | Notes |
+|---|---|---|---|
+| `docs` | `kinsta.com/sitemap_index.xml`, `/docs/` | 190 | WordPress hosting, DevKinsta, billing, account, support |
+| `api` | `api-docs.kinsta.com/sitemap.xml` | 120 | Plus `kb/api/openapi.json` — OpenAPI 3.1.0, 84 endpoints |
+| `changelog` | same sitemap, `/changelog/` | 122 | What shipped when |
+| `blog` | `kinsta.com/wp-json/wp/v2/posts` | ~140 | Last 12 months by **publish** date |
+
+**Sevalla is out of scope by decision.** Kinsta spun Application Hosting,
+Database Hosting and Static Site Hosting into a separate company; those
+`/docs/` paths now 301 to `docs.sevalla.com`. Two reasons not to add it without
+asking Tim: it is a different vendor, and `docs.sevalla.com/robots.txt` declares
+`Content-Signal: ai-input=no`. Kinsta's and api-docs.kinsta.com's both declare
+`ai-input=yes`, which is the basis for mirroring them.
+
+Re-read `robots.txt` on both hosts if you are about to widen scope. A
+`Content-Signal` can change, and it is the kind of thing nobody notices because
+nothing breaks when you ignore it.
+
+**The drift that would hurt most** is Kinsta moving or renaming a top-level
+`/docs/` area. `tree` and `references/taxonomy.md` are how you would see it:
+`PRODUCT_LABELS` in the script carries the October 2026 page counts as inline
+comments precisely so a comparison is cheap. Wildly different numbers mean a
+reorganization, and `INDEX.md` plus the skill's own product table need updating
+along with the labels.
+
 ## When the mirror gets too big
 
-The blog tier is the growth driver — it is an order of magnitude more pages than
-the docs and far lower value per page. Options, in order of preference:
+Current footprint is small — roughly 8 MB of markdown across all four tiers,
+which is nothing on the array and fast for ripgrep. The blog is the only tier
+with real growth potential, and it is already bounded by the 12-month publish
+window rather than growing without limit.
 
-1. `sync --tier docs,api,changelog` on the cron and sync blog weekly or on
-   demand. Docs freshness is what answers depend on.
-2. Drop the blog tier entirely from the cron and keep whatever is already
-   mirrored as a frozen reference, clearly dated.
-3. If full-text search over markdown gets slow (it should not below a few
-   hundred MB — ripgrep is fast), add a SQLite FTS index alongside the markdown
-   rather than replacing it. The markdown files are the artifact; an index is a
-   cache and should be rebuildable from them with one command.
+If it does become a problem, in order of preference:
 
-Check the footprint before acting on a hunch:
+1. Tighten the window: `sync --blog-months 6`.
+2. `sync --tier docs,api,changelog` on the cron, blog on demand. Docs freshness
+   is what answers actually depend on.
+3. If full-text search ever gets slow (it should not below a few hundred MB),
+   add a SQLite FTS index *alongside* the markdown rather than replacing it. The
+   markdown files are the artifact; an index is a cache and must stay
+   rebuildable from them with one command.
+
+Measure before acting on a hunch:
 
 ```bash
 du -sh kb/docs kb/api kb/changelog kb/blog

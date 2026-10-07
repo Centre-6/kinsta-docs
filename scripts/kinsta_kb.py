@@ -47,7 +47,7 @@ import xml.etree.ElementTree as ET
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Iterable, Sequence
-from urllib.parse import urlparse
+from urllib.parse import unquote, urljoin, urlparse
 
 try:
     import requests
@@ -612,6 +612,40 @@ def _page_lastmod(soup: BeautifulSoup) -> str | None:
     return m.group(1) if m else None
 
 
+
+# Match the WHOLE optimizer token, not just its url= parameter. Matching only
+# the parameter leaves the trailing `&w=3840&q=75` glued to the decoded URL,
+# which produces a link that looks fixed and still 404s.
+_NEXT_IMAGE_RE = re.compile(r"""/_next/image/?\?[^)\s"']*""")
+
+
+def _decode_next_image(m: "re.Match[str]") -> str:
+    from urllib.parse import parse_qs
+    query = m.group(0).split("?", 1)[1]
+    src = parse_qs(query).get("url", [""])[0]
+    return unquote(src) if src else m.group(0)
+
+
+def absolutize(md: str, page_url: str) -> str:
+    """Make every link and image in the converted markdown openable.
+
+    Two problems, and the image one does real damage. Kinsta serves docs images
+    through Next.js's optimizer, so markdownify emits
+    `/_next/image/?url=https%3A%2F%2Fkinsta.com%2Fwp-content%2F...&w=3840&q=75`
+    - relative AND percent-encoded, with the real source buried in a query
+    parameter. These docs lean on UI screenshots to show where to click, so a
+    mirror full of dead image links loses part of the content, not just polish.
+    """
+    md = _NEXT_IMAGE_RE.sub(_decode_next_image, md)
+    # Root-relative links (/docs/..., /blog/...) resolve against the page host.
+    md = re.sub(
+        r"(\]\()(/(?!/)[^)\s]*)",
+        lambda m: m.group(1) + urljoin(page_url, m.group(2)),
+        md,
+    )
+    return md
+
+
 def extract(html: bytes, url: str) -> Extracted:
     soup = BeautifulSoup(html, "lxml")
 
@@ -643,6 +677,7 @@ def extract(html: bytes, url: str) -> Extracted:
             escape_asterisks=False,
             escape_underscores=False,
         )
+        md = absolutize(md, url)
         md = re.sub(r"\n{3,}", "\n\n", md).strip()
         if len(md) >= MIN_BODY_CHARS:
             body_md, used = md, sel
@@ -997,13 +1032,27 @@ def _sync(args: argparse.Namespace, tiers: list[str]) -> int:
                 )
                 f.write_text(text, encoding="utf-8")
 
-    if "api" in tiers:
-        _fetch_openapi(fetcher, mf)
-
+    # Persist the manifest BEFORE any optional extra work. The page files are
+    # already on disk at this point, and a manifest that does not describe them
+    # is the one unrecoverable state this script can produce - `check`, `search`
+    # and `status` all read the manifest, so files without it are invisible.
+    # This ordering exists because the reverse order once lost a complete
+    # 570-page sync to a JSON serialization error in the spec fetcher.
     for t in tiers:
         mf.last_sync[t] = now_iso()
     mf.notes["last_sync_unverified"] = len(unverified)
     mf.save()
+
+    if "api" in tiers:
+        try:
+            _fetch_openapi(fetcher, mf)
+            mf.save()
+        except Exception as exc:  # noqa: BLE001 - must not lose the sync
+            print(f"\n  ! OpenAPI spec step failed: {type(exc).__name__}: {exc}")
+            print("    The page mirror is intact and saved. Re-run "
+                  "`sync --tier api` once the cause is fixed.")
+            mf.notes["openapi_error"] = f"{type(exc).__name__}: {exc}"
+            mf.save()
 
     build_index(mf)
     build_taxonomy(mf)
@@ -1058,8 +1107,12 @@ def _fetch_openapi(fetcher: Fetcher, mf: Manifest) -> None:
 
         (KB / "api").mkdir(parents=True, exist_ok=True)
         (KB / "api" / "kinsta-openapi.yaml").write_bytes(body)
+        # `default=str` because YAML parses bare ISO dates into datetime
+        # objects and json.dumps refuses them. The YAML alongside is the
+        # authoritative copy; the JSON is a convenience for readers without a
+        # YAML parser, so stringifying a date in it loses nothing.
         (KB / "api" / "openapi.json").write_text(
-            json.dumps(spec, indent=2, sort_keys=False) + "\n"
+            json.dumps(spec, indent=2, sort_keys=False, default=str) + "\n"
         )
 
         info = spec.get("info", {})
@@ -1262,12 +1315,56 @@ def _resolve_to_url(raw: str, mf: Manifest) -> str | None:
 # --------------------------------------------------------------------------- #
 
 
+
+# ripgrep is the fast path, but it is NOT reliably on PATH here: in Claude Code
+# `rg` is a shell function wrapping a bundled binary, so `shutil.which("rg")`
+# finds nothing even though `rg` works fine when you type it. Look in the places
+# it actually lives, then fall back to scanning in Python. A search engine that
+# vanishes depending on how the shell was invoked is not a dependency a skill
+# can rest on.
+RG_CANDIDATES = [
+    "/home/tim/.local/bin/rg",
+    "/usr/local/bin/rg",
+    "/usr/bin/rg",
+    str(Path.home() / ".cargo" / "bin" / "rg"),
+]
+
+
+def find_rg() -> str | None:
+    found = shutil.which("rg")
+    if found:
+        return found
+    for cand in RG_CANDIDATES:
+        if os.path.isfile(cand) and os.access(cand, os.X_OK):
+            return cand
+    return None
+
+
+def _python_grep(query: str, roots: list[Path], context: int | None) -> dict[str, list[str]]:
+    """Fallback scanner. Case-insensitive substring unless the query looks like
+    a regex, matching ripgrep's --smart-case closely enough for this corpus."""
+    try:
+        pattern = re.compile(query, 0 if any(c.isupper() for c in query) else re.I)
+    except re.error:
+        pattern = re.compile(re.escape(query), re.I)
+    hits: dict[str, list[str]] = {}
+    for root in roots:
+        for f in root.rglob("*.md"):
+            try:
+                lines = f.read_text(encoding="utf-8", errors="replace").splitlines()
+            except OSError:
+                continue
+            for i, line in enumerate(lines, 1):
+                if pattern.search(line):
+                    hits.setdefault(str(f), []).append(f"{i}:{line.strip()[:220]}")
+    return hits
+
+
 def cmd_search(args: argparse.Namespace) -> int:
     mf = Manifest.load()
     if not KB.exists():
         sys.exit("No mirror on disk. Run `sync` first.")
-    if not shutil.which("rg"):
-        sys.exit("ripgrep (rg) not found; it is the search engine here.")
+    rg = find_rg()
 
     roots = []
     if args.product:
@@ -1290,23 +1387,45 @@ def cmd_search(args: argparse.Namespace) -> int:
     if not roots:
         sys.exit("Nothing to search - those paths are not in the mirror yet.")
 
-    cmd = ["rg", "--line-number", "--no-heading", "--color=never",
-           "--smart-case", "--max-columns", "400", "-g", "*.md"]
-    if args.context:
-        cmd += ["--context", str(args.context)]
-    cmd += [args.query, *[str(r) for r in roots]]
-    r = subprocess.run(cmd, capture_output=True, text=True)
-    if r.returncode not in (0, 1):
-        sys.exit(f"rg failed: {r.stderr[:300]}")
+    raw: dict[str, list[str]] = {}
+    if rg:
+        cmd = [rg, "--line-number", "--no-heading", "--color=never",
+               "--smart-case", "--max-columns", "400", "-g", "*.md"]
+        if args.context:
+            cmd += ["--context", str(args.context)]
+        cmd += [args.query, *[str(r) for r in roots]]
+        r = subprocess.run(cmd, capture_output=True, text=True)
+        if r.returncode not in (0, 1):
+            sys.exit(f"rg failed: {r.stderr[:300]}")
+        for line in r.stdout.splitlines():
+            try:
+                path, lineno, text = line.split(":", 2)
+            except ValueError:
+                continue
+            raw.setdefault(path, []).append(f"{lineno}:{text.strip()[:220]}")
+    else:
+        raw = _python_grep(args.query, roots, args.context)
+
+    # Drop matches that are only the page's own table-of-contents entries. Every
+    # heading appears twice in these files (once in the TOC, once as the real
+    # heading), so without this a query matching a common heading ranks pages by
+    # how many TOC lines they have and the displayed excerpts are all anchors
+    # rather than content. The TOC earns its place in the file; it just should
+    # not be what a search shows you.
+    toc_line = re.compile(r"^\s*\d+:\s*-\s*\[.*\]\(#")
 
     by_path: dict[str, list[str]] = {}
-    for line in r.stdout.splitlines():
+    for path, hits in raw.items():
         try:
-            path, lineno, text = line.split(":", 2)
+            rel = str(Path(path).relative_to(KB))
         except ValueError:
             continue
-        rel = str(Path(path).relative_to(KB))
-        by_path.setdefault(rel, []).append(f"{lineno}: {text.strip()[:220]}")
+        body = [h for h in hits if not toc_line.match(h)]
+        # If a page matched ONLY in its TOC, keep it but ranked last - the
+        # heading still tells you the page covers the topic.
+        by_path[rel] = [h.replace(":", ": ", 1) for h in (body or hits)]
+        if not body:
+            by_path[rel] = [h + "   [TOC only]" for h in by_path[rel]]
 
     meta = {rec["path"]: (url, rec) for url, rec in mf.pages.items() if "path" in rec}
     ranked = sorted(by_path.items(), key=lambda kv: -len(kv[1]))[: args.limit]

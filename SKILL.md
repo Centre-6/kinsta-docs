@@ -20,102 +20,126 @@ of the answer**, not as housekeeping you do later.
 ```
 <skill>/kb/
 ├── INDEX.md              # the map: section tree -> page titles -> paths. Read this first.
-├── manifest.json         # per-URL state: path, etag, last_modified, sha256, lastmod, fetched_at
+├── manifest.json         # per-URL state: path, product, subsection, sha256, lastmod, fetched_at
 ├── SYNC-LOG.md           # append-only history of what each sync changed
 ├── docs/<section>/<slug>.md
 ├── api/
-│   ├── openapi.json      # machine-readable spec, when Kinsta publishes one
-│   └── <section>/<slug>.md
+│   ├── openapi.json      # OpenAPI 3.1.0 spec, 84 endpoints (also as .yaml)
+│   └── api-reference/<tag>/<endpoint>.md
 ├── changelog/<slug>.md
 └── blog/<slug>.md
 ```
 
-Every page file carries YAML frontmatter with its source URL, breadcrumb section
-path, Kinsta's own `lastmod`, the content hash, and when we last fetched it.
-That frontmatter is what lets you cite precisely and judge staleness per page
-instead of per-mirror.
+Every page file carries YAML frontmatter with its source URL, `product` and
+`subsection`, Kinsta's own last-updated date, the body hash, and when we last
+fetched it. That frontmatter is what lets you cite precisely, scope to the right
+product, and judge staleness per page instead of per-mirror. (`section` holds
+scraped breadcrumbs and is often empty — Kinsta does not render them
+consistently. `subsection` comes from the URL path and is always there, which is
+why grouping and scoping use it.)
 
 The whole skill is one git repo (private, `Centre-6/kinsta-docs`), and `kb/` is
 tracked inside it. That is deliberate: `git log -p kb/docs/...` shows you the
 exact wording Kinsta changed and when we noticed. When a client asks "did this
 always work this way?", the diff is the answer.
 
-## First: establish which Kinsta product you are talking about
+## First: establish what the user actually has
 
-Kinsta sells several products that are documented separately, behave differently,
-and reuse the same words for different things. Getting this wrong is the single
-most damaging mistake available here, because the answer is coherent, confident,
-well-sourced, and about the wrong product. The user asks about their WordPress
-site and gets Database Hosting semantics. Worse, the answer is often *almost*
-right, so it survives a skim and fails in production.
+Answering about the wrong thing is the most damaging mistake available here,
+because a wrong-surface answer is coherent, confident, well-sourced and wrong.
+It is often *almost* right, so it survives a skim and fails in production. Two
+separate traps, and they are different problems.
 
-The product lines, each with its own docs tree:
+### Trap 1: Kinsta is now WordPress-only. Three products left the company.
 
-| Product | What it hosts | Section in `kb/docs/` |
-|---|---|---|
-| **Managed WordPress Hosting** | WordPress sites. The original product, and what most people mean by "my Kinsta site" | `wordpress-hosting/` |
-| **Application Hosting** | Arbitrary apps from a git repo, built via Dockerfile, Nixpacks or buildpacks | `application-hosting/` |
-| **Database Hosting** | Managed standalone databases (Postgres, MySQL, MariaDB, Redis, Valkey) | `database-hosting/` |
-| **Static Site Hosting** | Static output from a repo build step. Free tier, deliberately minimal | `static-site-hosting/` |
-| **DevKinsta** | A local development tool on your own machine, not hosting at all | `devkinsta/` |
-| **MyKinsta** | The control panel shared across all of the above (account, billing, users, DNS) | `mykinsta/` |
+**Kinsta spun Application Hosting, Database Hosting and Static Site Hosting out
+into a separate company, Sevalla.** `kinsta.com/docs/application-hosting/` now
+301-redirects to `docs.sevalla.com`. Verified October 7, 2026.
 
-`kb/docs/` mirrors Kinsta's own taxonomy, and every page file carries a
-`product:` field in its frontmatter. Use it. `search` takes `--product` for
-exactly this reason:
+What that means for you:
 
-```bash
-python3 <skill>/scripts/kinsta_kb.py search "custom domain" --product wordpress-hosting
-```
+- **This mirror covers Kinsta only, by decision.** Sevalla is not in it and is
+  not to be added without asking Tim. Their docs declare
+  `Content-Signal: ai-input=no`; Kinsta's declare `ai-input=yes`.
+- If someone asks about app hosting, managed Postgres, or static site hosting on
+  Kinsta, **there is no answer in here**. Say that it is outside what Kinsta's
+  own docs now cover. Do not reach into the WordPress tree for something
+  adjacent-sounding — the WordPress `database-management` pages are about a
+  WordPress site's own MySQL, not a standalone managed database, and conflating
+  them produces exactly the wrong-product answer this section exists to stop.
+- A user may still *have* a legacy Kinsta account for one of those products.
+  Their having it and Kinsta documenting it are now different facts.
 
-### The words that mean different things per product
+### Trap 2: within WordPress hosting, one word covers several mechanisms
 
-These terms appear in all or most of the trees with genuinely different
-mechanics behind them. A grep hit on one of these is **not** an answer until you
-know which product's page you landed on:
+What is actually in the mirror, with page counts as of October 7, 2026:
 
-`backups` · `cache` / `caching` · `CDN` · `custom domain` · `deployment` ·
-`environments` · `staging` · `redirects` · `logs` · `metrics` · `SSH` ·
-`SFTP` · `database access` · `cron` / `scheduled tasks` · `restore` ·
-`rollback` · `build` · `processes` · `edge` · `plans and limits`
+| Area | `product` slug | Pages | What it is |
+|---|---|---|---|
+| Managed WordPress Hosting | `wordpress-hosting` | 112 | The product. Sites, environments, caching, CDN, PHP, backups, migrations |
+| DevKinsta | `devkinsta` | 25 | A **local** dev tool on your own machine. Not hosting. Shares vocabulary with it anyway |
+| Service Information | `service-information` | 17 | Policies, regions, limits, service-level facts |
+| Billing | `billing` | 13 | Plans, invoices, overage |
+| MyKinsta Company Settings | `company-settings` | 12 | Company-level users, roles, API keys |
+| MyKinsta User Settings | `user-settings` | 5 | Individual account settings, 2FA |
+| Support | `support` | 4 | How to reach support, what they cover |
+| Kinsta API Reference | `api` (tier) | 120 | Every endpoint, plus `kb/api/openapi.json` |
+| Changelog | `changelog` | 122 | What shipped when |
+| Blog | `blog` | ~140 | Last 12 months only. Secondary, never outranks docs |
 
-Treat a hit on one of these as "I found the right topic, now which product?"
-rather than as the answer.
+Inside `wordpress-hosting`, the subsection is where the real distinction lives —
+`caching`, `wordpress-cdn`, `site-management`, `php`, `database-management`,
+`wordpress-backups-and-disaster-recovery`, `staging-environment`,
+`redirect-rules`, `connect-to-ssh`, and others. `search` and `tree` both expose
+these, and every page file carries `product` and `subsection` in its
+frontmatter.
 
-### How to establish the product, cheapest first
+**The ambiguous words.** Each of these maps to more than one mechanism in
+Kinsta's own docs, so a grep hit is "right topic, which mechanism?" and not an
+answer:
 
-1. **The user said it.** "my WordPress site", "my Node app on Kinsta", "the
-   Postgres instance" settles it. Take them at their word on what they have.
-2. **The surrounding work says it.** A repo with `wp-config.php` and a `wp-content/`
-   tree is WordPress Hosting. A `Dockerfile` or `Procfile` with a web process is
-   Application Hosting. A build command producing `dist/` with no server is
-   probably Static Site Hosting. A connection string and no application code is
-   Database Hosting.
-3. **Ask the Kinsta API**, if credentials for the account are available. This is
-   the only method that is evidence rather than inference — it reports what the
-   account actually contains. Check for a key before assuming there isn't one:
+| Word | The mechanisms it could mean |
+|---|---|
+| `cache` | Edge caching (Kinsta's CDN layer) · page cache · object cache · the `kinsta-mu-plugin`'s cache purging · browser cache · DevKinsta's local cache |
+| `CDN` | Kinsta CDN (Cloudflare-backed) vs a third-party CDN you point at the site |
+| `backup` | Automatic daily · hourly add-on · manual · downloadable · system-generated before a change — different retention and different restore paths |
+| `environment` | Live vs staging vs premium staging, plus "push to live" which is not symmetric |
+| `database` | A WordPress site's own MySQL (in scope) vs standalone managed Database Hosting (gone to Sevalla) |
+| `logs` | Error logs · access logs · the MyKinsta log viewer · `kinsta-mu-plugin` output |
+| `domain` | Primary domain · domain alias · the `*.kinsta.cloud` temp URL · DNS hosted at Kinsta vs elsewhere |
+| `restart` | Restart PHP vs restart the site vs clear cache — commonly confused in support threads |
+
+### How to establish it, cheapest first
+
+1. **The user said it.** "my WordPress site on Kinsta", "the staging
+   environment" settles it. Take them at their word about what they have.
+2. **The surrounding work says it.** A repo with `wp-config.php` and
+   `wp-content/` is WordPress hosting. A DevKinsta question usually mentions
+   running things locally, Docker Desktop, or `*.local`.
+3. **Ask the Kinsta API** if a key is available — the only method that is
+   evidence rather than inference, because it reports what the account actually
+   contains:
    ```bash
    ls ~/.claude/secrets/ | grep -i kinsta
    ```
-   If a key exists, the `/sites`, `/applications` and `/databases` endpoints
-   (see `kb/api/`) answer the question definitively. If no key exists, say so
-   rather than guessing — "I can't see the account, so which product is this?"
-   is a one-line question that prevents a whole wrong answer.
-4. **Ask.** If 1–3 leave it open, ask. One short question costs the user a few
-   seconds. A confidently wrong product-specific procedure can cost them a site.
+   With a key, `GET /sites` and `GET /sites/{id}/environments` answer it
+   definitively (see `kb/api/openapi.json`). With no key, say so rather than
+   guessing — "I can't see the account, is this the live or staging
+   environment?" is a one-line question that prevents a whole wrong answer.
+4. **Ask.** If 1–3 leave it open, ask. A few seconds of the user's time against
+   a confidently wrong procedure applied to a live site is not a close call.
 
-### When the question spans products
+### When the question genuinely spans surfaces
 
-Some things genuinely differ across products and the comparison is the answer
-("can I get staging on static hosting?"). When that is the case, answer per
-product and label each line, rather than blending them into one paragraph:
+Sometimes the comparison *is* the answer ("does staging get edge caching too?").
+Answer per surface and label each line rather than blending them:
 
-> - **WordPress Hosting:** <answer> — <url>
-> - **Static Site Hosting:** <answer> — <url>
+> - **Live environment:** <answer> — <url>
+> - **Staging environment:** <answer> — <url>
 
-And when a product simply does not document a feature, say that about *that
-product* specifically. "Static Site Hosting's docs don't cover X" is a different
-and much safer claim than "Kinsta doesn't support X."
+And scope negative claims to the surface you actually checked. "Kinsta's
+DevKinsta docs don't cover X" is a different and much safer claim than "Kinsta
+doesn't support X."
 
 ## The one rule: revalidate the pages you are about to rely on
 
@@ -127,8 +151,7 @@ backing that claim:
 python3 <skill>/scripts/kinsta_kb.py check --url <url> [--url <url> ...]
 ```
 
-This does a conditional GET using the stored ETag / Last-Modified, so a fresh
-page costs one cheap 304 and no download. It prints one verdict per URL:
+It prints one verdict per URL:
 
 | Verdict | Meaning | What you do |
 |---|---|---|
@@ -145,27 +168,45 @@ good answer. Silently serving a cache you failed to validate, while sounding
 certain, is the failure this whole skill exists to prevent.
 
 Revalidate the handful of pages you will actually cite, not the whole mirror.
-Two to five pages is normal and takes a couple of seconds.
+Two to five pages is normal and takes a few seconds.
+
+**How it actually works, because the cheap version is not available.** Kinsta
+serves docs pages with `cache-control: private, no-cache, no-store` and emits
+**no `ETag` and no `Last-Modified`** (verified October 7, 2026). So there is no
+conditional GET to make and no 304 to collect — `check` downloads the page,
+re-extracts the body, and compares a SHA-256 of the body text against the stored
+hash. `FRESH` means the body is byte-identical, which is a stronger claim than a
+304 anyway; it just costs a real request. That is why you revalidate the pages
+you are citing rather than the mirror: a few hundred KB for a handful of pages is
+nothing, and 570 of them is not.
+
+The cheap path still exists at the `sync` level, which diffs the sitemap's
+`lastmod` values and only fetches what moved. The two layers do different jobs:
+`sync` keeps the corpus complete, `check` makes a specific answer defensible.
 
 ## Finding the right pages
 
 Work outside-in, cheapest first:
 
-1. **`kb/INDEX.md`** — the section tree with page titles and one-line summaries.
-   Read this to orient. It is built to be skimmed, so you can usually name the
-   two or three pages that matter without searching at all.
+1. **`kb/INDEX.md`** — every page title grouped by product and subsection, with
+   its local path and URL. Read this to orient. It is built to be skimmed, so you
+   can usually name the two or three pages that matter without searching at all.
 2. **Full-text search** when you need a specific term, flag, header, or limit:
    ```bash
    python3 <skill>/scripts/kinsta_kb.py search "edge cache purge" --limit 10
    ```
-   This is ripgrep underneath with the frontmatter decoded, so hits come back as
-   `path | section | title | matching line`. Add `--tier docs` to exclude blog
-   noise, or `--section application-hosting` to scope it.
+   This is ripgrep underneath with the manifest metadata joined on, so hits come
+   back with product, subsection, title and URL rather than a bare path. Add
+   `--tier docs` to exclude blog noise, or `--product wordpress-hosting` to scope
+   it. When results straddle products and the query is one of the ambiguous words
+   above, `search` says so rather than letting you pick the first hit.
 3. **Read the page file.** Read the whole page, not just the matched line. Kinsta
    docs routinely qualify a procedure three paragraphs later ("this does not
-   apply to Static Site Hosting", "available on Business plans and above"), and a
-   grep hit on the happy path with the caveat left unread is how you ship a
-   confidently wrong answer.
+   apply to staging environments", "available on Business plans and above",
+   "clear any plugin cache first"), and a grep hit on the happy path with the
+   caveat left unread is how you ship a confidently wrong answer. The per-page
+   `## On this page` table of contents is there so you can see a page's full
+   shape before committing to reading it.
 
 If you searched and found nothing, say what you searched for: "I did not find
 anything in the Kinsta docs for `<term>`" is honest and useful. "Kinsta does not
@@ -199,9 +240,13 @@ Give the user the Kinsta URL, because that is what they can open and what they
 can send to Kinsta support. Include the revalidation state so they know how much
 to trust it:
 
-> Kinsta's edge caching holds HTML for 1 hour by default and purges on post
-> update — https://kinsta.com/docs/<path>/ (revalidated just now; Kinsta's own
-> last-modified on that page is 2026-08-14).
+> <the behavior, in the user's terms> —
+> https://kinsta.com/docs/wordpress-hosting/caching/edge-caching/
+> (revalidated just now; Kinsta's own last-updated on that page is <date>).
+
+Fill that in from the page you actually read. Do not carry an example's numbers
+into a real answer — every limit, default and retention figure in Kinsta's docs
+is a thing to read off the page at the time you answer, not to recall.
 
 If a page came back `CHANGED` during your check, lead with that. A doc that moved
 under you is usually more interesting to the user than the answer itself.
@@ -212,16 +257,24 @@ If you are relying on a page you could not revalidate, date it plainly:
 ## Keeping the mirror current
 
 ```bash
-python3 <skill>/scripts/kinsta_kb.py sync             # incremental, sitemap-driven
-python3 <skill>/scripts/kinsta_kb.py sync --tier docs # just the docs tier
-python3 <skill>/scripts/kinsta_kb.py sync --full      # ignore lastmod, revalidate everything
-python3 <skill>/scripts/kinsta_kb.py status           # per-tier counts and age
+python3 <skill>/scripts/kinsta_kb.py sync              # incremental; all four tiers
+python3 <skill>/scripts/kinsta_kb.py sync --tier docs  # one tier only
+python3 <skill>/scripts/kinsta_kb.py sync --full       # ignore lastmod, re-fetch everything
+python3 <skill>/scripts/kinsta_kb.py sync --dry-run    # report changes, write nothing
+python3 <skill>/scripts/kinsta_kb.py status            # per-tier counts, age, staleness flags
+python3 <skill>/scripts/kinsta_kb.py tree -v           # the taxonomy, with page titles
 ```
 
 `sync` is cheap by design. It reads Kinsta's sitemaps, compares each URL's
-`lastmod` and our stored ETag against `manifest.json`, and only downloads pages
-that are new, newer, or whose conditional GET says they changed. A no-op sync on
-an unchanged corpus is a few sitemap fetches.
+`lastmod` against `manifest.json`, and only downloads pages that are new, moved,
+or missing from disk. A no-op sync on an unchanged corpus is a few sitemap
+fetches and nothing else.
+
+The blog tier is the exception: it enumerates through Kinsta's WordPress REST
+API, because `after=` there filters on the **publish** date. Sitemap `lastmod`
+does not — Kinsta re-touches old posts, so a `lastmod` window pulls ~1,300 posts
+where a publish window pulls ~140. If you ever widen the blog, widen
+`--blog-months`, not the filter.
 
 It also handles the cases a naive crawler gets wrong:
 
@@ -232,8 +285,9 @@ It also handles the cases a naive crawler gets wrong:
   procedure vanished.
 - **Moved content** shows up as a removal plus an addition. `sync` reports both
   together so you can see the pair.
-- Every run appends to `SYNC-LOG.md` and commits to the `kb/` git repo, so the
-  history of Kinsta's documentation as we observed it is reconstructable.
+- Every run appends to `SYNC-LOG.md` and commits to the skill's git repo with a
+  `kb:` prefix, so the history of Kinsta's documentation as we observed it is
+  reconstructable with `git log -p kb/docs/...`.
 
 A daily cron runs `sync`. `status` tells you when it last succeeded — if that
 number is old, the cron is broken and the pre-answer `check` is doing all the
