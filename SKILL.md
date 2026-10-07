@@ -83,8 +83,8 @@ What is actually in the mirror, with page counts as of October 7, 2026:
 | MyKinsta Company Settings | `company-settings` | 12 | Company-level users, roles, API keys |
 | MyKinsta User Settings | `user-settings` | 5 | Individual account settings, 2FA |
 | Support | `support` | 4 | How to reach support, what they cover |
-| Kinsta API Reference | `api` (tier) | 120 | Every endpoint, plus `kb/api/openapi.json` |
-| Changelog | `changelog` | 122 | What shipped when |
+| Kinsta API Reference | `api` (tier) | 120 | Every endpoint, plus `kb/api/openapi.json` (84 endpoints, v1.111.0) |
+| Changelog | `changelog` | 210 | What shipped when, back to 2016 |
 | Blog | `blog` | ~140 | Last 12 months only. Secondary, never outranks docs |
 
 Inside `wordpress-hosting`, the subsection is where the real distinction lives —
@@ -170,19 +170,25 @@ certain, is the failure this whole skill exists to prevent.
 Revalidate the handful of pages you will actually cite, not the whole mirror.
 Two to five pages is normal and takes a few seconds.
 
-**How it actually works, because the cheap version is not available.** Kinsta
-serves docs pages with `cache-control: private, no-cache, no-store` and emits
-**no `ETag` and no `Last-Modified`** (verified October 7, 2026). So there is no
-conditional GET to make and no 304 to collect — `check` downloads the page,
-re-extracts the body, and compares a SHA-256 of the body text against the stored
-hash. `FRESH` means the body is byte-identical, which is a stronger claim than a
-304 anyway; it just costs a real request. That is why you revalidate the pages
-you are citing rather than the mirror: a few hundred KB for a handful of pages is
-nothing, and 570 of them is not.
+**How it actually works.** Kinsta serves docs pages with `cache-control:
+private, no-cache, no-store` and emits **no `ETag` and no `Last-Modified`**
+(verified October 7, 2026), so there is no conditional GET to make and no 304 to
+collect. Instead:
 
-The cheap path still exists at the `sync` level, which diffs the sitemap's
-`lastmod` values and only fetches what moved. The two layers do different jobs:
-`sync` keeps the corpus complete, `check` makes a specific answer defensible.
+- **docs, changelog and blog pages** revalidate through kinsta.com's WordPress
+  REST API — one small JSON object per page. It returns both the current
+  `content.rendered` (hashed and compared to the stored body hash) and
+  `modified_gmt` (an independent change signal from Kinsta's own database). Two
+  signals, and cheap enough that revalidating is never the reason not to.
+- **API reference pages** (api-docs.kinsta.com) have no WordPress behind them,
+  so those fetch the rendered page and compare the body hash alone.
+
+`FRESH` means the body is byte-identical, which is a stronger claim than a 304.
+Revalidate the pages you are citing, not the mirror.
+
+`sync` and `check` do different jobs and you want both: `sync` keeps the corpus
+complete (new pages, deletions, hierarchy changes), `check` makes one specific
+answer defensible right now.
 
 ## Finding the right pages
 
@@ -265,16 +271,22 @@ python3 <skill>/scripts/kinsta_kb.py status            # per-tier counts, age, s
 python3 <skill>/scripts/kinsta_kb.py tree -v           # the taxonomy, with page titles
 ```
 
-`sync` is cheap by design. It reads Kinsta's sitemaps, compares each URL's
-`lastmod` against `manifest.json`, and only downloads pages that are new, moved,
-or missing from disk. A no-op sync on an unchanged corpus is a few sitemap
-fetches and nothing else.
+`sync` is cheap by design. docs, changelog and blog come from kinsta.com's
+WordPress REST API, which returns each post's content **with** the listing — so
+all 537 of those pages are enumerated and ingested in about a dozen requests
+rather than 537. Only the 120 API-reference pages are fetched individually.
 
-The blog tier is the exception: it enumerates through Kinsta's WordPress REST
-API, because `after=` there filters on the **publish** date. Sitemap `lastmod`
-does not — Kinsta re-touches old posts, so a `lastmod` window pulls ~1,300 posts
-where a publish window pulls ~140. If you ever widen the blog, widen
-`--blog-months`, not the filter.
+Two things worth knowing about why it works this way, because both were
+discovered the hard way:
+
+- **Kinsta's changelog sitemap is incomplete.** Yoast lists 122 entries; the
+  REST API reports 210. The 89 it omits span 2016 through June 2025 and include
+  live, relevant posts. A sitemap-driven changelog silently missed 42% of it.
+  If you ever add a tier, check the REST count against the sitemap count before
+  trusting either.
+- **Blog recency uses the publish date, not `lastmod`.** Kinsta re-touches old
+  posts, so a `lastmod` window pulls ~1,300 posts where a publish window pulls
+  ~140. To widen the blog, raise `--blog-months`; do not switch the signal.
 
 It also handles the cases a naive crawler gets wrong:
 

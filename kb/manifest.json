@@ -1,10 +1,10 @@
 {
   "version": 1,
   "last_sync": {
-    "docs": "2026-10-07T22:59:19Z",
-    "api": "2026-10-07T22:59:19Z",
-    "changelog": "2026-10-07T22:59:19Z",
-    "blog": "2026-10-07T22:59:19Z"
+    "docs": "2026-10-07T23:05:24Z",
+    "api": "2026-10-07T23:05:24Z",
+    "changelog": "2026-10-07T23:05:24Z",
+    "blog": "2026-10-07T23:05:24Z"
   },
   "notes": {
     "last_sync_unverified": 0,
@@ -11204,7 +11204,7 @@
       "sha256": "b461073a3a627a5502c1e7362561bbc0034718fcb790fdf69d1de230058916eb",
       "body_chars": 17511,
       "extracted_with": "wp-rest:content.rendered",
-      "fetched_at": "2026-10-07T22:58:18Z",
+      "fetched_at": "2026-10-07T23:05:01Z",
       "status": "live"
     },
     "https://kinsta.com/docs/wordpress-hosting/caching/redis-cache/": {
@@ -11635,7 +11635,7 @@
       "sha256": "04a6ae9f6e47215d455816ef9859b38c51766fce6e815df97cf3d162a6ada35d",
       "body_chars": 10321,
       "extracted_with": "wp-rest:content.rendered",
-      "fetched_at": "2026-10-07T22:58:21Z",
+      "fetched_at": "2026-10-07T23:05:01Z",
       "status": "live"
     },
     "https://kinsta.com/docs/wordpress-hosting/php/wordpress-php-constants/": {

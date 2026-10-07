@@ -8,7 +8,7 @@ subsection: "php"
 section: ["WordPress Hosting"]
 kinsta_last_updated: "2026-09-18T09:54:48"
 change_signal: "2026-09-18T09:54:48"
-fetched_at: "2026-10-07T22:58:21Z"
+fetched_at: "2026-10-07T23:05:01Z"
 sha256: "04a6ae9f6e47215d455816ef9859b38c51766fce6e815df97cf3d162a6ada35d"
 body_chars: 10321
 extracted_with: "wp-rest:content.rendered"

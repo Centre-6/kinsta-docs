@@ -35,6 +35,7 @@ import datetime as dt
 import difflib
 import gzip
 import hashlib
+from html import unescape as html_unescape
 import io
 import json
 import os
@@ -110,10 +111,27 @@ SCOPE_NOTE = (
 #   mode "sitemap" -> enumerate from the listed sitemaps
 #   mode "wp_rest" -> enumerate from kinsta.com's WordPress REST API, which is
 #                     the only source of true publish dates (see BLOG_MONTHS)
+# kinsta.com runs WordPress and exposes its content types over the public REST
+# API, which is strictly better than scraping the rendered pages. Measured
+# October 7, 2026 across all 189 docs pages: `content.rendered` carries 3% MORE
+# text than scraping did (55 pages gained content, 0 lost more than 5%), at
+# roughly a tenth of the bytes - one doc page is ~34 KB of post content against
+# ~334 KB of rendered page. Two requests replace 190.
+#
+# It also fixes two things scraping could not:
+#   - `parent` gives the real page hierarchy, so the section path is a fact
+#     rather than a scraped breadcrumb that is frequently absent.
+#   - The changelog sitemap is INCOMPLETE. Yoast lists 122 entries; the REST API
+#     reports 210. The 89 missing ones span 2016 to June 2025 and include live,
+#     relevant posts (mykinsta-nav-update, custom-webroot, php-performance-
+#     update). A sitemap-driven changelog silently missed 42% of it.
+#
+# `api` stays on sitemap+HTML because api-docs.kinsta.com is a Next.js app on a
+# different host with no WordPress behind it.
 TIERS: dict[str, dict] = {
     "docs": {
         "host": "kinsta.com", "prefix": "/docs/", "dir": "docs",
-        "mode": "sitemap", "sitemaps": [f"{BASE}/sitemap_index.xml"],
+        "mode": "wp_cpt", "rest_base": "docs", "hierarchical": True,
     },
     "api": {
         "host": "api-docs.kinsta.com", "prefix": "/", "dir": "api",
@@ -121,13 +139,29 @@ TIERS: dict[str, dict] = {
     },
     "changelog": {
         "host": "kinsta.com", "prefix": "/changelog/", "dir": "changelog",
-        "mode": "sitemap", "sitemaps": [f"{BASE}/sitemap_index.xml"],
+        "mode": "wp_cpt", "rest_base": "changelog", "hierarchical": False,
     },
     "blog": {
         "host": "kinsta.com", "prefix": "/blog/", "dir": "blog",
-        "mode": "wp_rest", "wp_rest": f"{BASE}/wp-json/wp/v2/posts",
+        "mode": "wp_cpt", "rest_base": "posts", "hierarchical": False,
+        "recent_months": True,
     },
 }
+WP_API = f"{BASE}/wp-json/wp/v2"
+
+# Pages that belong in a tier but are not members of that tier's post type, so
+# the REST enumeration cannot see them. `/docs/` is the docs landing page and is
+# a plain WordPress `page`, not a `docs` CPT - without this it would be treated
+# as deleted on every sync and tombstoned while still live. Fetched over HTTP
+# like any sitemap-tier page.
+EXTRA_HTML_PAGES: dict[str, str] = {
+    f"{BASE}/docs/": "docs",
+}
+
+# Cloudflare answers an UNRECOGNIZED rest_base with HTTP 403 and a
+# "Just a moment..." interstitial, which reads like a block but means "no such
+# endpoint". `wp/v2/changelogs` (plural) does this; `wp/v2/changelog` is the
+# real one. Do not add retry logic for it - a 403 here is a wrong URL.
 DEFAULT_TIERS = ["docs", "api", "changelog", "blog"]
 
 # Blog recency window, in months. The blog is ~1,550 posts and mostly marketing;
@@ -451,47 +485,71 @@ def local_path_for(url: str, tier: str) -> Path:
 # --------------------------------------------------------------------------- #
 
 
-def enumerate_blog(fetcher: Fetcher, months: int) -> dict[str, str | None]:
-    """Blog posts published within the window, via the WordPress REST API.
+def enumerate_wp_cpt(
+    fetcher: Fetcher, tier: str, blog_months: int
+) -> dict[str, dict]:
+    """Pull a whole WordPress content type, content included, in pages of 100.
 
-    The REST API rather than the sitemap because `after=` filters on the
-    publish date. See the BLOG_MONTHS comment for why the sitemap's lastmod is
-    the wrong signal here - it is a trap that quietly pulls the whole blog.
+    Returns url -> record carrying `wp_id`, `parent`, `title`, `modified_gmt`
+    and the rendered HTML. Because the content arrives with the listing, the
+    caller does not fetch pages individually at all.
     """
-    cutoff = (dt.datetime.now(UTC) - dt.timedelta(days=30 * months)).strftime(
-        "%Y-%m-%dT00:00:00"
+    cfg = TIERS[tier]
+    base = f"{WP_API}/{cfg['rest_base']}"
+    params = (
+        "per_page=100&orderby=date&order=desc"
+        "&_fields=id,parent,link,title,modified_gmt,date,content,status"
     )
-    out: dict[str, str | None] = {}
-    page = 1
-    while page <= 20:  # hard stop; 100/page means 2000 posts is already absurd
-        url = (
-            f"{TIERS['blog']['wp_rest']}?per_page=100&page={page}"
-            f"&after={cutoff}&orderby=date&order=desc"
-            f"&_fields=link,date,modified"
-        )
-        status, body, headers, err = fetcher.get(url)
-        if err or status == 400:
-            break  # 400 is how WP says "past the last page"
+    if cfg.get("recent_months"):
+        # Publish date, not modified. Kinsta re-touches old posts, so a
+        # `modified` window pulls ~1,300 blog posts where a publish window
+        # pulls ~140. See BLOG_MONTHS.
+        cutoff = (dt.datetime.now(UTC) - dt.timedelta(days=30 * blog_months)
+                  ).strftime("%Y-%m-%dT00:00:00")
+        params += f"&after={cutoff}"
+        print(f"  {tier}: publish window starts {cutoff[:10]}")
+
+    out: dict[str, dict] = {}
+    page, total = 1, None
+    while page <= 30:
+        status, body, headers, err = fetcher.get(f"{base}?{params}&page={page}")
+        if err:
+            print(f"  ! {tier} REST page {page}: {err}", file=sys.stderr)
+            break
+        if status == 400:
+            break  # WordPress's way of saying "past the last page"
+        if status == 403:
+            print(f"  ! {tier}: HTTP 403 on {base}. Cloudflare answers an "
+                  f"unknown rest_base this way - check the rest_base spelling "
+                  f"rather than treating it as a block.", file=sys.stderr)
+            break
         if status != 200 or not body:
-            print(f"  ! blog REST page {page}: HTTP {status}", file=sys.stderr)
+            print(f"  ! {tier} REST page {page}: HTTP {status}", file=sys.stderr)
             break
         try:
-            posts = json.loads(body)
+            items = json.loads(body)
         except json.JSONDecodeError:
-            print(f"  ! blog REST page {page}: non-JSON response", file=sys.stderr)
+            print(f"  ! {tier} REST page {page}: non-JSON", file=sys.stderr)
             break
-        if not isinstance(posts, list) or not posts:
+        if not isinstance(items, list) or not items:
             break
-        if page == 1:
-            total = headers.get("X-WP-Total", "?")
-            print(f"  blog: {total} post(s) published since {cutoff[:10]} "
-                  f"(publish date, not lastmod)")
-        for p in posts:
-            link = (p.get("link") or "").rstrip("/") + "/"
-            if link and tier_for(link) == "blog":
-                # Carry `modified` as the change signal, `date` for recency.
-                out[link] = (p.get("modified") or p.get("date") or None)
-        if len(posts) < 100:
+        if total is None:
+            total = headers.get("X-WP-Total")
+            print(f"  {tier}: {total} item(s) via {cfg['rest_base']} REST")
+        for it in items:
+            link = (it.get("link") or "").rstrip("/") + "/"
+            if not link or tier_for(link) != tier:
+                continue
+            out[link] = {
+                "wp_id": it.get("id"),
+                "wp_rest_base": cfg["rest_base"],
+                "parent": it.get("parent") or 0,
+                "title": (it.get("title") or {}).get("rendered", ""),
+                "change_signal": it.get("modified_gmt"),
+                "published": it.get("date"),
+                "html": (it.get("content") or {}).get("rendered", ""),
+            }
+        if len(items) < 100:
             break
         page += 1
     return out
@@ -499,29 +557,38 @@ def enumerate_blog(fetcher: Fetcher, months: int) -> dict[str, str | None]:
 
 def enumerate_scope(
     fetcher: Fetcher, tiers: list[str], blog_months: int
-) -> dict[str, str | None]:
-    """URL -> change-signal (sitemap lastmod, or WP `modified`) for every tier."""
-    entries: dict[str, str | None] = {}
+) -> dict[str, dict]:
+    """url -> record for every tier in scope.
+
+    WordPress tiers arrive with their content attached, so their records carry
+    `html` and need no further request. Sitemap tiers carry only a change
+    signal and are fetched page by page.
+    """
+    entries: dict[str, dict] = {}
+
+    for t in [x for x in tiers if TIERS[x]["mode"] == "wp_cpt"]:
+        entries.update(enumerate_wp_cpt(fetcher, t, blog_months))
+
+    for url, tier in EXTRA_HTML_PAGES.items():
+        if tier in tiers:
+            # No change signal available, so it re-fetches whenever the stored
+            # copy is missing; its body hash is what detects a real change.
+            entries.setdefault(url, {"change_signal": None, "html": None})
 
     sitemap_tiers = [t for t in tiers if TIERS[t]["mode"] == "sitemap"]
     if sitemap_tiers:
-        wanted = set(sitemap_tiers)
-        seen_sitemaps: set[str] = set()
+        wanted, seen = set(sitemap_tiers), set()
         for t in sitemap_tiers:
             for sm in TIERS[t]["sitemaps"]:
-                if sm in seen_sitemaps:
+                if sm in seen:
                     continue
-                seen_sitemaps.add(sm)
+                seen.add(sm)
                 found = parse_sitemap(fetcher, sm)
                 print(f"  {sm} -> {len(found)} urls")
                 for loc, lastmod in found:
                     norm = loc.rstrip("/") + "/"
                     if tier_for(norm) in wanted:
-                        entries[norm] = lastmod
-
-    if "blog" in tiers:
-        entries.update(enumerate_blog(fetcher, blog_months))
-
+                        entries[norm] = {"change_signal": lastmod, "html": None}
     return entries
 
 
@@ -695,13 +762,60 @@ def extract(html: bytes, url: str) -> Extracted:
     return Extracted(title, crumbs, body_md, headings, page_lastmod, used)
 
 
+
+def extract_from_rest(rec: dict, parent_map: dict[int, dict]) -> Extracted:
+    """Build a page from a WordPress REST record.
+
+    Simpler and more reliable than the HTML path: `content.rendered` IS the
+    article, so there is no wrapper to guess at and no navigation chrome to
+    strip. The whole BODY_SELECTORS / sanity-floor failure mode - a redesign
+    returning HTTP 200 with a sidebar where the body used to be - cannot happen
+    here, because the API returns the post content or an error.
+
+    The section path comes from walking `parent`, which is Kinsta's own page
+    tree rather than a scraped breadcrumb. 181 of 189 docs pages have a parent,
+    so this gives real hierarchy where the markup usually gave nothing.
+    """
+    frag = BeautifulSoup(rec.get("html") or "", "lxml")
+    _clean(frag)
+    md = markdownify(
+        str(frag), heading_style="ATX", bullets="-", code_language="",
+        escape_asterisks=False, escape_underscores=False,
+    )
+    md = absolutize(md, rec.get("url") or BASE)
+    md = re.sub(r"\n{3,}", "\n\n", md).strip()
+
+    title = html_unescape(re.sub(r"<[^>]+>", "", rec.get("title") or "")).strip()
+
+    # Walk up the parent chain, nearest-last, so it reads like a breadcrumb.
+    crumbs: list[str] = []
+    seen: set[int] = set()
+    pid = rec.get("parent") or 0
+    while pid and pid not in seen and len(crumbs) < 6:
+        seen.add(pid)
+        parent = parent_map.get(pid)
+        if not parent:
+            break
+        ptitle = html_unescape(re.sub(r"<[^>]+>", "", parent.get("title") or "")).strip()
+        if ptitle:
+            crumbs.insert(0, ptitle)
+        pid = parent.get("parent") or 0
+
+    headings = [
+        (len(m.group(1)), m.group(2).strip())
+        for m in re.finditer(r"(?m)^(#{2,4})\s+(.+)$", md)
+    ]
+    return Extracted(title, crumbs, md, headings, rec.get("change_signal"),
+                     "wp-rest:content.rendered")
+
+
 def anchor(text: str) -> str:
     slug = re.sub(r"[^\w\s-]", "", text.lower())
     return re.sub(r"[\s_]+", "-", slug).strip("-")
 
 
 def render_page(url: str, tier: str, product: str, ex: Extracted,
-                sitemap_lastmod: str | None, sha: str) -> str:
+                change_signal: str | None, sha: str) -> str:
     """One page -> one markdown file with frontmatter and a navigable TOC.
 
     The per-page TOC is not decoration. It lets a reader (human or model) see a
@@ -717,7 +831,7 @@ def render_page(url: str, tier: str, product: str, ex: Extracted,
         "subsection": subsection_for(url, tier),
         "section": ex.breadcrumbs,
         "kinsta_last_updated": ex.page_lastmod,
-        "sitemap_lastmod": sitemap_lastmod,
+        "change_signal": change_signal,
         "fetched_at": now_iso(),
         "sha256": sha,
         "body_chars": len(ex.body_md),
@@ -864,24 +978,25 @@ def _sync(args: argparse.Namespace, tiers: list[str]) -> int:
 
     if args.section:
         before = len(entries)
-        entries = {u: lm for u, lm in entries.items() if f"/{args.section}/" in u}
+        entries = {u: r for u, r in entries.items() if f"/{args.section}/" in u}
         print(f"  --section {args.section}: {len(entries)} of {before}")
 
     # ---- 2. Decide what needs fetching ----------------------------------- #
-    to_fetch: list[tuple[str, str | None]] = []
-    for url, lastmod in entries.items():
+    to_fetch: list[tuple[str, dict]] = []
+    for url, inc in entries.items():
+        signal = inc.get("change_signal")
         rec = mf.pages.get(url)
         if rec is None or rec.get("status") == "removed":
-            to_fetch.append((url, lastmod))
+            to_fetch.append((url, inc))
         elif args.full:
-            to_fetch.append((url, lastmod))
-        elif lastmod and rec.get("sitemap_lastmod") != lastmod:
-            to_fetch.append((url, lastmod))
+            to_fetch.append((url, inc))
+        elif signal and rec.get("change_signal") != signal:
+            to_fetch.append((url, inc))
         elif not Path(KB / rec["path"]).exists():
-            to_fetch.append((url, lastmod))  # manifest says we have it; we don't
+            to_fetch.append((url, inc))  # manifest says we have it; we don't
         else:
-            # Unchanged lastmod. Still cheap to confirm via conditional GET, but
-            # only when asked - that is what `check` is for on the hot path.
+            # Unchanged. For WP tiers the content is already in hand and cost
+            # nothing, so "skip" here only avoids rewriting an identical file.
             pass
 
     if args.limit:
@@ -910,42 +1025,58 @@ def _sync(args: argparse.Namespace, tiers: list[str]) -> int:
     gone: list[str] = []
     changed, added = [], []
 
-    for i, (url, lastmod) in enumerate(to_fetch, 1):
+    # Parent lookup for the WordPress hierarchy. Built from everything in
+    # scope, keyed by post id.
+    parent_map = {r["wp_id"]: r for r in entries.values() if r.get("wp_id")}
+
+    for i, (url, inc) in enumerate(to_fetch, 1):
         rec = mf.pages.get(url) or {}
-        status, body, headers, err = fetcher.get(
-            url,
-            etag=None if args.full else rec.get("etag"),
-            last_modified=None if args.full else rec.get("last_modified"),
-        )
         prefix = f"  [{i}/{len(to_fetch)}]"
-
-        if err:
-            unverified.append((url, err))
-            print(f"{prefix} UNVERIFIED {url}  ({err})")
-            continue
-        if status == 304:
-            print(f"{prefix} 304 unchanged {url}")
-            rec["sitemap_lastmod"] = lastmod
-            mf.pages[url] = rec
-            continue
-        if status in (404, 410):
-            gone.append(url)
-            print(f"{prefix} {status} GONE {url}")
-            continue
-        if status != 200 or not body:
-            unverified.append((url, f"HTTP {status}"))
-            print(f"{prefix} UNVERIFIED {url}  (HTTP {status})")
-            continue
-
         t = tier_for(url)
+        headers: dict = {}
+
+        if inc.get("html") is not None:
+            # WordPress REST tier: the content arrived with the listing, so
+            # there is no per-page request to make at all.
+            if not inc["html"].strip():
+                unverified.append((url, "REST returned empty content.rendered"))
+                print(f"{prefix} UNVERIFIED {url}  (empty content)")
+                continue
+            inc = {**inc, "url": url}
+            ex = extract_from_rest(inc, parent_map)
+        else:
+            status, body, headers, err = fetcher.get(
+                url,
+                etag=None if args.full else rec.get("etag"),
+                last_modified=None if args.full else rec.get("last_modified"),
+            )
+            if err:
+                unverified.append((url, err))
+                print(f"{prefix} UNVERIFIED {url}  ({err})")
+                continue
+            if status == 304:
+                print(f"{prefix} 304 unchanged {url}")
+                rec["change_signal"] = inc.get("change_signal")
+                mf.pages[url] = rec
+                continue
+            if status in (404, 410):
+                gone.append(url)
+                print(f"{prefix} {status} GONE {url}")
+                continue
+            if status != 200 or not body:
+                unverified.append((url, f"HTTP {status}"))
+                print(f"{prefix} UNVERIFIED {url}  (HTTP {status})")
+                continue
+            ex = extract(body, url)
+
         product = product_for(url, t)
-        ex = extract(body, url)
         if len(ex.body_md) < MIN_BODY_CHARS:
-            short_pages.append(f"{url}  ({len(ex.body_md)} chars, sel={ex.selector_used})")
+            short_pages.append(
+                f"{url}  ({len(ex.body_md)} chars, src={ex.selector_used})")
 
         sha = sha256_text(ex.body_md)
         rel = local_path_for(url, t)
-        rendered = render_page(url, t, product, ex, lastmod, sha)
+        rendered = render_page(url, t, product, ex, inc.get("change_signal"), sha)
 
         new_rec = {
             "path": str(rel),
@@ -954,10 +1085,13 @@ def _sync(args: argparse.Namespace, tiers: list[str]) -> int:
             "subsection": subsection_for(url, t),
             "section": ex.breadcrumbs,
             "title": ex.title,
+            "wp_id": inc.get("wp_id"),
+            "wp_rest_base": inc.get("wp_rest_base"),
             "etag": headers.get("ETag"),
             "last_modified": headers.get("Last-Modified"),
-            "sitemap_lastmod": lastmod,
+            "change_signal": inc.get("change_signal"),
             "kinsta_last_updated": ex.page_lastmod,
+            "published": inc.get("published"),
             "sha256": sha,
             "body_chars": len(ex.body_md),
             "extracted_with": ex.selector_used,
@@ -1209,28 +1343,100 @@ def cmd_check(args: argparse.Namespace) -> int:
             worst = max(worst, 1)
             continue
 
-        status, body, headers, err = fetcher.get(
-            url, etag=rec.get("etag"), last_modified=rec.get("last_modified")
-        )
+        wp_id, wp_base = rec.get("wp_id"), rec.get("wp_rest_base")
+        if wp_id and wp_base:
+            # WordPress-backed page: revalidate through the REST API. One small
+            # JSON object instead of a ~200 KB rendered page, and it returns
+            # `modified_gmt` as a second, independent change signal alongside
+            # the body hash.
+            # Query the COLLECTION with ?include=<id>, not /docs/<id>.
+            #
+            # The single-item route works for a live post but cannot report a
+            # deleted one: WordPress 404s, and Cloudflare converts that 404
+            # into an HTTP 403 "Just a moment..." interstitial. So a removed
+            # page came back UNVERIFIED and `check` was structurally incapable
+            # of ever saying GONE - which looked fine, because every page it
+            # was tested on was live. The collection form returns 200 either
+            # way: `[{...}]` for a live post, `[]` for one that is gone.
+            status, body, headers, err = fetcher.get(
+                f"{WP_API}/{wp_base}?include={wp_id}"
+                "&_fields=id,parent,link,title,modified_gmt,date,content"
+            )
+            if err:
+                verdicts.append((url, "UNVERIFIED", err))
+                worst = max(worst, 2)
+                continue
+            if status != 200 or not body:
+                verdicts.append((url, "UNVERIFIED", f"HTTP {status}"))
+                worst = max(worst, 2)
+                continue
+            try:
+                found = json.loads(body)
+            except json.JSONDecodeError:
+                verdicts.append((url, "UNVERIFIED", "REST returned non-JSON"))
+                worst = max(worst, 2)
+                continue
+            if not found:
+                # Confirm against the public URL before declaring it gone. An
+                # empty result could also mean the post changed status or type
+                # rather than being removed, and those are different facts.
+                pstatus, _, _, perr = fetcher.get(url)
+                if perr:
+                    verdicts.append((url, "UNVERIFIED",
+                                     f"absent from the REST API, but the page "
+                                     f"could not be checked to confirm: {perr}"))
+                    worst = max(worst, 2)
+                elif pstatus in (404, 410):
+                    verdicts.append((url, "GONE",
+                                     f"absent from the REST API and the page "
+                                     f"returns HTTP {pstatus}"))
+                    worst = max(worst, 1)
+                else:
+                    verdicts.append((url, "UNVERIFIED",
+                                     f"absent from the REST API, but the page "
+                                     f"still returns HTTP {pstatus} - it likely "
+                                     f"changed post type or status. Run `sync`"))
+                    worst = max(worst, 2)
+                continue
+            item = found[0]
+            inc = {
+                "wp_id": item.get("id"),
+                "wp_rest_base": wp_base,
+                "parent": item.get("parent") or 0,
+                "title": (item.get("title") or {}).get("rendered", ""),
+                "change_signal": item.get("modified_gmt"),
+                "html": (item.get("content") or {}).get("rendered", ""),
+                "url": url,
+            }
+            # The parent chain is not in this single-item response. Reuse the
+            # section path we already stored rather than losing the hierarchy;
+            # a `sync` is what re-derives it if the tree moved.
+            ex = extract_from_rest(inc, {})
+            ex.breadcrumbs = rec.get("section") or []
+            headers = {}
+        else:
+            status, body, headers, err = fetcher.get(
+                url, etag=rec.get("etag"), last_modified=rec.get("last_modified")
+            )
 
-        if err:
-            verdicts.append((url, "UNVERIFIED", err))
-            worst = max(worst, 2)
-            continue
-        if status == 304:
-            verdicts.append((url, "FRESH",
-                             f"304; mirror copy fetched {rec.get('fetched_at')}"))
-            continue
-        if status in (404, 410):
-            verdicts.append((url, "GONE", f"HTTP {status}"))
-            worst = max(worst, 1)
-            continue
-        if status != 200 or not body:
-            verdicts.append((url, "UNVERIFIED", f"HTTP {status}"))
-            worst = max(worst, 2)
-            continue
+            if err:
+                verdicts.append((url, "UNVERIFIED", err))
+                worst = max(worst, 2)
+                continue
+            if status == 304:
+                verdicts.append((url, "FRESH",
+                                 f"304; mirror copy fetched {rec.get('fetched_at')}"))
+                continue
+            if status in (404, 410):
+                verdicts.append((url, "GONE", f"HTTP {status}"))
+                worst = max(worst, 1)
+                continue
+            if status != 200 or not body:
+                verdicts.append((url, "UNVERIFIED", f"HTTP {status}"))
+                worst = max(worst, 2)
+                continue
 
-        ex = extract(body, url)
+            ex = extract(body, url)
         sha = sha256_text(ex.body_md)
         if sha == rec.get("sha256"):
             # 200 rather than 304 just means the validators rotated; the body
@@ -1238,8 +1444,12 @@ def cmd_check(args: argparse.Namespace) -> int:
             rec["etag"] = headers.get("ETag")
             rec["last_modified"] = headers.get("Last-Modified")
             rec["fetched_at"] = now_iso()
+            if ex.page_lastmod:
+                rec["change_signal"] = ex.page_lastmod
             mf.pages[url] = rec
-            verdicts.append((url, "FRESH", "body hash identical"))
+            verdicts.append((url, "FRESH", "body hash identical"
+                             + (f"; Kinsta modified_gmt {ex.page_lastmod}"
+                                if ex.page_lastmod else "")))
             continue
 
         # Changed. Re-ingest now so the answer is written against current text.
@@ -1247,7 +1457,7 @@ def cmd_check(args: argparse.Namespace) -> int:
         dest = KB / rec["path"]
         old_body = body_of(dest) if dest.exists() else ""
         rendered = render_page(url, t, product_for(url, t), ex,
-                               rec.get("sitemap_lastmod"), sha)
+                               rec.get("change_signal"), sha)
         diff = "\n".join(difflib.unified_diff(
             old_body.splitlines(), rendered.split("---\n", 2)[-1].splitlines(),
             fromfile=f"{url} (mirror)", tofile=f"{url} (live)", lineterm="", n=2))
