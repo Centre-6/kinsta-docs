@@ -1,0 +1,5 @@
+kb/.sync.lock
+kb/cron.log
+kb/.diffs/
+__pycache__/
+*.pyc
