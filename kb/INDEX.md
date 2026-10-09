@@ -1,6 +1,6 @@
 # Kinsta documentation mirror - index
 
-Generated 2026-10-07T22:59:20Z from `manifest.json`. 658 live pages.
+Generated 2026-10-09T09:17:21Z from `manifest.json`. 660 live pages.
 
 Read this to orient before searching. Pages are grouped by **product**, because Kinsta's products reuse the same vocabulary for different mechanics and picking the wrong tree produces a confident wrong answer. Revalidate any page you intend to cite:
 
@@ -433,7 +433,7 @@ python3 scripts/kinsta_kb.py check --url <url>
 - **phpMyAdmin: You can get there from here in one click** - `kb/changelog/phpmyadmin-one-click.md`  
   https://kinsta.com/changelog/phpmyadmin-one-click/
 
-## Blog (secondary - never outranks docs)  (`blog`, 138 pages)
+## Blog (secondary - never outranks docs)  (`blog`, 139 pages)
 
 ### General
 
@@ -659,6 +659,8 @@ python3 scripts/kinsta_kb.py check --url <url>
   https://kinsta.com/blog/shared-hosting-security-risks/
 - **What is white-label hosting? (And what Kinsta offers agencies and resellers)** - `kb/blog/white-label-hosting.md`  
   https://kinsta.com/blog/white-label-hosting/
+- **What to do when bots hit your WordPress site: An action plan** - `kb/blog/when-bots-hit-your-site.md`  
+  https://kinsta.com/blog/when-bots-hit-your-site/
 - **What “enterprise-ready” means for WordPress (and how some hosts misuse the term)** - `kb/blog/what-enterprise-ready-means.md`  
   https://kinsta.com/blog/what-enterprise-ready-means/
 - **What’s new in WordPress 7.0: AI integration, new blocks, and much more** - `kb/blog/wordpress-7-0.md`  
@@ -1022,7 +1024,7 @@ python3 scripts/kinsta_kb.py check --url <url>
 - **WordPress Themes & Plugins** - `kb/api/pages/wordpress-themes-plugins/description.md`  
   https://api-docs.kinsta.com/pages/wordpress-themes-plugins/description/
 
-## Managed WordPress Hosting  (`wordpress-hosting`, 112 pages)
+## Managed WordPress Hosting  (`wordpress-hosting`, 113 pages)
 
 ### General
 
@@ -1084,6 +1086,8 @@ python3 scripts/kinsta_kb.py check --url <url>
   https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/site-preview/
 - **Tools** - `kb/docs/wordpress-hosting/mykinsta-tools.md`  
   https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/
+- **Vulnerability Protection** - `kb/docs/wordpress-hosting/mykinsta-tools/wordpress-vulnerability-protection.md`  
+  https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/wordpress-vulnerability-protection/
 - **htpasswd Protection** - `kb/docs/wordpress-hosting/mykinsta-tools/htpasswd.md`  
   https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/htpasswd/
 

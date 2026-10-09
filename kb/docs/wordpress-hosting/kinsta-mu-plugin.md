@@ -8,9 +8,9 @@ subsection: "kinsta-mu-plugin"
 section: ["WordPress Hosting"]
 kinsta_last_updated: "2026-04-27T09:56:43"
 change_signal: "2026-04-27T09:56:43"
-fetched_at: "2026-10-07T22:58:21Z"
-sha256: "98903e7603e5021cb408eb25e7514bd17091984356e6bdb0288bebaedcfdf10b"
-body_chars: 18733
+fetched_at: "2026-10-08T14:27:29Z"
+sha256: "367a1b679fdd975c33616c9b382f13cbd1b0ca0890a5e0bec9f2434a7098194e"
+body_chars: 19107
 extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
@@ -54,6 +54,8 @@ status: "live"
 The Kinsta MU (must-use) plugin is designed to work specifically on our WordPress hosting platform. It handles things such as our [full-page caching](https://kinsta.com/docs/wordpress-hosting/caching/site-caching/) technology and [Kinsta’s CDN](https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/kinsta-cdn/) integration.
 
 By default, the Kinsta MU plugin is installed on every site we host and is available from the left-hand side of your WordPress admin dashboard. The **plugin is required** to ensure your site runs smoothly in our environment and cannot be removed.
+
+Kinsta’s [Vulnerability protection](https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/wordpress-vulnerability-protection/) plugin, powered by Patchstack, is also installed as a must-use plugin on every WordPress site we host. It blocks attempts to exploit known vulnerabilities in WordPress core, plugins, and themes. Like the Kinsta MU plugin, it can’t be removed.
 
 The plugin is regularly updated with new features, improvements, and fixes. To see what’s changed, check the [Kinsta MU Plugin Changelog](https://kinsta.com/changelog/mu-plugin-changelog/).
 

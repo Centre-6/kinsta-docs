@@ -1,16 +1,16 @@
 {
   "version": 1,
   "last_sync": {
-    "docs": "2026-10-07T23:05:24Z",
-    "api": "2026-10-07T23:05:24Z",
-    "changelog": "2026-10-07T23:05:24Z",
-    "blog": "2026-10-07T23:05:24Z"
+    "docs": "2026-10-09T09:17:20Z",
+    "api": "2026-10-09T09:17:20Z",
+    "changelog": "2026-10-09T09:17:20Z",
+    "blog": "2026-10-09T09:17:20Z"
   },
   "notes": {
     "last_sync_unverified": 0,
     "openapi": {
       "url": "https://api-docs.kinsta.com/assets/kinsta-openapi.yaml",
-      "fetched_at": "2026-10-07T22:59:20Z",
+      "fetched_at": "2026-10-09T09:17:21Z",
       "openapi": "3.1.0",
       "title": "Kinsta API",
       "version": "1.111.0",
@@ -895,7 +895,7 @@
       "sha256": "8376d7ec61296ea5afa1b6da0df385e3beb57e5167689883960ab2b0f9bbe738",
       "body_chars": 8614,
       "extracted_with": "main",
-      "fetched_at": "2026-10-07T22:58:46Z",
+      "fetched_at": "2026-10-08T02:55:36Z",
       "status": "live"
     },
     "https://api-docs.kinsta.com/api-reference/wordpress-edge-caching/update-site-edge-cache-status/": {
@@ -4558,6 +4558,26 @@
       "fetched_at": "2026-10-07T22:58:26Z",
       "status": "live"
     },
+    "https://kinsta.com/blog/when-bots-hit-your-site/": {
+      "path": "blog/when-bots-hit-your-site.md",
+      "tier": "blog",
+      "product": "blog",
+      "subsection": null,
+      "section": [],
+      "title": "What to do when bots hit your WordPress site: An action plan",
+      "wp_id": 217674,
+      "wp_rest_base": "posts",
+      "etag": null,
+      "last_modified": null,
+      "change_signal": "2026-09-25T19:10:44",
+      "kinsta_last_updated": "2026-09-25T19:10:44",
+      "published": "2026-10-08T13:30:47",
+      "sha256": "bb72f369e3adb7d03fd31d16d800e66478add6e247cc69de15cd97141ae5b9d7",
+      "body_chars": 16765,
+      "extracted_with": "wp-rest:content.rendered",
+      "fetched_at": "2026-10-09T09:17:20Z",
+      "status": "live"
+    },
     "https://kinsta.com/blog/white-label-hosting/": {
       "path": "blog/white-label-hosting.md",
       "tier": "blog",
@@ -5794,7 +5814,7 @@
       "sha256": "85d6fb0805571d61f62b1d35530ba361863c87e7dbe368ecb82df94d85cdc89b",
       "body_chars": 2169,
       "extracted_with": "wp-rest:content.rendered",
-      "fetched_at": "2026-10-07T22:58:21Z",
+      "fetched_at": "2026-10-08T02:55:37Z",
       "status": "live"
     },
     "https://kinsta.com/changelog/caching-toggle-ip-autofill-user-settings-activty-log-site-domain-search/": {
@@ -7154,7 +7174,7 @@
       "sha256": "c82126c1412a5e4c4f3bd3a50d14118d730034b93d436f992f59084889e4f96a",
       "body_chars": 7408,
       "extracted_with": "wp-rest:content.rendered",
-      "fetched_at": "2026-10-07T22:58:22Z",
+      "fetched_at": "2026-10-08T02:55:37Z",
       "status": "live"
     },
     "https://kinsta.com/changelog/kinsta-api-aug-2026/": {
@@ -7694,7 +7714,7 @@
       "sha256": "8eb163a82cc08819b8666999163c3765268b0eef25d2814b16937b74ae649262",
       "body_chars": 12000,
       "extracted_with": "wp-rest:content.rendered",
-      "fetched_at": "2026-10-07T22:58:23Z",
+      "fetched_at": "2026-10-08T14:28:15Z",
       "status": "live"
     },
     "https://kinsta.com/changelog/multi-user-access-permissions/": {
@@ -11181,7 +11201,7 @@
       "sha256": "5ed2d8372c0a95cd7087e9a6affce86a4c5339ff62a20199c2984ab2e5d5ce1a",
       "body_chars": 5412,
       "extracted_with": "wp-rest:content.rendered",
-      "fetched_at": "2026-10-07T22:58:18Z",
+      "fetched_at": "2026-10-08T14:27:29Z",
       "status": "live"
     },
     "https://kinsta.com/docs/wordpress-hosting/caching/edge-caching/": {
@@ -11204,7 +11224,7 @@
       "sha256": "b461073a3a627a5502c1e7362561bbc0034718fcb790fdf69d1de230058916eb",
       "body_chars": 17511,
       "extracted_with": "wp-rest:content.rendered",
-      "fetched_at": "2026-10-07T23:05:01Z",
+      "fetched_at": "2026-10-08T14:27:28Z",
       "status": "live"
     },
     "https://kinsta.com/docs/wordpress-hosting/caching/redis-cache/": {
@@ -11250,7 +11270,7 @@
       "sha256": "48641b4541d4ef75642a9548aba6bd836249424f8a8723d1ee3cc33d89b2dd3b",
       "body_chars": 8580,
       "extracted_with": "wp-rest:content.rendered",
-      "fetched_at": "2026-10-07T22:58:20Z",
+      "fetched_at": "2026-10-08T14:27:28Z",
       "status": "live"
     },
     "https://kinsta.com/docs/wordpress-hosting/connect-to-ssh/": {
@@ -11427,10 +11447,10 @@
       "change_signal": "2026-04-27T09:56:43",
       "kinsta_last_updated": "2026-04-27T09:56:43",
       "published": "2023-11-10T10:47:21",
-      "sha256": "98903e7603e5021cb408eb25e7514bd17091984356e6bdb0288bebaedcfdf10b",
-      "body_chars": 18733,
+      "sha256": "367a1b679fdd975c33616c9b382f13cbd1b0ca0890a5e0bec9f2434a7098194e",
+      "body_chars": 19107,
       "extracted_with": "wp-rest:content.rendered",
-      "fetched_at": "2026-10-07T22:58:21Z",
+      "fetched_at": "2026-10-08T14:27:29Z",
       "status": "live"
     },
     "https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/": {
@@ -11614,6 +11634,29 @@
       "body_chars": 36727,
       "extracted_with": "wp-rest:content.rendered",
       "fetched_at": "2026-10-07T22:58:16Z",
+      "status": "live"
+    },
+    "https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/wordpress-vulnerability-protection/": {
+      "path": "docs/wordpress-hosting/mykinsta-tools/wordpress-vulnerability-protection.md",
+      "tier": "docs",
+      "product": "wordpress-hosting",
+      "subsection": "mykinsta-tools",
+      "section": [
+        "WordPress Hosting",
+        "Tools"
+      ],
+      "title": "Vulnerability Protection",
+      "wp_id": 220245,
+      "wp_rest_base": "docs",
+      "etag": null,
+      "last_modified": null,
+      "change_signal": "2026-10-07T07:53:26",
+      "kinsta_last_updated": "2026-10-07T07:53:26",
+      "published": "2026-10-08T11:59:58",
+      "sha256": "b6894bac81776705053c4f11b294b36847cd4a32215203cf5a902c99a4209231",
+      "body_chars": 11027,
+      "extracted_with": "wp-rest:content.rendered",
+      "fetched_at": "2026-10-09T09:17:20Z",
       "status": "live"
     },
     "https://kinsta.com/docs/wordpress-hosting/php/": {
@@ -11863,7 +11906,7 @@
       "sha256": "d1f86d41a1f8bfc4837d7ceeed8c12b2b64b01502038526fcb37d970e9864b2f",
       "body_chars": 5106,
       "extracted_with": "wp-rest:content.rendered",
-      "fetched_at": "2026-10-07T22:58:21Z",
+      "fetched_at": "2026-10-08T14:27:29Z",
       "status": "live"
     },
     "https://kinsta.com/docs/wordpress-hosting/site-management/git/": {
@@ -12093,7 +12136,7 @@
       "sha256": "b2026debd56fc51ce3218e62b2d5ddd6509449aec2bc62d4d2eacf05bf18c5b3",
       "body_chars": 10019,
       "extracted_with": "wp-rest:content.rendered",
-      "fetched_at": "2026-10-07T22:58:18Z",
+      "fetched_at": "2026-10-08T14:27:30Z",
       "status": "live"
     },
     "https://kinsta.com/docs/wordpress-hosting/staging-environment/": {
@@ -12115,7 +12158,7 @@
       "sha256": "37126e34c5303bf52293ea92172a3d02e65e77ccfa1292b756060a084c335645",
       "body_chars": 31402,
       "extracted_with": "wp-rest:content.rendered",
-      "fetched_at": "2026-10-07T22:58:21Z",
+      "fetched_at": "2026-10-08T14:27:29Z",
       "status": "live"
     },
     "https://kinsta.com/docs/wordpress-hosting/wordpress-add-ons/": {
@@ -12456,7 +12499,7 @@
       "sha256": "85a9326774563fa8e3dc4b6001f83420173b7aeff4cda3a5cf9c34b4ed008845",
       "body_chars": 32043,
       "extracted_with": "wp-rest:content.rendered",
-      "fetched_at": "2026-10-07T22:58:18Z",
+      "fetched_at": "2026-10-08T14:27:30Z",
       "status": "live"
     },
     "https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/proxy-cdn-compatibility-checklist/": {
@@ -13438,7 +13481,7 @@
       "sha256": "53579e9b02c3f9e2cc7925d5413ebc060b9dc9288d8429a6a01cd262aa14d348",
       "body_chars": 38728,
       "extracted_with": "wp-rest:content.rendered",
-      "fetched_at": "2026-10-07T22:58:21Z",
+      "fetched_at": "2026-10-08T02:55:36Z",
       "status": "live"
     },
     "https://kinsta.com/docs/wordpress-hosting/wordpress-reference/wordpress-glossary/": {

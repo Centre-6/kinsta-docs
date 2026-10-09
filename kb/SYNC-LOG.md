@@ -231,3 +231,10 @@
 
 **Short/suspect** (1)
 - https://api-docs.kinsta.com/pages/authentication/description/  (152 chars, src=main)
+
+## 2026-10-09T09:17:21Z
+0 changed, 2 added, 0 removed, 0 unverified
+
+**Added** (2)
+- https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/wordpress-vulnerability-protection/
+- https://kinsta.com/blog/when-bots-hit-your-site/
