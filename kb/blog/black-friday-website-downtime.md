@@ -12,8 +12,11 @@ fetched_at: "2026-10-07T22:58:28Z"
 sha256: "8af5453e25ca0cc775e9d876aa07467a51bea749162d701a87b1be80889e57af"
 body_chars: 13533
 extracted_with: "wp-rest:content.rendered"
-status: "live"
+status: "removed"
+removed_at: "2026-10-10T09:17:19Z"
 ---
+
+> **REMOVED FROM KINSTA'S DOCS** as of 2026-10-10T09:17:19Z (absent from sitemap). Kept as a record of what was published. Do not cite as current.
 
 # How much revenue could downtime cost you on Black Friday?
 

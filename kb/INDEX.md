@@ -1,6 +1,6 @@
 # Kinsta documentation mirror - index
 
-Generated 2026-10-09T09:17:21Z from `manifest.json`. 660 live pages.
+Generated 2026-10-10T09:17:20Z from `manifest.json`. 660 live pages.
 
 Read this to orient before searching. Pages are grouped by **product**, because Kinsta's products reuse the same vocabulary for different mechanics and picking the wrong tree produces a confident wrong answer. Revalidate any page you intend to cite:
 
@@ -8,7 +8,7 @@ Read this to orient before searching. Pages are grouped by **product**, because 
 python3 scripts/kinsta_kb.py check --url <url>
 ```
 
-## Changelog  (`changelog`, 210 pages)
+## Changelog  (`changelog`, 211 pages)
 
 ### General
 
@@ -372,6 +372,8 @@ python3 scripts/kinsta_kb.py check --url <url>
   https://kinsta.com/changelog/separation-staging-live-environments/
 - **Set custom webroots for your WordPress sites with Kinsta API** - `kb/changelog/custom-webroot.md`  
   https://kinsta.com/changelog/custom-webroot/
+- **Shields up! Kinsta adds enhanced Vulnerability Protection** - `kb/changelog/vulnerability-protection.md`  
+  https://kinsta.com/changelog/vulnerability-protection/
 - **Simplify secure access to MyKinsta with SAML single sign-on** - `kb/changelog/single-sign-on.md`  
   https://kinsta.com/changelog/single-sign-on/
 - **Site Renaming in MyKinsta** - `kb/changelog/site-renaming.md`  
@@ -433,7 +435,7 @@ python3 scripts/kinsta_kb.py check --url <url>
 - **phpMyAdmin: You can get there from here in one click** - `kb/changelog/phpmyadmin-one-click.md`  
   https://kinsta.com/changelog/phpmyadmin-one-click/
 
-## Blog (secondary - never outranks docs)  (`blog`, 139 pages)
+## Blog (secondary - never outranks docs)  (`blog`, 138 pages)
 
 ### General
 
@@ -515,8 +517,6 @@ python3 scripts/kinsta_kb.py check --url <url>
   https://kinsta.com/blog/managed-hosting-saves-agencies-time/
 - **How modern block themes are changing WordPress hosting** - `kb/blog/block-themes-wordpress-hosting.md`  
   https://kinsta.com/blog/block-themes-wordpress-hosting/
-- **How much revenue could downtime cost you on Black Friday?** - `kb/blog/black-friday-website-downtime.md`  
-  https://kinsta.com/blog/black-friday-website-downtime/
 - **How to access and edit your WordPress files in MyKinsta (no FTP client required)** - `kb/blog/wordpress-file-manager-mykinsta.md`  
   https://kinsta.com/blog/wordpress-file-manager-mykinsta/
 - **How to automate WordPress go-live from Salesforce using the Kinsta API** - `kb/blog/automate-wordpress-salesforce-kinsta-api.md`  
@@ -1643,9 +1643,10 @@ python3 scripts/kinsta_kb.py check --url <url>
 - **Kinsta API** - `kb/docs/kinsta-api.md`  
   https://kinsta.com/docs/kinsta-api/
 
-## Removed from Kinsta's docs (1)
+## Removed from Kinsta's docs (2)
 
 Kept as a record of what was once published. Do not cite as current behavior.
 
+- How much revenue could downtime cost you on Black Friday? - removed 2026-10-10T09:17:19Z - https://kinsta.com/blog/black-friday-website-downtime/
 - Changelog - removed 2026-10-07T22:59:19Z - https://kinsta.com/changelog/
 

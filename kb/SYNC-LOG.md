@@ -238,3 +238,12 @@
 **Added** (2)
 - https://kinsta.com/docs/wordpress-hosting/mykinsta-tools/wordpress-vulnerability-protection/
 - https://kinsta.com/blog/when-bots-hit-your-site/
+
+## 2026-10-10T09:17:20Z
+0 changed, 1 added, 1 removed, 0 unverified
+
+**Added** (1)
+- https://kinsta.com/changelog/vulnerability-protection/
+
+**Removed** (1)
+- https://kinsta.com/blog/black-friday-website-downtime/
