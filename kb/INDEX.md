@@ -1,6 +1,6 @@
 # Kinsta documentation mirror - index
 
-Generated 2026-10-10T09:17:20Z from `manifest.json`. 660 live pages.
+Generated 2026-10-12T09:17:23Z from `manifest.json`. 659 live pages.
 
 Read this to orient before searching. Pages are grouped by **product**, because Kinsta's products reuse the same vocabulary for different mechanics and picking the wrong tree produces a confident wrong answer. Revalidate any page you intend to cite:
 
@@ -435,7 +435,7 @@ python3 scripts/kinsta_kb.py check --url <url>
 - **phpMyAdmin: You can get there from here in one click** - `kb/changelog/phpmyadmin-one-click.md`  
   https://kinsta.com/changelog/phpmyadmin-one-click/
 
-## Blog (secondary - never outranks docs)  (`blog`, 138 pages)
+## Blog (secondary - never outranks docs)  (`blog`, 137 pages)
 
 ### General
 
@@ -601,8 +601,6 @@ python3 scripts/kinsta_kb.py check --url <url>
   https://kinsta.com/blog/php-benchmarks/
 - **PHP 8.5: Here’s what’s new in the latest release** - `kb/blog/php-8-5.md`  
   https://kinsta.com/blog/php-8-5/
-- **Performance benchmarking WordPress on Kinsta vs DIY hosting** - `kb/blog/wordpress-benchmarking-diy-hosting.md`  
-  https://kinsta.com/blog/wordpress-benchmarking-diy-hosting/
 - **Performance consistency: Why “fast on average” hosting fails real users** - `kb/blog/performance-consistency-wordpress-hosting.md`  
   https://kinsta.com/blog/performance-consistency-wordpress-hosting/
 - **Plan upgrades vs. add-on scaling: Making the right choice this holiday season** - `kb/blog/plan-upgrades-vs-add-on-scaling.md`  
@@ -1643,10 +1641,11 @@ python3 scripts/kinsta_kb.py check --url <url>
 - **Kinsta API** - `kb/docs/kinsta-api.md`  
   https://kinsta.com/docs/kinsta-api/
 
-## Removed from Kinsta's docs (2)
+## Removed from Kinsta's docs (3)
 
 Kept as a record of what was once published. Do not cite as current behavior.
 
 - How much revenue could downtime cost you on Black Friday? - removed 2026-10-10T09:17:19Z - https://kinsta.com/blog/black-friday-website-downtime/
+- Performance benchmarking WordPress on Kinsta vs DIY hosting - removed 2026-10-12T09:17:21Z - https://kinsta.com/blog/wordpress-benchmarking-diy-hosting/
 - Changelog - removed 2026-10-07T22:59:19Z - https://kinsta.com/changelog/
 

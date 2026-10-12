@@ -12,8 +12,11 @@ fetched_at: "2026-10-07T22:58:28Z"
 sha256: "27313b72b2da29ff15b1ce13285506a2f2a70927d9fa3083343abdc1dbf25998"
 body_chars: 15345
 extracted_with: "wp-rest:content.rendered"
-status: "live"
+status: "removed"
+removed_at: "2026-10-12T09:17:21Z"
 ---
+
+> **REMOVED FROM KINSTA'S DOCS** as of 2026-10-12T09:17:21Z (absent from sitemap). Kept as a record of what was published. Do not cite as current.
 
 # Performance benchmarking WordPress on Kinsta vs DIY hosting
 

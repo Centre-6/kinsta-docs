@@ -247,3 +247,9 @@
 
 **Removed** (1)
 - https://kinsta.com/blog/black-friday-website-downtime/
+
+## 2026-10-12T09:17:23Z
+0 changed, 0 added, 1 removed, 0 unverified
+
+**Removed** (1)
+- https://kinsta.com/blog/wordpress-benchmarking-diy-hosting/
