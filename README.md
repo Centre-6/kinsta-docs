@@ -12,25 +12,36 @@ So this skill treats freshness as part of the answer. Before relying on a page, 
 
 ## Installing
 
-**Claude Code, as a plugin:**
+Most people want the first option. You do not need Claude Code, a terminal, or a developer account.
+
+### Claude app (claude.ai on web, desktop or mobile)
+
+**1. Turn on code execution.** The skill cannot run without it, and this is a separate switch from the skill itself. Settings > Capabilities for an individual account. On Team or Enterprise an owner does it at Organization settings > Plugins & skills, where both code execution and Skills have to be on.
+
+**2. Download the packaged skill:**
+
+https://github.com/Centre-6/kinsta-docs/releases/latest/download/kinsta-docs.zip
+
+**3. Upload it.** Customize > Skills > + > Create skill > Upload a skill, and choose the file you just downloaded. On newer builds the menu is Customize > Plugins.
+
+That file is already packaged the way Claude expects, so there is nothing to unzip or rename.
+
+> **Do not use the green Code > Download ZIP button on this page.** GitHub names the folder inside it `kinsta-docs-main`, which no longer matches the skill's name, and the upload is rejected. Use the release link above.
+
+If your build offers it, you can skip the download entirely: Customize > Plugins > Add > Add marketplace, then paste this repository's URL.
+
+### Claude Code
+
+Claude Code runs on your own machine, so the skill keeps full network access and the freshness check works as designed. It is available as a terminal command and as a desktop app for Mac and Windows: https://code.claude.com/docs/en/desktop
+
+As a plugin:
 
 ```
 claude plugin marketplace add Centre-6/kinsta-docs
 claude plugin install kinsta-docs@centre6-plugins
 ```
 
-**Claude Code, as a plain skill:** clone the repository to `~/.claude/skills/kinsta-docs` for all your projects, or to `.claude/skills/kinsta-docs` inside one repository. The directory name has to stay `kinsta-docs`, because it must match the `name` in `SKILL.md`.
-
-**claude.ai, from this repository:** Customize > Plugins > Add > Add marketplace, then give it this repository's URL. On older builds the menu is Customize > Skills. Code execution has to be enabled: Settings > Capabilities for an individual account, or Organization settings > Plugins & skills for Team and Enterprise.
-
-**claude.ai, from a ZIP:** Customize > Skills > + > Create skill > Upload a skill. Build the archive so the skill folder is its top level, because Claude looks for `kinsta-docs/SKILL.md` inside it:
-
-```
-zip -r kinsta-docs.zip kinsta-docs/
-unzip -l kinsta-docs.zip
-```
-
-Do not use GitHub's "Download ZIP" button for this. It names the top folder `kinsta-docs-main`, which no longer matches the skill name, and the upload will be rejected. Unzip it, rename the folder to `kinsta-docs`, and re-zip from the parent directory.
+As a plain skill, clone the repository to `~/.claude/skills/kinsta-docs` for all your projects, or to `.claude/skills/kinsta-docs` inside one repository. The directory name has to stay `kinsta-docs`, because it must match the `name` in `SKILL.md`.
 
 ## Dependencies
 
