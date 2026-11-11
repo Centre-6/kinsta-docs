@@ -19,9 +19,28 @@ claude plugin marketplace add Centre-6/kinsta-docs
 claude plugin install kinsta-docs@centre6-plugins
 ```
 
-**Claude Code, as a plain skill:** clone the repository to `~/.claude/skills/kinsta-docs` for all your projects, or to `.claude/skills/kinsta-docs` inside one repository.
+**Claude Code, as a plain skill:** clone the repository to `~/.claude/skills/kinsta-docs` for all your projects, or to `.claude/skills/kinsta-docs` inside one repository. The directory name has to stay `kinsta-docs`, because it must match the `name` in `SKILL.md`.
 
-**claude.ai:** Customize > Plugins > Add > Add marketplace, then give it this repository's URL. Requires code execution to be enabled in your settings.
+**claude.ai, from this repository:** Customize > Plugins > Add > Add marketplace, then give it this repository's URL. On older builds the menu is Customize > Skills. Code execution has to be enabled: Settings > Capabilities for an individual account, or Organization settings > Plugins & skills for Team and Enterprise.
+
+**claude.ai, from a ZIP:** Customize > Skills > + > Create skill > Upload a skill. Build the archive so the skill folder is its top level, because Claude looks for `kinsta-docs/SKILL.md` inside it:
+
+```
+zip -r kinsta-docs.zip kinsta-docs/
+unzip -l kinsta-docs.zip
+```
+
+Do not use GitHub's "Download ZIP" button for this. It names the top folder `kinsta-docs-main`, which no longer matches the skill name, and the upload will be rejected. Unzip it, rename the folder to `kinsta-docs`, and re-zip from the parent directory.
+
+## Dependencies
+
+The mirror itself is plain markdown and needs nothing. The sync and search scripts need three Python packages:
+
+```
+python3 -m pip install requests beautifulsoup4 markdownify
+```
+
+PyYAML is optional, used only when Kinsta serves its OpenAPI spec as YAML rather than JSON. Ripgrep is used for search when it is present on your PATH; without it the search falls back to a pure-Python scan that returns the same results more slowly. If your Python is managed by the operating system, install into a virtualenv instead.
 
 ## What it needs to work fully
 
