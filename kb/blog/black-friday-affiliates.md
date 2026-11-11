@@ -12,8 +12,11 @@ fetched_at: "2026-10-07T22:58:28Z"
 sha256: "9e546b8bf258f7e4f72a76af361e641f4b7c6c4ea8712689271d2b1ba7a7d7e8"
 body_chars: 5005
 extracted_with: "wp-rest:content.rendered"
-status: "live"
+status: "removed"
+removed_at: "2026-11-11T13:05:23Z"
 ---
+
+> **REMOVED FROM KINSTA'S DOCS** as of 2026-11-11T13:05:23Z (absent from sitemap). Kept as a record of what was published. Do not cite as current.
 
 # Kinsta’s Black Friday campaign is a win for affiliates
 

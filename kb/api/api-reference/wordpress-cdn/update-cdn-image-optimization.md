@@ -7,8 +7,8 @@ product_label: "Kinsta API Reference"
 subsection: "wordpress-cdn"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:50.342Z"
-fetched_at: "2026-10-07T22:58:45Z"
+change_signal: "2026-11-10T17:49:59.869Z"
+fetched_at: "2026-11-11T13:04:02Z"
 sha256: "ea81680982d835d53ebaf92ac4dfb543e309de5220c89c01b07761244f3b5341"
 body_chars: 8365
 extracted_with: "main"

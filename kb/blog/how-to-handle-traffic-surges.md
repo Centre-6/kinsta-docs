@@ -12,8 +12,11 @@ fetched_at: "2026-10-07T22:58:28Z"
 sha256: "b0c1637a25581bb98ca0130ded1e066e5e7412d6fcc1f8837bb2b0474e22beb7"
 body_chars: 11565
 extracted_with: "wp-rest:content.rendered"
-status: "live"
+status: "removed"
+removed_at: "2026-11-11T13:05:23Z"
 ---
+
+> **REMOVED FROM KINSTA'S DOCS** as of 2026-11-11T13:05:23Z (absent from sitemap). Kept as a record of what was published. Do not cite as current.
 
 # 3 ways to handle traffic surges without downgrading or upgrading plans
 

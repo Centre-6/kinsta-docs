@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Kinsta API",
-    "version": "1.111.0",
+    "version": "1.123.0",
     "description": "pages/introduction.md",
     "termsOfService": "https://kinsta.com/legal/terms-service/",
     "x-logo": {
@@ -39,6 +39,10 @@
     {
       "name": "Activity Logs",
       "description": "pages/activity-logs/description.md"
+    },
+    {
+      "name": "Invites",
+      "description": "pages/invites/description.md"
     },
     {
       "name": "WordPress Sites",
@@ -85,6 +89,10 @@
       "description": "pages/analytics/description.md"
     },
     {
+      "name": "WordPress Bot Protection",
+      "description": "pages/wordpress-bot-protection/description.md"
+    },
+    {
       "name": "Operations",
       "description": "pages/operations/description.md"
     },
@@ -101,7 +109,8 @@
         "Available Regions",
         "API Keys",
         "Activity Logs",
-        "WordPress Themes & Plugins"
+        "WordPress Themes & Plugins",
+        "Invites"
       ]
     },
     {
@@ -123,7 +132,8 @@
         "Additional SFTP Users",
         "Analytics",
         "Backups",
-        "Logs"
+        "Logs",
+        "WordPress Bot Protection"
       ]
     },
     {
@@ -370,6 +380,111 @@
         "required": [
           "message",
           "status"
+        ]
+      },
+      "CompanyUserByIdRequestParams": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          },
+          "id_user": {
+            "type": "string",
+            "example": "9c1e4d2a-1b3c-4f5a-8d6e-7f8a9b0c1d2e"
+          }
+        },
+        "required": [
+          "id",
+          "id_user"
+        ]
+      },
+      "CompanyUserByIdResponseSchema": {
+        "type": "object",
+        "properties": {
+          "company": {
+            "type": "object",
+            "properties": {
+              "user_by_id": {
+                "type": "object",
+                "properties": {
+                  "user": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "format": "uuid",
+                        "example": "9c1e4d2a-1b3c-4f5a-8d6e-7f8a9b0c1d2e"
+                      },
+                      "email": {
+                        "type": "string",
+                        "format": "email",
+                        "example": "example@example.com"
+                      },
+                      "full_name": {
+                        "type": "string",
+                        "example": "John Doe"
+                      },
+                      "type_2fa": {
+                        "type": [
+                          "string",
+                          "null"
+                        ],
+                        "example": "email"
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "email",
+                      "full_name",
+                      "type_2fa"
+                    ]
+                  },
+                  "capabilities": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "role": {
+                          "type": "string",
+                          "example": "company-developer"
+                        },
+                        "id_company": {
+                          "type": [
+                            "string",
+                            "null"
+                          ],
+                          "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+                        },
+                        "id_site": {
+                          "type": [
+                            "string",
+                            "null"
+                          ],
+                          "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+                        }
+                      },
+                      "required": [
+                        "role",
+                        "id_company",
+                        "id_site"
+                      ]
+                    }
+                  }
+                },
+                "required": [
+                  "user",
+                  "capabilities"
+                ]
+              }
+            },
+            "required": [
+              "user_by_id"
+            ]
+          }
+        },
+        "required": [
+          "company"
         ]
       },
       "CompanyApiKeysResponseSchema": {
@@ -882,6 +997,10 @@
           "status": {
             "type": "number",
             "example": 202
+          },
+          "support_reference_id": {
+            "type": "number",
+            "example": 123456
           }
         },
         "required": [
@@ -929,6 +1048,10 @@
           "status": {
             "type": "number",
             "example": 202
+          },
+          "support_reference_id": {
+            "type": "number",
+            "example": 123456
           }
         },
         "required": [
@@ -993,11 +1116,15 @@
           },
           "woocommerce": {
             "type": "boolean",
-            "example": false
+            "description": "Deprecated: this field is no longer recommended and will be removed in a future release. Do not use it for new integrations.",
+            "example": false,
+            "deprecated": true
           },
           "wordpressseo": {
             "type": "boolean",
-            "example": false
+            "description": "Deprecated: this field is no longer recommended and will be removed in a future release. Do not use it for new integrations.",
+            "example": false,
+            "deprecated": true
           },
           "wp_language": {
             "type": "string",
@@ -1034,6 +1161,14 @@
           "status": {
             "type": "number",
             "example": 202
+          },
+          "support_reference_id": {
+            "type": "number",
+            "example": 123456
+          },
+          "warning": {
+            "type": "string",
+            "example": "Deprecated fields used: woocommerce, wordpressseo. These fields will be removed in a future release."
           }
         },
         "required": [
@@ -1457,6 +1592,10 @@
           "status": {
             "type": "number",
             "example": 202
+          },
+          "support_reference_id": {
+            "type": "number",
+            "example": 123456
           }
         },
         "required": [
@@ -1602,6 +1741,10 @@
           "status": {
             "type": "number",
             "example": 202
+          },
+          "support_reference_id": {
+            "type": "number",
+            "example": 123456
           }
         },
         "required": [
@@ -1646,6 +1789,10 @@
           "status": {
             "type": "number",
             "example": 202
+          },
+          "support_reference_id": {
+            "type": "number",
+            "example": 123456
           }
         },
         "required": [
@@ -1762,6 +1909,10 @@
           "status": {
             "type": "number",
             "example": 202
+          },
+          "support_reference_id": {
+            "type": "number",
+            "example": 123456
           }
         },
         "required": [
@@ -1806,6 +1957,10 @@
           "status": {
             "type": "number",
             "example": 202
+          },
+          "support_reference_id": {
+            "type": "number",
+            "example": 123456
           }
         },
         "required": [
@@ -1873,6 +2028,10 @@
           "status": {
             "type": "number",
             "example": 202
+          },
+          "support_reference_id": {
+            "type": "number",
+            "example": 123456
           }
         },
         "required": [
@@ -2105,6 +2264,10 @@
           "status": {
             "type": "number",
             "example": 202
+          },
+          "support_reference_id": {
+            "type": "number",
+            "example": 123456
           }
         },
         "required": [
@@ -2183,15 +2346,21 @@
           },
           "woocommerce": {
             "type": "boolean",
-            "example": false
+            "description": "Deprecated: this field is no longer recommended and will be removed in a future release. Do not use it for new integrations.",
+            "example": false,
+            "deprecated": true
           },
           "wordpress_plugin_edd": {
             "type": "boolean",
-            "example": false
+            "description": "Deprecated: this field is no longer recommended and will be removed in a future release. Do not use it for new integrations.",
+            "example": false,
+            "deprecated": true
           },
           "wordpressseo": {
             "type": "boolean",
-            "example": false
+            "description": "Deprecated: this field is no longer recommended and will be removed in a future release. Do not use it for new integrations.",
+            "example": false,
+            "deprecated": true
           },
           "wp_language": {
             "type": "string",
@@ -2226,6 +2395,14 @@
           "status": {
             "type": "number",
             "example": 202
+          },
+          "support_reference_id": {
+            "type": "number",
+            "example": 123456
+          },
+          "warning": {
+            "type": "string",
+            "example": "Deprecated fields used: woocommerce, wordpressseo, wordpress_plugin_edd. These fields will be removed in a future release."
           }
         },
         "required": [
@@ -2271,6 +2448,10 @@
           "status": {
             "type": "number",
             "example": 202
+          },
+          "support_reference_id": {
+            "type": "number",
+            "example": 123456
           }
         },
         "required": [
@@ -2309,6 +2490,10 @@
           "status": {
             "type": "number",
             "example": 202
+          },
+          "support_reference_id": {
+            "type": "number",
+            "example": 123456
           }
         },
         "required": [
@@ -2342,6 +2527,10 @@
           "status": {
             "type": "number",
             "example": 202
+          },
+          "support_reference_id": {
+            "type": "number",
+            "example": 123456
           }
         },
         "required": [
@@ -2419,6 +2608,10 @@
           "status": {
             "type": "number",
             "example": 202
+          },
+          "support_reference_id": {
+            "type": "number",
+            "example": 123456
           }
         },
         "required": [
@@ -2716,6 +2909,10 @@
             "type": "string",
             "example": "Operation in progress"
           },
+          "support_reference_id": {
+            "type": "number",
+            "example": 12345
+          },
           "data": {}
         },
         "required": [
@@ -2798,6 +2995,10 @@
           "status": {
             "type": "number",
             "example": 202
+          },
+          "support_reference_id": {
+            "type": "number",
+            "example": 123456
           }
         },
         "required": [
@@ -3258,6 +3459,10 @@
           "status": {
             "type": "number",
             "example": 202
+          },
+          "support_reference_id": {
+            "type": "number",
+            "example": 123456
           }
         },
         "required": [
@@ -3302,6 +3507,10 @@
           "status": {
             "type": "number",
             "example": 202
+          },
+          "support_reference_id": {
+            "type": "number",
+            "example": 123456
           }
         },
         "required": [
@@ -3335,6 +3544,10 @@
           "status": {
             "type": "number",
             "example": 202
+          },
+          "support_reference_id": {
+            "type": "number",
+            "example": 123456
           }
         },
         "required": [
@@ -6642,6 +6855,115 @@
           "status"
         ]
       },
+      "SetBotProtectionLevel-Params": {
+        "type": "object",
+        "properties": {
+          "env_id": {
+            "type": "string",
+            "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          }
+        },
+        "required": [
+          "env_id"
+        ]
+      },
+      "SetBotProtectionLevel-Body": {
+        "type": "object",
+        "properties": {
+          "level": {
+            "type": "string",
+            "enum": [
+              "block-malicious-traffic",
+              "block-automations",
+              "challenge-bots",
+              "challenge-everyone"
+            ],
+            "description": "The bot protection tier to apply to the environment:\n- `block-malicious-traffic`\n  - What it does: Provides essential protection against malicious traffic.\n  - Recommended for: Always-on protection from Kinsta.\n- `block-automations`\n  - What it does: Blocks automated traffic while allowing humans and verified bots.\n  - Recommended for: Most sites.\n- `challenge-bots`\n  - What it does: Challenges suspicious automated requests while allowing legitimate traffic.\n  - Recommended for: Sites seeing increased scraping, spam, or suspicious traffic.\n- `challenge-everyone`\n  - What it does: All unverified traffic is challenged, including humans.\n  - Recommended for: Sites under active attack or dealing with sustained abuse.",
+            "example": "block-automations"
+          }
+        },
+        "required": [
+          "level"
+        ]
+      },
+      "SetBotProtectionLevel-Response": {
+        "type": "object",
+        "properties": {
+          "operation_id": {
+            "type": "string",
+            "example": "environment:set-bot-protection-level-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          },
+          "message": {
+            "type": "string",
+            "example": "Setting a bot protection level in progress. Use the operation_id to check the status."
+          },
+          "status": {
+            "type": "number",
+            "example": 202
+          }
+        },
+        "required": [
+          "message",
+          "status"
+        ]
+      },
+      "GetBotProtectionLevel-Params": {
+        "type": "object",
+        "properties": {
+          "env_id": {
+            "type": "string",
+            "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          }
+        },
+        "required": [
+          "env_id"
+        ]
+      },
+      "BotProtectionLevelSchema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          },
+          "level": {
+            "type": "string",
+            "enum": [
+              "block-malicious-traffic",
+              "block-automations",
+              "challenge-bots",
+              "challenge-everyone"
+            ],
+            "description": "The bot protection tier applied to the environment:\n- `block-malicious-traffic`\n  - What it does: Provides essential protection against malicious traffic.\n  - Recommended for: Always-on protection from Kinsta.\n- `block-automations`\n  - What it does: Blocks automated traffic while allowing humans and verified bots.\n  - Recommended for: Most sites.\n- `challenge-bots`\n  - What it does: Challenges suspicious automated requests while allowing legitimate traffic.\n  - Recommended for: Sites seeing increased scraping, spam, or suspicious traffic.\n- `challenge-everyone`\n  - What it does: All unverified traffic is challenged, including humans.\n  - Recommended for: Sites under active attack or dealing with sustained abuse.",
+            "example": "block-automations"
+          }
+        },
+        "required": [
+          "id",
+          "level"
+        ]
+      },
+      "GetBotProtectionLevel-Response": {
+        "type": "object",
+        "properties": {
+          "bot_protection": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/BotProtectionLevelSchema"
+              },
+              {
+                "type": [
+                  "object",
+                  "null"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "bot_protection"
+        ]
+      },
       "searchAndReplace-Body": {
         "type": "object",
         "properties": {
@@ -6696,6 +7018,1165 @@
         },
         "required": [
           "operation_id",
+          "message",
+          "status"
+        ]
+      },
+      "SetCompanyCapabilityOfUserParamsSchema": {
+        "type": "object",
+        "properties": {
+          "company_id": {
+            "type": "string",
+            "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          }
+        },
+        "required": [
+          "company_id"
+        ]
+      },
+      "SetCompanyCapabilityOfUserBodySchema": {
+        "type": "object",
+        "properties": {
+          "user_id": {
+            "type": "string",
+            "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "company-admin",
+              "company-developer",
+              "company-billing"
+            ],
+            "example": "company-admin"
+          }
+        },
+        "required": [
+          "user_id",
+          "role"
+        ]
+      },
+      "SetCompanyCapabilityOfUserResponseSchema": {
+        "type": "object",
+        "properties": {
+          "operation_id": {
+            "type": "string",
+            "example": "company:set-company-user-capabilities-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          },
+          "message": {
+            "type": "string",
+            "example": "User capabilities updated for the company"
+          },
+          "status": {
+            "type": "number",
+            "example": 202
+          }
+        },
+        "required": [
+          "message",
+          "status"
+        ]
+      },
+      "SetSiteCapabilityOfUsersParamsSchema": {
+        "type": "object",
+        "properties": {
+          "company_id": {
+            "type": "string",
+            "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          }
+        },
+        "required": [
+          "company_id"
+        ]
+      },
+      "SetSiteCapabilityOfUsersBodySchema": {
+        "type": "object",
+        "properties": {
+          "user_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            }
+          },
+          "site_capabilities": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "site_id": {
+                  "type": "string",
+                  "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+                },
+                "role": {
+                  "type": "string",
+                  "enum": [
+                    "site-admin",
+                    "site-developer"
+                  ],
+                  "example": "site-admin"
+                }
+              },
+              "required": [
+                "site_id",
+                "role"
+              ]
+            }
+          }
+        },
+        "required": [
+          "user_ids",
+          "site_capabilities"
+        ]
+      },
+      "SetSiteCapabilityOfUsersResponseSchema": {
+        "type": "object",
+        "properties": {
+          "operation_id": {
+            "type": "string",
+            "example": "company:set-site-user-capabilities-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          },
+          "message": {
+            "type": "string",
+            "example": "Users capabilities updated for the site"
+          },
+          "status": {
+            "type": "number",
+            "example": 202
+          }
+        },
+        "required": [
+          "message",
+          "status"
+        ]
+      },
+      "SetBlockAiCrawlersParams": {
+        "type": "object",
+        "properties": {
+          "env_id": {
+            "type": "string",
+            "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          }
+        },
+        "required": [
+          "env_id"
+        ]
+      },
+      "SetBlockAiCrawlersRequestBody": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "enabled",
+              "disabled"
+            ],
+            "example": "enabled"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "SetBlockAiCrawlersResponse": {
+        "type": "object",
+        "properties": {
+          "operation_id": {
+            "type": "string",
+            "example": "bot-protection:block-ai-crawlers-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          },
+          "message": {
+            "type": "string",
+            "example": "Updating AI crawler block status in progress"
+          },
+          "status": {
+            "type": "number",
+            "example": 202
+          }
+        },
+        "required": [
+          "operation_id",
+          "message",
+          "status"
+        ]
+      },
+      "GetBlockAiCrawlersParams": {
+        "type": "object",
+        "properties": {
+          "env_id": {
+            "type": "string",
+            "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          }
+        },
+        "required": [
+          "env_id"
+        ]
+      },
+      "BlockAiCrawlersStatusSchema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          },
+          "ai_crawlers_blocking": {
+            "type": "string",
+            "enum": [
+              "enabled",
+              "disabled"
+            ],
+            "example": "enabled"
+          }
+        },
+        "required": [
+          "id",
+          "ai_crawlers_blocking"
+        ]
+      },
+      "GetBlockAiCrawlersResponse": {
+        "type": "object",
+        "properties": {
+          "bot_protection": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/BlockAiCrawlersStatusSchema"
+              },
+              {
+                "type": [
+                  "object",
+                  "null"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "bot_protection"
+        ]
+      },
+      "GetAllowWpAutomationsStatusParams": {
+        "type": "object",
+        "properties": {
+          "env_id": {
+            "type": "string",
+            "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          }
+        },
+        "required": [
+          "env_id"
+        ]
+      },
+      "AllowWpAutomationsStatusSchema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          },
+          "wp_automations": {
+            "type": "string",
+            "enum": [
+              "enabled",
+              "disabled"
+            ],
+            "example": "enabled"
+          }
+        },
+        "required": [
+          "id",
+          "wp_automations"
+        ]
+      },
+      "GetAllowWpAutomationsStatusResponse": {
+        "type": "object",
+        "properties": {
+          "bot_protection": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/AllowWpAutomationsStatusSchema"
+              },
+              {
+                "type": [
+                  "object",
+                  "null"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "bot_protection"
+        ]
+      },
+      "SetAllowWpAutomationsStatusParams": {
+        "type": "object",
+        "properties": {
+          "env_id": {
+            "type": "string",
+            "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          }
+        },
+        "required": [
+          "env_id"
+        ]
+      },
+      "SetAllowWpAutomationsStatusRequestBody": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "enabled",
+              "disabled"
+            ],
+            "example": "enabled"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "SetAllowWpAutomationsStatusResponse": {
+        "type": "object",
+        "properties": {
+          "operation_id": {
+            "type": "string",
+            "example": "bot-protection:allow-wp-automations-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          },
+          "message": {
+            "type": "string",
+            "example": "Updating WP automations allow status in progress"
+          },
+          "status": {
+            "type": "number",
+            "example": 202
+          }
+        },
+        "required": [
+          "operation_id",
+          "message",
+          "status"
+        ]
+      },
+      "AddBotProtectionExceptionRule-Params": {
+        "type": "object",
+        "properties": {
+          "env_id": {
+            "type": "string",
+            "format": "uuid",
+            "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          }
+        },
+        "required": [
+          "env_id"
+        ]
+      },
+      "AddBotProtectionExceptionRule-Body": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "ip",
+              "path",
+              "user_agent",
+              "country"
+            ],
+            "description": "The attribute the exception rule matches on.",
+            "example": "ip"
+          },
+          "action": {
+            "type": "string",
+            "enum": [
+              "skip",
+              "challenge",
+              "block"
+            ],
+            "description": "The action to apply to traffic matching the rule.",
+            "example": "skip"
+          },
+          "value": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The value to match against, based on the selected type.",
+            "example": "192.0.2.1"
+          }
+        },
+        "required": [
+          "type",
+          "action",
+          "value"
+        ]
+      },
+      "AddBotProtectionExceptionRule-Response": {
+        "type": "object",
+        "properties": {
+          "operation_id": {
+            "type": "string",
+            "example": "environment:add-bot-protection-exception-rule-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          },
+          "message": {
+            "type": "string",
+            "example": "Adding a bot protection exception rule in progress. Use the operation_id to check the status."
+          },
+          "status": {
+            "type": "number",
+            "example": 202
+          }
+        },
+        "required": [
+          "message",
+          "status"
+        ]
+      },
+      "GetBotProtectionExceptionRules-Params": {
+        "type": "object",
+        "properties": {
+          "env_id": {
+            "type": "string",
+            "format": "uuid",
+            "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          }
+        },
+        "required": [
+          "env_id"
+        ]
+      },
+      "BotProtectionExceptionRuleSchema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "example": "ip:skip:192.0.2.1"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "ip",
+              "path",
+              "user_agent",
+              "country"
+            ],
+            "example": "ip"
+          },
+          "action": {
+            "type": "string",
+            "enum": [
+              "skip",
+              "challenge",
+              "block"
+            ],
+            "example": "skip"
+          },
+          "value": {
+            "type": "string",
+            "example": "192.0.2.1"
+          }
+        },
+        "required": [
+          "id",
+          "type",
+          "action",
+          "value"
+        ]
+      },
+      "BotProtectionExceptionRulesSchema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          },
+          "exception_rules": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BotProtectionExceptionRuleSchema"
+            }
+          },
+          "has_custom_waf_rules": {
+            "type": "boolean",
+            "example": false
+          }
+        },
+        "required": [
+          "id",
+          "exception_rules",
+          "has_custom_waf_rules"
+        ]
+      },
+      "GetBotProtectionExceptionRules-Response": {
+        "type": "object",
+        "properties": {
+          "bot_protection": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/BotProtectionExceptionRulesSchema"
+              },
+              {
+                "type": [
+                  "object",
+                  "null"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "bot_protection"
+        ]
+      },
+      "RemoveBotProtectionExceptionRule-Params": {
+        "type": "object",
+        "properties": {
+          "env_id": {
+            "type": "string",
+            "format": "uuid",
+            "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          }
+        },
+        "required": [
+          "env_id"
+        ]
+      },
+      "RemoveBotProtectionExceptionRule-Body": {
+        "type": "object",
+        "properties": {
+          "exception_rule_id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The `id` of the exception rule, as returned when listing the exception rules.",
+            "example": "ip:skip:192.0.2.1"
+          }
+        },
+        "required": [
+          "exception_rule_id"
+        ]
+      },
+      "RemoveBotProtectionExceptionRule-Response": {
+        "type": "object",
+        "properties": {
+          "operation_id": {
+            "type": "string",
+            "example": "environment:remove-bot-protection-exception-rule-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          },
+          "message": {
+            "type": "string",
+            "example": "Removing a bot protection exception rule in progress. Use the operation_id to check the status."
+          },
+          "status": {
+            "type": "number",
+            "example": 202
+          }
+        },
+        "required": [
+          "message",
+          "status"
+        ]
+      },
+      "BotTrafficFlow-Response": {
+        "type": "object",
+        "properties": {
+          "analytics": {
+            "type": "object",
+            "properties": {
+              "traffic_flow": {
+                "type": "object",
+                "properties": {
+                  "traffic_types": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "traffic_type": {
+                          "type": "string",
+                          "description": "The traffic type: `likely_humans`, `verified_bots`, `likely_bots`, `ai_crawlers`, `excessive_crawlers`, `unclassified`, `automated`, `malicious`, `custom_rules`, `wp_automations`.",
+                          "example": "likely_humans"
+                        },
+                        "label": {
+                          "type": "string",
+                          "description": "Human-readable name, as shown in MyKinsta.",
+                          "example": "Likely humans"
+                        },
+                        "total": {
+                          "type": "number",
+                          "example": 6000
+                        }
+                      },
+                      "required": [
+                        "traffic_type",
+                        "label",
+                        "total"
+                      ]
+                    }
+                  },
+                  "results": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "result": {
+                          "type": "string",
+                          "description": "The protection result: `blocked`, `challenged`, `allowed`.",
+                          "example": "blocked"
+                        },
+                        "label": {
+                          "type": "string",
+                          "description": "Human-readable name, as shown in MyKinsta.",
+                          "example": "Blocked"
+                        },
+                        "total": {
+                          "type": "number",
+                          "example": 300
+                        }
+                      },
+                      "required": [
+                        "result",
+                        "label",
+                        "total"
+                      ]
+                    }
+                  },
+                  "flows": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "number"
+                      }
+                    },
+                    "description": "Requests per traffic type (key) and protection result (nested key).",
+                    "example": {
+                      "likely_bots": {
+                        "allowed": 92848,
+                        "challenged": 36720
+                      },
+                      "likely_humans": {
+                        "allowed": 5100,
+                        "challenged": 600,
+                        "blocked": 300
+                      }
+                    }
+                  }
+                },
+                "required": [
+                  "traffic_types",
+                  "results",
+                  "flows"
+                ]
+              }
+            },
+            "required": [
+              "traffic_flow"
+            ]
+          }
+        },
+        "required": [
+          "analytics"
+        ]
+      },
+      "BotTrafficRequests-Response": {
+        "type": "object",
+        "properties": {
+          "analytics": {
+            "type": "object",
+            "properties": {
+              "requests_over_time": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "traffic_type": {
+                      "type": "string",
+                      "description": "The traffic type: `likely_humans`, `verified_bots`, `likely_bots`, `ai_crawlers`, `excessive_crawlers`, `unclassified`, `automated`, `malicious`, `custom_rules`, `wp_automations`.",
+                      "example": "likely_humans"
+                    },
+                    "label": {
+                      "type": "string",
+                      "description": "Human-readable name, as shown in MyKinsta.",
+                      "example": "Likely humans"
+                    },
+                    "total": {
+                      "type": "number",
+                      "example": 10572
+                    },
+                    "timeline": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "date": {
+                            "type": "string",
+                            "description": "Start of the bucket in ISO 8601 (UTC). Buckets are hourly for `24_hours` and daily otherwise.",
+                            "example": "2026-09-14 00:00:00+00:00"
+                          },
+                          "requests": {
+                            "type": "number",
+                            "example": 5286
+                          }
+                        },
+                        "required": [
+                          "date",
+                          "requests"
+                        ]
+                      }
+                    }
+                  },
+                  "required": [
+                    "traffic_type",
+                    "label",
+                    "total",
+                    "timeline"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "requests_over_time"
+            ]
+          }
+        },
+        "required": [
+          "analytics"
+        ]
+      },
+      "BotProtectionResults-Response": {
+        "type": "object",
+        "properties": {
+          "analytics": {
+            "type": "object",
+            "properties": {
+              "protection_results_over_time": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "result": {
+                      "type": "string",
+                      "description": "The protection result: `blocked`, `challenged`, `allowed`.",
+                      "example": "blocked"
+                    },
+                    "label": {
+                      "type": "string",
+                      "description": "Human-readable name, as shown in MyKinsta.",
+                      "example": "Blocked"
+                    },
+                    "total": {
+                      "type": "number",
+                      "example": 10572
+                    },
+                    "timeline": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "date": {
+                            "type": "string",
+                            "description": "Start of the bucket in ISO 8601 (UTC). Buckets are hourly for `24_hours` and daily otherwise.",
+                            "example": "2026-09-14 00:00:00+00:00"
+                          },
+                          "requests": {
+                            "type": "number",
+                            "example": 5286
+                          }
+                        },
+                        "required": [
+                          "date",
+                          "requests"
+                        ]
+                      }
+                    }
+                  },
+                  "required": [
+                    "result",
+                    "label",
+                    "total",
+                    "timeline"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "protection_results_over_time"
+            ]
+          }
+        },
+        "required": [
+          "analytics"
+        ]
+      },
+      "BotTopBreakdown-Response": {
+        "type": "object",
+        "properties": {
+          "analytics": {
+            "type": "object",
+            "properties": {
+              "top_requests_breakdown": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "traffic_type": {
+                      "type": "string",
+                      "description": "The traffic type: `likely_humans`, `verified_bots`, `likely_bots`, `ai_crawlers`, `excessive_crawlers`, `unclassified`, `automated`, `malicious`, `custom_rules`, `wp_automations`.",
+                      "example": "likely_humans"
+                    },
+                    "label": {
+                      "type": "string",
+                      "description": "Human-readable name, as shown in MyKinsta.",
+                      "example": "Likely humans"
+                    },
+                    "total": {
+                      "type": "number",
+                      "description": "All requests of this traffic type.",
+                      "example": 160175
+                    },
+                    "breakdowns": {
+                      "type": "object",
+                      "properties": {
+                        "top_paths": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "value": {
+                                "type": "string",
+                                "example": "/wp-login.php"
+                              },
+                              "requests": {
+                                "type": "number",
+                                "example": 6079
+                              }
+                            },
+                            "required": [
+                              "value",
+                              "requests"
+                            ]
+                          },
+                          "description": "Up to 10 values with the most requests."
+                        },
+                        "top_user_agents": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "value": {
+                                "type": "string",
+                                "example": "Mozilla/5.0"
+                              },
+                              "requests": {
+                                "type": "number",
+                                "example": 6079
+                              }
+                            },
+                            "required": [
+                              "value",
+                              "requests"
+                            ]
+                          },
+                          "description": "Up to 10 values with the most requests."
+                        },
+                        "top_countries": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "value": {
+                                "type": "string",
+                                "example": "US"
+                              },
+                              "requests": {
+                                "type": "number",
+                                "example": 6079
+                              }
+                            },
+                            "required": [
+                              "value",
+                              "requests"
+                            ]
+                          },
+                          "description": "Up to 10 values with the most requests."
+                        },
+                        "top_ips": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "value": {
+                                "type": "string",
+                                "example": "192.0.2.1"
+                              },
+                              "requests": {
+                                "type": "number",
+                                "example": 6079
+                              }
+                            },
+                            "required": [
+                              "value",
+                              "requests"
+                            ]
+                          },
+                          "description": "Up to 10 values with the most requests."
+                        }
+                      },
+                      "required": [
+                        "top_paths",
+                        "top_user_agents",
+                        "top_countries",
+                        "top_ips"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "traffic_type",
+                    "label",
+                    "total",
+                    "breakdowns"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "top_requests_breakdown"
+            ]
+          }
+        },
+        "required": [
+          "analytics"
+        ]
+      },
+      "InviteUsersToCompanyParamsSchema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          }
+        },
+        "required": [
+          "id"
+        ]
+      },
+      "InviteUsersToCompanyBodySchema": {
+        "type": "object",
+        "properties": {
+          "emails": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "email"
+            },
+            "example": [
+              "example@example.com"
+            ]
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "company-admin",
+              "company-developer",
+              "company-billing"
+            ],
+            "example": "company-admin"
+          }
+        },
+        "required": [
+          "emails",
+          "role"
+        ]
+      },
+      "InviteUsersToCompanyResponseSchema": {
+        "type": "object",
+        "properties": {
+          "operation_id": {
+            "type": "string",
+            "example": "company:invite-users-to-company-c3d4e5f6-a7b8-4c9d-8e1f-2a3b4c5d6e7f"
+          },
+          "message": {
+            "type": "string",
+            "example": "Inviting users to company in progress"
+          },
+          "status": {
+            "type": "number",
+            "example": 202
+          }
+        },
+        "required": [
+          "message",
+          "status"
+        ]
+      },
+      "GetPendingInvitesParamsSchema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          }
+        },
+        "required": [
+          "id"
+        ]
+      },
+      "GetPendingInvitesResponseSchema": {
+        "type": "object",
+        "properties": {
+          "company": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+              },
+              "pending_invitations": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "example": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
+                    },
+                    "email": {
+                      "type": "string",
+                      "format": "email",
+                      "example": "example@example.com"
+                    },
+                    "status": {
+                      "type": "string",
+                      "example": "pending"
+                    },
+                    "capabilities": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "company_id": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "site_id": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "role": {
+                            "type": "string"
+                          },
+                          "type": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "company_id",
+                          "site_id",
+                          "role",
+                          "type"
+                        ]
+                      },
+                      "example": [
+                        {
+                          "company_id": "54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+                          "site_id": null,
+                          "role": "company-admin",
+                          "type": "company"
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "email",
+                    "status",
+                    "capabilities"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "id",
+              "pending_invitations"
+            ]
+          }
+        },
+        "required": [
+          "company"
+        ]
+      },
+      "InviteUsersToSitesParamsSchema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+          }
+        },
+        "required": [
+          "id"
+        ]
+      },
+      "InviteUsersToSitesBodySchema": {
+        "type": "object",
+        "properties": {
+          "emails": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "email"
+            },
+            "example": [
+              "example@example.com"
+            ]
+          },
+          "site_capabilities": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "site_id": {
+                  "type": "string",
+                  "example": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+                },
+                "role": {
+                  "type": "string",
+                  "enum": [
+                    "site-admin",
+                    "site-developer"
+                  ],
+                  "example": "site-admin"
+                }
+              },
+              "required": [
+                "site_id",
+                "role"
+              ]
+            }
+          }
+        },
+        "required": [
+          "emails",
+          "site_capabilities"
+        ]
+      },
+      "InviteUsersToSitesResponseSchema": {
+        "type": "object",
+        "properties": {
+          "operation_id": {
+            "type": "string",
+            "example": "company:invite-users-to-sites-d4e5f6a7-b8c9-4d0e-9f2a-3b4c5d6e7f80"
+          },
+          "message": {
+            "type": "string",
+            "example": "Inviting users to sites in progress"
+          },
+          "status": {
+            "type": "number",
+            "example": 202
+          }
+        },
+        "required": [
           "message",
           "status"
         ]
@@ -6760,6 +8241,82 @@
           },
           "500": {
             "description": "Error occurred while retrieving company users",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema500"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/company/{id}/users/{id_user}": {
+      "get": {
+        "operationId": "getCompanyUserById",
+        "summary": "Get a company user by ID",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "tags": [
+          "Company Users"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "id",
+            "in": "path"
+          },
+          {
+            "schema": {
+              "type": "string",
+              "example": "9c1e4d2a-1b3c-4f5a-8d6e-7f8a9b0c1d2e"
+            },
+            "required": true,
+            "name": "id_user",
+            "in": "path"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The requested company user",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CompanyUserByIdResponseSchema"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "No or invalid API key provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema401"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Could not find the company or the user does not have permissions to retrieve data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema404"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error occurred while retrieving the company user",
             "content": {
               "application/json": {
                 "schema": {
@@ -8979,6 +10536,7 @@
                     "properties": {
                       "display_name": {
                         "type": "string",
+                        "maxLength": 12,
                         "example": "development"
                       },
                       "is_premium": {
@@ -9024,6 +10582,10 @@
                         "status": {
                           "type": "number",
                           "example": 202
+                        },
+                        "support_reference_id": {
+                          "type": "number",
+                          "example": 123456
                         }
                       }
                     }
@@ -10910,44 +12472,37 @@
                               "type": [
                                 "string",
                                 "null"
-                              ],
-                              "example": "kinsta.com"
+                              ]
                             },
                             "from": {
-                              "type": "string",
-                              "example": "/redirect/from"
+                              "type": "string"
                             },
                             "to": {
-                              "type": "string",
-                              "example": "/redirect/to"
+                              "type": "string"
                             },
                             "traffic_from_city": {
                               "type": [
                                 "string",
                                 "null"
-                              ],
-                              "example": "Nashville"
+                              ]
                             },
                             "traffic_from_country": {
                               "type": [
                                 "string",
                                 "null"
-                              ],
-                              "example": "US"
+                              ]
                             },
                             "traffic_from_country_name": {
                               "type": [
                                 "string",
                                 "null"
-                              ],
-                              "example": "United States"
+                              ]
                             },
                             "displayed_location": {
                               "type": [
                                 "string",
                                 "null"
-                              ],
-                              "example": "Nashvile, United States"
+                              ]
                             },
                             "type": {
                               "type": "string",
@@ -10962,7 +12517,17 @@
                             "from",
                             "to",
                             "type"
-                          ]
+                          ],
+                          "example": {
+                            "domain": "kinsta.com",
+                            "from": "/redirect/from",
+                            "to": "/redirect/to",
+                            "traffic_from_city": "Nashville",
+                            "traffic_from_country": "US",
+                            "traffic_from_country_name": "United States",
+                            "displayed_location": "Nashville, United States",
+                            "type": "redirect"
+                          }
                         }
                       },
                       "new_value": {
@@ -10972,44 +12537,37 @@
                             "type": [
                               "string",
                               "null"
-                            ],
-                            "example": "kinsta.com"
+                            ]
                           },
                           "from": {
-                            "type": "string",
-                            "example": "/redirect/from"
+                            "type": "string"
                           },
                           "to": {
-                            "type": "string",
-                            "example": "/redirect/to"
+                            "type": "string"
                           },
                           "traffic_from_city": {
                             "type": [
                               "string",
                               "null"
-                            ],
-                            "example": "Nashville"
+                            ]
                           },
                           "traffic_from_country": {
                             "type": [
                               "string",
                               "null"
-                            ],
-                            "example": "US"
+                            ]
                           },
                           "traffic_from_country_name": {
                             "type": [
                               "string",
                               "null"
-                            ],
-                            "example": "United States"
+                            ]
                           },
                           "displayed_location": {
                             "type": [
                               "string",
                               "null"
-                            ],
-                            "example": "Nashvile, United States"
+                            ]
                           },
                           "type": {
                             "type": "string",
@@ -11024,7 +12582,17 @@
                           "from",
                           "to",
                           "type"
-                        ]
+                        ],
+                        "example": {
+                          "domain": "kinsta.com",
+                          "from": "/redirect/from",
+                          "to": "/redirect/to",
+                          "traffic_from_city": "Nashville",
+                          "traffic_from_country": "US",
+                          "traffic_from_country_name": "United States",
+                          "displayed_location": "Nashville, United States",
+                          "type": "redirect"
+                        }
                       },
                       "action_type": {
                         "type": "string",
@@ -11033,7 +12601,8 @@
                           "DELETE_ALL",
                           "NEW",
                           "UPDATE"
-                        ]
+                        ],
+                        "example": "UPDATE"
                       }
                     },
                     "required": [
@@ -14937,6 +16506,148 @@
         }
       }
     },
+    "/sites/environments/{env_id}/bot-protection/level": {
+      "put": {
+        "operationId": "setBotProtectionLevel",
+        "summary": "Set the bot protection level of an environment",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "tags": [
+          "WordPress Bot Protection"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "env_id",
+            "in": "path"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetBotProtectionLevel-Body"
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Setting the bot protection level started. Use the operation_id to check the status.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SetBotProtectionLevel-Response"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "One or more of the required parameters were not provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema400"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "No or invalid API key provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema401"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error occurred while updating the bot protection level",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema500"
+                }
+              }
+            }
+          }
+        }
+      },
+      "get": {
+        "operationId": "getBotProtectionLevel",
+        "summary": "Get the bot protection level of an environment",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "tags": [
+          "WordPress Bot Protection"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "env_id",
+            "in": "path"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The bot protection settings of the environment",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetBotProtectionLevel-Response"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "No or invalid API key provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema401"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Could not find the environment or the user does not have permissions to retrieve data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema404"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error occurred while retrieving the bot protection level",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema500"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/sites/tools/search-and-replace": {
       "post": {
         "operationId": "searchAndReplace",
@@ -14992,6 +16703,1377 @@
           },
           "500": {
             "description": "Error occurred while performing search and replace",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema500"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/company/{company_id}/users/company-capabilities": {
+      "post": {
+        "operationId": "setCompanyCapabilityOfUser",
+        "summary": "Edit user capabilities for the company",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "tags": [
+          "Company Users"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "company_id",
+            "in": "path"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetCompanyCapabilityOfUserBodySchema"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "User capabilities updated for the company",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SetCompanyCapabilityOfUserResponseSchema"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "No or invalid API key provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema401"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Could not find the company or the user does not have permissions to retrieve data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema404"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error occurred while updating user capabilities for the company",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema500"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/company/{company_id}/users/site-capabilities": {
+      "post": {
+        "operationId": "setSiteCapabilityOfUsers",
+        "summary": "Edit users capabilities for the site",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "tags": [
+          "Company Users"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "company_id",
+            "in": "path"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetSiteCapabilityOfUsersBodySchema"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Users capabilities updated for the site",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SetSiteCapabilityOfUsersResponseSchema"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "No or invalid API key provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema401"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Could not find the company or the user does not have permissions to retrieve data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema404"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error occurred while updating users capabilities for the site",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema500"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sites/environments/{env_id}/bot-protection/ai-crawlers": {
+      "put": {
+        "operationId": "setBlockAiCrawlers",
+        "summary": "Block or unblock AI crawlers for an environment",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "tags": [
+          "WordPress Bot Protection"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "env_id",
+            "in": "path"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetBlockAiCrawlersRequestBody"
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Updating AI crawler block status in progress. Check the operation status for the final result.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SetBlockAiCrawlersResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "No or invalid API key provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema401"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error occurred while trying to update AI crawler block status",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema500"
+                }
+              }
+            }
+          }
+        }
+      },
+      "get": {
+        "operationId": "getBlockAiCrawlers",
+        "summary": "Get the AI crawler block status of an environment",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "tags": [
+          "WordPress Bot Protection"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "env_id",
+            "in": "path"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The AI crawler block status of the environment",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetBlockAiCrawlersResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "No or invalid API key provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema401"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Could not find the environment or the user does not have permissions to retrieve data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema404"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error occurred while retrieving the AI crawler block status",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema500"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sites/environments/{env_id}/bot-protection/wp-automations": {
+      "get": {
+        "operationId": "getAllowWpAutomationsStatus",
+        "summary": "Get the WP automations allow status of an environment",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "tags": [
+          "WordPress Bot Protection"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "env_id",
+            "in": "path"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The WP automations allow status of the environment",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetAllowWpAutomationsStatusResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "No or invalid API key provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema401"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Could not find the environment or the user does not have permissions to retrieve data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema404"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error occurred while retrieving the WP automations allow status",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema500"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "operationId": "setAllowWpAutomationsStatus",
+        "summary": "Allow or block WP automations for an environment",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "tags": [
+          "WordPress Bot Protection"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "env_id",
+            "in": "path"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetAllowWpAutomationsStatusRequestBody"
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Updating WP automations allow status in progress",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SetAllowWpAutomationsStatusResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "No or invalid API key provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema401"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error occurred while trying to update WP automations allow status",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema500"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sites/environments/{env_id}/bot-protection/exception-rules": {
+      "post": {
+        "operationId": "addBotProtectionExceptionRule",
+        "summary": "Add a bot protection exception rule to an environment",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "tags": [
+          "WordPress Bot Protection"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "env_id",
+            "in": "path"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddBotProtectionExceptionRule-Body"
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Adding the bot protection exception rule started. Use the operation_id to check the status.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AddBotProtectionExceptionRule-Response"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "One or more of the required parameters were not provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema400"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "No or invalid API key provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema401"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error occurred while adding the bot protection exception rule",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema500"
+                }
+              }
+            }
+          }
+        }
+      },
+      "get": {
+        "operationId": "getBotProtectionExceptionRules",
+        "summary": "Get the bot protection exception rules of an environment",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "tags": [
+          "WordPress Bot Protection"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "env_id",
+            "in": "path"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The bot protection exception rules of the environment",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetBotProtectionExceptionRules-Response"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "No or invalid API key provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema401"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Could not find the environment or the user does not have permissions to retrieve data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema404"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error occurred while retrieving the bot protection exception rules",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema500"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "operationId": "removeBotProtectionExceptionRule",
+        "summary": "Remove a bot protection exception rule from an environment",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "tags": [
+          "WordPress Bot Protection"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "env_id",
+            "in": "path"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RemoveBotProtectionExceptionRule-Body"
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Removing the bot protection exception rule started. Use the operation_id to check the status.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoveBotProtectionExceptionRule-Response"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "One or more of the required parameters were not provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema400"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "No or invalid API key provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema401"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error occurred while removing the bot protection exception rule",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema500"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sites/environments/{env_id}/analytics/bot-protection/traffic-flow": {
+      "get": {
+        "operationId": "getBotTrafficFlow",
+        "summary": "Get bot traffic flow",
+        "description": "Requests per traffic type and how bot protection handled them (allowed, challenged or blocked), totaled over the time span.",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "tags": [
+          "Analytics"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "env_id",
+            "in": "path"
+          },
+          {
+            "schema": {
+              "type": "string",
+              "enum": [
+                "24_hours",
+                "7_days",
+                "30_days",
+                "60_days"
+              ],
+              "default": "7_days",
+              "example": "30_days",
+              "x-default": "30_days"
+            },
+            "required": false,
+            "name": "time_span",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": "string",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "company_id",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "example": "2025-10-20"
+            },
+            "required": false,
+            "name": "from",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "example": "2025-10-30"
+            },
+            "required": false,
+            "name": "to",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Getting bot traffic flow analytics",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BotTrafficFlow-Response"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "One or more of the required parameters were not provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema400"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "No or invalid API key provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema401"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Could not find the company or the user does not have permissions to retrieve data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema404"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error occurred while getting analytics",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema500"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sites/environments/{env_id}/analytics/bot-protection/requests": {
+      "get": {
+        "operationId": "getBotTrafficRequests",
+        "summary": "Get bot traffic requests over time",
+        "description": "Requests per traffic type over the time span, in hourly buckets for `24_hours` and daily buckets otherwise.",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "tags": [
+          "Analytics"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "env_id",
+            "in": "path"
+          },
+          {
+            "schema": {
+              "type": "string",
+              "enum": [
+                "24_hours",
+                "7_days",
+                "30_days",
+                "60_days"
+              ],
+              "default": "7_days",
+              "example": "30_days",
+              "x-default": "30_days"
+            },
+            "required": false,
+            "name": "time_span",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": "string",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "company_id",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "example": "2025-10-20"
+            },
+            "required": false,
+            "name": "from",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "example": "2025-10-30"
+            },
+            "required": false,
+            "name": "to",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Getting bot traffic requests analytics",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BotTrafficRequests-Response"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "One or more of the required parameters were not provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema400"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "No or invalid API key provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema401"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Could not find the company or the user does not have permissions to retrieve data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema404"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error occurred while getting analytics",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema500"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sites/environments/{env_id}/analytics/bot-protection/protection-results": {
+      "get": {
+        "operationId": "getBotProtectionResults",
+        "summary": "Get bot protection results over time",
+        "description": "Allowed, challenged and blocked requests over the time span, in hourly buckets for `24_hours` and daily buckets otherwise.",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "tags": [
+          "Analytics"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "env_id",
+            "in": "path"
+          },
+          {
+            "schema": {
+              "type": "string",
+              "enum": [
+                "24_hours",
+                "7_days",
+                "30_days",
+                "60_days"
+              ],
+              "default": "7_days",
+              "example": "30_days",
+              "x-default": "30_days"
+            },
+            "required": false,
+            "name": "time_span",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": "string",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "company_id",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "example": "2025-10-20"
+            },
+            "required": false,
+            "name": "from",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "example": "2025-10-30"
+            },
+            "required": false,
+            "name": "to",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Getting bot protection results analytics",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BotProtectionResults-Response"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "One or more of the required parameters were not provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema400"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "No or invalid API key provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema401"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Could not find the company or the user does not have permissions to retrieve data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema404"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error occurred while getting analytics",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema500"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sites/environments/{env_id}/analytics/bot-protection/top-breakdown": {
+      "get": {
+        "operationId": "getBotTopBreakdown",
+        "summary": "Get bot traffic top breakdown",
+        "description": "The top paths, user agents, countries and IPs per traffic type over the time span.",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "tags": [
+          "Analytics"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "env_id",
+            "in": "path"
+          },
+          {
+            "schema": {
+              "type": "string",
+              "enum": [
+                "24_hours",
+                "7_days",
+                "30_days",
+                "60_days"
+              ],
+              "default": "7_days",
+              "example": "30_days",
+              "x-default": "30_days"
+            },
+            "required": false,
+            "name": "time_span",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": "string",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "company_id",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "example": "2025-10-20"
+            },
+            "required": false,
+            "name": "from",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "example": "2025-10-30"
+            },
+            "required": false,
+            "name": "to",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Getting bot traffic top breakdown analytics",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BotTopBreakdown-Response"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "One or more of the required parameters were not provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema400"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "No or invalid API key provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema401"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Could not find the company or the user does not have permissions to retrieve data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema404"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error occurred while getting analytics",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema500"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/company/{id}/company-invites": {
+      "post": {
+        "operationId": "inviteUsersToCompany",
+        "summary": "Invite users to the company",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "tags": [
+          "Invites"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "id",
+            "in": "path"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InviteUsersToCompanyBodySchema"
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Invitation sent to the users for the company",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InviteUsersToCompanyResponseSchema"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "No or invalid API key provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema401"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Could not find the company or the user does not have permissions to retrieve data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema404"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error occurred while sending invitation to the users for the company",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema500"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/company/{id}/pending-invites": {
+      "get": {
+        "operationId": "getInvites",
+        "summary": "Get list of company pending invites",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "tags": [
+          "Invites"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "id",
+            "in": "path"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "List of company pending invites",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetPendingInvitesResponseSchema"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "No or invalid API key provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema401"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Could not find the company or the user does not have permissions to retrieve data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema404"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error occurred while retrieving company pending invites",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema500"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/company/{id}/site-invites": {
+      "post": {
+        "operationId": "inviteUsersToSites",
+        "summary": "Invite users to sites",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "tags": [
+          "Invites"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "example": "54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+            },
+            "required": true,
+            "name": "id",
+            "in": "path"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InviteUsersToSitesBodySchema"
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Invitation sent to the user for the sites",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InviteUsersToSitesResponseSchema"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "No or invalid API key provided to the request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema401"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Could not find the company or the user does not have permissions to retrieve data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponseSchema404"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error occurred while sending invitation to the user for the sites",
             "content": {
               "application/json": {
                 "schema": {

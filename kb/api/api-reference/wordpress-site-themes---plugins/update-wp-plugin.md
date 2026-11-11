@@ -7,10 +7,10 @@ product_label: "Kinsta API Reference"
 subsection: "wordpress-site-themes-&-plugins"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:50.121Z"
-fetched_at: "2026-10-07T22:59:02Z"
-sha256: "4e6278735fe9962e27475f3c98280e7ef8d73c39f559884fce20220389e512bc"
-body_chars: 7846
+change_signal: "2026-11-10T17:49:59.688Z"
+fetched_at: "2026-11-11T13:04:42Z"
+sha256: "cca31e2fd277cf5e8292b953db026305d36d1c4877616b356261bbe5c5fce063"
+body_chars: 8001
 extracted_with: "main"
 status: "live"
 ---
@@ -182,7 +182,8 @@ puts response.read_body
 {
   "message": "Updating WordPress plugin in progress",
   "status": 202,
-  "operation_id": "wp-plugin:update-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "wp-plugin:update-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -383,7 +384,8 @@ puts response.read_body
 {
   "message": "Updating WordPress plugin in progress",
   "status": 202,
-  "operation_id": "wp-plugin:update-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "wp-plugin:update-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -508,3 +510,13 @@ string
 Example:
 
 `"wp-plugin:update-54fb80af-576c-4fdc-ba4f-b596c83f15a1"`
+
+[​](#response-support-reference-id)
+
+support_reference_id
+
+number
+
+Example:
+
+`123456`

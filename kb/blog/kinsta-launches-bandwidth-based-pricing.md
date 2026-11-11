@@ -12,8 +12,11 @@ fetched_at: "2026-10-07T22:58:28Z"
 sha256: "1428ce7f1166ed60835ada803a769665d44130e0bf26cb5e71dffbcd428a2484"
 body_chars: 3980
 extracted_with: "wp-rest:content.rendered"
-status: "live"
+status: "removed"
+removed_at: "2026-11-11T13:05:23Z"
 ---
+
+> **REMOVED FROM KINSTA'S DOCS** as of 2026-11-11T13:05:23Z (absent from sitemap). Kept as a record of what was published. Do not cite as current.
 
 # Kinsta Launches Bandwidth-Based Pricing to Give Website Owners and Developers More Hosting Control
 

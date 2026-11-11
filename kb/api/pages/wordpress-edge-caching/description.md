@@ -7,8 +7,8 @@ product_label: "Kinsta API Reference"
 subsection: "wordpress-edge-caching"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:55.477Z"
-fetched_at: "2026-10-07T22:59:15Z"
+change_signal: "2026-11-10T09:49:48.572Z"
+fetched_at: "2026-11-11T13:05:16Z"
 sha256: "3626e6e009d4779bf2dac9a9cfa6ff352e5348094dbaf396e076486c41cff3bf"
 body_chars: 1273
 extracted_with: "main"

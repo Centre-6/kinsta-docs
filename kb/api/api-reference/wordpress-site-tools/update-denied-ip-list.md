@@ -7,10 +7,10 @@ product_label: "Kinsta API Reference"
 subsection: "wordpress-site-tools"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:50.048Z"
-fetched_at: "2026-10-07T22:59:06Z"
-sha256: "333591c83fee37bed0cd9eeeb2f8c93aca9d97295814765ba9ca5a1a9d0b2fb2"
-body_chars: 8599
+change_signal: "2026-11-10T17:49:59.617Z"
+fetched_at: "2026-11-11T13:04:51Z"
+sha256: "1847f091187d45ef19a400af1a4e35ba0822bf8acc2d0341b92a0b09aa108d92"
+body_chars: 8591
 extracted_with: "main"
 status: "live"
 ---
@@ -445,10 +445,10 @@ required
 Example:
 
 ```
-[  
-  "127.0.0.1",  
-  "128.0.0.1/32",  
-  "2001:0db8:0a0b:12f0:0000:0000:0000:0001"  
+[
+  "127.0.0.1",
+  "128.0.0.1/32",
+  "2001:0db8:0a0b:12f0:0000:0000:0000:0001"
 ]
 ```
 

@@ -7,10 +7,10 @@ product_label: "Kinsta API Reference"
 subsection: "wordpress-site-environments"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:49.558Z"
-fetched_at: "2026-10-07T22:58:58Z"
-sha256: "fffd19885014d621df5041c27e9f3c243b56f9efdc137d020b5147bc1ae782c2"
-body_chars: 12584
+change_signal: "2026-11-10T17:49:59.255Z"
+fetched_at: "2026-11-11T13:04:32Z"
+sha256: "f813e36b24e9bf11abcfb799c6d51884cd17f1f32b4aa523e1948123b9efe449"
+body_chars: 12739
 extracted_with: "main"
 status: "live"
 ---
@@ -213,7 +213,8 @@ puts response.read_body
 {
   "message": "Pushing environment in progress",
   "status": 202,
-  "operation_id": "environments:push-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "environments:push-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -441,7 +442,8 @@ puts response.read_body
 {
   "message": "Pushing environment in progress",
   "status": 202,
-  "operation_id": "environments:push-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "environments:push-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -636,3 +638,13 @@ string
 Example:
 
 `"environments:push-54fb80af-576c-4fdc-ba4f-b596c83f15a1"`
+
+[​](#response-support-reference-id)
+
+support_reference_id
+
+number
+
+Example:
+
+`123456`

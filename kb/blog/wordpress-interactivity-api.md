@@ -12,8 +12,11 @@ fetched_at: "2026-10-07T22:58:28Z"
 sha256: "0d46ac373138841dea735c3bda9b5f079cdccf6d9f8977d5ccb35e253283ef60"
 body_chars: 36271
 extracted_with: "wp-rest:content.rendered"
-status: "live"
+status: "removed"
+removed_at: "2026-11-11T13:05:23Z"
 ---
+
+> **REMOVED FROM KINSTA'S DOCS** as of 2026-11-11T13:05:23Z (absent from sitemap). Kept as a record of what was published. Do not cite as current.
 
 # Unlocking new possibilities with the WordPress Interactivity API
 

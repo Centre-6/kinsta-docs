@@ -7,10 +7,10 @@ product_label: "Kinsta API Reference"
 subsection: "wordpress-sites"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:49.417Z"
-fetched_at: "2026-10-07T22:59:07Z"
-sha256: "2494cd4ea936beb70e644469e9d54d75ae1cb6ef6921120c929b6cef27e7ec26"
-body_chars: 9053
+change_signal: "2026-11-10T17:49:59.145Z"
+fetched_at: "2026-11-11T13:04:52Z"
+sha256: "282d1f6e1dc03b05dfce2c2c4f00da15cb1722021d07c0e4bef4ead727e9fe1c"
+body_chars: 9208
 extracted_with: "main"
 status: "live"
 ---
@@ -188,7 +188,8 @@ puts response.read_body
 {
   "message": "Cloning site in progress",
   "status": 202,
-  "operation_id": "site:clone-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "site:clone-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -388,7 +389,8 @@ puts response.read_body
 {
   "message": "Cloning site in progress",
   "status": 202,
-  "operation_id": "site:clone-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "site:clone-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -511,3 +513,13 @@ string
 Example:
 
 `"site:clone-54fb80af-576c-4fdc-ba4f-b596c83f15a1"`
+
+[​](#response-support-reference-id)
+
+support_reference_id
+
+number
+
+Example:
+
+`123456`

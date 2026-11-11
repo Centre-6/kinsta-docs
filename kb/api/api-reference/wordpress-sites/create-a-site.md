@@ -7,10 +7,10 @@ product_label: "Kinsta API Reference"
 subsection: "wordpress-sites"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:49.447Z"
-fetched_at: "2026-10-07T22:59:07Z"
-sha256: "cf010dc132084a5e9f1f4694b4c3df4a7193f5f461405d8df95de7f35eccf15d"
-body_chars: 13651
+change_signal: "2026-11-10T17:49:59.169Z"
+fetched_at: "2026-11-11T13:04:54Z"
+sha256: "5be87ccaffdd72e1b4ed6f999f7ee42bda91d466c000fca9cf2056ffaf43f9fe"
+body_chars: 14473
 extracted_with: "main"
 status: "live"
 ---
@@ -228,7 +228,9 @@ puts response.read_body
 {
   "message": "Adding site in progress",
   "status": 202,
-  "operation_id": "sites:add-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "sites:add-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456,
+  "warning": "Deprecated fields used: woocommerce, wordpressseo. These fields will be removed in a future release."
 }
 ```
 
@@ -464,7 +466,9 @@ puts response.read_body
 {
   "message": "Adding site in progress",
   "status": 202,
-  "operation_id": "sites:add-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "sites:add-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456,
+  "warning": "Deprecated fields used: woocommerce, wordpressseo. These fields will be removed in a future release."
 }
 ```
 
@@ -656,6 +660,10 @@ woocommerce
 
 boolean
 
+deprecated
+
+Deprecated: this field is no longer recommended and will be removed in a future release. Do not use it for new integrations.
+
 Example:
 
 `false`
@@ -665,6 +673,10 @@ Example:
 wordpressseo
 
 boolean
+
+deprecated
+
+Deprecated: this field is no longer recommended and will be removed in a future release. Do not use it for new integrations.
 
 Example:
 
@@ -711,3 +723,23 @@ string
 Example:
 
 `"sites:add-54fb80af-576c-4fdc-ba4f-b596c83f15a1"`
+
+[​](#response-support-reference-id)
+
+support_reference_id
+
+number
+
+Example:
+
+`123456`
+
+[​](#response-warning)
+
+warning
+
+string
+
+Example:
+
+`"Deprecated fields used: woocommerce, wordpressseo. These fields will be removed in a future release."`

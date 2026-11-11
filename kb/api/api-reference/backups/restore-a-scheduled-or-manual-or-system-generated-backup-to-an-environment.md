@@ -7,10 +7,10 @@ product_label: "Kinsta API Reference"
 subsection: "backups"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:50.768Z"
-fetched_at: "2026-10-07T22:58:41Z"
-sha256: "635b3ed7a3d1dba81e18bc88853598b3d654a07423a41c2a1c8ca294df629e49"
-body_chars: 8860
+change_signal: "2026-11-10T17:50:00.224Z"
+fetched_at: "2026-11-11T13:03:37Z"
+sha256: "6e69167e10c5868c330e45e920a11c5747a9a6ff54979a09ac80e382c0a629c4"
+body_chars: 9015
 extracted_with: "main"
 status: "live"
 ---
@@ -182,7 +182,8 @@ puts response.read_body
 {
   "message": "Restoring a backup to environment in progress",
   "status": 202,
-  "operation_id": "backups:restore-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "backups:restore-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -387,7 +388,8 @@ puts response.read_body
 {
   "message": "Restoring a backup to environment in progress",
   "status": 202,
-  "operation_id": "backups:restore-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "backups:restore-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -512,3 +514,13 @@ string
 Example:
 
 `"backups:restore-54fb80af-576c-4fdc-ba4f-b596c83f15a1"`
+
+[​](#response-support-reference-id)
+
+support_reference_id
+
+number
+
+Example:
+
+`123456`

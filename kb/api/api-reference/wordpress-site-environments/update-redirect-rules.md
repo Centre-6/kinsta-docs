@@ -7,10 +7,10 @@ product_label: "Kinsta API Reference"
 subsection: "wordpress-site-environments"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:49.711Z"
-fetched_at: "2026-10-07T22:58:59Z"
-sha256: "e0c3b876d4e351385ca3662fc2ff23e11e75eb35d8451c02f6efee680c945ec9"
-body_chars: 14657
+change_signal: "2026-11-10T17:49:59.362Z"
+fetched_at: "2026-11-11T13:04:34Z"
+sha256: "59dc960b7d3906d55f457b7a9a2a6c56e2bc07f7b39a0a97461396e3db1db766"
+body_chars: 20551
 extracted_with: "main"
 status: "live"
 ---
@@ -40,6 +40,7 @@ curl --request POST \
   --header 'Content-Type: application/json' \
   --data '
 {
+  "action_type": "UPDATE",
   "limit": 10,
   "offset": 3,
   "key": "domain",
@@ -54,9 +55,20 @@ curl --request POST \
       "traffic_from_city": "Nashville",
       "traffic_from_country": "US",
       "traffic_from_country_name": "United States",
-      "displayed_location": "Nashvile, United States"
+      "displayed_location": "Nashville, United States",
+      "type": "redirect"
     }
-  ]
+  ],
+  "new_value": {
+    "domain": "kinsta.com",
+    "from": "/redirect/from",
+    "to": "/redirect/to",
+    "traffic_from_city": "Nashville",
+    "traffic_from_country": "US",
+    "traffic_from_country_name": "United States",
+    "displayed_location": "Nashville, United States",
+    "type": "redirect"
+  }
 }
 '
 ```
@@ -67,6 +79,7 @@ import requests
 url = "https://api.kinsta.com/v2/sites/environments/{env_id}/redirect-rules"
 
 payload = {
+    "action_type": "UPDATE",
     "limit": 10,
     "offset": 3,
     "key": "domain",
@@ -81,9 +94,20 @@ payload = {
             "traffic_from_city": "Nashville",
             "traffic_from_country": "US",
             "traffic_from_country_name": "United States",
-            "displayed_location": "Nashvile, United States"
+            "displayed_location": "Nashville, United States",
+            "type": "redirect"
         }
-    ]
+    ],
+    "new_value": {
+        "domain": "kinsta.com",
+        "from": "/redirect/from",
+        "to": "/redirect/to",
+        "traffic_from_city": "Nashville",
+        "traffic_from_country": "US",
+        "traffic_from_country_name": "United States",
+        "displayed_location": "Nashville, United States",
+        "type": "redirect"
+    }
 }
 headers = {
     "Authorization": "Bearer <token>",
@@ -100,6 +124,7 @@ const options = {
   method: 'POST',
   headers: {Authorization: 'Bearer <token>', 'Content-Type': 'application/json'},
   body: JSON.stringify({
+    action_type: 'UPDATE',
     limit: 10,
     offset: 3,
     key: 'domain',
@@ -114,9 +139,20 @@ const options = {
         traffic_from_city: 'Nashville',
         traffic_from_country: 'US',
         traffic_from_country_name: 'United States',
-        displayed_location: 'Nashvile, United States'
+        displayed_location: 'Nashville, United States',
+        type: 'redirect'
       }
-    ]
+    ],
+    new_value: {
+      domain: 'kinsta.com',
+      from: '/redirect/from',
+      to: '/redirect/to',
+      traffic_from_city: 'Nashville',
+      traffic_from_country: 'US',
+      traffic_from_country_name: 'United States',
+      displayed_location: 'Nashville, United States',
+      type: 'redirect'
+    }
   })
 };
 
@@ -140,6 +176,7 @@ curl_setopt_array($curl, [
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "POST",
   CURLOPT_POSTFIELDS => json_encode([
+    'action_type' => 'UPDATE',
     'limit' => 10,
     'offset' => 3,
     'key' => 'domain',
@@ -154,8 +191,19 @@ curl_setopt_array($curl, [
                 'traffic_from_city' => 'Nashville',
                 'traffic_from_country' => 'US',
                 'traffic_from_country_name' => 'United States',
-                'displayed_location' => 'Nashvile, United States'
+                'displayed_location' => 'Nashville, United States',
+                'type' => 'redirect'
         ]
+    ],
+    'new_value' => [
+        'domain' => 'kinsta.com',
+        'from' => '/redirect/from',
+        'to' => '/redirect/to',
+        'traffic_from_city' => 'Nashville',
+        'traffic_from_country' => 'US',
+        'traffic_from_country_name' => 'United States',
+        'displayed_location' => 'Nashville, United States',
+        'type' => 'redirect'
     ]
   ]),
   CURLOPT_HTTPHEADER => [
@@ -190,7 +238,7 @@ func main() {
 
 	url := "https://api.kinsta.com/v2/sites/environments/{env_id}/redirect-rules"
 
-	payload := strings.NewReader("{\n  \"limit\": 10,\n  \"offset\": 3,\n  \"key\": \"domain\",\n  \"order\": \"ascend\",\n  \"search_query\": \"Search...\",\n  \"regex_search\": \"true\",\n  \"rules_to_update\": [\n    {\n      \"domain\": \"kinsta.com\",\n      \"from\": \"/redirect/from\",\n      \"to\": \"/redirect/to\",\n      \"traffic_from_city\": \"Nashville\",\n      \"traffic_from_country\": \"US\",\n      \"traffic_from_country_name\": \"United States\",\n      \"displayed_location\": \"Nashvile, United States\"\n    }\n  ]\n}")
+	payload := strings.NewReader("{\n  \"action_type\": \"UPDATE\",\n  \"limit\": 10,\n  \"offset\": 3,\n  \"key\": \"domain\",\n  \"order\": \"ascend\",\n  \"search_query\": \"Search...\",\n  \"regex_search\": \"true\",\n  \"rules_to_update\": [\n    {\n      \"domain\": \"kinsta.com\",\n      \"from\": \"/redirect/from\",\n      \"to\": \"/redirect/to\",\n      \"traffic_from_city\": \"Nashville\",\n      \"traffic_from_country\": \"US\",\n      \"traffic_from_country_name\": \"United States\",\n      \"displayed_location\": \"Nashville, United States\",\n      \"type\": \"redirect\"\n    }\n  ],\n  \"new_value\": {\n    \"domain\": \"kinsta.com\",\n    \"from\": \"/redirect/from\",\n    \"to\": \"/redirect/to\",\n    \"traffic_from_city\": \"Nashville\",\n    \"traffic_from_country\": \"US\",\n    \"traffic_from_country_name\": \"United States\",\n    \"displayed_location\": \"Nashville, United States\",\n    \"type\": \"redirect\"\n  }\n}")
 
 	req, _ := http.NewRequest("POST", url, payload)
 
@@ -211,7 +259,7 @@ func main() {
 HttpResponse<String> response = Unirest.post("https://api.kinsta.com/v2/sites/environments/{env_id}/redirect-rules")
   .header("Authorization", "Bearer <token>")
   .header("Content-Type", "application/json")
-  .body("{\n  \"limit\": 10,\n  \"offset\": 3,\n  \"key\": \"domain\",\n  \"order\": \"ascend\",\n  \"search_query\": \"Search...\",\n  \"regex_search\": \"true\",\n  \"rules_to_update\": [\n    {\n      \"domain\": \"kinsta.com\",\n      \"from\": \"/redirect/from\",\n      \"to\": \"/redirect/to\",\n      \"traffic_from_city\": \"Nashville\",\n      \"traffic_from_country\": \"US\",\n      \"traffic_from_country_name\": \"United States\",\n      \"displayed_location\": \"Nashvile, United States\"\n    }\n  ]\n}")
+  .body("{\n  \"action_type\": \"UPDATE\",\n  \"limit\": 10,\n  \"offset\": 3,\n  \"key\": \"domain\",\n  \"order\": \"ascend\",\n  \"search_query\": \"Search...\",\n  \"regex_search\": \"true\",\n  \"rules_to_update\": [\n    {\n      \"domain\": \"kinsta.com\",\n      \"from\": \"/redirect/from\",\n      \"to\": \"/redirect/to\",\n      \"traffic_from_city\": \"Nashville\",\n      \"traffic_from_country\": \"US\",\n      \"traffic_from_country_name\": \"United States\",\n      \"displayed_location\": \"Nashville, United States\",\n      \"type\": \"redirect\"\n    }\n  ],\n  \"new_value\": {\n    \"domain\": \"kinsta.com\",\n    \"from\": \"/redirect/from\",\n    \"to\": \"/redirect/to\",\n    \"traffic_from_city\": \"Nashville\",\n    \"traffic_from_country\": \"US\",\n    \"traffic_from_country_name\": \"United States\",\n    \"displayed_location\": \"Nashville, United States\",\n    \"type\": \"redirect\"\n  }\n}")
   .asString();
 ```
 
@@ -227,7 +275,7 @@ http.use_ssl = true
 request = Net::HTTP::Post.new(url)
 request["Authorization"] = 'Bearer <token>'
 request["Content-Type"] = 'application/json'
-request.body = "{\n  \"limit\": 10,\n  \"offset\": 3,\n  \"key\": \"domain\",\n  \"order\": \"ascend\",\n  \"search_query\": \"Search...\",\n  \"regex_search\": \"true\",\n  \"rules_to_update\": [\n    {\n      \"domain\": \"kinsta.com\",\n      \"from\": \"/redirect/from\",\n      \"to\": \"/redirect/to\",\n      \"traffic_from_city\": \"Nashville\",\n      \"traffic_from_country\": \"US\",\n      \"traffic_from_country_name\": \"United States\",\n      \"displayed_location\": \"Nashvile, United States\"\n    }\n  ]\n}"
+request.body = "{\n  \"action_type\": \"UPDATE\",\n  \"limit\": 10,\n  \"offset\": 3,\n  \"key\": \"domain\",\n  \"order\": \"ascend\",\n  \"search_query\": \"Search...\",\n  \"regex_search\": \"true\",\n  \"rules_to_update\": [\n    {\n      \"domain\": \"kinsta.com\",\n      \"from\": \"/redirect/from\",\n      \"to\": \"/redirect/to\",\n      \"traffic_from_city\": \"Nashville\",\n      \"traffic_from_country\": \"US\",\n      \"traffic_from_country_name\": \"United States\",\n      \"displayed_location\": \"Nashville, United States\",\n      \"type\": \"redirect\"\n    }\n  ],\n  \"new_value\": {\n    \"domain\": \"kinsta.com\",\n    \"from\": \"/redirect/from\",\n    \"to\": \"/redirect/to\",\n    \"traffic_from_city\": \"Nashville\",\n    \"traffic_from_country\": \"US\",\n    \"traffic_from_country_name\": \"United States\",\n    \"displayed_location\": \"Nashville, United States\",\n    \"type\": \"redirect\"\n  }\n}"
 
 response = http.request(request)
 puts response.read_body
@@ -312,6 +360,7 @@ curl --request POST \
   --header 'Content-Type: application/json' \
   --data '
 {
+  "action_type": "UPDATE",
   "limit": 10,
   "offset": 3,
   "key": "domain",
@@ -326,9 +375,20 @@ curl --request POST \
       "traffic_from_city": "Nashville",
       "traffic_from_country": "US",
       "traffic_from_country_name": "United States",
-      "displayed_location": "Nashvile, United States"
+      "displayed_location": "Nashville, United States",
+      "type": "redirect"
     }
-  ]
+  ],
+  "new_value": {
+    "domain": "kinsta.com",
+    "from": "/redirect/from",
+    "to": "/redirect/to",
+    "traffic_from_city": "Nashville",
+    "traffic_from_country": "US",
+    "traffic_from_country_name": "United States",
+    "displayed_location": "Nashville, United States",
+    "type": "redirect"
+  }
 }
 '
 ```
@@ -339,6 +399,7 @@ import requests
 url = "https://api.kinsta.com/v2/sites/environments/{env_id}/redirect-rules"
 
 payload = {
+    "action_type": "UPDATE",
     "limit": 10,
     "offset": 3,
     "key": "domain",
@@ -353,9 +414,20 @@ payload = {
             "traffic_from_city": "Nashville",
             "traffic_from_country": "US",
             "traffic_from_country_name": "United States",
-            "displayed_location": "Nashvile, United States"
+            "displayed_location": "Nashville, United States",
+            "type": "redirect"
         }
-    ]
+    ],
+    "new_value": {
+        "domain": "kinsta.com",
+        "from": "/redirect/from",
+        "to": "/redirect/to",
+        "traffic_from_city": "Nashville",
+        "traffic_from_country": "US",
+        "traffic_from_country_name": "United States",
+        "displayed_location": "Nashville, United States",
+        "type": "redirect"
+    }
 }
 headers = {
     "Authorization": "Bearer <token>",
@@ -372,6 +444,7 @@ const options = {
   method: 'POST',
   headers: {Authorization: 'Bearer <token>', 'Content-Type': 'application/json'},
   body: JSON.stringify({
+    action_type: 'UPDATE',
     limit: 10,
     offset: 3,
     key: 'domain',
@@ -386,9 +459,20 @@ const options = {
         traffic_from_city: 'Nashville',
         traffic_from_country: 'US',
         traffic_from_country_name: 'United States',
-        displayed_location: 'Nashvile, United States'
+        displayed_location: 'Nashville, United States',
+        type: 'redirect'
       }
-    ]
+    ],
+    new_value: {
+      domain: 'kinsta.com',
+      from: '/redirect/from',
+      to: '/redirect/to',
+      traffic_from_city: 'Nashville',
+      traffic_from_country: 'US',
+      traffic_from_country_name: 'United States',
+      displayed_location: 'Nashville, United States',
+      type: 'redirect'
+    }
   })
 };
 
@@ -412,6 +496,7 @@ curl_setopt_array($curl, [
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "POST",
   CURLOPT_POSTFIELDS => json_encode([
+    'action_type' => 'UPDATE',
     'limit' => 10,
     'offset' => 3,
     'key' => 'domain',
@@ -426,8 +511,19 @@ curl_setopt_array($curl, [
                 'traffic_from_city' => 'Nashville',
                 'traffic_from_country' => 'US',
                 'traffic_from_country_name' => 'United States',
-                'displayed_location' => 'Nashvile, United States'
+                'displayed_location' => 'Nashville, United States',
+                'type' => 'redirect'
         ]
+    ],
+    'new_value' => [
+        'domain' => 'kinsta.com',
+        'from' => '/redirect/from',
+        'to' => '/redirect/to',
+        'traffic_from_city' => 'Nashville',
+        'traffic_from_country' => 'US',
+        'traffic_from_country_name' => 'United States',
+        'displayed_location' => 'Nashville, United States',
+        'type' => 'redirect'
     ]
   ]),
   CURLOPT_HTTPHEADER => [
@@ -462,7 +558,7 @@ func main() {
 
 	url := "https://api.kinsta.com/v2/sites/environments/{env_id}/redirect-rules"
 
-	payload := strings.NewReader("{\n  \"limit\": 10,\n  \"offset\": 3,\n  \"key\": \"domain\",\n  \"order\": \"ascend\",\n  \"search_query\": \"Search...\",\n  \"regex_search\": \"true\",\n  \"rules_to_update\": [\n    {\n      \"domain\": \"kinsta.com\",\n      \"from\": \"/redirect/from\",\n      \"to\": \"/redirect/to\",\n      \"traffic_from_city\": \"Nashville\",\n      \"traffic_from_country\": \"US\",\n      \"traffic_from_country_name\": \"United States\",\n      \"displayed_location\": \"Nashvile, United States\"\n    }\n  ]\n}")
+	payload := strings.NewReader("{\n  \"action_type\": \"UPDATE\",\n  \"limit\": 10,\n  \"offset\": 3,\n  \"key\": \"domain\",\n  \"order\": \"ascend\",\n  \"search_query\": \"Search...\",\n  \"regex_search\": \"true\",\n  \"rules_to_update\": [\n    {\n      \"domain\": \"kinsta.com\",\n      \"from\": \"/redirect/from\",\n      \"to\": \"/redirect/to\",\n      \"traffic_from_city\": \"Nashville\",\n      \"traffic_from_country\": \"US\",\n      \"traffic_from_country_name\": \"United States\",\n      \"displayed_location\": \"Nashville, United States\",\n      \"type\": \"redirect\"\n    }\n  ],\n  \"new_value\": {\n    \"domain\": \"kinsta.com\",\n    \"from\": \"/redirect/from\",\n    \"to\": \"/redirect/to\",\n    \"traffic_from_city\": \"Nashville\",\n    \"traffic_from_country\": \"US\",\n    \"traffic_from_country_name\": \"United States\",\n    \"displayed_location\": \"Nashville, United States\",\n    \"type\": \"redirect\"\n  }\n}")
 
 	req, _ := http.NewRequest("POST", url, payload)
 
@@ -483,7 +579,7 @@ func main() {
 HttpResponse<String> response = Unirest.post("https://api.kinsta.com/v2/sites/environments/{env_id}/redirect-rules")
   .header("Authorization", "Bearer <token>")
   .header("Content-Type", "application/json")
-  .body("{\n  \"limit\": 10,\n  \"offset\": 3,\n  \"key\": \"domain\",\n  \"order\": \"ascend\",\n  \"search_query\": \"Search...\",\n  \"regex_search\": \"true\",\n  \"rules_to_update\": [\n    {\n      \"domain\": \"kinsta.com\",\n      \"from\": \"/redirect/from\",\n      \"to\": \"/redirect/to\",\n      \"traffic_from_city\": \"Nashville\",\n      \"traffic_from_country\": \"US\",\n      \"traffic_from_country_name\": \"United States\",\n      \"displayed_location\": \"Nashvile, United States\"\n    }\n  ]\n}")
+  .body("{\n  \"action_type\": \"UPDATE\",\n  \"limit\": 10,\n  \"offset\": 3,\n  \"key\": \"domain\",\n  \"order\": \"ascend\",\n  \"search_query\": \"Search...\",\n  \"regex_search\": \"true\",\n  \"rules_to_update\": [\n    {\n      \"domain\": \"kinsta.com\",\n      \"from\": \"/redirect/from\",\n      \"to\": \"/redirect/to\",\n      \"traffic_from_city\": \"Nashville\",\n      \"traffic_from_country\": \"US\",\n      \"traffic_from_country_name\": \"United States\",\n      \"displayed_location\": \"Nashville, United States\",\n      \"type\": \"redirect\"\n    }\n  ],\n  \"new_value\": {\n    \"domain\": \"kinsta.com\",\n    \"from\": \"/redirect/from\",\n    \"to\": \"/redirect/to\",\n    \"traffic_from_city\": \"Nashville\",\n    \"traffic_from_country\": \"US\",\n    \"traffic_from_country_name\": \"United States\",\n    \"displayed_location\": \"Nashville, United States\",\n    \"type\": \"redirect\"\n  }\n}")
   .asString();
 ```
 
@@ -499,7 +595,7 @@ http.use_ssl = true
 request = Net::HTTP::Post.new(url)
 request["Authorization"] = 'Bearer <token>'
 request["Content-Type"] = 'application/json'
-request.body = "{\n  \"limit\": 10,\n  \"offset\": 3,\n  \"key\": \"domain\",\n  \"order\": \"ascend\",\n  \"search_query\": \"Search...\",\n  \"regex_search\": \"true\",\n  \"rules_to_update\": [\n    {\n      \"domain\": \"kinsta.com\",\n      \"from\": \"/redirect/from\",\n      \"to\": \"/redirect/to\",\n      \"traffic_from_city\": \"Nashville\",\n      \"traffic_from_country\": \"US\",\n      \"traffic_from_country_name\": \"United States\",\n      \"displayed_location\": \"Nashvile, United States\"\n    }\n  ]\n}"
+request.body = "{\n  \"action_type\": \"UPDATE\",\n  \"limit\": 10,\n  \"offset\": 3,\n  \"key\": \"domain\",\n  \"order\": \"ascend\",\n  \"search_query\": \"Search...\",\n  \"regex_search\": \"true\",\n  \"rules_to_update\": [\n    {\n      \"domain\": \"kinsta.com\",\n      \"from\": \"/redirect/from\",\n      \"to\": \"/redirect/to\",\n      \"traffic_from_city\": \"Nashville\",\n      \"traffic_from_country\": \"US\",\n      \"traffic_from_country_name\": \"United States\",\n      \"displayed_location\": \"Nashville, United States\",\n      \"type\": \"redirect\"\n    }\n  ],\n  \"new_value\": {\n    \"domain\": \"kinsta.com\",\n    \"from\": \"/redirect/from\",\n    \"to\": \"/redirect/to\",\n    \"traffic_from_city\": \"Nashville\",\n    \"traffic_from_country\": \"US\",\n    \"traffic_from_country_name\": \"United States\",\n    \"displayed_location\": \"Nashville, United States\",\n    \"type\": \"redirect\"\n  }\n}"
 
 response = http.request(request)
 puts response.read_body
@@ -602,6 +698,10 @@ Available options:
 `NEW`,
 
 `UPDATE`
+
+Example:
+
+`"UPDATE"`
 
 [​](#body-limit)
 
@@ -712,6 +812,21 @@ new_value
 object
 
 Show child attributes
+
+Example:
+
+```
+{
+  "domain": "kinsta.com",
+  "from": "/redirect/from",
+  "to": "/redirect/to",
+  "traffic_from_city": "Nashville",
+  "traffic_from_country": "US",
+  "traffic_from_country_name": "United States",
+  "displayed_location": "Nashville, United States",
+  "type": "redirect"
+}
+```
 
 #### Response
 

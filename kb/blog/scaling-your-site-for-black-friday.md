@@ -12,8 +12,11 @@ fetched_at: "2026-10-07T22:58:28Z"
 sha256: "dd523900a101ef673c746ea45dc4b119047dfd620f6cfcd708efcd2f09053232"
 body_chars: 10935
 extracted_with: "wp-rest:content.rendered"
-status: "live"
+status: "removed"
+removed_at: "2026-11-11T13:05:23Z"
 ---
+
+> **REMOVED FROM KINSTA'S DOCS** as of 2026-11-11T13:05:23Z (absent from sitemap). Kept as a record of what was published. Do not cite as current.
 
 # How to scale your site for Black Friday with Kinsta’s PHP performance add-on
 

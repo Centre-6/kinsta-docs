@@ -7,10 +7,10 @@ product_label: "Kinsta API Reference"
 subsection: "backups"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:50.784Z"
-fetched_at: "2026-10-07T22:58:39Z"
-sha256: "8db948cab3061db522c736224268c001de99430ecc7a61731b412aff8947e34a"
-body_chars: 7697
+change_signal: "2026-11-10T17:50:00.236Z"
+fetched_at: "2026-11-11T13:03:33Z"
+sha256: "a151949e322dc96e6f7b362173b0ec359c555b535bb266e39a2c95378d02c9c6"
+body_chars: 7852
 extracted_with: "main"
 status: "live"
 ---
@@ -177,7 +177,8 @@ puts response.read_body
 {
   "message": "Adding a manual backup to environment in progress",
   "status": 202,
-  "operation_id": "backups:add-manual-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "backups:add-manual-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -373,7 +374,8 @@ puts response.read_body
 {
   "message": "Adding a manual backup to environment in progress",
   "status": 202,
-  "operation_id": "backups:add-manual-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "backups:add-manual-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -486,3 +488,13 @@ string
 Example:
 
 `"backups:add-manual-54fb80af-576c-4fdc-ba4f-b596c83f15a1"`
+
+[​](#response-support-reference-id)
+
+support_reference_id
+
+number
+
+Example:
+
+`123456`

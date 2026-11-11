@@ -7,10 +7,10 @@ product_label: "Kinsta API Reference"
 subsection: "wordpress-sites"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:49.508Z"
-fetched_at: "2026-10-07T22:59:09Z"
-sha256: "cfda46549a45be986792b7e317b79809cfba6d28d6e827df28b136d847c1aae5"
-body_chars: 7465
+change_signal: "2026-11-10T17:49:59.219Z"
+fetched_at: "2026-11-11T13:04:58Z"
+sha256: "54bea6753b3f1ebe984aab4953ca6c60da773a296e96f7895acddf8e72eee39e"
+body_chars: 7620
 extracted_with: "main"
 status: "live"
 ---
@@ -177,7 +177,8 @@ puts response.read_body
 {
   "message": "Reset site in progress",
   "status": 202,
-  "operation_id": "sites:reset-site-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "sites:reset-site-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -369,7 +370,8 @@ puts response.read_body
 {
   "message": "Reset site in progress",
   "status": 202,
-  "operation_id": "sites:reset-site-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "sites:reset-site-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -482,3 +484,13 @@ string
 Example:
 
 `"sites:reset-site-54fb80af-576c-4fdc-ba4f-b596c83f15a1"`
+
+[​](#response-support-reference-id)
+
+support_reference_id
+
+number
+
+Example:
+
+`123456`

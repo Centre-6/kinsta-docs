@@ -7,10 +7,10 @@ product_label: "Kinsta API Reference"
 subsection: "wordpress-sites"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:49.432Z"
-fetched_at: "2026-10-07T22:59:07Z"
-sha256: "98b1877b9debbe4214676d05f2f05da4f9927e888fa7603bab55740136683bef"
-body_chars: 8518
+change_signal: "2026-11-10T17:49:59.157Z"
+fetched_at: "2026-11-11T13:04:53Z"
+sha256: "7d62a44261aa69c669ac455f9a76aadd3909a4ffecb54b2c8961beae963fa18a"
+body_chars: 8673
 extracted_with: "main"
 status: "live"
 ---
@@ -188,7 +188,8 @@ puts response.read_body
 {
   "message": "Adding plain site in progress",
   "status": 202,
-  "operation_id": "sites:add-plain-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "sites:add-plain-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -388,7 +389,8 @@ puts response.read_body
 {
   "message": "Adding plain site in progress",
   "status": 202,
-  "operation_id": "sites:add-plain-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "sites:add-plain-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -511,3 +513,13 @@ string
 Example:
 
 `"sites:add-plain-54fb80af-576c-4fdc-ba4f-b596c83f15a1"`
+
+[​](#response-support-reference-id)
+
+support_reference_id
+
+number
+
+Example:
+
+`123456`

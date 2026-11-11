@@ -7,10 +7,10 @@ product_label: "Kinsta API Reference"
 subsection: "wordpress-site-domains"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:50.282Z"
-fetched_at: "2026-10-07T22:58:47Z"
-sha256: "9f37de8b2ca4e2566323f4df39c685b0596e18dc7583a52d1ba64df982e548c9"
-body_chars: 8812
+change_signal: "2026-11-10T17:49:59.822Z"
+fetched_at: "2026-11-11T13:04:06Z"
+sha256: "f674f83c435845de4dda02de16f23cf200ff68d5e35191efd7526fbe876c9567"
+body_chars: 8967
 extracted_with: "main"
 status: "live"
 ---
@@ -185,7 +185,8 @@ puts response.read_body
 {
   "message": "Changing primary site domain in progress",
   "status": 202,
-  "operation_id": "sites:change-primary-domain-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "sites:change-primary-domain-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -389,7 +390,8 @@ puts response.read_body
 {
   "message": "Changing primary site domain in progress",
   "status": 202,
-  "operation_id": "sites:change-primary-domain-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "sites:change-primary-domain-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -516,3 +518,13 @@ string
 Example:
 
 `"sites:change-primary-domain-54fb80af-576c-4fdc-ba4f-b596c83f15a1"`
+
+[​](#response-support-reference-id)
+
+support_reference_id
+
+number
+
+Example:
+
+`123456`

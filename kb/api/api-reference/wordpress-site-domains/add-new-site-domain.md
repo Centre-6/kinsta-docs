@@ -7,10 +7,10 @@ product_label: "Kinsta API Reference"
 subsection: "wordpress-site-domains"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:50.221Z"
-fetched_at: "2026-10-07T22:58:46Z"
-sha256: "c68fe1ad0eec377c3b935a879e299af031928351317c4e33872ddde231df80e5"
-body_chars: 10212
+change_signal: "2026-11-10T17:49:59.774Z"
+fetched_at: "2026-11-11T13:04:05Z"
+sha256: "cf57fcf678a8ba8e58e5d2c19edcf4be48933f5d655938f229489019cbc746e4"
+body_chars: 10367
 extracted_with: "main"
 status: "live"
 ---
@@ -201,7 +201,8 @@ puts response.read_body
 {
   "message": "Adding site domain in progress",
   "status": 202,
-  "operation_id": "sites:add-domain-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "sites:add-domain-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -421,7 +422,8 @@ puts response.read_body
 {
   "message": "Adding site domain in progress",
   "status": 202,
-  "operation_id": "sites:add-domain-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "sites:add-domain-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -574,3 +576,13 @@ string
 Example:
 
 `"sites:add-domain-54fb80af-576c-4fdc-ba4f-b596c83f15a1"`
+
+[​](#response-support-reference-id)
+
+support_reference_id
+
+number
+
+Example:
+
+`123456`

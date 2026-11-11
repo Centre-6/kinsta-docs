@@ -7,10 +7,10 @@ product_label: "Kinsta API Reference"
 subsection: "wordpress-site-environments"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:49.542Z"
-fetched_at: "2026-10-07T22:58:51Z"
-sha256: "2a2e421992752921c18bbb6580061c58f504db7958903eff1f46646957a09401"
-body_chars: 13522
+change_signal: "2026-11-10T17:49:59.243Z"
+fetched_at: "2026-11-11T13:04:17Z"
+sha256: "e2d26d4ccc7d41efa8c8a15b15652a411bff340c5d395d0dee6b7701e9f48364"
+body_chars: 14548
 extracted_with: "main"
 status: "live"
 ---
@@ -225,7 +225,9 @@ puts response.read_body
 {
   "message": "Adding environment in progress",
   "status": 202,
-  "operation_id": "environment:add-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "environment:add-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456,
+  "warning": "Deprecated fields used: woocommerce, wordpressseo, wordpress_plugin_edd. These fields will be removed in a future release."
 }
 ```
 
@@ -465,7 +467,9 @@ puts response.read_body
 {
   "message": "Adding environment in progress",
   "status": 202,
-  "operation_id": "environment:add-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "environment:add-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456,
+  "warning": "Deprecated fields used: woocommerce, wordpressseo, wordpress_plugin_edd. These fields will be removed in a future release."
 }
 ```
 
@@ -635,6 +639,10 @@ woocommerce
 
 boolean
 
+deprecated
+
+Deprecated: this field is no longer recommended and will be removed in a future release. Do not use it for new integrations.
+
 Example:
 
 `false`
@@ -645,6 +653,10 @@ wordpress_plugin_edd
 
 boolean
 
+deprecated
+
+Deprecated: this field is no longer recommended and will be removed in a future release. Do not use it for new integrations.
+
 Example:
 
 `false`
@@ -654,6 +666,10 @@ Example:
 wordpressseo
 
 boolean
+
+deprecated
+
+Deprecated: this field is no longer recommended and will be removed in a future release. Do not use it for new integrations.
 
 Example:
 
@@ -700,3 +716,23 @@ string
 Example:
 
 `"environment:add-54fb80af-576c-4fdc-ba4f-b596c83f15a1"`
+
+[​](#response-support-reference-id)
+
+support_reference_id
+
+number
+
+Example:
+
+`123456`
+
+[​](#response-warning)
+
+warning
+
+string
+
+Example:
+
+`"Deprecated fields used: woocommerce, wordpressseo, wordpress_plugin_edd. These fields will be removed in a future release."`

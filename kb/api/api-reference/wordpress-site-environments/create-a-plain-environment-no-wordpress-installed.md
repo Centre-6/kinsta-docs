@@ -7,10 +7,10 @@ product_label: "Kinsta API Reference"
 subsection: "wordpress-site-environments"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:49.574Z"
-fetched_at: "2026-10-07T22:58:51Z"
-sha256: "888943e93017cb385feb7ab7d5458b7b88f0c025765214d3aaea4df48c4ac364"
-body_chars: 8052
+change_signal: "2026-11-10T17:49:59.267Z"
+fetched_at: "2026-11-11T13:04:16Z"
+sha256: "93cd5553c423f60ac9f6715f3eba57979226fc5901d047964d34b0b7587f8b8f"
+body_chars: 8207
 extracted_with: "main"
 status: "live"
 ---
@@ -182,7 +182,8 @@ puts response.read_body
 {
   "message": "Creating plain environment in progress",
   "status": 202,
-  "operation_id": "environment:clone-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "environment:clone-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -383,7 +384,8 @@ puts response.read_body
 {
   "message": "Creating plain environment in progress",
   "status": 202,
-  "operation_id": "environment:clone-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "environment:clone-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -508,3 +510,13 @@ string
 Example:
 
 `"environment:clone-54fb80af-576c-4fdc-ba4f-b596c83f15a1"`
+
+[​](#response-support-reference-id)
+
+support_reference_id
+
+number
+
+Example:
+
+`123456`

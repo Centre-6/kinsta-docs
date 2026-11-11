@@ -7,8 +7,8 @@ product_label: "Kinsta API Reference"
 subsection: "available-regions"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:55.468Z"
-fetched_at: "2026-10-07T22:59:12Z"
+change_signal: "2026-11-10T09:49:48.570Z"
+fetched_at: "2026-11-11T13:05:06Z"
 sha256: "22defa51bc9b66c1f8cbd93fb07de62e663dcf309c5b88926bbd594d6bde75d3"
 body_chars: 547
 extracted_with: "main"

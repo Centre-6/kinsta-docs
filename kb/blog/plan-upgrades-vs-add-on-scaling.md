@@ -12,8 +12,11 @@ fetched_at: "2026-10-07T22:58:28Z"
 sha256: "d4e48da3c937b870ce4de33819311191b2a5f2eaefd3698893459d129ccb3bbb"
 body_chars: 13676
 extracted_with: "wp-rest:content.rendered"
-status: "live"
+status: "removed"
+removed_at: "2026-11-11T13:05:23Z"
 ---
+
+> **REMOVED FROM KINSTA'S DOCS** as of 2026-11-11T13:05:23Z (absent from sitemap). Kept as a record of what was published. Do not cite as current.
 
 # Plan upgrades vs. add-on scaling: Making the right choice this holiday season
 

@@ -12,8 +12,11 @@ fetched_at: "2026-10-07T22:58:28Z"
 sha256: "60846ea34472b21ef85b0283e34023ef0c916760a4cbe2d5aa8a2598523f5626"
 body_chars: 27637
 extracted_with: "wp-rest:content.rendered"
-status: "live"
+status: "removed"
+removed_at: "2026-11-11T13:05:23Z"
 ---
+
+> **REMOVED FROM KINSTA'S DOCS** as of 2026-11-11T13:05:23Z (absent from sitemap). Kept as a record of what was published. Do not cite as current.
 
 # From firefighting to future-proofing: How Kinsta reduces maintenance workload and client churn
 

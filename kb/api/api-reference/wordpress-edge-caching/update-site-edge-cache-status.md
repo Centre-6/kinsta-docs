@@ -7,10 +7,10 @@ product_label: "Kinsta API Reference"
 subsection: "wordpress-edge-caching"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:50.312Z"
-fetched_at: "2026-10-07T22:58:46Z"
-sha256: "4cc875915832bcf3239d30c5c29aacdadd6e2c82e66e0cf314a843969ea16efa"
-body_chars: 7909
+change_signal: "2026-11-10T17:49:59.846Z"
+fetched_at: "2026-11-11T13:04:04Z"
+sha256: "17b39a351c45a808e87f27fd23556fd3a61fa199b1dee194b70d8706baa99c50"
+body_chars: 8064
 extracted_with: "main"
 status: "live"
 ---
@@ -179,7 +179,8 @@ puts response.read_body
 {
   "operation_id": "edge-cache:update-status-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
   "message": "Updating Site Edge Cache Status in progress",
-  "status": 202
+  "status": 202,
+  "support_reference_id": 123456
 }
 ```
 
@@ -366,7 +367,8 @@ puts response.read_body
 {
   "operation_id": "edge-cache:update-status-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
   "message": "Updating Site Edge Cache Status in progress",
-  "status": 202
+  "status": 202,
+  "support_reference_id": 123456
 }
 ```
 
@@ -471,3 +473,13 @@ required
 Example:
 
 `202`
+
+[​](#response-support-reference-id)
+
+support_reference_id
+
+number
+
+Example:
+
+`123456`

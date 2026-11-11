@@ -7,8 +7,8 @@ product_label: "Kinsta API Reference"
 subsection: "additional-sftp-users"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:55.465Z"
-fetched_at: "2026-10-07T22:59:10Z"
+change_signal: "2026-11-10T09:49:48.559Z"
+fetched_at: "2026-11-11T13:05:02Z"
 sha256: "b16acc5adfcba0471eb8dbac8fca1ef26738999e21ddd445ba222bf51c6ee63f"
 body_chars: 1250
 extracted_with: "main"

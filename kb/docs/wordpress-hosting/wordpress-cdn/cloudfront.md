@@ -6,11 +6,11 @@ product: "wordpress-hosting"
 product_label: "Managed WordPress Hosting"
 subsection: "wordpress-cdn"
 section: ["WordPress Hosting", "CDN"]
-kinsta_last_updated: "2025-05-05T15:07:23"
-change_signal: "2025-05-05T15:07:23"
-fetched_at: "2026-10-07T22:58:18Z"
-sha256: "5256cff02980405d303139b3d18fb1254ae4ab999345a2a29c77e01397990ad5"
-body_chars: 15169
+kinsta_last_updated: "2026-10-23T13:36:58"
+change_signal: "2026-10-23T13:36:58"
+fetched_at: "2026-11-11T13:03:01Z"
+sha256: "cbdcdbe479eada4423d8b2c3646fa6eb3c62cc8b98e5300b76d7278068e10583"
+body_chars: 16629
 extracted_with: "wp-rest:content.rendered"
 status: "live"
 ---
@@ -20,11 +20,11 @@ status: "live"
 **Section:** WordPress Hosting > CDN
 **Product:** Managed WordPress Hosting
 **Source:** https://kinsta.com/docs/wordpress-hosting/wordpress-cdn/cloudfront/
-**Kinsta last updated:** 2025-05-05T15:07:23
+**Kinsta last updated:** 2026-10-23T13:36:58
 
 ## On this page
 
-- [Request custom SSL certificate](#request-custom-ssl-certificate)
+- [Request a custom SSL certificate](#request-a-custom-ssl-certificate)
 - [Configure and deploy CloudFront zone](#configure-and-deploy-cloudfront-zone)
   - [Distribution options](#distribution-options)
   - [Origin](#origin)
@@ -35,8 +35,10 @@ status: "live"
   - [Web Application Firewall (WAF)](#web-application-firewall-waf)
   - [Settings](#settings)
   - [Standard logging](#standard-logging)
+- [Point your domain to CloudFront](#point-your-domain-to-cloudfront)
 - [Troubleshooting common CloudFront issues](#troubleshooting-common-cloudfront-issues)
   - [502 errors](#502-errors)
+  - [Requests loop and CloudFront returns 403](#requests-loop-and-cloudfront-returns-403)
   - [Changes aren’t showing up on your site](#changes-arent-showing-up-on-your-site)
   - [IP address blocked by false positive](#ip-address-blocked-by-false-positive)
   - [HTTP-HTTPS redirect loops](#http-https-redirect-loops)
@@ -51,9 +53,9 @@ Amazon CloudFront is a secure and programmable content delivery network. Once yo
 
 Some of the security features of CloudFront include field-level encryption and protection against network and application layer DDoS attacks.
 
-## Request custom SSL certificate
+## Request a custom SSL certificate
 
-Part of your Cloudfront distribution setup includes applying a custom SSL certificate. Because this may take anywhere from a few minutes to several hours to complete, we recommend requesting the custom SSL certificate before starting the process of creating a new distribution.
+Part of your CloudFront distribution setup includes applying a custom SSL certificate. Because this may take anywhere from a few minutes to several hours to complete, we recommend requesting the custom SSL certificate before starting the process of creating a new distribution.
 
 If you don’t already have an AWS account, you can create one [here](https://aws.amazon.com/). Once you’ve logged in to your AWS account, search for “certificate manager” using the search box in the menu bar, and click **Certificate Manager** under **Services**.
 
@@ -79,7 +81,7 @@ Complete the **Request public certificate** form as follows:
 
 Request public certificate details.
 
-- **Domain names**: Add your custom domain (your site’s primary domain at Kinsta) to the domain name list (if you’re adding a root domain, be sure to add both the non-www and www domain or add the wildcard domain like *.example.com).
+- **Domain names**: Add your custom domain (your site’s primary domain at Kinsta) to the domain name list (if you’re adding a root domain, be sure to add both the non-www and www domain or add the wildcard domain like `*.example.com`). A wildcard certificate in AWS is fine, but domains in MyKinsta must be non-wildcard.
 - **Validation method**: Choose either email or DNS validation for your SSL certificate. If your domain registration doesn’t have privacy protection that hides your contact information from WHOIS lookups, or if the email sent to the proxy email address is forwarded to your real email address, you can use the [email validation method](https://docs.aws.amazon.com/acm/latest/userguide/email-validation.html) to validate your certificate request. You’ll receive up to 8 emails for each domain you added to the certificate, and you’ll need to act on at least one email for each domain to complete the validation. If you’re unable to receive emails at the email address shown in WHOIS lookups, you’ll need to use the [DNS validation method](https://docs.aws.amazon.com/acm/latest/userguide/dns-validation.html).
 - **Key algorithm**: Select RSA 2048.
 - **Tags**: Add some optional tags if necessary.
@@ -116,7 +118,7 @@ Your new SSL certificate is ready to be used with your new CloudFront distributi
 
 ## Configure and deploy CloudFront zone
 
-The next step is to configure and deploy a CloudFront zone. In your AWS account, search for “Cloudfront” using the search box in the menu bar, and click **CloudFront** under **Services**.
+The next step is to configure and deploy a CloudFront zone. In your AWS account, search for “CloudFront” using the search box in the menu bar, and click **CloudFront** under **Services**.
 
 ![CloudFront under Services in AWS.](https://kinsta.com/wp-content/uploads/2023/11/aws-cloudfront.png)
 
@@ -142,8 +144,7 @@ CloudFront distribution options.
 
 Recommended **Origin** settings:
 
-- **Origin domain**: Your site’s primary domain (in our example here: brownbearcentral.com). CloudFront does not accept an IP address as the origin, so you must use your site’s primary domain in this field.  
-  The following 3 fields appear once you enter your origin domain:
+- **Origin domain**: Your site’s kinsta.cloud domain (e.g., `example.kinsta.cloud`), found in MyKinsta under **Sites** > ***sitename*** > **Domains**. Do not use your live domain. Once your live domain’s DNS points to CloudFront, using it as the origin would send CloudFront’s requests back to CloudFront.
   - **Protocol**: HTTPS only
   - **HTTPS port**: 443
   - **Minimum Origin SSL protocol**: TLSv1.2  
@@ -253,7 +254,7 @@ CloudFront Web Application Firewall.
 Recommended configuration for the **Settings** section:
 
 - **Price class**: Select the CloudFront regions you’d like to use with your site.
-- **Alternate domain name**: Click **Add item** and specify the custom domain (your site’s primary domain at Kinsta).
+- **Alternate domain name**: Click **Add item** and add each hostname your site uses (for example, both `example.com` and `www.example.com`). These must match the domains on your SSL certificate and the non-wildcard domains in MyKinsta.
 - **Custom SSL certificate**: Select the custom SSL certificate you created at the beginning of this tutorial.  
   You’ll see a few additional options after selecting the custom SSL certificate:
   - **Legacy clients support**: Leave this unchecked/disabled.
@@ -276,11 +277,25 @@ Standard logging in CloudFront.
 
 Click **Create distribution** to finish creating your new CloudFront zone.
 
+## Point your domain to CloudFront
+
+To avoid downtime, complete these steps in order:
+
+1. Confirm that both the www and non-www domains are added in MyKinsta as non-wildcard domains, and that they show as active.
+2. Wait until the CloudFront distribution status shows **Deployed**.
+3. Test the distribution before changing DNS. For example, run: `curl -I --resolve www.example.com:443:<CloudFront IP> https://www.example.com` or point the domain at CloudFront in your local hosts file, and confirm you get a 200 response.
+4. Update your DNS records to point to CloudFront (a CNAME to your `dxxxx.cloudfront.net` domain, or CloudFront’s static IPs if you use them).
+5. Check that MyKinsta still shows the domains as active, and that both hostnames load over HTTPS.
+
 ## Troubleshooting common CloudFront issues
 
 ### 502 errors
 
-If you see 502 errors on your site after creating your CloudFront distribution, double-check the Origin Domain in your Origin Settings. This needs to be your site’s kinsta.cloud domain, not your live domain.
+If you see 502 errors on your site after creating your CloudFront distribution, double-check the Origin Domain in your Origin Settings. This needs to be your site’s kinsta.cloud domain (e.g., `example.kinsta.cloud`), found in MyKinsta under **Sites** > ***sitename*** > **Domains**. Do not use your live domain. Once your live domain’s DNS points to CloudFront, using it as the origin would send CloudFront’s requests back to CloudFront.
+
+### Requests loop and CloudFront returns 403
+
+This usually means a domain was added in MyKinsta as a wildcard. Remove it, add the www and non-www versions separately as non-wildcard domains, then complete hostname validation.
 
 ### Changes aren’t showing up on your site
 

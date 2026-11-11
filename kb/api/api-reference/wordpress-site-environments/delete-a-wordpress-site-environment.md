@@ -7,10 +7,10 @@ product_label: "Kinsta API Reference"
 subsection: "wordpress-site-environments"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:49.610Z"
-fetched_at: "2026-10-07T22:58:52Z"
-sha256: "d4e6b47e1a6bf6cf4683a655a0339d016f81b669ffb14aac54b41d7fccb63e26"
-body_chars: 5859
+change_signal: "2026-11-10T17:49:59.291Z"
+fetched_at: "2026-11-11T13:04:19Z"
+sha256: "d52f32cc3423c75bb22604a67e56ac74ce1520f5461df6752207c019aa0a3f5e"
+body_chars: 6014
 extracted_with: "main"
 status: "live"
 ---
@@ -150,7 +150,8 @@ puts response.read_body
 {
   "message": "Deleting environment in progress",
   "status": 202,
-  "operation_id": "environments:delete-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "environments:delete-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -316,7 +317,8 @@ puts response.read_body
 {
   "message": "Deleting environment in progress",
   "status": 202,
-  "operation_id": "environments:delete-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "environments:delete-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -413,3 +415,13 @@ string
 Example:
 
 `"environments:delete-54fb80af-576c-4fdc-ba4f-b596c83f15a1"`
+
+[​](#response-support-reference-id)
+
+support_reference_id
+
+number
+
+Example:
+
+`123456`

@@ -7,10 +7,10 @@ product_label: "Kinsta API Reference"
 subsection: "operations"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:50.837Z"
-fetched_at: "2026-10-07T22:58:44Z"
-sha256: "835f6446b7633015073b3eb4ac6eb1c2ac972c443893e4bae158a0d85e944ca7"
-body_chars: 5643
+change_signal: "2026-11-10T17:50:00.385Z"
+fetched_at: "2026-11-11T13:03:51Z"
+sha256: "c056e9c3f267020fb40afd257cfaaa5d23f5f022e4df32ce21c095576ab3a819"
+body_chars: 5709
 extracted_with: "main"
 status: "live"
 ---
@@ -158,6 +158,7 @@ puts response.read_body
 {
   "status": 202,
   "message": "Operation in progress",
+  "support_reference_id": 12345,
   "data": "<unknown>"
 }
 ```
@@ -320,6 +321,7 @@ puts response.read_body
 {
   "status": 202,
   "message": "Operation in progress",
+  "support_reference_id": 12345,
   "data": "<unknown>"
 }
 ```

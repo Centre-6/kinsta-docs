@@ -7,8 +7,8 @@ product_label: "Kinsta API Reference"
 subsection: "analytics"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:50.568Z"
-fetched_at: "2026-10-07T22:58:34Z"
+change_signal: "2026-11-10T17:50:00.044Z"
+fetched_at: "2026-11-11T13:03:20Z"
 sha256: "d6724aad9008582e6ce3f1c36c79f099fca4ee128238166176c362ab2b20a82e"
 body_chars: 6754
 extracted_with: "main"

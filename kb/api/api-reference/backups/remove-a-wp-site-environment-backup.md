@@ -7,10 +7,10 @@ product_label: "Kinsta API Reference"
 subsection: "backups"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:50.800Z"
-fetched_at: "2026-10-07T22:58:41Z"
-sha256: "514e69c72fdf46e09e416e3625202d5f962cd8459c9d398ad3c3f4c07e04a489"
-body_chars: 6105
+change_signal: "2026-11-10T17:50:00.248Z"
+fetched_at: "2026-11-11T13:03:36Z"
+sha256: "8e5b229e1b4acd0424f81f829802c1c8b706acf98807cd6bb78edb688946d609"
+body_chars: 6260
 extracted_with: "main"
 status: "live"
 ---
@@ -150,7 +150,8 @@ puts response.read_body
 {
   "message": "Removing a backup in progress. Use the operation_id to check the status.",
   "status": 202,
-  "operation_id": "backups:remove-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "backups:remove-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -320,7 +321,8 @@ puts response.read_body
 {
   "message": "Removing a backup in progress. Use the operation_id to check the status.",
   "status": 202,
-  "operation_id": "backups:remove-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "backups:remove-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -417,3 +419,13 @@ string
 Example:
 
 `"backups:remove-54fb80af-576c-4fdc-ba4f-b596c83f15a1"`
+
+[​](#response-support-reference-id)
+
+support_reference_id
+
+number
+
+Example:
+
+`123456`

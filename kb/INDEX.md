@@ -1,6 +1,6 @@
 # Kinsta documentation mirror - index
 
-Generated 2026-10-12T09:17:23Z from `manifest.json`. 659 live pages.
+Generated 2026-11-11T13:05:24Z from `manifest.json`. 694 live pages.
 
 Read this to orient before searching. Pages are grouped by **product**, because Kinsta's products reuse the same vocabulary for different mechanics and picking the wrong tree produces a confident wrong answer. Revalidate any page you intend to cite:
 
@@ -8,7 +8,7 @@ Read this to orient before searching. Pages are grouped by **product**, because 
 python3 scripts/kinsta_kb.py check --url <url>
 ```
 
-## Changelog  (`changelog`, 211 pages)
+## Changelog  (`changelog`, 213 pages)
 
 ### General
 
@@ -236,6 +236,10 @@ python3 scripts/kinsta_kb.py check --url <url>
   https://kinsta.com/changelog/file-manager/
 - **Manage WordPress plugins and themes with the Kinsta API** - `kb/changelog/kinsta-api-jan-2026.md`  
   https://kinsta.com/changelog/kinsta-api-jan-2026/
+- **Manage bot protection and analyze bot traffic with the Kinsta API** - `kb/changelog/kinsta-api-nov-2026.md`  
+  https://kinsta.com/changelog/kinsta-api-nov-2026/
+- **Manage company users and permissions with the Kinsta API** - `kb/changelog/kinsta-api-oct-2026.md`  
+  https://kinsta.com/changelog/kinsta-api-oct-2026/
 - **Manage domains, HTTPS, logs, and backups with the Kinsta API** - `kb/changelog/kinsta-api-jul-2026.md`  
   https://kinsta.com/changelog/kinsta-api-jul-2026/
 - **Manage your site’s PHP threads and memory use for optimal performance** - `kb/changelog/php-performance.md`  
@@ -435,286 +439,7 @@ python3 scripts/kinsta_kb.py check --url <url>
 - **phpMyAdmin: You can get there from here in one click** - `kb/changelog/phpmyadmin-one-click.md`  
   https://kinsta.com/changelog/phpmyadmin-one-click/
 
-## Blog (secondary - never outranks docs)  (`blog`, 137 pages)
-
-### General
-
-- **3 ways to handle traffic surges without downgrading or upgrading plans** - `kb/blog/how-to-handle-traffic-surges.md`  
-  https://kinsta.com/blog/how-to-handle-traffic-surges/
-- **4 agency founders share the decisions that shaped their businesses** - `kb/blog/agency-founders-share-the-decisions-that-shaped-their-businesses.md`  
-  https://kinsta.com/blog/agency-founders-share-the-decisions-that-shaped-their-businesses/
-- **AEO for WordPress: Why infrastructure now matters as much as content** - `kb/blog/aeo-wordpress.md`  
-  https://kinsta.com/blog/aeo-wordpress/
-- **AI crawlers explained: How AI bots interact with your WordPress site** - `kb/blog/ai-crawlers-wordpress.md`  
-  https://kinsta.com/blog/ai-crawlers-wordpress/
-- **AI crawlers vs. bot protection vs. robots.txt vs. llms.txt: what actually controls AI access?** - `kb/blog/llms-txt-vs-robots-txt-wordpress.md`  
-  https://kinsta.com/blog/llms-txt-vs-robots-txt-wordpress/
-- **Agile delivery for agencies with Kinsta’s multi-environment setup** - `kb/blog/agile-delivery-multi-environment-setup.md`  
-  https://kinsta.com/blog/agile-delivery-multi-environment-setup/
-- **Analytics as a scaling tool: knowing when to optimize, not just how** - `kb/blog/analytics-scaling-tool-optimize-or-scale.md`  
-  https://kinsta.com/blog/analytics-scaling-tool-optimize-or-scale/
-- **Are websites dead? AI discovery, trust, and website quality** - `kb/blog/ai-discovery-trust.md`  
-  https://kinsta.com/blog/ai-discovery-trust/
-- **Automate client reporting with Kinsta API and Google AI** - `kb/blog/kinsta-api-and-google-ai.md`  
-  https://kinsta.com/blog/kinsta-api-and-google-ai/
-- **Automate your Kinsta workflows with Zapier and the Kinsta API** - `kb/blog/automate-workflows-zapier-kinsta-api.md`  
-  https://kinsta.com/blog/automate-workflows-zapier-kinsta-api/
-- **Automate your agency workflow with Kinsta API and Trello** - `kb/blog/automate-agency-workflow-with-kinsta-and-trello.md`  
-  https://kinsta.com/blog/automate-agency-workflow-with-kinsta-and-trello/
-- **Automating WordPress operations with CLI agents on Kinsta** - `kb/blog/cli-agents-wordpress.md`  
-  https://kinsta.com/blog/cli-agents-wordpress/
-- **Automating performance checks for your WP Agency with PageSpeed Insights API** - `kb/blog/wp-agency-performance-automation.md`  
-  https://kinsta.com/blog/wp-agency-performance-automation/
-- **Blade templating in WordPress: modern template development with Radicle on Kinsta** - `kb/blog/blade-templating-wordpress-radicle.md`  
-  https://kinsta.com/blog/blade-templating-wordpress-radicle/
-- **Bots are surpassing human traffic on the web. What is really going on?** - `kb/blog/ai-bot-traffic-surpassing-human-web.md`  
-  https://kinsta.com/blog/ai-bot-traffic-surpassing-human-web/
-- **Build an automated backup workflow for WordPress using Zendesk and the Kinsta API** - `kb/blog/integrate-zendesk-kinsta-api.md`  
-  https://kinsta.com/blog/integrate-zendesk-kinsta-api/
-- **Building WordPress blocks with Telex** - `kb/blog/wordpress-blocks-telex.md`  
-  https://kinsta.com/blog/wordpress-blocks-telex/
-- **Building WordPress for AI agents instead of just human visitors** - `kb/blog/wordpress-for-ai-agents.md`  
-  https://kinsta.com/blog/wordpress-for-ai-agents/
-- **Can I still benefit from AI search without letting bots destroy my server?** - `kb/blog/ai-search-bot-traffic.md`  
-  https://kinsta.com/blog/ai-search-bot-traffic/
-- **Create your own MCP Server to control WordPress hosting with AI** - `kb/blog/mcp-server-kinsta-api.md`  
-  https://kinsta.com/blog/mcp-server-kinsta-api/
-- **Customers say we’re a great web host. G2 says we’re #1** - `kb/blog/g2-awards-best-web-host.md`  
-  https://kinsta.com/blog/g2-awards-best-web-host/
-- **Engineering reliability at scale: Why developer-led agencies trust Kinsta for mission-critical projects** - `kb/blog/developer-agencies-kinsta.md`  
-  https://kinsta.com/blog/developer-agencies-kinsta/
-- **Enterprise hosting risk isn’t downtime—it’s uncertainty** - `kb/blog/uncertainty-enterprise-risk.md`  
-  https://kinsta.com/blog/uncertainty-enterprise-risk/
-- **From firefighting to future-proofing: How Kinsta reduces maintenance workload and client churn** - `kb/blog/reduce-maintenance-workload-client-churn.md`  
-  https://kinsta.com/blog/reduce-maintenance-workload-client-churn/
-- **From one-off fixes to repeatable systems: why automation matures WordPress operations** - `kb/blog/wordpress-operations.md`  
-  https://kinsta.com/blog/wordpress-operations/
-- **GEO vs AEO vs SEO: What’s the difference and how to optimize all three for WordPress** - `kb/blog/geo-vs-aeo-vs-seo-wordpress.md`  
-  https://kinsta.com/blog/geo-vs-aeo-vs-seo-wordpress/
-- **Getting started with the WordPress Abilities API: A practical guide** - `kb/blog/wordpress-abilities-api.md`  
-  https://kinsta.com/blog/wordpress-abilities-api/
-- **How DNS really works during a site migration (and how to avoid downtime)** - `kb/blog/dns-site-migration.md`  
-  https://kinsta.com/blog/dns-site-migration/
-- **How Kinsta can help your website maintenance agency grow** - `kb/blog/website-maintenance-agency.md`  
-  https://kinsta.com/blog/website-maintenance-agency/
-- **How Kinsta handles PHP threads, caching, and performance at scale** - `kb/blog/kinsta-php-threads-caching-performance.md`  
-  https://kinsta.com/blog/kinsta-php-threads-caching-performance/
-- **How Kinsta helps developers run complex WordPress sites at scale** - `kb/blog/scaling-complex-wordpress-sites.md`  
-  https://kinsta.com/blog/scaling-complex-wordpress-sites/
-- **How Kinsta helps enterprise WordPress teams manage change without the risk** - `kb/blog/enterprise-wordpress-change-management.md`  
-  https://kinsta.com/blog/enterprise-wordpress-change-management/
-- **How MX records work during Kinsta migrations** - `kb/blog/mx-records-kinsta-migrations.md`  
-  https://kinsta.com/blog/mx-records-kinsta-migrations/
-- **How WordPress hosting handles partial failures (APIs, CDNs, and third-party scripts)** - `kb/blog/wordpress-performance-partial-failures.md`  
-  https://kinsta.com/blog/wordpress-performance-partial-failures/
-- **How agencies can deliver predictable results by eliminating hosting variables** - `kb/blog/how-agencies-deliver-predictable-results.md`  
-  https://kinsta.com/blog/how-agencies-deliver-predictable-results/
-- **How automation changes the economics of managing WordPress at scale** - `kb/blog/wordpress-automation-managing-sites.md`  
-  https://kinsta.com/blog/wordpress-automation-managing-sites/
-- **How better visibility reduces support tickets, blame, and downtime** - `kb/blog/mykinsta-shared-analytics-team-debugging.md`  
-  https://kinsta.com/blog/mykinsta-shared-analytics-team-debugging/
-- **How managed hosting frees up time for agencies to focus on their core business** - `kb/blog/managed-hosting-saves-agencies-time.md`  
-  https://kinsta.com/blog/managed-hosting-saves-agencies-time/
-- **How modern block themes are changing WordPress hosting** - `kb/blog/block-themes-wordpress-hosting.md`  
-  https://kinsta.com/blog/block-themes-wordpress-hosting/
-- **How to access and edit your WordPress files in MyKinsta (no FTP client required)** - `kb/blog/wordpress-file-manager-mykinsta.md`  
-  https://kinsta.com/blog/wordpress-file-manager-mykinsta/
-- **How to automate WordPress go-live from Salesforce using the Kinsta API** - `kb/blog/automate-wordpress-salesforce-kinsta-api.md`  
-  https://kinsta.com/blog/automate-wordpress-salesforce-kinsta-api/
-- **How to automate sprint environment provisioning with Jira and the Kinsta API** - `kb/blog/automate-staging-environments-kinsta-api.md`  
-  https://kinsta.com/blog/automate-staging-environments-kinsta-api/
-- **How to build PHP-only Gutenberg blocks** - `kb/blog/php-only-gutenberg-blocks.md`  
-  https://kinsta.com/blog/php-only-gutenberg-blocks/
-- **How to build a WordPress MCP integration for AI Agents on Kinsta-powered websites** - `kb/blog/wordpress-mcp.md`  
-  https://kinsta.com/blog/wordpress-mcp/
-- **How to build custom WP-CLI commands and automate WordPress maintenance with Acorn** - `kb/blog/custom-wp-cli-commands-acorn.md`  
-  https://kinsta.com/blog/custom-wp-cli-commands-acorn/
-- **How to create magic effects in WordPress with core blocks** - `kb/blog/magic-effects-wordpress-core-blocks.md`  
-  https://kinsta.com/blog/magic-effects-wordpress-core-blocks/
-- **How to distinguish traffic from bots to identify real visits, helpful bots, and harmful attacks** - `kb/blog/bot-traffic-vs-real-visits.md`  
-  https://kinsta.com/blog/bot-traffic-vs-real-visits/
-- **How to integrate HubSpot with Kinsta using the Kinsta API** - `kb/blog/hubspot-kinsta-api.md`  
-  https://kinsta.com/blog/hubspot-kinsta-api/
-- **How to organize multiple WordPress sites in MyKinsta: from chaos to order** - `kb/blog/organize-wordpress-sites.md`  
-  https://kinsta.com/blog/organize-wordpress-sites/
-- **How to protect your WordPress site from unwanted bot traffic with Cloudflare** - `kb/blog/block-bots-wordpress-cloudflare.md`  
-  https://kinsta.com/blog/block-bots-wordpress-cloudflare/
-- **How to reduce bandwidth waste without blocking legitimate users** - `kb/blog/reduce-bandwidth-waste-bot-traffic.md`  
-  https://kinsta.com/blog/reduce-bandwidth-waste-bot-traffic/
-- **How to resell hosting with Kinsta and boost your agency’s revenue** - `kb/blog/how-to-resell-kinsta-hosting.md`  
-  https://kinsta.com/blog/how-to-resell-kinsta-hosting/
-- **How to scale your site for Black Friday with Kinsta’s PHP performance add-on** - `kb/blog/scaling-your-site-for-black-friday.md`  
-  https://kinsta.com/blog/scaling-your-site-for-black-friday/
-- **How to set up custom MyKinsta notifications with the Kinsta API to catch issues before they impact users** - `kb/blog/custom-notifications.md`  
-  https://kinsta.com/blog/custom-notifications/
-- **Kinsta Awarded #1 Web Hosting Provider in G2’s 2026 Best Software Awards** - `kb/blog/kinsta-awarded-number-one-web-hosting-provider-in-g2s-2026-best-software-awards.md`  
-  https://kinsta.com/blog/kinsta-awarded-number-one-web-hosting-provider-in-g2s-2026-best-software-awards/
-- **Kinsta Bot Protection vs. Cloudflare: What’s the difference, and which should you use?** - `kb/blog/kinsta-bot-protection-vs-cloudflare.md`  
-  https://kinsta.com/blog/kinsta-bot-protection-vs-cloudflare/
-- **Kinsta Launches Bandwidth-Based Pricing to Give Website Owners and Developers More Hosting Control** - `kb/blog/kinsta-launches-bandwidth-based-pricing.md`  
-  https://kinsta.com/blog/kinsta-launches-bandwidth-based-pricing/
-- **Kinsta SAML SSO is here: Scale your agency faster and more securely** - `kb/blog/kinsta-saml-sso.md`  
-  https://kinsta.com/blog/kinsta-saml-sso/
-- **Kinsta hosting for devs: infrastructure you don’t have to babysit** - `kb/blog/developer-first-hosting-solution.md`  
-  https://kinsta.com/blog/developer-first-hosting-solution/
-- **Kinsta launches Bot Protection for WordPress sites, included free on all plans** - `kb/blog/kinsta-launches-bot-protection-for-wordpress-sites-included-free-on-all-plans.md`  
-  https://kinsta.com/blog/kinsta-launches-bot-protection-for-wordpress-sites-included-free-on-all-plans/
-- **Kinsta logs record year as top choice for serious WordPress businesses, with 60% customer growth, new executive hires and a platform buildout** - `kb/blog/kinsta-logs-record-year.md`  
-  https://kinsta.com/blog/kinsta-logs-record-year/
-- **Kinsta partners with Fort Lewis College to bring enterprise-grade hosting to Art & Design students** - `kb/blog/kinsta-partners-with-fort-lewis-college.md`  
-  https://kinsta.com/blog/kinsta-partners-with-fort-lewis-college/
-- **Kinsta year in review: the best of 2025** - `kb/blog/2025-year-in-review.md`  
-  https://kinsta.com/blog/2025-year-in-review/
-- **Kinsta’s Black Friday campaign is a win for affiliates** - `kb/blog/black-friday-affiliates.md`  
-  https://kinsta.com/blog/black-friday-affiliates/
-- **Manage hundreds of sites with Kinsta’s WP Admin auto-login** - `kb/blog/kinsta-wp-admin-auto-login.md`  
-  https://kinsta.com/blog/kinsta-wp-admin-auto-login/
-- **Managing DNS centrally for multiple client sites with Cloudflare** - `kb/blog/centralized-dns-cloudflare-agencies.md`  
-  https://kinsta.com/blog/centralized-dns-cloudflare-agencies/
-- **Maximize your return on Ad spend with faster hosting for WordPress** - `kb/blog/improve-ad-roi-wordpress-site-speed.md`  
-  https://kinsta.com/blog/improve-ad-roi-wordpress-site-speed/
-- **Meet Kinsta at Digital Summit Dallas** - `kb/blog/digital-summit-dallas.md`  
-  https://kinsta.com/blog/digital-summit-dallas/
-- **Meet Kinsta at Digital Summit Tampa** - `kb/blog/digital-summit-tampa.md`  
-  https://kinsta.com/blog/digital-summit-tampa/
-- **Meet Kinsta at The MarTech Summit Asia 2026** - `kb/blog/the-martech-summit-asia.md`  
-  https://kinsta.com/blog/the-martech-summit-asia/
-- **Meet Kinsta at Web Summit Lisbon 2025** - `kb/blog/web-summit-lisbon.md`  
-  https://kinsta.com/blog/web-summit-lisbon/
-- **Meet Kinsta at WordCamp Asia 2026** - `kb/blog/wordcamp-asia.md`  
-  https://kinsta.com/blog/wordcamp-asia/
-- **Meet Kinsta at WordCamp Europe 2026 in Kraków, Poland** - `kb/blog/wordcamp-europe.md`  
-  https://kinsta.com/blog/wordcamp-europe/
-- **Meet Kinsta at brightonSEO 2026** - `kb/blog/brightonseo.md`  
-  https://kinsta.com/blog/brightonseo/
-- **Meet Kinsta in Australia this September** - `kb/blog/meet-kinsta-in-australia.md`  
-  https://kinsta.com/blog/meet-kinsta-in-australia/
-- **Meet Kinsta in Melbourne and Sydney** - `kb/blog/meet-kinsta-in-melbourne-and-sydney.md`  
-  https://kinsta.com/blog/meet-kinsta-in-melbourne-and-sydney/
-- **Meet Kinsta in Singapore this October** - `kb/blog/meet-kinsta-in-singapore.md`  
-  https://kinsta.com/blog/meet-kinsta-in-singapore/
-- **Migrating to Kinsta: debunking the myths that hold agencies back** - `kb/blog/wordpress-migration-myths.md`  
-  https://kinsta.com/blog/wordpress-migration-myths/
-- **New features, new blocks, new APIs: here is what’s new in WordPress 6.9** - `kb/blog/wordpress-6-9.md`  
-  https://kinsta.com/blog/wordpress-6-9/
-- **PHP 8.5 benchmarks: The state of PHP performance across major CMSs and frameworks** - `kb/blog/php-benchmarks.md`  
-  https://kinsta.com/blog/php-benchmarks/
-- **PHP 8.5: Here’s what’s new in the latest release** - `kb/blog/php-8-5.md`  
-  https://kinsta.com/blog/php-8-5/
-- **Performance consistency: Why “fast on average” hosting fails real users** - `kb/blog/performance-consistency-wordpress-hosting.md`  
-  https://kinsta.com/blog/performance-consistency-wordpress-hosting/
-- **Plan upgrades vs. add-on scaling: Making the right choice this holiday season** - `kb/blog/plan-upgrades-vs-add-on-scaling.md`  
-  https://kinsta.com/blog/plan-upgrades-vs-add-on-scaling/
-- **Reliability under human error: when editors, developers, or plugins break things** - `kb/blog/reliability-under-human-error.md`  
-  https://kinsta.com/blog/reliability-under-human-error/
-- **Remote WordPress development on Kinsta with SSH** - `kb/blog/remote-wordpress-development-kinsta-ssh.md`  
-  https://kinsta.com/blog/remote-wordpress-development-kinsta-ssh/
-- **Running Laravel-style migrations in WordPress with Radicle and Kinsta** - `kb/blog/radicle-wordpress-database-migrations.md`  
-  https://kinsta.com/blog/radicle-wordpress-database-migrations/
-- **SLAs and guarantees: What should your agency expect from your hosting partner?** - `kb/blog/slas-guarantees-wordpress-hosting.md`  
-  https://kinsta.com/blog/slas-guarantees-wordpress-hosting/
-- **Scaling smarter, not harder: balancing growth with operational excellence** - `kb/blog/scaling-smarter-not-harder.md`  
-  https://kinsta.com/blog/scaling-smarter-not-harder/
-- **Scaling typeface gracefully with fluid typography** - `kb/blog/fluid-typography.md`  
-  https://kinsta.com/blog/fluid-typography/
-- **Strategies to position your agency as a premium service provider** - `kb/blog/position-your-agency-as-premium.md`  
-  https://kinsta.com/blog/position-your-agency-as-premium/
-- **The 40Q agency on how Kinsta’s infrastructure backs modern WordPress development** - `kb/blog/40q-on-modern-wordpress-development.md`  
-  https://kinsta.com/blog/40q-on-modern-wordpress-development/
-- **The 7 biggest mistakes site owners make after discovering AI bot traffic** - `kb/blog/managing-ai-bot-traffic.md`  
-  https://kinsta.com/blog/managing-ai-bot-traffic/
-- **The WordPress Block Bindings API: What it is and how to use it to build dynamic websites** - `kb/blog/wordpress-block-bindings-api.md`  
-  https://kinsta.com/blog/wordpress-block-bindings-api/
-- **The WordPress database tables that matter most to maintenance agencies** - `kb/blog/wordpress-database-tables-maintenance.md`  
-  https://kinsta.com/blog/wordpress-database-tables-maintenance/
-- **The cloud became too complex. Sevalla is building the off-ramp for production teams** - `kb/blog/the-cloud-became-too-complex-sevalla-is-building-the-off-ramp-for-production-teams.md`  
-  https://kinsta.com/blog/the-cloud-became-too-complex-sevalla-is-building-the-off-ramp-for-production-teams/
-- **The complete guide to managing a WordPress multisite network** - `kb/blog/the-complete-guide-to-managing-a-wordpress-multisite-network.md`  
-  https://kinsta.com/blog/the-complete-guide-to-managing-a-wordpress-multisite-network/
-- **The end of fragile growth: Building scalable, profitable WordPress agencies** - `kb/blog/scalable-wordpress-agencies.md`  
-  https://kinsta.com/blog/scalable-wordpress-agencies/
-- **The hidden cost of bot traffic on WordPress: what bandwidth reports don’t show** - `kb/blog/bot-traffic-hosting-cost-wordpress.md`  
-  https://kinsta.com/blog/bot-traffic-hosting-cost-wordpress/
-- **The hidden costs of website downtime and what you can do about it** - `kb/blog/website-downtime-hidden-costs.md`  
-  https://kinsta.com/blog/website-downtime-hidden-costs/
-- **The more your WordPress site does with AI, the more your infrastructure has to handle** - `kb/blog/wordpress-ai-infrastructure.md`  
-  https://kinsta.com/blog/wordpress-ai-infrastructure/
-- **Unlocking developer productivity: How Kinsta frees agencies from infrastructure headaches** - `kb/blog/developer-productivity.md`  
-  https://kinsta.com/blog/developer-productivity/
-- **Unlocking new possibilities with the WordPress Interactivity API** - `kb/blog/wordpress-interactivity-api.md`  
-  https://kinsta.com/blog/wordpress-interactivity-api/
-- **Using headless WordPress to build a website with Lovable** - `kb/blog/build-wordpress-website-lovable.md`  
-  https://kinsta.com/blog/build-wordpress-website-lovable/
-- **Vibe coding real WordPress workflows using the Kinsta API** - `kb/blog/vibe-coding-wordpress.md`  
-  https://kinsta.com/blog/vibe-coding-wordpress/
-- **Websites aren’t dead: Consumers still rely on them over AI, new Kinsta report finds** - `kb/blog/websites-arent-dead.md`  
-  https://kinsta.com/blog/websites-arent-dead/
-- **What happens to WordPress performance during traffic decay (not spikes)** - `kb/blog/wordpress-traffic-decay.md`  
-  https://kinsta.com/blog/wordpress-traffic-decay/
-- **What happens when AI agents become your new website operators?** - `kb/blog/ai-wordpress-operators.md`  
-  https://kinsta.com/blog/ai-wordpress-operators/
-- **What happens when one site gets hacked on shared hosting?** - `kb/blog/shared-hosting-security-risks.md`  
-  https://kinsta.com/blog/shared-hosting-security-risks/
-- **What is white-label hosting? (And what Kinsta offers agencies and resellers)** - `kb/blog/white-label-hosting.md`  
-  https://kinsta.com/blog/white-label-hosting/
-- **What to do when bots hit your WordPress site: An action plan** - `kb/blog/when-bots-hit-your-site.md`  
-  https://kinsta.com/blog/when-bots-hit-your-site/
-- **What “enterprise-ready” means for WordPress (and how some hosts misuse the term)** - `kb/blog/what-enterprise-ready-means.md`  
-  https://kinsta.com/blog/what-enterprise-ready-means/
-- **What’s new in WordPress 7.0: AI integration, new blocks, and much more** - `kb/blog/wordpress-7-0.md`  
-  https://kinsta.com/blog/wordpress-7-0/
-- **What’s new in WordPress 7.1: Client-side media processing, design tools, Abilities API, and much more** - `kb/blog/wordpress-7-1.md`  
-  https://kinsta.com/blog/wordpress-7-1/
-- **Where consumers go to trust a brand: how AI decides whether to cite you** - `kb/blog/ai-brand-discovery-trust.md`  
-  https://kinsta.com/blog/ai-brand-discovery-trust/
-- **Why AI agents need guardrails instead of unlimited access** - `kb/blog/ai-agent-guardrails.md`  
-  https://kinsta.com/blog/ai-agent-guardrails/
-- **Why AI crawlers are breaking the rules of web-crawling** - `kb/blog/ai-crawler-rules-web-crawling.md`  
-  https://kinsta.com/blog/ai-crawler-rules-web-crawling/
-- **Why AI makes infrastructure decisions more important** - `kb/blog/ai-wordpress-infrastructure.md`  
-  https://kinsta.com/blog/ai-wordpress-infrastructure/
-- **Why Kinsta uses container-based hosting (and why it matters)** - `kb/blog/why-kinsta-uses-container-based-hosting.md`  
-  https://kinsta.com/blog/why-kinsta-uses-container-based-hosting/
-- **Why WooCommerce sites are especially vulnerable to bot traffic** - `kb/blog/woocommerce-bot-traffic.md`  
-  https://kinsta.com/blog/woocommerce-bot-traffic/
-- **Why WordPress needs APIs before it needs more AI** - `kb/blog/wordpress-needs-apis.md`  
-  https://kinsta.com/blog/wordpress-needs-apis/
-- **Why agency growth breaks workflows long before it breaks infrastructure** - `kb/blog/wordpress-agency-workflow-scaling.md`  
-  https://kinsta.com/blog/wordpress-agency-workflow-scaling/
-- **Why bandwidth spikes during campaigns are often bot-driven** - `kb/blog/campaign-spikes-bot-traffic.md`  
-  https://kinsta.com/blog/campaign-spikes-bot-traffic/
-- **Why bot traffic is now an infrastructure problem (not just an SEO problem)** - `kb/blog/ai-bot-traffic-wordpress-infrastructure-problem.md`  
-  https://kinsta.com/blog/ai-bot-traffic-wordpress-infrastructure-problem/
-- **Why client access management is the quiet scaling killer for agencies** - `kb/blog/agency-client-access-management.md`  
-  https://kinsta.com/blog/agency-client-access-management/
-- **Why dynamic endpoints are the most expensive part of bot traffic** - `kb/blog/bot-traffic-dynamic-endpoints-wordpress.md`  
-  https://kinsta.com/blog/bot-traffic-dynamic-endpoints-wordpress/
-- **Why expert hosting support still matters in the age of AI** - `kb/blog/hosting-support-vs-ai.md`  
-  https://kinsta.com/blog/hosting-support-vs-ai/
-- **Why hosting-level visibility matters more than plugin-based analytics** - `kb/blog/wordpress-analytics-plugins-hosting.md`  
-  https://kinsta.com/blog/wordpress-analytics-plugins-hosting/
-- **Why most WordPress analytics tell you what happened, not why** - `kb/blog/wordpress-analytics-limitations.md`  
-  https://kinsta.com/blog/wordpress-analytics-limitations/
-- **Why scaling agencies optimize for fewer incidents, not faster fixes** - `kb/blog/agency-incident-prevention-wordpress.md`  
-  https://kinsta.com/blog/agency-incident-prevention-wordpress/
-- **Why scaling infrastructure doesn’t fix bot traffic problems** - `kb/blog/bot-traffic-server-load-wordpress.md`  
-  https://kinsta.com/blog/bot-traffic-server-load-wordpress/
-- **Why the best AI agent is the one that knows when to ask a human** - `kb/blog/wordpress-ai-workflow-escalation.md`  
-  https://kinsta.com/blog/wordpress-ai-workflow-escalation/
-- **Why vendor trust matters more than vendor size in enterprise hosting** - `kb/blog/vendor-trust-enterprise-wordpress-hosting.md`  
-  https://kinsta.com/blog/vendor-trust-enterprise-wordpress-hosting/
-- **Why your hosting is part of your website’s credibility test** - `kb/blog/hosting-website-credibility.md`  
-  https://kinsta.com/blog/hosting-website-credibility/
-- **WordPress AI integration: A deep dive into architecture and a real-world use case** - `kb/blog/wordpress-ai.md`  
-  https://kinsta.com/blog/wordpress-ai/
-- **WordPress development with Radicle: deploying on Kinsta** - `kb/blog/wordpress-development-radicle.md`  
-  https://kinsta.com/blog/wordpress-development-radicle/
-- **WordPress performance during background activity (cron jobs, imports, backups)** - `kb/blog/wordpress-background-tasks-performance.md`  
-  https://kinsta.com/blog/wordpress-background-tasks-performance/
-- **Your WordPress site now has a third type of visitor (and it completes purchases)** - `kb/blog/agentic-commerce-wordpress.md`  
-  https://kinsta.com/blog/agentic-commerce-wordpress/
-
-## Kinsta API Reference  (`api`, 120 pages)
+## Kinsta API Reference  (`api`, 141 pages)
 
 ### activity logs
 
@@ -754,6 +479,14 @@ python3 scripts/kinsta_kb.py check --url <url>
   https://api-docs.kinsta.com/api-reference/analytics/get-visits/
 - **Get Visits usage** - `kb/api/api-reference/analytics/get-visits-usage.md`  
   https://api-docs.kinsta.com/api-reference/analytics/get-visits-usage/
+- **Get bot protection results over time** - `kb/api/api-reference/analytics/get-bot-protection-results-over-time.md`  
+  https://api-docs.kinsta.com/api-reference/analytics/get-bot-protection-results-over-time/
+- **Get bot traffic flow** - `kb/api/api-reference/analytics/get-bot-traffic-flow.md`  
+  https://api-docs.kinsta.com/api-reference/analytics/get-bot-traffic-flow/
+- **Get bot traffic requests over time** - `kb/api/api-reference/analytics/get-bot-traffic-requests-over-time.md`  
+  https://api-docs.kinsta.com/api-reference/analytics/get-bot-traffic-requests-over-time/
+- **Get bot traffic top breakdown** - `kb/api/api-reference/analytics/get-bot-traffic-top-breakdown.md`  
+  https://api-docs.kinsta.com/api-reference/analytics/get-bot-traffic-top-breakdown/
 - **Get response code breakdown** - `kb/api/api-reference/analytics/get-response-code-breakdown.md`  
   https://api-docs.kinsta.com/api-reference/analytics/get-response-code-breakdown/
 - **Get top ASNs requests** - `kb/api/api-reference/analytics/get-top-asns-requests.md`  
@@ -819,6 +552,12 @@ python3 scripts/kinsta_kb.py check --url <url>
 
 - **Company Users** - `kb/api/pages/company-users/description.md`  
   https://api-docs.kinsta.com/pages/company-users/description/
+- **Edit user capabilities for the company** - `kb/api/api-reference/company-users/edit-user-capabilities-for-the-company.md`  
+  https://api-docs.kinsta.com/api-reference/company-users/edit-user-capabilities-for-the-company/
+- **Edit users capabilities for the site** - `kb/api/api-reference/company-users/edit-users-capabilities-for-the-site.md`  
+  https://api-docs.kinsta.com/api-reference/company-users/edit-users-capabilities-for-the-site/
+- **Get a company user by ID** - `kb/api/api-reference/company-users/get-a-company-user-by-id.md`  
+  https://api-docs.kinsta.com/api-reference/company-users/get-a-company-user-by-id/
 - **Get list of company users** - `kb/api/api-reference/company-users/get-list-of-company-users.md`  
   https://api-docs.kinsta.com/api-reference/company-users/get-list-of-company-users/
 
@@ -842,6 +581,17 @@ python3 scripts/kinsta_kb.py check --url <url>
 - **Introduction** - `kb/api/pages/introduction.md`  
   https://api-docs.kinsta.com/pages/introduction/
 
+### invites
+
+- **Get list of company pending invites** - `kb/api/api-reference/invites/get-list-of-company-pending-invites.md`  
+  https://api-docs.kinsta.com/api-reference/invites/get-list-of-company-pending-invites/
+- **Invite users to sites** - `kb/api/api-reference/invites/invite-users-to-sites.md`  
+  https://api-docs.kinsta.com/api-reference/invites/invite-users-to-sites/
+- **Invite users to the company** - `kb/api/api-reference/invites/invite-users-to-the-company.md`  
+  https://api-docs.kinsta.com/api-reference/invites/invite-users-to-the-company/
+- **Invites** - `kb/api/pages/invites/description.md`  
+  https://api-docs.kinsta.com/pages/invites/description/
+
 ### logs
 
 - **Get site logs** - `kb/api/api-reference/logs/get-site-logs.md`  
@@ -855,6 +605,29 @@ python3 scripts/kinsta_kb.py check --url <url>
   https://api-docs.kinsta.com/api-reference/operations/get-the-status-information-of-an-operation/
 - **Operations** - `kb/api/pages/operations/description.md`  
   https://api-docs.kinsta.com/pages/operations/description/
+
+### wordpress bot protection
+
+- **Add a bot protection exception rule to an environment** - `kb/api/api-reference/wordpress-bot-protection/add-a-bot-protection-exception-rule-to-an-environment.md`  
+  https://api-docs.kinsta.com/api-reference/wordpress-bot-protection/add-a-bot-protection-exception-rule-to-an-environment/
+- **Allow or block WP automations for an environment** - `kb/api/api-reference/wordpress-bot-protection/allow-or-block-wp-automations-for-an-environment.md`  
+  https://api-docs.kinsta.com/api-reference/wordpress-bot-protection/allow-or-block-wp-automations-for-an-environment/
+- **Block or unblock AI crawlers for an environment** - `kb/api/api-reference/wordpress-bot-protection/block-or-unblock-ai-crawlers-for-an-environment.md`  
+  https://api-docs.kinsta.com/api-reference/wordpress-bot-protection/block-or-unblock-ai-crawlers-for-an-environment/
+- **Get the AI crawler block status of an environment** - `kb/api/api-reference/wordpress-bot-protection/get-the-ai-crawler-block-status-of-an-environment.md`  
+  https://api-docs.kinsta.com/api-reference/wordpress-bot-protection/get-the-ai-crawler-block-status-of-an-environment/
+- **Get the WP automations allow status of an environment** - `kb/api/api-reference/wordpress-bot-protection/get-the-wp-automations-allow-status-of-an-environment.md`  
+  https://api-docs.kinsta.com/api-reference/wordpress-bot-protection/get-the-wp-automations-allow-status-of-an-environment/
+- **Get the bot protection exception rules of an environment** - `kb/api/api-reference/wordpress-bot-protection/get-the-bot-protection-exception-rules-of-an-environment.md`  
+  https://api-docs.kinsta.com/api-reference/wordpress-bot-protection/get-the-bot-protection-exception-rules-of-an-environment/
+- **Get the bot protection level of an environment** - `kb/api/api-reference/wordpress-bot-protection/get-the-bot-protection-level-of-an-environment.md`  
+  https://api-docs.kinsta.com/api-reference/wordpress-bot-protection/get-the-bot-protection-level-of-an-environment/
+- **Remove a bot protection exception rule from an environment** - `kb/api/api-reference/wordpress-bot-protection/remove-a-bot-protection-exception-rule-from-an-environment.md`  
+  https://api-docs.kinsta.com/api-reference/wordpress-bot-protection/remove-a-bot-protection-exception-rule-from-an-environment/
+- **Set the bot protection level of an environment** - `kb/api/api-reference/wordpress-bot-protection/set-the-bot-protection-level-of-an-environment.md`  
+  https://api-docs.kinsta.com/api-reference/wordpress-bot-protection/set-the-bot-protection-level-of-an-environment/
+- **WordPress Bot Protection** - `kb/api/pages/wordpress-bot-protection/description.md`  
+  https://api-docs.kinsta.com/pages/wordpress-bot-protection/description/
 
 ### wordpress cdn
 
@@ -1022,7 +795,288 @@ python3 scripts/kinsta_kb.py check --url <url>
 - **WordPress Themes & Plugins** - `kb/api/pages/wordpress-themes-plugins/description.md`  
   https://api-docs.kinsta.com/pages/wordpress-themes-plugins/description/
 
-## Managed WordPress Hosting  (`wordpress-hosting`, 113 pages)
+## Blog (secondary - never outranks docs)  (`blog`, 138 pages)
+
+### General
+
+- **4 agency founders share the decisions that shaped their businesses** - `kb/blog/agency-founders-share-the-decisions-that-shaped-their-businesses.md`  
+  https://kinsta.com/blog/agency-founders-share-the-decisions-that-shaped-their-businesses/
+- **AEO for WordPress: Why infrastructure now matters as much as content** - `kb/blog/aeo-wordpress.md`  
+  https://kinsta.com/blog/aeo-wordpress/
+- **AI crawlers explained: How AI bots interact with your WordPress site** - `kb/blog/ai-crawlers-wordpress.md`  
+  https://kinsta.com/blog/ai-crawlers-wordpress/
+- **AI crawlers vs. bot protection vs. robots.txt vs. llms.txt: what actually controls AI access?** - `kb/blog/llms-txt-vs-robots-txt-wordpress.md`  
+  https://kinsta.com/blog/llms-txt-vs-robots-txt-wordpress/
+- **AI didn’t replace operations. It made good operations more valuable** - `kb/blog/ai-operations.md`  
+  https://kinsta.com/blog/ai-operations/
+- **AI doesn’t remove complexity, it changes where complexity lives** - `kb/blog/ai-complexity.md`  
+  https://kinsta.com/blog/ai-complexity/
+- **Agile delivery for agencies with Kinsta’s multi-environment setup** - `kb/blog/agile-delivery-multi-environment-setup.md`  
+  https://kinsta.com/blog/agile-delivery-multi-environment-setup/
+- **Analytics as a scaling tool: knowing when to optimize, not just how** - `kb/blog/analytics-scaling-tool-optimize-or-scale.md`  
+  https://kinsta.com/blog/analytics-scaling-tool-optimize-or-scale/
+- **Are websites dead? AI discovery, trust, and website quality** - `kb/blog/ai-discovery-trust.md`  
+  https://kinsta.com/blog/ai-discovery-trust/
+- **Automate client reporting with Kinsta API and Google AI** - `kb/blog/kinsta-api-and-google-ai.md`  
+  https://kinsta.com/blog/kinsta-api-and-google-ai/
+- **Automate your Kinsta workflows with Zapier and the Kinsta API** - `kb/blog/automate-workflows-zapier-kinsta-api.md`  
+  https://kinsta.com/blog/automate-workflows-zapier-kinsta-api/
+- **Automate your agency workflow with Kinsta API and Trello** - `kb/blog/automate-agency-workflow-with-kinsta-and-trello.md`  
+  https://kinsta.com/blog/automate-agency-workflow-with-kinsta-and-trello/
+- **Automating WordPress operations with CLI agents on Kinsta** - `kb/blog/cli-agents-wordpress.md`  
+  https://kinsta.com/blog/cli-agents-wordpress/
+- **Automating performance checks for your WP Agency with PageSpeed Insights API** - `kb/blog/wp-agency-performance-automation.md`  
+  https://kinsta.com/blog/wp-agency-performance-automation/
+- **Blade templating in WordPress: modern template development with Radicle on Kinsta** - `kb/blog/blade-templating-wordpress-radicle.md`  
+  https://kinsta.com/blog/blade-templating-wordpress-radicle/
+- **Bots are surpassing human traffic on the web. What is really going on?** - `kb/blog/ai-bot-traffic-surpassing-human-web.md`  
+  https://kinsta.com/blog/ai-bot-traffic-surpassing-human-web/
+- **Build an automated backup workflow for WordPress using Zendesk and the Kinsta API** - `kb/blog/integrate-zendesk-kinsta-api.md`  
+  https://kinsta.com/blog/integrate-zendesk-kinsta-api/
+- **Building WordPress blocks with Telex** - `kb/blog/wordpress-blocks-telex.md`  
+  https://kinsta.com/blog/wordpress-blocks-telex/
+- **Building WordPress for AI agents instead of just human visitors** - `kb/blog/wordpress-for-ai-agents.md`  
+  https://kinsta.com/blog/wordpress-for-ai-agents/
+- **Can AI modernize legacy WordPress sites without breaking them?** - `kb/blog/ai-wordpress-modernization.md`  
+  https://kinsta.com/blog/ai-wordpress-modernization/
+- **Can I still benefit from AI search without letting bots destroy my server?** - `kb/blog/ai-search-bot-traffic.md`  
+  https://kinsta.com/blog/ai-search-bot-traffic/
+- **Create your own MCP Server to control WordPress hosting with AI** - `kb/blog/mcp-server-kinsta-api.md`  
+  https://kinsta.com/blog/mcp-server-kinsta-api/
+- **Customers say we’re a great web host. G2 says we’re #1** - `kb/blog/g2-awards-best-web-host.md`  
+  https://kinsta.com/blog/g2-awards-best-web-host/
+- **Dive into the Ipsum WordPress theme, and how to extend it** - `kb/blog/ipsum-wordpress-theme.md`  
+  https://kinsta.com/blog/ipsum-wordpress-theme/
+- **Engineering reliability at scale: Why developer-led agencies trust Kinsta for mission-critical projects** - `kb/blog/developer-agencies-kinsta.md`  
+  https://kinsta.com/blog/developer-agencies-kinsta/
+- **Enterprise hosting risk isn’t downtime—it’s uncertainty** - `kb/blog/uncertainty-enterprise-risk.md`  
+  https://kinsta.com/blog/uncertainty-enterprise-risk/
+- **Every website is becoming an API consumer** - `kb/blog/every-website-is-an-api-consumer.md`  
+  https://kinsta.com/blog/every-website-is-an-api-consumer/
+- **From one-off fixes to repeatable systems: why automation matures WordPress operations** - `kb/blog/wordpress-operations.md`  
+  https://kinsta.com/blog/wordpress-operations/
+- **GEO vs AEO vs SEO: What’s the difference and how to optimize all three for WordPress** - `kb/blog/geo-vs-aeo-vs-seo-wordpress.md`  
+  https://kinsta.com/blog/geo-vs-aeo-vs-seo-wordpress/
+- **Getting started with the WordPress Abilities API: A practical guide** - `kb/blog/wordpress-abilities-api.md`  
+  https://kinsta.com/blog/wordpress-abilities-api/
+- **How DNS really works during a site migration (and how to avoid downtime)** - `kb/blog/dns-site-migration.md`  
+  https://kinsta.com/blog/dns-site-migration/
+- **How Kinsta handles PHP threads, caching, and performance at scale** - `kb/blog/kinsta-php-threads-caching-performance.md`  
+  https://kinsta.com/blog/kinsta-php-threads-caching-performance/
+- **How Kinsta helps developers run complex WordPress sites at scale** - `kb/blog/scaling-complex-wordpress-sites.md`  
+  https://kinsta.com/blog/scaling-complex-wordpress-sites/
+- **How Kinsta helps enterprise WordPress teams manage change without the risk** - `kb/blog/enterprise-wordpress-change-management.md`  
+  https://kinsta.com/blog/enterprise-wordpress-change-management/
+- **How MX records work during Kinsta migrations** - `kb/blog/mx-records-kinsta-migrations.md`  
+  https://kinsta.com/blog/mx-records-kinsta-migrations/
+- **How WordPress hosting handles partial failures (APIs, CDNs, and third-party scripts)** - `kb/blog/wordpress-performance-partial-failures.md`  
+  https://kinsta.com/blog/wordpress-performance-partial-failures/
+- **How agencies can deliver predictable results by eliminating hosting variables** - `kb/blog/how-agencies-deliver-predictable-results.md`  
+  https://kinsta.com/blog/how-agencies-deliver-predictable-results/
+- **How automation changes the economics of managing WordPress at scale** - `kb/blog/wordpress-automation-managing-sites.md`  
+  https://kinsta.com/blog/wordpress-automation-managing-sites/
+- **How better visibility reduces support tickets, blame, and downtime** - `kb/blog/mykinsta-shared-analytics-team-debugging.md`  
+  https://kinsta.com/blog/mykinsta-shared-analytics-team-debugging/
+- **How managed hosting frees up time for agencies to focus on their core business** - `kb/blog/managed-hosting-saves-agencies-time.md`  
+  https://kinsta.com/blog/managed-hosting-saves-agencies-time/
+- **How modern block themes are changing WordPress hosting** - `kb/blog/block-themes-wordpress-hosting.md`  
+  https://kinsta.com/blog/block-themes-wordpress-hosting/
+- **How to access and edit your WordPress files in MyKinsta (no FTP client required)** - `kb/blog/wordpress-file-manager-mykinsta.md`  
+  https://kinsta.com/blog/wordpress-file-manager-mykinsta/
+- **How to automate WordPress go-live from Salesforce using the Kinsta API** - `kb/blog/automate-wordpress-salesforce-kinsta-api.md`  
+  https://kinsta.com/blog/automate-wordpress-salesforce-kinsta-api/
+- **How to automate sprint environment provisioning with Jira and the Kinsta API** - `kb/blog/automate-staging-environments-kinsta-api.md`  
+  https://kinsta.com/blog/automate-staging-environments-kinsta-api/
+- **How to build PHP-only Gutenberg blocks** - `kb/blog/php-only-gutenberg-blocks.md`  
+  https://kinsta.com/blog/php-only-gutenberg-blocks/
+- **How to build a WordPress MCP integration for AI Agents on Kinsta-powered websites** - `kb/blog/wordpress-mcp.md`  
+  https://kinsta.com/blog/wordpress-mcp/
+- **How to build custom WP-CLI commands and automate WordPress maintenance with Acorn** - `kb/blog/custom-wp-cli-commands-acorn.md`  
+  https://kinsta.com/blog/custom-wp-cli-commands-acorn/
+- **How to create magic effects in WordPress with core blocks** - `kb/blog/magic-effects-wordpress-core-blocks.md`  
+  https://kinsta.com/blog/magic-effects-wordpress-core-blocks/
+- **How to distinguish traffic from bots to identify real visits, helpful bots, and harmful attacks** - `kb/blog/bot-traffic-vs-real-visits.md`  
+  https://kinsta.com/blog/bot-traffic-vs-real-visits/
+- **How to implement AI search in WordPress and stay in control** - `kb/blog/implement-ai-search-in-wordpress.md`  
+  https://kinsta.com/blog/implement-ai-search-in-wordpress/
+- **How to integrate HubSpot with Kinsta using the Kinsta API** - `kb/blog/hubspot-kinsta-api.md`  
+  https://kinsta.com/blog/hubspot-kinsta-api/
+- **How to organize multiple WordPress sites in MyKinsta: from chaos to order** - `kb/blog/organize-wordpress-sites.md`  
+  https://kinsta.com/blog/organize-wordpress-sites/
+- **How to reduce bandwidth waste without blocking legitimate users** - `kb/blog/reduce-bandwidth-waste-bot-traffic.md`  
+  https://kinsta.com/blog/reduce-bandwidth-waste-bot-traffic/
+- **How to resell hosting with Kinsta and boost your agency’s revenue** - `kb/blog/how-to-resell-kinsta-hosting.md`  
+  https://kinsta.com/blog/how-to-resell-kinsta-hosting/
+- **How to set up custom MyKinsta notifications with the Kinsta API to catch issues before they impact users** - `kb/blog/custom-notifications.md`  
+  https://kinsta.com/blog/custom-notifications/
+- **Inside Kinsta’s emergency PHP2Shell patch rollout** - `kb/blog/php2shell-patch-rollout.md`  
+  https://kinsta.com/blog/php2shell-patch-rollout/
+- **Kinsta Awarded #1 Web Hosting Provider in G2’s 2026 Best Software Awards** - `kb/blog/kinsta-awarded-number-one-web-hosting-provider-in-g2s-2026-best-software-awards.md`  
+  https://kinsta.com/blog/kinsta-awarded-number-one-web-hosting-provider-in-g2s-2026-best-software-awards/
+- **Kinsta Bot Protection vs. Cloudflare: What’s the difference, and which should you use?** - `kb/blog/kinsta-bot-protection-vs-cloudflare.md`  
+  https://kinsta.com/blog/kinsta-bot-protection-vs-cloudflare/
+- **Kinsta SAML SSO is here: Scale your agency faster and more securely** - `kb/blog/kinsta-saml-sso.md`  
+  https://kinsta.com/blog/kinsta-saml-sso/
+- **Kinsta hosting for devs: infrastructure you don’t have to babysit** - `kb/blog/developer-first-hosting-solution.md`  
+  https://kinsta.com/blog/developer-first-hosting-solution/
+- **Kinsta launches Bot Protection for WordPress sites, included free on all plans** - `kb/blog/kinsta-launches-bot-protection-for-wordpress-sites-included-free-on-all-plans.md`  
+  https://kinsta.com/blog/kinsta-launches-bot-protection-for-wordpress-sites-included-free-on-all-plans/
+- **Kinsta logs record year as top choice for serious WordPress businesses, with 60% customer growth, new executive hires and a platform buildout** - `kb/blog/kinsta-logs-record-year.md`  
+  https://kinsta.com/blog/kinsta-logs-record-year/
+- **Kinsta partners with Fort Lewis College to bring enterprise-grade hosting to Art & Design students** - `kb/blog/kinsta-partners-with-fort-lewis-college.md`  
+  https://kinsta.com/blog/kinsta-partners-with-fort-lewis-college/
+- **Kinsta year in review: the best of 2025** - `kb/blog/2025-year-in-review.md`  
+  https://kinsta.com/blog/2025-year-in-review/
+- **Manage hundreds of sites with Kinsta’s WP Admin auto-login** - `kb/blog/kinsta-wp-admin-auto-login.md`  
+  https://kinsta.com/blog/kinsta-wp-admin-auto-login/
+- **Managing DNS centrally for multiple client sites with Cloudflare** - `kb/blog/centralized-dns-cloudflare-agencies.md`  
+  https://kinsta.com/blog/centralized-dns-cloudflare-agencies/
+- **Meet Kinsta at Digital Summit Dallas** - `kb/blog/digital-summit-dallas.md`  
+  https://kinsta.com/blog/digital-summit-dallas/
+- **Meet Kinsta at Digital Summit Tampa** - `kb/blog/digital-summit-tampa.md`  
+  https://kinsta.com/blog/digital-summit-tampa/
+- **Meet Kinsta at The MarTech Summit Asia 2026** - `kb/blog/the-martech-summit-asia.md`  
+  https://kinsta.com/blog/the-martech-summit-asia/
+- **Meet Kinsta at WordCamp Asia 2026** - `kb/blog/wordcamp-asia.md`  
+  https://kinsta.com/blog/wordcamp-asia/
+- **Meet Kinsta at WordCamp Europe 2026 in Kraków, Poland** - `kb/blog/wordcamp-europe.md`  
+  https://kinsta.com/blog/wordcamp-europe/
+- **Meet Kinsta at brightonSEO 2026** - `kb/blog/brightonseo.md`  
+  https://kinsta.com/blog/brightonseo/
+- **Meet Kinsta in Australia this September** - `kb/blog/meet-kinsta-in-australia.md`  
+  https://kinsta.com/blog/meet-kinsta-in-australia/
+- **Meet Kinsta in Melbourne and Sydney** - `kb/blog/meet-kinsta-in-melbourne-and-sydney.md`  
+  https://kinsta.com/blog/meet-kinsta-in-melbourne-and-sydney/
+- **Meet Kinsta in Singapore this October** - `kb/blog/meet-kinsta-in-singapore.md`  
+  https://kinsta.com/blog/meet-kinsta-in-singapore/
+- **Migrating to Kinsta: debunking the myths that hold agencies back** - `kb/blog/wordpress-migration-myths.md`  
+  https://kinsta.com/blog/wordpress-migration-myths/
+- **Monitor WordPress AI workloads with Kinsta APM and MyKinsta server logs** - `kb/blog/monitor-wordpress-ai-workloads.md`  
+  https://kinsta.com/blog/monitor-wordpress-ai-workloads/
+- **New features, new blocks, new APIs: here is what’s new in WordPress 6.9** - `kb/blog/wordpress-6-9.md`  
+  https://kinsta.com/blog/wordpress-6-9/
+- **PHP 8.5 benchmarks: The state of PHP performance across major CMSs and frameworks** - `kb/blog/php-benchmarks.md`  
+  https://kinsta.com/blog/php-benchmarks/
+- **PHP 8.5: Here’s what’s new in the latest release** - `kb/blog/php-8-5.md`  
+  https://kinsta.com/blog/php-8-5/
+- **PHP2Shell: How Kinsta protected WordPress sites** - `kb/blog/php2shell-kinsta-wordpress.md`  
+  https://kinsta.com/blog/php2shell-kinsta-wordpress/
+- **Performance consistency: Why “fast on average” hosting fails real users** - `kb/blog/performance-consistency-wordpress-hosting.md`  
+  https://kinsta.com/blog/performance-consistency-wordpress-hosting/
+- **Reliability under human error: when editors, developers, or plugins break things** - `kb/blog/reliability-under-human-error.md`  
+  https://kinsta.com/blog/reliability-under-human-error/
+- **Remote WordPress development on Kinsta with SSH** - `kb/blog/remote-wordpress-development-kinsta-ssh.md`  
+  https://kinsta.com/blog/remote-wordpress-development-kinsta-ssh/
+- **Running Laravel-style migrations in WordPress with Radicle and Kinsta** - `kb/blog/radicle-wordpress-database-migrations.md`  
+  https://kinsta.com/blog/radicle-wordpress-database-migrations/
+- **SLAs and guarantees: What should your agency expect from your hosting partner?** - `kb/blog/slas-guarantees-wordpress-hosting.md`  
+  https://kinsta.com/blog/slas-guarantees-wordpress-hosting/
+- **Scaling smarter, not harder: balancing growth with operational excellence** - `kb/blog/scaling-smarter-not-harder.md`  
+  https://kinsta.com/blog/scaling-smarter-not-harder/
+- **Scaling typeface gracefully with fluid typography** - `kb/blog/fluid-typography.md`  
+  https://kinsta.com/blog/fluid-typography/
+- **Strategies to position your agency as a premium service provider** - `kb/blog/position-your-agency-as-premium.md`  
+  https://kinsta.com/blog/position-your-agency-as-premium/
+- **The 40Q agency on how Kinsta’s infrastructure backs modern WordPress development** - `kb/blog/40q-on-modern-wordpress-development.md`  
+  https://kinsta.com/blog/40q-on-modern-wordpress-development/
+- **The 7 biggest mistakes site owners make after discovering AI bot traffic** - `kb/blog/managing-ai-bot-traffic.md`  
+  https://kinsta.com/blog/managing-ai-bot-traffic/
+- **The WordPress Block Bindings API: What it is and how to use it to build dynamic websites** - `kb/blog/wordpress-block-bindings-api.md`  
+  https://kinsta.com/blog/wordpress-block-bindings-api/
+- **The WordPress database tables that matter most to maintenance agencies** - `kb/blog/wordpress-database-tables-maintenance.md`  
+  https://kinsta.com/blog/wordpress-database-tables-maintenance/
+- **The cloud became too complex. Sevalla is building the off-ramp for production teams** - `kb/blog/the-cloud-became-too-complex-sevalla-is-building-the-off-ramp-for-production-teams.md`  
+  https://kinsta.com/blog/the-cloud-became-too-complex-sevalla-is-building-the-off-ramp-for-production-teams/
+- **The complete guide to managing a WordPress multisite network** - `kb/blog/the-complete-guide-to-managing-a-wordpress-multisite-network.md`  
+  https://kinsta.com/blog/the-complete-guide-to-managing-a-wordpress-multisite-network/
+- **The end of fragile growth: Building scalable, profitable WordPress agencies** - `kb/blog/scalable-wordpress-agencies.md`  
+  https://kinsta.com/blog/scalable-wordpress-agencies/
+- **The hidden cost of bot traffic on WordPress: what bandwidth reports don’t show** - `kb/blog/bot-traffic-hosting-cost-wordpress.md`  
+  https://kinsta.com/blog/bot-traffic-hosting-cost-wordpress/
+- **The hidden costs of website downtime and what you can do about it** - `kb/blog/website-downtime-hidden-costs.md`  
+  https://kinsta.com/blog/website-downtime-hidden-costs/
+- **The more your WordPress site does with AI, the more your infrastructure has to handle** - `kb/blog/wordpress-ai-infrastructure.md`  
+  https://kinsta.com/blog/wordpress-ai-infrastructure/
+- **Unlocking developer productivity: How Kinsta frees agencies from infrastructure headaches** - `kb/blog/developer-productivity.md`  
+  https://kinsta.com/blog/developer-productivity/
+- **Using headless WordPress to build a website with Lovable** - `kb/blog/build-wordpress-website-lovable.md`  
+  https://kinsta.com/blog/build-wordpress-website-lovable/
+- **Vibe coding real WordPress workflows using the Kinsta API** - `kb/blog/vibe-coding-wordpress.md`  
+  https://kinsta.com/blog/vibe-coding-wordpress/
+- **Websites aren’t dead: Consumers still rely on them over AI, new Kinsta report finds** - `kb/blog/websites-arent-dead.md`  
+  https://kinsta.com/blog/websites-arent-dead/
+- **What happens to WordPress performance during traffic decay (not spikes)** - `kb/blog/wordpress-traffic-decay.md`  
+  https://kinsta.com/blog/wordpress-traffic-decay/
+- **What happens when AI agents become your new website operators?** - `kb/blog/ai-wordpress-operators.md`  
+  https://kinsta.com/blog/ai-wordpress-operators/
+- **What happens when one site gets hacked on shared hosting?** - `kb/blog/shared-hosting-security-risks.md`  
+  https://kinsta.com/blog/shared-hosting-security-risks/
+- **What is white-label hosting? (And what Kinsta offers agencies and resellers)** - `kb/blog/white-label-hosting.md`  
+  https://kinsta.com/blog/white-label-hosting/
+- **What to do when bots hit your WordPress site: An action plan** - `kb/blog/when-bots-hit-your-site.md`  
+  https://kinsta.com/blog/when-bots-hit-your-site/
+- **What “enterprise-ready” means for WordPress (and how some hosts misuse the term)** - `kb/blog/what-enterprise-ready-means.md`  
+  https://kinsta.com/blog/what-enterprise-ready-means/
+- **What’s new in WordPress 7.0: AI integration, new blocks, and much more** - `kb/blog/wordpress-7-0.md`  
+  https://kinsta.com/blog/wordpress-7-0/
+- **What’s new in WordPress 7.1: Client-side media processing, design tools, Abilities API, and much more** - `kb/blog/wordpress-7-1.md`  
+  https://kinsta.com/blog/wordpress-7-1/
+- **Where consumers go to trust a brand: how AI decides whether to cite you** - `kb/blog/ai-brand-discovery-trust.md`  
+  https://kinsta.com/blog/ai-brand-discovery-trust/
+- **Why AI agents need guardrails instead of unlimited access** - `kb/blog/ai-agent-guardrails.md`  
+  https://kinsta.com/blog/ai-agent-guardrails/
+- **Why AI crawlers are breaking the rules of web-crawling** - `kb/blog/ai-crawler-rules-web-crawling.md`  
+  https://kinsta.com/blog/ai-crawler-rules-web-crawling/
+- **Why AI makes infrastructure decisions more important** - `kb/blog/ai-wordpress-infrastructure.md`  
+  https://kinsta.com/blog/ai-wordpress-infrastructure/
+- **Why Kinsta uses container-based hosting (and why it matters)** - `kb/blog/why-kinsta-uses-container-based-hosting.md`  
+  https://kinsta.com/blog/why-kinsta-uses-container-based-hosting/
+- **Why WooCommerce sites are especially vulnerable to bot traffic** - `kb/blog/woocommerce-bot-traffic.md`  
+  https://kinsta.com/blog/woocommerce-bot-traffic/
+- **Why WordPress expertise still matters in AI-assisted development** - `kb/blog/ai-wordpress-developers.md`  
+  https://kinsta.com/blog/ai-wordpress-developers/
+- **Why WordPress needs APIs before it needs more AI** - `kb/blog/wordpress-needs-apis.md`  
+  https://kinsta.com/blog/wordpress-needs-apis/
+- **Why agency growth breaks workflows long before it breaks infrastructure** - `kb/blog/wordpress-agency-workflow-scaling.md`  
+  https://kinsta.com/blog/wordpress-agency-workflow-scaling/
+- **Why bandwidth spikes during campaigns are often bot-driven** - `kb/blog/campaign-spikes-bot-traffic.md`  
+  https://kinsta.com/blog/campaign-spikes-bot-traffic/
+- **Why bot traffic is now an infrastructure problem (not just an SEO problem)** - `kb/blog/ai-bot-traffic-wordpress-infrastructure-problem.md`  
+  https://kinsta.com/blog/ai-bot-traffic-wordpress-infrastructure-problem/
+- **Why client access management is the quiet scaling killer for agencies** - `kb/blog/agency-client-access-management.md`  
+  https://kinsta.com/blog/agency-client-access-management/
+- **Why dynamic endpoints are the most expensive part of bot traffic** - `kb/blog/bot-traffic-dynamic-endpoints-wordpress.md`  
+  https://kinsta.com/blog/bot-traffic-dynamic-endpoints-wordpress/
+- **Why expert hosting support still matters in the age of AI** - `kb/blog/hosting-support-vs-ai.md`  
+  https://kinsta.com/blog/hosting-support-vs-ai/
+- **Why faster content creation demands better governance** - `kb/blog/content-creation-governance.md`  
+  https://kinsta.com/blog/content-creation-governance/
+- **Why hosting-level visibility matters more than plugin-based analytics** - `kb/blog/wordpress-analytics-plugins-hosting.md`  
+  https://kinsta.com/blog/wordpress-analytics-plugins-hosting/
+- **Why most WordPress analytics tell you what happened, not why** - `kb/blog/wordpress-analytics-limitations.md`  
+  https://kinsta.com/blog/wordpress-analytics-limitations/
+- **Why scaling agencies optimize for fewer incidents, not faster fixes** - `kb/blog/agency-incident-prevention-wordpress.md`  
+  https://kinsta.com/blog/agency-incident-prevention-wordpress/
+- **Why scaling infrastructure doesn’t fix bot traffic problems** - `kb/blog/bot-traffic-server-load-wordpress.md`  
+  https://kinsta.com/blog/bot-traffic-server-load-wordpress/
+- **Why the best AI agent is the one that knows when to ask a human** - `kb/blog/wordpress-ai-workflow-escalation.md`  
+  https://kinsta.com/blog/wordpress-ai-workflow-escalation/
+- **Why vendor trust matters more than vendor size in enterprise hosting** - `kb/blog/vendor-trust-enterprise-wordpress-hosting.md`  
+  https://kinsta.com/blog/vendor-trust-enterprise-wordpress-hosting/
+- **Why your hosting is part of your website’s credibility test** - `kb/blog/hosting-website-credibility.md`  
+  https://kinsta.com/blog/hosting-website-credibility/
+- **WordPress AI integration: A deep dive into architecture and a real-world use case** - `kb/blog/wordpress-ai.md`  
+  https://kinsta.com/blog/wordpress-ai/
+- **WordPress development with Radicle: deploying on Kinsta** - `kb/blog/wordpress-development-radicle.md`  
+  https://kinsta.com/blog/wordpress-development-radicle/
+- **WordPress performance during background activity (cron jobs, imports, backups)** - `kb/blog/wordpress-background-tasks-performance.md`  
+  https://kinsta.com/blog/wordpress-background-tasks-performance/
+- **Your WordPress site now has a third type of visitor (and it completes purchases)** - `kb/blog/agentic-commerce-wordpress.md`  
+  https://kinsta.com/blog/agentic-commerce-wordpress/
+- **Your website is now your brand and your product, 2026 survey shows** - `kb/blog/your-website-is-now-your-brand-and-your-product.md`  
+  https://kinsta.com/blog/your-website-is-now-your-brand-and-your-product/
+
+## Managed WordPress Hosting  (`wordpress-hosting`, 124 pages)
 
 ### General
 
@@ -1144,6 +1198,27 @@ python3 scripts/kinsta_kb.py check --url <url>
 
 - **Staging Environments** - `kb/docs/wordpress-hosting/staging-environment.md`  
   https://kinsta.com/docs/wordpress-hosting/staging-environment/
+
+### using kinsta
+
+- **After Go-Live: First Steps** - `kb/docs/wordpress-hosting/using-kinsta/kinsta-first-steps.md`  
+  https://kinsta.com/docs/wordpress-hosting/using-kinsta/kinsta-first-steps/
+- **Developer Workflows** - `kb/docs/wordpress-hosting/using-kinsta/kinsta-developer-workflows.md`  
+  https://kinsta.com/docs/wordpress-hosting/using-kinsta/kinsta-developer-workflows/
+- **Make Changes Safely** - `kb/docs/wordpress-hosting/using-kinsta/kinsta-make-changes-safely.md`  
+  https://kinsta.com/docs/wordpress-hosting/using-kinsta/kinsta-make-changes-safely/
+- **Protect Your Site** - `kb/docs/wordpress-hosting/using-kinsta/kinsta-protect-your-site.md`  
+  https://kinsta.com/docs/wordpress-hosting/using-kinsta/kinsta-protect-your-site/
+- **Speed Up Your Site** - `kb/docs/wordpress-hosting/using-kinsta/kinsta-speed-up-your-site.md`  
+  https://kinsta.com/docs/wordpress-hosting/using-kinsta/kinsta-speed-up-your-site/
+- **Understand Your Traffic and Usage** - `kb/docs/wordpress-hosting/using-kinsta/kinsta-understand-your-traffic-and-usage.md`  
+  https://kinsta.com/docs/wordpress-hosting/using-kinsta/kinsta-understand-your-traffic-and-usage/
+- **Using Kinsta** - `kb/docs/wordpress-hosting/using-kinsta.md`  
+  https://kinsta.com/docs/wordpress-hosting/using-kinsta/
+- **Work as a Team** - `kb/docs/wordpress-hosting/using-kinsta/kinsta-work-as-a-team.md`  
+  https://kinsta.com/docs/wordpress-hosting/using-kinsta/kinsta-work-as-a-team/
+- **Your Maintenance Routine** - `kb/docs/wordpress-hosting/using-kinsta/kinsta-your-maintenance-routine.md`  
+  https://kinsta.com/docs/wordpress-hosting/using-kinsta/kinsta-your-maintenance-routine/
 
 ### wordpress add ons
 
@@ -1298,6 +1373,8 @@ python3 scripts/kinsta_kb.py check --url <url>
 
 ### wordpress troubleshooting
 
+- **Client Errors** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/wordpress-client-errors.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/wordpress-client-errors/
 - **Cloudflare Errors** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/cloudflare-errors.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/cloudflare-errors/
 - **Connection Errors** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/wordpress-connection-errors.md`  
@@ -1306,6 +1383,8 @@ python3 scripts/kinsta_kb.py check --url <url>
   https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/fix-error-establishing-a-database-connection-in-wordpress/
 - **Debugging** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/wordpress-debugging.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/wordpress-debugging/
+- **Redirect Errors** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/wordpress-redirect-errors.md`  
+  https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/wordpress-redirect-errors/
 - **SSH and SFTP Connection Errors** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/cant-connect-delete-ssh-known-hosts.md`  
   https://kinsta.com/docs/wordpress-hosting/wordpress-troubleshooting/cant-connect-delete-ssh-known-hosts/
 - **Server Errors** - `kb/docs/wordpress-hosting/wordpress-troubleshooting/server-errors.md`  
@@ -1641,11 +1720,22 @@ python3 scripts/kinsta_kb.py check --url <url>
 - **Kinsta API** - `kb/docs/kinsta-api.md`  
   https://kinsta.com/docs/kinsta-api/
 
-## Removed from Kinsta's docs (3)
+## Removed from Kinsta's docs (14)
 
 Kept as a record of what was once published. Do not cite as current behavior.
 
+- Kinsta’s Black Friday campaign is a win for affiliates - removed 2026-11-11T13:05:23Z - https://kinsta.com/blog/black-friday-affiliates/
 - How much revenue could downtime cost you on Black Friday? - removed 2026-10-10T09:17:19Z - https://kinsta.com/blog/black-friday-website-downtime/
+- How to protect your WordPress site from unwanted bot traffic with Cloudflare - removed 2026-11-11T13:05:23Z - https://kinsta.com/blog/block-bots-wordpress-cloudflare/
+- 3 ways to handle traffic surges without downgrading or upgrading plans - removed 2026-11-11T13:05:23Z - https://kinsta.com/blog/how-to-handle-traffic-surges/
+- Maximize your return on Ad spend with faster hosting for WordPress - removed 2026-11-11T13:05:23Z - https://kinsta.com/blog/improve-ad-roi-wordpress-site-speed/
+- Kinsta Launches Bandwidth-Based Pricing to Give Website Owners and Developers More Hosting Control - removed 2026-11-11T13:05:23Z - https://kinsta.com/blog/kinsta-launches-bandwidth-based-pricing/
+- Plan upgrades vs. add-on scaling: Making the right choice this holiday season - removed 2026-11-11T13:05:23Z - https://kinsta.com/blog/plan-upgrades-vs-add-on-scaling/
+- From firefighting to future-proofing: How Kinsta reduces maintenance workload and client churn - removed 2026-11-11T13:05:23Z - https://kinsta.com/blog/reduce-maintenance-workload-client-churn/
+- How to scale your site for Black Friday with Kinsta’s PHP performance add-on - removed 2026-11-11T13:05:23Z - https://kinsta.com/blog/scaling-your-site-for-black-friday/
+- Meet Kinsta at Web Summit Lisbon 2025 - removed 2026-11-11T13:05:23Z - https://kinsta.com/blog/web-summit-lisbon/
+- How Kinsta can help your website maintenance agency grow - removed 2026-11-11T13:05:23Z - https://kinsta.com/blog/website-maintenance-agency/
 - Performance benchmarking WordPress on Kinsta vs DIY hosting - removed 2026-10-12T09:17:21Z - https://kinsta.com/blog/wordpress-benchmarking-diy-hosting/
+- Unlocking new possibilities with the WordPress Interactivity API - removed 2026-11-11T13:05:23Z - https://kinsta.com/blog/wordpress-interactivity-api/
 - Changelog - removed 2026-10-07T22:59:19Z - https://kinsta.com/changelog/
 

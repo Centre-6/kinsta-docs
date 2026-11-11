@@ -7,10 +7,10 @@ product_label: "Kinsta API Reference"
 subsection: "wordpress-site-environments"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:49.592Z"
-fetched_at: "2026-10-07T22:58:50Z"
-sha256: "6d6f26d1282c7faf4816b90490e1f8bfed4397d2a9e8f633f7722672536e89c9"
-body_chars: 8965
+change_signal: "2026-11-10T17:49:59.279Z"
+fetched_at: "2026-11-11T13:04:15Z"
+sha256: "98f21b14b6a1cc5e61c720e5dd1823b8684e872a5ff639d702a048885a8cf955"
+body_chars: 9149
 extracted_with: "main"
 status: "live"
 ---
@@ -189,7 +189,8 @@ puts response.read_body
 {
   "message": "Cloning environment in progress",
   "status": 202,
-  "operation_id": "environment:clone-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "environment:clone-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -397,7 +398,8 @@ puts response.read_body
 {
   "message": "Cloning environment in progress",
   "status": 202,
-  "operation_id": "environment:clone-54fb80af-576c-4fdc-ba4f-b596c83f15a1"
+  "operation_id": "environment:clone-54fb80af-576c-4fdc-ba4f-b596c83f15a1",
+  "support_reference_id": 123456
 }
 ```
 
@@ -464,6 +466,8 @@ display_name
 string
 
 required
+
+Maximum string length: `12`
 
 Example:
 
@@ -534,3 +538,13 @@ string
 Example:
 
 `"environment:clone-54fb80af-576c-4fdc-ba4f-b596c83f15a1"`
+
+[​](#response-support-reference-id)
+
+support_reference_id
+
+number
+
+Example:
+
+`123456`

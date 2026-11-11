@@ -7,10 +7,10 @@ product_label: "Kinsta API Reference"
 subsection: "company-users"
 section: []
 kinsta_last_updated:
-change_signal: "2026-09-18T09:42:55.479Z"
-fetched_at: "2026-10-07T22:59:13Z"
-sha256: "8a983f8bebd6fe6cf3a1d34975c51e0002d44dd35acf1161f6af8fd07db948ba"
-body_chars: 561
+change_signal: "2026-11-10T09:49:48.563Z"
+fetched_at: "2026-11-11T13:05:08Z"
+sha256: "82b0a9c37a2e55179e750346d6bfa81f70d45ebf87eb893361a272e02c8244c2"
+body_chars: 721
 extracted_with: "main"
 status: "live"
 ---
@@ -22,6 +22,11 @@ status: "live"
 
 ---
 
-With the `users` endpoint, you can get a list of your [company’s users](https://kinsta.com/docs/company-settings/user-management/), this includes their id, email address, full name, and a link to their profile picture.
+The `users` endpoint lets you manage your [company’s users](https://kinsta.com/docs/company-settings/user-management/). You can:
+
+- `GET` a list of all users in your company, including each user’s ID, email address, full name, and profile picture URL.
+- `GET` a specific user by their user ID.
+- `POST` a request to change a user’s access to your company or to specific sites.
+
 You can obtain the `company_id` from [MyKinsta](https://my.kinsta.com/) > **username** > **Company settings** > **Billing details**.
-The `company_id` is also shown in the URL in MyKinsta, for example in the URL `https://my.kinsta.com/?idCompany=bdd25d71-5706-4890-870f-1adda17c505d` the `company_id` is `bdd25d71-5706-4890-870f-1adda17c505d`.
+The `company_id` is also shown in the URL in MyKinsta, for example, in the URL `https://my.kinsta.com/?idCompany=bdd25d71-5706-4890-870f-1adda17c505d` the `company_id` is `bdd25d71-5706-4890-870f-1adda17c505d`.

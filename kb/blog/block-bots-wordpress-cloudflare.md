@@ -12,8 +12,11 @@ fetched_at: "2026-10-07T22:58:28Z"
 sha256: "4a96c334089879a63af5fd0b97003d92773c0d6b4e7467dc0393da85adf207a2"
 body_chars: 9832
 extracted_with: "wp-rest:content.rendered"
-status: "live"
+status: "removed"
+removed_at: "2026-11-11T13:05:23Z"
 ---
+
+> **REMOVED FROM KINSTA'S DOCS** as of 2026-11-11T13:05:23Z (absent from sitemap). Kept as a record of what was published. Do not cite as current.
 
 # How to protect your WordPress site from unwanted bot traffic with Cloudflare
 
