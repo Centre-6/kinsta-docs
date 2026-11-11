@@ -1,0 +1,7 @@
+{
+  "name": "kinsta-docs",
+  "description": "A current, local mirror of Kinsta's documentation, API reference and changelog, with a revalidate-before-you-answer step.",
+  "author": { "name": "Centre 6" },
+  "homepage": "https://github.com/Centre-6/kinsta-docs",
+  "repository": "https://github.com/Centre-6/kinsta-docs"
+}

@@ -6,7 +6,8 @@ Subcommands
 -----------
   sync      Sitemap-driven incremental ingest. Cheap when nothing changed.
   check     Revalidate specific URLs before you cite them. The honest freshness gate.
-  search    Full-text search across the mirror (ripgrep), scoped by tier/product.
+  search    Full-text search across the mirror, scoped by tier/product. Uses
+            ripgrep when it is installed, and a pure-Python scan when it is not.
   show      Print a page by URL or local path.
   status    Per-tier counts, mirror age, last successful sync.
   tree      The section taxonomy with page counts.
@@ -57,9 +58,12 @@ try:
 except ImportError as exc:  # pragma: no cover
     sys.exit(
         f"Missing dependency: {exc.name}. "
-        "This script needs requests, beautifulsoup4 and markdownify.\n"
-        "They are present on FloydTower already; if you are elsewhere, install "
-        "them into a venv rather than globally."
+        "This script needs requests, beautifulsoup4 and markdownify. PyYAML is\n"
+        "optional and only used to parse Kinsta's OpenAPI spec when it is served\n"
+        "as YAML rather than JSON.\n"
+        "Install them with:\n"
+        "    python3 -m pip install requests beautifulsoup4 markdownify PyYAML\n"
+        "A virtualenv is the safer target if your Python is managed by the OS."
     )
 
 # --------------------------------------------------------------------------- #
@@ -80,8 +84,8 @@ BASE = "https://kinsta.com"
 ROBOTS = f"{BASE}/robots.txt"
 
 USER_AGENT = (
-    "Centre6-KinstaDocsMirror/1.0 (+documentation mirror for internal reference; "
-    "polite, sitemap-driven, one request per changed page)"
+    "kinsta-docs-skill/1.0 (+https://github.com/Centre-6/kinsta-docs; "
+    "documentation mirror, sitemap-driven, one request per changed page)"
 )
 
 # --- Scope, and the one thing to understand before changing it -------------- #
@@ -1226,7 +1230,7 @@ def _fetch_openapi(fetcher: Fetcher, mf: Manifest) -> None:
             print(f"  {url} -> HTTP {status}")
             continue
         try:
-            import yaml  # stdlib-adjacent; present on this box
+            import yaml  # optional; the json.loads fallback below covers its absence
             spec = yaml.safe_load(body)
         except Exception as exc:
             try:
@@ -1526,33 +1530,31 @@ def _resolve_to_url(raw: str, mf: Manifest) -> str | None:
 
 
 
-# ripgrep is the fast path, but it is NOT reliably on PATH here: in Claude Code
-# `rg` is a shell function wrapping a bundled binary, so `shutil.which("rg")`
-# finds nothing even though `rg` works fine when you type it. Look in the places
-# it actually lives, then fall back to scanning in Python. A search engine that
-# vanishes depending on how the shell was invoked is not a dependency a skill
-# can rest on.
-RG_CANDIDATES = [
-    "/home/tim/.local/bin/rg",
-    "/usr/local/bin/rg",
-    "/usr/bin/rg",
-    str(Path.home() / ".cargo" / "bin" / "rg"),
-]
+# ripgrep is the fast path, but it is genuinely optional. It is also not always
+# on PATH even when `rg` works at your shell prompt: some environments expose it
+# as a shell function wrapping a bundled binary, which `shutil.which` cannot
+# see. So: resolve it at runtime, allow an explicit override, and otherwise fall
+# back to scanning in Python. A search engine that vanishes depending on how the
+# shell was invoked is not a dependency a skill can rest on.
+#
+# Set KINSTA_KB_RG to an explicit ripgrep path if yours is installed somewhere
+# PATH does not reach.
 
 
 def find_rg() -> str | None:
-    found = shutil.which("rg")
-    if found:
-        return found
-    for cand in RG_CANDIDATES:
-        if os.path.isfile(cand) and os.access(cand, os.X_OK):
-            return cand
-    return None
+    override = os.environ.get("KINSTA_KB_RG", "").strip()
+    if override:
+        if os.path.isfile(override) and os.access(override, os.X_OK):
+            return override
+        return shutil.which(override)
+    return shutil.which("rg")
 
 
 def _python_grep(query: str, roots: list[Path], context: int | None) -> dict[str, list[str]]:
-    """Fallback scanner. Case-insensitive substring unless the query looks like
-    a regex, matching ripgrep's --smart-case closely enough for this corpus."""
+    """Fallback scanner, used when ripgrep is not installed. Case-insensitive
+    substring unless the query looks like a regex, matching ripgrep's
+    --smart-case closely enough for this corpus. `context` is accepted for
+    signature parity and ignored: matched lines only, no surrounding lines."""
     try:
         pattern = re.compile(query, 0 if any(c.isupper() for c in query) else re.I)
     except re.error:
@@ -1918,7 +1920,9 @@ def main(argv: Sequence[str] | None = None) -> int:
     g.add_argument("--tier", help="comma-separated tiers to search")
     g.add_argument("--product", help="scope to one product slug, e.g. wordpress-hosting")
     g.add_argument("--limit", type=int, default=10)
-    g.add_argument("--context", type=int, help="lines of context around each hit")
+    g.add_argument("--context", type=int,
+                   help="lines of context around each hit (requires ripgrep; "
+                        "ignored by the pure-Python fallback)")
     g.set_defaults(func=cmd_search)
 
     sh = sub.add_parser("show", help="print a mirrored page")

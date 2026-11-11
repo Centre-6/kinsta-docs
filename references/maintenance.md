@@ -1,48 +1,49 @@
 # Maintaining the Kinsta docs mirror
 
-Read this when the cron stops firing, when `sync` starts failing, or when Kinsta
-changes their site structure.
+Read this when the scheduled sync stops firing, when `sync` starts failing, or
+when Kinsta changes their site structure.
 
 ## Contents
 
-- [Where the mirror physically lives](#where-the-mirror-physically-lives)
-- [The daily sync cron](#the-daily-sync-cron)
-- [Boot persistence](#boot-persistence)
-- [The git repo and its remote](#the-git-repo-and-its-remote)
+- [Where the mirror lives](#where-the-mirror-lives)
+- [The daily sync](#the-daily-sync)
+- [Making the schedule survive a reboot](#making-the-schedule-survive-a-reboot)
+- [The git repo](#the-git-repo)
 - [When Kinsta changes their site](#when-kinsta-changes-their-site)
 - [When the fetcher starts getting blocked](#when-the-fetcher-starts-getting-blocked)
 - [When the mirror gets too big](#when-the-mirror-gets-too-big)
 
-## Where the mirror physically lives
+## Where the mirror lives
 
-The skill lives at `~/.claude/skills/kinsta-docs/`. On FloydTower `~/.claude` is
-a symlink to `/mnt/user/appdata/home-persist/.claude/`, so despite living under
-`/home/tim` the mirror is on the 66 TB array, not on the root RAM disk. This
-matters: anything genuinely under `/home/tim` is wiped on reboot. Verify the
-symlink is intact before concluding the mirror was lost:
+The mirror is `kb/` inside the skill directory. Everything the scripts read and
+write is resolved relative to that directory at runtime — there are no absolute
+paths baked into the code — so the skill works wherever you cloned it:
+`~/.claude/skills/kinsta-docs/` for a user-wide install, `.claude/skills/kinsta-docs/`
+inside a single project, or a plugin directory if you installed it as a plugin.
+
+Two consequences worth knowing:
+
+- **Run the scripts by their real path, not by a guess.** `python3 scripts/kinsta_kb.py status`
+  from the skill directory always works. The cron installer derives the path from
+  its own location for the same reason.
+- **If your home directory or skill directory is on ephemeral storage** — a RAM
+  disk, a container layer, a scratch volume — the mirror is as ephemeral as the
+  directory holding it. On-disk is not a backup. The git remote is.
+
+## The daily sync
+
+`sync` is designed to run unattended once a day. `scripts/install-cron.sh`
+installs it into your own user crontab:
 
 ```bash
-ls -ld ~/.claude          # expect: -> /mnt/user/appdata/home-persist/.claude/
+bash scripts/install-cron.sh          # install or refresh
+bash scripts/install-cron.sh --check  # report state, change nothing
+bash scripts/install-cron.sh --remove # uninstall
 ```
 
-The array has **no parity**. On-disk is not a backup. The git remote below is.
-
-## The daily sync cron
-
-Scheduled work on this box defaults to a Cloudflare Worker, and that default is
-right for most things. This job is a deliberate exception: the mirror is a
-directory of files on the array and a git repo on local disk, so the job has to
-run where the filesystem is. That is the stated reason it is local rather than a
-Worker — not an oversight.
-
-The cron runs as `tim`:
-
-```
-17 4 * * * /usr/bin/python3 /home/tim/.claude/skills/kinsta-docs/scripts/kinsta_kb.py sync >> /home/tim/.claude/skills/kinsta-docs/kb/cron.log 2>&1
-```
-
-04:17 local, off the hour on purpose so it does not pile up with every other
-job that fires at :00.
+The installed line runs at 04:17 local time, off the hour on purpose so it does
+not pile up with every other job that fires at :00. The installer writes the
+absolute path of *your* checkout and *your* `python3`, resolved when you run it.
 
 `sync` is idempotent and safe to run concurrently with a manual sync — it takes a
 lock file at `kb/.sync.lock` and the second caller exits rather than interleaving
@@ -50,7 +51,7 @@ writes into `manifest.json`. If a crashed run leaves a stale lock, `sync` clears
 locks older than 2 hours on its own; `--force-unlock` is there for the case where
 you know the holder is dead and do not want to wait.
 
-A quiet filesystem is not proof the cron ran. Check it explicitly:
+A quiet filesystem is not proof the sync ran. Check it explicitly:
 
 ```bash
 python3 scripts/kinsta_kb.py status        # prints last successful sync per tier
@@ -58,34 +59,53 @@ tail -40 kb/cron.log
 crontab -l | grep kinsta
 ```
 
-If `status` shows a last-sync date well in the past, the cron is broken and the
-pre-answer `check` is carrying the whole freshness story alone. That still works,
-but it only validates pages you happen to look at — new pages and deletions go
-unnoticed. Fix the cron rather than relying on the per-answer check indefinitely.
+If `status` shows a last-sync date well in the past, the schedule is broken and
+the pre-answer `check` is carrying the whole freshness story alone. That still
+works, but it only validates pages you happen to look at — new pages and
+deletions go unnoticed. Fix the schedule rather than relying on the per-answer
+check indefinitely.
 
-## Boot persistence
+**No cron available?** `launchd` on macOS, a systemd timer on Linux, or any
+scheduler that can run one command will do. The command is the only thing that
+matters:
 
-Crontabs on this box live on the root RAM disk and **do not survive a reboot**
-unless they are reinstalled by the boot chain (`/boot/config/go` →
-`restore-persistence.sh` → per-project installers). `scripts/install-cron.sh`
-exists for this: it is idempotent, installs the line above into the `tim`
-crontab, and is safe to call from the boot chain.
-
-Wire it when you add the cron, not later. A cron that works today and silently
-disappears on the next reboot is worse than no cron, because `status` will keep
-reporting a once-fresh mirror that is drifting.
-
-```bash
-bash scripts/install-cron.sh          # idempotent; run after any reboot
-grep -n kinsta /boot/config/*.sh      # confirm the boot chain calls it
+```
+<your python3> <skill dir>/scripts/kinsta_kb.py sync >> <skill dir>/kb/cron.log 2>&1
 ```
 
-## The git repo and its remote
+Run `bash scripts/install-cron.sh --check` to see the exact line for your
+install, then adapt it. Note that macOS `cron` and `launchd` jobs may need Full
+Disk Access granted to the launching process before they can write into your home
+directory.
+
+## Making the schedule survive a reboot
+
+On most machines a user crontab is stored on persistent disk and survives a
+reboot on its own, and there is nothing further to do. Check it once rather than
+assuming:
+
+```bash
+bash scripts/install-cron.sh          # install
+# reboot, then:
+crontab -l | grep kinsta              # still there?
+python3 scripts/kinsta_kb.py status   # still syncing?
+```
+
+Some systems do not keep it: a crontab held on a RAM disk or a tmpfs, a container
+that is rebuilt from an image, or an immutable/appliance OS that restores system
+state at boot. If you are on one of those, `install-cron.sh` is idempotent and
+safe to call from whatever startup mechanism that platform gives you, which is
+exactly what it is written for.
+
+Wire that in when you add the schedule, not later. A sync that works today and
+silently disappears on the next reboot is worse than no sync at all, because
+`status` keeps reporting a once-fresh mirror while it drifts.
+
+## The git repo
 
 The **whole skill** is one git repo — `SKILL.md`, `scripts/`, `references/` and
-`kb/` together — with a private remote at `Centre-6/kinsta-docs`. One repo rather
-than a nested one, so a single `git log` shows both how the tooling evolved and
-what Kinsta changed, in the order it happened.
+`kb/` together. One repo rather than a nested one, so a single `git log` shows
+both how the tooling evolved and what Kinsta changed, in the order it happened.
 
 `sync` commits automatically. Mirror commits are prefixed `kb:` and name what
 moved (`kb: 3 changed, 1 added, 1 removed`), so they are easy to filter out when
@@ -96,36 +116,23 @@ git log --oneline --invert-grep --grep='^kb:'   # tooling changes only
 git log --oneline -- kb/docs                    # Kinsta's doc changes only
 ```
 
-Push it. The array has no parity, so on-disk is not a backup and the whole value
-of the history is that it survives. Per the standing rule, **private**:
+Push it somewhere. The whole value of the history is that it survives, and a
+local checkout is not a backup:
 
 ```bash
-cd ~/.claude/skills/kinsta-docs
-git init && git add -A && git commit -m "feat: kinsta docs mirror skill"
-gh repo create Centre-6/kinsta-docs --private --source=. --push
+git remote add origin <your remote>
+git push -u origin main
 ```
-
-Commit identity: Centre 6 internal tooling, so set the local override rather than
-inheriting the personal global default:
-
-```bash
-git config --local user.name "Tim Phelps"
-git config --local user.email "tim@centre6.com"
-```
-
-Credentials come from the git credential helper, which is already wired
-globally. Do not put a token in the remote URL — the remote stays clean at
-`https://github.com/Centre-6/kinsta-docs.git`.
 
 Because the repo root is the live skill directory, a `git checkout` of an older
 commit changes the skill Claude is running. That is occasionally what you want
 (bisecting a bad sync) but do it deliberately, and come back to the branch tip.
 
 The mirror contains only Kinsta's own published documentation — no credentials,
-no client data, nothing from MyKinsta behind a login. Keep it that way. If you
-ever want to annotate a page with "this is how we configured it for <client>",
-that annotation belongs on the client's board or in the client's project, not in
-a shared mirror of a vendor's public docs.
+no account data, nothing from MyKinsta behind a login. Keep it that way. Notes
+about how a particular site is configured belong with that site's own project,
+not in a shared mirror of a vendor's public docs. The same goes for API keys:
+the skill neither stores one nor looks for one.
 
 ## When Kinsta changes their site
 
@@ -164,9 +171,9 @@ public and their robots.txt is the agreement; keep to it. The honest fixes:
 - Slow down. The fetcher sleeps between requests by default; raise it with
   `--delay`. A sync that takes an hour and succeeds beats a fast one that gets
   the IP throttled.
-- Check whether robots.txt changed. If Kinsta disallowed the paths we mirror,
-  that settles it — stop syncing those paths and tell Tim, rather than working
-  around it.
+- Check whether robots.txt changed. If Kinsta disallowed the paths this mirror
+  covers, that settles it — stop syncing those paths rather than working around
+  the block.
 - Prefer the sitemap + conditional-GET path, which is what `sync` already does.
   It is a small fraction of the requests a full recrawl would make.
 
@@ -187,8 +194,8 @@ Four tiers, measured October 7, 2026:
 
 **Sevalla is out of scope by decision.** Kinsta spun Application Hosting,
 Database Hosting and Static Site Hosting into a separate company; those
-`/docs/` paths now 301 to `docs.sevalla.com`. Two reasons not to add it without
-asking Tim: it is a different vendor, and `docs.sevalla.com/robots.txt` declares
+`/docs/` paths now 301 to `docs.sevalla.com`. Two reasons not to add it: it is a
+different vendor, and `docs.sevalla.com/robots.txt` declares
 `Content-Signal: ai-input=no`. Kinsta's and api-docs.kinsta.com's both declare
 `ai-input=yes`, which is the basis for mirroring them.
 
@@ -206,15 +213,15 @@ along with the labels.
 ## When the mirror gets too big
 
 Current footprint is small — roughly 8 MB of markdown across all four tiers,
-which is nothing on the array and fast for ripgrep. The blog is the only tier
-with real growth potential, and it is already bounded by the 12-month publish
-window rather than growing without limit.
+which is fast for ripgrep and unremarkable on any disk. The blog is the only
+tier with real growth potential, and it is already bounded by the 12-month
+publish window rather than growing without limit.
 
 If it does become a problem, in order of preference:
 
 1. Tighten the window: `sync --blog-months 6`.
-2. `sync --tier docs,api,changelog` on the cron, blog on demand. Docs freshness
-   is what answers actually depend on.
+2. `sync --tier docs,api,changelog` on the schedule, blog on demand. Docs
+   freshness is what answers actually depend on.
 3. If full-text search ever gets slow (it should not below a few hundred MB),
    add a SQLite FTS index *alongside* the markdown rather than replacing it. The
    markdown files are the artifact; an index is a cache and must stay

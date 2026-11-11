@@ -1,6 +1,6 @@
 ---
 name: kinsta-docs
-description: Authoritative local mirror of Kinsta's documentation (kinsta.com/docs), the Kinsta API reference and OpenAPI spec, the Kinsta changelog, and Kinsta blog articles — with a revalidate-before-you-answer step so answers reflect what Kinsta publishes right now, not a stale cache. Use this skill whenever Kinsta comes up in any form: MyKinsta, Kinsta hosting, Application Hosting, Static Site Hosting, Database Hosting, DevKinsta, the Kinsta API, Kinsta cache or CDN or edge caching, Kinsta staging environments, Kinsta backups, Kinsta redirects, Kinsta SSH/SFTP/WP-CLI, PHP or nginx settings on Kinsta, Kinsta DNS, Kinsta plans and limits, or migrating a site to or from Kinsta. Use it even when the user does not say the word "docs" — if the question is about how something works on Kinsta, or you are about to write code, config, a CLI command, or a client-facing explanation that depends on Kinsta behavior, consult this skill first rather than answering from memory. Kinsta ships changes frequently and model recall of their docs goes stale silently.
+description: "Local mirror of Kinsta's published documentation (kinsta.com/docs), the Kinsta API reference and OpenAPI spec, the Kinsta changelog, and Kinsta blog articles, with a revalidate-before-you-answer step so answers reflect what Kinsta publishes right now rather than a stale cache. Use this skill whenever Kinsta comes up in any form: MyKinsta, Kinsta hosting, Application Hosting, Static Site Hosting, Database Hosting, DevKinsta, the Kinsta API, Kinsta cache, CDN and edge caching, staging environments, backups, redirects, SSH, SFTP, WP-CLI, PHP or nginx settings, DNS, plans and limits, or migrating a site to or from Kinsta. Use it even when the user never says the word docs. If the question is about how something works on Kinsta, or you are about to write code, config, a CLI command, or an explanation someone will act on that depends on Kinsta behavior, consult this skill rather than answering from memory. Kinsta ships changes frequently and model recall of their docs goes stale silently."
 ---
 
 # Kinsta Docs
@@ -38,10 +38,10 @@ scraped breadcrumbs and is often empty — Kinsta does not render them
 consistently. `subsection` comes from the URL path and is always there, which is
 why grouping and scoping use it.)
 
-The whole skill is one git repo (private, `Centre-6/kinsta-docs`), and `kb/` is
-tracked inside it. That is deliberate: `git log -p kb/docs/...` shows you the
-exact wording Kinsta changed and when we noticed. When a client asks "did this
-always work this way?", the diff is the answer.
+The whole skill is one git repo and `kb/` is tracked inside it. That is
+deliberate: `git log -p kb/docs/...` shows you the exact wording Kinsta changed
+and when this mirror noticed. When someone asks "did this always work this
+way?", the diff is the answer.
 
 ## First: establish what the user actually has
 
@@ -58,9 +58,9 @@ into a separate company, Sevalla.** `kinsta.com/docs/application-hosting/` now
 
 What that means for you:
 
-- **This mirror covers Kinsta only, by decision.** Sevalla is not in it and is
-  not to be added without asking Tim. Their docs declare
-  `Content-Signal: ai-input=no`; Kinsta's declare `ai-input=yes`.
+- **This mirror covers Kinsta only, by decision.** Sevalla is out of scope and
+  is not mirrored here. Their docs declare `Content-Signal: ai-input=no`;
+  Kinsta's declare `ai-input=yes`, which is the basis for mirroring Kinsta.
 - If someone asks about app hosting, managed Postgres, or static site hosting on
   Kinsta, **there is no answer in here**. Say that it is outside what Kinsta's
   own docs now cover. Do not reach into the WordPress tree for something
@@ -118,11 +118,9 @@ answer:
    running things locally, Docker Desktop, or `*.local`.
 3. **Ask the Kinsta API** if a key is available — the only method that is
    evidence rather than inference, because it reports what the account actually
-   contains:
-   ```bash
-   ls ~/.claude/secrets/ | grep -i kinsta
-   ```
-   With a key, `GET /sites` and `GET /sites/{id}/environments` answer it
+   contains. Use whatever Kinsta API key the user already has, from wherever
+   they keep it — this skill does not store a key and does not go looking for
+   one. With a key, `GET /sites` and `GET /sites/{id}/environments` answer it
    definitively (see `kb/api/openapi.json`). With no key, say so rather than
    guessing — "I can't see the account, is this the live or staging
    environment?" is a one-line question that prevents a whole wrong answer.
@@ -144,7 +142,7 @@ doesn't support X."
 ## The one rule: revalidate the pages you are about to rely on
 
 Before you state anything as current Kinsta behavior — in an answer, a config
-file, a script, a client email, a Trello comment — revalidate the specific pages
+file, a script, an email, a ticket comment — revalidate the specific pages
 backing that claim:
 
 ```bash
@@ -201,8 +199,9 @@ Work outside-in, cheapest first:
    ```bash
    python3 <skill>/scripts/kinsta_kb.py search "edge cache purge" --limit 10
    ```
-   This is ripgrep underneath with the manifest metadata joined on, so hits come
-   back with product, subsection, title and URL rather than a bare path. Add
+   This uses ripgrep when it is installed and a pure-Python scan when it is not,
+   with the manifest metadata joined on either way, so hits come back with
+   product, subsection, title and URL rather than a bare path. Add
    `--tier docs` to exclude blog noise, or `--product wordpress-hosting` to scope
    it. When results straddle products and the query is one of the ambiguous words
    above, `search` says so rather than letting you pick the first hit.
@@ -301,9 +300,11 @@ It also handles the cases a naive crawler gets wrong:
   `kb:` prefix, so the history of Kinsta's documentation as we observed it is
   reconstructable with `git log -p kb/docs/...`.
 
-A daily cron runs `sync`. `status` tells you when it last succeeded — if that
-number is old, the cron is broken and the pre-answer `check` is doing all the
-work. Say so rather than assuming the mirror is current.
+A scheduled daily `sync` is the intended setup (`scripts/install-cron.sh`
+installs one; see `references/maintenance.md`). `status` tells you when the last
+sync succeeded — if that number is old, either nothing is scheduled or the
+schedule is broken, and the pre-answer `check` is doing all the work. Say so
+rather than assuming the mirror is current.
 
 ## Before you trust this skill the first time in a session
 
@@ -326,6 +327,6 @@ outcome this skill should never produce.
   page converts badly.
 - `references/taxonomy.md` — the live section map with page counts per section,
   regenerated by `sync`. Useful for "what does Kinsta document about X at all?"
-- `references/maintenance.md` — the cron wiring, boot persistence, the git
-  remote, and what to do when Kinsta changes their site structure or starts
-  challenging the fetcher.
+- `references/maintenance.md` — scheduling a sync, the git repo and why `kb/`
+  is tracked in it, and what to do when Kinsta changes their site structure or
+  starts challenging the fetcher.

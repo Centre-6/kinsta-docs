@@ -1,0 +1,7 @@
+{
+  "name": "centre6-plugins",
+  "owner": { "name": "Centre 6" },
+  "plugins": [
+    { "name": "kinsta-docs", "source": "./" }
+  ]
+}
