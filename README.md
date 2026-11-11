@@ -43,6 +43,20 @@ claude plugin install kinsta-docs@centre6-plugins
 
 As a plain skill, clone the repository to `~/.claude/skills/kinsta-docs` for all your projects, or to `.claude/skills/kinsta-docs` inside one repository. The directory name has to stay `kinsta-docs`, because it must match the `name` in `SKILL.md`.
 
+```
+git clone https://github.com/Centre-6/kinsta-docs.git ~/.claude/skills/kinsta-docs
+```
+
+Installing as a plugin does not auto-update by default. To pick up a newer mirror, run `claude plugin update kinsta-docs`, or `git pull` if you cloned it.
+
+### Checking it worked
+
+Ask Claude a Kinsta question that it could not answer well from memory, and watch for it to cite a mirrored page rather than answer in general terms. For example: *"On Kinsta, what is the difference between edge caching and the page cache, and how do I clear just one of them?"*
+
+A good answer names the specific mechanisms and says when the mirror was last synced. If Claude answers in generalities and cites nothing, the skill did not trigger.
+
+On claude.ai, the usual cause is that code execution is still off. Check Settings > Capabilities. On Claude Code, confirm the skill is present with `claude plugin list`, or check that `SKILL.md` is at `~/.claude/skills/kinsta-docs/SKILL.md` and not one directory deeper.
+
 ## Dependencies
 
 The mirror itself is plain markdown and needs nothing. The sync and search scripts need three Python packages:
